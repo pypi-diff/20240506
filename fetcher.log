@@ -676,3 +676,51 @@
 [2024-05-06 01:06:56] INFO root fetch - processPackages [semantic-text-splitter]: Remove: archive file [/home/abi/fetcher/tmp/semantic_text_splitter-0.9.1.tar.gz]
 [2024-05-06 01:06:56] INFO root fetch - main [MainThread]: End processing [semantic-text-splitter]: success
 [2024-05-06 01:06:56] INFO root fetch - main [MainThread]: Store serial: [23069720]
+[2024-05-06 01:08:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069720]
+[2024-05-06 01:09:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 01:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langroid
+[2024-05-06 01:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2024-05-06 01:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazylinop
+[2024-05-06 01:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oakvar
+[2024-05-06 01:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdm-conda
+[2024-05-06 01:09:05] INFO root fetch - processPackages [lazylinop]: New version: [1.9.0a0] Old Version: [1.9.0]
+[2024-05-06 01:09:05] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.3b1] Old Version: [0.9.3b0]
+[2024-05-06 01:09:05] INFO root fetch - processPackages [oakvar]: New version: [2.9.99] Old Version: [2.9.98]
+[2024-05-06 01:09:05] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/a6/85/7c8c98a190ae8b22f07af1aa79320ecae3c399ea84963ddbba12ff004593/lazylinop-1.9.0-py3-none-any.whl
+[2024-05-06 01:09:05] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/5d/1b/dc1cb149f079d3d41db755870a003994c36588d5a196747c0b7e42194938/pdm_conda-0.9.3b0.tar.gz
+[2024-05-06 01:09:05] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/a3/ce/6968cab51f4cb7b955287af8ac7062bbc3d7ecfca4110e778aca096983b8/oakvar-2.9.98.tar.gz
+[2024-05-06 01:09:05] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-06 01:09:05] INFO root fetch - processPackages [phidata]: New version: [2.4.0] Old Version: [2.3.90]
+[2024-05-06 01:09:05] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-05-06 01:09:05] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/30/85/00c52007446a5f392301e7f30b58d0d1c48a775f923b57e5bb9f0a4733a0/lazylinop-1.9.0a0-py3-none-any.whl
+[2024-05-06 01:09:05] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/57/89/3585732b22edfa6b826c434bcead229aa83e70c91e0774498bf0bb128afd/phidata-2.3.90.tar.gz
+[2024-05-06 01:09:05] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/23/ae/9ae2762f3341650d36462bc006fcb4de1bea93e1cf224fb94dc45f376d38/pdm_conda-0.9.3b1.tar.gz
+[2024-05-06 01:09:05] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2024-05-06 01:09:05] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.9.0-py3-none-any.whl.zip tmp/lazylinop-1.9.0a0-py3-none-any.whl.zip --markdown 20240506/l/lazylinop/1.9.0-1.9.0a0/README.md --exclude *.pyd
+[2024-05-06 01:09:05] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2024-05-06 01:09:05] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.3b0.tar.gz tmp/pdm_conda-0.9.3b1.tar.gz --markdown 20240506/p/pdm-conda/0.9.3b0-0.9.3b1/README.md --exclude *.pyd
+[2024-05-06 01:09:05] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/cf/2a/de8e0ae3bf287725294b151b3a458f4350c6be98fc7b2c5896e98a2a82a5/oakvar-2.9.99.tar.gz
+[2024-05-06 01:09:05] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-05-06 01:09:05] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/17/43/f241a266254e832b8c2c0a0d8ae80ba372421bbb68f763f41d2d549a157a/phidata-2.4.0.tar.gz
+[2024-05-06 01:09:05] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-05-06 01:09:05] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240506/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-06 01:09:05] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-05-06 01:09:05] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.3.90.tar.gz tmp/phidata-2.4.0.tar.gz --markdown 20240506/p/phidata/2.3.90-2.4.0/README.md --exclude *.pyd
+[2024-05-06 01:09:06] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-05-06 01:09:06] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.98.tar.gz tmp/oakvar-2.9.99.tar.gz --markdown 20240506/o/oakvar/2.9.98-2.9.99/README.md --exclude *.pyd
+[2024-05-06 01:09:06] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b0.tar.gz]
+[2024-05-06 01:09:06] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b1.tar.gz]
+[2024-05-06 01:09:06] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2024-05-06 01:09:06] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.9.0-py3-none-any.whl.zip]
+[2024-05-06 01:09:06] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.9.0a0-py3-none-any.whl.zip]
+[2024-05-06 01:09:06] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2024-05-06 01:09:06] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-05-06 01:09:06] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-05-06 01:09:06] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-05-06 01:09:07] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.90.tar.gz]
+[2024-05-06 01:09:07] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.0.tar.gz]
+[2024-05-06 01:09:07] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-05-06 01:09:08] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.98.tar.gz]
+[2024-05-06 01:09:08] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
+[2024-05-06 01:09:08] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-05-06 01:09:08] INFO root fetch - main [MainThread]: Store serial: [23069736]
