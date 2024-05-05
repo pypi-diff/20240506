@@ -223,3 +223,27 @@
 [2024-05-06 00:10:51] INFO root fetch - processPackages [robotcode-jsonrpc2]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_jsonrpc2-0.82.0.tar.gz]
 [2024-05-06 00:10:51] INFO root fetch - main [MainThread]: End processing [robotcode-jsonrpc2]: success
 [2024-05-06 00:10:51] INFO root fetch - main [MainThread]: Store serial: [23069458]
+[2024-05-06 00:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069458]
+[2024-05-06 00:12:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 00:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coomer-favlink-generator
+[2024-05-06 00:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazurite
+[2024-05-06 00:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfa-sampler
+[2024-05-06 00:12:59] WARNING root fetch - processPackages [dfa-sampler]: Skipping, unable to determine old version
+[2024-05-06 00:12:59] INFO root fetch - main [MainThread]: End processing [dfa-sampler] error
+[2024-05-06 00:12:59] INFO root fetch - processPackages [lazurite]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 00:12:59] INFO root fetch - processPackages [coomer-favlink-generator]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 00:13:00] INFO root fetch - processPackages [lazurite]: Downloading https://files.pythonhosted.org/packages/de/cc/70e1a5a90e433db39ad1089d06d45d7641652ec801a71ab253c536cffd89/lazurite-0.1.1.tar.gz
+[2024-05-06 00:13:00] INFO root fetch - processPackages [coomer-favlink-generator]: Downloading https://files.pythonhosted.org/packages/53/c6/17018d720d1f9449e321b233c7962d9a91220caf2eb343ad77aa8ceaa825/coomer_favlink_generator-1.0.0.tar.gz
+[2024-05-06 00:13:00] INFO root fetch - processPackages [coomer-favlink-generator]: Downloading https://files.pythonhosted.org/packages/f0/b2/2729f14000528562b1fe739f71c797ef8762ea6c4cfdd322c3b11f806b51/coomer_favlink_generator-1.0.1.tar.gz
+[2024-05-06 00:13:00] INFO root fetch - processPackages [lazurite]: Downloading https://files.pythonhosted.org/packages/6f/9c/e8b8ea33805817ac10e38a79e4d813451e135c4c00913b74ab4a2e257ef5/lazurite-0.1.2.tar.gz
+[2024-05-06 00:13:00] INFO root fetch - processPackages [coomer-favlink-generator]: executing diffoscope
+[2024-05-06 00:13:00] INFO root fetch - processPackages [coomer-favlink-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coomer_favlink_generator-1.0.0.tar.gz tmp/coomer_favlink_generator-1.0.1.tar.gz --markdown 20240506/c/coomer-favlink-generator/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 00:13:00] INFO root fetch - processPackages [lazurite]: executing diffoscope
+[2024-05-06 00:13:00] INFO root fetch - processPackages [lazurite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazurite-0.1.1.tar.gz tmp/lazurite-0.1.2.tar.gz --markdown 20240506/l/lazurite/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 00:13:01] INFO root fetch - processPackages [coomer-favlink-generator]: Remove: archive file [/home/abi/fetcher/tmp/coomer_favlink_generator-1.0.0.tar.gz]
+[2024-05-06 00:13:01] INFO root fetch - processPackages [coomer-favlink-generator]: Remove: archive file [/home/abi/fetcher/tmp/coomer_favlink_generator-1.0.1.tar.gz]
+[2024-05-06 00:13:01] INFO root fetch - main [MainThread]: End processing [coomer-favlink-generator]: success
+[2024-05-06 00:13:01] INFO root fetch - processPackages [lazurite]: Remove: archive file [/home/abi/fetcher/tmp/lazurite-0.1.1.tar.gz]
+[2024-05-06 00:13:01] INFO root fetch - processPackages [lazurite]: Remove: archive file [/home/abi/fetcher/tmp/lazurite-0.1.2.tar.gz]
+[2024-05-06 00:13:01] INFO root fetch - main [MainThread]: End processing [lazurite]: success
+[2024-05-06 00:13:01] INFO root fetch - main [MainThread]: Store serial: [23069468]
