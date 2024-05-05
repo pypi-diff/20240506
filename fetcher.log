@@ -271,3 +271,30 @@
 [2024-05-06 00:15:12] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240505001.tar.gz]
 [2024-05-06 00:15:12] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
 [2024-05-06 00:15:12] INFO root fetch - main [MainThread]: Store serial: [23069480]
+[2024-05-06 00:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069480]
+[2024-05-06 00:17:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 00:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molsystem
+[2024-05-06 00:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lytix-py
+[2024-05-06 00:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MongoDbConnect-v1.0.0
+[2024-05-06 00:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyEDAA.Reports
+[2024-05-06 00:17:20] INFO root fetch - processPackages [pyEDAA.Reports]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-06 00:17:20] INFO root fetch - processPackages [molsystem]: New version: [2024.5.5] Old Version: [2024.4.5]
+[2024-05-06 00:17:20] INFO root fetch - processPackages [pyEDAA.Reports]: Downloading https://files.pythonhosted.org/packages/c7/e6/70f7cf7cdb955706158408a3bd8cf3d8b1867fa0196e79eae1582c893c8a/pyedaa_reports-0.6.0.tar.gz
+[2024-05-06 00:17:20] WARNING root fetch - processPackages [lytix-py]: Skipping, unable to determine old version
+[2024-05-06 00:17:20] INFO root fetch - main [MainThread]: End processing [lytix-py] error
+[2024-05-06 00:17:20] INFO root fetch - processPackages [molsystem]: Downloading https://files.pythonhosted.org/packages/ea/77/202f4f7520214300f1c2891bc2663a0e4d01f0dd4e2a13e93092666b427b/molsystem-2024.4.5.tar.gz
+[2024-05-06 00:17:20] WARNING root fetch - processPackages [MongoDbConnect-v1.0.0]: Skipping, unable to determine old version
+[2024-05-06 00:17:20] INFO root fetch - main [MainThread]: End processing [MongoDbConnect-v1.0.0] error
+[2024-05-06 00:17:21] INFO root fetch - processPackages [pyEDAA.Reports]: Downloading https://files.pythonhosted.org/packages/3e/f2/a98cb6a4c6c575d4269f7b79059eba1a3e2b08c805f59cd90b84b6c9cf88/pyedaa_reports-0.7.0.tar.gz
+[2024-05-06 00:17:21] INFO root fetch - processPackages [molsystem]: Downloading https://files.pythonhosted.org/packages/79/40/ba6368ef7921f0ff9c7752cb2ef456dc77f735ef30904911af0760302f74/molsystem-2024.5.5.tar.gz
+[2024-05-06 00:17:21] INFO root fetch - processPackages [pyEDAA.Reports]: executing diffoscope
+[2024-05-06 00:17:21] INFO root fetch - processPackages [pyEDAA.Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedaa_reports-0.6.0.tar.gz tmp/pyedaa_reports-0.7.0.tar.gz --markdown 20240506/p/pyEDAA.Reports/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-06 00:17:21] INFO root fetch - processPackages [molsystem]: executing diffoscope
+[2024-05-06 00:17:21] INFO root fetch - processPackages [molsystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molsystem-2024.4.5.tar.gz tmp/molsystem-2024.5.5.tar.gz --markdown 20240506/m/molsystem/2024.4.5-2024.5.5/README.md --exclude *.pyd
+[2024-05-06 00:17:21] INFO root fetch - processPackages [pyEDAA.Reports]: Remove: archive file [/home/abi/fetcher/tmp/pyedaa_reports-0.6.0.tar.gz]
+[2024-05-06 00:17:21] INFO root fetch - processPackages [pyEDAA.Reports]: Remove: archive file [/home/abi/fetcher/tmp/pyedaa_reports-0.7.0.tar.gz]
+[2024-05-06 00:17:21] INFO root fetch - main [MainThread]: End processing [pyEDAA.Reports]: success
+[2024-05-06 00:17:22] INFO root fetch - processPackages [molsystem]: Remove: archive file [/home/abi/fetcher/tmp/molsystem-2024.4.5.tar.gz]
+[2024-05-06 00:17:22] INFO root fetch - processPackages [molsystem]: Remove: archive file [/home/abi/fetcher/tmp/molsystem-2024.5.5.tar.gz]
+[2024-05-06 00:17:22] INFO root fetch - main [MainThread]: End processing [molsystem]: success
+[2024-05-06 00:17:22] INFO root fetch - main [MainThread]: Store serial: [23069496]
