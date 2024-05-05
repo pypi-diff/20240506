@@ -367,3 +367,24 @@
 [2024-05-06 00:25:59] INFO root fetch - processPackages [dfa-sampler]: Remove: archive file [/home/abi/fetcher/tmp/dfa_sampler-0.1.1.tar.gz]
 [2024-05-06 00:25:59] INFO root fetch - main [MainThread]: End processing [dfa-sampler]: success
 [2024-05-06 00:25:59] INFO root fetch - main [MainThread]: Store serial: [23069529]
+[2024-05-06 00:28:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069529]
+[2024-05-06 00:28:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 00:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unit-simple
+[2024-05-06 00:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-config
+[2024-05-06 00:28:08] INFO root fetch - processPackages [unit-simple]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-06 00:28:08] INFO root fetch - processPackages [unit-simple]: Downloading https://files.pythonhosted.org/packages/df/7b/632d2fa9e73ea864000ebb6629e1db037dfe07bb193cdb0490ca79050c66/unit_simple-1.0.8.tar.gz
+[2024-05-06 00:28:08] INFO root fetch - processPackages [mojo-config]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-06 00:28:08] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/a4/cc/2ca4b4e6a03640f1f240e3e4a12356d8ad8fe7320294cac819d54a345cdb/mojo_config-1.3.8.tar.gz
+[2024-05-06 00:28:08] INFO root fetch - processPackages [unit-simple]: Downloading https://files.pythonhosted.org/packages/cd/fb/ca23f2ca62f65ed36ab8969c1c1d39a8a9ad8acabcce65f446271c37ceba/unit_simple-1.0.9.tar.gz
+[2024-05-06 00:28:08] INFO root fetch - processPackages [unit-simple]: executing diffoscope
+[2024-05-06 00:28:08] INFO root fetch - processPackages [unit-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit_simple-1.0.8.tar.gz tmp/unit_simple-1.0.9.tar.gz --markdown 20240506/u/unit-simple/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-06 00:28:09] INFO root fetch - processPackages [mojo-config]: Downloading https://files.pythonhosted.org/packages/2d/77/59ae99bdaf8ff23d580a64c62212f3a16bb49ad2cd8d08d9dbab4c159829/mojo_config-1.3.9.tar.gz
+[2024-05-06 00:28:09] INFO root fetch - processPackages [mojo-config]: executing diffoscope
+[2024-05-06 00:28:09] INFO root fetch - processPackages [mojo-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_config-1.3.8.tar.gz tmp/mojo_config-1.3.9.tar.gz --markdown 20240506/m/mojo-config/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-06 00:28:09] INFO root fetch - processPackages [unit-simple]: Remove: archive file [/home/abi/fetcher/tmp/unit_simple-1.0.8.tar.gz]
+[2024-05-06 00:28:09] INFO root fetch - processPackages [unit-simple]: Remove: archive file [/home/abi/fetcher/tmp/unit_simple-1.0.9.tar.gz]
+[2024-05-06 00:28:09] INFO root fetch - main [MainThread]: End processing [unit-simple]: success
+[2024-05-06 00:28:09] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.8.tar.gz]
+[2024-05-06 00:28:09] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.9.tar.gz]
+[2024-05-06 00:28:09] INFO root fetch - main [MainThread]: End processing [mojo-config]: success
+[2024-05-06 00:28:09] INFO root fetch - main [MainThread]: Store serial: [23069535]
