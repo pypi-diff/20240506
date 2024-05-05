@@ -61,3 +61,33 @@
 [2024-05-06 00:05:56] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.6.3.tar.gz]
 [2024-05-06 00:05:56] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
 [2024-05-06 00:05:56] INFO root fetch - main [MainThread]: Store serial: [23069403]
+[2024-05-06 00:08:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069403]
+[2024-05-06 00:08:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 00:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lego-handlers
+[2024-05-06 00:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2024-05-06 00:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: picodi
+[2024-05-06 00:08:05] INFO root fetch - processPackages [picodi]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-06 00:08:05] INFO root fetch - processPackages [lego-handlers]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-06 00:08:05] INFO root fetch - processPackages [policyengine-us]: New version: [0.758.1] Old Version: [0.758.0]
+[2024-05-06 00:08:06] INFO root fetch - processPackages [picodi]: Downloading https://files.pythonhosted.org/packages/8b/1e/057274b63588b98107cfa9eaa23cbf069489096eb323bf0d10183e5ef7fb/picodi-0.3.0.tar.gz
+[2024-05-06 00:08:06] INFO root fetch - processPackages [lego-handlers]: Downloading https://files.pythonhosted.org/packages/1f/5d/1f91f40ed3c93d194d2c55a8274be8d6a5b0314a1211ad19544e3eb3325e/lego_handlers-1.1.2.tar.gz
+[2024-05-06 00:08:06] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e5/ac/4bcefddfac2274f1abb45d9a83ff018eaa96ff6cbaf2bc7cb55898184691/policyengine-us-0.758.0.tar.gz
+[2024-05-06 00:08:06] INFO root fetch - processPackages [picodi]: Downloading https://files.pythonhosted.org/packages/1c/b4/238fe163f39dad2edfe36e82cd4eb854cba48d58931a4b1d44ba148762bb/picodi-0.4.0.tar.gz
+[2024-05-06 00:08:06] INFO root fetch - processPackages [lego-handlers]: Downloading https://files.pythonhosted.org/packages/c5/f2/eb5f6fb35992bbd445f9e98d752ca9e8664de6629889663c28a62384aadf/lego_handlers-1.1.3.tar.gz
+[2024-05-06 00:08:06] INFO root fetch - processPackages [picodi]: executing diffoscope
+[2024-05-06 00:08:06] INFO root fetch - processPackages [picodi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picodi-0.3.0.tar.gz tmp/picodi-0.4.0.tar.gz --markdown 20240506/p/picodi/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-06 00:08:06] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/ef/e6/743b2c7160ca0e3b2bb4cd3f614482a3246681fdb01fa1bf89af9a78047b/policyengine-us-0.758.1.tar.gz
+[2024-05-06 00:08:06] INFO root fetch - processPackages [lego-handlers]: executing diffoscope
+[2024-05-06 00:08:06] INFO root fetch - processPackages [lego-handlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lego_handlers-1.1.2.tar.gz tmp/lego_handlers-1.1.3.tar.gz --markdown 20240506/l/lego-handlers/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-06 00:08:06] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-06 00:08:06] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.758.0.tar.gz tmp/policyengine-us-0.758.1.tar.gz --markdown 20240506/p/policyengine-us/0.758.0-0.758.1/README.md --exclude *.pyd
+[2024-05-06 00:08:06] INFO root fetch - processPackages [picodi]: Remove: archive file [/home/abi/fetcher/tmp/picodi-0.3.0.tar.gz]
+[2024-05-06 00:08:06] INFO root fetch - processPackages [picodi]: Remove: archive file [/home/abi/fetcher/tmp/picodi-0.4.0.tar.gz]
+[2024-05-06 00:08:06] INFO root fetch - main [MainThread]: End processing [picodi]: success
+[2024-05-06 00:08:07] INFO root fetch - processPackages [lego-handlers]: Remove: archive file [/home/abi/fetcher/tmp/lego_handlers-1.1.2.tar.gz]
+[2024-05-06 00:08:07] INFO root fetch - processPackages [lego-handlers]: Remove: archive file [/home/abi/fetcher/tmp/lego_handlers-1.1.3.tar.gz]
+[2024-05-06 00:08:07] INFO root fetch - main [MainThread]: End processing [lego-handlers]: success
+[2024-05-06 00:08:39] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.758.0.tar.gz]
+[2024-05-06 00:08:39] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.758.1.tar.gz]
+[2024-05-06 00:08:39] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-06 00:08:39] INFO root fetch - main [MainThread]: Store serial: [23069412]
