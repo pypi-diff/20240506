@@ -487,3 +487,17 @@
 [2024-05-06 00:47:31] WARNING root fetch - processPackages [db-builders]: Skipping, unable to determine old version
 [2024-05-06 00:47:31] INFO root fetch - main [MainThread]: End processing [db-builders] error
 [2024-05-06 00:47:31] INFO root fetch - main [MainThread]: Store serial: [23069598]
+[2024-05-06 00:49:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069598]
+[2024-05-06 00:49:39] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-06 00:51:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069598]
+[2024-05-06 00:51:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 00:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepeline
+[2024-05-06 00:51:45] INFO root fetch - processPackages [pepeline]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 00:51:45] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/ab/cd/8ae3c24092da4eb0b2e004a29d5a3c0f5645221700bcc67d92564531a967/pepeline-0.2.8.tar.gz
+[2024-05-06 00:51:45] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/66/2c/70d91f510be1c17b6afddecc9555eb168e1da61db91dd65c8f7ae704073e/pepeline-0.2.9.tar.gz
+[2024-05-06 00:51:46] INFO root fetch - processPackages [pepeline]: executing diffoscope
+[2024-05-06 00:51:46] INFO root fetch - processPackages [pepeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepeline-0.2.8.tar.gz tmp/pepeline-0.2.9.tar.gz --markdown 20240506/p/pepeline/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 00:51:46] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.8.tar.gz]
+[2024-05-06 00:51:46] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.9.tar.gz]
+[2024-05-06 00:51:46] INFO root fetch - main [MainThread]: End processing [pepeline]: success
+[2024-05-06 00:51:46] INFO root fetch - main [MainThread]: Store serial: [23069622]
