@@ -778,3 +778,15 @@
 [2024-05-06 01:15:39] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
 [2024-05-06 01:15:39] INFO root fetch - main [MainThread]: End processing [pih]: success
 [2024-05-06 01:15:39] INFO root fetch - main [MainThread]: Store serial: [23069752]
+[2024-05-06 01:17:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069752]
+[2024-05-06 01:17:47] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 01:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dez
+[2024-05-06 01:17:47] INFO root fetch - processPackages [dez]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-06 01:17:48] INFO root fetch - processPackages [dez]: Downloading https://files.pythonhosted.org/packages/1e/81/48d71e93c2525619543513ac060532d30fe665f6a30041b7dd4486dbc43f/dez-0.9.4-py2.7.egg
+[2024-05-06 01:17:48] INFO root fetch - processPackages [dez]: Downloading https://files.pythonhosted.org/packages/76/85/f4c826ed86b69c7e8f3ebc368a4d9737f219fbaf86efdb7156c8a99503ce/dez-0.9.5-py2.7.egg
+[2024-05-06 01:17:48] INFO root fetch - processPackages [dez]: executing diffoscope
+[2024-05-06 01:17:48] INFO root fetch - processPackages [dez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dez-0.9.4-py2.7.egg tmp/dez-0.9.5-py2.7.egg --markdown 20240506/d/dez/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-06 01:17:49] INFO root fetch - processPackages [dez]: Remove: archive file [/home/abi/fetcher/tmp/dez-0.9.4-py2.7.egg]
+[2024-05-06 01:17:49] INFO root fetch - processPackages [dez]: Remove: archive file [/home/abi/fetcher/tmp/dez-0.9.5-py2.7.egg]
+[2024-05-06 01:17:49] INFO root fetch - main [MainThread]: End processing [dez]: success
+[2024-05-06 01:17:49] INFO root fetch - main [MainThread]: Store serial: [23069755]
