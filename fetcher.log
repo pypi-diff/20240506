@@ -967,3 +967,33 @@
 [2024-05-06 01:36:28] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.4.232706.dev0.tar.gz]
 [2024-05-06 01:36:28] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-05-06 01:36:28] INFO root fetch - main [MainThread]: Store serial: [23069857]
+[2024-05-06 01:38:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069857]
+[2024-05-06 01:38:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 01:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tabletalk
+[2024-05-06 01:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tradedangerous
+[2024-05-06 01:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genomeshader
+[2024-05-06 01:38:37] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 01:38:37] INFO root fetch - processPackages [tabletalk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 01:38:37] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-05-06 01:38:37] INFO root fetch - processPackages [tradedangerous]: New version: [11.2.0] Old Version: [11.1.6]
+[2024-05-06 01:38:37] INFO root fetch - processPackages [tabletalk]: Downloading https://files.pythonhosted.org/packages/4d/e5/0f809470fee5c5c396130abd884348f6668d9493f501d4084ca0a33141ff/tabletalk-0.0.8.tar.gz
+[2024-05-06 01:38:37] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/3a/ff/047a8ba1524ae2d4a868ba043b9d3e95ca8a58c3082dc5fa25a3a45e8069/tradedangerous-11.1.6.tar.gz
+[2024-05-06 01:38:37] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-05-06 01:38:37] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-05-06 01:38:37] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240506/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 01:38:38] INFO root fetch - processPackages [tabletalk]: Downloading https://files.pythonhosted.org/packages/05/60/011ae62b0b4c38b51ad546318c1c457959d8314fecafdf684b248ca24c53/tabletalk-0.0.9.tar.gz
+[2024-05-06 01:38:38] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/f5/c4/d720031fa0c80910f8b1a20eb3585bfc6437f74410b70823ff807db0fdf5/tradedangerous-11.2.0.tar.gz
+[2024-05-06 01:38:38] INFO root fetch - processPackages [tabletalk]: executing diffoscope
+[2024-05-06 01:38:38] INFO root fetch - processPackages [tabletalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabletalk-0.0.8.tar.gz tmp/tabletalk-0.0.9.tar.gz --markdown 20240506/t/tabletalk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 01:38:38] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-05-06 01:38:38] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-11.1.6.tar.gz tmp/tradedangerous-11.2.0.tar.gz --markdown 20240506/t/tradedangerous/11.1.6-11.2.0/README.md --exclude *.pyd
+[2024-05-06 01:38:38] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-05-06 01:38:38] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-05-06 01:38:38] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-05-06 01:38:38] INFO root fetch - processPackages [tabletalk]: Remove: archive file [/home/abi/fetcher/tmp/tabletalk-0.0.8.tar.gz]
+[2024-05-06 01:38:38] INFO root fetch - processPackages [tabletalk]: Remove: archive file [/home/abi/fetcher/tmp/tabletalk-0.0.9.tar.gz]
+[2024-05-06 01:38:38] INFO root fetch - main [MainThread]: End processing [tabletalk]: success
+[2024-05-06 01:38:39] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.1.6.tar.gz]
+[2024-05-06 01:38:39] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.2.0.tar.gz]
+[2024-05-06 01:38:39] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-05-06 01:38:39] INFO root fetch - main [MainThread]: Store serial: [23069868]
