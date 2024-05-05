@@ -1,0 +1,21 @@
+[2024-05-06 00:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069374]
+[2024-05-06 00:01:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 00:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: konfuzio-sdk
+[2024-05-06 00:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: url-remote
+[2024-05-06 00:01:34] INFO root fetch - processPackages [url-remote]: New version: [0.0.88] Old Version: [0.0.87]
+[2024-05-06 00:01:35] INFO root fetch - processPackages [url-remote]: Downloading https://files.pythonhosted.org/packages/0f/89/2d2b0b91501c0b40f30e8017c6e523d7ec92e3908be291c22aa682094a78/url_remote-0.0.87.tar.gz
+[2024-05-06 00:01:35] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.4.dev20240503144208] Old Version: [0.3.4.dev20240502164651]
+[2024-05-06 00:01:35] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/72/6e/13cc09ea8bd9a955322a443bc6546ea4d359f5146b4adb08135baa6cf5e8/konfuzio_sdk-0.3.4.dev20240502164651.tar.gz
+[2024-05-06 00:01:35] INFO root fetch - processPackages [url-remote]: Downloading https://files.pythonhosted.org/packages/0a/60/f2c79e70229e3f6ba7c035975b57e26bf128aee82dc930ef824f20147582/url_remote-0.0.88.tar.gz
+[2024-05-06 00:01:35] INFO root fetch - processPackages [url-remote]: executing diffoscope
+[2024-05-06 00:01:35] INFO root fetch - processPackages [url-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/url_remote-0.0.87.tar.gz tmp/url_remote-0.0.88.tar.gz --markdown 20240506/u/url-remote/0.0.87-0.0.88/README.md --exclude *.pyd
+[2024-05-06 00:01:35] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/71/c3/abd2d2eb2132f69361f61dea0fe3c522f7b8d6e2da95b5f0bb175ea2af95/konfuzio_sdk-0.3.4.dev20240503144208.tar.gz
+[2024-05-06 00:01:35] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-05-06 00:01:35] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.4.dev20240502164651.tar.gz tmp/konfuzio_sdk-0.3.4.dev20240503144208.tar.gz --markdown 20240506/k/konfuzio-sdk/0.3.4.dev20240502164651-0.3.4.dev20240503144208/README.md --exclude *.pyd
+[2024-05-06 00:01:36] INFO root fetch - processPackages [url-remote]: Remove: archive file [/home/abi/fetcher/tmp/url_remote-0.0.87.tar.gz]
+[2024-05-06 00:01:36] INFO root fetch - processPackages [url-remote]: Remove: archive file [/home/abi/fetcher/tmp/url_remote-0.0.88.tar.gz]
+[2024-05-06 00:01:36] INFO root fetch - main [MainThread]: End processing [url-remote]: success
+[2024-05-06 00:01:36] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.4.dev20240502164651.tar.gz]
+[2024-05-06 00:01:36] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.4.dev20240503144208.tar.gz]
+[2024-05-06 00:01:36] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-05-06 00:01:36] INFO root fetch - main [MainThread]: Store serial: [23069379]
