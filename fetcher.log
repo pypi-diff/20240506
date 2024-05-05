@@ -439,3 +439,15 @@
 [2024-05-06 00:40:59] INFO root fetch - processPackages [ngstents]: Remove: archive file [/home/abi/fetcher/tmp/ngstents-0.0.2.dev39-cp310-cp310-win_amd64.whl.zip]
 [2024-05-06 00:40:59] INFO root fetch - main [MainThread]: End processing [ngstents]: success
 [2024-05-06 00:40:59] INFO root fetch - main [MainThread]: Store serial: [23069556]
+[2024-05-06 00:43:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069556]
+[2024-05-06 00:43:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mmcore
+[2024-05-06 00:43:08] INFO root fetch - processPackages [mmcore]: New version: [0.25.9] Old Version: [0.25.6]
+[2024-05-06 00:43:08] INFO root fetch - processPackages [mmcore]: Downloading https://files.pythonhosted.org/packages/fe/e1/11f1b9a1ccaf19dee4233586c6bc2c57800e365463c6ce136863222bc10d/mmcore-0.25.6.tar.gz
+[2024-05-06 00:43:08] INFO root fetch - processPackages [mmcore]: Downloading https://files.pythonhosted.org/packages/04/cd/e39ffdab22e849e263498ea3227b40e7e52949f3c021c25343caf7091aab/mmcore-0.25.9.tar.gz
+[2024-05-06 00:43:08] INFO root fetch - processPackages [mmcore]: executing diffoscope
+[2024-05-06 00:43:08] INFO root fetch - processPackages [mmcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcore-0.25.6.tar.gz tmp/mmcore-0.25.9.tar.gz --markdown 20240506/m/mmcore/0.25.6-0.25.9/README.md --exclude *.pyd
+[2024-05-06 00:43:10] INFO root fetch - processPackages [mmcore]: Remove: archive file [/home/abi/fetcher/tmp/mmcore-0.25.6.tar.gz]
+[2024-05-06 00:43:10] INFO root fetch - processPackages [mmcore]: Remove: archive file [/home/abi/fetcher/tmp/mmcore-0.25.9.tar.gz]
+[2024-05-06 00:43:10] INFO root fetch - main [MainThread]: End processing [mmcore]: success
+[2024-05-06 00:43:10] INFO root fetch - main [MainThread]: Store serial: [23069584]
