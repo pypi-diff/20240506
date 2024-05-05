@@ -388,3 +388,19 @@
 [2024-05-06 00:28:09] INFO root fetch - processPackages [mojo-config]: Remove: archive file [/home/abi/fetcher/tmp/mojo_config-1.3.9.tar.gz]
 [2024-05-06 00:28:09] INFO root fetch - main [MainThread]: End processing [mojo-config]: success
 [2024-05-06 00:28:09] INFO root fetch - main [MainThread]: Store serial: [23069535]
+[2024-05-06 00:30:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069535]
+[2024-05-06 00:30:18] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-06 00:32:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069535]
+[2024-05-06 00:32:23] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-06 00:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069535]
+[2024-05-06 00:34:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 00:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandasai
+[2024-05-06 00:34:28] INFO root fetch - processPackages [pandasai]: New version: [2.0a9] Old Version: [2.0a8]
+[2024-05-06 00:34:29] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/45/d0/411589316f7a6ef5ebd6102b368912a4af989b793a0944b97d0d900e6161/pandasai-2.0a8.tar.gz
+[2024-05-06 00:34:29] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/a1/20/3561bdae1b48497693d449a6c68b80514d1748d9bb36a7928867f863159a/pandasai-2.0a9.tar.gz
+[2024-05-06 00:34:29] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2024-05-06 00:34:29] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-2.0a8.tar.gz tmp/pandasai-2.0a9.tar.gz --markdown 20240506/p/pandasai/2.0a8-2.0a9/README.md --exclude *.pyd
+[2024-05-06 00:34:30] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.0a8.tar.gz]
+[2024-05-06 00:34:30] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.0a9.tar.gz]
+[2024-05-06 00:34:30] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2024-05-06 00:34:30] INFO root fetch - main [MainThread]: Store serial: [23069538]
