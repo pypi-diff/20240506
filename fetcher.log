@@ -31,3 +31,33 @@
 [2024-05-06 00:03:45] INFO root fetch - processPackages [re-ircbot]: Remove: archive file [/home/abi/fetcher/tmp/re_ircbot-2.0.5.dev0.tar.gz]
 [2024-05-06 00:03:45] INFO root fetch - main [MainThread]: End processing [re-ircbot]: success
 [2024-05-06 00:03:45] INFO root fetch - main [MainThread]: Store serial: [23069383]
+[2024-05-06 00:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069383]
+[2024-05-06 00:05:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 00:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xysfhsj
+[2024-05-06 00:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zed-assistant
+[2024-05-06 00:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: svg-ultralight
+[2024-05-06 00:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Summarize-Repo
+[2024-05-06 00:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyscemu
+[2024-05-06 00:05:55] WARNING root fetch - processPackages [zed-assistant]: Skipping, unable to determine old version
+[2024-05-06 00:05:55] INFO root fetch - main [MainThread]: End processing [zed-assistant] error
+[2024-05-06 00:05:55] INFO root fetch - processPackages [svg-ultralight]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-06 00:05:55] WARNING root fetch - processPackages [Summarize-Repo]: Skipping, unable to determine old version
+[2024-05-06 00:05:55] INFO root fetch - main [MainThread]: End processing [Summarize-Repo] error
+[2024-05-06 00:05:55] INFO root fetch - processPackages [svg-ultralight]: Downloading https://files.pythonhosted.org/packages/8d/82/ff6a14335591a3825078854462c3d572b43c2991ea316cbf69e09a7b3573/svg_ultralight-0.8.2.tar.gz
+[2024-05-06 00:05:55] WARNING root fetch - processPackages [xysfhsj]: Skipping, unable to determine old version
+[2024-05-06 00:05:55] INFO root fetch - main [MainThread]: End processing [xysfhsj] error
+[2024-05-06 00:05:55] INFO root fetch - processPackages [pyscemu]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-06 00:05:55] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/dd/33/7d18835070b330cff5549b0f757fd9d617aa5c9c95b63f9d3457d47ded22/pyscemu-0.6.2.tar.gz
+[2024-05-06 00:05:55] INFO root fetch - processPackages [svg-ultralight]: Downloading https://files.pythonhosted.org/packages/1c/73/43e2a4c495a8fe97fa74642c7884ba3b040c603c744d8fb23adb4408eef7/svg_ultralight-0.9.0.tar.gz
+[2024-05-06 00:05:55] INFO root fetch - processPackages [svg-ultralight]: executing diffoscope
+[2024-05-06 00:05:55] INFO root fetch - processPackages [svg-ultralight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svg_ultralight-0.8.2.tar.gz tmp/svg_ultralight-0.9.0.tar.gz --markdown 20240506/s/svg-ultralight/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-06 00:05:55] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/5d/47/97a8231474b024878e5022a775d0d695155a5e938d1795d3a62955661e0e/pyscemu-0.6.3.tar.gz
+[2024-05-06 00:05:56] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2024-05-06 00:05:56] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.6.2.tar.gz tmp/pyscemu-0.6.3.tar.gz --markdown 20240506/p/pyscemu/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-06 00:05:56] INFO root fetch - processPackages [svg-ultralight]: Remove: archive file [/home/abi/fetcher/tmp/svg_ultralight-0.8.2.tar.gz]
+[2024-05-06 00:05:56] INFO root fetch - processPackages [svg-ultralight]: Remove: archive file [/home/abi/fetcher/tmp/svg_ultralight-0.9.0.tar.gz]
+[2024-05-06 00:05:56] INFO root fetch - main [MainThread]: End processing [svg-ultralight]: success
+[2024-05-06 00:05:56] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.6.2.tar.gz]
+[2024-05-06 00:05:56] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.6.3.tar.gz]
+[2024-05-06 00:05:56] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2024-05-06 00:05:56] INFO root fetch - main [MainThread]: Store serial: [23069403]
