@@ -1026,3 +1026,26 @@
 [2024-05-06 01:45:05] INFO root fetch - processPackages [o7cli]: Remove: archive file [/home/abi/fetcher/tmp/o7cli-0.1.95-py3-none-any.whl.zip]
 [2024-05-06 01:45:05] INFO root fetch - main [MainThread]: End processing [o7cli]: success
 [2024-05-06 01:45:05] INFO root fetch - main [MainThread]: Store serial: [23069880]
+[2024-05-06 01:47:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069880]
+[2024-05-06 01:47:13] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-06 01:49:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069881]
+[2024-05-06 01:49:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 01:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samplics
+[2024-05-06 01:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oakvar
+[2024-05-06 01:49:18] INFO root fetch - processPackages [oakvar]: New version: [2.9.99] Old Version: [2.9.98]
+[2024-05-06 01:49:19] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/a3/ce/6968cab51f4cb7b955287af8ac7062bbc3d7ecfca4110e778aca096983b8/oakvar-2.9.98.tar.gz
+[2024-05-06 01:49:19] INFO root fetch - processPackages [samplics]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-06 01:49:19] INFO root fetch - processPackages [samplics]: Downloading https://files.pythonhosted.org/packages/a4/7a/9cd4eed3c3a2111fff30cad618c56110f76d61b56c292d0111ee8d08bc51/samplics-0.4.8.tar.gz
+[2024-05-06 01:49:19] INFO root fetch - processPackages [samplics]: Downloading https://files.pythonhosted.org/packages/42/67/c6a99665b2bd68cfc8c8e6e17ef105a2ecac8f85657b496c4f1fdba81f24/samplics-0.4.9.tar.gz
+[2024-05-06 01:49:19] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/cf/2a/de8e0ae3bf287725294b151b3a458f4350c6be98fc7b2c5896e98a2a82a5/oakvar-2.9.99.tar.gz
+[2024-05-06 01:49:19] INFO root fetch - processPackages [samplics]: executing diffoscope
+[2024-05-06 01:49:19] INFO root fetch - processPackages [samplics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samplics-0.4.8.tar.gz tmp/samplics-0.4.9.tar.gz --markdown 20240506/s/samplics/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-06 01:49:20] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-05-06 01:49:20] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.98.tar.gz tmp/oakvar-2.9.99.tar.gz --markdown 20240506/o/oakvar/2.9.98-2.9.99/README.md --exclude *.pyd
+[2024-05-06 01:49:20] INFO root fetch - processPackages [samplics]: Remove: archive file [/home/abi/fetcher/tmp/samplics-0.4.8.tar.gz]
+[2024-05-06 01:49:20] INFO root fetch - processPackages [samplics]: Remove: archive file [/home/abi/fetcher/tmp/samplics-0.4.9.tar.gz]
+[2024-05-06 01:49:20] INFO root fetch - main [MainThread]: End processing [samplics]: success
+[2024-05-06 01:49:22] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.98.tar.gz]
+[2024-05-06 01:49:22] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
+[2024-05-06 01:49:22] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-05-06 01:49:22] INFO root fetch - main [MainThread]: Store serial: [23069886]
