@@ -736,3 +736,15 @@
 [2024-05-06 01:11:19] INFO root fetch - processPackages [Werkzeug]: Remove: archive file [/home/abi/fetcher/tmp/werkzeug-3.0.3.tar.gz]
 [2024-05-06 01:11:19] INFO root fetch - main [MainThread]: End processing [Werkzeug]: success
 [2024-05-06 01:11:19] INFO root fetch - main [MainThread]: Store serial: [23069739]
+[2024-05-06 01:13:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069739]
+[2024-05-06 01:13:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 01:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xbstrap-version-bumper
+[2024-05-06 01:13:28] INFO root fetch - processPackages [xbstrap-version-bumper]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 01:13:28] INFO root fetch - processPackages [xbstrap-version-bumper]: Downloading https://files.pythonhosted.org/packages/42/8b/331fa4ecc984d24b9b0f60c3744bedb6d1d7690aa998a9b1008840697433/xbstrap_version_bumper-0.0.1.tar.gz
+[2024-05-06 01:13:28] INFO root fetch - processPackages [xbstrap-version-bumper]: Downloading https://files.pythonhosted.org/packages/87/48/90f8fee6a6d081e2638bf06836caa2ac75d10a5fb8046ff5c9fe4af6f85e/xbstrap_version_bumper-0.0.2.tar.gz
+[2024-05-06 01:13:28] INFO root fetch - processPackages [xbstrap-version-bumper]: executing diffoscope
+[2024-05-06 01:13:28] INFO root fetch - processPackages [xbstrap-version-bumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbstrap_version_bumper-0.0.1.tar.gz tmp/xbstrap_version_bumper-0.0.2.tar.gz --markdown 20240506/x/xbstrap-version-bumper/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 01:13:29] INFO root fetch - processPackages [xbstrap-version-bumper]: Remove: archive file [/home/abi/fetcher/tmp/xbstrap_version_bumper-0.0.1.tar.gz]
+[2024-05-06 01:13:29] INFO root fetch - processPackages [xbstrap-version-bumper]: Remove: archive file [/home/abi/fetcher/tmp/xbstrap_version_bumper-0.0.2.tar.gz]
+[2024-05-06 01:13:29] INFO root fetch - main [MainThread]: End processing [xbstrap-version-bumper]: success
+[2024-05-06 01:13:29] INFO root fetch - main [MainThread]: Store serial: [23069743]
