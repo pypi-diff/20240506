@@ -724,3 +724,15 @@
 [2024-05-06 01:09:08] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
 [2024-05-06 01:09:08] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-05-06 01:09:08] INFO root fetch - main [MainThread]: Store serial: [23069736]
+[2024-05-06 01:11:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069736]
+[2024-05-06 01:11:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 01:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Werkzeug
+[2024-05-06 01:11:17] INFO root fetch - processPackages [Werkzeug]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-06 01:11:17] INFO root fetch - processPackages [Werkzeug]: Downloading https://files.pythonhosted.org/packages/0f/84/00f7193d7bd88ced26cd5f868903e431054424610dc7c041bbe87d2a4d66/werkzeug-3.0.2.tar.gz
+[2024-05-06 01:11:17] INFO root fetch - processPackages [Werkzeug]: Downloading https://files.pythonhosted.org/packages/02/51/2e0fc149e7a810d300422ab543f87f2bcf64d985eb6f1228c4efd6e4f8d4/werkzeug-3.0.3.tar.gz
+[2024-05-06 01:11:17] INFO root fetch - processPackages [Werkzeug]: executing diffoscope
+[2024-05-06 01:11:17] INFO root fetch - processPackages [Werkzeug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werkzeug-3.0.2.tar.gz tmp/werkzeug-3.0.3.tar.gz --markdown 20240506/W/Werkzeug/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-06 01:11:19] INFO root fetch - processPackages [Werkzeug]: Remove: archive file [/home/abi/fetcher/tmp/werkzeug-3.0.2.tar.gz]
+[2024-05-06 01:11:19] INFO root fetch - processPackages [Werkzeug]: Remove: archive file [/home/abi/fetcher/tmp/werkzeug-3.0.3.tar.gz]
+[2024-05-06 01:11:19] INFO root fetch - main [MainThread]: End processing [Werkzeug]: success
+[2024-05-06 01:11:19] INFO root fetch - main [MainThread]: Store serial: [23069739]
