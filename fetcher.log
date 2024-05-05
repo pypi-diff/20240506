@@ -877,3 +877,9 @@
 [2024-05-06 01:29:53] WARNING root fetch - processPackages [unusualwhales-python-client]: Skipping, unable to determine old version
 [2024-05-06 01:29:53] INFO root fetch - main [MainThread]: End processing [unusualwhales-python-client] error
 [2024-05-06 01:29:53] INFO root fetch - main [MainThread]: Store serial: [23069831]
+[2024-05-06 01:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069831]
+[2024-05-06 01:32:02] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 01:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toolslm
+[2024-05-06 01:32:02] WARNING root fetch - processPackages [toolslm]: Skipping, unable to determine old version
+[2024-05-06 01:32:02] INFO root fetch - main [MainThread]: End processing [toolslm] error
+[2024-05-06 01:32:02] INFO root fetch - main [MainThread]: Store serial: [23069834]
