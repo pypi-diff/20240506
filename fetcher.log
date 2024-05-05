@@ -909,3 +909,61 @@
 [2024-05-06 01:34:12] INFO root fetch - processPackages [pydfuutil]: Remove: archive file [/home/abi/fetcher/tmp/pydfuutil-0.0.2b3.tar.gz]
 [2024-05-06 01:34:12] INFO root fetch - main [MainThread]: End processing [pydfuutil]: success
 [2024-05-06 01:34:12] INFO root fetch - main [MainThread]: Store serial: [23069837]
+[2024-05-06 01:36:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069837]
+[2024-05-06 01:36:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 01:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rp
+[2024-05-06 01:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydfuutil
+[2024-05-06 01:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yt-dlp
+[2024-05-06 01:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ciscoconfparse2
+[2024-05-06 01:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazylinop
+[2024-05-06 01:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpservice
+[2024-05-06 01:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trame-vtklocal
+[2024-05-06 01:36:21] INFO root fetch - processPackages [lazylinop]: New version: [1.9.1a0] Old Version: [1.9.0a0]
+[2024-05-06 01:36:21] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2024-05-06 01:36:21] INFO root fetch - processPackages [trame-vtklocal]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-06 01:36:21] INFO root fetch - processPackages [pydfuutil]: New version: [0.0.2b3] Old Version: [0.0.2b2]
+[2024-05-06 01:36:21] INFO root fetch - processPackages [yt-dlp]: New version: [2024.5.4.232706.dev0] Old Version: [2024.4.9.232723.dev0]
+[2024-05-06 01:36:21] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-05-06 01:36:21] INFO root fetch - processPackages [ciscoconfparse2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-06 01:36:21] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/30/85/00c52007446a5f392301e7f30b58d0d1c48a775f923b57e5bb9f0a4733a0/lazylinop-1.9.0a0-py3-none-any.whl
+[2024-05-06 01:36:21] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2024-05-06 01:36:21] INFO root fetch - processPackages [trame-vtklocal]: Downloading https://files.pythonhosted.org/packages/b2/c3/006bee62abfb093b37323e9fe935b00bd303d169b8215fa14602bceb7826/trame-vtklocal-0.3.0.tar.gz
+[2024-05-06 01:36:21] INFO root fetch - processPackages [pydfuutil]: Downloading https://files.pythonhosted.org/packages/27/39/8a8327ae574362d55871b42f1f1f389bdf8d3807c8476acc8dc6b0eff8f0/pydfuutil-0.0.2b2.tar.gz
+[2024-05-06 01:36:21] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-05-06 01:36:21] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/3d/26/45a9189ceae8b6fa894afcbb6e4dfa15bfa476b1c4750920529f8dce5039/yt_dlp-2024.4.9.232723.dev0.tar.gz
+[2024-05-06 01:36:21] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-05-06 01:36:21] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-05-06 01:36:21] INFO root fetch - processPackages [ciscoconfparse2]: Downloading https://files.pythonhosted.org/packages/26/c5/d7a1bbb15197a52ec641fb3455b2bad160571ef08bbb87f61c8e83e45163/ciscoconfparse2-0.7.8.tar.gz
+[2024-05-06 01:36:21] INFO root fetch - processPackages [pydfuutil]: Downloading https://files.pythonhosted.org/packages/15/7d/495793e56d321d77e0d383ac64b24c61eade60adf36cf0705607db6aa593/pydfuutil-0.0.2b3.tar.gz
+[2024-05-06 01:36:21] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2024-05-06 01:36:21] INFO root fetch - processPackages [trame-vtklocal]: Downloading https://files.pythonhosted.org/packages/ea/6c/4079269fc78230d818cc5133fec48013de1bbaba8afaaff9c47f96cfd61d/trame-vtklocal-0.3.1.tar.gz
+[2024-05-06 01:36:21] INFO root fetch - processPackages [pydfuutil]: executing diffoscope
+[2024-05-06 01:36:21] INFO root fetch - processPackages [pydfuutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydfuutil-0.0.2b2.tar.gz tmp/pydfuutil-0.0.2b3.tar.gz --markdown 20240506/p/pydfuutil/0.0.2b2-0.0.2b3/README.md --exclude *.pyd
+[2024-05-06 01:36:21] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2024-05-06 01:36:21] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20240506/m/mpservice/0.9.9-0.9.9.post1/README.md --exclude *.pyd
+[2024-05-06 01:36:21] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/d8/ac/f6789b4ccf99cb84a6ceb2a00b986e2b6748021affe8fe540664b003b1c7/lazylinop-1.9.1a0-py3-none-any.whl
+[2024-05-06 01:36:21] INFO root fetch - processPackages [trame-vtklocal]: executing diffoscope
+[2024-05-06 01:36:21] INFO root fetch - processPackages [trame-vtklocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-vtklocal-0.3.0.tar.gz tmp/trame-vtklocal-0.3.1.tar.gz --markdown 20240506/t/trame-vtklocal/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-06 01:36:21] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/ac/3b/a917fee617e28bc049d036a01f8144e5a7a7dfb4349780b5bc7b89a28197/yt_dlp-2024.5.4.232706.dev0.tar.gz
+[2024-05-06 01:36:21] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2024-05-06 01:36:21] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.9.0a0-py3-none-any.whl.zip tmp/lazylinop-1.9.1a0-py3-none-any.whl.zip --markdown 20240506/l/lazylinop/1.9.0a0-1.9.1a0/README.md --exclude *.pyd
+[2024-05-06 01:36:22] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-05-06 01:36:22] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.4.9.232723.dev0.tar.gz tmp/yt_dlp-2024.5.4.232706.dev0.tar.gz --markdown 20240506/y/yt-dlp/2024.4.9.232723.dev0-2024.5.4.232706.dev0/README.md --exclude *.pyd
+[2024-05-06 01:36:22] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2024-05-06 01:36:22] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2024-05-06 01:36:22] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2024-05-06 01:36:22] INFO root fetch - processPackages [trame-vtklocal]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtklocal-0.3.0.tar.gz]
+[2024-05-06 01:36:22] INFO root fetch - processPackages [trame-vtklocal]: Remove: archive file [/home/abi/fetcher/tmp/trame-vtklocal-0.3.1.tar.gz]
+[2024-05-06 01:36:22] INFO root fetch - main [MainThread]: End processing [trame-vtklocal]: success
+[2024-05-06 01:36:22] INFO root fetch - processPackages [pydfuutil]: Remove: archive file [/home/abi/fetcher/tmp/pydfuutil-0.0.2b2.tar.gz]
+[2024-05-06 01:36:22] INFO root fetch - processPackages [pydfuutil]: Remove: archive file [/home/abi/fetcher/tmp/pydfuutil-0.0.2b3.tar.gz]
+[2024-05-06 01:36:22] INFO root fetch - main [MainThread]: End processing [pydfuutil]: success
+[2024-05-06 01:36:23] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.9.0a0-py3-none-any.whl.zip]
+[2024-05-06 01:36:23] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.9.1a0-py3-none-any.whl.zip]
+[2024-05-06 01:36:23] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2024-05-06 01:36:23] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
+[2024-05-06 01:36:23] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
+[2024-05-06 01:36:28] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.9.232723.dev0.tar.gz]
+[2024-05-06 01:36:28] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.4.232706.dev0.tar.gz]
+[2024-05-06 01:36:28] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-05-06 01:36:28] INFO root fetch - main [MainThread]: Store serial: [23069857]
