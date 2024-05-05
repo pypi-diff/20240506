@@ -883,3 +883,29 @@
 [2024-05-06 01:32:02] WARNING root fetch - processPackages [toolslm]: Skipping, unable to determine old version
 [2024-05-06 01:32:02] INFO root fetch - main [MainThread]: End processing [toolslm] error
 [2024-05-06 01:32:02] INFO root fetch - main [MainThread]: Store serial: [23069834]
+[2024-05-06 01:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069834]
+[2024-05-06 01:34:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 01:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wormhole-tx
+[2024-05-06 01:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rp
+[2024-05-06 01:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydfuutil
+[2024-05-06 01:34:10] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-05-06 01:34:10] INFO root fetch - processPackages [wormhole-tx]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-06 01:34:10] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-05-06 01:34:10] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-05-06 01:34:10] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-05-06 01:34:11] INFO root fetch - processPackages [pydfuutil]: New version: [0.0.2b3] Old Version: [0.0.2b2]
+[2024-05-06 01:34:11] INFO root fetch - processPackages [wormhole-tx]: Downloading https://files.pythonhosted.org/packages/4c/03/1142a0972a78377caed114971b55b18eb511c194073eb421e1a4d6237261/wormhole-tx-1.0.6.tar.gz
+[2024-05-06 01:34:11] INFO root fetch - processPackages [pydfuutil]: Downloading https://files.pythonhosted.org/packages/27/39/8a8327ae574362d55871b42f1f1f389bdf8d3807c8476acc8dc6b0eff8f0/pydfuutil-0.0.2b2.tar.gz
+[2024-05-06 01:34:11] INFO root fetch - processPackages [wormhole-tx]: Downloading https://files.pythonhosted.org/packages/fe/03/1903241540784a0a3e4d13bdce30ea29da42aca0f21d7f98ec7aa48080ee/wormhole-tx-1.0.7.tar.gz
+[2024-05-06 01:34:11] INFO root fetch - processPackages [wormhole-tx]: executing diffoscope
+[2024-05-06 01:34:11] INFO root fetch - processPackages [wormhole-tx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wormhole-tx-1.0.6.tar.gz tmp/wormhole-tx-1.0.7.tar.gz --markdown 20240506/w/wormhole-tx/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-06 01:34:11] INFO root fetch - processPackages [pydfuutil]: Downloading https://files.pythonhosted.org/packages/15/7d/495793e56d321d77e0d383ac64b24c61eade60adf36cf0705607db6aa593/pydfuutil-0.0.2b3.tar.gz
+[2024-05-06 01:34:11] INFO root fetch - processPackages [pydfuutil]: executing diffoscope
+[2024-05-06 01:34:11] INFO root fetch - processPackages [pydfuutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydfuutil-0.0.2b2.tar.gz tmp/pydfuutil-0.0.2b3.tar.gz --markdown 20240506/p/pydfuutil/0.0.2b2-0.0.2b3/README.md --exclude *.pyd
+[2024-05-06 01:34:12] INFO root fetch - processPackages [wormhole-tx]: Remove: archive file [/home/abi/fetcher/tmp/wormhole-tx-1.0.6.tar.gz]
+[2024-05-06 01:34:12] INFO root fetch - processPackages [wormhole-tx]: Remove: archive file [/home/abi/fetcher/tmp/wormhole-tx-1.0.7.tar.gz]
+[2024-05-06 01:34:12] INFO root fetch - main [MainThread]: End processing [wormhole-tx]: success
+[2024-05-06 01:34:12] INFO root fetch - processPackages [pydfuutil]: Remove: archive file [/home/abi/fetcher/tmp/pydfuutil-0.0.2b2.tar.gz]
+[2024-05-06 01:34:12] INFO root fetch - processPackages [pydfuutil]: Remove: archive file [/home/abi/fetcher/tmp/pydfuutil-0.0.2b3.tar.gz]
+[2024-05-06 01:34:12] INFO root fetch - main [MainThread]: End processing [pydfuutil]: success
+[2024-05-06 01:34:12] INFO root fetch - main [MainThread]: Store serial: [23069837]
