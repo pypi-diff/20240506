@@ -538,3 +538,15 @@
 [2024-05-06 00:53:56] INFO root fetch - main [MainThread]: End processing [uac-cli]: success
 [2024-05-06 00:53:56] INFO root fetch - main [MainThread]: End processing [uac-cli]: success
 [2024-05-06 00:53:56] INFO root fetch - main [MainThread]: Store serial: [23069666]
+[2024-05-06 00:56:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069666]
+[2024-05-06 00:56:04] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 00:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-05-06 00:56:04] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 00:56:04] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-06 00:56:05] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-06 00:56:05] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-06 00:56:05] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240506/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 00:56:06] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-06 00:56:06] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-06 00:56:06] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-06 00:56:06] INFO root fetch - main [MainThread]: Store serial: [23069669]
