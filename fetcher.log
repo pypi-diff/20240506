@@ -1091,3 +1091,25 @@
 [2024-05-06 01:55:47] INFO root fetch - processPackages [luxos]: Remove: archive file [/home/abi/fetcher/tmp/luxos-0.0.6b21.tar.gz]
 [2024-05-06 01:55:47] INFO root fetch - main [MainThread]: End processing [luxos]: success
 [2024-05-06 01:55:47] INFO root fetch - main [MainThread]: Store serial: [23069908]
+[2024-05-06 01:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069908]
+[2024-05-06 01:57:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 01:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luxos
+[2024-05-06 01:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: luxos
+[2024-05-06 01:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espy-pdfier
+[2024-05-06 01:57:56] INFO root fetch - processPackages [luxos]: New version: [0.0.6b21] Old Version: [0.0.5b20]
+[2024-05-06 01:57:56] INFO root fetch - processPackages [luxos]: New version: [0.0.6b21] Old Version: [0.0.5b20]
+[2024-05-06 01:57:56] WARNING root fetch - processPackages [espy-pdfier]: Skipping, unable to determine old version
+[2024-05-06 01:57:56] INFO root fetch - main [MainThread]: End processing [espy-pdfier] error
+[2024-05-06 01:57:56] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/bf/e8/ca8f54709716ee4f985ce0b3065e80cedd31fd4d15dca18dae5896c65f37/luxos-0.0.5b20.tar.gz
+[2024-05-06 01:57:56] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/bf/e8/ca8f54709716ee4f985ce0b3065e80cedd31fd4d15dca18dae5896c65f37/luxos-0.0.5b20.tar.gz
+[2024-05-06 01:57:56] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/fd/98/482e5f9a303ac729430e2884b82ad1c65b5576c8e08ea6f5ec0900f9a96a/luxos-0.0.6b21.tar.gz
+[2024-05-06 01:57:56] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/fd/98/482e5f9a303ac729430e2884b82ad1c65b5576c8e08ea6f5ec0900f9a96a/luxos-0.0.6b21.tar.gz
+[2024-05-06 01:57:56] INFO root fetch - processPackages [luxos]: executing diffoscope
+[2024-05-06 01:57:56] INFO root fetch - processPackages [luxos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luxos-0.0.5b20.tar.gz tmp/luxos-0.0.6b21.tar.gz --markdown 20240506/l/luxos/0.0.5b20-0.0.6b21/README.md --exclude *.pyd
+[2024-05-06 01:57:56] INFO root fetch - processPackages [luxos]: executing diffoscope
+[2024-05-06 01:57:56] INFO root fetch - processPackages [luxos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luxos-0.0.5b20.tar.gz tmp/luxos-0.0.6b21.tar.gz --markdown 20240506/l/luxos/0.0.5b20-0.0.6b21/README.md --exclude *.pyd
+[2024-05-06 01:57:57] INFO root fetch - processPackages [luxos]: Remove: archive file [/home/abi/fetcher/tmp/luxos-0.0.5b20.tar.gz]
+[2024-05-06 01:57:57] INFO root fetch - processPackages [luxos]: Remove: archive file [/home/abi/fetcher/tmp/luxos-0.0.6b21.tar.gz]
+[2024-05-06 01:57:57] INFO root fetch - main [MainThread]: End processing [luxos]: success
+[2024-05-06 01:57:57] INFO root fetch - main [MainThread]: End processing [luxos]: success
+[2024-05-06 01:57:57] INFO root fetch - main [MainThread]: Store serial: [23069921]
