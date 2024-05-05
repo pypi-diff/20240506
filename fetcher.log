@@ -598,3 +598,21 @@
 [2024-05-06 01:00:26] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.5.0.tar.gz]
 [2024-05-06 01:00:26] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
 [2024-05-06 01:00:26] INFO root fetch - main [MainThread]: Store serial: [23069688]
+[2024-05-06 01:02:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069688]
+[2024-05-06 01:02:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 01:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupytext
+[2024-05-06 01:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elia-chat
+[2024-05-06 01:02:34] INFO root fetch - processPackages [elia-chat]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2024-05-06 01:02:34] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/2a/e4/e4513eaff0977876c452edcb92f4042431420b4f027b0da097af7236d3cb/elia_chat-1.0.0b1.tar.gz
+[2024-05-06 01:02:34] INFO root fetch - processPackages [jupytext]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-06 01:02:34] INFO root fetch - processPackages [jupytext]: Downloading https://files.pythonhosted.org/packages/c5/d9/c4c30454d3e04920e2903d5c6d48ad928d94278dcf33ad3f96b055f41dd9/jupytext-1.9.0.tar.gz
+[2024-05-06 01:02:34] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/bb/c3/163fb8d82cb7c86cafe4f26932a9c9fcc2cf06a15e5fc887e00e8ab803cf/elia_chat-1.0.0b2.tar.gz
+[2024-05-06 01:02:34] INFO root fetch - processPackages [elia-chat]: executing diffoscope
+[2024-05-06 01:02:34] INFO root fetch - processPackages [elia-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elia_chat-1.0.0b1.tar.gz tmp/elia_chat-1.0.0b2.tar.gz --markdown 20240506/e/elia-chat/1.0.0b1-1.0.0b2/README.md --exclude *.pyd
+[2024-05-06 01:02:35] INFO root fetch - processPackages [jupytext]: Downloading https://files.pythonhosted.org/packages/9a/ea/989cad1f4454819b08737a97c155a82f486e21cfbeda5451457f990679d6/jupytext-1.9.1.tar.gz
+[2024-05-06 01:02:35] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.0.0b1.tar.gz]
+[2024-05-06 01:02:35] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.0.0b2.tar.gz]
+[2024-05-06 01:02:35] INFO root fetch - main [MainThread]: End processing [elia-chat]: success
+[2024-05-06 01:02:35] WARNING root fetch - processPackages [jupytext]: Skipping package: exceeds size limit 44883075>=10485760
+[2024-05-06 01:02:35] INFO root fetch - main [MainThread]: End processing [jupytext] error
+[2024-05-06 01:02:35] INFO root fetch - main [MainThread]: Store serial: [23069694]
