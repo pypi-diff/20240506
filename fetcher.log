@@ -550,3 +550,36 @@
 [2024-05-06 00:56:06] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
 [2024-05-06 00:56:06] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-05-06 00:56:06] INFO root fetch - main [MainThread]: Store serial: [23069669]
+[2024-05-06 00:58:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069669]
+[2024-05-06 00:58:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 00:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: workforce
+[2024-05-06 00:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OmniGenome
+[2024-05-06 00:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cryspr
+[2024-05-06 00:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finvizfinance
+[2024-05-06 00:58:14] INFO root fetch - processPackages [finvizfinance]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-06 00:58:14] INFO root fetch - processPackages [workforce]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-06 00:58:14] INFO root fetch - processPackages [OmniGenome]: New version: [0.0.4a0] Old Version: [0.0.3a0]
+[2024-05-06 00:58:14] WARNING root fetch - processPackages [cryspr]: Skipping, unable to determine old version
+[2024-05-06 00:58:14] INFO root fetch - main [MainThread]: End processing [cryspr] error
+[2024-05-06 00:58:15] INFO root fetch - processPackages [finvizfinance]: Downloading https://files.pythonhosted.org/packages/f4/9e/478d90b8ddcb707b1b54af97e7e47c32384422837ebbfd11c9afd58bb1a8/finvizfinance-0.9.8.tar.gz
+[2024-05-06 00:58:15] INFO root fetch - processPackages [OmniGenome]: Downloading https://files.pythonhosted.org/packages/aa/4c/8ea1f7fc453bfce76d6256d64f54d7c6d774eb885d181bba1bdb36d6a4f7/OmniGenome-0.0.3a0-py3-none-any.whl
+[2024-05-06 00:58:15] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/55/59/53be4a44d778aa9a2e2b63afe372493a11a17d0ed224ed95cc5a778fbc89/workforce-1.0.8.tar.gz
+[2024-05-06 00:58:15] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/2d/19/86805c3946865872d10ea1e4ee5d133e7a8a82b698617f1b47e9b91cb517/workforce-1.0.9.tar.gz
+[2024-05-06 00:58:15] INFO root fetch - processPackages [OmniGenome]: Downloading https://files.pythonhosted.org/packages/30/bd/002580a1ff77ac06cf49dbdf61efeb7a470c73d0a90419c44e9228b4a6d0/OmniGenome-0.0.4a0-py3-none-any.whl
+[2024-05-06 00:58:15] INFO root fetch - processPackages [finvizfinance]: Downloading https://files.pythonhosted.org/packages/57/b7/33edd880dfc1318c2dd3af4d30b4275b3329515364b7494281c0ff9e1b49/finvizfinance-0.9.9.tar.gz
+[2024-05-06 00:58:15] INFO root fetch - processPackages [workforce]: executing diffoscope
+[2024-05-06 00:58:15] INFO root fetch - processPackages [workforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workforce-1.0.8.tar.gz tmp/workforce-1.0.9.tar.gz --markdown 20240506/w/workforce/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-06 00:58:15] INFO root fetch - processPackages [OmniGenome]: executing diffoscope
+[2024-05-06 00:58:15] INFO root fetch - processPackages [OmniGenome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OmniGenome-0.0.3a0-py3-none-any.whl.zip tmp/OmniGenome-0.0.4a0-py3-none-any.whl.zip --markdown 20240506/O/OmniGenome/0.0.3a0-0.0.4a0/README.md --exclude *.pyd
+[2024-05-06 00:58:15] INFO root fetch - processPackages [finvizfinance]: executing diffoscope
+[2024-05-06 00:58:15] INFO root fetch - processPackages [finvizfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finvizfinance-0.9.8.tar.gz tmp/finvizfinance-0.9.9.tar.gz --markdown 20240506/f/finvizfinance/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-06 00:58:16] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.8.tar.gz]
+[2024-05-06 00:58:16] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.9.tar.gz]
+[2024-05-06 00:58:16] INFO root fetch - main [MainThread]: End processing [workforce]: success
+[2024-05-06 00:58:16] INFO root fetch - processPackages [OmniGenome]: Remove: archive file [/home/abi/fetcher/tmp/OmniGenome-0.0.3a0-py3-none-any.whl.zip]
+[2024-05-06 00:58:16] INFO root fetch - processPackages [OmniGenome]: Remove: archive file [/home/abi/fetcher/tmp/OmniGenome-0.0.4a0-py3-none-any.whl.zip]
+[2024-05-06 00:58:16] INFO root fetch - main [MainThread]: End processing [OmniGenome]: success
+[2024-05-06 00:58:16] INFO root fetch - processPackages [finvizfinance]: Remove: archive file [/home/abi/fetcher/tmp/finvizfinance-0.9.8.tar.gz]
+[2024-05-06 00:58:16] INFO root fetch - processPackages [finvizfinance]: Remove: archive file [/home/abi/fetcher/tmp/finvizfinance-0.9.9.tar.gz]
+[2024-05-06 00:58:16] INFO root fetch - main [MainThread]: End processing [finvizfinance]: success
+[2024-05-06 00:58:16] INFO root fetch - main [MainThread]: Store serial: [23069680]
