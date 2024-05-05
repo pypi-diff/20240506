@@ -1049,3 +1049,33 @@
 [2024-05-06 01:49:22] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
 [2024-05-06 01:49:22] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-05-06 01:49:22] INFO root fetch - main [MainThread]: Store serial: [23069886]
+[2024-05-06 01:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069886]
+[2024-05-06 01:51:30] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-06 01:53:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069886]
+[2024-05-06 01:53:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: espy-pdfer
+[2024-05-06 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VisionForge
+[2024-05-06 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scenebuilder
+[2024-05-06 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MambuPy
+[2024-05-06 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MambuPy
+[2024-05-06 01:53:35] WARNING root fetch - processPackages [scenebuilder]: Skipping, unable to determine old version
+[2024-05-06 01:53:35] INFO root fetch - main [MainThread]: End processing [scenebuilder] error
+[2024-05-06 01:53:36] WARNING root fetch - processPackages [espy-pdfer]: Skipping, unable to determine old version
+[2024-05-06 01:53:36] INFO root fetch - main [MainThread]: End processing [espy-pdfer] error
+[2024-05-06 01:53:36] WARNING root fetch - processPackages [VisionForge]: Skipping, unable to determine old version
+[2024-05-06 01:53:36] INFO root fetch - main [MainThread]: End processing [VisionForge] error
+[2024-05-06 01:53:36] INFO root fetch - processPackages [MambuPy]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2024-05-06 01:53:36] INFO root fetch - processPackages [MambuPy]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2024-05-06 01:53:36] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/10/be/ed83b02c72c57597465b97df6b0c71b1a4b4e52a6ffe963ff0edf1409f0c/MambuPy-2.0.0b8.tar.gz
+[2024-05-06 01:53:36] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/10/be/ed83b02c72c57597465b97df6b0c71b1a4b4e52a6ffe963ff0edf1409f0c/MambuPy-2.0.0b8.tar.gz
+[2024-05-06 01:53:36] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/62/4b/170e3742038b58448c2733e8f206eb6f367edc67d01e8c721086ddb46e3b/MambuPy-2.0.0b9.tar.gz
+[2024-05-06 01:53:36] INFO root fetch - processPackages [MambuPy]: Downloading https://files.pythonhosted.org/packages/62/4b/170e3742038b58448c2733e8f206eb6f367edc67d01e8c721086ddb46e3b/MambuPy-2.0.0b9.tar.gz
+[2024-05-06 01:53:37] INFO root fetch - processPackages [MambuPy]: executing diffoscope
+[2024-05-06 01:53:37] INFO root fetch - processPackages [MambuPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MambuPy-2.0.0b8.tar.gz tmp/MambuPy-2.0.0b9.tar.gz --markdown 20240506/M/MambuPy/2.0.0b8-2.0.0b9/README.md --exclude *.pyd
+[2024-05-06 01:53:37] INFO root fetch - processPackages [MambuPy]: executing diffoscope
+[2024-05-06 01:53:37] INFO root fetch - processPackages [MambuPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MambuPy-2.0.0b8.tar.gz tmp/MambuPy-2.0.0b9.tar.gz --markdown 20240506/M/MambuPy/2.0.0b8-2.0.0b9/README.md --exclude *.pyd
+[2024-05-06 01:53:37] INFO root fetch - processPackages [MambuPy]: Remove: archive file [/home/abi/fetcher/tmp/MambuPy-2.0.0b8.tar.gz]
+[2024-05-06 01:53:37] INFO root fetch - processPackages [MambuPy]: Remove: archive file [/home/abi/fetcher/tmp/MambuPy-2.0.0b9.tar.gz]
+[2024-05-06 01:53:37] INFO root fetch - main [MainThread]: End processing [MambuPy]: success
+[2024-05-06 01:53:38] INFO root fetch - main [MainThread]: End processing [MambuPy]: success
+[2024-05-06 01:53:38] INFO root fetch - main [MainThread]: Store serial: [23069904]
