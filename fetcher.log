@@ -404,3 +404,26 @@
 [2024-05-06 00:34:30] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.0a9.tar.gz]
 [2024-05-06 00:34:30] INFO root fetch - main [MainThread]: End processing [pandasai]: success
 [2024-05-06 00:34:30] INFO root fetch - main [MainThread]: Store serial: [23069538]
+[2024-05-06 00:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069538]
+[2024-05-06 00:36:38] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-06 00:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069544]
+[2024-05-06 00:38:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 00:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kayalab
+[2024-05-06 00:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elia-chat
+[2024-05-06 00:38:44] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-05-06 00:38:44] INFO root fetch - processPackages [elia-chat]: New version: [1.0.0b1] Old Version: [0.4.1]
+[2024-05-06 00:38:44] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-05-06 00:38:44] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/cc/05/f95ef094fcc760b32fa4eccd54df21de3800abbf53f448d1942e9f9b2da7/elia_chat-0.4.1.tar.gz
+[2024-05-06 00:38:44] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/2a/e4/e4513eaff0977876c452edcb92f4042431420b4f027b0da097af7236d3cb/elia_chat-1.0.0b1.tar.gz
+[2024-05-06 00:38:44] INFO root fetch - processPackages [elia-chat]: executing diffoscope
+[2024-05-06 00:38:44] INFO root fetch - processPackages [elia-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elia_chat-0.4.1.tar.gz tmp/elia_chat-1.0.0b1.tar.gz --markdown 20240506/e/elia-chat/0.4.1-1.0.0b1/README.md --exclude *.pyd
+[2024-05-06 00:38:45] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-05-06 00:38:45] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-0.4.1.tar.gz]
+[2024-05-06 00:38:45] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.0.0b1.tar.gz]
+[2024-05-06 00:38:45] INFO root fetch - main [MainThread]: End processing [elia-chat]: success
+[2024-05-06 00:38:45] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-05-06 00:38:45] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240506/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-05-06 00:38:48] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-05-06 00:38:48] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-05-06 00:38:48] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-05-06 00:38:48] INFO root fetch - main [MainThread]: Store serial: [23069554]
