@@ -349,3 +349,21 @@
 [2024-05-06 00:23:50] WARNING root fetch - processPackages [cryspr]: Skipping, unable to determine old version
 [2024-05-06 00:23:50] INFO root fetch - main [MainThread]: End processing [cryspr] error
 [2024-05-06 00:23:50] INFO root fetch - main [MainThread]: Store serial: [23069516]
+[2024-05-06 00:25:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069516]
+[2024-05-06 00:25:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 00:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: furrow1k
+[2024-05-06 00:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dfa-sampler
+[2024-05-06 00:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-harlequin
+[2024-05-06 00:25:58] WARNING root fetch - processPackages [django-harlequin]: Skipping, unable to determine old version
+[2024-05-06 00:25:58] INFO root fetch - main [MainThread]: End processing [django-harlequin] error
+[2024-05-06 00:25:58] INFO root fetch - processPackages [dfa-sampler]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 00:25:58] WARNING root fetch - processPackages [furrow1k]: Skipping, unable to determine old version
+[2024-05-06 00:25:58] INFO root fetch - main [MainThread]: End processing [furrow1k] error
+[2024-05-06 00:25:58] INFO root fetch - processPackages [dfa-sampler]: Downloading https://files.pythonhosted.org/packages/db/08/87556d1d5255e40fcd8aebf21e84bdf022f2b604abdd7e44565be0640cee/dfa_sampler-0.1.0.tar.gz
+[2024-05-06 00:25:59] INFO root fetch - processPackages [dfa-sampler]: Downloading https://files.pythonhosted.org/packages/46/b6/c522d1aa73b1988d2c0049ce5ad92194e0a048e62090457dbf45edac17b6/dfa_sampler-0.1.1.tar.gz
+[2024-05-06 00:25:59] INFO root fetch - processPackages [dfa-sampler]: executing diffoscope
+[2024-05-06 00:25:59] INFO root fetch - processPackages [dfa-sampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfa_sampler-0.1.0.tar.gz tmp/dfa_sampler-0.1.1.tar.gz --markdown 20240506/d/dfa-sampler/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 00:25:59] INFO root fetch - processPackages [dfa-sampler]: Remove: archive file [/home/abi/fetcher/tmp/dfa_sampler-0.1.0.tar.gz]
+[2024-05-06 00:25:59] INFO root fetch - processPackages [dfa-sampler]: Remove: archive file [/home/abi/fetcher/tmp/dfa_sampler-0.1.1.tar.gz]
+[2024-05-06 00:25:59] INFO root fetch - main [MainThread]: End processing [dfa-sampler]: success
+[2024-05-06 00:25:59] INFO root fetch - main [MainThread]: Store serial: [23069529]
