@@ -343,3 +343,9 @@
 [2024-05-06 00:21:42] INFO root fetch - processPackages [mojo-credentials]: Remove: archive file [/home/abi/fetcher/tmp/mojo_credentials-1.3.9.tar.gz]
 [2024-05-06 00:21:42] INFO root fetch - main [MainThread]: End processing [mojo-credentials]: success
 [2024-05-06 00:21:42] INFO root fetch - main [MainThread]: Store serial: [23069511]
+[2024-05-06 00:23:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069511]
+[2024-05-06 00:23:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 00:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryspr
+[2024-05-06 00:23:50] WARNING root fetch - processPackages [cryspr]: Skipping, unable to determine old version
+[2024-05-06 00:23:50] INFO root fetch - main [MainThread]: End processing [cryspr] error
+[2024-05-06 00:23:50] INFO root fetch - main [MainThread]: Store serial: [23069516]
