@@ -19,3 +19,15 @@
 [2024-05-06 00:01:36] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.4.dev20240503144208.tar.gz]
 [2024-05-06 00:01:36] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2024-05-06 00:01:36] INFO root fetch - main [MainThread]: Store serial: [23069379]
+[2024-05-06 00:03:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069379]
+[2024-05-06 00:03:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 00:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: re-ircbot
+[2024-05-06 00:03:44] INFO root fetch - processPackages [re-ircbot]: New version: [2.0.5.dev0] Old Version: [2.0.4.dev0]
+[2024-05-06 00:03:44] INFO root fetch - processPackages [re-ircbot]: Downloading https://files.pythonhosted.org/packages/8f/25/ba354b96cdf0c1fd422791ddf692c5f0fbde2d040514de80dd513d0a9bf8/re_ircbot-2.0.4.dev0.tar.gz
+[2024-05-06 00:03:45] INFO root fetch - processPackages [re-ircbot]: Downloading https://files.pythonhosted.org/packages/63/10/6f0d8769644f4afcda5bb37e35415826fd332a5c638033c56e133bf03d6c/re_ircbot-2.0.5.dev0.tar.gz
+[2024-05-06 00:03:45] INFO root fetch - processPackages [re-ircbot]: executing diffoscope
+[2024-05-06 00:03:45] INFO root fetch - processPackages [re-ircbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_ircbot-2.0.4.dev0.tar.gz tmp/re_ircbot-2.0.5.dev0.tar.gz --markdown 20240506/r/re-ircbot/2.0.4.dev0-2.0.5.dev0/README.md --exclude *.pyd
+[2024-05-06 00:03:45] INFO root fetch - processPackages [re-ircbot]: Remove: archive file [/home/abi/fetcher/tmp/re_ircbot-2.0.4.dev0.tar.gz]
+[2024-05-06 00:03:45] INFO root fetch - processPackages [re-ircbot]: Remove: archive file [/home/abi/fetcher/tmp/re_ircbot-2.0.5.dev0.tar.gz]
+[2024-05-06 00:03:45] INFO root fetch - main [MainThread]: End processing [re-ircbot]: success
+[2024-05-06 00:03:45] INFO root fetch - main [MainThread]: Store serial: [23069383]
