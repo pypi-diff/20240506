@@ -247,3 +247,27 @@
 [2024-05-06 00:13:01] INFO root fetch - processPackages [lazurite]: Remove: archive file [/home/abi/fetcher/tmp/lazurite-0.1.2.tar.gz]
 [2024-05-06 00:13:01] INFO root fetch - main [MainThread]: End processing [lazurite]: success
 [2024-05-06 00:13:01] INFO root fetch - main [MainThread]: Store serial: [23069468]
+[2024-05-06 00:15:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069468]
+[2024-05-06 00:15:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-1-varify-ic
+[2024-05-06 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flamme
+[2024-05-06 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphlit-client
+[2024-05-06 00:15:10] WARNING root fetch - processPackages [test-1-varify-ic]: Skipping, unable to determine old version
+[2024-05-06 00:15:10] INFO root fetch - main [MainThread]: End processing [test-1-varify-ic] error
+[2024-05-06 00:15:10] INFO root fetch - processPackages [graphlit-client]: New version: [1.0.20240505001] Old Version: [1.0.20240429002]
+[2024-05-06 00:15:10] INFO root fetch - processPackages [flamme]: New version: [0.0.9] Old Version: [0.0.8a1]
+[2024-05-06 00:15:10] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/31/62/078c512bb5d4b444b60757402263b52cf177550cbea035001f8ffcbc9d3c/graphlit_client-1.0.20240429002.tar.gz
+[2024-05-06 00:15:10] INFO root fetch - processPackages [flamme]: Downloading https://files.pythonhosted.org/packages/82/a7/78b097dd39d2b564a47d15e8010ec96499b20fc8f3887469ebd5275302a9/flamme-0.0.8a1.tar.gz
+[2024-05-06 00:15:10] INFO root fetch - processPackages [flamme]: Downloading https://files.pythonhosted.org/packages/95/b9/67cd6cad72d4221f3d61e760b91b826e3165de0cf760406862c63ea1de01/flamme-0.0.9.tar.gz
+[2024-05-06 00:15:10] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/b7/4b/9873d74b4295b61a45a84c8654ab5cab1410ea12fcced744a1a6b3e75e0e/graphlit_client-1.0.20240505001.tar.gz
+[2024-05-06 00:15:11] INFO root fetch - processPackages [flamme]: executing diffoscope
+[2024-05-06 00:15:11] INFO root fetch - processPackages [flamme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamme-0.0.8a1.tar.gz tmp/flamme-0.0.9.tar.gz --markdown 20240506/f/flamme/0.0.8a1-0.0.9/README.md --exclude *.pyd
+[2024-05-06 00:15:11] INFO root fetch - processPackages [graphlit-client]: executing diffoscope
+[2024-05-06 00:15:11] INFO root fetch - processPackages [graphlit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphlit_client-1.0.20240429002.tar.gz tmp/graphlit_client-1.0.20240505001.tar.gz --markdown 20240506/g/graphlit-client/1.0.20240429002-1.0.20240505001/README.md --exclude *.pyd
+[2024-05-06 00:15:11] INFO root fetch - processPackages [flamme]: Remove: archive file [/home/abi/fetcher/tmp/flamme-0.0.8a1.tar.gz]
+[2024-05-06 00:15:11] INFO root fetch - processPackages [flamme]: Remove: archive file [/home/abi/fetcher/tmp/flamme-0.0.9.tar.gz]
+[2024-05-06 00:15:11] INFO root fetch - main [MainThread]: End processing [flamme]: success
+[2024-05-06 00:15:12] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240429002.tar.gz]
+[2024-05-06 00:15:12] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240505001.tar.gz]
+[2024-05-06 00:15:12] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
+[2024-05-06 00:15:12] INFO root fetch - main [MainThread]: Store serial: [23069480]
