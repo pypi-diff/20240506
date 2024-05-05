@@ -871,3 +871,9 @@
 [2024-05-06 01:27:20] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-06 01:27:20] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
 [2024-05-06 01:27:20] INFO root fetch - main [MainThread]: Store serial: [23069822]
+[2024-05-06 01:29:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069822]
+[2024-05-06 01:29:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 01:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unusualwhales-python-client
+[2024-05-06 01:29:53] WARNING root fetch - processPackages [unusualwhales-python-client]: Skipping, unable to determine old version
+[2024-05-06 01:29:53] INFO root fetch - main [MainThread]: End processing [unusualwhales-python-client] error
+[2024-05-06 01:29:53] INFO root fetch - main [MainThread]: Store serial: [23069831]
