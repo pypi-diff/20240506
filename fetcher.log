@@ -4645,3 +4645,15 @@
 [2024-05-06 06:09:48] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
 [2024-05-06 06:09:48] INFO root fetch - main [MainThread]: End processing [miniosl]: success
 [2024-05-06 06:09:48] INFO root fetch - main [MainThread]: Store serial: [23071389]
+[2024-05-06 06:11:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071389]
+[2024-05-06 06:12:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 06:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdp-transform
+[2024-05-06 06:12:01] INFO root fetch - processPackages [sdp-transform]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-05-06 06:12:01] INFO root fetch - processPackages [sdp-transform]: Downloading https://files.pythonhosted.org/packages/cc/fe/ec9fb42ff9d32e4116badd9e602b829174d03b52cb2ffb8a0790b1889902/sdp_transform-1.0.6.tar.gz
+[2024-05-06 06:12:01] INFO root fetch - processPackages [sdp-transform]: Downloading https://files.pythonhosted.org/packages/55/4c/726df9484f45722ad8f1e7a8018ee40bf39b88f90f5443ce5e636f76b770/sdp_transform-1.1.0.tar.gz
+[2024-05-06 06:12:02] INFO root fetch - processPackages [sdp-transform]: executing diffoscope
+[2024-05-06 06:12:02] INFO root fetch - processPackages [sdp-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdp_transform-1.0.6.tar.gz tmp/sdp_transform-1.1.0.tar.gz --markdown 20240506/s/sdp-transform/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-05-06 06:12:02] INFO root fetch - processPackages [sdp-transform]: Remove: archive file [/home/abi/fetcher/tmp/sdp_transform-1.0.6.tar.gz]
+[2024-05-06 06:12:02] INFO root fetch - processPackages [sdp-transform]: Remove: archive file [/home/abi/fetcher/tmp/sdp_transform-1.1.0.tar.gz]
+[2024-05-06 06:12:02] INFO root fetch - main [MainThread]: End processing [sdp-transform]: success
+[2024-05-06 06:12:02] INFO root fetch - main [MainThread]: Store serial: [23071392]
