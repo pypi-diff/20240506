@@ -18638,3 +18638,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:35:08] INFO root fetch - processPackages [collective.campaignmonitor]: Remove: archive file [/home/abi/fetcher/tmp/collective_campaignmonitor-1.4.tar.gz]
 [2024-05-06 14:35:08] INFO root fetch - main [MainThread]: End processing [collective.campaignmonitor]: success
 [2024-05-06 14:35:08] INFO root fetch - main [MainThread]: Store serial: [23077481]
+[2024-05-06 14:37:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077481]
+[2024-05-06 14:37:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 14:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncapi-python-parser-jonaslagoni
+[2024-05-06 14:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text2story
+[2024-05-06 14:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bio-volumentations
+[2024-05-06 14:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amebo
+[2024-05-06 14:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: h2o-wave
+[2024-05-06 14:37:18] INFO root fetch - processPackages [amebo]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-06 14:37:18] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: New version: [0.4.0] Old Version: [0.0.2]
+[2024-05-06 14:37:18] INFO root fetch - processPackages [text2story]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-06 14:37:18] INFO root fetch - processPackages [bio-volumentations]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-06 14:37:18] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Downloading https://files.pythonhosted.org/packages/36/a6/375b22cdafa186c83fbcc5d92038417f1342617fa5b4c0d74dd959b552fb/asyncapi_python_parser_jonaslagoni-0.0.2.tar.gz
+[2024-05-06 14:37:18] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/ff/13/155151c00debc5a40cb3f59b07e4ab97ed860b2ab270e34bc97c46725357/text2story-1.4.5.tar.gz
+[2024-05-06 14:37:18] INFO root fetch - processPackages [h2o-wave]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-06 14:37:18] INFO root fetch - processPackages [amebo]: Downloading https://files.pythonhosted.org/packages/ad/23/405a24ff21d2b549ee1dc51b7c76b25400db660da11dd0a5f241e98d1179/amebo-0.3.4.tar.gz
+[2024-05-06 14:37:18] INFO root fetch - processPackages [bio-volumentations]: Downloading https://files.pythonhosted.org/packages/f7/2c/e5d30c465c2dcd63db2f96794bbeb131da6d119410a441fba2e0abe76357/bio_volumentations-1.1.2.tar.gz
+[2024-05-06 14:37:18] INFO root fetch - processPackages [h2o-wave]: Downloading https://files.pythonhosted.org/packages/c8/3a/8055e5d5d89ecf069af02140bad37fc3e2c34b9a50372892ab01894b81e5/h2o_wave-1.1.2-py3-none-win_amd64.whl
+[2024-05-06 14:37:18] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/64/23/9f8149be58e3cd33b4aebcedebaf2ebf0e79fb83841087206e47cf526f42/text2story-1.4.6.tar.gz
+[2024-05-06 14:37:18] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Downloading https://files.pythonhosted.org/packages/e5/77/cd1a421952a1a73c7a7069e268151a249ccf759d001c3898216581f3af38/asyncapi_python_parser_jonaslagoni-0.4.0.tar.gz
+[2024-05-06 14:37:18] WARNING root fetch - processPackages [h2o-wave]: Skipping package: exceeds size limit 12647716>=10485760
+[2024-05-06 14:37:18] INFO root fetch - main [MainThread]: End processing [h2o-wave] error
+[2024-05-06 14:37:18] INFO root fetch - processPackages [amebo]: Downloading https://files.pythonhosted.org/packages/a9/5a/9b877d5c49a0b00999a3d905b79ace38b4685620ecf3d0ac133ab109d991/amebo-0.3.5.tar.gz
+[2024-05-06 14:37:18] INFO root fetch - processPackages [bio-volumentations]: Downloading https://files.pythonhosted.org/packages/28/62/6892dc3dea2e39dbd2294fbc6b54c2f5ab67f8387d1b44d979d92af18fac/bio_volumentations-1.2.0.tar.gz
+[2024-05-06 14:37:18] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: executing diffoscope
+[2024-05-06 14:37:18] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncapi_python_parser_jonaslagoni-0.0.2.tar.gz tmp/asyncapi_python_parser_jonaslagoni-0.4.0.tar.gz --markdown 20240506/a/asyncapi-python-parser-jonaslagoni/0.0.2-0.4.0/README.md --exclude *.pyd
+[2024-05-06 14:37:19] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2024-05-06 14:37:19] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.4.5.tar.gz tmp/text2story-1.4.6.tar.gz --markdown 20240506/t/text2story/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-06 14:37:19] INFO root fetch - processPackages [amebo]: executing diffoscope
+[2024-05-06 14:37:19] INFO root fetch - processPackages [amebo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amebo-0.3.4.tar.gz tmp/amebo-0.3.5.tar.gz --markdown 20240506/a/amebo/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-06 14:37:19] INFO root fetch - processPackages [bio-volumentations]: executing diffoscope
+[2024-05-06 14:37:19] INFO root fetch - processPackages [bio-volumentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio_volumentations-1.1.2.tar.gz tmp/bio_volumentations-1.2.0.tar.gz --markdown 20240506/b/bio-volumentations/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-06 14:37:19] INFO root fetch - processPackages [bio-volumentations]: Remove: archive file [/home/abi/fetcher/tmp/bio_volumentations-1.1.2.tar.gz]
+[2024-05-06 14:37:19] INFO root fetch - processPackages [bio-volumentations]: Remove: archive file [/home/abi/fetcher/tmp/bio_volumentations-1.2.0.tar.gz]
+[2024-05-06 14:37:19] INFO root fetch - main [MainThread]: End processing [bio-volumentations]: success
+[2024-05-06 14:37:19] INFO root fetch - processPackages [amebo]: Remove: archive file [/home/abi/fetcher/tmp/amebo-0.3.4.tar.gz]
+[2024-05-06 14:37:19] INFO root fetch - processPackages [amebo]: Remove: archive file [/home/abi/fetcher/tmp/amebo-0.3.5.tar.gz]
+[2024-05-06 14:37:19] INFO root fetch - main [MainThread]: End processing [amebo]: success
+[2024-05-06 14:37:20] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.5.tar.gz]
+[2024-05-06 14:37:20] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.6.tar.gz]
+[2024-05-06 14:37:20] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2024-05-06 14:37:21] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Remove: archive file [/home/abi/fetcher/tmp/asyncapi_python_parser_jonaslagoni-0.0.2.tar.gz]
+[2024-05-06 14:37:21] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Remove: archive file [/home/abi/fetcher/tmp/asyncapi_python_parser_jonaslagoni-0.4.0.tar.gz]
+[2024-05-06 14:37:21] INFO root fetch - main [MainThread]: End processing [asyncapi-python-parser-jonaslagoni]: success
+[2024-05-06 14:37:21] INFO root fetch - main [MainThread]: Store serial: [23077495]
