@@ -6312,3 +6312,33 @@
 [2024-05-06 08:08:13] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.341.tar.gz]
 [2024-05-06 08:08:13] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-05-06 08:08:13] INFO root fetch - main [MainThread]: Store serial: [23072202]
+[2024-05-06 08:10:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072202]
+[2024-05-06 08:10:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 08:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazyad
+[2024-05-06 08:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioSAK
+[2024-05-06 08:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: textLSP
+[2024-05-06 08:10:22] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 08:10:22] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-05-06 08:10:22] INFO root fetch - processPackages [textLSP]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-06 08:10:22] INFO root fetch - processPackages [BioSAK]: New version: [1.88.2] Old Version: [1.88.1]
+[2024-05-06 08:10:22] INFO root fetch - processPackages [textLSP]: Downloading https://files.pythonhosted.org/packages/da/3f/10e14a46be803b08f8e5caaf1d1b778b302b48c1591f6f0f185e6940ebb4/textLSP-0.3.0.tar.gz
+[2024-05-06 08:10:22] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-05-06 08:10:22] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/94/fa/4df2fd2fc6b3430e1f8d6d3d50665467a96ad38253594aca03b150992882/BioSAK-1.88.1.tar.gz
+[2024-05-06 08:10:22] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-05-06 08:10:22] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240506/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 08:10:22] INFO root fetch - processPackages [textLSP]: Downloading https://files.pythonhosted.org/packages/49/74/52f21eb78a6bf5597fa64073ff95d6cb87c26bf9b00961700f398f374861/textlsp-0.3.1.tar.gz
+[2024-05-06 08:10:23] INFO root fetch - processPackages [textLSP]: executing diffoscope
+[2024-05-06 08:10:23] INFO root fetch - processPackages [textLSP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textLSP-0.3.0.tar.gz tmp/textlsp-0.3.1.tar.gz --markdown 20240506/t/textLSP/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-06 08:10:23] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/fa/9b/15e739942dc46ab71bb0a1f7329a65e93db55b04b42dfa2a14dc9b17b14c/BioSAK-1.88.2.tar.gz
+[2024-05-06 08:10:23] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-05-06 08:10:23] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.88.1.tar.gz tmp/BioSAK-1.88.2.tar.gz --markdown 20240506/B/BioSAK/1.88.1-1.88.2/README.md --exclude *.pyd
+[2024-05-06 08:10:23] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-05-06 08:10:23] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-05-06 08:10:23] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-05-06 08:10:23] INFO root fetch - processPackages [textLSP]: Remove: archive file [/home/abi/fetcher/tmp/textLSP-0.3.0.tar.gz]
+[2024-05-06 08:10:23] INFO root fetch - processPackages [textLSP]: Remove: archive file [/home/abi/fetcher/tmp/textlsp-0.3.1.tar.gz]
+[2024-05-06 08:10:23] INFO root fetch - main [MainThread]: End processing [textLSP]: success
+[2024-05-06 08:10:24] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.1.tar.gz]
+[2024-05-06 08:10:24] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.2.tar.gz]
+[2024-05-06 08:10:24] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-05-06 08:10:24] INFO root fetch - main [MainThread]: Store serial: [23072215]
