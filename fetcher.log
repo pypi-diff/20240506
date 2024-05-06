@@ -15721,3 +15721,47 @@
 [2024-05-06 12:37:43] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-6.2.1.tar.gz]
 [2024-05-06 12:37:43] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
 [2024-05-06 12:37:43] INFO root fetch - main [MainThread]: Store serial: [23076113]
+[2024-05-06 12:39:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076113]
+[2024-05-06 12:39:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 12:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysharek
+[2024-05-06 12:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-dynamic-structure
+[2024-05-06 12:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skypilot-nightly
+[2024-05-06 12:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybotrade
+[2024-05-06 12:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imerit-ango
+[2024-05-06 12:39:52] INFO root fetch - processPackages [pysharek]: New version: [0.11.1] Old Version: [0.10.5]
+[2024-05-06 12:39:52] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240505] Old Version: [1.0.0.dev20240504]
+[2024-05-06 12:39:52] INFO root fetch - processPackages [cybotrade]: New version: [1.4.1b2] Old Version: [1.4.1b1]
+[2024-05-06 12:39:52] INFO root fetch - processPackages [imerit-ango]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-06 12:39:52] INFO root fetch - processPackages [django-dynamic-structure]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 12:39:52] INFO root fetch - processPackages [pysharek]: Downloading https://files.pythonhosted.org/packages/6a/06/26a892d663864d372a3c730bd38241bc57936b24bb973fc224b40c644ba6/pysharek-0.10.5.tar.gz
+[2024-05-06 12:39:52] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/9a/7e/768cdf6175ba7ff9619f565fe29e4b1e896c2bfc9860ebc57b22f8ac7859/skypilot_nightly-1.0.0.dev20240504.tar.gz
+[2024-05-06 12:39:52] INFO root fetch - processPackages [cybotrade]: Downloading https://files.pythonhosted.org/packages/43/74/6d897bc998889869ccd9f87fa71f2f7a52097623c52ccef419ae0878a92e/cybotrade-1.4.1b1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 12:39:52] WARNING root fetch - processPackages [cybotrade]: Skipping package: exceeds size limit 15958932>=10485760
+[2024-05-06 12:39:52] INFO root fetch - main [MainThread]: End processing [cybotrade] error
+[2024-05-06 12:39:52] INFO root fetch - processPackages [django-dynamic-structure]: Downloading https://files.pythonhosted.org/packages/96/18/72027b9633a07cb012130c3b41c31db901659690d0d16980e1dd91c2b687/django-dynamic-structure-0.0.8.tar.gz
+[2024-05-06 12:39:52] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/c2/4b/76fb7268eae934f8b6babe542caa987f665f9d2bc919b065061d5e43b9d4/imerit_ango-1.3.8-py3-none-any.whl
+[2024-05-06 12:39:52] INFO root fetch - processPackages [pysharek]: Downloading https://files.pythonhosted.org/packages/ca/42/70ef2dfa497bb7f5cde7492d5b1dffa053a54366e95d90e84d597e36c2d9/pysharek-0.11.1.tar.gz
+[2024-05-06 12:39:52] INFO root fetch - processPackages [pysharek]: executing diffoscope
+[2024-05-06 12:39:52] INFO root fetch - processPackages [pysharek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysharek-0.10.5.tar.gz tmp/pysharek-0.11.1.tar.gz --markdown 20240506/p/pysharek/0.10.5-0.11.1/README.md --exclude *.pyd
+[2024-05-06 12:39:52] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/49/ea/e351023cffc441a20353ba9da9d8bf514b83ec60d9472d0b945627c8acf0/skypilot_nightly-1.0.0.dev20240505.tar.gz
+[2024-05-06 12:39:53] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/ad/6c/c566cbfb2eb78b60ab906a7089cb27f4363856113a63e1b4a254383269bb/imerit_ango-1.3.9-py3-none-any.whl
+[2024-05-06 12:39:53] INFO root fetch - processPackages [django-dynamic-structure]: Downloading https://files.pythonhosted.org/packages/60/08/0cabc0863b240a648aafc65950c52f11ffdad019d6e28700772a7102e066/django-dynamic-structure-0.0.9.tar.gz
+[2024-05-06 12:39:53] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-06 12:39:53] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240504.tar.gz tmp/skypilot_nightly-1.0.0.dev20240505.tar.gz --markdown 20240506/s/skypilot-nightly/1.0.0.dev20240504-1.0.0.dev20240505/README.md --exclude *.pyd
+[2024-05-06 12:39:53] INFO root fetch - processPackages [django-dynamic-structure]: executing diffoscope
+[2024-05-06 12:39:53] INFO root fetch - processPackages [django-dynamic-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dynamic-structure-0.0.8.tar.gz tmp/django-dynamic-structure-0.0.9.tar.gz --markdown 20240506/d/django-dynamic-structure/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 12:39:53] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2024-05-06 12:39:53] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit_ango-1.3.8-py3-none-any.whl.zip tmp/imerit_ango-1.3.9-py3-none-any.whl.zip --markdown 20240506/i/imerit-ango/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-06 12:39:53] INFO root fetch - processPackages [pysharek]: Remove: archive file [/home/abi/fetcher/tmp/pysharek-0.10.5.tar.gz]
+[2024-05-06 12:39:53] INFO root fetch - processPackages [pysharek]: Remove: archive file [/home/abi/fetcher/tmp/pysharek-0.11.1.tar.gz]
+[2024-05-06 12:39:53] INFO root fetch - main [MainThread]: End processing [pysharek]: success
+[2024-05-06 12:39:53] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.8-py3-none-any.whl.zip]
+[2024-05-06 12:39:53] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.9-py3-none-any.whl.zip]
+[2024-05-06 12:39:53] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2024-05-06 12:39:53] INFO root fetch - processPackages [django-dynamic-structure]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-structure-0.0.8.tar.gz]
+[2024-05-06 12:39:53] INFO root fetch - processPackages [django-dynamic-structure]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-structure-0.0.9.tar.gz]
+[2024-05-06 12:39:53] INFO root fetch - main [MainThread]: End processing [django-dynamic-structure]: success
+[2024-05-06 12:39:55] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240504.tar.gz]
+[2024-05-06 12:39:55] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240505.tar.gz]
+[2024-05-06 12:39:55] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-06 12:39:55] INFO root fetch - main [MainThread]: Store serial: [23076125]
