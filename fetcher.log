@@ -23600,3 +23600,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:27:34] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.5.6rc194.tar.gz]
 [2024-05-06 17:27:34] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
 [2024-05-06 17:27:34] INFO root fetch - main [MainThread]: Store serial: [23079985]
+[2024-05-06 17:29:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079985]
+[2024-05-06 17:29:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AlleleFinder
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toycv
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ropt-nomad
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ropt-dakota
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ropt-pymoo
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fk-util-tools
+[2024-05-06 17:29:43] INFO root fetch - processPackages [AlleleFinder]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-06 17:29:43] INFO root fetch - processPackages [AlleleFinder]: Downloading https://files.pythonhosted.org/packages/42/80/60dd08c00db3d286affcb145d2f69d5fd2fb31da8fd9e187addbda37b6b5/allelefinder-0.2.6.tar.gz
+[2024-05-06 17:29:43] WARNING root fetch - processPackages [fk-util-tools]: Skipping, unable to determine old version
+[2024-05-06 17:29:43] INFO root fetch - main [MainThread]: End processing [fk-util-tools] error
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ropt-pymoo]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-06 17:29:43] INFO root fetch - processPackages [toycv]: New version: [0.3.2] Old Version: [0.2.0]
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ropt-nomad]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ropt-dakota]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-06 17:29:43] INFO root fetch - processPackages [toycv]: Downloading https://files.pythonhosted.org/packages/36/23/d668799bbac0a7b51d8eb2621ede9c667c4459e88f7fcdc3d03a1a806650/toycv-0.2.0.tar.gz
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ropt-pymoo]: Downloading https://files.pythonhosted.org/packages/69/78/2b1dac8c8f8c5863852515cc726e0d2352dbdc5eaaf24407f09727972a74/ropt_pymoo-0.2.0.tar.gz
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ropt-nomad]: Downloading https://files.pythonhosted.org/packages/62/e1/27e3f99bcee727e2f001c3c860607e484c085843ca580e46a076b71a1cb4/ropt_nomad-0.2.1.tar.gz
+[2024-05-06 17:29:43] INFO root fetch - processPackages [ropt-dakota]: Downloading https://files.pythonhosted.org/packages/9e/6f/ad08c5efd5b77752dacccd8c9795981cef3d060034f6f0197ca55f4d05b7/ropt_dakota-0.2.0.tar.gz
+[2024-05-06 17:29:43] INFO root fetch - processPackages [AlleleFinder]: Downloading https://files.pythonhosted.org/packages/7f/6b/f3272453cf64f04291e9de7dba781ac6b7d48aa834565054bd25e6ec743c/allelefinder-0.2.7.tar.gz
+[2024-05-06 17:29:44] INFO root fetch - processPackages [AlleleFinder]: executing diffoscope
+[2024-05-06 17:29:44] INFO root fetch - processPackages [AlleleFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allelefinder-0.2.6.tar.gz tmp/allelefinder-0.2.7.tar.gz --markdown 20240506/A/AlleleFinder/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-06 17:29:44] INFO root fetch - processPackages [toycv]: Downloading https://files.pythonhosted.org/packages/10/28/83def78ee538d26e1efa062db59230d7e7632d5d19508381b9711f6fdc0f/toycv-0.3.2.tar.gz
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-pymoo]: Downloading https://files.pythonhosted.org/packages/f9/da/7ee539405258b01d3a3717facedd2506d05024bfb5cb43b9ba9dca999e02/ropt_pymoo-0.3.0.tar.gz
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-nomad]: Downloading https://files.pythonhosted.org/packages/75/26/b621547387cacef37e762b78c9fdb12de091ac553e0a324d9f1e67b49824/ropt_nomad-0.3.0.tar.gz
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-dakota]: Downloading https://files.pythonhosted.org/packages/53/0d/b3a2c3d8c7a821a0c40ae1def807f80e71c5846861e9467972afa9c461de/ropt_dakota-0.3.0.tar.gz
+[2024-05-06 17:29:44] INFO root fetch - processPackages [toycv]: executing diffoscope
+[2024-05-06 17:29:44] INFO root fetch - processPackages [toycv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toycv-0.2.0.tar.gz tmp/toycv-0.3.2.tar.gz --markdown 20240506/t/toycv/0.2.0-0.3.2/README.md --exclude *.pyd
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-pymoo]: executing diffoscope
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-pymoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt_pymoo-0.2.0.tar.gz tmp/ropt_pymoo-0.3.0.tar.gz --markdown 20240506/r/ropt-pymoo/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-nomad]: executing diffoscope
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt_nomad-0.2.1.tar.gz tmp/ropt_nomad-0.3.0.tar.gz --markdown 20240506/r/ropt-nomad/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-dakota]: executing diffoscope
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-dakota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt_dakota-0.2.0.tar.gz tmp/ropt_dakota-0.3.0.tar.gz --markdown 20240506/r/ropt-dakota/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-06 17:29:44] INFO root fetch - processPackages [AlleleFinder]: Remove: archive file [/home/abi/fetcher/tmp/allelefinder-0.2.6.tar.gz]
+[2024-05-06 17:29:44] INFO root fetch - processPackages [AlleleFinder]: Remove: archive file [/home/abi/fetcher/tmp/allelefinder-0.2.7.tar.gz]
+[2024-05-06 17:29:44] INFO root fetch - main [MainThread]: End processing [AlleleFinder]: success
+[2024-05-06 17:29:44] INFO root fetch - processPackages [toycv]: Remove: archive file [/home/abi/fetcher/tmp/toycv-0.2.0.tar.gz]
+[2024-05-06 17:29:44] INFO root fetch - processPackages [toycv]: Remove: archive file [/home/abi/fetcher/tmp/toycv-0.3.2.tar.gz]
+[2024-05-06 17:29:44] INFO root fetch - main [MainThread]: End processing [toycv]: success
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-nomad]: Remove: archive file [/home/abi/fetcher/tmp/ropt_nomad-0.2.1.tar.gz]
+[2024-05-06 17:29:44] INFO root fetch - processPackages [ropt-nomad]: Remove: archive file [/home/abi/fetcher/tmp/ropt_nomad-0.3.0.tar.gz]
+[2024-05-06 17:29:44] INFO root fetch - main [MainThread]: End processing [ropt-nomad]: success
+[2024-05-06 17:29:45] INFO root fetch - processPackages [ropt-dakota]: Remove: archive file [/home/abi/fetcher/tmp/ropt_dakota-0.2.0.tar.gz]
+[2024-05-06 17:29:45] INFO root fetch - processPackages [ropt-dakota]: Remove: archive file [/home/abi/fetcher/tmp/ropt_dakota-0.3.0.tar.gz]
+[2024-05-06 17:29:45] INFO root fetch - main [MainThread]: End processing [ropt-dakota]: success
+[2024-05-06 17:29:45] INFO root fetch - processPackages [ropt-pymoo]: Remove: archive file [/home/abi/fetcher/tmp/ropt_pymoo-0.2.0.tar.gz]
+[2024-05-06 17:29:45] INFO root fetch - processPackages [ropt-pymoo]: Remove: archive file [/home/abi/fetcher/tmp/ropt_pymoo-0.3.0.tar.gz]
+[2024-05-06 17:29:45] INFO root fetch - main [MainThread]: End processing [ropt-pymoo]: success
+[2024-05-06 17:29:45] INFO root fetch - main [MainThread]: Store serial: [23080006]
