@@ -8790,3 +8790,90 @@
 [2024-05-06 10:00:31] INFO root fetch - processPackages [trex-lib]: Remove: archive file [/home/abi/fetcher/tmp/trex-lib-1.1.0.tar.gz]
 [2024-05-06 10:00:31] INFO root fetch - main [MainThread]: End processing [trex-lib]: success
 [2024-05-06 10:00:31] INFO root fetch - main [MainThread]: Store serial: [23073357]
+[2024-05-06 10:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23073357]
+[2024-05-06 10:02:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-06 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transstellar
+[2024-05-06 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-captcha
+[2024-05-06 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gennet-forked
+[2024-05-06 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fenics-ffcx
+[2024-05-06 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-car
+[2024-05-06 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2024-05-06 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wah
+[2024-05-06 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-cat
+[2024-05-06 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-cbs
+[2024-05-06 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-ccc
+[2024-05-06 10:02:40] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 10:02:40] WARNING root fetch - processPackages [gennet-forked]: Skipping, unable to determine old version
+[2024-05-06 10:02:40] INFO root fetch - main [MainThread]: End processing [gennet-forked] error
+[2024-05-06 10:02:40] INFO root fetch - processPackages [transstellar]: New version: [2.0.0] Old Version: [1.5.0]
+[2024-05-06 10:02:40] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-06 10:02:40] INFO root fetch - processPackages [fenics-ffcx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-06 10:02:40] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:02:40] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:02:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:02:40] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-06 10:02:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:02:41] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/eb/86/a59982b7d886c07b35003bfcf7b61271b76d4a81ad367d3941b86210a328/transstellar-1.5.0.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:02:41] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [fenics-ffcx]: Downloading https://files.pythonhosted.org/packages/57/c5/63666711b2259652dfcd5642392858e1fa686bfc72f742f65d2aa4452a70/fenics-ffcx-0.7.0.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Downloading https://files.pythonhosted.org/packages/56/97/1c0589929a3174688c889854f9ee635d38da62e7522d4052f8a71151f909/tencentcloud-sdk-python-car-3.0.998.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: Downloading https://files.pythonhosted.org/packages/c9/d0/a11e62ab8df17bd63516accab218ab41231f5eaa008fc364f0ab9a79ebbc/tencentcloud-sdk-python-cat-3.0.998.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-06 10:02:41] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240506/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: Downloading https://files.pythonhosted.org/packages/00/14/8ca04ae0de9eecfbc489163f8218302dc3efd4403d36abfa63da20625698/tencentcloud-sdk-python-cbs-3.0.998.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Downloading https://files.pythonhosted.org/packages/ae/e6/7a9eb0c4db8fa547e907729443d6b3993a7fd2778ed144f2af07bbee6a70/tencentcloud-sdk-python-captcha-3.0.998.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: Downloading https://files.pythonhosted.org/packages/cd/a2/24ae9daaf633f8a14e1af8cd7ad3adffb9ed00e618f742f24b74a39d14c0/tencentcloud-sdk-python-ccc-3.0.998.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/54/da/21ffc7f9e230f0ccda43135ee8a96184e523396e7c2e439212b03f565d22/transstellar-2.0.0.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [fenics-ffcx]: Downloading https://files.pythonhosted.org/packages/96/af/80fd7c64a70a4b99684b6c29261a872950f19a158d02847780dc96409a93/fenics_ffcx-0.8.0.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Downloading https://files.pythonhosted.org/packages/93/01/2def16a7eab8df891bb5296d8f2326a7587a9c93f69477f6d35b5d5431fa/tencentcloud-sdk-python-car-3.0.999.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-06 10:02:41] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-1.5.0.tar.gz tmp/transstellar-2.0.0.tar.gz --markdown 20240506/t/transstellar/1.5.0-2.0.0/README.md --exclude *.pyd
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: Downloading https://files.pythonhosted.org/packages/46/36/934881cc70fa196a42c662f94ff037082607a4a596820806f811c849c012/tencentcloud-sdk-python-cbs-3.0.999.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Downloading https://files.pythonhosted.org/packages/88/bb/b879fd89d2cb6bbf8b0af4c7f29d8a15dca4711cb5a90cbc69000ac5a2c3/tencentcloud-sdk-python-captcha-3.0.999.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: Downloading https://files.pythonhosted.org/packages/87/bd/bca23d2b6f8b5e24b72edf2b0415c00088410a609b835d1f48af41529797/tencentcloud-sdk-python-cat-3.0.999.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: executing diffoscope
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-car-3.0.998.tar.gz tmp/tencentcloud-sdk-python-car-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-car/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:02:41] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-06 10:02:41] INFO root fetch - processPackages [fenics-ffcx]: executing diffoscope
+[2024-05-06 10:02:41] INFO root fetch - processPackages [fenics-ffcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenics-ffcx-0.7.0.tar.gz tmp/fenics_ffcx-0.8.0.tar.gz --markdown 20240506/f/fenics-ffcx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: executing diffoscope
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cbs-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cbs-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-cbs/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: executing diffoscope
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-captcha-3.0.998.tar.gz tmp/tencentcloud-sdk-python-captcha-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-captcha/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: Downloading https://files.pythonhosted.org/packages/94/7e/13226b9167ffe7ef5de0c2c3939f55efe645865becc0efcf8f1ae500d67d/tencentcloud-sdk-python-ccc-3.0.999.tar.gz
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: executing diffoscope
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cat-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cat-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-cat/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:02:41] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-06 10:02:41] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-06 10:02:41] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-06 10:02:41] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-06 10:02:41] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240506/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: executing diffoscope
+[2024-05-06 10:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ccc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ccc-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-ccc/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:02:42] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-1.5.0.tar.gz]
+[2024-05-06 10:02:42] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.0.0.tar.gz]
+[2024-05-06 10:02:42] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-06 10:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-car-3.0.998.tar.gz]
+[2024-05-06 10:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-car-3.0.999.tar.gz]
+[2024-05-06 10:02:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-car]: success
+[2024-05-06 10:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cbs-3.0.998.tar.gz]
+[2024-05-06 10:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cbs-3.0.999.tar.gz]
+[2024-05-06 10:02:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cbs]: success
+[2024-05-06 10:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-captcha-3.0.998.tar.gz]
+[2024-05-06 10:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-captcha-3.0.999.tar.gz]
+[2024-05-06 10:02:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-captcha]: success
+[2024-05-06 10:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cat-3.0.998.tar.gz]
+[2024-05-06 10:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cat]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cat-3.0.999.tar.gz]
+[2024-05-06 10:02:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cat]: success
+[2024-05-06 10:02:43] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ccc-3.0.998.tar.gz]
+[2024-05-06 10:02:43] INFO root fetch - processPackages [tencentcloud-sdk-python-ccc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ccc-3.0.999.tar.gz]
+[2024-05-06 10:02:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ccc]: success
+[2024-05-06 10:02:43] INFO root fetch - processPackages [fenics-ffcx]: Remove: archive file [/home/abi/fetcher/tmp/fenics-ffcx-0.7.0.tar.gz]
+[2024-05-06 10:02:43] INFO root fetch - processPackages [fenics-ffcx]: Remove: archive file [/home/abi/fetcher/tmp/fenics_ffcx-0.8.0.tar.gz]
+[2024-05-06 10:02:43] INFO root fetch - main [MainThread]: End processing [fenics-ffcx]: success
+[2024-05-06 10:02:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-06 10:02:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-06 10:02:44] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-06 10:02:44] INFO root fetch - main [MainThread]: Store serial: [23073389]
