@@ -1283,3 +1283,45 @@
 [2024-05-06 02:11:01] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405050010.tar.gz]
 [2024-05-06 02:11:01] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-05-06 02:11:01] INFO root fetch - main [MainThread]: Store serial: [23069987]
+[2024-05-06 02:13:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069987]
+[2024-05-06 02:13:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 02:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2024-05-06 02:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyCourrier
+[2024-05-06 02:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saraApi
+[2024-05-06 02:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-events-notify
+[2024-05-06 02:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rlsdk_python
+[2024-05-06 02:13:10] INFO root fetch - processPackages [rlsdk_python]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-06 02:13:10] INFO root fetch - processPackages [PyCourrier]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-06 02:13:10] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240505.post1139] Old Version: [1.5.0.20240504.post1041]
+[2024-05-06 02:13:10] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-06 02:13:10] WARNING root fetch - processPackages [saraApi]: Skipping, unable to determine old version
+[2024-05-06 02:13:10] INFO root fetch - main [MainThread]: End processing [saraApi] error
+[2024-05-06 02:13:10] INFO root fetch - processPackages [PyCourrier]: Downloading https://files.pythonhosted.org/packages/85/06/6739bfc19cf858c2d9da2a7fc1efb94dec027d3af198e630214b39a5171a/PyCourrier-0.1.6.tar.gz
+[2024-05-06 02:13:10] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/d8/59/fca2174c9c8c0bcae7d168a3e02e1f3716fe0dc79a049f2f8b14b152c597/mct-quantizers-nightly-1.5.0.20240504.post1041.tar.gz
+[2024-05-06 02:13:10] INFO root fetch - processPackages [rlsdk_python]: Downloading https://files.pythonhosted.org/packages/49/18/7c9265ed902c17e0db714327b4a79b492ddc68ce8a0b01af7c4e01041a19/rlsdk_python-0.4.0.tar.gz
+[2024-05-06 02:13:10] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-06 02:13:10] INFO root fetch - processPackages [PyCourrier]: Downloading https://files.pythonhosted.org/packages/55/e8/02316408c8ec3fa812144e6e835b1f39cab5b66ad58919e4ed21ee498797/PyCourrier-0.1.7.tar.gz
+[2024-05-06 02:13:10] INFO root fetch - processPackages [rlsdk_python]: Downloading https://files.pythonhosted.org/packages/20/ad/603a995642770f151925132fb59ccb7d06cef4326768cca9bd87113a3051/rlsdk_python-0.4.1.tar.gz
+[2024-05-06 02:13:10] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-06 02:13:10] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/47/43/ed52102f974db17dea9f5c74f9c655bcf6995f23940dadf1bb87eb9dd8ef/mct-quantizers-nightly-1.5.0.20240505.post1139.tar.gz
+[2024-05-06 02:13:10] INFO root fetch - processPackages [PyCourrier]: executing diffoscope
+[2024-05-06 02:13:10] INFO root fetch - processPackages [PyCourrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCourrier-0.1.6.tar.gz tmp/PyCourrier-0.1.7.tar.gz --markdown 20240506/P/PyCourrier/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-06 02:13:10] INFO root fetch - processPackages [rlsdk_python]: executing diffoscope
+[2024-05-06 02:13:10] INFO root fetch - processPackages [rlsdk_python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlsdk_python-0.4.0.tar.gz tmp/rlsdk_python-0.4.1.tar.gz --markdown 20240506/r/rlsdk_python/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-06 02:13:10] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-06 02:13:10] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240506/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-06 02:13:10] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-06 02:13:10] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240504.post1041.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240505.post1139.tar.gz --markdown 20240506/m/mct-quantizers-nightly/1.5.0.20240504.post1041-1.5.0.20240505.post1139/README.md --exclude *.pyd
+[2024-05-06 02:13:11] INFO root fetch - processPackages [rlsdk_python]: Remove: archive file [/home/abi/fetcher/tmp/rlsdk_python-0.4.0.tar.gz]
+[2024-05-06 02:13:11] INFO root fetch - processPackages [rlsdk_python]: Remove: archive file [/home/abi/fetcher/tmp/rlsdk_python-0.4.1.tar.gz]
+[2024-05-06 02:13:11] INFO root fetch - main [MainThread]: End processing [rlsdk_python]: success
+[2024-05-06 02:13:11] INFO root fetch - processPackages [PyCourrier]: Remove: archive file [/home/abi/fetcher/tmp/PyCourrier-0.1.6.tar.gz]
+[2024-05-06 02:13:11] INFO root fetch - processPackages [PyCourrier]: Remove: archive file [/home/abi/fetcher/tmp/PyCourrier-0.1.7.tar.gz]
+[2024-05-06 02:13:11] INFO root fetch - main [MainThread]: End processing [PyCourrier]: success
+[2024-05-06 02:13:11] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-06 02:13:11] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-06 02:13:11] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-06 02:13:11] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240504.post1041.tar.gz]
+[2024-05-06 02:13:11] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240505.post1139.tar.gz]
+[2024-05-06 02:13:11] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-06 02:13:11] INFO root fetch - main [MainThread]: Store serial: [23070005]
