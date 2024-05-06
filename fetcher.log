@@ -20274,3 +20274,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:33:05] INFO root fetch - processPackages [mindnlp]: Remove: archive file [/home/abi/fetcher/tmp/mindnlp-0.3.0-py3-none-any.whl.zip]
 [2024-05-06 15:33:05] INFO root fetch - main [MainThread]: End processing [mindnlp]: success
 [2024-05-06 15:33:05] INFO root fetch - main [MainThread]: Store serial: [23078367]
+[2024-05-06 15:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078367]
+[2024-05-06 15:35:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 15:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypersync-fuel
+[2024-05-06 15:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qase-python-commons
+[2024-05-06 15:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jgtpy
+[2024-05-06 15:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-delivery-procurement-group-carrier
+[2024-05-06 15:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tq42-grpc-client
+[2024-05-06 15:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imodelsx
+[2024-05-06 15:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neco-m3u8
+[2024-05-06 15:35:14] INFO root fetch - processPackages [neco-m3u8]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 15:35:14] INFO root fetch - processPackages [imodelsx]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-06 15:35:14] INFO root fetch - processPackages [qase-python-commons]: New version: [3.0.2b1] Old Version: [3.0.0]
+[2024-05-06 15:35:14] WARNING root fetch - processPackages [hypersync-fuel]: Skipping, unable to determine old version
+[2024-05-06 15:35:14] INFO root fetch - main [MainThread]: End processing [hypersync-fuel] error
+[2024-05-06 15:35:14] INFO root fetch - processPackages [odoo-addon-delivery-procurement-group-carrier]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.8]
+[2024-05-06 15:35:14] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-06 15:35:14] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/65/12/dd59410c413c37ca371424af7313aa14b871eccfed8becf8daaf849c7466/qase_python_commons-3.0.0.tar.gz
+[2024-05-06 15:35:14] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/5a/29/dddc185a4906fb8604f7051d39ebe8c746d21e76ea14efc0dcfd710b8f25/imodelsx-1.0.2.tar.gz
+[2024-05-06 15:35:14] INFO root fetch - processPackages [jgtpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-06 15:35:14] INFO root fetch - processPackages [neco-m3u8]: Downloading https://files.pythonhosted.org/packages/f8/37/01b73bf446774454d4bfa01da87cc23e7b299f974663797452b24d63d57d/neco_m3u8-0.0.1.tar.gz
+[2024-05-06 15:35:14] INFO root fetch - processPackages [odoo-addon-delivery-procurement-group-carrier]: Downloading https://files.pythonhosted.org/packages/d6/93/b2aaa15102dbca9f5bd6a0d7bca483c567beced1467efe8abc71c4f31248/odoo_addon_delivery_procurement_group_carrier-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-06 15:35:14] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-06 15:35:14] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/1f/92/b42cc2662ca68351b8b22def4eea64dcfcb1bb30f3e0bdbc076ebab4126d/qase_python_commons-3.0.2b1.tar.gz
+[2024-05-06 15:35:14] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/60/b5/888f160495ee80ba1657e52a606a803f54fbfa062fe5a4d1d58fd9dc9141/jgtpy-0.4.8.tar.gz
+[2024-05-06 15:35:15] INFO root fetch - processPackages [qase-python-commons]: executing diffoscope
+[2024-05-06 15:35:15] INFO root fetch - processPackages [qase-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase_python_commons-3.0.0.tar.gz tmp/qase_python_commons-3.0.2b1.tar.gz --markdown 20240506/q/qase-python-commons/3.0.0-3.0.2b1/README.md --exclude *.pyd
+[2024-05-06 15:35:15] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/51/1b/a09b02f27fc5c0ed6048353a69799a592226fe75f672f4ed1ef7b1af3859/imodelsx-1.0.3.tar.gz
+[2024-05-06 15:35:15] INFO root fetch - processPackages [neco-m3u8]: Downloading https://files.pythonhosted.org/packages/a9/0c/7f611a130bdc1023aa2562d5ded5a1c6da946cb51bba33f5e2a43ed11c90/neco_m3u8-0.0.2.tar.gz
+[2024-05-06 15:35:15] INFO root fetch - processPackages [imodelsx]: executing diffoscope
+[2024-05-06 15:35:15] INFO root fetch - processPackages [imodelsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imodelsx-1.0.2.tar.gz tmp/imodelsx-1.0.3.tar.gz --markdown 20240506/i/imodelsx/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-06 15:35:15] INFO root fetch - processPackages [odoo-addon-delivery-procurement-group-carrier]: Downloading https://files.pythonhosted.org/packages/ef/a0/63e4496e8054cec0f67fe34f26a11b2a1e86cc3ff3a0c7b86050ae62c62d/odoo_addon_delivery_procurement_group_carrier-16.0.1.1.0-py3-none-any.whl
+[2024-05-06 15:35:15] INFO root fetch - processPackages [neco-m3u8]: executing diffoscope
+[2024-05-06 15:35:15] INFO root fetch - processPackages [neco-m3u8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neco_m3u8-0.0.1.tar.gz tmp/neco_m3u8-0.0.2.tar.gz --markdown 20240506/n/neco-m3u8/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 15:35:15] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-06 15:35:15] INFO root fetch - processPackages [odoo-addon-delivery-procurement-group-carrier]: executing diffoscope
+[2024-05-06 15:35:15] INFO root fetch - processPackages [odoo-addon-delivery-procurement-group-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_procurement_group_carrier-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_delivery_procurement_group_carrier-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-delivery-procurement-group-carrier/16.0.1.0.0.8-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-06 15:35:15] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/c1/94/79cdcc286ed1c9578cc3d3b4b47d9da3326a5fdfa94ebc3ad80acf17eafa/jgtpy-0.4.9.tar.gz
+[2024-05-06 15:35:15] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-06 15:35:15] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240506/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-06 15:35:15] INFO root fetch - processPackages [jgtpy]: executing diffoscope
+[2024-05-06 15:35:15] INFO root fetch - processPackages [jgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtpy-0.4.8.tar.gz tmp/jgtpy-0.4.9.tar.gz --markdown 20240506/j/jgtpy/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-06 15:35:15] INFO root fetch - processPackages [neco-m3u8]: Remove: archive file [/home/abi/fetcher/tmp/neco_m3u8-0.0.1.tar.gz]
+[2024-05-06 15:35:15] INFO root fetch - processPackages [neco-m3u8]: Remove: archive file [/home/abi/fetcher/tmp/neco_m3u8-0.0.2.tar.gz]
+[2024-05-06 15:35:15] INFO root fetch - main [MainThread]: End processing [neco-m3u8]: success
+[2024-05-06 15:35:15] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.0.tar.gz]
+[2024-05-06 15:35:15] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.2b1.tar.gz]
+[2024-05-06 15:35:15] INFO root fetch - main [MainThread]: End processing [qase-python-commons]: success
+[2024-05-06 15:35:16] INFO root fetch - processPackages [odoo-addon-delivery-procurement-group-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_procurement_group_carrier-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-06 15:35:16] INFO root fetch - processPackages [odoo-addon-delivery-procurement-group-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_procurement_group_carrier-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-06 15:35:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-procurement-group-carrier]: success
+[2024-05-06 15:35:16] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-1.0.2.tar.gz]
+[2024-05-06 15:35:16] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-1.0.3.tar.gz]
+[2024-05-06 15:35:16] INFO root fetch - main [MainThread]: End processing [imodelsx]: success
+[2024-05-06 15:35:16] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.8.tar.gz]
+[2024-05-06 15:35:16] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
+[2024-05-06 15:35:16] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
+[2024-05-06 15:35:17] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-06 15:35:17] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-06 15:35:17] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-06 15:35:17] INFO root fetch - main [MainThread]: Store serial: [23078406]
