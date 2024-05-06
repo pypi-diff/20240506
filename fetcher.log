@@ -2661,3 +2661,27 @@
 [2024-05-06 04:07:30] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240505001.tar.gz]
 [2024-05-06 04:07:30] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
 [2024-05-06 04:07:30] INFO root fetch - main [MainThread]: Store serial: [23070576]
+[2024-05-06 04:09:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070576]
+[2024-05-06 04:09:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 04:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sql-lsp
+[2024-05-06 04:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-testplus
+[2024-05-06 04:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beanhub-import
+[2024-05-06 04:09:39] WARNING root fetch - processPackages [beanhub-import]: Skipping, unable to determine old version
+[2024-05-06 04:09:39] INFO root fetch - main [MainThread]: End processing [beanhub-import] error
+[2024-05-06 04:09:39] INFO root fetch - processPackages [sql-lsp]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-06 04:09:39] INFO root fetch - processPackages [sql-lsp]: Downloading https://files.pythonhosted.org/packages/ba/2b/d0689e0ca0e24c6e8e7e3e3e7f604accc40ff8597fe1ad32df91ef9103e7/sql_lsp-0.0.2.tar.gz
+[2024-05-06 04:09:40] INFO root fetch - processPackages [mojo-testplus]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-06 04:09:40] INFO root fetch - processPackages [sql-lsp]: Downloading https://files.pythonhosted.org/packages/14/f7/539e17af2dbf2bc22a3fee3257c4a97b74ce0b3cc7cde99bab58d1df7555/sql_lsp-0.0.3.tar.gz
+[2024-05-06 04:09:40] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/a5/fe/6ef403e4cd8937907cb1b6d2bfaee70af2ccb33355ae49346889ebd9d153/mojo_testplus-1.3.8.tar.gz
+[2024-05-06 04:09:40] INFO root fetch - processPackages [sql-lsp]: executing diffoscope
+[2024-05-06 04:09:40] INFO root fetch - processPackages [sql-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_lsp-0.0.2.tar.gz tmp/sql_lsp-0.0.3.tar.gz --markdown 20240506/s/sql-lsp/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-06 04:09:40] INFO root fetch - processPackages [sql-lsp]: Remove: archive file [/home/abi/fetcher/tmp/sql_lsp-0.0.2.tar.gz]
+[2024-05-06 04:09:40] INFO root fetch - processPackages [sql-lsp]: Remove: archive file [/home/abi/fetcher/tmp/sql_lsp-0.0.3.tar.gz]
+[2024-05-06 04:09:40] INFO root fetch - main [MainThread]: End processing [sql-lsp]: success
+[2024-05-06 04:09:42] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/a4/cd/894241650e47414136a3bf37ddbbef7907d3dc69c678f40c9716e3afbfd2/mojo_testplus-1.3.9.tar.gz
+[2024-05-06 04:09:43] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2024-05-06 04:09:43] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-1.3.8.tar.gz tmp/mojo_testplus-1.3.9.tar.gz --markdown 20240506/m/mojo-testplus/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-06 04:09:43] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.8.tar.gz]
+[2024-05-06 04:09:43] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.9.tar.gz]
+[2024-05-06 04:09:43] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2024-05-06 04:09:43] INFO root fetch - main [MainThread]: Store serial: [23070587]
