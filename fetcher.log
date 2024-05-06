@@ -23672,3 +23672,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:31:59] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
 [2024-05-06 17:31:59] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
 [2024-05-06 17:31:59] INFO root fetch - main [MainThread]: Store serial: [23080010]
+[2024-05-06 17:34:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23080010]
+[2024-05-06 17:34:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 17:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phenom-xfel
+[2024-05-06 17:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eliasliu
+[2024-05-06 17:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docx2latex
+[2024-05-06 17:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-node-binding
+[2024-05-06 17:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shapash
+[2024-05-06 17:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jgtpy
+[2024-05-06 17:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mini-ipfabric
+[2024-05-06 17:34:08] INFO root fetch - processPackages [phenom-xfel]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-05-06 17:34:08] INFO root fetch - processPackages [jgtpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-06 17:34:08] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1252] Old Version: [3.0.3.post1251]
+[2024-05-06 17:34:08] INFO root fetch - processPackages [eliasliu]: New version: [0.1.53] Old Version: [0.1.52]
+[2024-05-06 17:34:08] INFO root fetch - processPackages [phenom-xfel]: Downloading https://files.pythonhosted.org/packages/55/67/6ae4f5ee6c368cf9db86f8548d30b960d83cfa9afc2add5bdfc204ae134c/phenom_xfel-0.0.8.tar.gz
+[2024-05-06 17:34:08] INFO root fetch - processPackages [docx2latex]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 17:34:08] INFO root fetch - processPackages [mini-ipfabric]: New version: [6.8.0] Old Version: [6.7.2]
+[2024-05-06 17:34:08] INFO root fetch - processPackages [shapash]: New version: [2.5.0] Old Version: [2.4.3]
+[2024-05-06 17:34:08] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/ee/ea/20826fa9c9b1a6195df365422310d77547291739589c3fdde0fbc29bacfd/nucliadb_node_binding-3.0.3.post1251.tar.gz
+[2024-05-06 17:34:08] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/60/b5/888f160495ee80ba1657e52a606a803f54fbfa062fe5a4d1d58fd9dc9141/jgtpy-0.4.8.tar.gz
+[2024-05-06 17:34:08] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/8d/d7/303298f580653785d0095dccefcaf936687e03142c6b624536f7f09ccb0a/eliasliu-0.1.52.tar.gz
+[2024-05-06 17:34:08] INFO root fetch - processPackages [shapash]: Downloading https://files.pythonhosted.org/packages/8c/31/942bf8da0c44effae9116ec221950a7ad5cd25e656ade95c1935f1c1b1f1/shapash-2.4.3.tar.gz
+[2024-05-06 17:34:08] INFO root fetch - processPackages [docx2latex]: Downloading https://files.pythonhosted.org/packages/35/d4/1c0e7b93d7c50731df06713a01fdc5d5c0c794932eb5149c8b3a450c1217/docx2latex-0.0.3-py3-none-any.whl
+[2024-05-06 17:34:08] INFO root fetch - processPackages [phenom-xfel]: Downloading https://files.pythonhosted.org/packages/8d/97/cb13e6cfbdd00f185d6835319ad059be30cf989540b6996ceddecdce4c8b/phenom_xfel-0.1.0.tar.gz
+[2024-05-06 17:34:08] INFO root fetch - processPackages [mini-ipfabric]: Downloading https://files.pythonhosted.org/packages/19/56/c6e9f356df2a0fd615727c54bd69c1cdce0734772c8f088512d30070ecfe/mini_ipfabric-6.7.2.tar.gz
+[2024-05-06 17:34:08] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/c1/94/79cdcc286ed1c9578cc3d3b4b47d9da3326a5fdfa94ebc3ad80acf17eafa/jgtpy-0.4.9.tar.gz
+[2024-05-06 17:34:08] INFO root fetch - processPackages [phenom-xfel]: executing diffoscope
+[2024-05-06 17:34:08] INFO root fetch - processPackages [phenom-xfel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenom_xfel-0.0.8.tar.gz tmp/phenom_xfel-0.1.0.tar.gz --markdown 20240506/p/phenom-xfel/0.0.8-0.1.0/README.md --exclude *.pyd
+[2024-05-06 17:34:08] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/b9/f6/67d43759a9e33947bb85e7c711197fe2ad5a14f3ba376c23ad5639dd6d4c/nucliadb_node_binding-3.0.3.post1252.tar.gz
+[2024-05-06 17:34:08] INFO root fetch - processPackages [jgtpy]: executing diffoscope
+[2024-05-06 17:34:08] INFO root fetch - processPackages [jgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtpy-0.4.8.tar.gz tmp/jgtpy-0.4.9.tar.gz --markdown 20240506/j/jgtpy/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-06 17:34:08] INFO root fetch - processPackages [docx2latex]: Downloading https://files.pythonhosted.org/packages/9e/41/0623a6a9d46349edfe8be4d397e5463182e8d2950fa76bcfbd1818a0e45c/docx2latex-0.0.4-py3-none-any.whl
+[2024-05-06 17:34:09] INFO root fetch - processPackages [shapash]: Downloading https://files.pythonhosted.org/packages/40/1c/78a04fd1e8b7d82b6a2f19751e55b024bc0874dff970cb8f238d70de7493/shapash-2.5.0.tar.gz
+[2024-05-06 17:34:09] INFO root fetch - processPackages [docx2latex]: executing diffoscope
+[2024-05-06 17:34:09] INFO root fetch - processPackages [docx2latex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx2latex-0.0.3-py3-none-any.whl.zip tmp/docx2latex-0.0.4-py3-none-any.whl.zip --markdown 20240506/d/docx2latex/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 17:34:09] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/d9/15/42801fd85c961f0a299caa56e8d981eb45bffe4a5f5108739717d1dfa30f/eliasliu-0.1.53.tar.gz
+[2024-05-06 17:34:09] INFO root fetch - processPackages [mini-ipfabric]: Downloading https://files.pythonhosted.org/packages/c2/d9/4e80d40315b72d1aafe6ad057c91fe735a9238de9eb2dc27416d59edcff8/mini_ipfabric-6.8.0.tar.gz
+[2024-05-06 17:34:09] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-06 17:34:09] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1251.tar.gz tmp/nucliadb_node_binding-3.0.3.post1252.tar.gz --markdown 20240506/n/nucliadb-node-binding/3.0.3.post1251-3.0.3.post1252/README.md --exclude *.pyd
+[2024-05-06 17:34:09] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-06 17:34:09] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.52.tar.gz tmp/eliasliu-0.1.53.tar.gz --markdown 20240506/e/eliasliu/0.1.52-0.1.53/README.md --exclude *.pyd
+[2024-05-06 17:34:09] INFO root fetch - processPackages [mini-ipfabric]: executing diffoscope
+[2024-05-06 17:34:09] INFO root fetch - processPackages [mini-ipfabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_ipfabric-6.7.2.tar.gz tmp/mini_ipfabric-6.8.0.tar.gz --markdown 20240506/m/mini-ipfabric/6.7.2-6.8.0/README.md --exclude *.pyd
+[2024-05-06 17:34:09] INFO root fetch - processPackages [shapash]: executing diffoscope
+[2024-05-06 17:34:09] INFO root fetch - processPackages [shapash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapash-2.4.3.tar.gz tmp/shapash-2.5.0.tar.gz --markdown 20240506/s/shapash/2.4.3-2.5.0/README.md --exclude *.pyd
+[2024-05-06 17:34:09] INFO root fetch - processPackages [phenom-xfel]: Remove: archive file [/home/abi/fetcher/tmp/phenom_xfel-0.0.8.tar.gz]
+[2024-05-06 17:34:09] INFO root fetch - processPackages [phenom-xfel]: Remove: archive file [/home/abi/fetcher/tmp/phenom_xfel-0.1.0.tar.gz]
+[2024-05-06 17:34:09] INFO root fetch - main [MainThread]: End processing [phenom-xfel]: success
+[2024-05-06 17:34:09] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.8.tar.gz]
+[2024-05-06 17:34:09] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
+[2024-05-06 17:34:09] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
+[2024-05-06 17:34:09] INFO root fetch - processPackages [docx2latex]: Remove: archive file [/home/abi/fetcher/tmp/docx2latex-0.0.3-py3-none-any.whl.zip]
+[2024-05-06 17:34:09] INFO root fetch - processPackages [docx2latex]: Remove: archive file [/home/abi/fetcher/tmp/docx2latex-0.0.4-py3-none-any.whl.zip]
+[2024-05-06 17:34:09] INFO root fetch - main [MainThread]: End processing [docx2latex]: success
+[2024-05-06 17:34:09] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.52.tar.gz]
+[2024-05-06 17:34:09] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.53.tar.gz]
+[2024-05-06 17:34:10] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-06 17:34:10] INFO root fetch - processPackages [mini-ipfabric]: Remove: archive file [/home/abi/fetcher/tmp/mini_ipfabric-6.7.2.tar.gz]
+[2024-05-06 17:34:10] INFO root fetch - processPackages [mini-ipfabric]: Remove: archive file [/home/abi/fetcher/tmp/mini_ipfabric-6.8.0.tar.gz]
+[2024-05-06 17:34:10] INFO root fetch - main [MainThread]: End processing [mini-ipfabric]: success
+[2024-05-06 17:34:10] INFO root fetch - processPackages [shapash]: Remove: archive file [/home/abi/fetcher/tmp/shapash-2.4.3.tar.gz]
+[2024-05-06 17:34:10] INFO root fetch - processPackages [shapash]: Remove: archive file [/home/abi/fetcher/tmp/shapash-2.5.0.tar.gz]
+[2024-05-06 17:34:10] INFO root fetch - main [MainThread]: End processing [shapash]: success
+[2024-05-06 17:34:10] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1251.tar.gz]
+[2024-05-06 17:34:10] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1252.tar.gz]
+[2024-05-06 17:34:10] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-06 17:34:10] INFO root fetch - main [MainThread]: Store serial: [23080046]
