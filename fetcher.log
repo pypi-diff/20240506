@@ -1670,3 +1670,29 @@
 [2024-05-06 02:39:10] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
 [2024-05-06 02:39:10] INFO root fetch - main [MainThread]: End processing [neurosym]: success
 [2024-05-06 02:39:10] INFO root fetch - main [MainThread]: Store serial: [23070203]
+[2024-05-06 02:41:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070203]
+[2024-05-06 02:41:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 02:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marketorestpython
+[2024-05-06 02:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grib2io
+[2024-05-06 02:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beancount-parser
+[2024-05-06 02:41:18] INFO root fetch - processPackages [beancount-parser]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-06 02:41:18] INFO root fetch - processPackages [beancount-parser]: Downloading https://files.pythonhosted.org/packages/92/ae/640c98ef62e43ac1cb3a25c76a39fb306534893b7ed8da6f7386c691eb3a/beancount_parser-1.0.1.tar.gz
+[2024-05-06 02:41:18] INFO root fetch - processPackages [marketorestpython]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-06 02:41:18] INFO root fetch - processPackages [grib2io]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-06 02:41:18] INFO root fetch - processPackages [grib2io]: Downloading https://files.pythonhosted.org/packages/e7/50/02f94284e41794eefbab33b2ea43bca1e9079f2bc98246808d56989769ca/grib2io-2.2.1.tar.gz
+[2024-05-06 02:41:18] INFO root fetch - processPackages [marketorestpython]: Downloading https://files.pythonhosted.org/packages/77/0c/31446948e7a5194f1cb38cdc23d1d6dd4ce029e950b145e812f93427f106/marketorestpython-0.5.8.tar.gz
+[2024-05-06 02:41:18] WARNING root fetch - processPackages [grib2io]: Skipping package: exceeds size limit 46652723>=10485760
+[2024-05-06 02:41:18] INFO root fetch - main [MainThread]: End processing [grib2io] error
+[2024-05-06 02:41:18] INFO root fetch - processPackages [beancount-parser]: Downloading https://files.pythonhosted.org/packages/7a/43/ccb741bdc8bde1dabfd9cf692a865a176a241e8ecb3b4f4b87bb282a92aa/beancount_parser-1.1.0.tar.gz
+[2024-05-06 02:41:19] INFO root fetch - processPackages [beancount-parser]: executing diffoscope
+[2024-05-06 02:41:19] INFO root fetch - processPackages [beancount-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beancount_parser-1.0.1.tar.gz tmp/beancount_parser-1.1.0.tar.gz --markdown 20240506/b/beancount-parser/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-06 02:41:19] INFO root fetch - processPackages [marketorestpython]: Downloading https://files.pythonhosted.org/packages/5b/73/35b80f549e55d00b43c565692642c07946fc844988b6999516c9a3be1eb0/marketorestpython-0.5.9.tar.gz
+[2024-05-06 02:41:19] INFO root fetch - processPackages [marketorestpython]: executing diffoscope
+[2024-05-06 02:41:19] INFO root fetch - processPackages [marketorestpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketorestpython-0.5.8.tar.gz tmp/marketorestpython-0.5.9.tar.gz --markdown 20240506/m/marketorestpython/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-06 02:41:19] INFO root fetch - processPackages [beancount-parser]: Remove: archive file [/home/abi/fetcher/tmp/beancount_parser-1.0.1.tar.gz]
+[2024-05-06 02:41:19] INFO root fetch - processPackages [beancount-parser]: Remove: archive file [/home/abi/fetcher/tmp/beancount_parser-1.1.0.tar.gz]
+[2024-05-06 02:41:19] INFO root fetch - main [MainThread]: End processing [beancount-parser]: success
+[2024-05-06 02:41:19] INFO root fetch - processPackages [marketorestpython]: Remove: archive file [/home/abi/fetcher/tmp/marketorestpython-0.5.8.tar.gz]
+[2024-05-06 02:41:19] INFO root fetch - processPackages [marketorestpython]: Remove: archive file [/home/abi/fetcher/tmp/marketorestpython-0.5.9.tar.gz]
+[2024-05-06 02:41:19] INFO root fetch - main [MainThread]: End processing [marketorestpython]: success
+[2024-05-06 02:41:19] INFO root fetch - main [MainThread]: Store serial: [23070210]
