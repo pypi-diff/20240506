@@ -15354,3 +15354,52 @@
 [2024-05-06 12:18:03] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-1.2.8.tar.gz]
 [2024-05-06 12:18:03] INFO root fetch - main [MainThread]: End processing [YMS]: success
 [2024-05-06 12:18:03] INFO root fetch - main [MainThread]: Store serial: [23075962]
+[2024-05-06 12:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075962]
+[2024-05-06 12:20:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 12:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lesscode-utils
+[2024-05-06 12:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PypiInstruments
+[2024-05-06 12:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ff-hidden-species2pg
+[2024-05-06 12:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PypiInstruments
+[2024-05-06 12:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: firebolt-sdk
+[2024-05-06 12:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nostr-dvm
+[2024-05-06 12:20:12] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 12:20:12] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 12:20:12] WARNING root fetch - processPackages [ff-hidden-species2pg]: Skipping, unable to determine old version
+[2024-05-06 12:20:12] INFO root fetch - main [MainThread]: End processing [ff-hidden-species2pg] error
+[2024-05-06 12:20:12] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 12:20:12] INFO root fetch - processPackages [firebolt-sdk]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-06 12:20:12] INFO root fetch - processPackages [nostr-dvm]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-06 12:20:12] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/ca/0a/85088721f6d8f7d425e337b0f6dddc4e7dfe2b5da7b4b05cc2765b25aa8c/PypiInstruments-1.0.0.tar.gz
+[2024-05-06 12:20:12] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/ca/0a/85088721f6d8f7d425e337b0f6dddc4e7dfe2b5da7b4b05cc2765b25aa8c/PypiInstruments-1.0.0.tar.gz
+[2024-05-06 12:20:12] INFO root fetch - processPackages [firebolt-sdk]: Downloading https://files.pythonhosted.org/packages/3b/3a/264d5ee4342604c0bffd8109b86f94cbb3f186c32309ce61da54a87f50f2/firebolt_sdk-1.4.2.tar.gz
+[2024-05-06 12:20:12] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/f6/0c/2674b4b125ed692da753914dfb77b1585abef09ecc652e664392f26b82d6/lesscode_utils-0.0.8.tar.gz
+[2024-05-06 12:20:12] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/0c/ef/a7dad21fa5e75affc78ad80caa9e69899582f657f5f395f4b0e155533c2b/nostr_dvm-0.3.4.tar.gz
+[2024-05-06 12:20:13] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/18/d3/358edac546deaa17e9ee2ab646113f7066f51f151db752f5f53e68011f51/PypiInstruments-1.0.1.tar.gz
+[2024-05-06 12:20:13] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/18/d3/358edac546deaa17e9ee2ab646113f7066f51f151db752f5f53e68011f51/PypiInstruments-1.0.1.tar.gz
+[2024-05-06 12:20:13] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/33/18/19e52405cc5fc9c1ab4d864d3d5a6ecf33b5b23b205942b41e621aef413d/nostr_dvm-0.3.5.tar.gz
+[2024-05-06 12:20:13] INFO root fetch - processPackages [firebolt-sdk]: Downloading https://files.pythonhosted.org/packages/ca/e3/2e1683cb1a0de0cdfbc2601bcb94c8b274c2eaff7c7962d66e038841d68b/firebolt_sdk-1.4.3.tar.gz
+[2024-05-06 12:20:13] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-06 12:20:13] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.0.tar.gz tmp/PypiInstruments-1.0.1.tar.gz --markdown 20240506/P/PypiInstruments/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 12:20:13] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-06 12:20:13] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.0.tar.gz tmp/PypiInstruments-1.0.1.tar.gz --markdown 20240506/P/PypiInstruments/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 12:20:13] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/bc/9a/1d07f1121fb39c72396bc71511135f407e314dc626a3fb88ff75f1827718/lesscode_utils-0.0.9.tar.gz
+[2024-05-06 12:20:13] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-05-06 12:20:13] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_dvm-0.3.4.tar.gz tmp/nostr_dvm-0.3.5.tar.gz --markdown 20240506/n/nostr-dvm/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-06 12:20:13] INFO root fetch - processPackages [firebolt-sdk]: executing diffoscope
+[2024-05-06 12:20:13] INFO root fetch - processPackages [firebolt-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebolt_sdk-1.4.2.tar.gz tmp/firebolt_sdk-1.4.3.tar.gz --markdown 20240506/f/firebolt-sdk/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-06 12:20:13] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2024-05-06 12:20:13] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.8.tar.gz tmp/lesscode_utils-0.0.9.tar.gz --markdown 20240506/l/lesscode-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 12:20:13] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.0.tar.gz]
+[2024-05-06 12:20:13] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.1.tar.gz]
+[2024-05-06 12:20:13] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-06 12:20:14] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-06 12:20:14] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.8.tar.gz]
+[2024-05-06 12:20:14] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.9.tar.gz]
+[2024-05-06 12:20:14] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2024-05-06 12:20:14] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.3.4.tar.gz]
+[2024-05-06 12:20:14] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.3.5.tar.gz]
+[2024-05-06 12:20:14] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-05-06 12:20:14] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-1.4.2.tar.gz]
+[2024-05-06 12:20:14] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-1.4.3.tar.gz]
+[2024-05-06 12:20:14] INFO root fetch - main [MainThread]: End processing [firebolt-sdk]: success
+[2024-05-06 12:20:14] INFO root fetch - main [MainThread]: Store serial: [23075984]
