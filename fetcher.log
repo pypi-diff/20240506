@@ -1438,3 +1438,56 @@
 [2024-05-06 02:19:41] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.99.tar.gz]
 [2024-05-06 02:19:41] INFO root fetch - main [MainThread]: End processing [low-cost-ecs]: success
 [2024-05-06 02:19:41] INFO root fetch - main [MainThread]: Store serial: [23070066]
+[2024-05-06 02:21:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070066]
+[2024-05-06 02:21:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 02:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: low-cost-ecs
+[2024-05-06 02:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-cr-constructs
+[2024-05-06 02:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pn532pi
+[2024-05-06 02:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2024-05-06 02:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: o7cli
+[2024-05-06 02:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: morphdb-utils
+[2024-05-06 02:21:49] INFO root fetch - processPackages [o7cli]: New version: [0.1.95] Old Version: [0.1.85]
+[2024-05-06 02:21:49] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 02:21:49] INFO root fetch - processPackages [low-cost-ecs]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-06 02:21:50] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.446] Old Version: [2.1.445]
+[2024-05-06 02:21:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-06 02:21:50] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/e6/c8/fa123ed233e8206fe656664743eb3d51ac4636d89c2abdc192eb4cec74fe/low-cost-ecs-0.0.98.tar.gz
+[2024-05-06 02:21:50] INFO root fetch - processPackages [o7cli]: Downloading https://files.pythonhosted.org/packages/5c/88/e6bd77d53a3cc8fc650b95dec3450386a753b6d8792d54f5b684657cf340/o7cli-0.1.85-py3-none-any.whl
+[2024-05-06 02:21:50] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-05-06 02:21:50] INFO root fetch - processPackages [pn532pi]: New version: [1.6] Old Version: [1.5]
+[2024-05-06 02:21:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-06 02:21:50] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/f9/01/3095ec3f871f136ddac8281c4bfc38fe8c31392f52ca4b19fa64de838f5d/cdk-cr-constructs-2.1.445.tar.gz
+[2024-05-06 02:21:50] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15192975>=10485760
+[2024-05-06 02:21:50] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-06 02:21:50] INFO root fetch - processPackages [pn532pi]: Downloading https://files.pythonhosted.org/packages/9e/57/62ab7d23708f4a9e6c5365cafb4b48156f83a65fe38e617ce985ce42d9e4/pn532pi-1.5.tar.gz
+[2024-05-06 02:21:50] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-05-06 02:21:50] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/69/68/92afff1c75cea5f1f28ad173f44b74991debb8dad36acd7e4fe4faf59364/low-cost-ecs-0.0.99.tar.gz
+[2024-05-06 02:21:50] INFO root fetch - processPackages [o7cli]: Downloading https://files.pythonhosted.org/packages/2d/74/c8d8a45daa5e8e20a8537bf973d1999b2acfbf156402ac817e841111ffde/o7cli-0.1.95-py3-none-any.whl
+[2024-05-06 02:21:50] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-05-06 02:21:50] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240506/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 02:21:50] INFO root fetch - processPackages [low-cost-ecs]: executing diffoscope
+[2024-05-06 02:21:50] INFO root fetch - processPackages [low-cost-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/low-cost-ecs-0.0.98.tar.gz tmp/low-cost-ecs-0.0.99.tar.gz --markdown 20240506/l/low-cost-ecs/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-06 02:21:50] INFO root fetch - processPackages [o7cli]: executing diffoscope
+[2024-05-06 02:21:50] INFO root fetch - processPackages [o7cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/o7cli-0.1.85-py3-none-any.whl.zip tmp/o7cli-0.1.95-py3-none-any.whl.zip --markdown 20240506/o/o7cli/0.1.85-0.1.95/README.md --exclude *.pyd
+[2024-05-06 02:21:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-06 02:21:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-06 02:21:50] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240506/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-06 02:21:50] INFO root fetch - processPackages [pn532pi]: Downloading https://files.pythonhosted.org/packages/ee/ee/21e46632446e681fbaf3594d1871ef33fe5f71f168668ab61362b61b4305/pn532pi-1.6.tar.gz
+[2024-05-06 02:21:50] INFO root fetch - processPackages [pn532pi]: executing diffoscope
+[2024-05-06 02:21:50] INFO root fetch - processPackages [pn532pi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pn532pi-1.5.tar.gz tmp/pn532pi-1.6.tar.gz --markdown 20240506/p/pn532pi/1.5-1.6/README.md --exclude *.pyd
+[2024-05-06 02:21:51] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-05-06 02:21:51] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-05-06 02:21:51] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-05-06 02:21:51] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.98.tar.gz]
+[2024-05-06 02:21:51] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.99.tar.gz]
+[2024-05-06 02:21:51] INFO root fetch - main [MainThread]: End processing [low-cost-ecs]: success
+[2024-05-06 02:21:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-06 02:21:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-06 02:21:51] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-06 02:21:51] INFO root fetch - processPackages [o7cli]: Remove: archive file [/home/abi/fetcher/tmp/o7cli-0.1.85-py3-none-any.whl.zip]
+[2024-05-06 02:21:51] INFO root fetch - processPackages [o7cli]: Remove: archive file [/home/abi/fetcher/tmp/o7cli-0.1.95-py3-none-any.whl.zip]
+[2024-05-06 02:21:51] INFO root fetch - main [MainThread]: End processing [o7cli]: success
+[2024-05-06 02:21:51] INFO root fetch - processPackages [pn532pi]: Remove: archive file [/home/abi/fetcher/tmp/pn532pi-1.5.tar.gz]
+[2024-05-06 02:21:51] INFO root fetch - processPackages [pn532pi]: Remove: archive file [/home/abi/fetcher/tmp/pn532pi-1.6.tar.gz]
+[2024-05-06 02:21:51] INFO root fetch - main [MainThread]: End processing [pn532pi]: success
+[2024-05-06 02:21:51] INFO root fetch - main [MainThread]: Store serial: [23070083]
