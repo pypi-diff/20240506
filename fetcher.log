@@ -15927,3 +15927,96 @@
 [2024-05-06 12:44:32] INFO root fetch - processPackages [ansys-meshing-prime]: Remove: archive file [/home/abi/fetcher/tmp/ansys_meshing_prime-0.6.0.dev9.tar.gz]
 [2024-05-06 12:44:32] INFO root fetch - main [MainThread]: End processing [ansys-meshing-prime]: success
 [2024-05-06 12:44:32] INFO root fetch - main [MainThread]: Store serial: [23076203]
+[2024-05-06 12:46:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076203]
+[2024-05-06 12:46:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-06 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usso
+[2024-05-06 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titandevice
+[2024-05-06 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: revert-api
+[2024-05-06 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-autogen
+[2024-05-06 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-crewai
+[2024-05-06 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deprogressapi
+[2024-05-06 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-julep
+[2024-05-06 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-langchain
+[2024-05-06 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-lyzr
+[2024-05-06 12:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-openai
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 12:46:43] INFO root fetch - processPackages [usso]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-openai]: New version: [0.2.48] Old Version: [0.2.47]
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-julep]: New version: [0.2.48] Old Version: [0.2.47]
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 12:46:43] INFO root fetch - processPackages [titandevice]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-06 12:46:43] INFO root fetch - processPackages [deprogressapi]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-06 12:46:43] INFO root fetch - processPackages [revert-api]: New version: [0.0.922] Old Version: [0.0.861]
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-05-06 12:46:43] INFO root fetch - processPackages [usso]: Downloading https://files.pythonhosted.org/packages/cc/f2/15d6c842668e6121680e844161b216bc14eb9e4e42e6ee8a9871ed153b80/usso-0.6.0.tar.gz
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/3a/8c/4f5d5e88f7bf971c63374eafe586197889cb9263121994419817cc489f17/composio_julep-0.2.47.tar.gz
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-05-06 12:46:43] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/70/45/afe7c02e388e3715559853a3e526ef91c70e13f67ced7a5300eba58e387a/composio_openai-0.2.47.tar.gz
+[2024-05-06 12:46:43] INFO root fetch - processPackages [deprogressapi]: Downloading https://files.pythonhosted.org/packages/96/54/e907235ecfa64ea865f086ca30f23cec6847a9f5873d3d60d4c1574e8316/deprogressapi-0.4.0.tar.gz
+[2024-05-06 12:46:43] INFO root fetch - processPackages [titandevice]: Downloading https://files.pythonhosted.org/packages/14/48/cc3a791d53a021dec56fb86725270a3d5157617f1c719086a6a004057feb/titandevice-0.3.8.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [revert-api]: Downloading https://files.pythonhosted.org/packages/24/ef/7bf4d340bbf171a5282b43b365cead6e2be2bc0d273e1d23aa3019c49fc5/revert_api-0.0.861.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/b0/99/cdd2bbaa7abccac08cc58c624752e72e3c4f39a66e51a0ff34689a461dd5/composio_julep-0.2.48.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [usso]: Downloading https://files.pythonhosted.org/packages/77/80/a55da2441d6c2ba5e9112ad5486f7269a8d4dff64cd10630dd0d59fcb04f/usso-0.7.0.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/0d/e7/9f863c6ec26306b8500655ca6a80ebd38e7a5d48c76f915ce99aef1c0a52/composio_openai-0.2.48.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [titandevice]: Downloading https://files.pythonhosted.org/packages/d4/3f/4ed2ed04be61f5c6770bbf985fb86afe7cee1984aa25a5a94252294e8bee/titandevice-0.3.9.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [deprogressapi]: Downloading https://files.pythonhosted.org/packages/df/c6/36c1fa20d7b6ae5a24fd6dfd17267e6cb6e8df6651c029edbd0c7295a592/deprogressapi-0.4.1.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [revert-api]: Downloading https://files.pythonhosted.org/packages/4d/54/ce98880a65b1a10eb37e6e333a64f07268093b0e0f10a83c1898a1f896d1/revert_api-0.0.922.tar.gz
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240506/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-julep]: executing diffoscope
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_julep-0.2.47.tar.gz tmp/composio_julep-0.2.48.tar.gz --markdown 20240506/c/composio-julep/0.2.47-0.2.48/README.md --exclude *.pyd
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240506/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240506/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 12:46:44] INFO root fetch - processPackages [usso]: executing diffoscope
+[2024-05-06 12:46:44] INFO root fetch - processPackages [usso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usso-0.6.0.tar.gz tmp/usso-0.7.0.tar.gz --markdown 20240506/u/usso/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240506/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-openai]: executing diffoscope
+[2024-05-06 12:46:44] INFO root fetch - processPackages [composio-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_openai-0.2.47.tar.gz tmp/composio_openai-0.2.48.tar.gz --markdown 20240506/c/composio-openai/0.2.47-0.2.48/README.md --exclude *.pyd
+[2024-05-06 12:46:44] INFO root fetch - processPackages [titandevice]: executing diffoscope
+[2024-05-06 12:46:44] INFO root fetch - processPackages [titandevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titandevice-0.3.8.tar.gz tmp/titandevice-0.3.9.tar.gz --markdown 20240506/t/titandevice/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-06 12:46:44] INFO root fetch - processPackages [revert-api]: executing diffoscope
+[2024-05-06 12:46:44] INFO root fetch - processPackages [revert-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revert_api-0.0.861.tar.gz tmp/revert_api-0.0.922.tar.gz --markdown 20240506/r/revert-api/0.0.861-0.0.922/README.md --exclude *.pyd
+[2024-05-06 12:46:44] INFO root fetch - processPackages [deprogressapi]: executing diffoscope
+[2024-05-06 12:46:44] INFO root fetch - processPackages [deprogressapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprogressapi-0.4.0.tar.gz tmp/deprogressapi-0.4.1.tar.gz --markdown 20240506/d/deprogressapi/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-06 12:46:46] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.3.8.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.3.9.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - main [MainThread]: End processing [titandevice]: success
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.47.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.48.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - processPackages [deprogressapi]: Remove: archive file [/home/abi/fetcher/tmp/deprogressapi-0.4.0.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - processPackages [deprogressapi]: Remove: archive file [/home/abi/fetcher/tmp/deprogressapi-0.4.1.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-06 12:46:46] INFO root fetch - main [MainThread]: End processing [deprogressapi]: success
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.47.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.48.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - main [MainThread]: End processing [composio-julep]: success
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-05-06 12:46:46] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.6.0.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.7.0.tar.gz]
+[2024-05-06 12:46:46] INFO root fetch - main [MainThread]: End processing [usso]: success
+[2024-05-06 12:46:47] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.861.tar.gz]
+[2024-05-06 12:46:47] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.922.tar.gz]
+[2024-05-06 12:46:47] INFO root fetch - main [MainThread]: End processing [revert-api]: success
+[2024-05-06 12:46:47] INFO root fetch - main [MainThread]: Store serial: [23076240]
