@@ -5401,3 +5401,59 @@
 [2024-05-06 07:08:27] INFO root fetch - processPackages [autoai-libs]: Remove: archive file [/home/abi/fetcher/tmp/autoai_libs-2.0.2-4-cp311-cp311-win_amd64.whl.zip]
 [2024-05-06 07:08:27] INFO root fetch - main [MainThread]: End processing [autoai-libs]: success
 [2024-05-06 07:08:27] INFO root fetch - main [MainThread]: Store serial: [23071787]
+[2024-05-06 07:10:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071787]
+[2024-05-06 07:10:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 07:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoai-ts-libs
+[2024-05-06 07:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkscreener
+[2024-05-06 07:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-standardized-response
+[2024-05-06 07:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agixtsdk
+[2024-05-06 07:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ncmlistdownloader
+[2024-05-06 07:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UtilsRL
+[2024-05-06 07:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zern
+[2024-05-06 07:10:36] WARNING root fetch - processPackages [drf-standardized-response]: Skipping, unable to determine old version
+[2024-05-06 07:10:36] INFO root fetch - main [MainThread]: End processing [drf-standardized-response] error
+[2024-05-06 07:10:36] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240505.338] Old Version: [0.44.20240505.337]
+[2024-05-06 07:10:36] INFO root fetch - processPackages [autoai-ts-libs]: New version: [4.0.6] Old Version: [4.0.4]
+[2024-05-06 07:10:36] INFO root fetch - processPackages [zern]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-06 07:10:36] INFO root fetch - processPackages [ncmlistdownloader]: New version: [1.1.0.240506] Old Version: [1.1.0.240430a1]
+[2024-05-06 07:10:36] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 07:10:36] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/95/3f/55d817b0e3cae9868197493c6ea87c5962fda307b32f4100a31e96402bc5/pkscreener-0.44.20240505.337.tar.gz
+[2024-05-06 07:10:36] INFO root fetch - processPackages [autoai-ts-libs]: Downloading https://files.pythonhosted.org/packages/ee/34/d6fe559de3bda2999fc98b8ee71c9e1d5ae4ff63382ad9c63de084e1d531/autoai_ts_libs-4.0.4-cp311-cp311-win_amd64.whl
+[2024-05-06 07:10:36] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/b5/af/620b1371bf6cc8c95c296120df670935975098ee268a27e57d17a1dbda75/ncmlistdownloader-1.1.0.240430a1.tar.gz
+[2024-05-06 07:10:36] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2024-05-06 07:10:36] INFO root fetch - processPackages [UtilsRL]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-06 07:10:36] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/43/6a/d5bf2cc2e8262843c5c73d0fe9475b03292331da666f64783bb7ea66cde8/zern-0.0.5.tar.gz
+[2024-05-06 07:10:36] WARNING root fetch - processPackages [autoai-ts-libs]: Skipping package: exceeds size limit 23787962>=10485760
+[2024-05-06 07:10:36] INFO root fetch - main [MainThread]: End processing [autoai-ts-libs] error
+[2024-05-06 07:10:36] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/0d/79/7cb7d7155236c6b3ebbae24ffec7f0c6756bad963c8bfa2afd1aa43afde5/pkscreener-0.44.20240505.338.tar.gz
+[2024-05-06 07:10:36] INFO root fetch - processPackages [UtilsRL]: Downloading https://files.pythonhosted.org/packages/1c/2a/ed76ec17ae2b3b25e2a3eb75cc0341728807e2bed26ea21e3b996f472157/utilsrl-0.6.8.tar.gz
+[2024-05-06 07:10:36] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/21/01/e075ca7e53d6277a6480a31650feb772246b9a60a6bf84febe1003106863/ncmlistdownloader-1.1.0.240506.tar.gz
+[2024-05-06 07:10:36] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/74/75/1048551801b0e2aa197b36b7a2d249437127d0d21a98a3aea7016e0929b9/agixtsdk-0.0.9.tar.gz
+[2024-05-06 07:10:37] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/ad/e1/c5b783ddc4ace65cdadeea387cc86edd2289134a0d91942e8abedca28f6e/zern-0.0.6.tar.gz
+[2024-05-06 07:10:37] INFO root fetch - processPackages [ncmlistdownloader]: executing diffoscope
+[2024-05-06 07:10:37] INFO root fetch - processPackages [ncmlistdownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncmlistdownloader-1.1.0.240430a1.tar.gz tmp/ncmlistdownloader-1.1.0.240506.tar.gz --markdown 20240506/n/ncmlistdownloader/1.1.0.240430a1-1.1.0.240506/README.md --exclude *.pyd
+[2024-05-06 07:10:37] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-06 07:10:37] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240505.337.tar.gz tmp/pkscreener-0.44.20240505.338.tar.gz --markdown 20240506/p/pkscreener/0.44.20240505.337-0.44.20240505.338/README.md --exclude *.pyd
+[2024-05-06 07:10:37] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2024-05-06 07:10:37] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.8.tar.gz tmp/agixtsdk-0.0.9.tar.gz --markdown 20240506/a/agixtsdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 07:10:37] INFO root fetch - processPackages [zern]: executing diffoscope
+[2024-05-06 07:10:37] INFO root fetch - processPackages [zern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zern-0.0.5.tar.gz tmp/zern-0.0.6.tar.gz --markdown 20240506/z/zern/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-06 07:10:37] INFO root fetch - processPackages [UtilsRL]: Downloading https://files.pythonhosted.org/packages/11/72/92649faf0a7a17e5623312c8ce7d7ab563962b4d9b6421b9a3e9f1b0bbb2/utilsrl-0.6.9.tar.gz
+[2024-05-06 07:10:37] INFO root fetch - processPackages [UtilsRL]: executing diffoscope
+[2024-05-06 07:10:37] INFO root fetch - processPackages [UtilsRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilsrl-0.6.8.tar.gz tmp/utilsrl-0.6.9.tar.gz --markdown 20240506/U/UtilsRL/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-06 07:10:37] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2024-05-06 07:10:37] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.9.tar.gz]
+[2024-05-06 07:10:37] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2024-05-06 07:10:37] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.5.tar.gz]
+[2024-05-06 07:10:37] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.6.tar.gz]
+[2024-05-06 07:10:37] INFO root fetch - main [MainThread]: End processing [zern]: success
+[2024-05-06 07:10:37] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.1.0.240430a1.tar.gz]
+[2024-05-06 07:10:37] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.1.0.240506.tar.gz]
+[2024-05-06 07:10:37] INFO root fetch - main [MainThread]: End processing [ncmlistdownloader]: success
+[2024-05-06 07:10:38] INFO root fetch - processPackages [UtilsRL]: Remove: archive file [/home/abi/fetcher/tmp/utilsrl-0.6.8.tar.gz]
+[2024-05-06 07:10:38] INFO root fetch - processPackages [UtilsRL]: Remove: archive file [/home/abi/fetcher/tmp/utilsrl-0.6.9.tar.gz]
+[2024-05-06 07:10:38] INFO root fetch - main [MainThread]: End processing [UtilsRL]: success
+[2024-05-06 07:10:38] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240505.337.tar.gz]
+[2024-05-06 07:10:38] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240505.338.tar.gz]
+[2024-05-06 07:10:38] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-06 07:10:38] INFO root fetch - main [MainThread]: Store serial: [23071816]
