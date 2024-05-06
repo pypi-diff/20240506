@@ -4487,3 +4487,56 @@
 [2024-05-06 06:00:50] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
 [2024-05-06 06:00:50] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
 [2024-05-06 06:00:50] INFO root fetch - main [MainThread]: Store serial: [23071336]
+[2024-05-06 06:02:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071336]
+[2024-05-06 06:02:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 06:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saraApi
+[2024-05-06 06:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qai-server
+[2024-05-06 06:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libsmraw-python
+[2024-05-06 06:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-rvw-auto
+[2024-05-06 06:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddddocr
+[2024-05-06 06:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtmodel
+[2024-05-06 06:02:59] INFO root fetch - processPackages [saraApi]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2024-05-06 06:02:59] INFO root fetch - processPackages [ddddocr]: New version: [1.5.1] Old Version: [1.4.9]
+[2024-05-06 06:02:59] INFO root fetch - processPackages [qai-server]: New version: [0.5.4.1] Old Version: [0.5.4]
+[2024-05-06 06:02:59] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/1d/8a/96407ed8a549f2f7f28825d401d7318bf555592c97f32a39382f531b1c63/saraapi-0.0.0.2.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [libsmraw-python]: New version: [20240506] Old Version: [20240310]
+[2024-05-06 06:02:59] INFO root fetch - processPackages [ddddocr]: Downloading https://files.pythonhosted.org/packages/b1/2f/ccfa506e27cad0dddd894f938bdfed24b9f0d5eef815049618dcfaf0452a/ddddocr-1.4.9.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [qtmodel]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-06 06:02:59] INFO root fetch - processPackages [pih-rvw-auto]: New version: [0.18] Old Version: [0.17]
+[2024-05-06 06:02:59] WARNING root fetch - processPackages [ddddocr]: Skipping package: exceeds size limit 75816634>=10485760
+[2024-05-06 06:02:59] INFO root fetch - main [MainThread]: End processing [ddddocr] error
+[2024-05-06 06:02:59] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/67/fd/e4314ea92927a61b24f1e4b6b85fae06b68ed306a41a622d497bd1a74fe9/qai_server-0.5.4.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [libsmraw-python]: Downloading https://files.pythonhosted.org/packages/be/88/ce1e65a4140735a121b6663d64146832574e155942e55a80938b446a9bf2/libsmraw-python-20240310.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/72/6b/053bf46861b60fb3570477c153d24e4ae06ba81e94a18853875e1957391f/qtmodel-0.2.5.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [pih-rvw-auto]: Downloading https://files.pythonhosted.org/packages/06/bf/2d96de99b123b3bceeb7c91915786e766e50a6001b4f6142fc2b96ee20d0/pih-rvw_auto-0.17.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/0e/51/7604027218aa97ca2cf25d4bebb57991c521968912663f124c68c7ecd65e/saraapi-0.0.0.3.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [saraApi]: executing diffoscope
+[2024-05-06 06:02:59] INFO root fetch - processPackages [saraApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saraapi-0.0.0.2.tar.gz tmp/saraapi-0.0.0.3.tar.gz --markdown 20240506/s/saraApi/0.0.0.2-0.0.0.3/README.md --exclude *.pyd
+[2024-05-06 06:02:59] INFO root fetch - processPackages [qai-server]: Downloading https://files.pythonhosted.org/packages/a3/1d/6a9153c0d4d5a7154065c665b5a4a28adaa6bdecf9453238ded650a573bb/qai_server-0.5.4.1.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [pih-rvw-auto]: Downloading https://files.pythonhosted.org/packages/77/77/80645ed3825e766920ab3d4c00bacf75bedd67ee72d249bd539f41c3715f/pih-rvw_auto-0.18.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [pih-rvw-auto]: executing diffoscope
+[2024-05-06 06:02:59] INFO root fetch - processPackages [pih-rvw-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-rvw_auto-0.17.tar.gz tmp/pih-rvw_auto-0.18.tar.gz --markdown 20240506/p/pih-rvw-auto/0.17-0.18/README.md --exclude *.pyd
+[2024-05-06 06:02:59] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/52/98/f25b82b107a75d484c46c3f1beb0e1f99c633020dec2967de5bf40bc5de2/qtmodel-0.2.6.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [libsmraw-python]: Downloading https://files.pythonhosted.org/packages/6e/95/74dfe3c555afbd6c7689357fd7584d2313acb7888e84c1a27184f3ed2305/libsmraw-python-20240506.tar.gz
+[2024-05-06 06:02:59] INFO root fetch - processPackages [qai-server]: executing diffoscope
+[2024-05-06 06:02:59] INFO root fetch - processPackages [qai-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_server-0.5.4.tar.gz tmp/qai_server-0.5.4.1.tar.gz --markdown 20240506/q/qai-server/0.5.4-0.5.4.1/README.md --exclude *.pyd
+[2024-05-06 06:03:00] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-06 06:03:00] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.2.5.tar.gz tmp/qtmodel-0.2.6.tar.gz --markdown 20240506/q/qtmodel/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-06 06:03:00] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.2.tar.gz]
+[2024-05-06 06:03:00] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.3.tar.gz]
+[2024-05-06 06:03:00] INFO root fetch - main [MainThread]: End processing [saraApi]: success
+[2024-05-06 06:03:00] INFO root fetch - processPackages [libsmraw-python]: executing diffoscope
+[2024-05-06 06:03:00] INFO root fetch - processPackages [libsmraw-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsmraw-python-20240310.tar.gz tmp/libsmraw-python-20240506.tar.gz --markdown 20240506/l/libsmraw-python/20240310-20240506/README.md --exclude *.pyd
+[2024-05-06 06:03:00] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.17.tar.gz]
+[2024-05-06 06:03:00] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.18.tar.gz]
+[2024-05-06 06:03:00] INFO root fetch - main [MainThread]: End processing [pih-rvw-auto]: success
+[2024-05-06 06:03:00] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.4.tar.gz]
+[2024-05-06 06:03:00] INFO root fetch - processPackages [qai-server]: Remove: archive file [/home/abi/fetcher/tmp/qai_server-0.5.4.1.tar.gz]
+[2024-05-06 06:03:00] INFO root fetch - main [MainThread]: End processing [qai-server]: success
+[2024-05-06 06:03:00] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.5.tar.gz]
+[2024-05-06 06:03:00] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.6.tar.gz]
+[2024-05-06 06:03:00] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-06 06:03:05] INFO root fetch - processPackages [libsmraw-python]: Remove: archive file [/home/abi/fetcher/tmp/libsmraw-python-20240310.tar.gz]
+[2024-05-06 06:03:05] INFO root fetch - processPackages [libsmraw-python]: Remove: archive file [/home/abi/fetcher/tmp/libsmraw-python-20240506.tar.gz]
+[2024-05-06 06:03:05] INFO root fetch - main [MainThread]: End processing [libsmraw-python]: success
+[2024-05-06 06:03:05] INFO root fetch - main [MainThread]: Store serial: [23071353]
