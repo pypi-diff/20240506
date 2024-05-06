@@ -21678,3 +21678,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:26:18] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
 [2024-05-06 16:26:18] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
 [2024-05-06 16:26:18] INFO root fetch - main [MainThread]: Store serial: [23079111]
+[2024-05-06 16:28:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079111]
+[2024-05-06 16:28:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 16:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-core
+[2024-05-06 16:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TrajCompress
+[2024-05-06 16:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-admin-assets
+[2024-05-06 16:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mimllearning
+[2024-05-06 16:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trame-simput
+[2024-05-06 16:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uac-api
+[2024-05-06 16:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-05-06 16:28:31] INFO root fetch - processPackages [policyengine-core]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-05-06 16:28:31] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 16:28:31] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1532] Old Version: [1.0.0.post1531]
+[2024-05-06 16:28:31] WARNING root fetch - processPackages [TrajCompress]: Skipping, unable to determine old version
+[2024-05-06 16:28:31] INFO root fetch - main [MainThread]: End processing [TrajCompress] error
+[2024-05-06 16:28:31] INFO root fetch - processPackages [trame-simput]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-06 16:28:31] INFO root fetch - processPackages [uac-api]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-06 16:28:31] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/07/97/2bc82753b761563058e4b2a2d1fdfa98561d4e4c738445057c8cab7cc095/policyengine-core-2.8.2.tar.gz
+[2024-05-06 16:28:31] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-06 16:28:31] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/d1/c9/3db35a9e8d1dd9a389da955111647b3ff73c536cb67386006abc249a966e/nucliadb_admin_assets-1.0.0.post1531-py3-none-any.whl
+[2024-05-06 16:28:31] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-06 16:28:31] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/26/a2/83d36d4b568d37e6724b68831dc58b4b0c74c437e7537f296c45353a7986/policyengine-core-2.9.0.tar.gz
+[2024-05-06 16:28:31] INFO root fetch - processPackages [trame-simput]: Downloading https://files.pythonhosted.org/packages/f5/69/8848db2c5443da892547b28ef197c804344b6830ec9136f40bbf6d31d9de/trame-simput-2.4.1.tar.gz
+[2024-05-06 16:28:32] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/22/20/139fe9cccb4915781c05d556c1f9c504f6bd4bd5dfa2ecab14ba59bb2c6e/uac-api-0.3.1.tar.gz
+[2024-05-06 16:28:32] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-06 16:28:32] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/92/ed/ccc06c15b12e5c1c7cbeaee25d5d7bdffe1e8ecb75dd492b433a23426fc2/nucliadb_admin_assets-1.0.0.post1532-py3-none-any.whl
+[2024-05-06 16:28:32] INFO root fetch - processPackages [policyengine-core]: executing diffoscope
+[2024-05-06 16:28:32] INFO root fetch - processPackages [policyengine-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-core-2.8.2.tar.gz tmp/policyengine-core-2.9.0.tar.gz --markdown 20240506/p/policyengine-core/2.8.2-2.9.0/README.md --exclude *.pyd
+[2024-05-06 16:28:32] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-05-06 16:28:32] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-06 16:28:32] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240506/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 16:28:32] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/cc/f1/e1f4ada3599f00d9b27e6dceea2b503af22bfacb13e2c7c606333d5ee321/uac-api-0.4.0.tar.gz
+[2024-05-06 16:28:32] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-06 16:28:32] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1531-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1532-py3-none-any.whl.zip --markdown 20240506/n/nucliadb-admin-assets/1.0.0.post1531-1.0.0.post1532/README.md --exclude *.pyd
+[2024-05-06 16:28:32] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-05-06 16:28:32] INFO root fetch - processPackages [uac-api]: executing diffoscope
+[2024-05-06 16:28:32] INFO root fetch - processPackages [uac-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uac-api-0.3.1.tar.gz tmp/uac-api-0.4.0.tar.gz --markdown 20240506/u/uac-api/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-06 16:28:32] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-05-06 16:28:32] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240506/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-06 16:28:32] INFO root fetch - processPackages [trame-simput]: Downloading https://files.pythonhosted.org/packages/39/cb/5d048135de0c7f429becf27917ba351685f9c9c86d45ff19dee9c00c7db3/trame-simput-2.4.2.tar.gz
+[2024-05-06 16:28:32] INFO root fetch - processPackages [trame-simput]: executing diffoscope
+[2024-05-06 16:28:32] INFO root fetch - processPackages [trame-simput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-simput-2.4.1.tar.gz tmp/trame-simput-2.4.2.tar.gz --markdown 20240506/t/trame-simput/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-06 16:28:33] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.8.2.tar.gz]
+[2024-05-06 16:28:33] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.9.0.tar.gz]
+[2024-05-06 16:28:33] INFO root fetch - main [MainThread]: End processing [policyengine-core]: success
+[2024-05-06 16:28:33] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-06 16:28:33] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-06 16:28:33] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-06 16:28:33] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-05-06 16:28:33] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-05-06 16:28:33] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-05-06 16:28:33] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.3.1.tar.gz]
+[2024-05-06 16:28:33] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.4.0.tar.gz]
+[2024-05-06 16:28:33] INFO root fetch - main [MainThread]: End processing [uac-api]: success
+[2024-05-06 16:28:34] INFO root fetch - processPackages [trame-simput]: Remove: archive file [/home/abi/fetcher/tmp/trame-simput-2.4.1.tar.gz]
+[2024-05-06 16:28:34] INFO root fetch - processPackages [trame-simput]: Remove: archive file [/home/abi/fetcher/tmp/trame-simput-2.4.2.tar.gz]
+[2024-05-06 16:28:34] INFO root fetch - main [MainThread]: End processing [trame-simput]: success
+[2024-05-06 16:28:46] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1531-py3-none-any.whl.zip]
+[2024-05-06 16:28:46] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1532-py3-none-any.whl.zip]
+[2024-05-06 16:28:46] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-06 16:28:46] INFO root fetch - main [MainThread]: Store serial: [23079132]
