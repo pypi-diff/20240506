@@ -23912,3 +23912,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:42:59] INFO root fetch - processPackages [pyxbox]: Remove: archive file [/home/abi/fetcher/tmp/pyxbox-0.1.5.tar.gz]
 [2024-05-06 17:42:59] INFO root fetch - main [MainThread]: End processing [pyxbox]: success
 [2024-05-06 17:42:59] INFO root fetch - main [MainThread]: Store serial: [23080108]
+[2024-05-06 17:45:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23080108]
+[2024-05-06 17:45:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 17:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab
+[2024-05-06 17:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synnax
+[2024-05-06 17:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nodespecs
+[2024-05-06 17:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: STAIR-tools
+[2024-05-06 17:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eliasliu
+[2024-05-06 17:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shrillecho
+[2024-05-06 17:45:08] INFO root fetch - processPackages [eliasliu]: New version: [0.1.53] Old Version: [0.1.52]
+[2024-05-06 17:45:08] INFO root fetch - processPackages [jupyterlab]: New version: [4.2.0rc0] Old Version: [4.2.0b3]
+[2024-05-06 17:45:08] INFO root fetch - processPackages [shrillecho]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-06 17:45:08] INFO root fetch - processPackages [STAIR-tools]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-06 17:45:08] INFO root fetch - processPackages [nodespecs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 17:45:08] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/8d/d7/303298f580653785d0095dccefcaf936687e03142c6b624536f7f09ccb0a/eliasliu-0.1.52.tar.gz
+[2024-05-06 17:45:08] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-06 17:45:08] INFO root fetch - processPackages [shrillecho]: Downloading https://files.pythonhosted.org/packages/bc/57/ce2e99bee8ed95b76ac26db48e69238c8f23e95de6f9a15c029d50522356/shrillecho-1.1.1.tar.gz
+[2024-05-06 17:45:08] INFO root fetch - processPackages [jupyterlab]: Downloading https://files.pythonhosted.org/packages/27/13/7cbb7dc1e787511b1b91424b15d4262d79e6e4083e751245945e4578e380/jupyterlab-4.2.0b3.tar.gz
+[2024-05-06 17:45:08] WARNING root fetch - processPackages [jupyterlab]: Skipping package: exceeds size limit 21819049>=10485760
+[2024-05-06 17:45:08] INFO root fetch - main [MainThread]: End processing [jupyterlab] error
+[2024-05-06 17:45:08] INFO root fetch - processPackages [nodespecs]: Downloading https://files.pythonhosted.org/packages/52/a0/fd5c3bd7428fd16c03171629234a2d7da112e6a3e63403357feee7ed2338/nodespecs-0.0.8.tar.gz
+[2024-05-06 17:45:08] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-06 17:45:09] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/d0/c5/2ec849391e4394e95fcc95a27983b6e318627869fcbb7c644d508bbf4f02/STAIR-tools-1.2.4.tar.gz
+[2024-05-06 17:45:09] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/d9/15/42801fd85c961f0a299caa56e8d981eb45bffe4a5f5108739717d1dfa30f/eliasliu-0.1.53.tar.gz
+[2024-05-06 17:45:09] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-06 17:45:09] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.52.tar.gz tmp/eliasliu-0.1.53.tar.gz --markdown 20240506/e/eliasliu/0.1.52-0.1.53/README.md --exclude *.pyd
+[2024-05-06 17:45:09] INFO root fetch - processPackages [shrillecho]: Downloading https://files.pythonhosted.org/packages/1f/7e/6190f092ff0e16df321ca1554b04d17d651542a4416e48c516b6b1f66b94/shrillecho-1.1.2.tar.gz
+[2024-05-06 17:45:09] INFO root fetch - processPackages [nodespecs]: Downloading https://files.pythonhosted.org/packages/3e/92/de755043cf73a78654d2fc630d58f430edfd83587d2e6e3f99fc497957e9/nodespecs-0.0.9.tar.gz
+[2024-05-06 17:45:09] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-06 17:45:09] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/c7/fb/e088cfe79ca58f713c046a4e4fa8e19f1784e3b8d79d83b8ef6dceba6ce6/STAIR-tools-1.2.5.tar.gz
+[2024-05-06 17:45:09] INFO root fetch - processPackages [nodespecs]: executing diffoscope
+[2024-05-06 17:45:09] INFO root fetch - processPackages [nodespecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodespecs-0.0.8.tar.gz tmp/nodespecs-0.0.9.tar.gz --markdown 20240506/n/nodespecs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 17:45:09] INFO root fetch - processPackages [shrillecho]: executing diffoscope
+[2024-05-06 17:45:09] INFO root fetch - processPackages [shrillecho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shrillecho-1.1.1.tar.gz tmp/shrillecho-1.1.2.tar.gz --markdown 20240506/s/shrillecho/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-06 17:45:09] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-06 17:45:09] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240506/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-06 17:45:09] INFO root fetch - processPackages [STAIR-tools]: executing diffoscope
+[2024-05-06 17:45:09] INFO root fetch - processPackages [STAIR-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STAIR-tools-1.2.4.tar.gz tmp/STAIR-tools-1.2.5.tar.gz --markdown 20240506/S/STAIR-tools/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-06 17:45:09] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.52.tar.gz]
+[2024-05-06 17:45:09] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.53.tar.gz]
+[2024-05-06 17:45:09] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-06 17:45:10] INFO root fetch - processPackages [nodespecs]: Remove: archive file [/home/abi/fetcher/tmp/nodespecs-0.0.8.tar.gz]
+[2024-05-06 17:45:10] INFO root fetch - processPackages [nodespecs]: Remove: archive file [/home/abi/fetcher/tmp/nodespecs-0.0.9.tar.gz]
+[2024-05-06 17:45:10] INFO root fetch - main [MainThread]: End processing [nodespecs]: success
+[2024-05-06 17:45:10] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.2.4.tar.gz]
+[2024-05-06 17:45:10] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.2.5.tar.gz]
+[2024-05-06 17:45:10] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
+[2024-05-06 17:45:10] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-06 17:45:10] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-06 17:45:10] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-06 17:45:10] INFO root fetch - processPackages [shrillecho]: Remove: archive file [/home/abi/fetcher/tmp/shrillecho-1.1.1.tar.gz]
+[2024-05-06 17:45:10] INFO root fetch - processPackages [shrillecho]: Remove: archive file [/home/abi/fetcher/tmp/shrillecho-1.1.2.tar.gz]
+[2024-05-06 17:45:10] INFO root fetch - main [MainThread]: End processing [shrillecho]: success
+[2024-05-06 17:45:10] INFO root fetch - main [MainThread]: Store serial: [23080128]
