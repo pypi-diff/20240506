@@ -20514,3 +20514,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:41:54] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.3.3.tar.gz]
 [2024-05-06 15:41:54] INFO root fetch - main [MainThread]: End processing [cyclonedx-python-lib]: success
 [2024-05-06 15:41:54] INFO root fetch - main [MainThread]: Store serial: [23078485]
+[2024-05-06 15:43:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078485]
+[2024-05-06 15:44:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 15:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syndat
+[2024-05-06 15:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjhtdbv2
+[2024-05-06 15:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyCXpress
+[2024-05-06 15:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2024-05-06 15:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: everai
+[2024-05-06 15:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crate-docs-theme
+[2024-05-06 15:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msmanager
+[2024-05-06 15:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-azure-native
+[2024-05-06 15:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: heartbeat-library
+[2024-05-06 15:44:03] INFO root fetch - processPackages [pyjhtdbv2]: New version: [20240506.0] Old Version: [20230506.0]
+[2024-05-06 15:44:03] WARNING root fetch - processPackages [heartbeat-library]: Skipping, unable to determine old version
+[2024-05-06 15:44:03] INFO root fetch - main [MainThread]: End processing [heartbeat-library] error
+[2024-05-06 15:44:03] INFO root fetch - processPackages [everai]: New version: [0.1.42] Old Version: [0.1.41]
+[2024-05-06 15:44:03] INFO root fetch - processPackages [msmanager]: New version: [0.4.6.dev2] Old Version: [0.4.6.dev1]
+[2024-05-06 15:44:03] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-05-06 15:44:03] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 15:44:03] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/a0/1f/46de1c94022ab4d03f36f393811cd637cff6b80660c2806d74ce8f4cfdcc/pyjhtdbv2-20230506.0.tar.gz
+[2024-05-06 15:44:03] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/f6/02/54eca7127f640bf0669f7040ffac078f418a71fb4a254356ca28cbbf0266/msmanager-0.4.6.dev1.tar.gz
+[2024-05-06 15:44:03] INFO root fetch - processPackages [PyCXpress]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 15:44:03] INFO root fetch - processPackages [syndat]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 15:44:03] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-05-06 15:44:03] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 15:44:03] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/4b/1c/df6c0b5d43c839c910426161135f57fd81cb6b277b8449add6498898b66f/everai-0.1.41-py3-none-any.whl
+[2024-05-06 15:44:03] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-05-06 15:44:03] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-05-06 15:44:04] INFO root fetch - processPackages [PyCXpress]: Downloading https://files.pythonhosted.org/packages/79/3e/1dafbbacef34f35d5ffcaba9ac1177bacc8133cd0bdf78d13fa82424fb63/pycxpress-0.0.6.tar.gz
+[2024-05-06 15:44:04] INFO root fetch - processPackages [syndat]: Downloading https://files.pythonhosted.org/packages/66/a1/857d737b458b11745372fe7f72a3501b1300b6b03b946e445f249dd25d54/syndat-0.0.3.tar.gz
+[2024-05-06 15:44:04] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/ad/2f/fce91acddbf481f107b92af5d0f0fd0068e5f2f44aca9bfbeaf5f0216e11/msmanager-0.4.6.dev2.tar.gz
+[2024-05-06 15:44:04] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-06 15:44:04] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/99/c8/d044fd2975cc6cf513550e9c6c92c18e92beff9622eb6c215ca76735157e/pyjhtdbv2-20240506.0.tar.gz
+[2024-05-06 15:44:04] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/eb/34/8bd2dc5dd3bb3325a6b6ccfeeb1b3c601c5a383709d9ccf6a9e9e368f824/everai-0.1.42-py3-none-any.whl
+[2024-05-06 15:44:04] INFO root fetch - processPackages [pyjhtdbv2]: executing diffoscope
+[2024-05-06 15:44:04] INFO root fetch - processPackages [pyjhtdbv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjhtdbv2-20230506.0.tar.gz tmp/pyjhtdbv2-20240506.0.tar.gz --markdown 20240506/p/pyjhtdbv2/20230506.0-20240506.0/README.md --exclude *.pyd
+[2024-05-06 15:44:04] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 15:44:04] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-06 15:44:04] INFO root fetch - processPackages [PyCXpress]: Downloading https://files.pythonhosted.org/packages/cb/fa/f4af14a05b81ba54c880de168a3d03bf27c81247e13427db461753c0df14/pycxpress-0.0.7.tar.gz
+[2024-05-06 15:44:04] INFO root fetch - processPackages [syndat]: Downloading https://files.pythonhosted.org/packages/81/c8/2c12f51aa5f5952b567d356d82ae14d5c105a1f852d4aecd554dec5e65f5/syndat-0.0.4.tar.gz
+[2024-05-06 15:44:04] INFO root fetch - processPackages [msmanager]: executing diffoscope
+[2024-05-06 15:44:04] INFO root fetch - processPackages [msmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmanager-0.4.6.dev1.tar.gz tmp/msmanager-0.4.6.dev2.tar.gz --markdown 20240506/m/msmanager/0.4.6.dev1-0.4.6.dev2/README.md --exclude *.pyd
+[2024-05-06 15:44:04] INFO root fetch - processPackages [PyCXpress]: executing diffoscope
+[2024-05-06 15:44:04] INFO root fetch - processPackages [PyCXpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycxpress-0.0.6.tar.gz tmp/pycxpress-0.0.7.tar.gz --markdown 20240506/P/PyCXpress/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 15:44:04] INFO root fetch - processPackages [syndat]: executing diffoscope
+[2024-05-06 15:44:04] INFO root fetch - processPackages [syndat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syndat-0.0.3.tar.gz tmp/syndat-0.0.4.tar.gz --markdown 20240506/s/syndat/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 15:44:04] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-06 15:44:04] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.41-py3-none-any.whl.zip tmp/everai-0.1.42-py3-none-any.whl.zip --markdown 20240506/e/everai/0.1.41-0.1.42/README.md --exclude *.pyd
+[2024-05-06 15:44:04] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 15:44:04] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 15:44:04] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-06 15:44:05] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20230506.0.tar.gz]
+[2024-05-06 15:44:05] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20240506.0.tar.gz]
+[2024-05-06 15:44:05] INFO root fetch - main [MainThread]: End processing [pyjhtdbv2]: success
+[2024-05-06 15:44:05] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-06 15:44:05] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240506/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-06 15:44:05] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.6.dev1.tar.gz]
+[2024-05-06 15:44:05] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.6.dev2.tar.gz]
+[2024-05-06 15:44:05] INFO root fetch - main [MainThread]: End processing [msmanager]: success
+[2024-05-06 15:44:05] INFO root fetch - processPackages [syndat]: Remove: archive file [/home/abi/fetcher/tmp/syndat-0.0.3.tar.gz]
+[2024-05-06 15:44:05] INFO root fetch - processPackages [syndat]: Remove: archive file [/home/abi/fetcher/tmp/syndat-0.0.4.tar.gz]
+[2024-05-06 15:44:05] INFO root fetch - main [MainThread]: End processing [syndat]: success
+[2024-05-06 15:44:05] INFO root fetch - processPackages [PyCXpress]: Remove: archive file [/home/abi/fetcher/tmp/pycxpress-0.0.6.tar.gz]
+[2024-05-06 15:44:05] INFO root fetch - processPackages [PyCXpress]: Remove: archive file [/home/abi/fetcher/tmp/pycxpress-0.0.7.tar.gz]
+[2024-05-06 15:44:05] INFO root fetch - main [MainThread]: End processing [PyCXpress]: success
+[2024-05-06 15:44:06] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 15:44:06] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 15:44:06] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 15:44:06] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.41-py3-none-any.whl.zip]
+[2024-05-06 15:44:06] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.42-py3-none-any.whl.zip]
+[2024-05-06 15:44:06] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-06 15:44:06] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-06 15:44:06] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-06 15:44:06] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-06 15:44:06] INFO root fetch - main [MainThread]: Store serial: [23078511]
