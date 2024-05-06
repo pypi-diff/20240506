@@ -3740,3 +3740,42 @@
 [2024-05-06 05:18:06] INFO root fetch - processPackages [cpgdata]: Remove: archive file [/home/abi/fetcher/tmp/cpgdata-0.4.0.tar.gz]
 [2024-05-06 05:18:06] INFO root fetch - main [MainThread]: End processing [cpgdata]: success
 [2024-05-06 05:18:06] INFO root fetch - main [MainThread]: Store serial: [23071013]
+[2024-05-06 05:20:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071013]
+[2024-05-06 05:20:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 05:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ATL-Tools
+[2024-05-06 05:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autorunpy
+[2024-05-06 05:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imodelsx
+[2024-05-06 05:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mxlm
+[2024-05-06 05:20:14] INFO root fetch - processPackages [imodelsx]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 05:20:14] INFO root fetch - processPackages [autorunpy]: New version: [8.0.4] Old Version: [8.0.3]
+[2024-05-06 05:20:14] INFO root fetch - processPackages [mxlm]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 05:20:14] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/cd/a6/6888f29c5fc7901f0beca52960e3a2923a8e908021cb47c6058f5352c066/autorunpy-8.0.3.tar.gz
+[2024-05-06 05:20:14] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/2d/ec/940bff19f0d6a79d765c9e7d83768548a65dd75dd705a48f2e2f86543e00/imodelsx-1.0.1.tar.gz
+[2024-05-06 05:20:14] INFO root fetch - processPackages [ATL-Tools]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-06 05:20:15] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/c7/f8/9ce20255444783809f62fe746abf9bff1376f8efdf822203d7df8100532e/atl_tools-1.1.4.tar.gz
+[2024-05-06 05:20:15] INFO root fetch - processPackages [mxlm]: Downloading https://files.pythonhosted.org/packages/12/3b/fb049b262ca8b889fe63497aec796f66ca00c38928fb65d9150b46b8d83a/mxlm-0.0.6.tar.gz
+[2024-05-06 05:20:15] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/5a/29/dddc185a4906fb8604f7051d39ebe8c746d21e76ea14efc0dcfd710b8f25/imodelsx-1.0.2.tar.gz
+[2024-05-06 05:20:15] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/43/48/bb8f3aa3f6e38072c2b02ada43bc2953e0aa12f6f624e5597e6b3420d1e8/autorunpy-8.0.4.tar.gz
+[2024-05-06 05:20:15] INFO root fetch - processPackages [imodelsx]: executing diffoscope
+[2024-05-06 05:20:15] INFO root fetch - processPackages [imodelsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imodelsx-1.0.1.tar.gz tmp/imodelsx-1.0.2.tar.gz --markdown 20240506/i/imodelsx/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 05:20:15] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-06 05:20:15] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.0.3.tar.gz tmp/autorunpy-8.0.4.tar.gz --markdown 20240506/a/autorunpy/8.0.3-8.0.4/README.md --exclude *.pyd
+[2024-05-06 05:20:15] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/4c/57/02677a8e329707c7cea55056c3b77c026fb43cc7c013f615fd66e0229e64/atl_tools-1.1.5.tar.gz
+[2024-05-06 05:20:15] INFO root fetch - processPackages [ATL-Tools]: executing diffoscope
+[2024-05-06 05:20:15] INFO root fetch - processPackages [ATL-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atl_tools-1.1.4.tar.gz tmp/atl_tools-1.1.5.tar.gz --markdown 20240506/A/ATL-Tools/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-06 05:20:15] INFO root fetch - processPackages [mxlm]: Downloading https://files.pythonhosted.org/packages/c8/57/dbe206423eabe3cd329cb2716c5c283894f2489f36444add9d55f555f65f/mxlm-0.0.7.tar.gz
+[2024-05-06 05:20:15] INFO root fetch - processPackages [mxlm]: executing diffoscope
+[2024-05-06 05:20:15] INFO root fetch - processPackages [mxlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxlm-0.0.6.tar.gz tmp/mxlm-0.0.7.tar.gz --markdown 20240506/m/mxlm/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 05:20:15] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.0.3.tar.gz]
+[2024-05-06 05:20:15] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.0.4.tar.gz]
+[2024-05-06 05:20:15] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-06 05:20:16] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-1.0.1.tar.gz]
+[2024-05-06 05:20:16] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-1.0.2.tar.gz]
+[2024-05-06 05:20:16] INFO root fetch - main [MainThread]: End processing [imodelsx]: success
+[2024-05-06 05:20:16] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.1.4.tar.gz]
+[2024-05-06 05:20:16] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.1.5.tar.gz]
+[2024-05-06 05:20:16] INFO root fetch - main [MainThread]: End processing [ATL-Tools]: success
+[2024-05-06 05:20:16] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.6.tar.gz]
+[2024-05-06 05:20:16] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.7.tar.gz]
+[2024-05-06 05:20:16] INFO root fetch - main [MainThread]: End processing [mxlm]: success
+[2024-05-06 05:20:16] INFO root fetch - main [MainThread]: Store serial: [23071025]
