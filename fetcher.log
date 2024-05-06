@@ -2040,3 +2040,24 @@
 [2024-05-06 03:12:17] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.9.9.tar.gz]
 [2024-05-06 03:12:17] INFO root fetch - main [MainThread]: End processing [copyparty]: success
 [2024-05-06 03:12:17] INFO root fetch - main [MainThread]: Store serial: [23070340]
+[2024-05-06 03:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070340]
+[2024-05-06 03:14:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 03:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MobileInventoryCLI
+[2024-05-06 03:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docprompt
+[2024-05-06 03:14:26] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.88] Old Version: [0.4.87]
+[2024-05-06 03:14:26] INFO root fetch - processPackages [docprompt]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-06 03:14:26] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/14/fe/111f6eaee993a5d61c3f0cee3315fa611a251128c58d3c3e38ca41000947/MobileInventoryCLI-0.4.87.tar.gz
+[2024-05-06 03:14:26] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/ac/2e/794bfc426aedf70829cd049b2b95482a5e884463a1a45929fb7a07ec051d/docprompt-0.4.0.tar.gz
+[2024-05-06 03:14:26] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/9b/f0/482a964be783afd09ea3a7d5437eccc972da51f2c347bc3e3dfbcc056f55/MobileInventoryCLI-0.4.88.tar.gz
+[2024-05-06 03:14:26] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/9e/29/85f9766e41ee36602b7f20a014c757dceb80c5a0a3a053ad2bc33599c078/docprompt-0.4.1.tar.gz
+[2024-05-06 03:14:26] INFO root fetch - processPackages [docprompt]: executing diffoscope
+[2024-05-06 03:14:26] INFO root fetch - processPackages [docprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docprompt-0.4.0.tar.gz tmp/docprompt-0.4.1.tar.gz --markdown 20240506/d/docprompt/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-06 03:14:26] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-06 03:14:26] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.87.tar.gz tmp/MobileInventoryCLI-0.4.88.tar.gz --markdown 20240506/M/MobileInventoryCLI/0.4.87-0.4.88/README.md --exclude *.pyd
+[2024-05-06 03:14:27] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.87.tar.gz]
+[2024-05-06 03:14:27] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.88.tar.gz]
+[2024-05-06 03:14:27] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-06 03:14:27] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.4.0.tar.gz]
+[2024-05-06 03:14:27] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.4.1.tar.gz]
+[2024-05-06 03:14:27] INFO root fetch - main [MainThread]: End processing [docprompt]: success
+[2024-05-06 03:14:27] INFO root fetch - main [MainThread]: Store serial: [23070347]
