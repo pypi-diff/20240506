@@ -5035,3 +5035,24 @@
 [2024-05-06 06:42:25] INFO root fetch - processPackages [cleese-stim]: Remove: archive file [/home/abi/fetcher/tmp/cleese_stim-2.3.0.tar.gz]
 [2024-05-06 06:42:25] INFO root fetch - main [MainThread]: End processing [cleese-stim]: success
 [2024-05-06 06:42:25] INFO root fetch - main [MainThread]: Store serial: [23071595]
+[2024-05-06 06:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071595]
+[2024-05-06 06:44:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 06:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-llama
+[2024-05-06 06:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-05-06 06:44:34] INFO root fetch - processPackages [easy-llama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 06:44:34] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.201] Old Version: [0.1.200]
+[2024-05-06 06:44:34] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-06 06:44:34] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/1a/b8/e9089731e352d7ea113af9b86eefff1c42e1a52a7a98114ba84f66c20fb2/ansar_connect-0.1.200.tar.gz
+[2024-05-06 06:44:34] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/98/5d/f5007368104957b81fc41c01c18234178e2875066cca25192bec1d846caf/easy_llama-0.1.9.tar.gz
+[2024-05-06 06:44:34] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/25/48/80e084bfca800cf936c01304f3d5367989849222355cda93685738fdc50a/ansar_connect-0.1.201.tar.gz
+[2024-05-06 06:44:34] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-06 06:44:34] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.8.tar.gz tmp/easy_llama-0.1.9.tar.gz --markdown 20240506/e/easy-llama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 06:44:34] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-06 06:44:34] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.200.tar.gz tmp/ansar_connect-0.1.201.tar.gz --markdown 20240506/a/ansar-connect/0.1.200-0.1.201/README.md --exclude *.pyd
+[2024-05-06 06:44:35] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-06 06:44:35] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.9.tar.gz]
+[2024-05-06 06:44:35] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-06 06:44:35] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.200.tar.gz]
+[2024-05-06 06:44:35] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.201.tar.gz]
+[2024-05-06 06:44:35] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-06 06:44:35] INFO root fetch - main [MainThread]: Store serial: [23071601]
