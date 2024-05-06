@@ -17471,3 +17471,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:41:18] INFO root fetch - processPackages [clang-format]: Remove: archive file [/home/abi/fetcher/tmp/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl.zip]
 [2024-05-06 13:41:18] INFO root fetch - main [MainThread]: End processing [clang-format]: success
 [2024-05-06 13:41:18] INFO root fetch - main [MainThread]: Store serial: [23076965]
+[2024-05-06 13:43:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076965]
+[2024-05-06 13:43:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orchestrator-core
+[2024-05-06 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-sitewide
+[2024-05-06 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wxhook
+[2024-05-06 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AstecManager
+[2024-05-06 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: z3c.celery
+[2024-05-06 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mxbt
+[2024-05-06 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cltrier_nlp
+[2024-05-06 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: slicetca
+[2024-05-06 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threed-optix
+[2024-05-06 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-societies
+[2024-05-06 13:43:33] INFO root fetch - processPackages [slicetca]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [AstecManager]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [wxhook]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [orchestrator-core]: New version: [2.3.0rc1] Old Version: [2.2.2rc2]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [threed-optix]: New version: [5.0.4] Old Version: [5.0.2]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [z3c.celery]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [cltrier_nlp]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [django-sitewide]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [django-societies]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [slicetca]: Downloading https://files.pythonhosted.org/packages/59/25/92cfb97cbfbc5edb1f2219ff9bad8a1878aedc9c5b7de896c94657680428/slicetca-1.0.0.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [mxbt]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [AstecManager]: Downloading https://files.pythonhosted.org/packages/f9/ba/4fa80e4e502975f6f9607c8a651251568e1ab5f3e957349307595f0b2165/AstecManager-0.2.8.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [wxhook]: Downloading https://files.pythonhosted.org/packages/8c/03/8c68e7bf182b843792866bd835453d2b77301dd12928f454e5c7c726cc15/wxhook-0.0.4.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/fd/15/44dc829efa3faeb99dafa25cb459250a9ef0bc6e856fbb8d2622b74fd609/orchestrator_core-2.2.2rc2.tar.gz
+[2024-05-06 13:43:33] WARNING root fetch - processPackages [AstecManager]: Skipping package: exceeds size limit 30603260>=10485760
+[2024-05-06 13:43:33] INFO root fetch - processPackages [AstecManager]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2024-05-06 13:43:33] INFO root fetch - main [MainThread]: End processing [AstecManager] error
+[2024-05-06 13:43:33] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/db/13/2a360240285f16129a679dd960274f677c835f5993757739dd09c3aed370/threed_optix-5.0.2.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [z3c.celery]: Downloading https://files.pythonhosted.org/packages/73/c0/5886d94cb27ef866089c7e871fb43edca70271f7b3ceeeabded001bb7690/z3c.celery-1.7.0.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [cltrier_nlp]: Downloading https://files.pythonhosted.org/packages/80/39/5e2425601aadc2120836bf7c3abf11b4633be87b60a2a589aab0267b0003/cltrier_nlp-0.1.6.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [mxbt]: Downloading https://files.pythonhosted.org/packages/47/cf/f6f268d5d7d002d247c510bf59de2e4512216d03f95619695df62bda56f6/mxbt-0.3.5.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [django-societies]: Downloading https://files.pythonhosted.org/packages/d4/3e/ed00255686efcd3792476c5566c0f430359b3987ed4361f92d82c682d3ee/django-societies-0.1.6.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.38.0.dev20240503] Old Version: [1.38.0.dev20240502]
+[2024-05-06 13:43:33] INFO root fetch - processPackages [django-sitewide]: Downloading https://files.pythonhosted.org/packages/16/2c/87b4704498c8a80a9be1df8976ba461d2111e4d180bc5a4b2f78c6503508/django-sitewide-0.1.8.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [slicetca]: Downloading https://files.pythonhosted.org/packages/61/9e/51a274d411b1a7e5b071057ee66632d9ac7613f7fc3e14505176c2c9b561/slicetca-1.0.1.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [wxhook]: Downloading https://files.pythonhosted.org/packages/b9/33/b2fb7b5ef1cbec61ede8d9b152e34d4872f3b9fb7a44a6ed1997f0abcc3a/wxhook-0.0.5.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [slicetca]: executing diffoscope
+[2024-05-06 13:43:33] INFO root fetch - processPackages [slicetca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slicetca-1.0.0.tar.gz tmp/slicetca-1.0.1.tar.gz --markdown 20240506/s/slicetca/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 13:43:33] INFO root fetch - processPackages [z3c.celery]: Downloading https://files.pythonhosted.org/packages/ea/2d/20e7ad347a89641904b4829311a0c184d0602742595ae5ad2d89cdc55a6d/z3c_celery-1.8.0.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/67/b5/464c8836a78e96dd73f470abf22fa16672d5b747d72372254f2bfdd71d52/threed_optix-5.0.4.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/77/38/12b0b3863e25d0b492b860186c7134cdbc67dcf93e4a746c712fa2a929b9/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240502.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/5e/5b/a4ba159d38724f6885b9912604e2b6696f5f57a72fe611d9ccd67ad8209c/orchestrator_core-2.3.0rc1.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [cltrier_nlp]: Downloading https://files.pythonhosted.org/packages/d9/0b/7e0a893ad8400323bc721f1cb2e3529ee1d1aec8cff53149c3706df5319b/cltrier_nlp-0.1.7.tar.gz
+[2024-05-06 13:43:33] INFO root fetch - processPackages [mxbt]: Downloading https://files.pythonhosted.org/packages/0c/ef/323236e207642e1285fa2960a85cbec8f8cdff1ebbd7ebe97f95a4c15344/mxbt-0.3.6.tar.gz
+[2024-05-06 13:43:34] INFO root fetch - processPackages [django-societies]: Downloading https://files.pythonhosted.org/packages/c1/3f/ff3d1e471da9c035caf109a1789abe1251989d611bf4f3990d3f9b5e0464/django-societies-0.1.7.tar.gz
+[2024-05-06 13:43:34] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2024-05-06 13:43:34] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-5.0.2.tar.gz tmp/threed_optix-5.0.4.tar.gz --markdown 20240506/t/threed-optix/5.0.2-5.0.4/README.md --exclude *.pyd
+[2024-05-06 13:43:34] INFO root fetch - processPackages [z3c.celery]: executing diffoscope
+[2024-05-06 13:43:34] INFO root fetch - processPackages [z3c.celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3c.celery-1.7.0.tar.gz tmp/z3c_celery-1.8.0.tar.gz --markdown 20240506/z/z3c.celery/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-06 13:43:34] INFO root fetch - processPackages [cltrier_nlp]: executing diffoscope
+[2024-05-06 13:43:34] INFO root fetch - processPackages [cltrier_nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cltrier_nlp-0.1.6.tar.gz tmp/cltrier_nlp-0.1.7.tar.gz --markdown 20240506/c/cltrier_nlp/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-06 13:43:34] INFO root fetch - processPackages [wxhook]: executing diffoscope
+[2024-05-06 13:43:34] INFO root fetch - processPackages [wxhook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxhook-0.0.4.tar.gz tmp/wxhook-0.0.5.tar.gz --markdown 20240506/w/wxhook/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-06 13:43:34] INFO root fetch - processPackages [django-sitewide]: Downloading https://files.pythonhosted.org/packages/1a/60/e047098f7037417eb3d0a50d5dd803295aea3add7356a2e98aa27c4699b8/django-sitewide-0.1.9.tar.gz
+[2024-05-06 13:43:34] INFO root fetch - processPackages [mxbt]: executing diffoscope
+[2024-05-06 13:43:34] INFO root fetch - processPackages [mxbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxbt-0.3.5.tar.gz tmp/mxbt-0.3.6.tar.gz --markdown 20240506/m/mxbt/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-06 13:43:34] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2024-05-06 13:43:34] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-2.2.2rc2.tar.gz tmp/orchestrator_core-2.3.0rc1.tar.gz --markdown 20240506/o/orchestrator-core/2.2.2rc2-2.3.0rc1/README.md --exclude *.pyd
+[2024-05-06 13:43:34] INFO root fetch - processPackages [django-societies]: executing diffoscope
+[2024-05-06 13:43:34] INFO root fetch - processPackages [django-societies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-societies-0.1.6.tar.gz tmp/django-societies-0.1.7.tar.gz --markdown 20240506/d/django-societies/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-06 13:43:34] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/42/9e/8dd501e93dfa56b5aaf449e5fb261f10d6049db5090d20384ac38658ee05/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240503.tar.gz
+[2024-05-06 13:43:34] INFO root fetch - processPackages [django-sitewide]: executing diffoscope
+[2024-05-06 13:43:34] INFO root fetch - processPackages [django-sitewide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sitewide-0.1.8.tar.gz tmp/django-sitewide-0.1.9.tar.gz --markdown 20240506/d/django-sitewide/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 13:43:34] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2024-05-06 13:43:34] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240502.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240503.tar.gz --markdown 20240506/n/nvidia-dali-tf-plugin-nightly-cuda110/1.38.0.dev20240502-1.38.0.dev20240503/README.md --exclude *.pyd
+[2024-05-06 13:43:36] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-1.0.0.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-1.0.1.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - main [MainThread]: End processing [slicetca]: success
+[2024-05-06 13:43:36] INFO root fetch - processPackages [cltrier_nlp]: Remove: archive file [/home/abi/fetcher/tmp/cltrier_nlp-0.1.6.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - processPackages [cltrier_nlp]: Remove: archive file [/home/abi/fetcher/tmp/cltrier_nlp-0.1.7.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - main [MainThread]: End processing [cltrier_nlp]: success
+[2024-05-06 13:43:36] INFO root fetch - processPackages [django-societies]: Remove: archive file [/home/abi/fetcher/tmp/django-societies-0.1.6.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - processPackages [django-societies]: Remove: archive file [/home/abi/fetcher/tmp/django-societies-0.1.7.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - main [MainThread]: End processing [django-societies]: success
+[2024-05-06 13:43:36] INFO root fetch - processPackages [mxbt]: Remove: archive file [/home/abi/fetcher/tmp/mxbt-0.3.5.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - processPackages [mxbt]: Remove: archive file [/home/abi/fetcher/tmp/mxbt-0.3.6.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - main [MainThread]: End processing [mxbt]: success
+[2024-05-06 13:43:36] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240502.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240503.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2024-05-06 13:43:36] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.2.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.4.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2024-05-06 13:43:36] INFO root fetch - processPackages [z3c.celery]: Remove: archive file [/home/abi/fetcher/tmp/z3c.celery-1.7.0.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - processPackages [z3c.celery]: Remove: archive file [/home/abi/fetcher/tmp/z3c_celery-1.8.0.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - main [MainThread]: End processing [z3c.celery]: success
+[2024-05-06 13:43:36] INFO root fetch - processPackages [django-sitewide]: Remove: archive file [/home/abi/fetcher/tmp/django-sitewide-0.1.8.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - processPackages [django-sitewide]: Remove: archive file [/home/abi/fetcher/tmp/django-sitewide-0.1.9.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - main [MainThread]: End processing [django-sitewide]: success
+[2024-05-06 13:43:36] INFO root fetch - processPackages [wxhook]: Remove: archive file [/home/abi/fetcher/tmp/wxhook-0.0.4.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - processPackages [wxhook]: Remove: archive file [/home/abi/fetcher/tmp/wxhook-0.0.5.tar.gz]
+[2024-05-06 13:43:36] INFO root fetch - main [MainThread]: End processing [wxhook]: success
+[2024-05-06 13:43:38] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.2rc2.tar.gz]
+[2024-05-06 13:43:38] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.3.0rc1.tar.gz]
+[2024-05-06 13:43:38] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2024-05-06 13:43:38] INFO root fetch - main [MainThread]: Store serial: [23076994]
