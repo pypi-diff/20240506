@@ -13110,3 +13110,84 @@
 [2024-05-06 10:59:03] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
 [2024-05-06 10:59:03] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
 [2024-05-06 10:59:03] INFO root fetch - main [MainThread]: Store serial: [23074855]
+[2024-05-06 11:01:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23074855]
+[2024-05-06 11:01:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-06 11:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: endec
+[2024-05-06 11:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdetsyn
+[2024-05-06 11:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shadePy
+[2024-05-06 11:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydev
+[2024-05-06 11:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msmanager
+[2024-05-06 11:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metal-python
+[2024-05-06 11:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HawaData
+[2024-05-06 11:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fasts2
+[2024-05-06 11:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-hcloud
+[2024-05-06 11:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cost-monitoring-construct
+[2024-05-06 11:01:11] INFO root fetch - processPackages [msmanager]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-06 11:01:11] WARNING root fetch - processPackages [mdetsyn]: Skipping, unable to determine old version
+[2024-05-06 11:01:11] INFO root fetch - main [MainThread]: End processing [mdetsyn] error
+[2024-05-06 11:01:11] INFO root fetch - processPackages [fasts2]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-06 11:01:12] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-06 11:01:12] INFO root fetch - processPackages [cost-monitoring-construct]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-06 11:01:12] WARNING root fetch - processPackages [shadePy]: Skipping, unable to determine old version
+[2024-05-06 11:01:12] INFO root fetch - main [MainThread]: End processing [shadePy] error
+[2024-05-06 11:01:12] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/ad/ba/ef969d0752669ad29e2f5c6f59766bd94e94e36750383865ca502b3a095e/msmanager-0.4.1.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [endec]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 11:01:12] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-06 11:01:12] INFO root fetch - processPackages [hydev]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-05-06 11:01:12] INFO root fetch - processPackages [fasts2]: Downloading https://files.pythonhosted.org/packages/89/5a/69bfc0e86a1d973b756e8c50e5e42e5d11725f48d13f260843acdf4708ab/fasts2-0.0.2.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-06 11:01:12] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [cost-monitoring-construct]: Downloading https://files.pythonhosted.org/packages/8e/3a/804830a83fc91430a86926e1d09838befbe2ea7cdaedb3d188a578354ee0/cost-monitoring-construct-1.2.2.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [hydev]: Downloading https://files.pythonhosted.org/packages/fe/0e/dc9be02e1eafa63e671fd11c27b58431a359af305a9689131471245bfa3c/hydev-1.5.1.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [endec]: Downloading https://files.pythonhosted.org/packages/ba/0a/4a3b4976f78174df6521a6969411859592533843ac78f5c3b2765166fa58/endec-0.1.1.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [fasts2]: Downloading https://files.pythonhosted.org/packages/76/bc/867015ca1944784d521d0168e4fbe309fb1c208a70e9a15a893d5e68806a/fasts2-0.0.3.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/e3/64/c06df07ec93923d9315d90b855b4b70e1b61128167c26d67cf82e741af55/msmanager-0.4.2.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [msmanager]: executing diffoscope
+[2024-05-06 11:01:12] INFO root fetch - processPackages [fasts2]: executing diffoscope
+[2024-05-06 11:01:12] INFO root fetch - processPackages [fasts2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasts2-0.0.2.tar.gz tmp/fasts2-0.0.3.tar.gz --markdown 20240506/f/fasts2/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-06 11:01:12] INFO root fetch - processPackages [msmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmanager-0.4.1.tar.gz tmp/msmanager-0.4.2.tar.gz --markdown 20240506/m/msmanager/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-06 11:01:12] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-06 11:01:12] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240506/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-06 11:01:12] INFO root fetch - processPackages [hydev]: Downloading https://files.pythonhosted.org/packages/6f/63/956325c7c278d9a7abb90a44cefb50490e75fb149460d89428e7da14af9b/hydev-1.6.0.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [cost-monitoring-construct]: Downloading https://files.pythonhosted.org/packages/15/1f/b9e4a89cc491c148593ae749765d369c3dc13cd51dda4f94e7f337236bcc/cost-monitoring-construct-1.2.3.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [endec]: Downloading https://files.pythonhosted.org/packages/53/21/fdc9b2c881cad66ed0c9a07db0065319e4d63bb19c3b1125f63203ccfd0a/endec-0.1.2.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [hydev]: executing diffoscope
+[2024-05-06 11:01:12] INFO root fetch - processPackages [hydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydev-1.5.1.tar.gz tmp/hydev-1.6.0.tar.gz --markdown 20240506/h/hydev/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-05-06 11:01:12] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2024-05-06 11:01:12] INFO root fetch - processPackages [cost-monitoring-construct]: executing diffoscope
+[2024-05-06 11:01:12] INFO root fetch - processPackages [cost-monitoring-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cost-monitoring-construct-1.2.2.tar.gz tmp/cost-monitoring-construct-1.2.3.tar.gz --markdown 20240506/c/cost-monitoring-construct/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-06 11:01:12] INFO root fetch - processPackages [endec]: executing diffoscope
+[2024-05-06 11:01:12] INFO root fetch - processPackages [endec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endec-0.1.1.tar.gz tmp/endec-0.1.2.tar.gz --markdown 20240506/e/endec/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 11:01:13] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-05-06 11:01:13] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240506/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-06 11:01:13] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2024-05-06 11:01:13] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20240506/m/metal-python/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-06 11:01:13] INFO root fetch - processPackages [fasts2]: Remove: archive file [/home/abi/fetcher/tmp/fasts2-0.0.2.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - processPackages [fasts2]: Remove: archive file [/home/abi/fetcher/tmp/fasts2-0.0.3.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - main [MainThread]: End processing [fasts2]: success
+[2024-05-06 11:01:13] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.1.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.2.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - main [MainThread]: End processing [msmanager]: success
+[2024-05-06 11:01:13] INFO root fetch - processPackages [hydev]: Remove: archive file [/home/abi/fetcher/tmp/hydev-1.5.1.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - processPackages [hydev]: Remove: archive file [/home/abi/fetcher/tmp/hydev-1.6.0.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - main [MainThread]: End processing [hydev]: success
+[2024-05-06 11:01:13] INFO root fetch - processPackages [cost-monitoring-construct]: Remove: archive file [/home/abi/fetcher/tmp/cost-monitoring-construct-1.2.2.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - processPackages [cost-monitoring-construct]: Remove: archive file [/home/abi/fetcher/tmp/cost-monitoring-construct-1.2.3.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - main [MainThread]: End processing [cost-monitoring-construct]: success
+[2024-05-06 11:01:13] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-05-06 11:01:13] INFO root fetch - processPackages [endec]: Remove: archive file [/home/abi/fetcher/tmp/endec-0.1.1.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - processPackages [endec]: Remove: archive file [/home/abi/fetcher/tmp/endec-0.1.2.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - main [MainThread]: End processing [endec]: success
+[2024-05-06 11:01:13] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-06 11:01:13] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-06 11:01:15] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.4.tar.gz]
+[2024-05-06 11:01:15] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
+[2024-05-06 11:01:15] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2024-05-06 11:01:15] INFO root fetch - main [MainThread]: Store serial: [23074953]
