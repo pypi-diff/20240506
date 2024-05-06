@@ -1158,3 +1158,48 @@
 [2024-05-06 02:04:27] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240506.tar.gz]
 [2024-05-06 02:04:27] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-05-06 02:04:27] INFO root fetch - main [MainThread]: Store serial: [23069931]
+[2024-05-06 02:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069931]
+[2024-05-06 02:06:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 02:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnxscript
+[2024-05-06 02:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bufr2geojson
+[2024-05-06 02:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2024-05-06 02:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyAlicat
+[2024-05-06 02:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxkern-nightly
+[2024-05-06 02:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bank-transfer-qrcode
+[2024-05-06 02:06:36] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240506] Old Version: [0.1.0.dev20240505]
+[2024-05-06 02:06:36] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240505.435] Old Version: [2.0.0.20240504.425]
+[2024-05-06 02:06:36] WARNING root fetch - processPackages [bufr2geojson]: Skipping, unable to determine old version
+[2024-05-06 02:06:36] INFO root fetch - main [MainThread]: End processing [bufr2geojson] error
+[2024-05-06 02:06:36] WARNING root fetch - processPackages [bank-transfer-qrcode]: Skipping, unable to determine old version
+[2024-05-06 02:06:36] INFO root fetch - main [MainThread]: End processing [bank-transfer-qrcode] error
+[2024-05-06 02:06:36] INFO root fetch - processPackages [pyAlicat]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 02:06:36] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/15/cf/c9c091db765dfa0301733b97d1819762304d81d0074cc7e3fdf0851f4313/onnxscript-0.1.0.dev20240505.tar.gz
+[2024-05-06 02:06:36] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/ee/c2/4b4cc47bf3fffe3c7b864132f76c9fd51599f3a037a4e12667c4f7ee1604/mct-nightly-2.0.0.20240504.425.tar.gz
+[2024-05-06 02:06:36] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-06 02:06:36] INFO root fetch - processPackages [pyAlicat]: Downloading https://files.pythonhosted.org/packages/f3/b6/0a016b27bc9140cf5c6553922a239c64a23dbc295da1bcfb383c42fc4ac2/pyalicat-0.0.1.tar.gz
+[2024-05-06 02:06:36] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-06 02:06:37] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/a0/9e/6f673fa7272a56c1d1e002ba2df7630dcc5a0281e969842f4688e76d372a/onnxscript-0.1.0.dev20240506.tar.gz
+[2024-05-06 02:06:37] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d5/20/f3b306329e15ef86602df546b9f0c756ea230757231489bb84be23b52937/mct-nightly-2.0.0.20240505.435.tar.gz
+[2024-05-06 02:06:37] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-06 02:06:37] INFO root fetch - processPackages [pyAlicat]: Downloading https://files.pythonhosted.org/packages/b8/c7/f626379850db179c6fcdbe1b60e95409e7fbdb31eae532a75b2c47a12bcf/pyalicat-0.0.2.tar.gz
+[2024-05-06 02:06:37] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-06 02:06:37] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240505.tar.gz tmp/onnxscript-0.1.0.dev20240506.tar.gz --markdown 20240506/o/onnxscript/0.1.0.dev20240505-0.1.0.dev20240506/README.md --exclude *.pyd
+[2024-05-06 02:06:37] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-06 02:06:37] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240506/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-06 02:06:37] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-06 02:06:37] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240504.425.tar.gz tmp/mct-nightly-2.0.0.20240505.435.tar.gz --markdown 20240506/m/mct-nightly/2.0.0.20240504.425-2.0.0.20240505.435/README.md --exclude *.pyd
+[2024-05-06 02:06:37] INFO root fetch - processPackages [pyAlicat]: executing diffoscope
+[2024-05-06 02:06:37] INFO root fetch - processPackages [pyAlicat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalicat-0.0.1.tar.gz tmp/pyalicat-0.0.2.tar.gz --markdown 20240506/p/pyAlicat/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 02:06:37] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-06 02:06:37] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-06 02:06:37] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-06 02:06:37] INFO root fetch - processPackages [pyAlicat]: Remove: archive file [/home/abi/fetcher/tmp/pyalicat-0.0.1.tar.gz]
+[2024-05-06 02:06:37] INFO root fetch - processPackages [pyAlicat]: Remove: archive file [/home/abi/fetcher/tmp/pyalicat-0.0.2.tar.gz]
+[2024-05-06 02:06:37] INFO root fetch - main [MainThread]: End processing [pyAlicat]: success
+[2024-05-06 02:06:38] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240505.tar.gz]
+[2024-05-06 02:06:38] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240506.tar.gz]
+[2024-05-06 02:06:38] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-06 02:06:39] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240504.425.tar.gz]
+[2024-05-06 02:06:39] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240505.435.tar.gz]
+[2024-05-06 02:06:39] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-06 02:06:39] INFO root fetch - main [MainThread]: Store serial: [23069954]
