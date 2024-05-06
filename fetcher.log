@@ -4801,3 +4801,34 @@
 [2024-05-06 06:22:54] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.2.tar.gz]
 [2024-05-06 06:22:54] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
 [2024-05-06 06:22:54] INFO root fetch - main [MainThread]: Store serial: [23071443]
+[2024-05-06 06:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071443]
+[2024-05-06 06:25:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcvi
+[2024-05-06 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hikyuu
+[2024-05-06 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopipeline
+[2024-05-06 06:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: procastro
+[2024-05-06 06:25:03] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-06 06:25:03] INFO root fetch - processPackages [procastro]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-06 06:25:03] INFO root fetch - processPackages [hikyuu]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-06 06:25:03] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-06 06:25:03] INFO root fetch - processPackages [jcvi]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-06 06:25:03] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/a2/be/83e3a528df2ed7bda9b4b8819dab9f024a576535044771eaa043aa78ff9d/jcvi-1.4.8.tar.gz
+[2024-05-06 06:25:03] INFO root fetch - processPackages [procastro]: Downloading https://files.pythonhosted.org/packages/64/62/31f049da583d8ca40f12c5111db9dda4a873b73e648a7c697747caa80dd3/procastro-0.1.3.tar.gz
+[2024-05-06 06:25:03] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-06 06:25:03] INFO root fetch - processPackages [hikyuu]: Downloading https://files.pythonhosted.org/packages/8a/41/f94c332940be0cb1ac92201e65b716ae7d9aa99e4d98b6af3e205479bc70/hikyuu-2.0.3-cp39-none-win_amd64.whl
+[2024-05-06 06:25:04] WARNING root fetch - processPackages [hikyuu]: Skipping package: exceeds size limit 15648371>=10485760
+[2024-05-06 06:25:04] INFO root fetch - main [MainThread]: End processing [hikyuu] error
+[2024-05-06 06:25:04] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-06 06:25:04] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240506/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-06 06:25:04] WARNING root fetch - processPackages [procastro]: Skipping package: exceeds size limit 11184289>=10485760
+[2024-05-06 06:25:04] INFO root fetch - main [MainThread]: End processing [procastro] error
+[2024-05-06 06:25:04] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/5d/24/5036675f79005ad20ca239e90bec15f8b40ead5317b7ed2daa5bf2021117/jcvi-1.4.9.tar.gz
+[2024-05-06 06:25:04] INFO root fetch - processPackages [jcvi]: executing diffoscope
+[2024-05-06 06:25:04] INFO root fetch - processPackages [jcvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcvi-1.4.8.tar.gz tmp/jcvi-1.4.9.tar.gz --markdown 20240506/j/jcvi/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-06 06:25:04] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-06 06:25:04] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-06 06:25:04] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-06 06:25:05] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.8.tar.gz]
+[2024-05-06 06:25:05] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.9.tar.gz]
+[2024-05-06 06:25:05] INFO root fetch - main [MainThread]: End processing [jcvi]: success
+[2024-05-06 06:25:05] INFO root fetch - main [MainThread]: Store serial: [23071505]
