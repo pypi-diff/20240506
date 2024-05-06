@@ -9120,3 +9120,59 @@
 [2024-05-06 10:07:08] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.2.tar.gz]
 [2024-05-06 10:07:08] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
 [2024-05-06 10:07:08] INFO root fetch - main [MainThread]: Store serial: [23073478]
+[2024-05-06 10:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23073478]
+[2024-05-06 10:09:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usso
+[2024-05-06 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvprocessor-fdojurado
+[2024-05-06 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2024-05-06 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ultramen
+[2024-05-06 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-cim
+[2024-05-06 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pcplayground
+[2024-05-06 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-cis
+[2024-05-06 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-azure-native
+[2024-05-06 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-ckafka
+[2024-05-06 10:09:18] WARNING root fetch - processPackages [usso]: Skipping, unable to determine old version
+[2024-05-06 10:09:18] INFO root fetch - main [MainThread]: End processing [usso] error
+[2024-05-06 10:09:18] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240505] Old Version: [0.4.5.dev20240504]
+[2024-05-06 10:09:18] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/a3/de/a874b986ed10b4ed1d63ef652b110776ad6b5c05a4591cae428a1c4c6830/pyglove-0.4.5.dev20240504.tar.gz
+[2024-05-06 10:09:18] WARNING root fetch - processPackages [ultramen]: Skipping, unable to determine old version
+[2024-05-06 10:09:18] INFO root fetch - main [MainThread]: End processing [ultramen] error
+[2024-05-06 10:09:18] WARNING root fetch - processPackages [cvprocessor-fdojurado]: Skipping, unable to determine old version
+[2024-05-06 10:09:18] INFO root fetch - main [MainThread]: End processing [cvprocessor-fdojurado] error
+[2024-05-06 10:09:18] WARNING root fetch - processPackages [pcplayground]: Skipping, unable to determine old version
+[2024-05-06 10:09:18] INFO root fetch - main [MainThread]: End processing [pcplayground] error
+[2024-05-06 10:09:18] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-05-06 10:09:18] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:09:18] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:09:18] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:09:18] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Downloading https://files.pythonhosted.org/packages/5c/a8/c9e431108bceb4b256fb62fab1e9e73096b8cfd37a5a4c8c2f642281d45a/tencentcloud-sdk-python-ckafka-3.0.998.tar.gz
+[2024-05-06 10:09:18] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-05-06 10:09:18] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Downloading https://files.pythonhosted.org/packages/7f/38/401f3647b64b746fc71cb98ef74e1f8d8d7f6ac2da8abf4780a8eaa5031f/tencentcloud-sdk-python-cis-3.0.998.tar.gz
+[2024-05-06 10:09:18] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: Downloading https://files.pythonhosted.org/packages/fc/0c/00422ca579063142126903bb04b63de5b300bd3c994ecd5c40373f4f605d/tencentcloud-sdk-python-cim-3.0.998.tar.gz
+[2024-05-06 10:09:18] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/29/c3/64115307d57000391589aaa854612b09a4ba1c788571ebb1b8ca1559588c/pyglove-0.4.5.dev20240505.tar.gz
+[2024-05-06 10:09:18] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-05-06 10:09:18] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-05-06 10:09:19] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-06 10:09:19] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240504.tar.gz tmp/pyglove-0.4.5.dev20240505.tar.gz --markdown 20240506/p/pyglove/0.4.5.dev20240504-0.4.5.dev20240505/README.md --exclude *.pyd
+[2024-05-06 10:09:19] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Downloading https://files.pythonhosted.org/packages/64/6c/a3525dfbcca82e86a0008715e2f0200fefe08e26d739222040b98717a28f/tencentcloud-sdk-python-cis-3.0.999.tar.gz
+[2024-05-06 10:09:19] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Downloading https://files.pythonhosted.org/packages/0e/31/976d1eb34715453dbfffb20889e590f1b80473d05f80d1683580df34b090/tencentcloud-sdk-python-ckafka-3.0.999.tar.gz
+[2024-05-06 10:09:19] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: Downloading https://files.pythonhosted.org/packages/aa/a1/676b21dd661350ab49ae3cff593dab173c02ff5925b009ccec4c20b3a322/tencentcloud-sdk-python-cim-3.0.999.tar.gz
+[2024-05-06 10:09:19] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: executing diffoscope
+[2024-05-06 10:09:19] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cis-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cis-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-cis/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:09:19] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: executing diffoscope
+[2024-05-06 10:09:19] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ckafka-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ckafka-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-ckafka/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:09:19] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: executing diffoscope
+[2024-05-06 10:09:19] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cim-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cim-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-cim/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:09:20] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cim-3.0.998.tar.gz]
+[2024-05-06 10:09:20] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cim-3.0.999.tar.gz]
+[2024-05-06 10:09:20] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cim]: success
+[2024-05-06 10:09:20] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ckafka-3.0.998.tar.gz]
+[2024-05-06 10:09:20] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ckafka-3.0.999.tar.gz]
+[2024-05-06 10:09:20] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ckafka]: success
+[2024-05-06 10:09:20] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cis-3.0.998.tar.gz]
+[2024-05-06 10:09:20] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cis-3.0.999.tar.gz]
+[2024-05-06 10:09:20] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cis]: success
+[2024-05-06 10:09:20] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240504.tar.gz]
+[2024-05-06 10:09:20] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240505.tar.gz]
+[2024-05-06 10:09:20] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-06 10:09:20] INFO root fetch - main [MainThread]: Store serial: [23073509]
