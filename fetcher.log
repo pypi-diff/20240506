@@ -13212,3 +13212,101 @@
 [2024-05-06 11:03:25] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
 [2024-05-06 11:03:25] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
 [2024-05-06 11:03:25] INFO root fetch - main [MainThread]: Store serial: [23074959]
+[2024-05-06 11:05:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23074959]
+[2024-05-06 11:05:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 11:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resolwe
+[2024-05-06 11:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.common
+[2024-05-06 11:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ETS-CookBook
+[2024-05-06 11:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: julearn
+[2024-05-06 11:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.core
+[2024-05-06 11:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.features
+[2024-05-06 11:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartbetsAPI
+[2024-05-06 11:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.tabular
+[2024-05-06 11:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorrt-yolo
+[2024-05-06 11:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.multimodal
+[2024-05-06 11:05:34] INFO root fetch - processPackages [ETS-CookBook]: New version: [1.0.9a0] Old Version: [1.0.9]
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240505] Old Version: [1.1.1b20240504]
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240505] Old Version: [1.1.1b20240504]
+[2024-05-06 11:05:34] INFO root fetch - processPackages [tensorrt-yolo]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240505] Old Version: [1.1.1b20240504]
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240505] Old Version: [1.1.1b20240504]
+[2024-05-06 11:05:34] INFO root fetch - processPackages [smartbetsAPI]: New version: [1.2.9] Old Version: [1.2.7]
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240505] Old Version: [1.1.1b20240504]
+[2024-05-06 11:05:34] INFO root fetch - processPackages [julearn]: New version: [0.3.3.dev4] Old Version: [0.3.2.dev80]
+[2024-05-06 11:05:34] INFO root fetch - processPackages [ETS-CookBook]: Downloading https://files.pythonhosted.org/packages/43/06/29da449adb8ce838fee8a99888bfb64e05bf44cd0778e1fd409250642450/ETS_CookBook-1.0.9.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/cf/05/b1dc90bea5da2f239b43adab38e863ee700aba212aeda2b21904587bb618/autogluon.multimodal-1.1.1b20240504.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/dc/fc/ddc807a6f388200c7c1549f24dd7476e3b825c1cc2945e340326c3507645/autogluon.common-1.1.1b20240504.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/fe/35/5b444fbc037f45647e5b45a702c98e51ab5252ac0970e958489af8920016/autogluon.tabular-1.1.1b20240504.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/74/4f/1ad738ff766e08b96bbb04786b6a2cb2c70c009836e0b43d2b16c4f352a7/autogluon.features-1.1.1b20240504.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/26/b0/33631d5277bd312b98ff2d0802625e33c85fb8f67f074f1762f96853c518/autogluon.core-1.1.1b20240504.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [smartbetsAPI]: Downloading https://files.pythonhosted.org/packages/2a/5b/a9f8df853895dc0bd0abe64c8a921b75335d35d37fcf44ed628c82ec88d8/smartbetsAPI-1.2.7.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/1f/a3/326d915f2f9c5d2f09b81dafc350ca279eeead882706009d62092b421184/julearn-0.3.2.dev80.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [tensorrt-yolo]: Downloading https://files.pythonhosted.org/packages/67/3a/65b3d16537b31a7e9ceab964bc02c43f2432712d2a8621cd4177f9e09f6b/tensorrt_yolo-3.0.1.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2024-05-06 11:05:34] WARNING root fetch - processPackages [tensorrt-yolo]: Skipping package: exceeds size limit 19512995>=10485760
+[2024-05-06 11:05:34] INFO root fetch - processPackages [tensorrt-yolo]: Start processing: autogluon.timeseries
+[2024-05-06 11:05:34] INFO root fetch - main [MainThread]: End processing [tensorrt-yolo] error
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/56/cd/d039433a844d62d425932aa1f9d05a954f5d99f1ed1887419bd0bdad35c3/autogluon.common-1.1.1b20240505.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/c1/c4/38b68f25dc63aacb579431d1f2c6c3d85ca2551b2f8851a3bf989ae44591/autogluon.multimodal-1.1.1b20240505.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/4c/1a/4d8a8b317a2d4b37e5ca5800f214d882d273bde37ab05a08e0138fa0c8ee/autogluon.features-1.1.1b20240505.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/78/31/6bbe2364792aaec2c249eb5d56db8cd0ad07e9296f67a1c623ed7c230641/autogluon.tabular-1.1.1b20240505.tar.gz
+[2024-05-06 11:05:34] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/20/50/6f91095c1027fdedfa7fd08a11a93cb03d35aef05c179ec2a7dc897ad030/autogluon.core-1.1.1b20240505.tar.gz
+[2024-05-06 11:05:35] INFO root fetch - processPackages [ETS-CookBook]: Downloading https://files.pythonhosted.org/packages/09/fa/90d5886284c7be6ea9ec8bc00d3c061d39084492a13408c258798891c1cf/ETS_CookBook-1.0.9a0.tar.gz
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240504.tar.gz tmp/autogluon.common-1.1.1b20240505.tar.gz --markdown 20240506/a/autogluon.common/1.1.1b20240504-1.1.1b20240505/README.md --exclude *.pyd
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240504.tar.gz tmp/autogluon.multimodal-1.1.1b20240505.tar.gz --markdown 20240506/a/autogluon.multimodal/1.1.1b20240504-1.1.1b20240505/README.md --exclude *.pyd
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240504.tar.gz tmp/autogluon.features-1.1.1b20240505.tar.gz --markdown 20240506/a/autogluon.features/1.1.1b20240504-1.1.1b20240505/README.md --exclude *.pyd
+[2024-05-06 11:05:35] INFO root fetch - processPackages [smartbetsAPI]: Downloading https://files.pythonhosted.org/packages/6f/51/18b4a82b9aca290da8aeb2b04cb2dc6d2afc5e2ddefb75c7cf76f10a9a19/smartbetsapi-1.2.9.tar.gz
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240504.tar.gz tmp/autogluon.tabular-1.1.1b20240505.tar.gz --markdown 20240506/a/autogluon.tabular/1.1.1b20240504-1.1.1b20240505/README.md --exclude *.pyd
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240504.tar.gz tmp/autogluon.core-1.1.1b20240505.tar.gz --markdown 20240506/a/autogluon.core/1.1.1b20240504-1.1.1b20240505/README.md --exclude *.pyd
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240506] Old Version: [1.1.1b20240505]
+[2024-05-06 11:05:35] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/b1/e1/2c8e747a76ef868f1b6ea5714cbf984d8ac45db77ebbd3af0f1605361054/julearn-0.3.3.dev4.tar.gz
+[2024-05-06 11:05:35] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/c1/af/3a81349d46e3c0d27717d73902afa09605912c039c446c67c9fa44500e89/autogluon.timeseries-1.1.1b20240505.tar.gz
+[2024-05-06 11:05:35] INFO root fetch - processPackages [smartbetsAPI]: executing diffoscope
+[2024-05-06 11:05:35] INFO root fetch - processPackages [smartbetsAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartbetsAPI-1.2.7.tar.gz tmp/smartbetsapi-1.2.9.tar.gz --markdown 20240506/s/smartbetsAPI/1.2.7-1.2.9/README.md --exclude *.pyd
+[2024-05-06 11:05:35] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2024-05-06 11:05:35] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20240506/r/resolwe/9.0.0a3-9.0.0a4/README.md --exclude *.pyd
+[2024-05-06 11:05:35] INFO root fetch - processPackages [julearn]: executing diffoscope
+[2024-05-06 11:05:35] INFO root fetch - processPackages [julearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julearn-0.3.2.dev80.tar.gz tmp/julearn-0.3.3.dev4.tar.gz --markdown 20240506/j/julearn/0.3.2.dev80-0.3.3.dev4/README.md --exclude *.pyd
+[2024-05-06 11:05:35] INFO root fetch - processPackages [ETS-CookBook]: executing diffoscope
+[2024-05-06 11:05:35] INFO root fetch - processPackages [ETS-CookBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ETS_CookBook-1.0.9.tar.gz tmp/ETS_CookBook-1.0.9a0.tar.gz --markdown 20240506/E/ETS-CookBook/1.0.9-1.0.9a0/README.md --exclude *.pyd
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/0f/bf/522e5c69e399ce4aad7aba6398a78861ca3f32e779fad4c4d87923610690/autogluon.timeseries-1.1.1b20240506.tar.gz
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-06 11:05:35] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240505.tar.gz tmp/autogluon.timeseries-1.1.1b20240506.tar.gz --markdown 20240506/a/autogluon.timeseries/1.1.1b20240505-1.1.1b20240506/README.md --exclude *.pyd
+[2024-05-06 11:05:36] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240504.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240505.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-06 11:05:36] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240504.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240505.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-06 11:05:36] INFO root fetch - processPackages [smartbetsAPI]: Remove: archive file [/home/abi/fetcher/tmp/smartbetsAPI-1.2.7.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - processPackages [smartbetsAPI]: Remove: archive file [/home/abi/fetcher/tmp/smartbetsapi-1.2.9.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - main [MainThread]: End processing [smartbetsAPI]: success
+[2024-05-06 11:05:36] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240504.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240505.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-06 11:05:36] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240504.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240505.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-06 11:05:36] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240504.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240505.tar.gz]
+[2024-05-06 11:05:36] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-06 11:05:37] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240505.tar.gz]
+[2024-05-06 11:05:37] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240506.tar.gz]
+[2024-05-06 11:05:37] INFO root fetch - processPackages [ETS-CookBook]: Remove: archive file [/home/abi/fetcher/tmp/ETS_CookBook-1.0.9.tar.gz]
+[2024-05-06 11:05:37] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-06 11:05:37] INFO root fetch - processPackages [ETS-CookBook]: Remove: archive file [/home/abi/fetcher/tmp/ETS_CookBook-1.0.9a0.tar.gz]
+[2024-05-06 11:05:37] INFO root fetch - main [MainThread]: End processing [ETS-CookBook]: success
+[2024-05-06 11:05:37] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.2.dev80.tar.gz]
+[2024-05-06 11:05:37] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.3.dev4.tar.gz]
+[2024-05-06 11:05:37] INFO root fetch - main [MainThread]: End processing [julearn]: success
+[2024-05-06 11:05:37] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2024-05-06 11:05:37] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2024-05-06 11:05:37] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2024-05-06 11:05:37] INFO root fetch - main [MainThread]: Store serial: [23074994]
