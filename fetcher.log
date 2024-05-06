@@ -5520,3 +5520,48 @@
 [2024-05-06 07:14:58] INFO root fetch - processPackages [lmcv-tools]: Remove: archive file [/home/abi/fetcher/tmp/lmcv_tools-0.0.9.tar.gz]
 [2024-05-06 07:14:58] INFO root fetch - main [MainThread]: End processing [lmcv-tools]: success
 [2024-05-06 07:14:58] INFO root fetch - main [MainThread]: Store serial: [23071884]
+[2024-05-06 07:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071884]
+[2024-05-06 07:17:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 07:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soundvectors
+[2024-05-06 07:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sitemapr
+[2024-05-06 07:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih
+[2024-05-06 07:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aixpress
+[2024-05-06 07:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: platforms
+[2024-05-06 07:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astro-SPLASH
+[2024-05-06 07:17:08] INFO root fetch - processPackages [astro-SPLASH]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 07:17:08] INFO root fetch - processPackages [platforms]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-06 07:17:08] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-06 07:17:08] INFO root fetch - processPackages [sitemapr]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-06 07:17:08] INFO root fetch - processPackages [platforms]: Downloading https://files.pythonhosted.org/packages/fc/30/b58887e5e444ada16d633c0058a7629970c4248370ef84e8a1c30a38f48d/platforms-2.0.0.tar.gz
+[2024-05-06 07:17:08] WARNING root fetch - processPackages [aixpress]: Skipping, unable to determine old version
+[2024-05-06 07:17:08] INFO root fetch - main [MainThread]: End processing [aixpress] error
+[2024-05-06 07:17:08] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-06 07:17:08] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/2d/62/5193b720fe79afcf4ddb0a84999a77b2d3def33934be3e971b52e5290221/astro_SPLASH-0.0.8.tar.gz
+[2024-05-06 07:17:08] WARNING root fetch - processPackages [soundvectors]: Skipping, unable to determine old version
+[2024-05-06 07:17:08] INFO root fetch - main [MainThread]: End processing [soundvectors] error
+[2024-05-06 07:17:08] INFO root fetch - processPackages [sitemapr]: Downloading https://files.pythonhosted.org/packages/c8/42/2c687d967a82efac4da35dab480a8470289847e2d8d3ca794a96d0782a7f/sitemapr-0.2.1.tar.gz
+[2024-05-06 07:17:08] INFO root fetch - processPackages [platforms]: Downloading https://files.pythonhosted.org/packages/b7/af/9ce3599c4e516c9a5ed69cb8b78880844ae027111e42687de7649a6560db/platforms-3.0.0.tar.gz
+[2024-05-06 07:17:08] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/30/3a/87c5464add8f91a77b2cccbc02f5526d7ca05288541725ee9944ccd6f3ad/astro_SPLASH-0.0.9.tar.gz
+[2024-05-06 07:17:08] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-06 07:17:08] INFO root fetch - processPackages [platforms]: executing diffoscope
+[2024-05-06 07:17:08] INFO root fetch - processPackages [platforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platforms-2.0.0.tar.gz tmp/platforms-3.0.0.tar.gz --markdown 20240506/p/platforms/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-06 07:17:08] INFO root fetch - processPackages [astro-SPLASH]: executing diffoscope
+[2024-05-06 07:17:08] INFO root fetch - processPackages [astro-SPLASH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_SPLASH-0.0.8.tar.gz tmp/astro_SPLASH-0.0.9.tar.gz --markdown 20240506/a/astro-SPLASH/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 07:17:08] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-06 07:17:08] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240506/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-06 07:17:08] INFO root fetch - processPackages [sitemapr]: Downloading https://files.pythonhosted.org/packages/91/b4/cfd9c137871a1aeefc797c78c19536d876a1936f5971581adcae2687792c/sitemapr-0.2.2.tar.gz
+[2024-05-06 07:17:09] INFO root fetch - processPackages [sitemapr]: executing diffoscope
+[2024-05-06 07:17:09] INFO root fetch - processPackages [sitemapr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitemapr-0.2.1.tar.gz tmp/sitemapr-0.2.2.tar.gz --markdown 20240506/s/sitemapr/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-06 07:17:09] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.8.tar.gz]
+[2024-05-06 07:17:09] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.9.tar.gz]
+[2024-05-06 07:17:09] INFO root fetch - main [MainThread]: End processing [astro-SPLASH]: success
+[2024-05-06 07:17:09] INFO root fetch - processPackages [platforms]: Remove: archive file [/home/abi/fetcher/tmp/platforms-2.0.0.tar.gz]
+[2024-05-06 07:17:09] INFO root fetch - processPackages [platforms]: Remove: archive file [/home/abi/fetcher/tmp/platforms-3.0.0.tar.gz]
+[2024-05-06 07:17:09] INFO root fetch - main [MainThread]: End processing [platforms]: success
+[2024-05-06 07:17:09] INFO root fetch - processPackages [sitemapr]: Remove: archive file [/home/abi/fetcher/tmp/sitemapr-0.2.1.tar.gz]
+[2024-05-06 07:17:09] INFO root fetch - processPackages [sitemapr]: Remove: archive file [/home/abi/fetcher/tmp/sitemapr-0.2.2.tar.gz]
+[2024-05-06 07:17:09] INFO root fetch - main [MainThread]: End processing [sitemapr]: success
+[2024-05-06 07:17:09] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-06 07:17:09] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-06 07:17:09] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-06 07:17:09] INFO root fetch - main [MainThread]: Store serial: [23071905]
