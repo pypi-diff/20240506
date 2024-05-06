@@ -5637,3 +5637,51 @@
 [2024-05-06 07:23:39] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.3.tar.gz]
 [2024-05-06 07:23:39] INFO root fetch - main [MainThread]: End processing [beanhub-import]: success
 [2024-05-06 07:23:39] INFO root fetch - main [MainThread]: Store serial: [23071925]
+[2024-05-06 07:25:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071925]
+[2024-05-06 07:25:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 07:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-data-services
+[2024-05-06 07:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-pos-partner-second-lastname
+[2024-05-06 07:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-pos-lot-barcode
+[2024-05-06 07:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-pos-product-expiry
+[2024-05-06 07:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pkscreener
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: New version: [17.0.1.0.0.8] Old Version: [17.0.1.0.0.7]
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: New version: [17.0.1.0.0.7] Old Version: [17.0.1.0.0.6]
+[2024-05-06 07:25:48] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240506.339] Old Version: [0.44.20240505.338]
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-lot-barcode]: New version: [17.0.1.0.1.1] Old Version: [17.0.1.0.1]
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: Downloading https://files.pythonhosted.org/packages/f2/9e/74d822138eaebd6d41bd0e11de788a956d38c05d9db1ac761de12c2fb026/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: Downloading https://files.pythonhosted.org/packages/10/b0/6d9fd5ca694691ee64ccf7a4823c20ba51c7a105077ac488177167ce7859/odoo_addon_pos_product_expiry-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-06 07:25:48] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8964414125] Old Version: [2.0.0.dev8935749405]
+[2024-05-06 07:25:48] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/0d/79/7cb7d7155236c6b3ebbae24ffec7f0c6756bad963c8bfa2afd1aa43afde5/pkscreener-0.44.20240505.338.tar.gz
+[2024-05-06 07:25:48] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/eb/a9/ff4531d2b68aa96037e7ce244c26a2e3f51d83beb789c97772ac84313fcc/th2_data_services-2.0.0.dev8935749405.tar.gz
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: Downloading https://files.pythonhosted.org/packages/79/fc/eaba1f9f746365a7f02b9633aa603f1e646c5608a8b47af5934a1c5f7dd3/odoo_addon_pos_product_expiry-17.0.1.0.0.8-py3-none-any.whl
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: Downloading https://files.pythonhosted.org/packages/67/56/ce4ccf5621031baf02e96aecfaf3a866bba61408eaf4fe12ce0514cc5ffc/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-lot-barcode]: Downloading https://files.pythonhosted.org/packages/0b/4d/6cdf1d04001602d64ee42418ac9ba931f2dd874cdc9ec3cc49be892e05f8/odoo_addon_pos_lot_barcode-17.0.1.0.1-py3-none-any.whl
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: executing diffoscope
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_product_expiry-17.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_pos_product_expiry-17.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-pos-product-expiry/17.0.1.0.0.7-17.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: executing diffoscope
+[2024-05-06 07:25:48] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-pos-partner-second-lastname/17.0.1.0.0.6-17.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-06 07:25:48] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/fa/87/62ce9731c4902928cbfa842935a381db4eaf17213024459db05bad887da4/pkscreener-0.44.20240506.339.tar.gz
+[2024-05-06 07:25:49] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/83/68/b86f965cfce49930ed2b711f50d3fedbfcbac30f0cb01368d261f044fd7f/th2_data_services-2.0.0.dev8964414125.tar.gz
+[2024-05-06 07:25:49] INFO root fetch - processPackages [odoo-addon-pos-lot-barcode]: Downloading https://files.pythonhosted.org/packages/24/c6/5a538389cb8cba1b6e246466f4d31b557fdaeefaaa57a44a918415139b03/odoo_addon_pos_lot_barcode-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-06 07:25:49] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-06 07:25:49] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240505.338.tar.gz tmp/pkscreener-0.44.20240506.339.tar.gz --markdown 20240506/p/pkscreener/0.44.20240505.338-0.44.20240506.339/README.md --exclude *.pyd
+[2024-05-06 07:25:49] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-05-06 07:25:49] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8935749405.tar.gz tmp/th2_data_services-2.0.0.dev8964414125.tar.gz --markdown 20240506/t/th2-data-services/2.0.0.dev8935749405-2.0.0.dev8964414125/README.md --exclude *.pyd
+[2024-05-06 07:25:49] INFO root fetch - processPackages [odoo-addon-pos-lot-barcode]: executing diffoscope
+[2024-05-06 07:25:49] INFO root fetch - processPackages [odoo-addon-pos-lot-barcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_lot_barcode-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_pos_lot_barcode-17.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-pos-lot-barcode/17.0.1.0.1-17.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-06 07:25:49] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-06 07:25:49] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-06 07:25:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-partner-second-lastname]: success
+[2024-05-06 07:25:49] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_product_expiry-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-06 07:25:49] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_product_expiry-17.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-06 07:25:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-product-expiry]: success
+[2024-05-06 07:25:49] INFO root fetch - processPackages [odoo-addon-pos-lot-barcode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_lot_barcode-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-06 07:25:49] INFO root fetch - processPackages [odoo-addon-pos-lot-barcode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_lot_barcode-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-06 07:25:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-lot-barcode]: success
+[2024-05-06 07:25:49] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240505.338.tar.gz]
+[2024-05-06 07:25:49] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.339.tar.gz]
+[2024-05-06 07:25:49] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-06 07:25:50] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8935749405.tar.gz]
+[2024-05-06 07:25:50] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8964414125.tar.gz]
+[2024-05-06 07:25:50] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-05-06 07:25:50] INFO root fetch - main [MainThread]: Store serial: [23071936]
