@@ -4708,3 +4708,33 @@
 [2024-05-06 06:16:23] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.2.0.tar.gz]
 [2024-05-06 06:16:23] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
 [2024-05-06 06:16:23] INFO root fetch - main [MainThread]: Store serial: [23071408]
+[2024-05-06 06:18:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071408]
+[2024-05-06 06:18:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 06:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saraApi
+[2024-05-06 06:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiconnection
+[2024-05-06 06:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camel-kenlm
+[2024-05-06 06:18:31] INFO root fetch - processPackages [saraApi]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2024-05-06 06:18:31] INFO root fetch - processPackages [multiconnection]: New version: [2.34.17] Old Version: [2.34.16]
+[2024-05-06 06:18:31] INFO root fetch - processPackages [camel-kenlm]: New version: [2024.5.6] Old Version: [2024.5.2]
+[2024-05-06 06:18:31] INFO root fetch - processPackages [multiconnection]: Downloading https://files.pythonhosted.org/packages/2d/bf/5d4c7583f457118ad4e95e42f0ccf9e967fa49df5a26b550aa15d095c0f0/multiconnection-2.34.16.tar.gz
+[2024-05-06 06:18:31] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/77/a8/a399684a716464ed3828a051ce0312f591ac592636e2d098cd37e4fe3fc9/saraapi-0.0.0.4.tar.gz
+[2024-05-06 06:18:31] INFO root fetch - processPackages [camel-kenlm]: Downloading https://files.pythonhosted.org/packages/f4/df/34c74dd72f2bd440603e8cd784b0ef3850961bf9b8d6a88fdf79601de268/camel-kenlm-2024.5.2.zip
+[2024-05-06 06:18:31] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/b1/36/344cba01f2476951f90757e6b7744974933fa8d4fe2bfb1b18e192e686a7/saraapi-0.0.0.5.tar.gz
+[2024-05-06 06:18:32] INFO root fetch - processPackages [multiconnection]: Downloading https://files.pythonhosted.org/packages/a2/bf/f7ec7308ff54284188ac92559f500a34a1818623c4c8842bc78cf26bf838/multiconnection-2.34.17.tar.gz
+[2024-05-06 06:18:32] INFO root fetch - processPackages [saraApi]: executing diffoscope
+[2024-05-06 06:18:32] INFO root fetch - processPackages [saraApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saraapi-0.0.0.4.tar.gz tmp/saraapi-0.0.0.5.tar.gz --markdown 20240506/s/saraApi/0.0.0.4-0.0.0.5/README.md --exclude *.pyd
+[2024-05-06 06:18:32] INFO root fetch - processPackages [multiconnection]: executing diffoscope
+[2024-05-06 06:18:32] INFO root fetch - processPackages [multiconnection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiconnection-2.34.16.tar.gz tmp/multiconnection-2.34.17.tar.gz --markdown 20240506/m/multiconnection/2.34.16-2.34.17/README.md --exclude *.pyd
+[2024-05-06 06:18:32] INFO root fetch - processPackages [camel-kenlm]: Downloading https://files.pythonhosted.org/packages/fb/81/79e49cd41a76d91d7943efa95e7e4a7aea2213e5df69a0a8e05adf1131b8/camel-kenlm-2024.5.6.zip
+[2024-05-06 06:18:32] INFO root fetch - processPackages [multiconnection]: Remove: archive file [/home/abi/fetcher/tmp/multiconnection-2.34.16.tar.gz]
+[2024-05-06 06:18:32] INFO root fetch - processPackages [multiconnection]: Remove: archive file [/home/abi/fetcher/tmp/multiconnection-2.34.17.tar.gz]
+[2024-05-06 06:18:32] INFO root fetch - main [MainThread]: End processing [multiconnection]: success
+[2024-05-06 06:18:32] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.4.tar.gz]
+[2024-05-06 06:18:32] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.5.tar.gz]
+[2024-05-06 06:18:32] INFO root fetch - main [MainThread]: End processing [saraApi]: success
+[2024-05-06 06:18:32] INFO root fetch - processPackages [camel-kenlm]: executing diffoscope
+[2024-05-06 06:18:32] INFO root fetch - processPackages [camel-kenlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camel-kenlm-2024.5.2.zip tmp/camel-kenlm-2024.5.6.zip --markdown 20240506/c/camel-kenlm/2024.5.2-2024.5.6/README.md --exclude *.pyd
+[2024-05-06 06:18:33] INFO root fetch - processPackages [camel-kenlm]: Remove: archive file [/home/abi/fetcher/tmp/camel-kenlm-2024.5.2.zip]
+[2024-05-06 06:18:33] INFO root fetch - processPackages [camel-kenlm]: Remove: archive file [/home/abi/fetcher/tmp/camel-kenlm-2024.5.6.zip]
+[2024-05-06 06:18:33] INFO root fetch - main [MainThread]: End processing [camel-kenlm]: success
+[2024-05-06 06:18:33] INFO root fetch - main [MainThread]: Store serial: [23071415]
