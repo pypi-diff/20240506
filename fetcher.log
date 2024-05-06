@@ -19585,3 +19585,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:07:51] INFO root fetch - processPackages [udata-tabular-preview]: Remove: archive file [/home/abi/fetcher/tmp/udata_tabular_preview-3.2.1.dev760-py2.py3-none-any.whl.zip]
 [2024-05-06 15:07:51] INFO root fetch - main [MainThread]: End processing [udata-tabular-preview]: success
 [2024-05-06 15:07:51] INFO root fetch - main [MainThread]: Store serial: [23077960]
+[2024-05-06 15:09:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077960]
+[2024-05-06 15:10:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-06 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comun-va
+[2024-05-06 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sagepy
+[2024-05-06 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recon-lw
+[2024-05-06 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jpylib-jyrgenn
+[2024-05-06 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shcheck
+[2024-05-06 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sagepy-connector
+[2024-05-06 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cassandra-medusa
+[2024-05-06 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyjhtdbv2
+[2024-05-06 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Andreani-QA-Functions
+[2024-05-06 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hat-gui
+[2024-05-06 15:10:00] INFO root fetch - processPackages [hat-gui]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-06 15:10:00] INFO root fetch - processPackages [sagepy]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 15:10:00] INFO root fetch - processPackages [comun-va]: New version: [3.3] Old Version: [3.2]
+[2024-05-06 15:10:00] INFO root fetch - processPackages [Andreani-QA-Functions]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 15:10:00] INFO root fetch - processPackages [recon-lw]: New version: [3.1.0.dev8969639035] Old Version: [3.0.0.dev8944172662]
+[2024-05-06 15:10:00] WARNING root fetch - processPackages [pyjhtdbv2]: Skipping, unable to determine old version
+[2024-05-06 15:10:00] INFO root fetch - main [MainThread]: End processing [pyjhtdbv2] error
+[2024-05-06 15:10:00] INFO root fetch - processPackages [sagepy]: Downloading https://files.pythonhosted.org/packages/a6/a9/8608c33c3f406700d95091be2effca6650cf7ffb82771055851a2ca367d0/sagepy-0.2.7.tar.gz
+[2024-05-06 15:10:00] INFO root fetch - processPackages [hat-gui]: Downloading https://files.pythonhosted.org/packages/80/25/44cb5a0ce1ac5f6e8a603945464309b859373fc10b7fabdb3a89f54e4e81/hat_gui-0.7.0-cp310.cp311.cp312-none-any.whl
+[2024-05-06 15:10:00] INFO root fetch - processPackages [sagepy-connector]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 15:10:00] INFO root fetch - processPackages [cassandra-medusa]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-06 15:10:00] INFO root fetch - processPackages [shcheck]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-06 15:10:00] INFO root fetch - processPackages [jpylib-jyrgenn]: New version: [2024.506.1508] Old Version: [2024.430.1432]
+[2024-05-06 15:10:00] INFO root fetch - processPackages [Andreani-QA-Functions]: Downloading https://files.pythonhosted.org/packages/05/18/54f36fe7f6c04fc8035d03c526abda840e691b58f59058156c9614c215b1/Andreani_QA_Functions-0.0.8.tar.gz
+[2024-05-06 15:10:00] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/f3/42/97ecc6acdfc06f826a13647db5864148a7dc6b55f107416ed84f30ebadbf/comun_va-3.2.tar.gz
+[2024-05-06 15:10:00] INFO root fetch - processPackages [sagepy-connector]: Downloading https://files.pythonhosted.org/packages/04/b8/1e6cbd0467ac46972665dde6cb1f66ad86f249e66e7a08cbbfc75973d9f1/sagepy_connector-0.2.7-cp311-none-win_amd64.whl
+[2024-05-06 15:10:00] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/f6/d2/6c43e0ad3d363f8ce1c2468614738fb2a13f55c1e7192f5e7226807b02f6/recon_lw-3.0.0.dev8944172662.tar.gz
+[2024-05-06 15:10:00] INFO root fetch - processPackages [shcheck]: Downloading https://files.pythonhosted.org/packages/e9/a0/f219ab1b5cb6c77d5e73fcc4a106f2aed51c6a018f1c05fa9056c989e670/shcheck-1.6.2.tar.gz
+[2024-05-06 15:10:00] INFO root fetch - processPackages [jpylib-jyrgenn]: Downloading https://files.pythonhosted.org/packages/69/15/5f0479839bad0128158781b2e5c924333b93531454a287a0f0c4d094312b/jpylib-jyrgenn-2024.430.1432.tar.gz
+[2024-05-06 15:10:00] INFO root fetch - processPackages [sagepy]: Downloading https://files.pythonhosted.org/packages/dc/0a/9092227420b72b14b6404e915daf756b6ef8b9aee5322a124397a87e75b8/sagepy-0.2.8.tar.gz
+[2024-05-06 15:10:00] INFO root fetch - processPackages [hat-gui]: Downloading https://files.pythonhosted.org/packages/61/94/e95844b79cc0b948132f32125b7e9a48162c4113b71138300b4a948ec313/hat_gui-0.7.1-cp310.cp311.cp312-none-any.whl
+[2024-05-06 15:10:00] INFO root fetch - processPackages [Andreani-QA-Functions]: Downloading https://files.pythonhosted.org/packages/a7/ad/94077652e25ecf2b29ebd26e13f0771c8e5dcb3073af6a19ef4b6d48fcb6/Andreani_QA_Functions-0.0.9.tar.gz
+[2024-05-06 15:10:00] INFO root fetch - processPackages [cassandra-medusa]: Downloading https://files.pythonhosted.org/packages/fb/4b/96ba6d0f396919dfbab68c5c75a6acd3b9395017525d16095c225287224c/cassandra-medusa-0.9.0.tar.gz
+[2024-05-06 15:10:00] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/79/b3/1cc192b96668fb42754e177b6c16517e101fb57b7bfee1bc221216e4e3ec/comun_va-3.3.tar.gz
+[2024-05-06 15:10:00] INFO root fetch - processPackages [sagepy]: executing diffoscope
+[2024-05-06 15:10:00] INFO root fetch - processPackages [sagepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagepy-0.2.7.tar.gz tmp/sagepy-0.2.8.tar.gz --markdown 20240506/s/sagepy/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 15:10:00] INFO root fetch - processPackages [Andreani-QA-Functions]: executing diffoscope
+[2024-05-06 15:10:00] INFO root fetch - processPackages [Andreani-QA-Functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Andreani_QA_Functions-0.0.8.tar.gz tmp/Andreani_QA_Functions-0.0.9.tar.gz --markdown 20240506/A/Andreani-QA-Functions/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 15:10:00] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2024-05-06 15:10:00] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-3.2.tar.gz tmp/comun_va-3.3.tar.gz --markdown 20240506/c/comun-va/3.2-3.3/README.md --exclude *.pyd
+[2024-05-06 15:10:01] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/b1/18/e5a53875e82450da5abf37fc152fc66405317436123aa16def45749dee52/recon_lw-3.1.0.dev8969639035.tar.gz
+[2024-05-06 15:10:01] INFO root fetch - processPackages [jpylib-jyrgenn]: Downloading https://files.pythonhosted.org/packages/06/53/ab5a26654a67ef20c32849454b982fb5950c44c7590c7c2f7d40780c0b7c/jpylib-jyrgenn-2024.506.1508.tar.gz
+[2024-05-06 15:10:01] INFO root fetch - processPackages [hat-gui]: executing diffoscope
+[2024-05-06 15:10:01] INFO root fetch - processPackages [hat-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_gui-0.7.0-cp310.cp311.cp312-none-any.whl.zip tmp/hat_gui-0.7.1-cp310.cp311.cp312-none-any.whl.zip --markdown 20240506/h/hat-gui/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-06 15:10:01] INFO root fetch - processPackages [shcheck]: Downloading https://files.pythonhosted.org/packages/d8/6b/641750793099195d646ccf04c6985eaed0fa07029d7db992a5297ea70a52/shcheck-1.6.3.tar.gz
+[2024-05-06 15:10:01] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2024-05-06 15:10:01] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-3.0.0.dev8944172662.tar.gz tmp/recon_lw-3.1.0.dev8969639035.tar.gz --markdown 20240506/r/recon-lw/3.0.0.dev8944172662-3.1.0.dev8969639035/README.md --exclude *.pyd
+[2024-05-06 15:10:01] INFO root fetch - processPackages [sagepy-connector]: Downloading https://files.pythonhosted.org/packages/12/49/9c3ec2e4b9df508b42b4bcc7a75ef59c40efc6803e79e884a0b38bfebde8/sagepy_connector-0.2.8-cp311-cp311-manylinux_2_34_x86_64.whl
+[2024-05-06 15:10:01] INFO root fetch - processPackages [jpylib-jyrgenn]: executing diffoscope
+[2024-05-06 15:10:01] INFO root fetch - processPackages [jpylib-jyrgenn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpylib-jyrgenn-2024.430.1432.tar.gz tmp/jpylib-jyrgenn-2024.506.1508.tar.gz --markdown 20240506/j/jpylib-jyrgenn/2024.430.1432-2024.506.1508/README.md --exclude *.pyd
+[2024-05-06 15:10:01] INFO root fetch - processPackages [cassandra-medusa]: Downloading https://files.pythonhosted.org/packages/06/0c/7f334f222fa8bd54646dd6744a28ab33a9dc00af70c8a57eb6092e1d1060/cassandra-medusa-0.9.1.tar.gz
+[2024-05-06 15:10:01] INFO root fetch - processPackages [shcheck]: executing diffoscope
+[2024-05-06 15:10:01] INFO root fetch - processPackages [shcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shcheck-1.6.2.tar.gz tmp/shcheck-1.6.3.tar.gz --markdown 20240506/s/shcheck/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-06 15:10:01] INFO root fetch - processPackages [sagepy-connector]: executing diffoscope
+[2024-05-06 15:10:01] INFO root fetch - processPackages [sagepy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagepy_connector-0.2.7-cp311-none-win_amd64.whl.zip tmp/sagepy_connector-0.2.8-cp311-cp311-manylinux_2_34_x86_64.whl.zip --markdown 20240506/s/sagepy-connector/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 15:10:01] INFO root fetch - processPackages [cassandra-medusa]: executing diffoscope
+[2024-05-06 15:10:01] INFO root fetch - processPackages [cassandra-medusa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cassandra-medusa-0.9.0.tar.gz tmp/cassandra-medusa-0.9.1.tar.gz --markdown 20240506/c/cassandra-medusa/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-06 15:10:01] INFO root fetch - processPackages [Andreani-QA-Functions]: Remove: archive file [/home/abi/fetcher/tmp/Andreani_QA_Functions-0.0.8.tar.gz]
+[2024-05-06 15:10:01] INFO root fetch - processPackages [Andreani-QA-Functions]: Remove: archive file [/home/abi/fetcher/tmp/Andreani_QA_Functions-0.0.9.tar.gz]
+[2024-05-06 15:10:01] INFO root fetch - main [MainThread]: End processing [Andreani-QA-Functions]: success
+[2024-05-06 15:10:01] INFO root fetch - processPackages [sagepy]: Remove: archive file [/home/abi/fetcher/tmp/sagepy-0.2.7.tar.gz]
+[2024-05-06 15:10:01] INFO root fetch - processPackages [sagepy]: Remove: archive file [/home/abi/fetcher/tmp/sagepy-0.2.8.tar.gz]
+[2024-05-06 15:10:01] INFO root fetch - main [MainThread]: End processing [sagepy]: success
+[2024-05-06 15:10:02] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.2.tar.gz]
+[2024-05-06 15:10:02] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.3.tar.gz]
+[2024-05-06 15:10:02] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2024-05-06 15:10:02] INFO root fetch - processPackages [jpylib-jyrgenn]: Remove: archive file [/home/abi/fetcher/tmp/jpylib-jyrgenn-2024.430.1432.tar.gz]
+[2024-05-06 15:10:02] INFO root fetch - processPackages [jpylib-jyrgenn]: Remove: archive file [/home/abi/fetcher/tmp/jpylib-jyrgenn-2024.506.1508.tar.gz]
+[2024-05-06 15:10:02] INFO root fetch - main [MainThread]: End processing [jpylib-jyrgenn]: success
+[2024-05-06 15:10:02] INFO root fetch - processPackages [sagepy-connector]: Remove: archive file [/home/abi/fetcher/tmp/sagepy_connector-0.2.7-cp311-none-win_amd64.whl.zip]
+[2024-05-06 15:10:02] INFO root fetch - processPackages [sagepy-connector]: Remove: archive file [/home/abi/fetcher/tmp/sagepy_connector-0.2.8-cp311-cp311-manylinux_2_34_x86_64.whl.zip]
+[2024-05-06 15:10:02] INFO root fetch - main [MainThread]: End processing [sagepy-connector]: success
+[2024-05-06 15:10:02] INFO root fetch - processPackages [shcheck]: Remove: archive file [/home/abi/fetcher/tmp/shcheck-1.6.2.tar.gz]
+[2024-05-06 15:10:02] INFO root fetch - processPackages [shcheck]: Remove: archive file [/home/abi/fetcher/tmp/shcheck-1.6.3.tar.gz]
+[2024-05-06 15:10:02] INFO root fetch - main [MainThread]: End processing [shcheck]: success
+[2024-05-06 15:10:02] INFO root fetch - processPackages [hat-gui]: Remove: archive file [/home/abi/fetcher/tmp/hat_gui-0.7.0-cp310.cp311.cp312-none-any.whl.zip]
+[2024-05-06 15:10:02] INFO root fetch - processPackages [hat-gui]: Remove: archive file [/home/abi/fetcher/tmp/hat_gui-0.7.1-cp310.cp311.cp312-none-any.whl.zip]
+[2024-05-06 15:10:02] INFO root fetch - main [MainThread]: End processing [hat-gui]: success
+[2024-05-06 15:10:02] INFO root fetch - processPackages [cassandra-medusa]: Remove: archive file [/home/abi/fetcher/tmp/cassandra-medusa-0.9.0.tar.gz]
+[2024-05-06 15:10:02] INFO root fetch - processPackages [cassandra-medusa]: Remove: archive file [/home/abi/fetcher/tmp/cassandra-medusa-0.9.1.tar.gz]
+[2024-05-06 15:10:02] INFO root fetch - main [MainThread]: End processing [cassandra-medusa]: success
+[2024-05-06 15:10:02] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.0.0.dev8944172662.tar.gz]
+[2024-05-06 15:10:02] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev8969639035.tar.gz]
+[2024-05-06 15:10:02] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2024-05-06 15:10:02] INFO root fetch - main [MainThread]: Store serial: [23077995]
