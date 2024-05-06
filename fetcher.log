@@ -17762,3 +17762,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:54:37] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-1.0.0.tar.gz]
 [2024-05-06 13:54:37] INFO root fetch - main [MainThread]: End processing [pysypt]: success
 [2024-05-06 13:54:37] INFO root fetch - main [MainThread]: Store serial: [23077088]
+[2024-05-06 13:56:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077088]
+[2024-05-06 13:56:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiskit-scaleway
+[2024-05-06 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AmaProductReviews
+[2024-05-06 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-repair
+[2024-05-06 13:56:46] INFO root fetch - processPackages [AmaProductReviews]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-06 13:56:46] INFO root fetch - processPackages [qiskit-scaleway]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-06 13:56:46] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-06 13:56:46] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/19/e6/ccbd2cb9b47cee8fffe43e2fe4f3f590ee3273981e0b536c54d112d74385/qiskit_scaleway-0.1.7.tar.gz
+[2024-05-06 13:56:47] INFO root fetch - processPackages [AmaProductReviews]: Downloading https://files.pythonhosted.org/packages/d7/c3/88a696eca6c63eb5df1a9a339b37653b09013b2c4bc1f530c4988934f7a0/amaproductreviews-0.0.7.tar.gz
+[2024-05-06 13:56:47] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-05-06 13:56:47] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/b5/cf/871e8c6fa6a0446b3210ba51e6120b199375794667096113176e64e8d6d4/qiskit_scaleway-0.1.8.tar.gz
+[2024-05-06 13:56:47] INFO root fetch - processPackages [AmaProductReviews]: Downloading https://files.pythonhosted.org/packages/5a/8d/34b2debb5f9702657993ffe2c60a0cad5db6836c8c747601ead2b61405b1/amaproductreviews-0.0.8.tar.gz
+[2024-05-06 13:56:47] INFO root fetch - processPackages [qiskit-scaleway]: executing diffoscope
+[2024-05-06 13:56:47] INFO root fetch - processPackages [qiskit-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_scaleway-0.1.7.tar.gz tmp/qiskit_scaleway-0.1.8.tar.gz --markdown 20240506/q/qiskit-scaleway/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-06 13:56:47] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-05-06 13:56:47] INFO root fetch - processPackages [AmaProductReviews]: executing diffoscope
+[2024-05-06 13:56:47] INFO root fetch - processPackages [AmaProductReviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amaproductreviews-0.0.7.tar.gz tmp/amaproductreviews-0.0.8.tar.gz --markdown 20240506/A/AmaProductReviews/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-06 13:56:47] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-05-06 13:56:47] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240506/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-06 13:56:48] INFO root fetch - processPackages [AmaProductReviews]: Remove: archive file [/home/abi/fetcher/tmp/amaproductreviews-0.0.7.tar.gz]
+[2024-05-06 13:56:48] INFO root fetch - processPackages [AmaProductReviews]: Remove: archive file [/home/abi/fetcher/tmp/amaproductreviews-0.0.8.tar.gz]
+[2024-05-06 13:56:48] INFO root fetch - main [MainThread]: End processing [AmaProductReviews]: success
+[2024-05-06 13:56:48] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-05-06 13:56:48] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-05-06 13:56:48] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-05-06 13:56:48] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.7.tar.gz]
+[2024-05-06 13:56:48] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.8.tar.gz]
+[2024-05-06 13:56:48] INFO root fetch - main [MainThread]: End processing [qiskit-scaleway]: success
+[2024-05-06 13:56:48] INFO root fetch - main [MainThread]: Store serial: [23077094]
