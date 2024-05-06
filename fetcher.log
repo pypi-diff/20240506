@@ -1530,3 +1530,42 @@
 [2024-05-06 02:24:02] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.9.tar.gz]
 [2024-05-06 02:24:02] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
 [2024-05-06 02:24:02] INFO root fetch - main [MainThread]: Store serial: [23070098]
+[2024-05-06 02:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070098]
+[2024-05-06 02:26:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 02:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cgeniepy
+[2024-05-06 02:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-05-06 02:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdk8s
+[2024-05-06 02:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: megadetector
+[2024-05-06 02:26:10] INFO root fetch - processPackages [megadetector]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-05-06 02:26:10] INFO root fetch - processPackages [megadetector]: Downloading https://files.pythonhosted.org/packages/5e/de/9bde6bcb4ea0d4ed12776912e30cbb21cdb2506d498f1d6813e95b224120/megadetector-5.0.8.tar.gz
+[2024-05-06 02:26:10] INFO root fetch - processPackages [cgeniepy]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-06 02:26:10] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-06 02:26:10] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cgeniepy]: Downloading https://files.pythonhosted.org/packages/b7/98/eee2c884ab93070afc5db081d7a9ce2bfd1a3aa7060ef6e6269dcf003f68/cgeniepy-0.7.4.tar.gz
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/99/a9/22344888a8fca72d2966fa4f98932af4bdd98bcac60e5d091a8e0b304cce/cdktf-cdk8s-0.9.8.tar.gz
+[2024-05-06 02:26:11] INFO root fetch - processPackages [megadetector]: Downloading https://files.pythonhosted.org/packages/82/57/85d6f03e7d73bf2cb6608c7f4e55306c89a9b03a0074bd1d00baf8b038ba/megadetector-5.0.9.tar.gz
+[2024-05-06 02:26:11] INFO root fetch - processPackages [megadetector]: executing diffoscope
+[2024-05-06 02:26:11] INFO root fetch - processPackages [megadetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadetector-5.0.8.tar.gz tmp/megadetector-5.0.9.tar.gz --markdown 20240506/m/megadetector/5.0.8-5.0.9/README.md --exclude *.pyd
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cgeniepy]: Downloading https://files.pythonhosted.org/packages/5c/d2/1553518c6b08d35659a6888c610de0d6f8979893c79d4729d7c29eb3a25d/cgeniepy-0.7.5.tar.gz
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cgeniepy]: executing diffoscope
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cgeniepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgeniepy-0.7.4.tar.gz tmp/cgeniepy-0.7.5.tar.gz --markdown 20240506/c/cgeniepy/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240506/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/20/45/51fb70e05adcb2ecf1886baf859815ec9ba32caaa0a97ffb3e4c544d7025/cdktf-cdk8s-0.9.9.tar.gz
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2024-05-06 02:26:11] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.9.8.tar.gz tmp/cdktf-cdk8s-0.9.9.tar.gz --markdown 20240506/c/cdktf-cdk8s/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-06 02:26:12] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-06 02:26:12] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-06 02:26:12] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-06 02:26:12] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.8.tar.gz]
+[2024-05-06 02:26:12] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.9.tar.gz]
+[2024-05-06 02:26:12] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2024-05-06 02:26:12] INFO root fetch - processPackages [cgeniepy]: Remove: archive file [/home/abi/fetcher/tmp/cgeniepy-0.7.4.tar.gz]
+[2024-05-06 02:26:12] INFO root fetch - processPackages [cgeniepy]: Remove: archive file [/home/abi/fetcher/tmp/cgeniepy-0.7.5.tar.gz]
+[2024-05-06 02:26:12] INFO root fetch - main [MainThread]: End processing [cgeniepy]: success
+[2024-05-06 02:26:13] INFO root fetch - processPackages [megadetector]: Remove: archive file [/home/abi/fetcher/tmp/megadetector-5.0.8.tar.gz]
+[2024-05-06 02:26:13] INFO root fetch - processPackages [megadetector]: Remove: archive file [/home/abi/fetcher/tmp/megadetector-5.0.9.tar.gz]
+[2024-05-06 02:26:13] INFO root fetch - main [MainThread]: End processing [megadetector]: success
+[2024-05-06 02:26:13] INFO root fetch - main [MainThread]: Store serial: [23070117]
