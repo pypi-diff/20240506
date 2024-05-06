@@ -1696,3 +1696,17 @@
 [2024-05-06 02:41:19] INFO root fetch - processPackages [marketorestpython]: Remove: archive file [/home/abi/fetcher/tmp/marketorestpython-0.5.9.tar.gz]
 [2024-05-06 02:41:19] INFO root fetch - main [MainThread]: End processing [marketorestpython]: success
 [2024-05-06 02:41:19] INFO root fetch - main [MainThread]: Store serial: [23070210]
+[2024-05-06 02:43:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070210]
+[2024-05-06 02:43:28] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-06 02:45:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070211]
+[2024-05-06 02:45:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 02:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2024-05-06 02:45:33] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405050044] Old Version: [4.9.4.dev202405040044]
+[2024-05-06 02:45:34] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/5a/72/03c9ea805fbadbbe3421441b77c499961022f3314870de16cfbc48b48670/tfds-nightly-4.9.4.dev202405040044.tar.gz
+[2024-05-06 02:45:34] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/47/27/59b5675aa1c9dab13a243e7b72581c62b2d3479cb5ec8066a387f619dfbe/tfds-nightly-4.9.4.dev202405050044.tar.gz
+[2024-05-06 02:45:34] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-06 02:45:34] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405040044.tar.gz tmp/tfds-nightly-4.9.4.dev202405050044.tar.gz --markdown 20240506/t/tfds-nightly/4.9.4.dev202405040044-4.9.4.dev202405050044/README.md --exclude *.pyd
+[2024-05-06 02:45:43] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405040044.tar.gz]
+[2024-05-06 02:45:43] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405050044.tar.gz]
+[2024-05-06 02:45:43] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-06 02:45:43] INFO root fetch - main [MainThread]: Store serial: [23070214]
