@@ -3689,3 +3689,42 @@
 [2024-05-06 05:13:45] WARNING root fetch - processPackages [xiwang-cp-API]: Skipping, unable to determine old version
 [2024-05-06 05:13:45] INFO root fetch - main [MainThread]: End processing [xiwang-cp-API] error
 [2024-05-06 05:13:45] INFO root fetch - main [MainThread]: Store serial: [23070997]
+[2024-05-06 05:15:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070997]
+[2024-05-06 05:15:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 05:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owntools
+[2024-05-06 05:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imodelsx
+[2024-05-06 05:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linktest
+[2024-05-06 05:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-cv-nightly
+[2024-05-06 05:15:54] INFO root fetch - processPackages [owntools]: New version: [1.0] Old Version: [0.1]
+[2024-05-06 05:15:54] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-06 05:15:54] INFO root fetch - processPackages [linktest]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-05-06 05:15:54] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-06 05:15:54] INFO root fetch - processPackages [imodelsx]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 05:15:54] INFO root fetch - processPackages [owntools]: Downloading https://files.pythonhosted.org/packages/ac/14/036e4d82ee20087b978e8261ae6f947ea52a708c965c51acfb53c3d5b385/owntools-0.1.tar.gz
+[2024-05-06 05:15:54] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/11/b0/9129f9116c2e8fc5bc6ed529121c07f993cbc7efeeb57c11415864ade8aa/linktest-2.7.0.tar.gz
+[2024-05-06 05:15:54] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/2d/ec/940bff19f0d6a79d765c9e7d83768548a65dd75dd705a48f2e2f86543e00/imodelsx-1.0.1.tar.gz
+[2024-05-06 05:15:54] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-06 05:15:54] INFO root fetch - processPackages [owntools]: Downloading https://files.pythonhosted.org/packages/ac/ba/2f66bfc7b6956f536a485869363e70b0ed99822b285b46e2152456d1c1ae/owntools-1.0.tar.gz
+[2024-05-06 05:15:54] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-06 05:15:54] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240506/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-06 05:15:55] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/d8/39/f6cba37d477bbcc6038a199501c5630d863fd16a4a236b48af054ee2f909/linktest-2.7.1.tar.gz
+[2024-05-06 05:15:55] INFO root fetch - processPackages [owntools]: executing diffoscope
+[2024-05-06 05:15:55] INFO root fetch - processPackages [owntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owntools-0.1.tar.gz tmp/owntools-1.0.tar.gz --markdown 20240506/o/owntools/0.1-1.0/README.md --exclude *.pyd
+[2024-05-06 05:15:55] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/5a/29/dddc185a4906fb8604f7051d39ebe8c746d21e76ea14efc0dcfd710b8f25/imodelsx-1.0.2.tar.gz
+[2024-05-06 05:15:55] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-06 05:15:55] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.7.0.tar.gz tmp/linktest-2.7.1.tar.gz --markdown 20240506/l/linktest/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-05-06 05:15:55] INFO root fetch - processPackages [imodelsx]: executing diffoscope
+[2024-05-06 05:15:55] INFO root fetch - processPackages [imodelsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imodelsx-1.0.1.tar.gz tmp/imodelsx-1.0.2.tar.gz --markdown 20240506/i/imodelsx/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 05:15:55] INFO root fetch - processPackages [owntools]: Remove: archive file [/home/abi/fetcher/tmp/owntools-0.1.tar.gz]
+[2024-05-06 05:15:55] INFO root fetch - processPackages [owntools]: Remove: archive file [/home/abi/fetcher/tmp/owntools-1.0.tar.gz]
+[2024-05-06 05:15:55] INFO root fetch - main [MainThread]: End processing [owntools]: success
+[2024-05-06 05:15:55] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.0.tar.gz]
+[2024-05-06 05:15:55] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.1.tar.gz]
+[2024-05-06 05:15:55] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-06 05:15:56] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-1.0.1.tar.gz]
+[2024-05-06 05:15:56] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-1.0.2.tar.gz]
+[2024-05-06 05:15:56] INFO root fetch - main [MainThread]: End processing [imodelsx]: success
+[2024-05-06 05:15:56] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-06 05:15:56] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-06 05:15:56] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-06 05:15:56] INFO root fetch - main [MainThread]: Store serial: [23071008]
