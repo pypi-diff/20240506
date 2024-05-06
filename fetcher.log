@@ -18837,3 +18837,20 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:41:45] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
 [2024-05-06 14:41:45] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2024-05-06 14:41:45] INFO root fetch - main [MainThread]: Store serial: [23077571]
+[2024-05-06 14:43:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077571]
+[2024-05-06 14:43:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-llm
+[2024-05-06 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databend
+[2024-05-06 14:43:54] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240506] Old Version: [2.5.0b20240505]
+[2024-05-06 14:43:54] INFO root fetch - processPackages [databend]: New version: [1.2.80] Old Version: [1.2.79]
+[2024-05-06 14:43:55] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/90/f1/b0b73da4c50c042f604dc7b7b53f5b3cae89f5e2a530854bfb1632eca600/bigdl_llm-2.5.0b20240505-py3-none-win_amd64.whl
+[2024-05-06 14:43:55] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/06/dc/727135e151e3a2286b476c067108f6288c088bf3c27f478a1f4cc2809328/databend-1.2.79-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 14:43:55] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 32571859>=10485760
+[2024-05-06 14:43:55] INFO root fetch - main [MainThread]: End processing [databend] error
+[2024-05-06 14:43:55] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/0f/75/6889ed60d8eae79a24c4286170814b478df03c7c344235c035eb21f3c16c/bigdl_llm-2.5.0b20240506-py3-none-win_amd64.whl
+[2024-05-06 14:43:56] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-06 14:43:56] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240505-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240506-py3-none-win_amd64.whl.zip --markdown 20240506/b/bigdl-llm/2.5.0b20240505-2.5.0b20240506/README.md --exclude *.pyd
+[2024-05-06 14:43:57] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240505-py3-none-win_amd64.whl.zip]
+[2024-05-06 14:43:57] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240506-py3-none-win_amd64.whl.zip]
+[2024-05-06 14:43:57] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-06 14:43:57] INFO root fetch - main [MainThread]: Store serial: [23077579]
