@@ -19925,3 +19925,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:17:53] INFO root fetch - processPackages [mkdocs-spellcheck]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_spellcheck-1.1.0.tar.gz]
 [2024-05-06 15:17:53] INFO root fetch - main [MainThread]: End processing [mkdocs-spellcheck]: success
 [2024-05-06 15:17:53] INFO root fetch - main [MainThread]: Store serial: [23078144]
+[2024-05-06 15:19:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078144]
+[2024-05-06 15:20:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 15:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aigents
+[2024-05-06 15:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semantic-kernel
+[2024-05-06 15:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deprogressapi
+[2024-05-06 15:20:02] INFO root fetch - processPackages [deprogressapi]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-06 15:20:02] INFO root fetch - processPackages [aigents]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-06 15:20:02] INFO root fetch - processPackages [semantic-kernel]: New version: [0.9.7b1] Old Version: [0.9.6b1]
+[2024-05-06 15:20:02] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/ff/e3/22b63e9b85d461a817efa81ecba5744742caed449b0747e7cefa01eb4446/aigents-0.6.0.tar.gz
+[2024-05-06 15:20:02] INFO root fetch - processPackages [deprogressapi]: Downloading https://files.pythonhosted.org/packages/96/54/e907235ecfa64ea865f086ca30f23cec6847a9f5873d3d60d4c1574e8316/deprogressapi-0.4.0.tar.gz
+[2024-05-06 15:20:02] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/75/24/60c8a7d7e98346070bcb86c82c4917cac5c79b21168c9a389833d6c4d2ad/semantic_kernel-0.9.6b1.tar.gz
+[2024-05-06 15:20:03] INFO root fetch - processPackages [deprogressapi]: Downloading https://files.pythonhosted.org/packages/df/c6/36c1fa20d7b6ae5a24fd6dfd17267e6cb6e8df6651c029edbd0c7295a592/deprogressapi-0.4.1.tar.gz
+[2024-05-06 15:20:03] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/e7/48/105420814c00191bb927ba0b4ce8835a46d748ffd09a5316c43de1bd4257/aigents-0.7.0.tar.gz
+[2024-05-06 15:20:03] INFO root fetch - processPackages [deprogressapi]: executing diffoscope
+[2024-05-06 15:20:03] INFO root fetch - processPackages [deprogressapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprogressapi-0.4.0.tar.gz tmp/deprogressapi-0.4.1.tar.gz --markdown 20240506/d/deprogressapi/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-06 15:20:03] INFO root fetch - processPackages [aigents]: executing diffoscope
+[2024-05-06 15:20:03] INFO root fetch - processPackages [aigents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigents-0.6.0.tar.gz tmp/aigents-0.7.0.tar.gz --markdown 20240506/a/aigents/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-06 15:20:03] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/ca/8e/7466689c4cdce769df7f5ae3f8a780956c898246bc1492d539d0f912a9ad/semantic_kernel-0.9.7b1.tar.gz
+[2024-05-06 15:20:03] INFO root fetch - processPackages [semantic-kernel]: executing diffoscope
+[2024-05-06 15:20:03] INFO root fetch - processPackages [semantic-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_kernel-0.9.6b1.tar.gz tmp/semantic_kernel-0.9.7b1.tar.gz --markdown 20240506/s/semantic-kernel/0.9.6b1-0.9.7b1/README.md --exclude *.pyd
+[2024-05-06 15:20:03] INFO root fetch - processPackages [deprogressapi]: Remove: archive file [/home/abi/fetcher/tmp/deprogressapi-0.4.0.tar.gz]
+[2024-05-06 15:20:03] INFO root fetch - processPackages [deprogressapi]: Remove: archive file [/home/abi/fetcher/tmp/deprogressapi-0.4.1.tar.gz]
+[2024-05-06 15:20:03] INFO root fetch - main [MainThread]: End processing [deprogressapi]: success
+[2024-05-06 15:20:03] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.6.0.tar.gz]
+[2024-05-06 15:20:03] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.7.0.tar.gz]
+[2024-05-06 15:20:03] INFO root fetch - main [MainThread]: End processing [aigents]: success
+[2024-05-06 15:20:04] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-0.9.6b1.tar.gz]
+[2024-05-06 15:20:04] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-0.9.7b1.tar.gz]
+[2024-05-06 15:20:04] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
+[2024-05-06 15:20:04] INFO root fetch - main [MainThread]: Store serial: [23078155]
