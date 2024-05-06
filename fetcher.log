@@ -2283,3 +2283,18 @@
 [2024-05-06 03:32:50] INFO root fetch - processPackages [FLAI-CAUSAL]: Remove: archive file [/home/abi/fetcher/tmp/flai_causal-2.0.0.tar.gz]
 [2024-05-06 03:32:50] INFO root fetch - main [MainThread]: End processing [FLAI-CAUSAL]: success
 [2024-05-06 03:32:50] INFO root fetch - main [MainThread]: Store serial: [23070421]
+[2024-05-06 03:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070421]
+[2024-05-06 03:34:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 03:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-sitter-embedded-template
+[2024-05-06 03:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seppl
+[2024-05-06 03:34:58] WARNING root fetch - processPackages [tree-sitter-embedded-template]: Skipping, unable to determine old version
+[2024-05-06 03:34:58] INFO root fetch - main [MainThread]: End processing [tree-sitter-embedded-template] error
+[2024-05-06 03:34:58] INFO root fetch - processPackages [seppl]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-06 03:34:59] INFO root fetch - processPackages [seppl]: Downloading https://files.pythonhosted.org/packages/35/b3/ee3c2dddb00c8e8fa71ae338829e8c4eff7a9a7eacbb9b6eab3278b21a6b/seppl-0.2.3.tar.gz
+[2024-05-06 03:34:59] INFO root fetch - processPackages [seppl]: Downloading https://files.pythonhosted.org/packages/9c/93/80f4ad14afcf839a713040f95ba99fa347c5ad081b037bdece1a5e7e3b39/seppl-0.2.4.tar.gz
+[2024-05-06 03:34:59] INFO root fetch - processPackages [seppl]: executing diffoscope
+[2024-05-06 03:34:59] INFO root fetch - processPackages [seppl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seppl-0.2.3.tar.gz tmp/seppl-0.2.4.tar.gz --markdown 20240506/s/seppl/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-06 03:35:00] INFO root fetch - processPackages [seppl]: Remove: archive file [/home/abi/fetcher/tmp/seppl-0.2.3.tar.gz]
+[2024-05-06 03:35:00] INFO root fetch - processPackages [seppl]: Remove: archive file [/home/abi/fetcher/tmp/seppl-0.2.4.tar.gz]
+[2024-05-06 03:35:00] INFO root fetch - main [MainThread]: End processing [seppl]: success
+[2024-05-06 03:35:00] INFO root fetch - main [MainThread]: Store serial: [23070434]
