@@ -5104,3 +5104,33 @@
 [2024-05-06 06:46:45] INFO root fetch - processPackages [excel2xx]: Remove: archive file [/home/abi/fetcher/tmp/excel2xx-0.9.1.tar.gz]
 [2024-05-06 06:46:45] INFO root fetch - main [MainThread]: End processing [excel2xx]: success
 [2024-05-06 06:46:45] INFO root fetch - main [MainThread]: Store serial: [23071621]
+[2024-05-06 06:48:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071621]
+[2024-05-06 06:48:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 06:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2tf
+[2024-05-06 06:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lintception
+[2024-05-06 06:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atsdk
+[2024-05-06 06:48:54] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-06 06:48:54] INFO root fetch - processPackages [lintception]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 06:48:54] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-05-06 06:48:54] INFO root fetch - processPackages [atsdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 06:48:54] INFO root fetch - processPackages [lintception]: Downloading https://files.pythonhosted.org/packages/cf/10/5d4929b3abfa13e5c929f3515e2dd419442bc24f81f428638b46a436a5ff/lintception-1.0.0.tar.gz
+[2024-05-06 06:48:54] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/3a/94/52e4043c02706c5469ddde7c41ba9bac0b2f5ed6f6a215011e17bea94539/atsdk-0.2.7.tar.gz
+[2024-05-06 06:48:54] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-05-06 06:48:55] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-05-06 06:48:55] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240506/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-06 06:48:55] INFO root fetch - processPackages [lintception]: Downloading https://files.pythonhosted.org/packages/e2/4a/7b65f33cd71e7cb0a94cca0e119e15d6b12a30f5346cd722b984c5e2b0f7/lintception-1.0.1.tar.gz
+[2024-05-06 06:48:55] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/71/a3/c2134f04675a35de720047245d2cd68d236e1789325393f6163f0c772ed0/atsdk-0.2.8.tar.gz
+[2024-05-06 06:48:55] INFO root fetch - processPackages [lintception]: executing diffoscope
+[2024-05-06 06:48:55] INFO root fetch - processPackages [lintception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lintception-1.0.0.tar.gz tmp/lintception-1.0.1.tar.gz --markdown 20240506/l/lintception/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 06:48:55] INFO root fetch - processPackages [atsdk]: executing diffoscope
+[2024-05-06 06:48:55] INFO root fetch - processPackages [atsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atsdk-0.2.7.tar.gz tmp/atsdk-0.2.8.tar.gz --markdown 20240506/a/atsdk/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 06:48:55] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.7.tar.gz]
+[2024-05-06 06:48:55] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.8.tar.gz]
+[2024-05-06 06:48:55] INFO root fetch - main [MainThread]: End processing [atsdk]: success
+[2024-05-06 06:48:55] INFO root fetch - processPackages [lintception]: Remove: archive file [/home/abi/fetcher/tmp/lintception-1.0.0.tar.gz]
+[2024-05-06 06:48:55] INFO root fetch - processPackages [lintception]: Remove: archive file [/home/abi/fetcher/tmp/lintception-1.0.1.tar.gz]
+[2024-05-06 06:48:55] INFO root fetch - main [MainThread]: End processing [lintception]: success
+[2024-05-06 06:48:56] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-05-06 06:48:56] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-05-06 06:48:56] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-05-06 06:48:56] INFO root fetch - main [MainThread]: Store serial: [23071627]
