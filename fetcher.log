@@ -17661,3 +17661,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:50:12] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.99.tar.gz]
 [2024-05-06 13:50:12] INFO root fetch - main [MainThread]: End processing [pipez]: success
 [2024-05-06 13:50:12] INFO root fetch - main [MainThread]: Store serial: [23077038]
+[2024-05-06 13:52:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077038]
+[2024-05-06 13:52:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 13:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freetakserver-ui
+[2024-05-06 13:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nwb4fp
+[2024-05-06 13:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simo
+[2024-05-06 13:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars-reverse-geocode
+[2024-05-06 13:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qwak-core
+[2024-05-06 13:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anylearn
+[2024-05-06 13:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-transformation-marta-miseke1
+[2024-05-06 13:52:21] INFO root fetch - processPackages [polars-reverse-geocode]: New version: [0.4.1] Old Version: [0.3.4]
+[2024-05-06 13:52:21] WARNING root fetch - processPackages [data-transformation-marta-miseke1]: Skipping, unable to determine old version
+[2024-05-06 13:52:21] INFO root fetch - main [MainThread]: End processing [data-transformation-marta-miseke1] error
+[2024-05-06 13:52:21] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.1.3] Old Version: [0.6.1.1]
+[2024-05-06 13:52:21] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-06 13:52:21] INFO root fetch - processPackages [qwak-core]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-06 13:52:21] INFO root fetch - processPackages [polars-reverse-geocode]: Downloading https://files.pythonhosted.org/packages/96/e7/415081c47bcdbf15554538c1a30e31bfc596659542906b43af48ca16de41/polars_reverse_geocode-0.3.4.tar.gz
+[2024-05-06 13:52:21] INFO root fetch - processPackages [freetakserver-ui]: New version: [2.2] Old Version: [2.1.1.2]
+[2024-05-06 13:52:21] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-06 13:52:21] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/d7/61/086c8033a6b4d75153e9e4093bc8111d34d3b8f054d4efa109df10580160/nwb4fp-0.6.1.1.tar.gz
+[2024-05-06 13:52:21] INFO root fetch - processPackages [anylearn]: New version: [0.20.3rc1] Old Version: [0.20.2rc1]
+[2024-05-06 13:52:21] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-06 13:52:21] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-06 13:52:21] INFO root fetch - processPackages [freetakserver-ui]: Downloading https://files.pythonhosted.org/packages/c3/a2/551756a5ace61e9c510d1741db32c0375acd15d2e737028c9e0f9f577a0c/FreeTAKServer-UI-2.1.1.2.tar.gz
+[2024-05-06 13:52:21] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/91/50/398fddaafe78bbe7e391ddc622ac3bd91f1beadd25a13eeddfeb4d52556a/qwak_core-0.4.2.tar.gz
+[2024-05-06 13:52:21] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/3e/52/984d6bada77751b470871843f5ac3f60b9c8a4fda8312040a9a03e3ca36b/anylearn-0.20.2rc1.tar.gz
+[2024-05-06 13:52:21] INFO root fetch - processPackages [polars-reverse-geocode]: Downloading https://files.pythonhosted.org/packages/f6/a5/eb5872afb6a574c96d8a96c5674c4537d14f6255818b9286ca3dfe1c5a16/polars_reverse_geocode-0.4.1.tar.gz
+[2024-05-06 13:52:21] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/7b/50/9f9dadbfbd794902a7b7be290077378fc4e19a14a116d2315c294cb68c4a/nwb4fp-0.6.1.3.tar.gz
+[2024-05-06 13:52:21] INFO root fetch - processPackages [polars-reverse-geocode]: executing diffoscope
+[2024-05-06 13:52:21] INFO root fetch - processPackages [polars-reverse-geocode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_reverse_geocode-0.3.4.tar.gz tmp/polars_reverse_geocode-0.4.1.tar.gz --markdown 20240506/p/polars-reverse-geocode/0.3.4-0.4.1/README.md --exclude *.pyd
+[2024-05-06 13:52:21] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-05-06 13:52:21] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.1.1.tar.gz tmp/nwb4fp-0.6.1.3.tar.gz --markdown 20240506/n/nwb4fp/0.6.1.1-0.6.1.3/README.md --exclude *.pyd
+[2024-05-06 13:52:21] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/cc/53/03b92d86e92ef57bc1d7ae33842be95a69ac1a8cc866143450c7c08813d7/anylearn-0.20.3rc1.tar.gz
+[2024-05-06 13:52:21] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/ba/76/95305773140f405024441aabfc5f6adae4257a1d0c472f37cb15d2a87182/qwak_core-0.4.3.tar.gz
+[2024-05-06 13:52:22] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2024-05-06 13:52:22] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.20.2rc1.tar.gz tmp/anylearn-0.20.3rc1.tar.gz --markdown 20240506/a/anylearn/0.20.2rc1-0.20.3rc1/README.md --exclude *.pyd
+[2024-05-06 13:52:22] INFO root fetch - processPackages [freetakserver-ui]: Downloading https://files.pythonhosted.org/packages/1a/b1/719c87c201f9fef8bca6541e5b5ee48cc6dfa42f34c9225fe28b6cd8cf4e/freetakserver_ui-2.2.tar.gz
+[2024-05-06 13:52:22] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-06 13:52:22] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.2.tar.gz tmp/qwak_core-0.4.3.tar.gz --markdown 20240506/q/qwak-core/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-06 13:52:22] INFO root fetch - processPackages [freetakserver-ui]: executing diffoscope
+[2024-05-06 13:52:22] INFO root fetch - processPackages [freetakserver-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTAKServer-UI-2.1.1.2.tar.gz tmp/freetakserver_ui-2.2.tar.gz --markdown 20240506/f/freetakserver-ui/2.1.1.2-2.2/README.md --exclude *.pyd
+[2024-05-06 13:52:22] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.1.1.tar.gz]
+[2024-05-06 13:52:22] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.1.3.tar.gz]
+[2024-05-06 13:52:22] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-05-06 13:52:22] INFO root fetch - processPackages [polars-reverse-geocode]: Remove: archive file [/home/abi/fetcher/tmp/polars_reverse_geocode-0.3.4.tar.gz]
+[2024-05-06 13:52:22] INFO root fetch - processPackages [polars-reverse-geocode]: Remove: archive file [/home/abi/fetcher/tmp/polars_reverse_geocode-0.4.1.tar.gz]
+[2024-05-06 13:52:22] INFO root fetch - main [MainThread]: End processing [polars-reverse-geocode]: success
+[2024-05-06 13:52:23] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.20.2rc1.tar.gz]
+[2024-05-06 13:52:23] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.20.3rc1.tar.gz]
+[2024-05-06 13:52:23] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2024-05-06 13:52:24] INFO root fetch - processPackages [freetakserver-ui]: Remove: archive file [/home/abi/fetcher/tmp/FreeTAKServer-UI-2.1.1.2.tar.gz]
+[2024-05-06 13:52:24] INFO root fetch - processPackages [freetakserver-ui]: Remove: archive file [/home/abi/fetcher/tmp/freetakserver_ui-2.2.tar.gz]
+[2024-05-06 13:52:24] INFO root fetch - main [MainThread]: End processing [freetakserver-ui]: success
+[2024-05-06 13:52:25] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.2.tar.gz]
+[2024-05-06 13:52:25] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.3.tar.gz]
+[2024-05-06 13:52:25] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-06 13:52:25] INFO root fetch - main [MainThread]: Store serial: [23077066]
