@@ -15036,3 +15036,60 @@
 [2024-05-06 12:04:49] INFO root fetch - processPackages [mlops-ods]: Remove: archive file [/home/abi/fetcher/tmp/mlops_ods-0.1.202405061002.tar.gz]
 [2024-05-06 12:04:49] INFO root fetch - main [MainThread]: End processing [mlops-ods]: success
 [2024-05-06 12:04:49] INFO root fetch - main [MainThread]: Store serial: [23075841]
+[2024-05-06 12:06:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075841]
+[2024-05-06 12:06:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 12:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-05-06 12:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-openzim
+[2024-05-06 12:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2024-05-06 12:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvprocessor
+[2024-05-06 12:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mail-attach-existing-attachment
+[2024-05-06 12:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-mail-outbound-static
+[2024-05-06 12:06:58] INFO root fetch - processPackages [hatch-openzim]: New version: [0.3.0.dev0] Old Version: [0.2.0]
+[2024-05-06 12:06:58] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.12] Old Version: [0.0.11]
+[2024-05-06 12:06:58] INFO root fetch - processPackages [hatch-openzim]: Downloading https://files.pythonhosted.org/packages/4d/35/6121e9e7fb90da728e2350bc1685825fcd1a94e373911344ab160bfd5f7c/hatch_openzim-0.2.0.tar.gz
+[2024-05-06 12:06:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.38.0.dev20240503] Old Version: [1.38.0.dev20240502]
+[2024-05-06 12:06:58] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/6b/13/1cb51eb26b671ec99e916c92ab7f86acb1862acc31c878780d5767b336e0/cvprocessor-0.0.11-py3-none-any.whl
+[2024-05-06 12:06:58] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: New version: [17.0.1.0.0.3] Old Version: [16.0.1.1.0]
+[2024-05-06 12:06:58] INFO root fetch - processPackages [odoo-addon-mail-outbound-static]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1]
+[2024-05-06 12:06:58] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-06 12:06:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/81/e8/709b899fe613e5b9f71d1a30d5b68f3e5b502af2f0342dd073d82118aad1/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240502.tar.gz
+[2024-05-06 12:06:58] INFO root fetch - processPackages [hatch-openzim]: Downloading https://files.pythonhosted.org/packages/c8/81/48a938aad710240430c28049ba3f955109f6feef413d185798b5fe4c5cc6/hatch_openzim-0.3.0.dev0.tar.gz
+[2024-05-06 12:06:58] INFO root fetch - processPackages [odoo-addon-mail-outbound-static]: Downloading https://files.pythonhosted.org/packages/8a/0b/5e12849a9fd1b7f9cd6826a341e6505e0f187da3fee93d7ac4266fe8adac/odoo_addon_mail_outbound_static-17.0.1.0.1-py3-none-any.whl
+[2024-05-06 12:06:58] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/98/a2/7648ca2c5daba236d146d15354b7bd32ec962b2cab36a9688b1859760d6b/cvprocessor-0.0.12.tar.gz
+[2024-05-06 12:06:58] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: Downloading https://files.pythonhosted.org/packages/7c/ae/2ba2a4ce06a458281cf69abd3e6f26aa51183ad46cde8ef3eff471137c7c/odoo_addon_mail_attach_existing_attachment-16.0.1.1.0-py3-none-any.whl
+[2024-05-06 12:06:58] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-06 12:06:58] INFO root fetch - processPackages [hatch-openzim]: executing diffoscope
+[2024-05-06 12:06:58] INFO root fetch - processPackages [hatch-openzim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_openzim-0.2.0.tar.gz tmp/hatch_openzim-0.3.0.dev0.tar.gz --markdown 20240506/h/hatch-openzim/0.2.0-0.3.0.dev0/README.md --exclude *.pyd
+[2024-05-06 12:06:59] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-06 12:06:59] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.11-py3-none-any.whl.zip tmp/cvprocessor-0.0.12.tar.gz --markdown 20240506/c/cvprocessor/0.0.11-0.0.12/README.md --exclude *.pyd
+[2024-05-06 12:06:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/29/45/0ce34a70104e7a1bb94babb4a1d58fcd63b0dc9bc8671ed011ef344ec96c/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240503.tar.gz
+[2024-05-06 12:06:59] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: Downloading https://files.pythonhosted.org/packages/ae/ed/251296dd589910b68ad1507f43c6531853e92c3ae8f4850e146f16547b01/odoo_addon_mail_attach_existing_attachment-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-06 12:06:59] INFO root fetch - processPackages [odoo-addon-mail-outbound-static]: Downloading https://files.pythonhosted.org/packages/90/8d/e547392cd951b0427fa9b67d278717cc13cee68b7474f0366b96f3819fe5/odoo_addon_mail_outbound_static-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-06 12:06:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-05-06 12:06:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240502.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240503.tar.gz --markdown 20240506/n/nvidia-dali-tf-plugin-nightly-cuda120/1.38.0.dev20240502-1.38.0.dev20240503/README.md --exclude *.pyd
+[2024-05-06 12:06:59] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-06 12:06:59] INFO root fetch - processPackages [odoo-addon-mail-outbound-static]: executing diffoscope
+[2024-05-06 12:06:59] INFO root fetch - processPackages [odoo-addon-mail-outbound-static]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_outbound_static-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_mail_outbound_static-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-mail-outbound-static/17.0.1.0.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-06 12:06:59] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: executing diffoscope
+[2024-05-06 12:06:59] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_attach_existing_attachment-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_mail_attach_existing_attachment-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-mail-attach-existing-attachment/16.0.1.1.0-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-06 12:06:59] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-06 12:06:59] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240506/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-06 12:06:59] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.11-py3-none-any.whl.zip]
+[2024-05-06 12:06:59] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.12.tar.gz]
+[2024-05-06 12:06:59] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-06 12:06:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240502.tar.gz]
+[2024-05-06 12:06:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240503.tar.gz]
+[2024-05-06 12:06:59] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-05-06 12:07:00] INFO root fetch - processPackages [hatch-openzim]: Remove: archive file [/home/abi/fetcher/tmp/hatch_openzim-0.2.0.tar.gz]
+[2024-05-06 12:07:00] INFO root fetch - processPackages [hatch-openzim]: Remove: archive file [/home/abi/fetcher/tmp/hatch_openzim-0.3.0.dev0.tar.gz]
+[2024-05-06 12:07:00] INFO root fetch - main [MainThread]: End processing [hatch-openzim]: success
+[2024-05-06 12:07:00] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_attach_existing_attachment-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-06 12:07:00] INFO root fetch - processPackages [odoo-addon-mail-attach-existing-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_attach_existing_attachment-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-06 12:07:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-attach-existing-attachment]: success
+[2024-05-06 12:07:00] INFO root fetch - processPackages [odoo-addon-mail-outbound-static]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_outbound_static-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-06 12:07:00] INFO root fetch - processPackages [odoo-addon-mail-outbound-static]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_outbound_static-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-06 12:07:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-outbound-static]: success
+[2024-05-06 12:07:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-06 12:07:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-06 12:07:02] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-06 12:07:02] INFO root fetch - main [MainThread]: Store serial: [23075859]
