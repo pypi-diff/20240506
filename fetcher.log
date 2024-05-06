@@ -4258,3 +4258,53 @@
 [2024-05-06 05:47:45] WARNING root fetch - processPackages [ddddocr]: Skipping package: exceeds size limit 75816634>=10485760
 [2024-05-06 05:47:45] INFO root fetch - main [MainThread]: End processing [ddddocr] error
 [2024-05-06 05:47:45] INFO root fetch - main [MainThread]: Store serial: [23071226]
+[2024-05-06 05:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071226]
+[2024-05-06 05:49:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stefutils
+[2024-05-06 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-dataset-converter-imgstats
+[2024-05-06 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfra-nightly
+[2024-05-06 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfra-nightly-gpu
+[2024-05-06 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-pandas
+[2024-05-06 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qai-agent
+[2024-05-06 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: appintel
+[2024-05-06 05:49:53] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 05:49:53] INFO root fetch - processPackages [qai-agent]: New version: [0.5.2.5] Old Version: [0.5.2.4]
+[2024-05-06 05:49:53] INFO root fetch - processPackages [tfra-nightly-gpu]: New version: [0.6.1.dev20240429223730] Old Version: [0.6.1.dev20240429095015]
+[2024-05-06 05:49:53] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-06 05:49:53] WARNING root fetch - processPackages [image-dataset-converter-imgstats]: Skipping, unable to determine old version
+[2024-05-06 05:49:53] INFO root fetch - main [MainThread]: End processing [image-dataset-converter-imgstats] error
+[2024-05-06 05:49:53] WARNING root fetch - processPackages [appintel]: Skipping, unable to determine old version
+[2024-05-06 05:49:53] INFO root fetch - main [MainThread]: End processing [appintel] error
+[2024-05-06 05:49:53] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 05:49:53] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.1.dev20240429223730] Old Version: [0.6.1.dev20240429095015]
+[2024-05-06 05:49:54] INFO root fetch - processPackages [qai-agent]: Downloading https://files.pythonhosted.org/packages/b4/7c/3b8c09d297fc3c217f80f3e51f31d022d75a74e33ee25426bada62786e60/qai_agent-0.5.2.4.tar.gz
+[2024-05-06 05:49:54] INFO root fetch - processPackages [tfra-nightly-gpu]: Downloading https://files.pythonhosted.org/packages/bd/76/65aa72705cf7d4dd5bf1ec8194bd83eaa2a0afb9a5f2c48ec0f980abdc6b/tfra_nightly_gpu-0.6.1.dev20240429095015-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 05:49:54] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-06 05:49:54] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 05:49:54] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/93/5e/b84a92d61fe423c2a06788d596add3d896d8434501ad29945ee29c0e5ba4/tfra_nightly-0.6.1.dev20240429095015-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 05:49:54] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 05:49:54] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 05:49:54] INFO root fetch - processPackages [qai-agent]: Downloading https://files.pythonhosted.org/packages/f9/f9/824dbfdadb5c0a05d75b895d5c9ec4b75ab5f79e860111be78554b43898b/qai_agent-0.5.2.5.tar.gz
+[2024-05-06 05:49:54] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-06 05:49:54] WARNING root fetch - processPackages [tfra-nightly-gpu]: Skipping package: exceeds size limit 34337728>=10485760
+[2024-05-06 05:49:54] INFO root fetch - main [MainThread]: End processing [tfra-nightly-gpu] error
+[2024-05-06 05:49:54] INFO root fetch - processPackages [qai-agent]: executing diffoscope
+[2024-05-06 05:49:54] INFO root fetch - processPackages [qai-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_agent-0.5.2.4.tar.gz tmp/qai_agent-0.5.2.5.tar.gz --markdown 20240506/q/qai-agent/0.5.2.4-0.5.2.5/README.md --exclude *.pyd
+[2024-05-06 05:49:54] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 05:49:54] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 05:49:54] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 05:49:54] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-06 05:49:54] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240506/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-06 05:49:55] INFO root fetch - processPackages [qai-agent]: Remove: archive file [/home/abi/fetcher/tmp/qai_agent-0.5.2.4.tar.gz]
+[2024-05-06 05:49:55] INFO root fetch - processPackages [qai-agent]: Remove: archive file [/home/abi/fetcher/tmp/qai_agent-0.5.2.5.tar.gz]
+[2024-05-06 05:49:55] INFO root fetch - main [MainThread]: End processing [qai-agent]: success
+[2024-05-06 05:49:55] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-06 05:49:55] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-06 05:49:55] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-06 05:49:56] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/52/1b/d8ea8f78c1045908d01f78d70348691cdb2e843cbefdc72678488f0368f1/tfra_nightly-0.6.1.dev20240429223730-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 05:49:56] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2024-05-06 05:49:56] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.1.dev20240429095015-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tfra_nightly-0.6.1.dev20240429223730-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240506/t/tfra-nightly/0.6.1.dev20240429095015-0.6.1.dev20240429223730/README.md --exclude *.pyd
+[2024-05-06 05:49:57] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240429095015-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-06 05:49:57] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240429223730-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-06 05:49:57] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2024-05-06 05:49:57] INFO root fetch - main [MainThread]: Store serial: [23071254]
