@@ -16020,3 +16020,62 @@
 [2024-05-06 12:46:47] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.922.tar.gz]
 [2024-05-06 12:46:47] INFO root fetch - main [MainThread]: End processing [revert-api]: success
 [2024-05-06 12:46:47] INFO root fetch - main [MainThread]: Store serial: [23076240]
+[2024-05-06 12:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076240]
+[2024-05-06 12:48:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 12:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: demessaging
+[2024-05-06 12:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: htagui
+[2024-05-06 12:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-telegram-broadcast
+[2024-05-06 12:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upgxl
+[2024-05-06 12:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amsdal_data
+[2024-05-06 12:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numerous
+[2024-05-06 12:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlalchemy-multilingual
+[2024-05-06 12:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qwak-inference
+[2024-05-06 12:48:56] WARNING root fetch - processPackages [python-telegram-broadcast]: Skipping, unable to determine old version
+[2024-05-06 12:48:56] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast] error
+[2024-05-06 12:48:56] INFO root fetch - processPackages [sqlalchemy-multilingual]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 12:48:56] INFO root fetch - processPackages [demessaging]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-06 12:48:56] WARNING root fetch - processPackages [upgxl]: Skipping, unable to determine old version
+[2024-05-06 12:48:56] INFO root fetch - main [MainThread]: End processing [upgxl] error
+[2024-05-06 12:48:56] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/ab/79/6d18382aabc5edfa165376c3c4c4f45a3b21eaa9d9f8570d332e17492cbe/sqlalchemy_multilingual-0.0.6.tar.gz
+[2024-05-06 12:48:56] INFO root fetch - processPackages [htagui]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-06 12:48:56] INFO root fetch - processPackages [qwak-inference]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 12:48:56] INFO root fetch - processPackages [numerous]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 12:48:56] INFO root fetch - processPackages [amsdal_data]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 12:48:56] INFO root fetch - processPackages [demessaging]: Downloading https://files.pythonhosted.org/packages/94/17/33af12464230b5d6ab5543054b78ddb7013ae0ea7def3f277f048d3d8945/demessaging-0.5.1.tar.gz
+[2024-05-06 12:48:56] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/fe/f7/085ff92f4ab42725b5fa32eee5ad7a4c94fab13deaeaeb61cda3e6363b77/htagui-0.5.8.tar.gz
+[2024-05-06 12:48:56] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/d2/3b/e642baf16566658f1f911336a06142027f0286a8d3da3dbf55d3757ccfc6/qwak_inference-0.1.8.tar.gz
+[2024-05-06 12:48:56] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/5a/48/b09bcff1cd3cccbf75f2cf9029beabcba4361553d9a31e7fcd5838b1d830/numerous-0.1.1.tar.gz
+[2024-05-06 12:48:56] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 64348496>=10485760
+[2024-05-06 12:48:56] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-05-06 12:48:56] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/8d/17/e46f447ba67fa67a43dcdaf854da9279d0c14e08b7f0320ce249656b26f9/sqlalchemy_multilingual-0.0.7.tar.gz
+[2024-05-06 12:48:56] INFO root fetch - processPackages [amsdal_data]: Downloading https://files.pythonhosted.org/packages/eb/da/33de3054214534d21948ff42c1cf636ca5afd4415c97256a2a2173c9515a/amsdal_data-0.1.8-cp311-cp311-win_amd64.whl
+[2024-05-06 12:48:56] INFO root fetch - processPackages [sqlalchemy-multilingual]: executing diffoscope
+[2024-05-06 12:48:56] INFO root fetch - processPackages [sqlalchemy-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_multilingual-0.0.6.tar.gz tmp/sqlalchemy_multilingual-0.0.7.tar.gz --markdown 20240506/s/sqlalchemy-multilingual/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 12:48:57] INFO root fetch - processPackages [demessaging]: Downloading https://files.pythonhosted.org/packages/b6/85/5a56ae30ddfff15c1e03280ef1fe87969f371362f1232a18a017e910ebfe/demessaging-0.5.2.tar.gz
+[2024-05-06 12:48:57] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/47/9d/0c1208869caef2f9ea3d38c248f7354673c6dc8fd26b2495b4d75f3b1236/htagui-0.5.9.tar.gz
+[2024-05-06 12:48:57] INFO root fetch - processPackages [demessaging]: executing diffoscope
+[2024-05-06 12:48:57] INFO root fetch - processPackages [demessaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demessaging-0.5.1.tar.gz tmp/demessaging-0.5.2.tar.gz --markdown 20240506/d/demessaging/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-06 12:48:57] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/e2/a5/0bfa81b8a414d2662f59b428e2078748aa2252abf127787650594629eb93/qwak_inference-0.1.9.tar.gz
+[2024-05-06 12:48:57] INFO root fetch - processPackages [htagui]: executing diffoscope
+[2024-05-06 12:48:57] INFO root fetch - processPackages [htagui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagui-0.5.8.tar.gz tmp/htagui-0.5.9.tar.gz --markdown 20240506/h/htagui/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-06 12:48:57] INFO root fetch - processPackages [qwak-inference]: executing diffoscope
+[2024-05-06 12:48:57] INFO root fetch - processPackages [qwak-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_inference-0.1.8.tar.gz tmp/qwak_inference-0.1.9.tar.gz --markdown 20240506/q/qwak-inference/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 12:48:57] INFO root fetch - processPackages [amsdal_data]: Downloading https://files.pythonhosted.org/packages/0b/19/6d4832dfcb4b6503d3cf88ccc55c43bf23017b40aa010d0af607dce8d1f2/amsdal_data-0.1.9-cp311-cp311-win_amd64.whl
+[2024-05-06 12:48:57] INFO root fetch - processPackages [amsdal_data]: executing diffoscope
+[2024-05-06 12:48:57] INFO root fetch - processPackages [amsdal_data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_data-0.1.8-cp311-cp311-win_amd64.whl.zip tmp/amsdal_data-0.1.9-cp311-cp311-win_amd64.whl.zip --markdown 20240506/a/amsdal_data/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 12:48:57] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.6.tar.gz]
+[2024-05-06 12:48:57] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.7.tar.gz]
+[2024-05-06 12:48:57] INFO root fetch - main [MainThread]: End processing [sqlalchemy-multilingual]: success
+[2024-05-06 12:48:58] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.5.8.tar.gz]
+[2024-05-06 12:48:58] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.5.9.tar.gz]
+[2024-05-06 12:48:58] INFO root fetch - main [MainThread]: End processing [htagui]: success
+[2024-05-06 12:48:58] INFO root fetch - processPackages [qwak-inference]: Remove: archive file [/home/abi/fetcher/tmp/qwak_inference-0.1.8.tar.gz]
+[2024-05-06 12:48:58] INFO root fetch - processPackages [qwak-inference]: Remove: archive file [/home/abi/fetcher/tmp/qwak_inference-0.1.9.tar.gz]
+[2024-05-06 12:48:58] INFO root fetch - main [MainThread]: End processing [qwak-inference]: success
+[2024-05-06 12:48:58] INFO root fetch - processPackages [demessaging]: Remove: archive file [/home/abi/fetcher/tmp/demessaging-0.5.1.tar.gz]
+[2024-05-06 12:48:58] INFO root fetch - processPackages [demessaging]: Remove: archive file [/home/abi/fetcher/tmp/demessaging-0.5.2.tar.gz]
+[2024-05-06 12:48:58] INFO root fetch - main [MainThread]: End processing [demessaging]: success
+[2024-05-06 12:48:58] INFO root fetch - processPackages [amsdal_data]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_data-0.1.8-cp311-cp311-win_amd64.whl.zip]
+[2024-05-06 12:48:58] INFO root fetch - processPackages [amsdal_data]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_data-0.1.9-cp311-cp311-win_amd64.whl.zip]
+[2024-05-06 12:48:58] INFO root fetch - main [MainThread]: End processing [amsdal_data]: success
+[2024-05-06 12:48:58] INFO root fetch - main [MainThread]: Store serial: [23076273]
