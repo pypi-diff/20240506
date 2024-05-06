@@ -15427,3 +15427,36 @@
 [2024-05-06 12:22:24] INFO root fetch - processPackages [metatensor-core]: Remove: archive file [/home/abi/fetcher/tmp/metatensor_core-0.1.6.tar.gz]
 [2024-05-06 12:22:24] INFO root fetch - main [MainThread]: End processing [metatensor-core]: success
 [2024-05-06 12:22:24] INFO root fetch - main [MainThread]: Store serial: [23075999]
+[2024-05-06 12:24:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075999]
+[2024-05-06 12:24:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 12:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: project-async
+[2024-05-06 12:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meteoswiss-async
+[2024-05-06 12:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hadronic
+[2024-05-06 12:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text2story
+[2024-05-06 12:24:33] WARNING root fetch - processPackages [hadronic]: Skipping, unable to determine old version
+[2024-05-06 12:24:33] INFO root fetch - main [MainThread]: End processing [hadronic] error
+[2024-05-06 12:24:33] INFO root fetch - processPackages [project-async]: New version: [0.0.1rc78.post1] Old Version: [0.0.1rc76.post1]
+[2024-05-06 12:24:33] INFO root fetch - processPackages [text2story]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-06 12:24:33] INFO root fetch - processPackages [meteoswiss-async]: New version: [0.1.0rc9.post1] Old Version: [0.1.0rc22.post1]
+[2024-05-06 12:24:33] INFO root fetch - processPackages [meteoswiss-async]: Downloading https://files.pythonhosted.org/packages/cc/19/803a638edfbe3f3e9cb30cf34ebb74d250d79479c93effaf36326e27b0a5/meteoswiss_async-0.1.0rc22.post1.tar.gz
+[2024-05-06 12:24:33] INFO root fetch - processPackages [project-async]: Downloading https://files.pythonhosted.org/packages/d3/47/865c16419c4181bdcdaba825ad1ba0c8fcfe26ac30a96cb996fe495b8fb1/project_async-0.0.1rc76.post1.tar.gz
+[2024-05-06 12:24:33] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/80/66/3c0c052b8e17b8e43c003eb671fd6cda131643a4e71d66306ca5a5ac578e/text2story-1.4.4.tar.gz
+[2024-05-06 12:24:34] INFO root fetch - processPackages [project-async]: Downloading https://files.pythonhosted.org/packages/e8/5e/b0837bb31daf6d6c7e8b198d4fde9b7ffcc4a7d2da04183dafc577c98a39/project_async-0.0.1rc78.post1.tar.gz
+[2024-05-06 12:24:34] INFO root fetch - processPackages [meteoswiss-async]: Downloading https://files.pythonhosted.org/packages/05/f2/0eccd113533f6eabd4d7000e5e913b293170e394b13657aadd7be0ee0eaa/meteoswiss_async-0.1.0rc9.post1.tar.gz
+[2024-05-06 12:24:34] INFO root fetch - processPackages [meteoswiss-async]: executing diffoscope
+[2024-05-06 12:24:34] INFO root fetch - processPackages [meteoswiss-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteoswiss_async-0.1.0rc22.post1.tar.gz tmp/meteoswiss_async-0.1.0rc9.post1.tar.gz --markdown 20240506/m/meteoswiss-async/0.1.0rc22.post1-0.1.0rc9.post1/README.md --exclude *.pyd
+[2024-05-06 12:24:34] INFO root fetch - processPackages [project-async]: executing diffoscope
+[2024-05-06 12:24:34] INFO root fetch - processPackages [project-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_async-0.0.1rc76.post1.tar.gz tmp/project_async-0.0.1rc78.post1.tar.gz --markdown 20240506/p/project-async/0.0.1rc76.post1-0.0.1rc78.post1/README.md --exclude *.pyd
+[2024-05-06 12:24:34] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/ff/13/155151c00debc5a40cb3f59b07e4ab97ed860b2ab270e34bc97c46725357/text2story-1.4.5.tar.gz
+[2024-05-06 12:24:34] INFO root fetch - processPackages [project-async]: Remove: archive file [/home/abi/fetcher/tmp/project_async-0.0.1rc76.post1.tar.gz]
+[2024-05-06 12:24:34] INFO root fetch - processPackages [project-async]: Remove: archive file [/home/abi/fetcher/tmp/project_async-0.0.1rc78.post1.tar.gz]
+[2024-05-06 12:24:34] INFO root fetch - main [MainThread]: End processing [project-async]: success
+[2024-05-06 12:24:34] INFO root fetch - processPackages [meteoswiss-async]: Remove: archive file [/home/abi/fetcher/tmp/meteoswiss_async-0.1.0rc22.post1.tar.gz]
+[2024-05-06 12:24:34] INFO root fetch - processPackages [meteoswiss-async]: Remove: archive file [/home/abi/fetcher/tmp/meteoswiss_async-0.1.0rc9.post1.tar.gz]
+[2024-05-06 12:24:34] INFO root fetch - main [MainThread]: End processing [meteoswiss-async]: success
+[2024-05-06 12:24:36] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2024-05-06 12:24:36] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.4.4.tar.gz tmp/text2story-1.4.5.tar.gz --markdown 20240506/t/text2story/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-05-06 12:24:37] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.4.tar.gz]
+[2024-05-06 12:24:37] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.5.tar.gz]
+[2024-05-06 12:24:37] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2024-05-06 12:24:37] INFO root fetch - main [MainThread]: Store serial: [23076013]
