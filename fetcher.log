@@ -1831,3 +1831,31 @@
 [2024-05-06 02:59:12] WARNING root fetch - processPackages [tree-sitter-regex]: Skipping, unable to determine old version
 [2024-05-06 02:59:12] INFO root fetch - main [MainThread]: End processing [tree-sitter-regex] error
 [2024-05-06 02:59:12] INFO root fetch - main [MainThread]: Store serial: [23070271]
+[2024-05-06 03:01:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070271]
+[2024-05-06 03:01:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 03:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ONTraC
+[2024-05-06 03:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: batcave
+[2024-05-06 03:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: batcave
+[2024-05-06 03:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: currencies-integrations
+[2024-05-06 03:01:21] INFO root fetch - processPackages [batcave]: New version: [44.0.0rc2] Old Version: [44.0.0]
+[2024-05-06 03:01:21] INFO root fetch - processPackages [batcave]: New version: [44.0.0rc2] Old Version: [44.0.0]
+[2024-05-06 03:01:21] INFO root fetch - processPackages [ONTraC]: New version: [0.0.5rc1] Old Version: [0.0.5.post1]
+[2024-05-06 03:01:21] WARNING root fetch - processPackages [currencies-integrations]: Skipping, unable to determine old version
+[2024-05-06 03:01:21] INFO root fetch - main [MainThread]: End processing [currencies-integrations] error
+[2024-05-06 03:01:21] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/91/75/8f8bf0d3ada87c5067bedc17b0e91a30dd4abdc4d1166e16292693b82b56/batcave-44.0.0.tar.gz
+[2024-05-06 03:01:21] INFO root fetch - processPackages [ONTraC]: Downloading https://files.pythonhosted.org/packages/91/90/f838f0f16bc689644414a6d294107ad966353aef0fd2703444ffb225d743/ontrac-0.0.5.post1.tar.gz
+[2024-05-06 03:01:21] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/91/75/8f8bf0d3ada87c5067bedc17b0e91a30dd4abdc4d1166e16292693b82b56/batcave-44.0.0.tar.gz
+[2024-05-06 03:01:21] INFO root fetch - processPackages [ONTraC]: Downloading https://files.pythonhosted.org/packages/85/dd/aa2f95df7079dc93f4645901aa5ec4ebe0aed7292fc3304c5299dbb92fe8/ontrac-0.0.5rc1.tar.gz
+[2024-05-06 03:01:21] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/06/4c/45afb751231a0b8f3a6420b7201b53619866c086afc149aecd36d98d4436/batcave-44.0.0rc2.tar.gz
+[2024-05-06 03:01:21] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/06/4c/45afb751231a0b8f3a6420b7201b53619866c086afc149aecd36d98d4436/batcave-44.0.0rc2.tar.gz
+[2024-05-06 03:01:21] WARNING root fetch - processPackages [ONTraC]: Skipping package: exceeds size limit 52426263>=10485760
+[2024-05-06 03:01:21] INFO root fetch - main [MainThread]: End processing [ONTraC] error
+[2024-05-06 03:01:22] INFO root fetch - processPackages [batcave]: executing diffoscope
+[2024-05-06 03:01:22] INFO root fetch - processPackages [batcave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcave-44.0.0.tar.gz tmp/batcave-44.0.0rc2.tar.gz --markdown 20240506/b/batcave/44.0.0-44.0.0rc2/README.md --exclude *.pyd
+[2024-05-06 03:01:22] INFO root fetch - processPackages [batcave]: executing diffoscope
+[2024-05-06 03:01:22] INFO root fetch - processPackages [batcave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcave-44.0.0.tar.gz tmp/batcave-44.0.0rc2.tar.gz --markdown 20240506/b/batcave/44.0.0-44.0.0rc2/README.md --exclude *.pyd
+[2024-05-06 03:01:22] INFO root fetch - processPackages [batcave]: Remove: archive file [/home/abi/fetcher/tmp/batcave-44.0.0.tar.gz]
+[2024-05-06 03:01:22] INFO root fetch - processPackages [batcave]: Remove: archive file [/home/abi/fetcher/tmp/batcave-44.0.0rc2.tar.gz]
+[2024-05-06 03:01:22] INFO root fetch - main [MainThread]: End processing [batcave]: success
+[2024-05-06 03:01:22] INFO root fetch - main [MainThread]: End processing [batcave]: success
+[2024-05-06 03:01:22] INFO root fetch - main [MainThread]: Store serial: [23070280]
