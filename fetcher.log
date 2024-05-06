@@ -2298,3 +2298,24 @@
 [2024-05-06 03:35:00] INFO root fetch - processPackages [seppl]: Remove: archive file [/home/abi/fetcher/tmp/seppl-0.2.4.tar.gz]
 [2024-05-06 03:35:00] INFO root fetch - main [MainThread]: End processing [seppl]: success
 [2024-05-06 03:35:00] INFO root fetch - main [MainThread]: Store serial: [23070434]
+[2024-05-06 03:37:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070434]
+[2024-05-06 03:37:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 03:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAgrum-nightly
+[2024-05-06 03:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-dataset-converter
+[2024-05-06 03:37:08] INFO root fetch - processPackages [llm-dataset-converter]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-06 03:37:08] INFO root fetch - processPackages [llm-dataset-converter]: Downloading https://files.pythonhosted.org/packages/e9/a6/329d9ca30f76a572af223efe3485b0aef919d825a32e7022572edf587476/llm-dataset-converter-0.2.2.tar.gz
+[2024-05-06 03:37:09] INFO root fetch - processPackages [llm-dataset-converter]: Downloading https://files.pythonhosted.org/packages/1d/48/c0aa564baacd13d60337b092166681e7873d7e2b588507c7ea8fc0031d2a/llm-dataset-converter-0.2.3.tar.gz
+[2024-05-06 03:37:09] INFO root fetch - processPackages [llm-dataset-converter]: executing diffoscope
+[2024-05-06 03:37:09] INFO root fetch - processPackages [llm-dataset-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-dataset-converter-0.2.2.tar.gz tmp/llm-dataset-converter-0.2.3.tar.gz --markdown 20240506/l/llm-dataset-converter/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-06 03:37:10] INFO root fetch - processPackages [llm-dataset-converter]: Remove: archive file [/home/abi/fetcher/tmp/llm-dataset-converter-0.2.2.tar.gz]
+[2024-05-06 03:37:10] INFO root fetch - processPackages [llm-dataset-converter]: Remove: archive file [/home/abi/fetcher/tmp/llm-dataset-converter-0.2.3.tar.gz]
+[2024-05-06 03:37:10] INFO root fetch - main [MainThread]: End processing [llm-dataset-converter]: success
+[2024-05-06 03:37:10] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-06 03:37:10] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-06 03:37:11] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-06 03:37:11] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-06 03:37:11] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240506/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-06 03:37:12] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-06 03:37:12] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-06 03:37:12] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-06 03:37:12] INFO root fetch - main [MainThread]: Store serial: [23070443]
