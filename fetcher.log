@@ -13693,3 +13693,56 @@
 [2024-05-06 11:18:46] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2024-05-06 11:18:46] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2024-05-06 11:18:46] INFO root fetch - main [MainThread]: Store serial: [23075160]
+[2024-05-06 11:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075160]
+[2024-05-06 11:20:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 11:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msmanager
+[2024-05-06 11:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bio-image-unet
+[2024-05-06 11:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: common-tools-ai-bnq
+[2024-05-06 11:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlrepo
+[2024-05-06 11:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trex-web
+[2024-05-06 11:20:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-global-places
+[2024-05-06 11:20:55] INFO root fetch - processPackages [trex-web]: New version: [1.0.0] Old Version: [0.0.2]
+[2024-05-06 11:20:55] INFO root fetch - processPackages [bio-image-unet]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2024-05-06 11:20:55] INFO root fetch - processPackages [msmanager]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-06 11:20:55] INFO root fetch - processPackages [trex-web]: Downloading https://files.pythonhosted.org/packages/67/96/1cb82722cd27e11ddbe6a72c732dda90db5838fe8f272cd0ced3737c0c87/trex-web-0.0.2.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [bio-image-unet]: Downloading https://files.pythonhosted.org/packages/97/0f/47d1c6e0c5def590c62949d394d9cf95e50a1f6e7b3372fdb43b629370f1/bio_image_unet-1.0.0a1.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/67/72/14c18a91baf44b2b85113a2f4902efabed8831b5bab8496a4ea0744c343c/msmanager-0.4.3.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-06 11:20:55] INFO root fetch - processPackages [sqlrepo]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-06 11:20:55] INFO root fetch - processPackages [django-global-places]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-06 11:20:55] WARNING root fetch - processPackages [trex-web]: Skipping package: exceeds size limit 13846230>=10485760
+[2024-05-06 11:20:55] INFO root fetch - main [MainThread]: End processing [trex-web] error
+[2024-05-06 11:20:55] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/00/9f/aa4494ebc798791ac1c94f9e954d50a010d5cc061233ec98001b001be518/common-tools-ai-bnq-0.1.3.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [bio-image-unet]: Downloading https://files.pythonhosted.org/packages/87/bc/fcc736c6feda55fa45b606e40c466d2fe7c3ded0edc555b1f64265de20e0/bio-image-unet-1.0.0a2.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [django-global-places]: Downloading https://files.pythonhosted.org/packages/d1/0d/cc032ae018d09cf0e9b7e907dd2b0e6feee64fef0b4b3c799e34e9d35d5a/django_global_places-0.8.3.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [sqlrepo]: Downloading https://files.pythonhosted.org/packages/ac/b5/eae4aef547cd69f4c329ad4495977c89446567d80cdee9ad0540a03ff6f8/sqlrepo-1.4.1.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/c4/d4/43d6a47e50a9c70cb5e1afd531a7c62853d2d58fee8aa75c37c52d5cf5a8/msmanager-0.4.4.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [bio-image-unet]: executing diffoscope
+[2024-05-06 11:20:55] INFO root fetch - processPackages [bio-image-unet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio_image_unet-1.0.0a1.tar.gz tmp/bio-image-unet-1.0.0a2.tar.gz --markdown 20240506/b/bio-image-unet/1.0.0a1-1.0.0a2/README.md --exclude *.pyd
+[2024-05-06 11:20:55] INFO root fetch - processPackages [msmanager]: executing diffoscope
+[2024-05-06 11:20:55] INFO root fetch - processPackages [msmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmanager-0.4.3.tar.gz tmp/msmanager-0.4.4.tar.gz --markdown 20240506/m/msmanager/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-06 11:20:55] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/0f/40/bef2b3731aec33595d8b2ed05c4f3fb6feadf7584f8dfc9bf67f1041affc/common-tools-ai-bnq-0.1.4.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [django-global-places]: Downloading https://files.pythonhosted.org/packages/28/22/6dafcad37f3b4f86289275086719fea515549b3c66c7409272481a0a0ee1/django_global_places-0.8.4.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-05-06 11:20:55] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.1.3.tar.gz tmp/common-tools-ai-bnq-0.1.4.tar.gz --markdown 20240506/c/common-tools-ai-bnq/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-06 11:20:55] INFO root fetch - processPackages [sqlrepo]: Downloading https://files.pythonhosted.org/packages/10/84/e46b2ca42b55580c2264f8085a4a22e1c1d2454310cda60f2d86c0b13084/sqlrepo-1.4.2.tar.gz
+[2024-05-06 11:20:55] INFO root fetch - processPackages [django-global-places]: executing diffoscope
+[2024-05-06 11:20:55] INFO root fetch - processPackages [django-global-places]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_global_places-0.8.3.tar.gz tmp/django_global_places-0.8.4.tar.gz --markdown 20240506/d/django-global-places/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-06 11:20:56] INFO root fetch - processPackages [sqlrepo]: executing diffoscope
+[2024-05-06 11:20:56] INFO root fetch - processPackages [sqlrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlrepo-1.4.1.tar.gz tmp/sqlrepo-1.4.2.tar.gz --markdown 20240506/s/sqlrepo/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-06 11:20:56] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.3.tar.gz]
+[2024-05-06 11:20:56] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.4.tar.gz]
+[2024-05-06 11:20:56] INFO root fetch - main [MainThread]: End processing [msmanager]: success
+[2024-05-06 11:20:56] INFO root fetch - processPackages [bio-image-unet]: Remove: archive file [/home/abi/fetcher/tmp/bio_image_unet-1.0.0a1.tar.gz]
+[2024-05-06 11:20:56] INFO root fetch - processPackages [bio-image-unet]: Remove: archive file [/home/abi/fetcher/tmp/bio-image-unet-1.0.0a2.tar.gz]
+[2024-05-06 11:20:56] INFO root fetch - main [MainThread]: End processing [bio-image-unet]: success
+[2024-05-06 11:20:56] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.3.tar.gz]
+[2024-05-06 11:20:56] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.4.tar.gz]
+[2024-05-06 11:20:56] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-05-06 11:20:56] INFO root fetch - processPackages [django-global-places]: Remove: archive file [/home/abi/fetcher/tmp/django_global_places-0.8.3.tar.gz]
+[2024-05-06 11:20:56] INFO root fetch - processPackages [django-global-places]: Remove: archive file [/home/abi/fetcher/tmp/django_global_places-0.8.4.tar.gz]
+[2024-05-06 11:20:56] INFO root fetch - main [MainThread]: End processing [django-global-places]: success
+[2024-05-06 11:20:56] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-1.4.1.tar.gz]
+[2024-05-06 11:20:56] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-1.4.2.tar.gz]
+[2024-05-06 11:20:56] INFO root fetch - main [MainThread]: End processing [sqlrepo]: success
+[2024-05-06 11:20:56] INFO root fetch - main [MainThread]: Store serial: [23075181]
