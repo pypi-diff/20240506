@@ -5457,3 +5457,33 @@
 [2024-05-06 07:10:38] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240505.338.tar.gz]
 [2024-05-06 07:10:38] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-05-06 07:10:38] INFO root fetch - main [MainThread]: Store serial: [23071816]
+[2024-05-06 07:12:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071816]
+[2024-05-06 07:12:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 07:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docprompt
+[2024-05-06 07:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymeteobridgesql
+[2024-05-06 07:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: email-auth-remote
+[2024-05-06 07:12:46] INFO root fetch - processPackages [docprompt]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-06 07:12:46] INFO root fetch - processPackages [pymeteobridgesql]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-06 07:12:46] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/ac/2e/794bfc426aedf70829cd049b2b95482a5e884463a1a45929fb7a07ec051d/docprompt-0.4.0.tar.gz
+[2024-05-06 07:12:46] INFO root fetch - processPackages [pymeteobridgesql]: Downloading https://files.pythonhosted.org/packages/35/79/b97f9b75ed7668690b9a02adc28b077fe80546a1573019e29fa7df4aaccb/pymeteobridgesql-1.2.1.tar.gz
+[2024-05-06 07:12:46] INFO root fetch - processPackages [email-auth-remote]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-06 07:12:46] INFO root fetch - processPackages [pymeteobridgesql]: Downloading https://files.pythonhosted.org/packages/6b/80/8aba53ccf16f28a4d252e635e1aa1400088b91fffb3009f563b71db95960/pymeteobridgesql-1.2.2.tar.gz
+[2024-05-06 07:12:46] INFO root fetch - processPackages [email-auth-remote]: Downloading https://files.pythonhosted.org/packages/20/88/83853c22496d9020e4877c3df6e8abb804c0d4baa8e095b6527563a43c06/email-auth-remote-1.2.1.tar.gz
+[2024-05-06 07:12:46] INFO root fetch - processPackages [pymeteobridgesql]: executing diffoscope
+[2024-05-06 07:12:46] INFO root fetch - processPackages [pymeteobridgesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeteobridgesql-1.2.1.tar.gz tmp/pymeteobridgesql-1.2.2.tar.gz --markdown 20240506/p/pymeteobridgesql/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-06 07:12:46] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/9e/29/85f9766e41ee36602b7f20a014c757dceb80c5a0a3a053ad2bc33599c078/docprompt-0.4.1.tar.gz
+[2024-05-06 07:12:47] INFO root fetch - processPackages [docprompt]: executing diffoscope
+[2024-05-06 07:12:47] INFO root fetch - processPackages [docprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docprompt-0.4.0.tar.gz tmp/docprompt-0.4.1.tar.gz --markdown 20240506/d/docprompt/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-06 07:12:47] INFO root fetch - processPackages [email-auth-remote]: Downloading https://files.pythonhosted.org/packages/eb/74/002e8ac9e245d0de89390bfdbb6362ee9415d6ec293ac8fb01078d4ac6a7/email_auth_remote-1.3.0.tar.gz
+[2024-05-06 07:12:47] INFO root fetch - processPackages [email-auth-remote]: executing diffoscope
+[2024-05-06 07:12:47] INFO root fetch - processPackages [email-auth-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-auth-remote-1.2.1.tar.gz tmp/email_auth_remote-1.3.0.tar.gz --markdown 20240506/e/email-auth-remote/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-06 07:12:47] INFO root fetch - processPackages [pymeteobridgesql]: Remove: archive file [/home/abi/fetcher/tmp/pymeteobridgesql-1.2.1.tar.gz]
+[2024-05-06 07:12:47] INFO root fetch - processPackages [pymeteobridgesql]: Remove: archive file [/home/abi/fetcher/tmp/pymeteobridgesql-1.2.2.tar.gz]
+[2024-05-06 07:12:47] INFO root fetch - main [MainThread]: End processing [pymeteobridgesql]: success
+[2024-05-06 07:12:47] INFO root fetch - processPackages [email-auth-remote]: Remove: archive file [/home/abi/fetcher/tmp/email-auth-remote-1.2.1.tar.gz]
+[2024-05-06 07:12:47] INFO root fetch - processPackages [email-auth-remote]: Remove: archive file [/home/abi/fetcher/tmp/email_auth_remote-1.3.0.tar.gz]
+[2024-05-06 07:12:47] INFO root fetch - main [MainThread]: End processing [email-auth-remote]: success
+[2024-05-06 07:12:47] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.4.0.tar.gz]
+[2024-05-06 07:12:47] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.4.1.tar.gz]
+[2024-05-06 07:12:47] INFO root fetch - main [MainThread]: End processing [docprompt]: success
+[2024-05-06 07:12:47] INFO root fetch - main [MainThread]: Store serial: [23071866]
