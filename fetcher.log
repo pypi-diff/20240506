@@ -22612,3 +22612,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:50:03] INFO root fetch - processPackages [IOPaint]: Remove: archive file [/home/abi/fetcher/tmp/IOPaint-1.3.0.tar.gz]
 [2024-05-06 16:50:03] INFO root fetch - main [MainThread]: End processing [IOPaint]: success
 [2024-05-06 16:50:03] INFO root fetch - main [MainThread]: Store serial: [23079521]
+[2024-05-06 16:52:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079521]
+[2024-05-06 16:52:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 16:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pilotpy
+[2024-05-06 16:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydfuutil
+[2024-05-06 16:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-kookit
+[2024-05-06 16:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bttc
+[2024-05-06 16:52:20] INFO root fetch - processPackages [pydfuutil]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 16:52:20] INFO root fetch - processPackages [pydfuutil]: Downloading https://files.pythonhosted.org/packages/3d/c7/252d774887a4b24ec6b0797543bacbd8df2915d8504841415399037c1b96/pydfuutil-0.0.3.tar.gz
+[2024-05-06 16:52:20] WARNING root fetch - processPackages [pilotpy]: Skipping, unable to determine old version
+[2024-05-06 16:52:20] WARNING root fetch - processPackages [pytest-kookit]: Skipping, unable to determine old version
+[2024-05-06 16:52:20] INFO root fetch - main [MainThread]: End processing [pilotpy] error
+[2024-05-06 16:52:20] INFO root fetch - main [MainThread]: End processing [pytest-kookit] error
+[2024-05-06 16:52:20] INFO root fetch - processPackages [bttc]: New version: [0.0.77.3] Old Version: [0.0.77.2]
+[2024-05-06 16:52:20] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/21/55/fc15f75c05c82c6140554bff295d36e0d87ecf1693bb8bb9f28adda9fd7b/bttc-0.0.77.2.tar.gz
+[2024-05-06 16:52:20] INFO root fetch - processPackages [pydfuutil]: Downloading https://files.pythonhosted.org/packages/74/32/3792eaad31466931ac181c9313e15c2c87511811cbdf9e687e48dfbe6b94/pydfuutil-0.0.4.tar.gz
+[2024-05-06 16:52:20] INFO root fetch - processPackages [pydfuutil]: executing diffoscope
+[2024-05-06 16:52:20] INFO root fetch - processPackages [pydfuutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydfuutil-0.0.3.tar.gz tmp/pydfuutil-0.0.4.tar.gz --markdown 20240506/p/pydfuutil/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 16:52:20] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/09/8c/376fe48d7e3bd789e263e01038cd1e1cb4cbf36ed24c15d333eff54ea006/bttc-0.0.77.3.tar.gz
+[2024-05-06 16:52:20] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-05-06 16:52:20] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.77.2.tar.gz tmp/bttc-0.0.77.3.tar.gz --markdown 20240506/b/bttc/0.0.77.2-0.0.77.3/README.md --exclude *.pyd
+[2024-05-06 16:52:21] INFO root fetch - processPackages [pydfuutil]: Remove: archive file [/home/abi/fetcher/tmp/pydfuutil-0.0.3.tar.gz]
+[2024-05-06 16:52:21] INFO root fetch - processPackages [pydfuutil]: Remove: archive file [/home/abi/fetcher/tmp/pydfuutil-0.0.4.tar.gz]
+[2024-05-06 16:52:21] INFO root fetch - main [MainThread]: End processing [pydfuutil]: success
+[2024-05-06 16:52:21] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.77.2.tar.gz]
+[2024-05-06 16:52:21] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.77.3.tar.gz]
+[2024-05-06 16:52:21] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-05-06 16:52:21] INFO root fetch - main [MainThread]: Store serial: [23079541]
