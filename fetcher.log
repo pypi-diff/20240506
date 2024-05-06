@@ -16403,3 +16403,42 @@
 [2024-05-06 13:04:37] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.3.tar.gz]
 [2024-05-06 13:04:37] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-05-06 13:04:37] INFO root fetch - main [MainThread]: Store serial: [23076419]
+[2024-05-06 13:06:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076419]
+[2024-05-06 13:06:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 13:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openshift-python-wrapper
+[2024-05-06 13:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DataExtractorOEG
+[2024-05-06 13:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ory-client
+[2024-05-06 13:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ostorlab
+[2024-05-06 13:06:46] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-06 13:06:46] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-05-06 13:06:46] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/d1/22/02661c009159c86b6773f8e0011ff7fa191d9ca34a56d52edbfb765e4f4d/dataextractoroeg-0.4.4.tar.gz
+[2024-05-06 13:06:46] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-05-06 13:06:46] INFO root fetch - processPackages [ory-client]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-06 13:06:46] INFO root fetch - processPackages [ostorlab]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-06 13:06:47] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-05-06 13:06:47] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/45/00/2d97b3d97fac0c7ccb9bc597d1ad42f37c172856f7a7a9ce783806f8a007/ory-client-1.8.1.tar.gz
+[2024-05-06 13:06:47] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/dd/d3/8dae0b55fa1c673a94a616f9c1c6a6603f0069d5a2f0f27ca05bddad9cdd/ostorlab-1.0.8.tar.gz
+[2024-05-06 13:06:47] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/4a/88/a30d265561b89c92aa994177f12ecd3bdb22c0b6782b94012ad6113eae20/dataextractoroeg-0.4.5.tar.gz
+[2024-05-06 13:06:47] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-05-06 13:06:47] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240506/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/README.md --exclude *.pyd
+[2024-05-06 13:06:47] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-06 13:06:47] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.4.4.tar.gz tmp/dataextractoroeg-0.4.5.tar.gz --markdown 20240506/D/DataExtractorOEG/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-06 13:06:47] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/5f/8c/c577e3732cafc384d512d4337a00d9f6ab6502735a140a1e656f092a126a/ostorlab-1.0.9.tar.gz
+[2024-05-06 13:06:47] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/e1/43/2ecfc52fbcac47dd657a6b56a3c092e2baaada9a600ebbdba6b60a20a9b5/ory-client-1.9.0.tar.gz
+[2024-05-06 13:06:47] INFO root fetch - processPackages [ostorlab]: executing diffoscope
+[2024-05-06 13:06:47] INFO root fetch - processPackages [ostorlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostorlab-1.0.8.tar.gz tmp/ostorlab-1.0.9.tar.gz --markdown 20240506/o/ostorlab/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-06 13:06:47] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2024-05-06 13:06:47] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.8.1.tar.gz tmp/ory-client-1.9.0.tar.gz --markdown 20240506/o/ory-client/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-06 13:06:47] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.4.tar.gz]
+[2024-05-06 13:06:47] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.5.tar.gz]
+[2024-05-06 13:06:47] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-06 13:06:48] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2024-05-06 13:06:48] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2024-05-06 13:06:48] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-05-06 13:06:50] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.8.tar.gz]
+[2024-05-06 13:06:50] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.9.tar.gz]
+[2024-05-06 13:06:50] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
+[2024-05-06 13:06:53] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.8.1.tar.gz]
+[2024-05-06 13:06:53] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.9.0.tar.gz]
+[2024-05-06 13:06:53] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2024-05-06 13:06:53] INFO root fetch - main [MainThread]: Store serial: [23076430]
