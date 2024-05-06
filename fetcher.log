@@ -23402,3 +23402,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:20:53] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.759.1.tar.gz]
 [2024-05-06 17:20:53] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-05-06 17:20:53] INFO root fetch - main [MainThread]: Store serial: [23079915]
+[2024-05-06 17:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079915]
+[2024-05-06 17:23:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: middleware-help-python
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MPSPEnv
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sort-folders
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astro-SPLASH
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DTLSSocket
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: locust
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-json-schema-editor
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ropt
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arena-py
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: upgini
+[2024-05-06 17:23:03] INFO root fetch - processPackages [astro-SPLASH]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 17:23:03] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-06 17:23:03] INFO root fetch - processPackages [DTLSSocket]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 17:23:03] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-06 17:23:03] INFO root fetch - processPackages [middleware-help-python]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 17:23:03] INFO root fetch - processPackages [django-json-schema-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 17:23:03] INFO root fetch - processPackages [arena-py]: New version: [0.9.6] Old Version: [0.9.3]
+[2024-05-06 17:23:03] WARNING root fetch - processPackages [sort-folders]: Skipping, unable to determine old version
+[2024-05-06 17:23:03] INFO root fetch - processPackages [sort-folders]: Start processing: ipfabric_nornir
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ropt]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-06 17:23:03] INFO root fetch - main [MainThread]: End processing [sort-folders] error
+[2024-05-06 17:23:03] INFO root fetch - processPackages [MPSPEnv]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 17:23:03] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/2d/62/5193b720fe79afcf4ddb0a84999a77b2d3def33934be3e971b52e5290221/astro_SPLASH-0.0.8.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [DTLSSocket]: Downloading https://files.pythonhosted.org/packages/18/2b/9fa82d730955ca1c53d882f3ffc82f5499efb5393f47f558f27534f5f802/DTLSSocket-0.1.8.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/7d/0b/daf4208e51e69766795be1e5af101ba127a65f84d6c13ece73da78e239a8/middleware-help-python-0.0.6.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/9e/be/f91fa76e471a0dd7260d37c9e6499277a10610790a3e5f7831d659956074/MPSPEnv-0.0.8.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ipfabric_nornir]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 17:23:03] INFO root fetch - processPackages [arena-py]: Downloading https://files.pythonhosted.org/packages/ad/0c/af051c1a55672ce837d54218a7766c6ea4f5236aa7c15f994401a3e70b73/arena-py-0.9.3.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/13/65/858554e5d81ef08d68a8a1e60e7c190ce5d94c92ac3b758253c4bb9ffe8c/ropt-0.2.1.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/f1/7a/644b94f8e30f02521c773ac2294d8d33f4bf5be42ec5bce78f2fea7273e6/django_json_schema_editor-0.0.8.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/30/3a/87c5464add8f91a77b2cccbc02f5526d7ca05288541725ee9944ccd6f3ad/astro_SPLASH-0.0.9.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-06 17:23:03] INFO root fetch - processPackages [astro-SPLASH]: executing diffoscope
+[2024-05-06 17:23:03] INFO root fetch - processPackages [astro-SPLASH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_SPLASH-0.0.8.tar.gz tmp/astro_SPLASH-0.0.9.tar.gz --markdown 20240506/a/astro-SPLASH/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 17:23:04] INFO root fetch - processPackages [ipfabric_nornir]: Downloading https://files.pythonhosted.org/packages/60/e3/b62d557e4e38bf42cd6b2b628297f524b44ed4755418146cf0a9ebcb94b9/ipfabric_nornir-1.0.1.tar.gz
+[2024-05-06 17:23:04] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/c5/58/07a488b008dcfdb84ab86c3f8ca72aac2fdfca41eb16775c16bdd053d5ba/middleware-help-python-0.0.7.tar.gz
+[2024-05-06 17:23:04] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/49/f7/3d0031c911e5d69c9e8536e156ebae2cf1453167270f34f5b3ba240b8672/MPSPEnv-0.0.9.tar.gz
+[2024-05-06 17:23:04] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-06 17:23:04] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240506/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-06 17:23:04] INFO root fetch - processPackages [DTLSSocket]: Downloading https://files.pythonhosted.org/packages/af/60/e64c275e80ef396898ef6404a4e3c3212b4e9099aadbe15e23be3acdfe44/DTLSSocket-0.1.9.tar.gz
+[2024-05-06 17:23:04] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/42/b5/f3ab532db1f92576574de71cfb50a71bffc452e543e3676bc7924c3535ac/ropt-0.3.0.tar.gz
+[2024-05-06 17:23:04] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/fe/33/fbc31371354b97194681d08db6bec40cb469672204617fbf4ef66b3bc6f4/django_json_schema_editor-0.0.9.tar.gz
+[2024-05-06 17:23:04] INFO root fetch - processPackages [middleware-help-python]: executing diffoscope
+[2024-05-06 17:23:04] INFO root fetch - processPackages [middleware-help-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-help-python-0.0.6.tar.gz tmp/middleware-help-python-0.0.7.tar.gz --markdown 20240506/m/middleware-help-python/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 17:23:04] INFO root fetch - processPackages [MPSPEnv]: executing diffoscope
+[2024-05-06 17:23:04] INFO root fetch - processPackages [MPSPEnv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPEnv-0.0.8.tar.gz tmp/MPSPEnv-0.0.9.tar.gz --markdown 20240506/M/MPSPEnv/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 17:23:04] INFO root fetch - processPackages [arena-py]: Downloading https://files.pythonhosted.org/packages/39/ea/1e1fade026afcc95e9a7180941cdd700ee8542c49e349c332598fa637b3c/arena-py-0.9.6.tar.gz
+[2024-05-06 17:23:04] INFO root fetch - processPackages [django-json-schema-editor]: executing diffoscope
+[2024-05-06 17:23:04] INFO root fetch - processPackages [django-json-schema-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_json_schema_editor-0.0.8.tar.gz tmp/django_json_schema_editor-0.0.9.tar.gz --markdown 20240506/d/django-json-schema-editor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 17:23:04] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-06 17:23:04] INFO root fetch - processPackages [ropt]: executing diffoscope
+[2024-05-06 17:23:04] INFO root fetch - processPackages [ropt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt-0.2.1.tar.gz tmp/ropt-0.3.0.tar.gz --markdown 20240506/r/ropt/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-06 17:23:04] INFO root fetch - processPackages [DTLSSocket]: executing diffoscope
+[2024-05-06 17:23:04] INFO root fetch - processPackages [DTLSSocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DTLSSocket-0.1.8.tar.gz tmp/DTLSSocket-0.1.9.tar.gz --markdown 20240506/D/DTLSSocket/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 17:23:04] INFO root fetch - processPackages [arena-py]: executing diffoscope
+[2024-05-06 17:23:04] INFO root fetch - processPackages [arena-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arena-py-0.9.3.tar.gz tmp/arena-py-0.9.6.tar.gz --markdown 20240506/a/arena-py/0.9.3-0.9.6/README.md --exclude *.pyd
+[2024-05-06 17:23:04] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-06 17:23:04] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240506/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-06 17:23:04] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.8.tar.gz]
+[2024-05-06 17:23:04] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.9.tar.gz]
+[2024-05-06 17:23:04] INFO root fetch - main [MainThread]: End processing [astro-SPLASH]: success
+[2024-05-06 17:23:04] INFO root fetch - processPackages [ipfabric_nornir]: Downloading https://files.pythonhosted.org/packages/c2/65/7ddbafea8e54848b1bdc78e02811778e2299c826caf68219e87bb5e37ded/ipfabric_nornir-1.0.2.tar.gz
+[2024-05-06 17:23:04] INFO root fetch - processPackages [ipfabric_nornir]: executing diffoscope
+[2024-05-06 17:23:04] INFO root fetch - processPackages [ipfabric_nornir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric_nornir-1.0.1.tar.gz tmp/ipfabric_nornir-1.0.2.tar.gz --markdown 20240506/i/ipfabric_nornir/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 17:23:05] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.8.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.9.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - main [MainThread]: End processing [MPSPEnv]: success
+[2024-05-06 17:23:05] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.6.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.7.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - main [MainThread]: End processing [middleware-help-python]: success
+[2024-05-06 17:23:05] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-06 17:23:05] INFO root fetch - processPackages [DTLSSocket]: Remove: archive file [/home/abi/fetcher/tmp/DTLSSocket-0.1.8.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - processPackages [DTLSSocket]: Remove: archive file [/home/abi/fetcher/tmp/DTLSSocket-0.1.9.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - main [MainThread]: End processing [DTLSSocket]: success
+[2024-05-06 17:23:05] INFO root fetch - processPackages [ipfabric_nornir]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric_nornir-1.0.1.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - processPackages [ipfabric_nornir]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric_nornir-1.0.2.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - main [MainThread]: End processing [ipfabric_nornir]: success
+[2024-05-06 17:23:05] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.2.1.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.3.0.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - main [MainThread]: End processing [ropt]: success
+[2024-05-06 17:23:05] INFO root fetch - processPackages [arena-py]: Remove: archive file [/home/abi/fetcher/tmp/arena-py-0.9.3.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - processPackages [arena-py]: Remove: archive file [/home/abi/fetcher/tmp/arena-py-0.9.6.tar.gz]
+[2024-05-06 17:23:05] INFO root fetch - main [MainThread]: End processing [arena-py]: success
+[2024-05-06 17:23:06] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-06 17:23:06] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-06 17:23:06] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-06 17:23:09] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.8.tar.gz]
+[2024-05-06 17:23:09] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
+[2024-05-06 17:23:09] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
+[2024-05-06 17:23:09] INFO root fetch - main [MainThread]: Store serial: [23079946]
