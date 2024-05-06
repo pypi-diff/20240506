@@ -15460,3 +15460,51 @@
 [2024-05-06 12:24:37] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.5.tar.gz]
 [2024-05-06 12:24:37] INFO root fetch - main [MainThread]: End processing [text2story]: success
 [2024-05-06 12:24:37] INFO root fetch - main [MainThread]: Store serial: [23076013]
+[2024-05-06 12:26:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076013]
+[2024-05-06 12:26:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudquery-plugin-pb
+[2024-05-06 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wolkenbruch
+[2024-05-06 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trajectopy
+[2024-05-06 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sag-py-logging
+[2024-05-06 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coffe-analyzer
+[2024-05-06 12:26:47] INFO root fetch - processPackages [wolkenbruch]: New version: [0.7.0] Old Version: [0.6.5]
+[2024-05-06 12:26:47] INFO root fetch - processPackages [coffe-analyzer]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-06 12:26:47] INFO root fetch - processPackages [wolkenbruch]: Downloading https://files.pythonhosted.org/packages/2a/26/3608bdbe1adfe53597d8268197822fb2e7ea0e7b06d39ff4dd13ee86b2a5/wolkenbruch-0.6.5.tar.gz
+[2024-05-06 12:26:47] INFO root fetch - processPackages [sag-py-logging]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-06 12:26:47] INFO root fetch - processPackages [cloudquery-plugin-pb]: New version: [0.0.26] Old Version: [0.0.25]
+[2024-05-06 12:26:47] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/f6/34/3ab34b784217e0b5a90a827ef3e73d54976cda1fab5a8e62a3f6d7356ada/coffe_analyzer-0.1.7.tar.gz
+[2024-05-06 12:26:47] INFO root fetch - processPackages [trajectopy]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-06 12:26:48] INFO root fetch - processPackages [wolkenbruch]: Downloading https://files.pythonhosted.org/packages/bf/c6/49513ffcba737ce0bc78ca9c5f7825a9bed433cd8c26ef053e7ef4817e94/wolkenbruch-0.7.0.tar.gz
+[2024-05-06 12:26:48] INFO root fetch - processPackages [sag-py-logging]: Downloading https://files.pythonhosted.org/packages/4c/c3/a3c78dcc1691b6046491e3abd887dd2b83bc0d5624ca08511c16c2266034/sag-py-logging-0.3.3.tar.gz
+[2024-05-06 12:26:48] INFO root fetch - processPackages [cloudquery-plugin-pb]: Downloading https://files.pythonhosted.org/packages/69/42/1455e3206557b16719501f295116b71f65564dd2b79b86782b12a3ad6483/cloudquery-plugin-pb-0.0.25.tar.gz
+[2024-05-06 12:26:48] INFO root fetch - processPackages [trajectopy]: Downloading https://files.pythonhosted.org/packages/82/d0/23476d8e67eca069fb092ed364aa715aa676a06ddd925465daae8ff4b207/trajectopy-2.0.8.tar.gz
+[2024-05-06 12:26:48] INFO root fetch - processPackages [wolkenbruch]: executing diffoscope
+[2024-05-06 12:26:48] INFO root fetch - processPackages [wolkenbruch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolkenbruch-0.6.5.tar.gz tmp/wolkenbruch-0.7.0.tar.gz --markdown 20240506/w/wolkenbruch/0.6.5-0.7.0/README.md --exclude *.pyd
+[2024-05-06 12:26:48] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/74/82/c493c354355485d00927f38434888802b8a7b4485783699e82846b34f930/coffe_analyzer-0.1.8.tar.gz
+[2024-05-06 12:26:48] INFO root fetch - processPackages [coffe-analyzer]: executing diffoscope
+[2024-05-06 12:26:48] INFO root fetch - processPackages [coffe-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffe_analyzer-0.1.7.tar.gz tmp/coffe_analyzer-0.1.8.tar.gz --markdown 20240506/c/coffe-analyzer/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-06 12:26:48] INFO root fetch - processPackages [sag-py-logging]: Downloading https://files.pythonhosted.org/packages/1f/fe/fa28501b1d0382b4e912da3c0efb531e5a9cb52d32cc647ff19ff3b8ddf9/sag_py_logging-0.3.4.tar.gz
+[2024-05-06 12:26:48] INFO root fetch - processPackages [cloudquery-plugin-pb]: Downloading https://files.pythonhosted.org/packages/2b/7a/e6f80a440e589b53821afc638a0f372253ca3ba021282fae72dba32556f3/cloudquery_plugin_pb-0.0.26.tar.gz
+[2024-05-06 12:26:48] INFO root fetch - processPackages [trajectopy]: Downloading https://files.pythonhosted.org/packages/9a/fb/132130c7befc16a384cd5c50581f59169dfa013047ceec669b5d898d7bd2/trajectopy-2.0.9.tar.gz
+[2024-05-06 12:26:48] INFO root fetch - processPackages [sag-py-logging]: executing diffoscope
+[2024-05-06 12:26:48] INFO root fetch - processPackages [sag-py-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-logging-0.3.3.tar.gz tmp/sag_py_logging-0.3.4.tar.gz --markdown 20240506/s/sag-py-logging/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-06 12:26:48] INFO root fetch - processPackages [cloudquery-plugin-pb]: executing diffoscope
+[2024-05-06 12:26:48] INFO root fetch - processPackages [cloudquery-plugin-pb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquery-plugin-pb-0.0.25.tar.gz tmp/cloudquery_plugin_pb-0.0.26.tar.gz --markdown 20240506/c/cloudquery-plugin-pb/0.0.25-0.0.26/README.md --exclude *.pyd
+[2024-05-06 12:26:48] INFO root fetch - processPackages [trajectopy]: executing diffoscope
+[2024-05-06 12:26:48] INFO root fetch - processPackages [trajectopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajectopy-2.0.8.tar.gz tmp/trajectopy-2.0.9.tar.gz --markdown 20240506/t/trajectopy/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-06 12:26:48] INFO root fetch - processPackages [wolkenbruch]: Remove: archive file [/home/abi/fetcher/tmp/wolkenbruch-0.6.5.tar.gz]
+[2024-05-06 12:26:48] INFO root fetch - processPackages [wolkenbruch]: Remove: archive file [/home/abi/fetcher/tmp/wolkenbruch-0.7.0.tar.gz]
+[2024-05-06 12:26:48] INFO root fetch - main [MainThread]: End processing [wolkenbruch]: success
+[2024-05-06 12:26:49] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.7.tar.gz]
+[2024-05-06 12:26:49] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.8.tar.gz]
+[2024-05-06 12:26:49] INFO root fetch - main [MainThread]: End processing [coffe-analyzer]: success
+[2024-05-06 12:26:49] INFO root fetch - processPackages [cloudquery-plugin-pb]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-pb-0.0.25.tar.gz]
+[2024-05-06 12:26:49] INFO root fetch - processPackages [cloudquery-plugin-pb]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery_plugin_pb-0.0.26.tar.gz]
+[2024-05-06 12:26:49] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-pb]: success
+[2024-05-06 12:26:49] INFO root fetch - processPackages [sag-py-logging]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-logging-0.3.3.tar.gz]
+[2024-05-06 12:26:49] INFO root fetch - processPackages [sag-py-logging]: Remove: archive file [/home/abi/fetcher/tmp/sag_py_logging-0.3.4.tar.gz]
+[2024-05-06 12:26:49] INFO root fetch - main [MainThread]: End processing [sag-py-logging]: success
+[2024-05-06 12:26:49] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-2.0.8.tar.gz]
+[2024-05-06 12:26:49] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-2.0.9.tar.gz]
+[2024-05-06 12:26:49] INFO root fetch - main [MainThread]: End processing [trajectopy]: success
+[2024-05-06 12:26:49] INFO root fetch - main [MainThread]: Store serial: [23076029]
