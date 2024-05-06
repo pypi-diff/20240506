@@ -16238,3 +16238,42 @@
 [2024-05-06 12:55:51] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.9.tar.gz]
 [2024-05-06 12:55:51] INFO root fetch - main [MainThread]: End processing [bentoml]: success
 [2024-05-06 12:55:51] INFO root fetch - main [MainThread]: Store serial: [23076360]
+[2024-05-06 12:57:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076360]
+[2024-05-06 12:58:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 12:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coffe-analyzer
+[2024-05-06 12:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plutobook
+[2024-05-06 12:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DataExtractorOEG
+[2024-05-06 12:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oda-data
+[2024-05-06 12:58:00] INFO root fetch - processPackages [coffe-analyzer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 12:58:00] INFO root fetch - processPackages [plutobook]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 12:58:00] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-06 12:58:00] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/74/82/c493c354355485d00927f38434888802b8a7b4485783699e82846b34f930/coffe_analyzer-0.1.8.tar.gz
+[2024-05-06 12:58:00] INFO root fetch - processPackages [oda-data]: New version: [1.2.0] Old Version: [1.1.6]
+[2024-05-06 12:58:00] INFO root fetch - processPackages [plutobook]: Downloading https://files.pythonhosted.org/packages/4f/dd/ba572a553753cea938f36cfb75d381333e2c2715b0c44096e93a28f6e086/plutobook-0.0.6-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 12:58:00] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/31/39/f3cfa8b4b6cddc51688cbd340eb30ef2a751e778bf37535b9d2db54b90b2/dataextractoroeg-0.4.3.tar.gz
+[2024-05-06 12:58:00] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/d7/b9/eb95b4dc10e17f3cfbc42b752864e0d2c79cf976fc1077c0388b6617b589/coffe_analyzer-0.1.9.tar.gz
+[2024-05-06 12:58:00] INFO root fetch - processPackages [oda-data]: Downloading https://files.pythonhosted.org/packages/0f/f8/8f633f4c28c92cdde41c4ea145b5e8b713aa8d0398a0887553db95ef5c96/oda_data-1.1.6.tar.gz
+[2024-05-06 12:58:00] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/d1/22/02661c009159c86b6773f8e0011ff7fa191d9ca34a56d52edbfb765e4f4d/dataextractoroeg-0.4.4.tar.gz
+[2024-05-06 12:58:00] INFO root fetch - processPackages [plutobook]: Downloading https://files.pythonhosted.org/packages/28/c3/54170b1b1b7015f9c17bc89f16a0028d9a2b4fe2a2a6d0990db69f8f49c7/plutobook-0.0.7.tar.gz
+[2024-05-06 12:58:00] INFO root fetch - processPackages [coffe-analyzer]: executing diffoscope
+[2024-05-06 12:58:00] INFO root fetch - processPackages [coffe-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffe_analyzer-0.1.8.tar.gz tmp/coffe_analyzer-0.1.9.tar.gz --markdown 20240506/c/coffe-analyzer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 12:58:00] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-06 12:58:00] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.4.3.tar.gz tmp/dataextractoroeg-0.4.4.tar.gz --markdown 20240506/D/DataExtractorOEG/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-06 12:58:01] INFO root fetch - processPackages [plutobook]: executing diffoscope
+[2024-05-06 12:58:01] INFO root fetch - processPackages [plutobook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutobook-0.0.6-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/plutobook-0.0.7.tar.gz --markdown 20240506/p/plutobook/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 12:58:01] INFO root fetch - processPackages [oda-data]: Downloading https://files.pythonhosted.org/packages/3d/69/0e998d14dc1f115350f5424cd1eb0c0bc05eaa484c11dd95dd1ca7abddf3/oda_data-1.2.0.tar.gz
+[2024-05-06 12:58:01] INFO root fetch - processPackages [oda-data]: executing diffoscope
+[2024-05-06 12:58:01] INFO root fetch - processPackages [oda-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oda_data-1.1.6.tar.gz tmp/oda_data-1.2.0.tar.gz --markdown 20240506/o/oda-data/1.1.6-1.2.0/README.md --exclude *.pyd
+[2024-05-06 12:58:01] INFO root fetch - processPackages [plutobook]: Remove: archive file [/home/abi/fetcher/tmp/plutobook-0.0.6-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-06 12:58:01] INFO root fetch - processPackages [plutobook]: Remove: archive file [/home/abi/fetcher/tmp/plutobook-0.0.7.tar.gz]
+[2024-05-06 12:58:01] INFO root fetch - main [MainThread]: End processing [plutobook]: success
+[2024-05-06 12:58:01] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.8.tar.gz]
+[2024-05-06 12:58:01] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.9.tar.gz]
+[2024-05-06 12:58:01] INFO root fetch - main [MainThread]: End processing [coffe-analyzer]: success
+[2024-05-06 12:58:01] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.3.tar.gz]
+[2024-05-06 12:58:01] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.4.tar.gz]
+[2024-05-06 12:58:01] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-06 12:58:02] INFO root fetch - processPackages [oda-data]: Remove: archive file [/home/abi/fetcher/tmp/oda_data-1.1.6.tar.gz]
+[2024-05-06 12:58:02] INFO root fetch - processPackages [oda-data]: Remove: archive file [/home/abi/fetcher/tmp/oda_data-1.2.0.tar.gz]
+[2024-05-06 12:58:02] INFO root fetch - main [MainThread]: End processing [oda-data]: success
+[2024-05-06 12:58:02] INFO root fetch - main [MainThread]: Store serial: [23076372]
