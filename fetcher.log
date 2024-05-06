@@ -20588,3 +20588,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:44:06] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-06 15:44:06] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-06 15:44:06] INFO root fetch - main [MainThread]: Store serial: [23078511]
+[2024-05-06 15:46:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078511]
+[2024-05-06 15:46:15] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-06 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polyharmonics
+[2024-05-06 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alviss
+[2024-05-06 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-oscar-odin
+[2024-05-06 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: infrable
+[2024-05-06 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spectralyze
+[2024-05-06 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ChatGPTAutomation
+[2024-05-06 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jgtfxcon
+[2024-05-06 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scriptman
+[2024-05-06 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ddtrace
+[2024-05-06 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: H5Gizmos
+[2024-05-06 15:46:16] INFO root fetch - processPackages [ChatGPTAutomation]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-06 15:46:16] INFO root fetch - processPackages [infrable]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-06 15:46:16] INFO root fetch - processPackages [polyharmonics]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-06 15:46:16] INFO root fetch - processPackages [ChatGPTAutomation]: Downloading https://files.pythonhosted.org/packages/e6/1d/e573692ad383f75694449100d0bd2f573b1ef35d2ad70b54f0a9cdc8b4ae/chatgptautomation-0.6.1.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [alviss]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-05-06 15:46:16] WARNING root fetch - processPackages [spectralyze]: Skipping, unable to determine old version
+[2024-05-06 15:46:16] INFO root fetch - main [MainThread]: End processing [spectralyze] error
+[2024-05-06 15:46:16] INFO root fetch - processPackages [django-oscar-odin]: New version: [0.1.0b4] Old Version: [0.1.0b2]
+[2024-05-06 15:46:16] INFO root fetch - processPackages [H5Gizmos]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 15:46:16] INFO root fetch - processPackages [scriptman]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 15:46:16] INFO root fetch - processPackages [jgtfxcon]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-06 15:46:16] INFO root fetch - processPackages [ddtrace]: New version: [2.9.0rc2] Old Version: [2.9.0rc1]
+[2024-05-06 15:46:16] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/dd/89/a4d73360b462cc89158a378f6539feb1d108e3fb465a73ecf13e910aa887/infrable-0.1.2.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [polyharmonics]: Downloading https://files.pythonhosted.org/packages/28/65/1bab590fa83871e9c6c734f5738c2787cfbf950d1ac6baf737a3fde9c36f/polyharmonics-0.1.0.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [jgtfxcon]: Downloading https://files.pythonhosted.org/packages/ac/92/cd6f320c3e40a0eee004ca53fb5cbd2339757031856845a41bea25ce9338/jgtfxcon-0.5.8.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [django-oscar-odin]: Downloading https://files.pythonhosted.org/packages/06/67/d5d6a612f30c3340d16f759eaac25208fbd60298bd3a9a1886e5e3777165/django_oscar_odin-0.1.0b2.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [H5Gizmos]: Downloading https://files.pythonhosted.org/packages/09/1d/92a2223cf82054b4401e8d9b3ee5f328cecc4ab3dd4d7f80f1afd7532030/H5Gizmos-0.1.8.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [alviss]: Downloading https://files.pythonhosted.org/packages/e4/82/c37a6a6082aba2edfa0030fdbce9c8be472efe0c412825dd151662fd348f/alviss-3.2.1.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f0/36/7146888ddadc02a0f2fe536e4ba47e16a5aa6d2b9bf2b21cc312fb61bb23/scriptman-0.0.0.8.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [ChatGPTAutomation]: Downloading https://files.pythonhosted.org/packages/af/08/c2ac8f8084b98c1b58388e89799fc57dcfc85fce2c73df00efc59851c54a/chatgptautomation-0.6.2.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/8e/1e/d299ddc28f5d03c73745b295455373e2e76924543a61a5c8f04fa3ee2a5d/ddtrace-2.9.0rc1.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [ChatGPTAutomation]: executing diffoscope
+[2024-05-06 15:46:16] INFO root fetch - processPackages [ChatGPTAutomation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgptautomation-0.6.1.tar.gz tmp/chatgptautomation-0.6.2.tar.gz --markdown 20240506/C/ChatGPTAutomation/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-06 15:46:16] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/13/a4/66aa966a9ea6c6db6c3c63ddc62c373a5b52a9f1becdce98095c016c3931/infrable-0.1.3.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [polyharmonics]: Downloading https://files.pythonhosted.org/packages/b1/91/c094c1d914e2d15a4c93d2845e4de5fe56ef7dc32421ed9d375e7c48d518/polyharmonics-0.2.0.tar.gz
+[2024-05-06 15:46:16] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-06 15:46:16] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.2.tar.gz tmp/infrable-0.1.3.tar.gz --markdown 20240506/i/infrable/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-06 15:46:17] INFO root fetch - processPackages [jgtfxcon]: Downloading https://files.pythonhosted.org/packages/75/8a/d4eddae1a7da0e4d81a6946a84719e58a661ef2298ce771e5f65fa309251/jgtfxcon-0.5.9.tar.gz
+[2024-05-06 15:46:17] INFO root fetch - processPackages [django-oscar-odin]: Downloading https://files.pythonhosted.org/packages/2d/8c/a2afcb232cf2ee99dace417e8a9c890a0307d3d16fd59561fd91dd978401/django_oscar_odin-0.1.0b4.tar.gz
+[2024-05-06 15:46:17] INFO root fetch - processPackages [polyharmonics]: executing diffoscope
+[2024-05-06 15:46:17] INFO root fetch - processPackages [polyharmonics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyharmonics-0.1.0.tar.gz tmp/polyharmonics-0.2.0.tar.gz --markdown 20240506/p/polyharmonics/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-06 15:46:17] INFO root fetch - processPackages [alviss]: Downloading https://files.pythonhosted.org/packages/3d/4e/d2e0147ab72b440daa2cbf4764c5ca96a17671462ec4d13810eda589219c/alviss-3.2.2.tar.gz
+[2024-05-06 15:46:17] INFO root fetch - processPackages [H5Gizmos]: Downloading https://files.pythonhosted.org/packages/b3/50/4a9db84f7b42a0d2d1bccb4b21abbde7d6e14c71eb7e5e1b16246351c6fe/H5Gizmos-0.1.9.tar.gz
+[2024-05-06 15:46:17] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f5/05/b5fcf85e401e2ea793d31d90d33eb9fe185765b18bd32c99cfe69d516956/scriptman-0.0.0.9.tar.gz
+[2024-05-06 15:46:17] INFO root fetch - processPackages [jgtfxcon]: executing diffoscope
+[2024-05-06 15:46:17] INFO root fetch - processPackages [jgtfxcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtfxcon-0.5.8.tar.gz tmp/jgtfxcon-0.5.9.tar.gz --markdown 20240506/j/jgtfxcon/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-06 15:46:17] INFO root fetch - processPackages [alviss]: executing diffoscope
+[2024-05-06 15:46:17] INFO root fetch - processPackages [alviss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alviss-3.2.1.tar.gz tmp/alviss-3.2.2.tar.gz --markdown 20240506/a/alviss/3.2.1-3.2.2/README.md --exclude *.pyd
+[2024-05-06 15:46:17] INFO root fetch - processPackages [django-oscar-odin]: executing diffoscope
+[2024-05-06 15:46:17] INFO root fetch - processPackages [django-oscar-odin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_oscar_odin-0.1.0b2.tar.gz tmp/django_oscar_odin-0.1.0b4.tar.gz --markdown 20240506/d/django-oscar-odin/0.1.0b2-0.1.0b4/README.md --exclude *.pyd
+[2024-05-06 15:46:17] INFO root fetch - processPackages [scriptman]: executing diffoscope
+[2024-05-06 15:46:17] INFO root fetch - processPackages [scriptman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptman-0.0.0.8.tar.gz tmp/scriptman-0.0.0.9.tar.gz --markdown 20240506/s/scriptman/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 15:46:17] INFO root fetch - processPackages [H5Gizmos]: executing diffoscope
+[2024-05-06 15:46:17] INFO root fetch - processPackages [H5Gizmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/H5Gizmos-0.1.8.tar.gz tmp/H5Gizmos-0.1.9.tar.gz --markdown 20240506/H/H5Gizmos/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 15:46:17] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/5e/c0/5a5949ee8b6484362b6f6cadd2da3cff607aefbf1344ea3575bf11282a8a/ddtrace-2.9.0rc2.tar.gz
+[2024-05-06 15:46:17] INFO root fetch - processPackages [ChatGPTAutomation]: Remove: archive file [/home/abi/fetcher/tmp/chatgptautomation-0.6.1.tar.gz]
+[2024-05-06 15:46:17] INFO root fetch - processPackages [ChatGPTAutomation]: Remove: archive file [/home/abi/fetcher/tmp/chatgptautomation-0.6.2.tar.gz]
+[2024-05-06 15:46:17] INFO root fetch - main [MainThread]: End processing [ChatGPTAutomation]: success
+[2024-05-06 15:46:17] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.2.tar.gz]
+[2024-05-06 15:46:17] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.3.tar.gz]
+[2024-05-06 15:46:17] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-06 15:46:17] INFO root fetch - processPackages [polyharmonics]: Remove: archive file [/home/abi/fetcher/tmp/polyharmonics-0.1.0.tar.gz]
+[2024-05-06 15:46:17] INFO root fetch - processPackages [polyharmonics]: Remove: archive file [/home/abi/fetcher/tmp/polyharmonics-0.2.0.tar.gz]
+[2024-05-06 15:46:17] INFO root fetch - main [MainThread]: End processing [polyharmonics]: success
+[2024-05-06 15:46:17] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2024-05-06 15:46:17] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-2.9.0rc1.tar.gz tmp/ddtrace-2.9.0rc2.tar.gz --markdown 20240506/d/ddtrace/2.9.0rc1-2.9.0rc2/README.md --exclude *.pyd
+[2024-05-06 15:46:18] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.8.tar.gz]
+[2024-05-06 15:46:18] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.9.tar.gz]
+[2024-05-06 15:46:18] INFO root fetch - main [MainThread]: End processing [scriptman]: success
+[2024-05-06 15:46:18] INFO root fetch - processPackages [jgtfxcon]: Remove: archive file [/home/abi/fetcher/tmp/jgtfxcon-0.5.8.tar.gz]
+[2024-05-06 15:46:18] INFO root fetch - processPackages [jgtfxcon]: Remove: archive file [/home/abi/fetcher/tmp/jgtfxcon-0.5.9.tar.gz]
+[2024-05-06 15:46:18] INFO root fetch - main [MainThread]: End processing [jgtfxcon]: success
+[2024-05-06 15:46:18] INFO root fetch - processPackages [django-oscar-odin]: Remove: archive file [/home/abi/fetcher/tmp/django_oscar_odin-0.1.0b2.tar.gz]
+[2024-05-06 15:46:18] INFO root fetch - processPackages [django-oscar-odin]: Remove: archive file [/home/abi/fetcher/tmp/django_oscar_odin-0.1.0b4.tar.gz]
+[2024-05-06 15:46:18] INFO root fetch - main [MainThread]: End processing [django-oscar-odin]: success
+[2024-05-06 15:46:18] INFO root fetch - processPackages [alviss]: Remove: archive file [/home/abi/fetcher/tmp/alviss-3.2.1.tar.gz]
+[2024-05-06 15:46:18] INFO root fetch - processPackages [alviss]: Remove: archive file [/home/abi/fetcher/tmp/alviss-3.2.2.tar.gz]
+[2024-05-06 15:46:18] INFO root fetch - main [MainThread]: End processing [alviss]: success
+[2024-05-06 15:46:19] INFO root fetch - processPackages [H5Gizmos]: Remove: archive file [/home/abi/fetcher/tmp/H5Gizmos-0.1.8.tar.gz]
+[2024-05-06 15:46:19] INFO root fetch - processPackages [H5Gizmos]: Remove: archive file [/home/abi/fetcher/tmp/H5Gizmos-0.1.9.tar.gz]
+[2024-05-06 15:46:19] INFO root fetch - main [MainThread]: End processing [H5Gizmos]: success
+[2024-05-06 15:46:38] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-2.9.0rc1.tar.gz]
+[2024-05-06 15:46:38] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-2.9.0rc2.tar.gz]
+[2024-05-06 15:46:38] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2024-05-06 15:46:38] INFO root fetch - main [MainThread]: Store serial: [23078553]
