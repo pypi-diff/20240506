@@ -22639,3 +22639,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:52:21] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.77.3.tar.gz]
 [2024-05-06 16:52:21] INFO root fetch - main [MainThread]: End processing [bttc]: success
 [2024-05-06 16:52:21] INFO root fetch - main [MainThread]: Store serial: [23079541]
+[2024-05-06 16:54:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079541]
+[2024-05-06 16:54:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 16:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IOPaint
+[2024-05-06 16:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AlleleFinder
+[2024-05-06 16:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whatsapp-chat-analyze
+[2024-05-06 16:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swiss-army-man
+[2024-05-06 16:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jgtml
+[2024-05-06 16:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-simple-svg
+[2024-05-06 16:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remotemanager
+[2024-05-06 16:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aioradio
+[2024-05-06 16:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ubo-gui
+[2024-05-06 16:54:38] INFO root fetch - processPackages [whatsapp-chat-analyze]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 16:54:38] INFO root fetch - processPackages [swiss-army-man]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-06 16:54:38] INFO root fetch - processPackages [jgtml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 16:54:38] INFO root fetch - processPackages [IOPaint]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-06 16:54:38] INFO root fetch - processPackages [AlleleFinder]: New version: [0.2.6] Old Version: [0.2.4]
+[2024-05-06 16:54:38] INFO root fetch - processPackages [ubo-gui]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-06 16:54:38] INFO root fetch - processPackages [django-simple-svg]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-06 16:54:38] INFO root fetch - processPackages [remotemanager]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-06 16:54:38] INFO root fetch - processPackages [aioradio]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-06 16:54:38] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/48/1f/294f600f1fa28cd18c161440c03fb3b30e0c131a86552d9308f61aa90137/swiss_army_man-0.1.7.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [jgtml]: Downloading https://files.pythonhosted.org/packages/24/aa/db47d03e50f3ded4102b246ebd27aec21b7deedbe9e4624a24644f7a7392/jgtml-0.0.8.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [IOPaint]: Downloading https://files.pythonhosted.org/packages/a8/e1/f271505a68f67ed05b2a7fdd83193264c1a8c5effec590dea0c642205aff/IOPaint-1.3.0.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [whatsapp-chat-analyze]: Downloading https://files.pythonhosted.org/packages/90/26/d4eff86859ccf2e51e2635925801e827719ed2cc0d1fbf621984f2b79066/whatsapp_chat_analyze-0.1.1.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [ubo-gui]: Downloading https://files.pythonhosted.org/packages/52/ff/3d11671b088eea21a50272125230db635fc5cebc64b0112631f2264aa075/ubo_gui-0.9.8.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [AlleleFinder]: Downloading https://files.pythonhosted.org/packages/71/20/356a2cfc2ce8d1692d899d393b2b523c40cd8318f485ab69364951e8c69d/allelefinder-0.2.4.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [django-simple-svg]: Downloading https://files.pythonhosted.org/packages/91/1f/b8e8ce9718ef003e5e7222bf01d0f8f6dd1b5d801651fec35247af77d786/django-simple-svg-0.2.2.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [aioradio]: Downloading https://files.pythonhosted.org/packages/d2/18/57808f4b8e509bc38bb69be08d3e08dfae0469982b40a3ae79c5605730f2/aioradio-0.9.7.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/3a/50/528a08969afb90065e86c917ad0bd8c483a312df046908703699cd798a92/remotemanager-0.9.8.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [jgtml]: Downloading https://files.pythonhosted.org/packages/12/f5/435d6d259546ba6a9a515dc4a6d6557949bddfacfb511697a4b47fb54f89/jgtml-0.0.9.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/56/82/24e0c66ae73179bc5f3180da018b1c49aadae130d6093a4ba1f45acd2afa/swiss_army_man-0.1.9.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [whatsapp-chat-analyze]: Downloading https://files.pythonhosted.org/packages/42/07/27a6d619e1d5c4bbaf6b5b6ad2d1aadbba5bcdaef1a05c6087a0fe683a28/whatsapp_chat_analyze-0.1.2.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [swiss-army-man]: executing diffoscope
+[2024-05-06 16:54:38] INFO root fetch - processPackages [swiss-army-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiss_army_man-0.1.7.tar.gz tmp/swiss_army_man-0.1.9.tar.gz --markdown 20240506/s/swiss-army-man/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:54:38] INFO root fetch - processPackages [jgtml]: executing diffoscope
+[2024-05-06 16:54:38] INFO root fetch - processPackages [jgtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtml-0.0.8.tar.gz tmp/jgtml-0.0.9.tar.gz --markdown 20240506/j/jgtml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 16:54:38] INFO root fetch - processPackages [django-simple-svg]: Downloading https://files.pythonhosted.org/packages/ac/04/ff2bfd85a02b9ab2b2e685183fa3e91458bdcf0d8c914543e1fdb097ad6d/django_simple_svg-0.2.3.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [whatsapp-chat-analyze]: executing diffoscope
+[2024-05-06 16:54:38] INFO root fetch - processPackages [whatsapp-chat-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp_chat_analyze-0.1.1.tar.gz tmp/whatsapp_chat_analyze-0.1.2.tar.gz --markdown 20240506/w/whatsapp-chat-analyze/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 16:54:38] INFO root fetch - processPackages [AlleleFinder]: Downloading https://files.pythonhosted.org/packages/42/80/60dd08c00db3d286affcb145d2f69d5fd2fb31da8fd9e187addbda37b6b5/allelefinder-0.2.6.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [IOPaint]: Downloading https://files.pythonhosted.org/packages/29/0c/d34069595a6655c325195fb754a9441e6609676f3c3a125e833f7a8d0833/IOPaint-1.3.1.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [aioradio]: Downloading https://files.pythonhosted.org/packages/de/2b/d6ba34d3b1ab60d69e4975ff8f4e9183f3976260de0df1b82565252ccc65/aioradio-0.9.8.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/6c/ad/4dc56a0e10097173d3641ee71fb03814440f99f7f8e09d6b4646fc06a8c1/remotemanager-0.9.9.tar.gz
+[2024-05-06 16:54:38] INFO root fetch - processPackages [django-simple-svg]: executing diffoscope
+[2024-05-06 16:54:38] INFO root fetch - processPackages [django-simple-svg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-simple-svg-0.2.2.tar.gz tmp/django_simple_svg-0.2.3.tar.gz --markdown 20240506/d/django-simple-svg/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-06 16:54:39] INFO root fetch - processPackages [AlleleFinder]: executing diffoscope
+[2024-05-06 16:54:39] INFO root fetch - processPackages [AlleleFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allelefinder-0.2.4.tar.gz tmp/allelefinder-0.2.6.tar.gz --markdown 20240506/A/AlleleFinder/0.2.4-0.2.6/README.md --exclude *.pyd
+[2024-05-06 16:54:39] INFO root fetch - processPackages [aioradio]: executing diffoscope
+[2024-05-06 16:54:39] INFO root fetch - processPackages [aioradio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioradio-0.9.7.tar.gz tmp/aioradio-0.9.8.tar.gz --markdown 20240506/a/aioradio/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-06 16:54:39] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2024-05-06 16:54:39] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.9.8.tar.gz tmp/remotemanager-0.9.9.tar.gz --markdown 20240506/r/remotemanager/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-06 16:54:39] INFO root fetch - processPackages [IOPaint]: executing diffoscope
+[2024-05-06 16:54:39] INFO root fetch - processPackages [IOPaint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IOPaint-1.3.0.tar.gz tmp/IOPaint-1.3.1.tar.gz --markdown 20240506/I/IOPaint/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-06 16:54:39] INFO root fetch - processPackages [jgtml]: Remove: archive file [/home/abi/fetcher/tmp/jgtml-0.0.8.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - processPackages [jgtml]: Remove: archive file [/home/abi/fetcher/tmp/jgtml-0.0.9.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - main [MainThread]: End processing [jgtml]: success
+[2024-05-06 16:54:39] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.7.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.9.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - main [MainThread]: End processing [swiss-army-man]: success
+[2024-05-06 16:54:39] INFO root fetch - processPackages [whatsapp-chat-analyze]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp_chat_analyze-0.1.1.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - processPackages [whatsapp-chat-analyze]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp_chat_analyze-0.1.2.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - main [MainThread]: End processing [whatsapp-chat-analyze]: success
+[2024-05-06 16:54:39] INFO root fetch - processPackages [django-simple-svg]: Remove: archive file [/home/abi/fetcher/tmp/django-simple-svg-0.2.2.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - processPackages [django-simple-svg]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_svg-0.2.3.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - main [MainThread]: End processing [django-simple-svg]: success
+[2024-05-06 16:54:39] INFO root fetch - processPackages [aioradio]: Remove: archive file [/home/abi/fetcher/tmp/aioradio-0.9.7.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - processPackages [aioradio]: Remove: archive file [/home/abi/fetcher/tmp/aioradio-0.9.8.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - main [MainThread]: End processing [aioradio]: success
+[2024-05-06 16:54:39] INFO root fetch - processPackages [AlleleFinder]: Remove: archive file [/home/abi/fetcher/tmp/allelefinder-0.2.4.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - processPackages [AlleleFinder]: Remove: archive file [/home/abi/fetcher/tmp/allelefinder-0.2.6.tar.gz]
+[2024-05-06 16:54:39] INFO root fetch - main [MainThread]: End processing [AlleleFinder]: success
+[2024-05-06 16:54:40] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.8.tar.gz]
+[2024-05-06 16:54:40] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.9.tar.gz]
+[2024-05-06 16:54:40] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2024-05-06 16:54:40] INFO root fetch - processPackages [ubo-gui]: Downloading https://files.pythonhosted.org/packages/49/be/d5e94619625fa02651110d759ce75c827dbed83a0a373d6609eabcdde8af/ubo_gui-0.9.9.tar.gz
+[2024-05-06 16:54:40] INFO root fetch - processPackages [ubo-gui]: executing diffoscope
+[2024-05-06 16:54:40] INFO root fetch - processPackages [ubo-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubo_gui-0.9.8.tar.gz tmp/ubo_gui-0.9.9.tar.gz --markdown 20240506/u/ubo-gui/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-06 16:54:40] INFO root fetch - processPackages [IOPaint]: Remove: archive file [/home/abi/fetcher/tmp/IOPaint-1.3.0.tar.gz]
+[2024-05-06 16:54:40] INFO root fetch - processPackages [IOPaint]: Remove: archive file [/home/abi/fetcher/tmp/IOPaint-1.3.1.tar.gz]
+[2024-05-06 16:54:40] INFO root fetch - main [MainThread]: End processing [IOPaint]: success
+[2024-05-06 16:54:41] INFO root fetch - processPackages [ubo-gui]: Remove: archive file [/home/abi/fetcher/tmp/ubo_gui-0.9.8.tar.gz]
+[2024-05-06 16:54:41] INFO root fetch - processPackages [ubo-gui]: Remove: archive file [/home/abi/fetcher/tmp/ubo_gui-0.9.9.tar.gz]
+[2024-05-06 16:54:41] INFO root fetch - main [MainThread]: End processing [ubo-gui]: success
+[2024-05-06 16:54:41] INFO root fetch - main [MainThread]: Store serial: [23079567]
