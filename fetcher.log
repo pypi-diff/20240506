@@ -23810,3 +23810,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:38:36] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
 [2024-05-06 17:38:36] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2024-05-06 17:38:36] INFO root fetch - main [MainThread]: Store serial: [23080073]
+[2024-05-06 17:40:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23080073]
+[2024-05-06 17:40:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 17:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hfutils
+[2024-05-06 17:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandera
+[2024-05-06 17:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TrajCompress
+[2024-05-06 17:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chemdataextractor2
+[2024-05-06 17:40:46] INFO root fetch - processPackages [TrajCompress]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-06 17:40:46] INFO root fetch - processPackages [TrajCompress]: Downloading https://files.pythonhosted.org/packages/89/f2/baa18da7a24aa8c1c89d18421bd91b5b580c81a89915622575119fab22af/trajcompress-0.1.3.tar.gz
+[2024-05-06 17:40:46] INFO root fetch - processPackages [chemdataextractor2]: New version: [2.3.2] Old Version: [2.2.2]
+[2024-05-06 17:40:46] INFO root fetch - processPackages [hfutils]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-06 17:40:46] INFO root fetch - processPackages [pandera]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-06 17:40:46] INFO root fetch - processPackages [chemdataextractor2]: Downloading https://files.pythonhosted.org/packages/7b/c2/bb79103208b511defb44b6428df76da93c4650a0a1bb74d74b77d3d82072/chemdataextractor2-2.2.2.tar.gz
+[2024-05-06 17:40:46] INFO root fetch - processPackages [hfutils]: Downloading https://files.pythonhosted.org/packages/97/84/110ba3504f63a058b913e91feb897dbd1adf6c50fc6ecbfdb81895099cfb/hfutils-0.2.4.tar.gz
+[2024-05-06 17:40:46] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/b0/0e/d435a4c20c8ca9269ca2ccf44f3bb98ee85b9fc9fbfda8f1952cfc2b9c43/pandera-0.8.1.tar.gz
+[2024-05-06 17:40:46] INFO root fetch - processPackages [TrajCompress]: Downloading https://files.pythonhosted.org/packages/ef/13/664aa4214659c8e688bf53392721ea9611045b4a866a66681f35fc94a3c8/trajcompress-0.1.4.tar.gz
+[2024-05-06 17:40:46] INFO root fetch - processPackages [TrajCompress]: executing diffoscope
+[2024-05-06 17:40:46] INFO root fetch - processPackages [TrajCompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajcompress-0.1.3.tar.gz tmp/trajcompress-0.1.4.tar.gz --markdown 20240506/T/TrajCompress/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-06 17:40:46] INFO root fetch - processPackages [hfutils]: Downloading https://files.pythonhosted.org/packages/d0/33/c8058d5a5edfe35775e6693e013c24e767228ef5690953465c5e12a6330f/hfutils-0.2.5.tar.gz
+[2024-05-06 17:40:46] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/0b/8f/199b2d6886d40d20c9382c189d0b40c6118c2df6f0df21e9e78ab886aaea/pandera-0.9.0.tar.gz
+[2024-05-06 17:40:46] INFO root fetch - processPackages [chemdataextractor2]: Downloading https://files.pythonhosted.org/packages/62/f5/bd57ce5a8917cf9161f0892181dede8e3731e8e211d3640f3c2b8cd44344/chemdataextractor2-2.3.2.tar.gz
+[2024-05-06 17:40:46] INFO root fetch - processPackages [hfutils]: executing diffoscope
+[2024-05-06 17:40:46] INFO root fetch - processPackages [hfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfutils-0.2.4.tar.gz tmp/hfutils-0.2.5.tar.gz --markdown 20240506/h/hfutils/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-06 17:40:46] INFO root fetch - processPackages [pandera]: executing diffoscope
+[2024-05-06 17:40:46] INFO root fetch - processPackages [pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandera-0.8.1.tar.gz tmp/pandera-0.9.0.tar.gz --markdown 20240506/p/pandera/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-06 17:40:47] INFO root fetch - processPackages [chemdataextractor2]: executing diffoscope
+[2024-05-06 17:40:47] INFO root fetch - processPackages [chemdataextractor2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemdataextractor2-2.2.2.tar.gz tmp/chemdataextractor2-2.3.2.tar.gz --markdown 20240506/c/chemdataextractor2/2.2.2-2.3.2/README.md --exclude *.pyd
+[2024-05-06 17:40:47] INFO root fetch - processPackages [TrajCompress]: Remove: archive file [/home/abi/fetcher/tmp/trajcompress-0.1.3.tar.gz]
+[2024-05-06 17:40:47] INFO root fetch - processPackages [TrajCompress]: Remove: archive file [/home/abi/fetcher/tmp/trajcompress-0.1.4.tar.gz]
+[2024-05-06 17:40:47] INFO root fetch - main [MainThread]: End processing [TrajCompress]: success
+[2024-05-06 17:40:47] INFO root fetch - processPackages [hfutils]: Remove: archive file [/home/abi/fetcher/tmp/hfutils-0.2.4.tar.gz]
+[2024-05-06 17:40:47] INFO root fetch - processPackages [hfutils]: Remove: archive file [/home/abi/fetcher/tmp/hfutils-0.2.5.tar.gz]
+[2024-05-06 17:40:47] INFO root fetch - main [MainThread]: End processing [hfutils]: success
+[2024-05-06 17:40:48] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.8.1.tar.gz]
+[2024-05-06 17:40:48] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.9.0.tar.gz]
+[2024-05-06 17:40:48] INFO root fetch - main [MainThread]: End processing [pandera]: success
+[2024-05-06 17:40:49] INFO root fetch - processPackages [chemdataextractor2]: Remove: archive file [/home/abi/fetcher/tmp/chemdataextractor2-2.2.2.tar.gz]
+[2024-05-06 17:40:49] INFO root fetch - processPackages [chemdataextractor2]: Remove: archive file [/home/abi/fetcher/tmp/chemdataextractor2-2.3.2.tar.gz]
+[2024-05-06 17:40:49] INFO root fetch - main [MainThread]: End processing [chemdataextractor2]: success
+[2024-05-06 17:40:49] INFO root fetch - main [MainThread]: Store serial: [23080084]
