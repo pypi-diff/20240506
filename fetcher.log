@@ -4229,3 +4229,32 @@
 [2024-05-06 05:45:34] INFO root fetch - processPackages [pyswmm]: Remove: archive file [/home/abi/fetcher/tmp/pyswmm-2.0.1.tar.gz]
 [2024-05-06 05:45:34] INFO root fetch - main [MainThread]: End processing [pyswmm]: success
 [2024-05-06 05:45:34] INFO root fetch - main [MainThread]: Store serial: [23071213]
+[2024-05-06 05:47:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071213]
+[2024-05-06 05:47:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 05:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ehdg-tools
+[2024-05-06 05:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-dataset-converter-imgaug
+[2024-05-06 05:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddddocr
+[2024-05-06 05:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-pandas
+[2024-05-06 05:47:42] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 05:47:42] INFO root fetch - processPackages [ehdg-tools]: New version: [4.2.4] Old Version: [4.2.3]
+[2024-05-06 05:47:42] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 05:47:42] WARNING root fetch - processPackages [image-dataset-converter-imgaug]: Skipping, unable to determine old version
+[2024-05-06 05:47:42] INFO root fetch - processPackages [ehdg-tools]: Downloading https://files.pythonhosted.org/packages/8a/3c/682b903bff06e6fefc7ff0cde67364e4a2748fd2ea29a9c9dee8de85d4ef/ehdg_tools-4.2.3.tar.gz
+[2024-05-06 05:47:42] INFO root fetch - main [MainThread]: End processing [image-dataset-converter-imgaug] error
+[2024-05-06 05:47:42] INFO root fetch - processPackages [ddddocr]: New version: [1.5.1] Old Version: [1.4.9]
+[2024-05-06 05:47:43] INFO root fetch - processPackages [ehdg-tools]: Downloading https://files.pythonhosted.org/packages/1a/d3/77bab39a8e273cd1049856b2e0b4fb4cb141b390b7535dccbe6861e6cb33/ehdg_tools-4.2.4.tar.gz
+[2024-05-06 05:47:43] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 05:47:43] INFO root fetch - processPackages [ddddocr]: Downloading https://files.pythonhosted.org/packages/b1/2f/ccfa506e27cad0dddd894f938bdfed24b9f0d5eef815049618dcfaf0452a/ddddocr-1.4.9.tar.gz
+[2024-05-06 05:47:43] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 05:47:43] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 05:47:43] INFO root fetch - processPackages [ehdg-tools]: executing diffoscope
+[2024-05-06 05:47:43] INFO root fetch - processPackages [ehdg-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_tools-4.2.3.tar.gz tmp/ehdg_tools-4.2.4.tar.gz --markdown 20240506/e/ehdg-tools/4.2.3-4.2.4/README.md --exclude *.pyd
+[2024-05-06 05:47:43] INFO root fetch - processPackages [ehdg-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_tools-4.2.3.tar.gz]
+[2024-05-06 05:47:43] INFO root fetch - processPackages [ehdg-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_tools-4.2.4.tar.gz]
+[2024-05-06 05:47:43] INFO root fetch - main [MainThread]: End processing [ehdg-tools]: success
+[2024-05-06 05:47:43] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 05:47:43] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 05:47:43] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 05:47:45] WARNING root fetch - processPackages [ddddocr]: Skipping package: exceeds size limit 75816634>=10485760
+[2024-05-06 05:47:45] INFO root fetch - main [MainThread]: End processing [ddddocr] error
+[2024-05-06 05:47:45] INFO root fetch - main [MainThread]: Store serial: [23071226]
