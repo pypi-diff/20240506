@@ -23995,3 +23995,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:47:20] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.9.tar.gz]
 [2024-05-06 17:47:20] INFO root fetch - main [MainThread]: End processing [algophon]: success
 [2024-05-06 17:47:20] INFO root fetch - main [MainThread]: Store serial: [23080137]
+[2024-05-06 17:49:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23080137]
+[2024-05-06 17:49:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 17:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vanna
+[2024-05-06 17:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ledgerblue
+[2024-05-06 17:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ism3d
+[2024-05-06 17:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ismn
+[2024-05-06 17:49:29] INFO root fetch - processPackages [vanna]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-06 17:49:29] WARNING root fetch - processPackages [ism3d]: Skipping, unable to determine old version
+[2024-05-06 17:49:29] INFO root fetch - main [MainThread]: End processing [ism3d] error
+[2024-05-06 17:49:29] INFO root fetch - processPackages [ismn]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-06 17:49:29] INFO root fetch - processPackages [ledgerblue]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 17:49:29] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/88/9d/79d8ee9951a4bb46db74ca6fb58fa88da2304eaac5df8cd4cf6ca4a8c5f9/vanna-0.5.1.tar.gz
+[2024-05-06 17:49:30] INFO root fetch - processPackages [ledgerblue]: Downloading https://files.pythonhosted.org/packages/37/2d/a787758826bc172450da961ee2f2ebfb2c9e745bff483c26f2ae6e9cd1b9/ledgerblue-0.1.8.tar.gz
+[2024-05-06 17:49:30] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/84/52/79892421d87691ad86948b2381fd65450b243b236c72d8031e83a0a3da81/vanna-0.5.2.tar.gz
+[2024-05-06 17:49:30] INFO root fetch - processPackages [vanna]: executing diffoscope
+[2024-05-06 17:49:30] INFO root fetch - processPackages [vanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanna-0.5.1.tar.gz tmp/vanna-0.5.2.tar.gz --markdown 20240506/v/vanna/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-06 17:49:30] INFO root fetch - processPackages [ledgerblue]: Downloading https://files.pythonhosted.org/packages/96/26/ee7eefb4cfa6445f7d48c35b511b57c59202b5a219e9bdad84a59394476d/ledgerblue-0.1.9.tar.gz
+[2024-05-06 17:49:30] INFO root fetch - processPackages [ismn]: Downloading https://files.pythonhosted.org/packages/06/64/4cc1b5320bdbf9d22f505d214c4f781c8d73287e11da1f93bbaa6aec71ce/ismn-1.4.0.tar.gz
+[2024-05-06 17:49:30] INFO root fetch - processPackages [ledgerblue]: executing diffoscope
+[2024-05-06 17:49:30] INFO root fetch - processPackages [ledgerblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledgerblue-0.1.8.tar.gz tmp/ledgerblue-0.1.9.tar.gz --markdown 20240506/l/ledgerblue/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 17:49:30] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.5.1.tar.gz]
+[2024-05-06 17:49:30] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.5.2.tar.gz]
+[2024-05-06 17:49:30] INFO root fetch - main [MainThread]: End processing [vanna]: success
+[2024-05-06 17:49:31] INFO root fetch - processPackages [ismn]: Downloading https://files.pythonhosted.org/packages/ab/dc/22bad7e02d144fec094db72409d97baddc4749cb54aba6c9fb39337f5ba6/ismn-1.4.1.tar.gz
+[2024-05-06 17:49:31] INFO root fetch - processPackages [ledgerblue]: Remove: archive file [/home/abi/fetcher/tmp/ledgerblue-0.1.8.tar.gz]
+[2024-05-06 17:49:31] INFO root fetch - processPackages [ledgerblue]: Remove: archive file [/home/abi/fetcher/tmp/ledgerblue-0.1.9.tar.gz]
+[2024-05-06 17:49:31] INFO root fetch - main [MainThread]: End processing [ledgerblue]: success
+[2024-05-06 17:49:31] INFO root fetch - processPackages [ismn]: executing diffoscope
+[2024-05-06 17:49:31] INFO root fetch - processPackages [ismn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ismn-1.4.0.tar.gz tmp/ismn-1.4.1.tar.gz --markdown 20240506/i/ismn/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-06 17:49:34] INFO root fetch - processPackages [ismn]: Remove: archive file [/home/abi/fetcher/tmp/ismn-1.4.0.tar.gz]
+[2024-05-06 17:49:34] INFO root fetch - processPackages [ismn]: Remove: archive file [/home/abi/fetcher/tmp/ismn-1.4.1.tar.gz]
+[2024-05-06 17:49:34] INFO root fetch - main [MainThread]: End processing [ismn]: success
+[2024-05-06 17:49:34] INFO root fetch - main [MainThread]: Store serial: [23080151]
