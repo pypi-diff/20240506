@@ -18581,3 +18581,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:32:57] INFO root fetch - processPackages [PyCorrCPI]: Remove: archive file [/home/abi/fetcher/tmp/PyCorrCPI-0.0.4.tar.gz]
 [2024-05-06 14:32:57] INFO root fetch - main [MainThread]: End processing [PyCorrCPI]: success
 [2024-05-06 14:32:57] INFO root fetch - main [MainThread]: Store serial: [23077448]
+[2024-05-06 14:35:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077448]
+[2024-05-06 14:35:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 14:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lara-sdk
+[2024-05-06 14:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alloniaconfigs
+[2024-05-06 14:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tree-sitter-typescript
+[2024-05-06 14:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amebo
+[2024-05-06 14:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyro-hydro
+[2024-05-06 14:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: collective.campaignmonitor
+[2024-05-06 14:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amebo
+[2024-05-06 14:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aigents
+[2024-05-06 14:35:07] WARNING root fetch - processPackages [tree-sitter-typescript]: Skipping, unable to determine old version
+[2024-05-06 14:35:07] INFO root fetch - main [MainThread]: End processing [tree-sitter-typescript] error
+[2024-05-06 14:35:07] INFO root fetch - processPackages [amebo]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-06 14:35:07] INFO root fetch - processPackages [amebo]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-06 14:35:07] INFO root fetch - processPackages [alloniaconfigs]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-05-06 14:35:07] INFO root fetch - processPackages [pyro-hydro]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-05-06 14:35:07] WARNING root fetch - processPackages [lara-sdk]: Skipping, unable to determine old version
+[2024-05-06 14:35:07] INFO root fetch - processPackages [collective.campaignmonitor]: New version: [1.4] Old Version: [1.3]
+[2024-05-06 14:35:07] INFO root fetch - main [MainThread]: End processing [lara-sdk] error
+[2024-05-06 14:35:07] INFO root fetch - processPackages [amebo]: Downloading https://files.pythonhosted.org/packages/e7/59/a534ed70d1c592ab4ce505ca031f29bf98c10bd7b1b155a1a01022586177/amebo-0.3.2.tar.gz
+[2024-05-06 14:35:07] INFO root fetch - processPackages [aigents]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-06 14:35:07] INFO root fetch - processPackages [amebo]: Downloading https://files.pythonhosted.org/packages/e7/59/a534ed70d1c592ab4ce505ca031f29bf98c10bd7b1b155a1a01022586177/amebo-0.3.2.tar.gz
+[2024-05-06 14:35:07] INFO root fetch - processPackages [pyro-hydro]: Downloading https://files.pythonhosted.org/packages/43/48/280d13acd90012f86479bac27ab3f2832842a033805d32c02cfe0ad6c95f/pyro-hydro-4.0.1.tar.gz
+[2024-05-06 14:35:07] INFO root fetch - processPackages [alloniaconfigs]: Downloading https://files.pythonhosted.org/packages/37/c4/2d023af86fa0b493b492f4330d17acd02c17a562aafee44fcfda08ba6940/alloniaconfigs-1.0.6.tar.gz
+[2024-05-06 14:35:07] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/ff/e3/22b63e9b85d461a817efa81ecba5744742caed449b0747e7cefa01eb4446/aigents-0.6.0.tar.gz
+[2024-05-06 14:35:07] INFO root fetch - processPackages [collective.campaignmonitor]: Downloading https://files.pythonhosted.org/packages/4b/14/dd59d6d703fd92c5c7cf2fa15305b6bc2913f8e4db5afd04c30df0927e4e/collective.campaignmonitor-1.3.tar.gz
+[2024-05-06 14:35:07] INFO root fetch - processPackages [amebo]: Downloading https://files.pythonhosted.org/packages/18/77/7cd686af41d2e5fd598ef44c578a1269b52ce629f8c6a8c7d7ad257e21d2/amebo-0.3.3.tar.gz
+[2024-05-06 14:35:07] INFO root fetch - processPackages [amebo]: Downloading https://files.pythonhosted.org/packages/18/77/7cd686af41d2e5fd598ef44c578a1269b52ce629f8c6a8c7d7ad257e21d2/amebo-0.3.3.tar.gz
+[2024-05-06 14:35:07] INFO root fetch - processPackages [alloniaconfigs]: Downloading https://files.pythonhosted.org/packages/93/9a/17cd16e59bc855f1c2ca41c1fd7d7caf3d3d5b3779ffbf701cfa58b133bf/alloniaconfigs-1.1.0.tar.gz
+[2024-05-06 14:35:07] INFO root fetch - processPackages [amebo]: executing diffoscope
+[2024-05-06 14:35:07] INFO root fetch - processPackages [amebo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amebo-0.3.2.tar.gz tmp/amebo-0.3.3.tar.gz --markdown 20240506/a/amebo/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-06 14:35:07] INFO root fetch - processPackages [amebo]: executing diffoscope
+[2024-05-06 14:35:07] INFO root fetch - processPackages [amebo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amebo-0.3.2.tar.gz tmp/amebo-0.3.3.tar.gz --markdown 20240506/a/amebo/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-06 14:35:07] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/e7/48/105420814c00191bb927ba0b4ce8835a46d748ffd09a5316c43de1bd4257/aigents-0.7.0.tar.gz
+[2024-05-06 14:35:08] INFO root fetch - processPackages [collective.campaignmonitor]: Downloading https://files.pythonhosted.org/packages/ba/4c/9a31df18213a43b8c1170c8f6c366a1bcfb96851512163e639c82a2d97a5/collective_campaignmonitor-1.4.tar.gz
+[2024-05-06 14:35:08] WARNING root fetch - processPackages [pyro-hydro]: Skipping package: exceeds size limit 45343441>=10485760
+[2024-05-06 14:35:08] INFO root fetch - main [MainThread]: End processing [pyro-hydro] error
+[2024-05-06 14:35:08] INFO root fetch - processPackages [alloniaconfigs]: executing diffoscope
+[2024-05-06 14:35:08] INFO root fetch - processPackages [alloniaconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alloniaconfigs-1.0.6.tar.gz tmp/alloniaconfigs-1.1.0.tar.gz --markdown 20240506/a/alloniaconfigs/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-05-06 14:35:08] INFO root fetch - processPackages [aigents]: executing diffoscope
+[2024-05-06 14:35:08] INFO root fetch - processPackages [aigents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigents-0.6.0.tar.gz tmp/aigents-0.7.0.tar.gz --markdown 20240506/a/aigents/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-06 14:35:08] INFO root fetch - processPackages [collective.campaignmonitor]: executing diffoscope
+[2024-05-06 14:35:08] INFO root fetch - processPackages [collective.campaignmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.campaignmonitor-1.3.tar.gz tmp/collective_campaignmonitor-1.4.tar.gz --markdown 20240506/c/collective.campaignmonitor/1.3-1.4/README.md --exclude *.pyd
+[2024-05-06 14:35:08] INFO root fetch - processPackages [amebo]: Remove: archive file [/home/abi/fetcher/tmp/amebo-0.3.2.tar.gz]
+[2024-05-06 14:35:08] INFO root fetch - processPackages [amebo]: Remove: archive file [/home/abi/fetcher/tmp/amebo-0.3.3.tar.gz]
+[2024-05-06 14:35:08] INFO root fetch - main [MainThread]: End processing [amebo]: success
+[2024-05-06 14:35:08] INFO root fetch - processPackages [alloniaconfigs]: Remove: archive file [/home/abi/fetcher/tmp/alloniaconfigs-1.0.6.tar.gz]
+[2024-05-06 14:35:08] INFO root fetch - processPackages [alloniaconfigs]: Remove: archive file [/home/abi/fetcher/tmp/alloniaconfigs-1.1.0.tar.gz]
+[2024-05-06 14:35:08] INFO root fetch - main [MainThread]: End processing [alloniaconfigs]: success
+[2024-05-06 14:35:08] INFO root fetch - main [MainThread]: End processing [amebo]: success
+[2024-05-06 14:35:08] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.6.0.tar.gz]
+[2024-05-06 14:35:08] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.7.0.tar.gz]
+[2024-05-06 14:35:08] INFO root fetch - main [MainThread]: End processing [aigents]: success
+[2024-05-06 14:35:08] INFO root fetch - processPackages [collective.campaignmonitor]: Remove: archive file [/home/abi/fetcher/tmp/collective.campaignmonitor-1.3.tar.gz]
+[2024-05-06 14:35:08] INFO root fetch - processPackages [collective.campaignmonitor]: Remove: archive file [/home/abi/fetcher/tmp/collective_campaignmonitor-1.4.tar.gz]
+[2024-05-06 14:35:08] INFO root fetch - main [MainThread]: End processing [collective.campaignmonitor]: success
+[2024-05-06 14:35:08] INFO root fetch - main [MainThread]: Store serial: [23077481]
