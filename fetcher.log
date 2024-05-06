@@ -21627,3 +21627,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:23:08] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
 [2024-05-06 16:23:08] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-05-06 16:23:08] INFO root fetch - main [MainThread]: Store serial: [23079076]
+[2024-05-06 16:25:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079076]
+[2024-05-06 16:25:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 16:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-node-binding
+[2024-05-06 16:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: payments-py
+[2024-05-06 16:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torcheeg
+[2024-05-06 16:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yowasp-yosys
+[2024-05-06 16:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypots
+[2024-05-06 16:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dj-svg
+[2024-05-06 16:25:20] INFO root fetch - processPackages [yowasp-yosys]: New version: [0.9.post5623.dev231] Old Version: [0.9.post5610.dev226]
+[2024-05-06 16:25:20] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1251] Old Version: [3.0.3.post1250]
+[2024-05-06 16:25:20] INFO root fetch - processPackages [payments-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-06 16:25:20] ERROR root fetch - processPackages [dj-svg]: Unable to get metadata: No such project 'dj-svg'
+[2024-05-06 16:25:20] INFO root fetch - main [MainThread]: End processing [dj-svg] error
+[2024-05-06 16:25:21] INFO root fetch - processPackages [torcheeg]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-06 16:25:21] INFO root fetch - processPackages [pypots]: New version: [0.5] Old Version: [0.4.1]
+[2024-05-06 16:25:21] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/d9/10/e7c660588919726a2a41c8d346d4509ae1048b18dd3668a5a08e26ded384/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl
+[2024-05-06 16:25:21] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/43/aa/23d2c4be509d48ac9775704f8a2cb1c04002725c5337e7bb1509e6c6d39a/nucliadb_node_binding-3.0.3.post1250.tar.gz
+[2024-05-06 16:25:21] INFO root fetch - processPackages [payments-py]: Downloading https://files.pythonhosted.org/packages/81/95/4208f804898884459c38ac0ffabc423f2607428c97a8a40a0886b5dac53c/payments_py-0.1.2.tar.gz
+[2024-05-06 16:25:21] INFO root fetch - processPackages [torcheeg]: Downloading https://files.pythonhosted.org/packages/4f/ff/1a3da316cdc57928cd76075a0300bb8256e65772033169d5ddbca1e4d194/torcheeg-1.1.1.tar.gz
+[2024-05-06 16:25:21] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/ee/ea/20826fa9c9b1a6195df365422310d77547291739589c3fdde0fbc29bacfd/nucliadb_node_binding-3.0.3.post1251.tar.gz
+[2024-05-06 16:25:21] INFO root fetch - processPackages [pypots]: Downloading https://files.pythonhosted.org/packages/61/95/1462c4a8ee5a47876ed041697402a95f9317b1a717fcf6376cb1ae99fc07/pypots-0.4.1.tar.gz
+[2024-05-06 16:25:21] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-06 16:25:21] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1250.tar.gz tmp/nucliadb_node_binding-3.0.3.post1251.tar.gz --markdown 20240506/n/nucliadb-node-binding/3.0.3.post1250-3.0.3.post1251/README.md --exclude *.pyd
+[2024-05-06 16:25:21] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/35/c4/b4e64452f262989908f22d3e1fff557841f6182c69b887c4f6508b655418/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl
+[2024-05-06 16:25:21] INFO root fetch - processPackages [payments-py]: Downloading https://files.pythonhosted.org/packages/22/8b/1f660fa3f3123957e07c175e976953fc5218927c6d79381549838320d00c/payments_py-0.1.3.tar.gz
+[2024-05-06 16:25:21] INFO root fetch - processPackages [torcheeg]: Downloading https://files.pythonhosted.org/packages/f4/d5/45047b7501d635076492c9eb619605d9b43ae68ab719c6db71c8e042b10a/torcheeg-1.1.2.tar.gz
+[2024-05-06 16:25:21] INFO root fetch - processPackages [payments-py]: executing diffoscope
+[2024-05-06 16:25:21] INFO root fetch - processPackages [payments-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payments_py-0.1.2.tar.gz tmp/payments_py-0.1.3.tar.gz --markdown 20240506/p/payments-py/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-06 16:25:21] INFO root fetch - processPackages [torcheeg]: executing diffoscope
+[2024-05-06 16:25:21] INFO root fetch - processPackages [torcheeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheeg-1.1.1.tar.gz tmp/torcheeg-1.1.2.tar.gz --markdown 20240506/t/torcheeg/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-06 16:25:21] INFO root fetch - processPackages [pypots]: Downloading https://files.pythonhosted.org/packages/77/8d/e37c0b55919b23b8046a12573504de57ecc94be4d9f8b0498021a05022b1/pypots-0.5.tar.gz
+[2024-05-06 16:25:21] INFO root fetch - processPackages [yowasp-yosys]: executing diffoscope
+[2024-05-06 16:25:21] INFO root fetch - processPackages [yowasp-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip --markdown 20240506/y/yowasp-yosys/0.9.post5610.dev226-0.9.post5623.dev231/README.md --exclude *.pyd
+[2024-05-06 16:25:21] INFO root fetch - processPackages [pypots]: executing diffoscope
+[2024-05-06 16:25:21] INFO root fetch - processPackages [pypots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypots-0.4.1.tar.gz tmp/pypots-0.5.tar.gz --markdown 20240506/p/pypots/0.4.1-0.5/README.md --exclude *.pyd
+[2024-05-06 16:25:22] INFO root fetch - processPackages [payments-py]: Remove: archive file [/home/abi/fetcher/tmp/payments_py-0.1.2.tar.gz]
+[2024-05-06 16:25:22] INFO root fetch - processPackages [payments-py]: Remove: archive file [/home/abi/fetcher/tmp/payments_py-0.1.3.tar.gz]
+[2024-05-06 16:25:22] INFO root fetch - main [MainThread]: End processing [payments-py]: success
+[2024-05-06 16:25:23] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1250.tar.gz]
+[2024-05-06 16:25:23] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1251.tar.gz]
+[2024-05-06 16:25:23] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-06 16:25:23] INFO root fetch - processPackages [torcheeg]: Remove: archive file [/home/abi/fetcher/tmp/torcheeg-1.1.1.tar.gz]
+[2024-05-06 16:25:23] INFO root fetch - processPackages [torcheeg]: Remove: archive file [/home/abi/fetcher/tmp/torcheeg-1.1.2.tar.gz]
+[2024-05-06 16:25:23] INFO root fetch - main [MainThread]: End processing [torcheeg]: success
+[2024-05-06 16:25:23] INFO root fetch - processPackages [pypots]: Remove: archive file [/home/abi/fetcher/tmp/pypots-0.4.1.tar.gz]
+[2024-05-06 16:25:23] INFO root fetch - processPackages [pypots]: Remove: archive file [/home/abi/fetcher/tmp/pypots-0.5.tar.gz]
+[2024-05-06 16:25:23] INFO root fetch - main [MainThread]: End processing [pypots]: success
+[2024-05-06 16:26:18] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip]
+[2024-05-06 16:26:18] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
+[2024-05-06 16:26:18] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
+[2024-05-06 16:26:18] INFO root fetch - main [MainThread]: Store serial: [23079111]
