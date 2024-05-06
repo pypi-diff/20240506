@@ -22924,3 +22924,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:04:00] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.421.tar.gz]
 [2024-05-06 17:04:00] INFO root fetch - main [MainThread]: End processing [mkt-retv]: success
 [2024-05-06 17:04:00] INFO root fetch - main [MainThread]: Store serial: [23079658]
+[2024-05-06 17:06:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079658]
+[2024-05-06 17:06:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metadynminer
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ParticleDetection
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sapiopylib
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openvino
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abacusai
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micromed-io
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc-faas-openeo
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dash-draggable-no-console-logs
+[2024-05-06 17:06:17] INFO root fetch - processPackages [dash-draggable-no-console-logs]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-06 17:06:17] INFO root fetch - processPackages [sapiopylib]: New version: [2024.5.6rc193] Old Version: [2024.5.4a192]
+[2024-05-06 17:06:17] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-06 17:06:17] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.82]
+[2024-05-06 17:06:17] INFO root fetch - processPackages [metadynminer]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ParticleDetection]: New version: [0.4.2.dev6] Old Version: [0.4.1.dev48]
+[2024-05-06 17:06:17] INFO root fetch - processPackages [micromed-io]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-06 17:06:17] INFO root fetch - processPackages [abacusai]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-06 17:06:17] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/d6/e4/4d982a0699fbdce7eb7fe05756f984a2fef5cdc4b5fcd12e902bdde687b5/sapiopylib-2024.5.4a192.tar.gz
+[2024-05-06 17:06:17] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/2a/61/425616b0bbba358a458327d444f15403f4dd619dfa8d8627abd7a252f913/eodc_faas_openeo-2024.5.0.tar.gz
+[2024-05-06 17:06:17] INFO root fetch - processPackages [openvino]: New version: [2024.1.0] Old Version: [2024.0.0]
+[2024-05-06 17:06:17] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Downloading https://files.pythonhosted.org/packages/c5/41/ac3dfcbf178885e92436b4d03cab464a1fe7f07321a3b5e86351d28548e3/dash_draggable_no_console_logs-0.0.0.tar.gz
+[2024-05-06 17:06:17] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/5e/6a/a610bc7ad1bc174dc441f72455e7b9f1c55f5e46b81562fae9a9c7b5f0ef/checkov-3.2.82.tar.gz
+[2024-05-06 17:06:17] INFO root fetch - processPackages [ParticleDetection]: Downloading https://files.pythonhosted.org/packages/74/d8/ab34c3f44e5e61e27245ed4a8f5458d01571f191dc630b05d58257b829e9/particledetection-0.4.1.dev48.tar.gz
+[2024-05-06 17:06:17] INFO root fetch - processPackages [metadynminer]: Downloading https://files.pythonhosted.org/packages/56/fa/dd50b8a318b36195113090673391b6ec19553777af8a44d23de039a03c96/metadynminer-0.8.0.tar.gz
+[2024-05-06 17:06:17] INFO root fetch - processPackages [micromed-io]: Downloading https://files.pythonhosted.org/packages/40/bd/92525ce93d3577ab2d74a6feda1b985ee800fb6f675ca823420f5d1538a2/micromed_io-0.4.4.tar.gz
+[2024-05-06 17:06:17] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/26/76/0072bee398e885df30a55ce0db46e3f3b6f0eef554739655eb8042c1a349/abacusai-1.2.5.tar.gz
+[2024-05-06 17:06:17] INFO root fetch - processPackages [openvino]: Downloading https://files.pythonhosted.org/packages/f2/ff/d6628fddab100ce2a07e80fc6322d88a634abd3f23983fb0868faf468b24/openvino-2024.0.0-14509-cp39-cp39-win_amd64.whl
+[2024-05-06 17:06:17] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/b4/f7/0681588d66b2ee8bfeb5fb3ab2a8fd9a1e82892c0230152296e3a88688b2/eodc_faas_openeo-2024.5.1.tar.gz
+[2024-05-06 17:06:17] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/ec/7f/afb73db6556c9fc161a8139bd3592d26da2f1d011a4ccd5c341d0851b6f8/sapiopylib-2024.5.6rc193.tar.gz
+[2024-05-06 17:06:18] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-06 17:06:18] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.0.tar.gz tmp/eodc_faas_openeo-2024.5.1.tar.gz --markdown 20240506/e/eodc-faas-openeo/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-06 17:06:18] WARNING root fetch - processPackages [openvino]: Skipping package: exceeds size limit 31745754>=10485760
+[2024-05-06 17:06:18] INFO root fetch - main [MainThread]: End processing [openvino] error
+[2024-05-06 17:06:18] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Downloading https://files.pythonhosted.org/packages/f7/11/ee240c038df438707ebf731b622ba7464fc9dcf9e2050290edbf720d12d6/dash_draggable_no_console_logs-0.0.1.tar.gz
+[2024-05-06 17:06:18] INFO root fetch - processPackages [sapiopylib]: executing diffoscope
+[2024-05-06 17:06:18] INFO root fetch - processPackages [sapiopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopylib-2024.5.4a192.tar.gz tmp/sapiopylib-2024.5.6rc193.tar.gz --markdown 20240506/s/sapiopylib/2024.5.4a192-2024.5.6rc193/README.md --exclude *.pyd
+[2024-05-06 17:06:18] INFO root fetch - processPackages [ParticleDetection]: Downloading https://files.pythonhosted.org/packages/36/d7/236542d481ec8aee7460c4b01fc92f0dd43d514fbca14ba505944b214bd9/particledetection-0.4.2.dev6-py3-none-any.whl
+[2024-05-06 17:06:18] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-06 17:06:18] INFO root fetch - processPackages [micromed-io]: Downloading https://files.pythonhosted.org/packages/b8/d4/1c30f5368d475bedce3f8312659ed666b13d0dc70b80d18add544aa23f7a/micromed_io-0.4.5.tar.gz
+[2024-05-06 17:06:18] INFO root fetch - processPackages [dash-draggable-no-console-logs]: executing diffoscope
+[2024-05-06 17:06:18] INFO root fetch - processPackages [dash-draggable-no-console-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_draggable_no_console_logs-0.0.0.tar.gz tmp/dash_draggable_no_console_logs-0.0.1.tar.gz --markdown 20240506/d/dash-draggable-no-console-logs/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-06 17:06:18] INFO root fetch - processPackages [metadynminer]: Downloading https://files.pythonhosted.org/packages/f0/1a/6833ff82e8611917210aaa79bdd7d08bb97c3680d867bd35662742c65386/metadynminer-0.8.1.tar.gz
+[2024-05-06 17:06:18] INFO root fetch - processPackages [ParticleDetection]: executing diffoscope
+[2024-05-06 17:06:18] INFO root fetch - processPackages [ParticleDetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/particledetection-0.4.1.dev48.tar.gz tmp/particledetection-0.4.2.dev6-py3-none-any.whl.zip --markdown 20240506/P/ParticleDetection/0.4.1.dev48-0.4.2.dev6/README.md --exclude *.pyd
+[2024-05-06 17:06:18] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-06 17:06:18] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.82.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240506/c/checkov/3.2.82-3.2.9/README.md --exclude *.pyd
+[2024-05-06 17:06:18] INFO root fetch - processPackages [micromed-io]: executing diffoscope
+[2024-05-06 17:06:18] INFO root fetch - processPackages [micromed-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micromed_io-0.4.4.tar.gz tmp/micromed_io-0.4.5.tar.gz --markdown 20240506/m/micromed-io/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-06 17:06:18] INFO root fetch - processPackages [metadynminer]: executing diffoscope
+[2024-05-06 17:06:18] INFO root fetch - processPackages [metadynminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metadynminer-0.8.0.tar.gz tmp/metadynminer-0.8.1.tar.gz --markdown 20240506/m/metadynminer/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-06 17:06:18] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/91/35/a3396ab6731735cad0e55763ba0443a1d96025c733fb267bd6a0f8292426/abacusai-1.2.6.tar.gz
+[2024-05-06 17:06:18] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.0.tar.gz]
+[2024-05-06 17:06:18] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.1.tar.gz]
+[2024-05-06 17:06:18] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-06 17:06:18] INFO root fetch - processPackages [ParticleDetection]: Remove: archive file [/home/abi/fetcher/tmp/particledetection-0.4.1.dev48.tar.gz]
+[2024-05-06 17:06:18] INFO root fetch - processPackages [ParticleDetection]: Remove: archive file [/home/abi/fetcher/tmp/particledetection-0.4.2.dev6-py3-none-any.whl.zip]
+[2024-05-06 17:06:18] INFO root fetch - main [MainThread]: End processing [ParticleDetection]: success
+[2024-05-06 17:06:19] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Remove: archive file [/home/abi/fetcher/tmp/dash_draggable_no_console_logs-0.0.0.tar.gz]
+[2024-05-06 17:06:19] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Remove: archive file [/home/abi/fetcher/tmp/dash_draggable_no_console_logs-0.0.1.tar.gz]
+[2024-05-06 17:06:19] INFO root fetch - main [MainThread]: End processing [dash-draggable-no-console-logs]: success
+[2024-05-06 17:06:19] INFO root fetch - processPackages [micromed-io]: Remove: archive file [/home/abi/fetcher/tmp/micromed_io-0.4.4.tar.gz]
+[2024-05-06 17:06:19] INFO root fetch - processPackages [micromed-io]: Remove: archive file [/home/abi/fetcher/tmp/micromed_io-0.4.5.tar.gz]
+[2024-05-06 17:06:19] INFO root fetch - main [MainThread]: End processing [micromed-io]: success
+[2024-05-06 17:06:19] INFO root fetch - processPackages [metadynminer]: Remove: archive file [/home/abi/fetcher/tmp/metadynminer-0.8.0.tar.gz]
+[2024-05-06 17:06:19] INFO root fetch - processPackages [metadynminer]: Remove: archive file [/home/abi/fetcher/tmp/metadynminer-0.8.1.tar.gz]
+[2024-05-06 17:06:19] INFO root fetch - main [MainThread]: End processing [metadynminer]: success
+[2024-05-06 17:06:19] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.5.4a192.tar.gz]
+[2024-05-06 17:06:19] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.5.6rc193.tar.gz]
+[2024-05-06 17:06:19] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
+[2024-05-06 17:06:19] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2024-05-06 17:06:19] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-1.2.5.tar.gz tmp/abacusai-1.2.6.tar.gz --markdown 20240506/a/abacusai/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-06 17:06:24] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.5.tar.gz]
+[2024-05-06 17:06:24] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.6.tar.gz]
+[2024-05-06 17:06:24] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2024-05-06 17:06:26] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.82.tar.gz]
+[2024-05-06 17:06:26] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-06 17:06:26] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-06 17:06:26] INFO root fetch - main [MainThread]: Store serial: [23079685]
