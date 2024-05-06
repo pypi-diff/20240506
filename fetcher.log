@@ -6903,3 +6903,33 @@
 [2024-05-06 08:45:49] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.7.tar.gz]
 [2024-05-06 08:45:49] INFO root fetch - main [MainThread]: End processing [beanhub-import]: success
 [2024-05-06 08:45:49] INFO root fetch - main [MainThread]: Store serial: [23072500]
+[2024-05-06 08:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072500]
+[2024-05-06 08:47:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 08:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES-communications
+[2024-05-06 08:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dj-dynamic-settings
+[2024-05-06 08:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-telemetry-generic
+[2024-05-06 08:47:58] INFO root fetch - processPackages [open-telemetry-generic]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 08:47:58] INFO root fetch - processPackages [DLMS-SPODES-communications]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-06 08:47:58] INFO root fetch - processPackages [dj-dynamic-settings]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-06 08:47:58] INFO root fetch - processPackages [open-telemetry-generic]: Downloading https://files.pythonhosted.org/packages/f5/16/4d83cadb1b808d0217afccc109d39688dc4a3fab60ac71d0169497f026da/open_telemetry_generic-0.1.0.tar.gz
+[2024-05-06 08:47:58] INFO root fetch - processPackages [dj-dynamic-settings]: Downloading https://files.pythonhosted.org/packages/e5/06/a0216c769fdf22c36cc26e2901d00261a586fa638a681ea2a7dbde105040/dj-dynamic-settings-0.2.4.tar.gz
+[2024-05-06 08:47:58] INFO root fetch - processPackages [DLMS-SPODES-communications]: Downloading https://files.pythonhosted.org/packages/b5/ae/6bba7c2f0238066146aaae2209c608f0c4fd2f930540ad8d5898efa118fd/DLMS_SPODES_communications-1.2.4.tar.gz
+[2024-05-06 08:47:58] INFO root fetch - processPackages [open-telemetry-generic]: Downloading https://files.pythonhosted.org/packages/8f/3f/905be0aedb36e06220a569a0b355ff9d4e3a1f576e31620e2f019fe3841f/open_telemetry_generic-0.1.1.tar.gz
+[2024-05-06 08:47:58] INFO root fetch - processPackages [DLMS-SPODES-communications]: Downloading https://files.pythonhosted.org/packages/92/5a/e5c46f900e397e6a317eee662f8a49f2dae2e53d97f308d869b8ac8781ba/DLMS_SPODES_communications-1.2.5.tar.gz
+[2024-05-06 08:47:58] INFO root fetch - processPackages [open-telemetry-generic]: executing diffoscope
+[2024-05-06 08:47:58] INFO root fetch - processPackages [open-telemetry-generic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_telemetry_generic-0.1.0.tar.gz tmp/open_telemetry_generic-0.1.1.tar.gz --markdown 20240506/o/open-telemetry-generic/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 08:47:58] INFO root fetch - processPackages [dj-dynamic-settings]: Downloading https://files.pythonhosted.org/packages/85/79/3184981e394f6438ea82427824d14545688f97a3c42744aa88dae59b1b79/dj-dynamic-settings-0.2.5.tar.gz
+[2024-05-06 08:47:58] INFO root fetch - processPackages [DLMS-SPODES-communications]: executing diffoscope
+[2024-05-06 08:47:58] INFO root fetch - processPackages [DLMS-SPODES-communications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_communications-1.2.4.tar.gz tmp/DLMS_SPODES_communications-1.2.5.tar.gz --markdown 20240506/D/DLMS-SPODES-communications/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-06 08:47:59] INFO root fetch - processPackages [dj-dynamic-settings]: executing diffoscope
+[2024-05-06 08:47:59] INFO root fetch - processPackages [dj-dynamic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-dynamic-settings-0.2.4.tar.gz tmp/dj-dynamic-settings-0.2.5.tar.gz --markdown 20240506/d/dj-dynamic-settings/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-06 08:47:59] INFO root fetch - processPackages [open-telemetry-generic]: Remove: archive file [/home/abi/fetcher/tmp/open_telemetry_generic-0.1.0.tar.gz]
+[2024-05-06 08:47:59] INFO root fetch - processPackages [open-telemetry-generic]: Remove: archive file [/home/abi/fetcher/tmp/open_telemetry_generic-0.1.1.tar.gz]
+[2024-05-06 08:47:59] INFO root fetch - main [MainThread]: End processing [open-telemetry-generic]: success
+[2024-05-06 08:47:59] INFO root fetch - processPackages [DLMS-SPODES-communications]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_communications-1.2.4.tar.gz]
+[2024-05-06 08:47:59] INFO root fetch - processPackages [DLMS-SPODES-communications]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_communications-1.2.5.tar.gz]
+[2024-05-06 08:47:59] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-communications]: success
+[2024-05-06 08:47:59] INFO root fetch - processPackages [dj-dynamic-settings]: Remove: archive file [/home/abi/fetcher/tmp/dj-dynamic-settings-0.2.4.tar.gz]
+[2024-05-06 08:47:59] INFO root fetch - processPackages [dj-dynamic-settings]: Remove: archive file [/home/abi/fetcher/tmp/dj-dynamic-settings-0.2.5.tar.gz]
+[2024-05-06 08:47:59] INFO root fetch - main [MainThread]: End processing [dj-dynamic-settings]: success
+[2024-05-06 08:47:59] INFO root fetch - main [MainThread]: Store serial: [23072508]
