@@ -2493,3 +2493,36 @@
 [2024-05-06 03:56:38] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.9.tar.gz]
 [2024-05-06 03:56:38] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
 [2024-05-06 03:56:38] INFO root fetch - main [MainThread]: Store serial: [23070517]
+[2024-05-06 03:58:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070517]
+[2024-05-06 03:58:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 03:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geoapps-utils
+[2024-05-06 03:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peak-finder-app
+[2024-05-06 03:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: furrow1k
+[2024-05-06 03:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: googly
+[2024-05-06 03:58:47] INFO root fetch - processPackages [peak-finder-app]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2024-05-06 03:58:47] INFO root fetch - processPackages [furrow1k]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 03:58:47] INFO root fetch - processPackages [peak-finder-app]: Downloading https://files.pythonhosted.org/packages/f2/7f/07b2491a4c08ebc495a26739de2f06ea34b7ab37f5eea3a5028c15f09eaf/peak_finder_app-0.1.0b2.tar.gz
+[2024-05-06 03:58:47] WARNING root fetch - processPackages [googly]: Skipping, unable to determine old version
+[2024-05-06 03:58:47] INFO root fetch - main [MainThread]: End processing [googly] error
+[2024-05-06 03:58:47] INFO root fetch - processPackages [geoapps-utils]: New version: [0.3.0rc3] Old Version: [0.3.0rc2]
+[2024-05-06 03:58:47] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/ac/dd/35118eba5cc93d5e884f4b93194279d63a91754b9e298e79f464d12d0bc8/furrow1k-0.1.0.tar.gz
+[2024-05-06 03:58:48] INFO root fetch - processPackages [geoapps-utils]: Downloading https://files.pythonhosted.org/packages/ff/c7/ddca2b5173d26104fa156395cd469f1b2cb8fa6494884e0509107c57c64e/geoapps_utils-0.3.0rc2.tar.gz
+[2024-05-06 03:58:48] INFO root fetch - processPackages [peak-finder-app]: Downloading https://files.pythonhosted.org/packages/39/d7/a5c2ae698499b35176fa944c6b265e9f86970e7aa493779bd61a9c919b4b/peak_finder_app-0.1.0b3.tar.gz
+[2024-05-06 03:58:48] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/3b/86/fd9456643837514ccdae50b5c0f5e033d8504868fa7d2705a25245157b30/furrow1k-0.1.1.tar.gz
+[2024-05-06 03:58:48] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-06 03:58:48] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-0.1.0.tar.gz tmp/furrow1k-0.1.1.tar.gz --markdown 20240506/f/furrow1k/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 03:58:48] INFO root fetch - processPackages [geoapps-utils]: Downloading https://files.pythonhosted.org/packages/7e/bd/abfe42c771c444aa50fd1bb58b6f40bb6b91348d98929e7f68dc15e042f6/geoapps_utils-0.3.0rc3.tar.gz
+[2024-05-06 03:58:48] INFO root fetch - processPackages [peak-finder-app]: executing diffoscope
+[2024-05-06 03:58:48] INFO root fetch - processPackages [peak-finder-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peak_finder_app-0.1.0b2.tar.gz tmp/peak_finder_app-0.1.0b3.tar.gz --markdown 20240506/p/peak-finder-app/0.1.0b2-0.1.0b3/README.md --exclude *.pyd
+[2024-05-06 03:58:48] INFO root fetch - processPackages [geoapps-utils]: executing diffoscope
+[2024-05-06 03:58:48] INFO root fetch - processPackages [geoapps-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoapps_utils-0.3.0rc2.tar.gz tmp/geoapps_utils-0.3.0rc3.tar.gz --markdown 20240506/g/geoapps-utils/0.3.0rc2-0.3.0rc3/README.md --exclude *.pyd
+[2024-05-06 03:58:48] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.0.tar.gz]
+[2024-05-06 03:58:48] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.1.tar.gz]
+[2024-05-06 03:58:48] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-06 03:58:48] INFO root fetch - processPackages [geoapps-utils]: Remove: archive file [/home/abi/fetcher/tmp/geoapps_utils-0.3.0rc2.tar.gz]
+[2024-05-06 03:58:48] INFO root fetch - processPackages [geoapps-utils]: Remove: archive file [/home/abi/fetcher/tmp/geoapps_utils-0.3.0rc3.tar.gz]
+[2024-05-06 03:58:48] INFO root fetch - main [MainThread]: End processing [geoapps-utils]: success
+[2024-05-06 03:58:49] INFO root fetch - processPackages [peak-finder-app]: Remove: archive file [/home/abi/fetcher/tmp/peak_finder_app-0.1.0b2.tar.gz]
+[2024-05-06 03:58:49] INFO root fetch - processPackages [peak-finder-app]: Remove: archive file [/home/abi/fetcher/tmp/peak_finder_app-0.1.0b3.tar.gz]
+[2024-05-06 03:58:49] INFO root fetch - main [MainThread]: End processing [peak-finder-app]: success
+[2024-05-06 03:58:49] INFO root fetch - main [MainThread]: Store serial: [23070531]
