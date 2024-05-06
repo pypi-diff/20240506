@@ -21347,3 +21347,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:09:43] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
 [2024-05-06 16:09:43] INFO root fetch - main [MainThread]: End processing [superlinked]: success
 [2024-05-06 16:09:43] INFO root fetch - main [MainThread]: Store serial: [23078932]
+[2024-05-06 16:11:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078932]
+[2024-05-06 16:11:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 16:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scbl-utils
+[2024-05-06 16:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prompeteer
+[2024-05-06 16:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: external-resources-io
+[2024-05-06 16:11:54] INFO root fetch - processPackages [external-resources-io]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 16:11:54] INFO root fetch - processPackages [external-resources-io]: Downloading https://files.pythonhosted.org/packages/df/b7/d0c57e9407f69010befe6a58ee0bbb455cfd174204b8f1fc82105cfc817b/external_resources_io-0.1.8.tar.gz
+[2024-05-06 16:11:54] WARNING root fetch - processPackages [prompeteer]: Skipping, unable to determine old version
+[2024-05-06 16:11:54] INFO root fetch - main [MainThread]: End processing [prompeteer] error
+[2024-05-06 16:11:54] INFO root fetch - processPackages [scbl-utils]: New version: [1.15] Old Version: [1.14]
+[2024-05-06 16:11:55] INFO root fetch - processPackages [scbl-utils]: Downloading https://files.pythonhosted.org/packages/ac/a2/2b3dda45578c1ac652b795fbbd3672a90b4e32d118b6e1dc55b27905501c/scbl_utils-1.14.tar.gz
+[2024-05-06 16:11:55] INFO root fetch - processPackages [external-resources-io]: Downloading https://files.pythonhosted.org/packages/14/47/e9d32327416a4cacc1bcdb8b6934a4d6c1344b02d3d80010046cd86e6415/external_resources_io-0.1.9.tar.gz
+[2024-05-06 16:11:55] INFO root fetch - processPackages [external-resources-io]: executing diffoscope
+[2024-05-06 16:11:55] INFO root fetch - processPackages [external-resources-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/external_resources_io-0.1.8.tar.gz tmp/external_resources_io-0.1.9.tar.gz --markdown 20240506/e/external-resources-io/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:11:55] INFO root fetch - processPackages [scbl-utils]: Downloading https://files.pythonhosted.org/packages/a2/ea/be165486bb3e25f65a203675bc00bb98f778d089026b69947bfd86c56bc5/scbl_utils-1.15.tar.gz
+[2024-05-06 16:11:55] INFO root fetch - processPackages [scbl-utils]: executing diffoscope
+[2024-05-06 16:11:55] INFO root fetch - processPackages [scbl-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scbl_utils-1.14.tar.gz tmp/scbl_utils-1.15.tar.gz --markdown 20240506/s/scbl-utils/1.14-1.15/README.md --exclude *.pyd
+[2024-05-06 16:11:55] INFO root fetch - processPackages [external-resources-io]: Remove: archive file [/home/abi/fetcher/tmp/external_resources_io-0.1.8.tar.gz]
+[2024-05-06 16:11:55] INFO root fetch - processPackages [external-resources-io]: Remove: archive file [/home/abi/fetcher/tmp/external_resources_io-0.1.9.tar.gz]
+[2024-05-06 16:11:55] INFO root fetch - main [MainThread]: End processing [external-resources-io]: success
+[2024-05-06 16:11:56] INFO root fetch - processPackages [scbl-utils]: Remove: archive file [/home/abi/fetcher/tmp/scbl_utils-1.14.tar.gz]
+[2024-05-06 16:11:56] INFO root fetch - processPackages [scbl-utils]: Remove: archive file [/home/abi/fetcher/tmp/scbl_utils-1.15.tar.gz]
+[2024-05-06 16:11:56] INFO root fetch - main [MainThread]: End processing [scbl-utils]: success
+[2024-05-06 16:11:56] INFO root fetch - main [MainThread]: Store serial: [23078944]
