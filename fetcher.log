@@ -7460,3 +7460,78 @@
 [2024-05-06 09:18:50] INFO root fetch - processPackages [starlite]: Remove: archive file [/home/abi/fetcher/tmp/starlite-2.0.0a2.tar.gz]
 [2024-05-06 09:18:50] INFO root fetch - main [MainThread]: End processing [starlite]: success
 [2024-05-06 09:18:50] INFO root fetch - main [MainThread]: Store serial: [23072795]
+[2024-05-06 09:20:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072795]
+[2024-05-06 09:21:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 09:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snapcat
+[2024-05-06 09:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: l2m2
+[2024-05-06 09:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcodes
+[2024-05-06 09:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-profiler
+[2024-05-06 09:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-edge-torch
+[2024-05-06 09:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litestar
+[2024-05-06 09:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-pandas
+[2024-05-06 09:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: translate-util
+[2024-05-06 09:21:00] INFO root fetch - processPackages [snapcat]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 09:21:00] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 09:21:01] INFO root fetch - processPackages [l2m2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 09:21:01] INFO root fetch - processPackages [ai-edge-torch]: New version: [0.dev202405060009] Old Version: [0.dev202312280245]
+[2024-05-06 09:21:01] INFO root fetch - processPackages [qcodes]: New version: [0.9.0rc1] Old Version: [0.9.0a0]
+[2024-05-06 09:21:01] INFO root fetch - processPackages [litestar]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-05-06 09:21:01] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [translate-util]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-06 09:21:01] INFO root fetch - processPackages [py-profiler]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 09:21:01] INFO root fetch - processPackages [snapcat]: Downloading https://files.pythonhosted.org/packages/fb/c9/58285047b93e46cd2fa9cf8adc89c919a0fcfd3d18ab8989abd009564b74/snapcat-0.1.0.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/7f/d9/56c6f685d611068059bd5a3578bbb0aad1b305b1842dc2c8904cc123b945/l2m2-0.0.8.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [qcodes]: Downloading https://files.pythonhosted.org/packages/74/e8/2d98ebbb1eb1589ddfd57474ac1869f4ab1217172b9d8e5231d4b30468c8/qcodes-0.9.0a0.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [py-profiler]: Downloading https://files.pythonhosted.org/packages/82/cd/4d519d4538f6b29d0d9a51199018f2a1cc2f897692c6cfd8459614e36474/py_profiler-0.2.7.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [ai-edge-torch]: Downloading https://files.pythonhosted.org/packages/ba/26/deb9d74e8c334ff051b6348fed5f18607ba0c12e18c6c2b36bdd7ccee32d/ai_edge_torch-0.dev202312280245-py3-none-any.whl
+[2024-05-06 09:21:01] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/49/c7/e9b58aa7f8eea1a3b4ed9d11c5d2010be417b9d8edd93eee907cba4080d5/litestar-2.8.2.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [translate-util]: Downloading https://files.pythonhosted.org/packages/51/70/c24bb5dce8f294517194967aaf50addc73e4a916ad645bf00ab2b0a4a6bf/translate_util-1.0.9.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 09:21:01] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 09:21:01] INFO root fetch - processPackages [snapcat]: Downloading https://files.pythonhosted.org/packages/f7/7b/99071bab2ee691bde34d3e3922be84cc1fa3bf74bcc2d14431f550c1043f/snapcat-0.1.1.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/cc/a2/dbe134061914f7906a58b526cdf405e02c2a78096e5d90fc4eb5b326176c/l2m2-0.0.9.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [ai-edge-torch]: Downloading https://files.pythonhosted.org/packages/d9/44/53a2004548b91d017a2f2a90c231459a15a20377733291551c8598107026/ai_edge_torch-0.dev202405060009-py3-none-any.whl
+[2024-05-06 09:21:01] INFO root fetch - processPackages [snapcat]: executing diffoscope
+[2024-05-06 09:21:01] INFO root fetch - processPackages [snapcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapcat-0.1.0.tar.gz tmp/snapcat-0.1.1.tar.gz --markdown 20240506/s/snapcat/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 09:21:01] INFO root fetch - processPackages [translate-util]: Downloading https://files.pythonhosted.org/packages/03/53/eb07f0c8d7cdbc948bb10b9f3559b18576b577ba6353bd26cf1e7511579d/translate_util-1.1.0.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [py-profiler]: Downloading https://files.pythonhosted.org/packages/99/1a/de1bd771ba658267a8c336d94823cdd06d690da8d0e0ec4d84fd8170e0bd/py_profiler-0.2.8.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [l2m2]: executing diffoscope
+[2024-05-06 09:21:01] INFO root fetch - processPackages [l2m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2m2-0.0.8.tar.gz tmp/l2m2-0.0.9.tar.gz --markdown 20240506/l/l2m2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 09:21:01] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/f0/9e/35000a2e42c92a67eae13aa0ae84f479f8ba8a522a054e877e6874a12068/litestar-2.8.3.tar.gz
+[2024-05-06 09:21:01] INFO root fetch - processPackages [ai-edge-torch]: executing diffoscope
+[2024-05-06 09:21:01] INFO root fetch - processPackages [ai-edge-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_edge_torch-0.dev202312280245-py3-none-any.whl.zip tmp/ai_edge_torch-0.dev202405060009-py3-none-any.whl.zip --markdown 20240506/a/ai-edge-torch/0.dev202312280245-0.dev202405060009/README.md --exclude *.pyd
+[2024-05-06 09:21:01] INFO root fetch - processPackages [py-profiler]: executing diffoscope
+[2024-05-06 09:21:01] INFO root fetch - processPackages [py-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_profiler-0.2.7.tar.gz tmp/py_profiler-0.2.8.tar.gz --markdown 20240506/p/py-profiler/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 09:21:01] INFO root fetch - processPackages [translate-util]: executing diffoscope
+[2024-05-06 09:21:01] INFO root fetch - processPackages [translate-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate_util-1.0.9.tar.gz tmp/translate_util-1.1.0.tar.gz --markdown 20240506/t/translate-util/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-06 09:21:02] INFO root fetch - processPackages [litestar]: executing diffoscope
+[2024-05-06 09:21:02] INFO root fetch - processPackages [litestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litestar-2.8.2.tar.gz tmp/litestar-2.8.3.tar.gz --markdown 20240506/l/litestar/2.8.2-2.8.3/README.md --exclude *.pyd
+[2024-05-06 09:21:02] INFO root fetch - processPackages [qcodes]: Downloading https://files.pythonhosted.org/packages/2e/42/b02a9e3387220e38ebcbf9d57b658f8dc04a12ba6e0f214f79f4a5b8fd0c/qcodes-0.9.0rc1.tar.gz
+[2024-05-06 09:21:02] INFO root fetch - processPackages [qcodes]: executing diffoscope
+[2024-05-06 09:21:02] INFO root fetch - processPackages [qcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcodes-0.9.0a0.tar.gz tmp/qcodes-0.9.0rc1.tar.gz --markdown 20240506/q/qcodes/0.9.0a0-0.9.0rc1/README.md --exclude *.pyd
+[2024-05-06 09:21:02] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 09:21:02] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 09:21:02] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 09:21:02] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.8.tar.gz]
+[2024-05-06 09:21:02] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.9.tar.gz]
+[2024-05-06 09:21:02] INFO root fetch - main [MainThread]: End processing [l2m2]: success
+[2024-05-06 09:21:02] INFO root fetch - processPackages [ai-edge-torch]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch-0.dev202312280245-py3-none-any.whl.zip]
+[2024-05-06 09:21:02] INFO root fetch - processPackages [ai-edge-torch]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch-0.dev202405060009-py3-none-any.whl.zip]
+[2024-05-06 09:21:02] INFO root fetch - main [MainThread]: End processing [ai-edge-torch]: success
+[2024-05-06 09:21:02] INFO root fetch - processPackages [py-profiler]: Remove: archive file [/home/abi/fetcher/tmp/py_profiler-0.2.7.tar.gz]
+[2024-05-06 09:21:02] INFO root fetch - processPackages [py-profiler]: Remove: archive file [/home/abi/fetcher/tmp/py_profiler-0.2.8.tar.gz]
+[2024-05-06 09:21:02] INFO root fetch - main [MainThread]: End processing [py-profiler]: success
+[2024-05-06 09:21:02] INFO root fetch - processPackages [translate-util]: Remove: archive file [/home/abi/fetcher/tmp/translate_util-1.0.9.tar.gz]
+[2024-05-06 09:21:02] INFO root fetch - processPackages [snapcat]: Remove: archive file [/home/abi/fetcher/tmp/snapcat-0.1.0.tar.gz]
+[2024-05-06 09:21:02] INFO root fetch - processPackages [translate-util]: Remove: archive file [/home/abi/fetcher/tmp/translate_util-1.1.0.tar.gz]
+[2024-05-06 09:21:02] INFO root fetch - processPackages [snapcat]: Remove: archive file [/home/abi/fetcher/tmp/snapcat-0.1.1.tar.gz]
+[2024-05-06 09:21:02] INFO root fetch - main [MainThread]: End processing [translate-util]: success
+[2024-05-06 09:21:02] INFO root fetch - main [MainThread]: End processing [snapcat]: success
+[2024-05-06 09:21:04] INFO root fetch - processPackages [qcodes]: Remove: archive file [/home/abi/fetcher/tmp/qcodes-0.9.0a0.tar.gz]
+[2024-05-06 09:21:04] INFO root fetch - processPackages [qcodes]: Remove: archive file [/home/abi/fetcher/tmp/qcodes-0.9.0rc1.tar.gz]
+[2024-05-06 09:21:04] INFO root fetch - main [MainThread]: End processing [qcodes]: success
+[2024-05-06 09:21:05] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.8.2.tar.gz]
+[2024-05-06 09:21:05] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.8.3.tar.gz]
+[2024-05-06 09:21:05] INFO root fetch - main [MainThread]: End processing [litestar]: success
+[2024-05-06 09:21:05] INFO root fetch - main [MainThread]: Store serial: [23072831]
