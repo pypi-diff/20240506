@@ -6108,3 +6108,45 @@
 [2024-05-06 07:54:41] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-1.1.0.tar.gz]
 [2024-05-06 07:54:41] INFO root fetch - main [MainThread]: End processing [beanhub-cli]: success
 [2024-05-06 07:54:41] INFO root fetch - main [MainThread]: Store serial: [23072093]
+[2024-05-06 07:56:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072093]
+[2024-05-06 07:56:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shorts-generator
+[2024-05-06 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manila
+[2024-05-06 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracebloc-package-dev
+[2024-05-06 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autopipeline
+[2024-05-06 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lyywxgui
+[2024-05-06 07:56:49] INFO root fetch - processPackages [shorts-generator]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 07:56:49] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-06 07:56:49] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-06 07:56:49] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-05-06 07:56:49] INFO root fetch - processPackages [manila]: New version: [9.1.5] Old Version: [9.1.4]
+[2024-05-06 07:56:49] WARNING root fetch - processPackages [lyywxgui]: Skipping, unable to determine old version
+[2024-05-06 07:56:49] INFO root fetch - main [MainThread]: End processing [lyywxgui] error
+[2024-05-06 07:56:49] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-06 07:56:49] INFO root fetch - processPackages [shorts-generator]: Downloading https://files.pythonhosted.org/packages/16/b5/81e0eca4e385c9e85d3ed087d01f56f94d8b83627ae55de121198bb10d8e/shorts_generator-0.1.0.tar.gz
+[2024-05-06 07:56:50] INFO root fetch - processPackages [manila]: Downloading https://files.pythonhosted.org/packages/c8/4d/5186da41a24e5e613de3c44ea6e3dd76b697d8de3c5f3f28ba3e822db849/manila-9.1.4.tar.gz
+[2024-05-06 07:56:50] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-05-06 07:56:50] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-06 07:56:50] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-05-06 07:56:50] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240506/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-06 07:56:50] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-06 07:56:50] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240506/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-06 07:56:50] INFO root fetch - processPackages [shorts-generator]: Downloading https://files.pythonhosted.org/packages/9f/e5/e1b22bb9f304765aa4baac60a9de0c1062aca1e7fc64a0198d1461cd4b0e/shorts_generator-0.1.1.tar.gz
+[2024-05-06 07:56:50] INFO root fetch - processPackages [shorts-generator]: executing diffoscope
+[2024-05-06 07:56:50] INFO root fetch - processPackages [shorts-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shorts_generator-0.1.0.tar.gz tmp/shorts_generator-0.1.1.tar.gz --markdown 20240506/s/shorts-generator/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 07:56:51] INFO root fetch - processPackages [shorts-generator]: Remove: archive file [/home/abi/fetcher/tmp/shorts_generator-0.1.0.tar.gz]
+[2024-05-06 07:56:51] INFO root fetch - processPackages [shorts-generator]: Remove: archive file [/home/abi/fetcher/tmp/shorts_generator-0.1.1.tar.gz]
+[2024-05-06 07:56:51] INFO root fetch - main [MainThread]: End processing [shorts-generator]: success
+[2024-05-06 07:56:51] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-05-06 07:56:51] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-05-06 07:56:51] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-05-06 07:56:51] INFO root fetch - processPackages [manila]: Downloading https://files.pythonhosted.org/packages/dc/0b/98df61720f34ffa55ec872a616da8b6cf85bfd82c3c6b22d284ffa6ea078/manila-9.1.5.tar.gz
+[2024-05-06 07:56:51] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-06 07:56:51] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-06 07:56:51] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-06 07:56:52] INFO root fetch - processPackages [manila]: executing diffoscope
+[2024-05-06 07:56:52] INFO root fetch - processPackages [manila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manila-9.1.4.tar.gz tmp/manila-9.1.5.tar.gz --markdown 20240506/m/manila/9.1.4-9.1.5/README.md --exclude *.pyd
+[2024-05-06 07:56:59] INFO root fetch - processPackages [manila]: Remove: archive file [/home/abi/fetcher/tmp/manila-9.1.4.tar.gz]
+[2024-05-06 07:56:59] INFO root fetch - processPackages [manila]: Remove: archive file [/home/abi/fetcher/tmp/manila-9.1.5.tar.gz]
+[2024-05-06 07:56:59] INFO root fetch - main [MainThread]: End processing [manila]: success
+[2024-05-06 07:56:59] INFO root fetch - main [MainThread]: Store serial: [23072111]
