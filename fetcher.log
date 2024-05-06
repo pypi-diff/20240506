@@ -15328,3 +15328,29 @@
 [2024-05-06 12:15:52] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
 [2024-05-06 12:15:52] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
 [2024-05-06 12:15:52] INFO root fetch - main [MainThread]: Store serial: [23075952]
+[2024-05-06 12:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075952]
+[2024-05-06 12:18:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 12:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: premise
+[2024-05-06 12:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YMS
+[2024-05-06 12:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-material
+[2024-05-06 12:18:01] INFO root fetch - processPackages [YMS]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-06 12:18:01] INFO root fetch - processPackages [drf-material]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 12:18:01] INFO root fetch - processPackages [premise]: New version: [2.1.0.dev5] Old Version: [2.1.0.dev4]
+[2024-05-06 12:18:02] INFO root fetch - processPackages [drf-material]: Downloading https://files.pythonhosted.org/packages/bf/22/923c48653d523532efcc0044429b4d791093969e2da2c183133454f87811/drf_material-0.2.8-py3-none-any.whl
+[2024-05-06 12:18:02] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/8e/8b/10c84e60bc2e22d6071e93687abf299664fc52654c6522f27093357aaa38/YMS-1.2.7.tar.gz
+[2024-05-06 12:18:02] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/0f/3d/884a402e1015d799a5ab901533e0089a27995be23dc0fff71a386c56f9e1/premise-2.1.0.dev4.tar.gz
+[2024-05-06 12:18:02] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 75070330>=10485760
+[2024-05-06 12:18:02] INFO root fetch - main [MainThread]: End processing [premise] error
+[2024-05-06 12:18:02] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/76/b5/1a3982d2f6841af193a3a6cf9118cf43617a4dd6bc6f938973ab4e5c26be/YMS-1.2.8.tar.gz
+[2024-05-06 12:18:02] INFO root fetch - processPackages [drf-material]: Downloading https://files.pythonhosted.org/packages/28/c0/821b302278ec5c4fec22f74227e934c15b956e839713658b1efa3e24c8ab/drf_material-0.2.9.tar.gz
+[2024-05-06 12:18:02] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2024-05-06 12:18:02] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-1.2.7.tar.gz tmp/YMS-1.2.8.tar.gz --markdown 20240506/Y/YMS/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-06 12:18:02] INFO root fetch - processPackages [drf-material]: executing diffoscope
+[2024-05-06 12:18:02] INFO root fetch - processPackages [drf-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_material-0.2.8-py3-none-any.whl.zip tmp/drf_material-0.2.9.tar.gz --markdown 20240506/d/drf-material/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 12:18:03] INFO root fetch - processPackages [drf-material]: Remove: archive file [/home/abi/fetcher/tmp/drf_material-0.2.8-py3-none-any.whl.zip]
+[2024-05-06 12:18:03] INFO root fetch - processPackages [drf-material]: Remove: archive file [/home/abi/fetcher/tmp/drf_material-0.2.9.tar.gz]
+[2024-05-06 12:18:03] INFO root fetch - main [MainThread]: End processing [drf-material]: success
+[2024-05-06 12:18:03] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-1.2.7.tar.gz]
+[2024-05-06 12:18:03] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-1.2.8.tar.gz]
+[2024-05-06 12:18:03] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2024-05-06 12:18:03] INFO root fetch - main [MainThread]: Store serial: [23075962]
