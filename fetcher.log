@@ -4832,3 +4832,36 @@
 [2024-05-06 06:25:05] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.9.tar.gz]
 [2024-05-06 06:25:05] INFO root fetch - main [MainThread]: End processing [jcvi]: success
 [2024-05-06 06:25:05] INFO root fetch - main [MainThread]: Store serial: [23071505]
+[2024-05-06 06:27:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071505]
+[2024-05-06 06:27:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: espy-contact
+[2024-05-06 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xnippet
+[2024-05-06 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: planetMagFields
+[2024-05-06 06:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: platforms
+[2024-05-06 06:27:14] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-06 06:27:14] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-06 06:27:14] WARNING root fetch - processPackages [xnippet]: Skipping, unable to determine old version
+[2024-05-06 06:27:14] INFO root fetch - main [MainThread]: End processing [xnippet] error
+[2024-05-06 06:27:14] INFO root fetch - processPackages [platforms]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-06 06:27:14] INFO root fetch - processPackages [planetMagFields]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-06 06:27:14] INFO root fetch - processPackages [planetMagFields]: Downloading https://files.pythonhosted.org/packages/60/f0/a540b66a406af20c6f2d7e03ee1f66630f328cff657458d587efaabe0e41/planetmagfields-1.4.2.tar.gz
+[2024-05-06 06:27:14] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-06 06:27:14] INFO root fetch - processPackages [platforms]: Downloading https://files.pythonhosted.org/packages/fc/30/b58887e5e444ada16d633c0058a7629970c4248370ef84e8a1c30a38f48d/platforms-2.0.0.tar.gz
+[2024-05-06 06:27:14] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-06 06:27:14] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240506/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-06 06:27:14] INFO root fetch - processPackages [planetMagFields]: Downloading https://files.pythonhosted.org/packages/be/23/a6c294e5d0b3caaa9b58def0d6e7ad0738cccbe2e8976ad6fd9663887b14/planetmagfields-1.4.3.tar.gz
+[2024-05-06 06:27:14] INFO root fetch - processPackages [platforms]: Downloading https://files.pythonhosted.org/packages/b7/af/9ce3599c4e516c9a5ed69cb8b78880844ae027111e42687de7649a6560db/platforms-3.0.0.tar.gz
+[2024-05-06 06:27:14] INFO root fetch - processPackages [planetMagFields]: executing diffoscope
+[2024-05-06 06:27:14] INFO root fetch - processPackages [planetMagFields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmagfields-1.4.2.tar.gz tmp/planetmagfields-1.4.3.tar.gz --markdown 20240506/p/planetMagFields/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-06 06:27:14] INFO root fetch - processPackages [platforms]: executing diffoscope
+[2024-05-06 06:27:14] INFO root fetch - processPackages [platforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platforms-2.0.0.tar.gz tmp/platforms-3.0.0.tar.gz --markdown 20240506/p/platforms/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-06 06:27:15] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-06 06:27:15] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-06 06:27:15] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-06 06:27:15] INFO root fetch - processPackages [planetMagFields]: Remove: archive file [/home/abi/fetcher/tmp/planetmagfields-1.4.2.tar.gz]
+[2024-05-06 06:27:15] INFO root fetch - processPackages [planetMagFields]: Remove: archive file [/home/abi/fetcher/tmp/planetmagfields-1.4.3.tar.gz]
+[2024-05-06 06:27:15] INFO root fetch - main [MainThread]: End processing [planetMagFields]: success
+[2024-05-06 06:27:15] INFO root fetch - processPackages [platforms]: Remove: archive file [/home/abi/fetcher/tmp/platforms-2.0.0.tar.gz]
+[2024-05-06 06:27:15] INFO root fetch - processPackages [platforms]: Remove: archive file [/home/abi/fetcher/tmp/platforms-3.0.0.tar.gz]
+[2024-05-06 06:27:15] INFO root fetch - main [MainThread]: End processing [platforms]: success
+[2024-05-06 06:27:15] INFO root fetch - main [MainThread]: Store serial: [23071529]
