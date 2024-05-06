@@ -1799,3 +1799,24 @@
 [2024-05-06 02:52:31] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-06 02:52:31] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-06 02:52:31] INFO root fetch - main [MainThread]: Store serial: [23070249]
+[2024-05-06 02:54:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070249]
+[2024-05-06 02:54:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 02:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fish-audio-preprocess
+[2024-05-06 02:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: music-assistant-frontend
+[2024-05-06 02:54:39] INFO root fetch - processPackages [fish-audio-preprocess]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 02:54:39] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.5.2] Old Version: [2.5.1]
+[2024-05-06 02:54:39] INFO root fetch - processPackages [fish-audio-preprocess]: Downloading https://files.pythonhosted.org/packages/ec/fa/c2af5147f0a6716f1c1646aa3fa50ad0e27bf3d64c8588b5127740ca58bc/fish_audio_preprocess-0.2.7.tar.gz
+[2024-05-06 02:54:39] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/ff/9f/49aae6e1ad9a5783dbd2f22e4e93405806f2297acdf969e2243e1a557294/music-assistant-frontend-2.5.1.tar.gz
+[2024-05-06 02:54:40] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/55/ba/e1a0b7901b7f82bd4d9258feaf3b7611124093a3d8daa5f0658b36868c4a/music-assistant-frontend-2.5.2.tar.gz
+[2024-05-06 02:54:40] INFO root fetch - processPackages [fish-audio-preprocess]: Downloading https://files.pythonhosted.org/packages/c4/fa/f5b6efc7e9e77944a82011692aea869e485ed4128fa3826eae23c6647004/fish_audio_preprocess-0.2.8.tar.gz
+[2024-05-06 02:54:41] INFO root fetch - processPackages [fish-audio-preprocess]: executing diffoscope
+[2024-05-06 02:54:41] INFO root fetch - processPackages [fish-audio-preprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fish_audio_preprocess-0.2.7.tar.gz tmp/fish_audio_preprocess-0.2.8.tar.gz --markdown 20240506/f/fish-audio-preprocess/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 02:54:41] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2024-05-06 02:54:41] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.5.1.tar.gz tmp/music-assistant-frontend-2.5.2.tar.gz --markdown 20240506/m/music-assistant-frontend/2.5.1-2.5.2/README.md --exclude *.pyd
+[2024-05-06 02:54:41] INFO root fetch - processPackages [fish-audio-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/fish_audio_preprocess-0.2.7.tar.gz]
+[2024-05-06 02:54:41] INFO root fetch - processPackages [fish-audio-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/fish_audio_preprocess-0.2.8.tar.gz]
+[2024-05-06 02:54:41] INFO root fetch - main [MainThread]: End processing [fish-audio-preprocess]: success
+[2024-05-06 02:54:57] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.5.1.tar.gz]
+[2024-05-06 02:54:57] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.5.2.tar.gz]
+[2024-05-06 02:54:57] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2024-05-06 02:54:57] INFO root fetch - main [MainThread]: Store serial: [23070256]
