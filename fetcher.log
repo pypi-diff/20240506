@@ -4419,3 +4419,45 @@
 [2024-05-06 05:56:30] INFO root fetch - processPackages [squigualiser]: Remove: archive file [/home/abi/fetcher/tmp/squigualiser-0.6.2.tar.gz]
 [2024-05-06 05:56:30] INFO root fetch - main [MainThread]: End processing [squigualiser]: success
 [2024-05-06 05:56:30] INFO root fetch - main [MainThread]: Store serial: [23071310]
+[2024-05-06 05:58:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071310]
+[2024-05-06 05:58:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 05:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: squigualiser
+[2024-05-06 05:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proxyrotation
+[2024-05-06 05:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aidot
+[2024-05-06 05:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PepperPepper
+[2024-05-06 05:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipih
+[2024-05-06 05:58:39] INFO root fetch - processPackages [squigualiser]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-06 05:58:39] INFO root fetch - processPackages [aidot]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 05:58:39] INFO root fetch - processPackages [squigualiser]: Downloading https://files.pythonhosted.org/packages/b9/39/c370eaffe9a54f42c5a8455866e5d2e040de0dda08d254f07b10b391f733/squigualiser-0.6.1.tar.gz
+[2024-05-06 05:58:39] INFO root fetch - processPackages [ipih]: New version: [0.22] Old Version: [0.20]
+[2024-05-06 05:58:39] WARNING root fetch - processPackages [proxyrotation]: Skipping, unable to determine old version
+[2024-05-06 05:58:39] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.1] Old Version: [0.0.7.0]
+[2024-05-06 05:58:39] INFO root fetch - main [MainThread]: End processing [proxyrotation] error
+[2024-05-06 05:58:39] INFO root fetch - processPackages [aidot]: Downloading https://files.pythonhosted.org/packages/f2/73/22c186c5774274b46f22199bd2bc546adc9f214c472afeb7eba7705550f1/aidot-0.1.0.tar.gz
+[2024-05-06 05:58:40] INFO root fetch - processPackages [ipih]: Downloading https://files.pythonhosted.org/packages/12/3c/850475f67ea5dcbce98c214182ae0346a3074718aeabef971b9f42988375/ipih-0.20.tar.gz
+[2024-05-06 05:58:40] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/d3/f1/aac2cdaab2017dbe372999804788d365dfdbae2fc0b62953d990d1da1cdb/pepperpepper-0.0.7.0.tar.gz
+[2024-05-06 05:58:40] INFO root fetch - processPackages [squigualiser]: Downloading https://files.pythonhosted.org/packages/6c/68/409711848bc39c22efa43d7f409310129f9e77c33554430329c34df3aaad/squigualiser-0.6.2.tar.gz
+[2024-05-06 05:58:40] INFO root fetch - processPackages [squigualiser]: executing diffoscope
+[2024-05-06 05:58:40] INFO root fetch - processPackages [squigualiser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squigualiser-0.6.1.tar.gz tmp/squigualiser-0.6.2.tar.gz --markdown 20240506/s/squigualiser/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-06 05:58:40] INFO root fetch - processPackages [aidot]: Downloading https://files.pythonhosted.org/packages/1a/9e/3a4d0cb871e565275db5366459bb9fe4787d5c19171a096cff848ee58496/aidot-0.1.1.tar.gz
+[2024-05-06 05:58:40] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/6d/54/dfcb3c01cce906cc3e3c8f4b9deceec47772a5ac3811dbacd5237135a07c/pepperpepper-0.0.7.1.tar.gz
+[2024-05-06 05:58:40] INFO root fetch - processPackages [aidot]: executing diffoscope
+[2024-05-06 05:58:40] INFO root fetch - processPackages [aidot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aidot-0.1.0.tar.gz tmp/aidot-0.1.1.tar.gz --markdown 20240506/a/aidot/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 05:58:40] INFO root fetch - processPackages [ipih]: Downloading https://files.pythonhosted.org/packages/0d/42/8096ca1ade988714545e3000946413216ee4d7bdc6bfe7f8c74e466c8458/ipih-0.22.tar.gz
+[2024-05-06 05:58:40] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-06 05:58:40] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.0.tar.gz tmp/pepperpepper-0.0.7.1.tar.gz --markdown 20240506/P/PepperPepper/0.0.7.0-0.0.7.1/README.md --exclude *.pyd
+[2024-05-06 05:58:40] INFO root fetch - processPackages [ipih]: executing diffoscope
+[2024-05-06 05:58:40] INFO root fetch - processPackages [ipih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipih-0.20.tar.gz tmp/ipih-0.22.tar.gz --markdown 20240506/i/ipih/0.20-0.22/README.md --exclude *.pyd
+[2024-05-06 05:58:40] INFO root fetch - processPackages [aidot]: Remove: archive file [/home/abi/fetcher/tmp/aidot-0.1.0.tar.gz]
+[2024-05-06 05:58:40] INFO root fetch - processPackages [aidot]: Remove: archive file [/home/abi/fetcher/tmp/aidot-0.1.1.tar.gz]
+[2024-05-06 05:58:40] INFO root fetch - main [MainThread]: End processing [aidot]: success
+[2024-05-06 05:58:41] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.0.tar.gz]
+[2024-05-06 05:58:41] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.1.tar.gz]
+[2024-05-06 05:58:41] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-06 05:58:41] INFO root fetch - processPackages [ipih]: Remove: archive file [/home/abi/fetcher/tmp/ipih-0.20.tar.gz]
+[2024-05-06 05:58:41] INFO root fetch - processPackages [ipih]: Remove: archive file [/home/abi/fetcher/tmp/ipih-0.22.tar.gz]
+[2024-05-06 05:58:41] INFO root fetch - main [MainThread]: End processing [ipih]: success
+[2024-05-06 05:58:41] INFO root fetch - processPackages [squigualiser]: Remove: archive file [/home/abi/fetcher/tmp/squigualiser-0.6.1.tar.gz]
+[2024-05-06 05:58:41] INFO root fetch - processPackages [squigualiser]: Remove: archive file [/home/abi/fetcher/tmp/squigualiser-0.6.2.tar.gz]
+[2024-05-06 05:58:41] INFO root fetch - main [MainThread]: End processing [squigualiser]: success
+[2024-05-06 05:58:41] INFO root fetch - main [MainThread]: Store serial: [23071328]
