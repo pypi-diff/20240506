@@ -1778,3 +1778,24 @@
 [2024-05-06 02:50:03] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python_criteria-0.7.0.tar.gz]
 [2024-05-06 02:50:03] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
 [2024-05-06 02:50:03] INFO root fetch - main [MainThread]: Store serial: [23070243]
+[2024-05-06 02:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070243]
+[2024-05-06 02:52:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 02:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2024-05-06 02:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: megadetector
+[2024-05-06 02:52:11] INFO root fetch - processPackages [megadetector]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-05-06 02:52:11] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-06 02:52:11] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-06 02:52:11] INFO root fetch - processPackages [megadetector]: Downloading https://files.pythonhosted.org/packages/5e/de/9bde6bcb4ea0d4ed12776912e30cbb21cdb2506d498f1d6813e95b224120/megadetector-5.0.8.tar.gz
+[2024-05-06 02:52:11] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-06 02:52:12] INFO root fetch - processPackages [megadetector]: Downloading https://files.pythonhosted.org/packages/82/57/85d6f03e7d73bf2cb6608c7f4e55306c89a9b03a0074bd1d00baf8b038ba/megadetector-5.0.9.tar.gz
+[2024-05-06 02:52:12] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-06 02:52:12] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240506/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-06 02:52:12] INFO root fetch - processPackages [megadetector]: executing diffoscope
+[2024-05-06 02:52:12] INFO root fetch - processPackages [megadetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadetector-5.0.8.tar.gz tmp/megadetector-5.0.9.tar.gz --markdown 20240506/m/megadetector/5.0.8-5.0.9/README.md --exclude *.pyd
+[2024-05-06 02:52:14] INFO root fetch - processPackages [megadetector]: Remove: archive file [/home/abi/fetcher/tmp/megadetector-5.0.8.tar.gz]
+[2024-05-06 02:52:14] INFO root fetch - processPackages [megadetector]: Remove: archive file [/home/abi/fetcher/tmp/megadetector-5.0.9.tar.gz]
+[2024-05-06 02:52:14] INFO root fetch - main [MainThread]: End processing [megadetector]: success
+[2024-05-06 02:52:31] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-06 02:52:31] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-06 02:52:31] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-06 02:52:31] INFO root fetch - main [MainThread]: Store serial: [23070249]
