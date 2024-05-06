@@ -2836,3 +2836,81 @@
 [2024-05-06 04:20:38] INFO root fetch - processPackages [redbot]: Remove: archive file [/home/abi/fetcher/tmp/redbot-2.0.9.tar.gz]
 [2024-05-06 04:20:38] INFO root fetch - main [MainThread]: End processing [redbot]: success
 [2024-05-06 04:20:38] INFO root fetch - main [MainThread]: Store serial: [23070643]
+[2024-05-06 04:22:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070643]
+[2024-05-06 04:22:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: furrow1k
+[2024-05-06 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsplus
+[2024-05-06 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xnippy
+[2024-05-06 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-regex
+[2024-05-06 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-Pygments
+[2024-05-06 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: migration-db
+[2024-05-06 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-docker
+[2024-05-06 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: web-ui-helper
+[2024-05-06 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ldc-doc
+[2024-05-06 04:22:47] INFO root fetch - processPackages [furrow1k]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-06 04:22:47] INFO root fetch - processPackages [dsplus]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-06 04:22:47] INFO root fetch - processPackages [web-ui-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 04:22:47] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/20/e8/42e7a3896ad4731840431668f52b9a000310dc77634d0d086a1049fdb060/furrow1k-0.1.3.tar.gz
+[2024-05-06 04:22:47] WARNING root fetch - processPackages [ldc-doc]: Skipping, unable to determine old version
+[2024-05-06 04:22:47] INFO root fetch - main [MainThread]: End processing [ldc-doc] error
+[2024-05-06 04:22:47] INFO root fetch - processPackages [types-Pygments]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-06 04:22:47] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240506] Old Version: [7.0.0.20240503]
+[2024-05-06 04:22:47] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/c9/ff/b364f60ce185f59ac74059aec301d941570acc93a0d289e15f139c988f81/web-ui-helper-0.0.8.tar.gz
+[2024-05-06 04:22:47] INFO root fetch - processPackages [migration-db]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-06 04:22:47] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/a1/5a/8a84aa073f91ae92c624686782d4e824f4d4b451a946c38b2daf3c029a97/dsplus-0.4.3.tar.gz
+[2024-05-06 04:22:47] INFO root fetch - processPackages [xnippy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 04:22:47] INFO root fetch - processPackages [types-regex]: New version: [2024.4.28.20240506] Old Version: [2024.4.28.20240430]
+[2024-05-06 04:22:47] INFO root fetch - processPackages [xnippy]: Downloading https://files.pythonhosted.org/packages/d0/40/265710042a89fcab3e98f99a9705c912bccbebabdf5db2907b2e30f1c3af/xnippy-0.1.0.tar.gz
+[2024-05-06 04:22:47] INFO root fetch - processPackages [types-Pygments]: Downloading https://files.pythonhosted.org/packages/c9/56/b2ad30fcb1d8adc4eecfa5a32fa94dd044da60de58ab44120bd3503a3074/types-Pygments-2.9.8.tar.gz
+[2024-05-06 04:22:47] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/a0/7b/31317b76f4c4057698bb7267a13729cd168dbf3e5bbad6bd9e4ab3abed8c/types-docker-7.0.0.20240503.tar.gz
+[2024-05-06 04:22:47] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/b9/b3/45d981ca1f59c202cf8e13e1a290c5d26e98a891f13eee02b91d65ed9256/types-regex-2024.4.28.20240430.tar.gz
+[2024-05-06 04:22:47] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/ec/3d/1a345ced5eb068fa39c8cc774755832c4f632d094d3dd71e19c86b97013e/migration_db-1.0.5.tar.gz
+[2024-05-06 04:22:47] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/ea/ce/6707c875299b71ff59a385a23cc2518157399fe22eb8fc04cc80838a7b16/dsplus-0.4.4.tar.gz
+[2024-05-06 04:22:47] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/f2/8c/cbc53646b4ae178eaf0560387ace74f26e8e5e1014d2bed53816646b58ba/furrow1k-0.1.4.tar.gz
+[2024-05-06 04:22:47] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/f9/67/3ea65ed5e35cde11b9f359a759db6bfe6183992bce9d5cbf38c61cbca49f/web-ui-helper-0.0.9.tar.gz
+[2024-05-06 04:22:47] INFO root fetch - processPackages [dsplus]: executing diffoscope
+[2024-05-06 04:22:47] INFO root fetch - processPackages [dsplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsplus-0.4.3.tar.gz tmp/dsplus-0.4.4.tar.gz --markdown 20240506/d/dsplus/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-06 04:22:48] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-06 04:22:48] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-0.1.3.tar.gz tmp/furrow1k-0.1.4.tar.gz --markdown 20240506/f/furrow1k/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-06 04:22:48] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-06 04:22:48] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.0.8.tar.gz tmp/web-ui-helper-0.0.9.tar.gz --markdown 20240506/w/web-ui-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 04:22:48] INFO root fetch - processPackages [xnippy]: Downloading https://files.pythonhosted.org/packages/22/57/403d9dfe0ff5d3047d5b9026afc0e817d6b734e3fd60b0eb759f7d419c62/xnippy-0.1.1.tar.gz
+[2024-05-06 04:22:48] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/ca/22/16c37b8bb47e1826207f4c93909fe9b4810342c56fbf3313dc20091baa0e/types-regex-2024.4.28.20240506.tar.gz
+[2024-05-06 04:22:48] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/b8/1d/280cfe9e49271443e30a2792c62cabe03fb32d608e56e5eef5c673ccab3d/types-docker-7.0.0.20240506.tar.gz
+[2024-05-06 04:22:48] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/e0/f7/b4dc750abdadf7c7f0ba22542f07d1a660bef238f7fb6c2e5aae9df0b60e/migration_db-1.0.6.tar.gz
+[2024-05-06 04:22:48] INFO root fetch - processPackages [types-regex]: executing diffoscope
+[2024-05-06 04:22:48] INFO root fetch - processPackages [types-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-regex-2024.4.28.20240430.tar.gz tmp/types-regex-2024.4.28.20240506.tar.gz --markdown 20240506/t/types-regex/2024.4.28.20240430-2024.4.28.20240506/README.md --exclude *.pyd
+[2024-05-06 04:22:48] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-05-06 04:22:48] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240503.tar.gz tmp/types-docker-7.0.0.20240506.tar.gz --markdown 20240506/t/types-docker/7.0.0.20240503-7.0.0.20240506/README.md --exclude *.pyd
+[2024-05-06 04:22:48] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-05-06 04:22:48] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.5.tar.gz tmp/migration_db-1.0.6.tar.gz --markdown 20240506/m/migration-db/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-06 04:22:48] INFO root fetch - processPackages [xnippy]: executing diffoscope
+[2024-05-06 04:22:48] INFO root fetch - processPackages [xnippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnippy-0.1.0.tar.gz tmp/xnippy-0.1.1.tar.gz --markdown 20240506/x/xnippy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 04:22:48] INFO root fetch - processPackages [types-Pygments]: Downloading https://files.pythonhosted.org/packages/a5/78/069a5801bd89176dcd3bafc8423c87aba8533725658bd19d7c34284a4e9d/types-Pygments-2.9.9.tar.gz
+[2024-05-06 04:22:48] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.3.tar.gz]
+[2024-05-06 04:22:48] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.4.tar.gz]
+[2024-05-06 04:22:48] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-06 04:22:48] INFO root fetch - processPackages [types-Pygments]: executing diffoscope
+[2024-05-06 04:22:48] INFO root fetch - processPackages [types-Pygments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Pygments-2.9.8.tar.gz tmp/types-Pygments-2.9.9.tar.gz --markdown 20240506/t/types-Pygments/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-06 04:22:48] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.8.tar.gz]
+[2024-05-06 04:22:48] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.9.tar.gz]
+[2024-05-06 04:22:48] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-06 04:22:48] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.3.tar.gz]
+[2024-05-06 04:22:48] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.4.tar.gz]
+[2024-05-06 04:22:48] INFO root fetch - main [MainThread]: End processing [dsplus]: success
+[2024-05-06 04:22:49] INFO root fetch - processPackages [types-regex]: Remove: archive file [/home/abi/fetcher/tmp/types-regex-2024.4.28.20240430.tar.gz]
+[2024-05-06 04:22:49] INFO root fetch - processPackages [types-regex]: Remove: archive file [/home/abi/fetcher/tmp/types-regex-2024.4.28.20240506.tar.gz]
+[2024-05-06 04:22:49] INFO root fetch - main [MainThread]: End processing [types-regex]: success
+[2024-05-06 04:22:49] INFO root fetch - processPackages [xnippy]: Remove: archive file [/home/abi/fetcher/tmp/xnippy-0.1.0.tar.gz]
+[2024-05-06 04:22:49] INFO root fetch - processPackages [xnippy]: Remove: archive file [/home/abi/fetcher/tmp/xnippy-0.1.1.tar.gz]
+[2024-05-06 04:22:49] INFO root fetch - main [MainThread]: End processing [xnippy]: success
+[2024-05-06 04:22:49] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240503.tar.gz]
+[2024-05-06 04:22:49] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240506.tar.gz]
+[2024-05-06 04:22:49] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-05-06 04:22:49] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.5.tar.gz]
+[2024-05-06 04:22:49] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.6.tar.gz]
+[2024-05-06 04:22:49] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-05-06 04:22:49] INFO root fetch - processPackages [types-Pygments]: Remove: archive file [/home/abi/fetcher/tmp/types-Pygments-2.9.8.tar.gz]
+[2024-05-06 04:22:49] INFO root fetch - processPackages [types-Pygments]: Remove: archive file [/home/abi/fetcher/tmp/types-Pygments-2.9.9.tar.gz]
+[2024-05-06 04:22:49] INFO root fetch - main [MainThread]: End processing [types-Pygments]: success
+[2024-05-06 04:22:49] INFO root fetch - main [MainThread]: Store serial: [23070670]
