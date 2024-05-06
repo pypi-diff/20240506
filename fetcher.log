@@ -23570,3 +23570,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:25:24] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.76.0.tar.gz]
 [2024-05-06 17:25:24] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-05-06 17:25:24] INFO root fetch - main [MainThread]: Store serial: [23079977]
+[2024-05-06 17:27:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079977]
+[2024-05-06 17:27:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 17:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fs-attestation-safe-cli
+[2024-05-06 17:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decision-tree-morfist
+[2024-05-06 17:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sapiopylib
+[2024-05-06 17:27:32] INFO root fetch - processPackages [sapiopylib]: New version: [2024.5.6rc194] Old Version: [2024.5.6rc193]
+[2024-05-06 17:27:33] INFO root fetch - processPackages [fs-attestation-safe-cli]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-06 17:27:33] INFO root fetch - processPackages [decision-tree-morfist]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-06 17:27:33] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/ec/7f/afb73db6556c9fc161a8139bd3592d26da2f1d011a4ccd5c341d0851b6f8/sapiopylib-2024.5.6rc193.tar.gz
+[2024-05-06 17:27:33] INFO root fetch - processPackages [fs-attestation-safe-cli]: Downloading https://files.pythonhosted.org/packages/00/30/123e12f2ade543c41015b3721377def7666e52e5d47e9072e0af8cd4545c/fs_attestation_safe_cli-1.0.6.tar.gz
+[2024-05-06 17:27:33] INFO root fetch - processPackages [decision-tree-morfist]: Downloading https://files.pythonhosted.org/packages/19/af/47d67c19bf22b8bb8acccde6ba5e747cecbf2ce2220798d78bdcfd4838ab/decision-tree-morfist-0.3.3.tar.gz
+[2024-05-06 17:27:33] INFO root fetch - processPackages [fs-attestation-safe-cli]: Downloading https://files.pythonhosted.org/packages/89/2b/db24e923eb8d13f9d575078511b0a5234f41a3446e46004bf45dea290594/fs_attestation_safe_cli-1.0.7.tar.gz
+[2024-05-06 17:27:33] INFO root fetch - processPackages [fs-attestation-safe-cli]: executing diffoscope
+[2024-05-06 17:27:33] INFO root fetch - processPackages [fs-attestation-safe-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_attestation_safe_cli-1.0.6.tar.gz tmp/fs_attestation_safe_cli-1.0.7.tar.gz --markdown 20240506/f/fs-attestation-safe-cli/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-06 17:27:33] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/ea/c4/8ab6cbb9225cfe8c10b5be76e2f515360f08f220105be9d9ffab7e025806/sapiopylib-2024.5.6rc194.tar.gz
+[2024-05-06 17:27:33] INFO root fetch - processPackages [decision-tree-morfist]: Downloading https://files.pythonhosted.org/packages/0c/08/bcce4e3a1085d946537a75d53210c27dcfa2c73e8bbc0f1b83196bfdb83f/decision_tree_morfist-0.4.0.tar.gz
+[2024-05-06 17:27:33] INFO root fetch - processPackages [sapiopylib]: executing diffoscope
+[2024-05-06 17:27:33] INFO root fetch - processPackages [sapiopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopylib-2024.5.6rc193.tar.gz tmp/sapiopylib-2024.5.6rc194.tar.gz --markdown 20240506/s/sapiopylib/2024.5.6rc193-2024.5.6rc194/README.md --exclude *.pyd
+[2024-05-06 17:27:33] INFO root fetch - processPackages [decision-tree-morfist]: executing diffoscope
+[2024-05-06 17:27:33] INFO root fetch - processPackages [decision-tree-morfist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decision-tree-morfist-0.3.3.tar.gz tmp/decision_tree_morfist-0.4.0.tar.gz --markdown 20240506/d/decision-tree-morfist/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-06 17:27:34] INFO root fetch - processPackages [fs-attestation-safe-cli]: Remove: archive file [/home/abi/fetcher/tmp/fs_attestation_safe_cli-1.0.6.tar.gz]
+[2024-05-06 17:27:34] INFO root fetch - processPackages [fs-attestation-safe-cli]: Remove: archive file [/home/abi/fetcher/tmp/fs_attestation_safe_cli-1.0.7.tar.gz]
+[2024-05-06 17:27:34] INFO root fetch - main [MainThread]: End processing [fs-attestation-safe-cli]: success
+[2024-05-06 17:27:34] INFO root fetch - processPackages [decision-tree-morfist]: Remove: archive file [/home/abi/fetcher/tmp/decision-tree-morfist-0.3.3.tar.gz]
+[2024-05-06 17:27:34] INFO root fetch - processPackages [decision-tree-morfist]: Remove: archive file [/home/abi/fetcher/tmp/decision_tree_morfist-0.4.0.tar.gz]
+[2024-05-06 17:27:34] INFO root fetch - main [MainThread]: End processing [decision-tree-morfist]: success
+[2024-05-06 17:27:34] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.5.6rc193.tar.gz]
+[2024-05-06 17:27:34] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.5.6rc194.tar.gz]
+[2024-05-06 17:27:34] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
+[2024-05-06 17:27:34] INFO root fetch - main [MainThread]: Store serial: [23079985]
