@@ -14919,3 +14919,75 @@
 [2024-05-06 12:00:27] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.9.0.tar.gz]
 [2024-05-06 12:00:27] INFO root fetch - main [MainThread]: End processing [edgartools]: success
 [2024-05-06 12:00:27] INFO root fetch - main [MainThread]: Store serial: [23075786]
+[2024-05-06 12:02:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075786]
+[2024-05-06 12:02:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 12:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-picking-report-valued
+[2024-05-06 12:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlsdk
+[2024-05-06 12:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygenuz
+[2024-05-06 12:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coffe-analyzer
+[2024-05-06 12:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gptk
+[2024-05-06 12:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: short-transformers
+[2024-05-06 12:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hatch-openzim
+[2024-05-06 12:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: parallel-corpus
+[2024-05-06 12:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: efriser
+[2024-05-06 12:02:36] INFO root fetch - processPackages [pygenuz]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 12:02:36] WARNING root fetch - processPackages [mlsdk]: Skipping, unable to determine old version
+[2024-05-06 12:02:36] INFO root fetch - main [MainThread]: End processing [mlsdk] error
+[2024-05-06 12:02:36] INFO root fetch - processPackages [short-transformers]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-06 12:02:36] INFO root fetch - processPackages [gptk]: New version: [0.2.9] Old Version: [0.2.11]
+[2024-05-06 12:02:36] INFO root fetch - processPackages [coffe-analyzer]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-06 12:02:36] WARNING root fetch - processPackages [parallel-corpus]: Skipping, unable to determine old version
+[2024-05-06 12:02:36] INFO root fetch - main [MainThread]: End processing [parallel-corpus] error
+[2024-05-06 12:02:36] INFO root fetch - processPackages [short-transformers]: Downloading https://files.pythonhosted.org/packages/2a/b8/5ceed2146363356db39dff0a7d6ccc855011742502a0e34706a7f3c29df1/short_transformers-0.2.0.tar.gz
+[2024-05-06 12:02:36] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-06 12:02:36] INFO root fetch - processPackages [hatch-openzim]: New version: [0.3.0.dev0] Old Version: [0.2.0]
+[2024-05-06 12:02:36] INFO root fetch - processPackages [pygenuz]: Downloading https://files.pythonhosted.org/packages/c2/b2/3894b129e0746cb93fc7bc85543354e84ba0ac099420c6f9f9e6332f13be/pygenuz-0.1.0.tar.gz
+[2024-05-06 12:02:36] INFO root fetch - processPackages [efriser]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 12:02:36] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/7a/7c/9270604274cec2ef2ece176dd4b4d9cbcd99039a77e3774dbc05c3ff5551/coffe_analyzer-0.1.6.tar.gz
+[2024-05-06 12:02:36] INFO root fetch - processPackages [gptk]: Downloading https://files.pythonhosted.org/packages/1c/d8/b8b607b10f996cb15b5a487c3208936812dd1ecdd5f6e929844c06c5e65c/gptk-0.2.11.tar.gz
+[2024-05-06 12:02:36] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Downloading https://files.pythonhosted.org/packages/51/66/23be8383f50f7fa2bd9ebbb3f645791fb4a52c397a0dcade3eb6bfcd9b8c/odoo_addon_stock_picking_report_valued-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-06 12:02:36] INFO root fetch - processPackages [hatch-openzim]: Downloading https://files.pythonhosted.org/packages/4d/35/6121e9e7fb90da728e2350bc1685825fcd1a94e373911344ab160bfd5f7c/hatch_openzim-0.2.0.tar.gz
+[2024-05-06 12:02:36] INFO root fetch - processPackages [efriser]: Downloading https://files.pythonhosted.org/packages/9e/3b/097d705f5f5d66fa3e19e6b2dd1a15ab8dea7b35023c69bc1647d54f3866/efriser-0.1.8.tar.gz
+[2024-05-06 12:02:36] INFO root fetch - processPackages [pygenuz]: Downloading https://files.pythonhosted.org/packages/99/81/00e4e9bec81e2aecb7c541419cac59202ebaf8a79763588fbf51a62b3f2b/pygenuz-0.1.1.tar.gz
+[2024-05-06 12:02:37] INFO root fetch - processPackages [short-transformers]: Downloading https://files.pythonhosted.org/packages/df/8b/6202f877b6acff66d1af45f65d8a07ed2957da4760fe7df9ed14550d46d5/short_transformers-0.3.0.tar.gz
+[2024-05-06 12:02:37] INFO root fetch - processPackages [pygenuz]: executing diffoscope
+[2024-05-06 12:02:37] INFO root fetch - processPackages [pygenuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenuz-0.1.0.tar.gz tmp/pygenuz-0.1.1.tar.gz --markdown 20240506/p/pygenuz/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 12:02:37] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/f6/34/3ab34b784217e0b5a90a827ef3e73d54976cda1fab5a8e62a3f6d7356ada/coffe_analyzer-0.1.7.tar.gz
+[2024-05-06 12:02:37] INFO root fetch - processPackages [gptk]: Downloading https://files.pythonhosted.org/packages/4a/7c/c0fddd2129528a2f5f0540b1ed5c114ba08e900c7a2d21a5ec8f1874caf8/gptk-0.2.9.tar.gz
+[2024-05-06 12:02:37] INFO root fetch - processPackages [short-transformers]: executing diffoscope
+[2024-05-06 12:02:37] INFO root fetch - processPackages [short-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/short_transformers-0.2.0.tar.gz tmp/short_transformers-0.3.0.tar.gz --markdown 20240506/s/short-transformers/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-06 12:02:37] INFO root fetch - processPackages [coffe-analyzer]: executing diffoscope
+[2024-05-06 12:02:37] INFO root fetch - processPackages [coffe-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffe_analyzer-0.1.6.tar.gz tmp/coffe_analyzer-0.1.7.tar.gz --markdown 20240506/c/coffe-analyzer/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-06 12:02:37] INFO root fetch - processPackages [gptk]: executing diffoscope
+[2024-05-06 12:02:37] INFO root fetch - processPackages [gptk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptk-0.2.11.tar.gz tmp/gptk-0.2.9.tar.gz --markdown 20240506/g/gptk/0.2.11-0.2.9/README.md --exclude *.pyd
+[2024-05-06 12:02:37] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Downloading https://files.pythonhosted.org/packages/24/19/7c3402705308bce21bf7c685722ecd75e64fdc2dd274f05c45ec777a3581/odoo_addon_stock_picking_report_valued-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-06 12:02:37] INFO root fetch - processPackages [efriser]: Downloading https://files.pythonhosted.org/packages/5c/97/b9aa21656f36608a9a25922f2af2b34732c66f391a98da6bdcce72892663/efriser-0.1.9.tar.gz
+[2024-05-06 12:02:37] INFO root fetch - processPackages [hatch-openzim]: Downloading https://files.pythonhosted.org/packages/c8/81/48a938aad710240430c28049ba3f955109f6feef413d185798b5fe4c5cc6/hatch_openzim-0.3.0.dev0.tar.gz
+[2024-05-06 12:02:37] INFO root fetch - processPackages [efriser]: executing diffoscope
+[2024-05-06 12:02:37] INFO root fetch - processPackages [efriser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efriser-0.1.8.tar.gz tmp/efriser-0.1.9.tar.gz --markdown 20240506/e/efriser/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 12:02:37] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: executing diffoscope
+[2024-05-06 12:02:37] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-stock-picking-report-valued/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-06 12:02:37] INFO root fetch - processPackages [hatch-openzim]: executing diffoscope
+[2024-05-06 12:02:37] INFO root fetch - processPackages [hatch-openzim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_openzim-0.2.0.tar.gz tmp/hatch_openzim-0.3.0.dev0.tar.gz --markdown 20240506/h/hatch-openzim/0.2.0-0.3.0.dev0/README.md --exclude *.pyd
+[2024-05-06 12:02:37] INFO root fetch - processPackages [pygenuz]: Remove: archive file [/home/abi/fetcher/tmp/pygenuz-0.1.0.tar.gz]
+[2024-05-06 12:02:37] INFO root fetch - processPackages [pygenuz]: Remove: archive file [/home/abi/fetcher/tmp/pygenuz-0.1.1.tar.gz]
+[2024-05-06 12:02:37] INFO root fetch - main [MainThread]: End processing [pygenuz]: success
+[2024-05-06 12:02:38] INFO root fetch - processPackages [short-transformers]: Remove: archive file [/home/abi/fetcher/tmp/short_transformers-0.2.0.tar.gz]
+[2024-05-06 12:02:38] INFO root fetch - processPackages [short-transformers]: Remove: archive file [/home/abi/fetcher/tmp/short_transformers-0.3.0.tar.gz]
+[2024-05-06 12:02:38] INFO root fetch - main [MainThread]: End processing [short-transformers]: success
+[2024-05-06 12:02:38] INFO root fetch - processPackages [gptk]: Remove: archive file [/home/abi/fetcher/tmp/gptk-0.2.11.tar.gz]
+[2024-05-06 12:02:38] INFO root fetch - processPackages [gptk]: Remove: archive file [/home/abi/fetcher/tmp/gptk-0.2.9.tar.gz]
+[2024-05-06 12:02:38] INFO root fetch - main [MainThread]: End processing [gptk]: success
+[2024-05-06 12:02:38] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.6.tar.gz]
+[2024-05-06 12:02:38] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.7.tar.gz]
+[2024-05-06 12:02:38] INFO root fetch - main [MainThread]: End processing [coffe-analyzer]: success
+[2024-05-06 12:02:38] INFO root fetch - processPackages [efriser]: Remove: archive file [/home/abi/fetcher/tmp/efriser-0.1.8.tar.gz]
+[2024-05-06 12:02:38] INFO root fetch - processPackages [efriser]: Remove: archive file [/home/abi/fetcher/tmp/efriser-0.1.9.tar.gz]
+[2024-05-06 12:02:38] INFO root fetch - main [MainThread]: End processing [efriser]: success
+[2024-05-06 12:02:38] INFO root fetch - processPackages [hatch-openzim]: Remove: archive file [/home/abi/fetcher/tmp/hatch_openzim-0.2.0.tar.gz]
+[2024-05-06 12:02:38] INFO root fetch - processPackages [hatch-openzim]: Remove: archive file [/home/abi/fetcher/tmp/hatch_openzim-0.3.0.dev0.tar.gz]
+[2024-05-06 12:02:38] INFO root fetch - main [MainThread]: End processing [hatch-openzim]: success
+[2024-05-06 12:02:38] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-06 12:02:38] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-06 12:02:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-report-valued]: success
+[2024-05-06 12:02:38] INFO root fetch - main [MainThread]: Store serial: [23075819]
