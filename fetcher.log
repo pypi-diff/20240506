@@ -18765,3 +18765,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:39:34] INFO root fetch - processPackages [h2o-lightwave-web]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave_web-1.2.0-py3-none-any.whl.zip]
 [2024-05-06 14:39:34] INFO root fetch - main [MainThread]: End processing [h2o-lightwave-web]: success
 [2024-05-06 14:39:34] INFO root fetch - main [MainThread]: Store serial: [23077537]
+[2024-05-06 14:41:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077537]
+[2024-05-06 14:41:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 14:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tt-pipeline-commons
+[2024-05-06 14:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorcircuit-nightly
+[2024-05-06 14:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygradflow
+[2024-05-06 14:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyTransition
+[2024-05-06 14:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plone.app.theming
+[2024-05-06 14:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xarray-safe-s1
+[2024-05-06 14:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sanctify
+[2024-05-06 14:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: collective.campaignmonitor
+[2024-05-06 14:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Andreani-QA-Functions
+[2024-05-06 14:41:43] INFO root fetch - processPackages [collective.campaignmonitor]: New version: [1.4] Old Version: [1.3]
+[2024-05-06 14:41:43] INFO root fetch - processPackages [pygradflow]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-06 14:41:43] WARNING root fetch - processPackages [pyTransition]: Skipping, unable to determine old version
+[2024-05-06 14:41:43] INFO root fetch - main [MainThread]: End processing [pyTransition] error
+[2024-05-06 14:41:43] ERROR root fetch - processPackages [tt-pipeline-commons]: Unable to get metadata: No such project 'tt-pipeline-commons'
+[2024-05-06 14:41:43] INFO root fetch - main [MainThread]: End processing [tt-pipeline-commons] error
+[2024-05-06 14:41:43] INFO root fetch - processPackages [collective.campaignmonitor]: Downloading https://files.pythonhosted.org/packages/4b/14/dd59d6d703fd92c5c7cf2fa15305b6bc2913f8e4db5afd04c30df0927e4e/collective.campaignmonitor-1.3.tar.gz
+[2024-05-06 14:41:43] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/91/21/01075590bde956ac9039dd24d358b6d61601f18e91c1b212b344936eb9f9/pygradflow-0.4.0.tar.gz
+[2024-05-06 14:41:43] INFO root fetch - processPackages [Andreani-QA-Functions]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 14:41:43] INFO root fetch - processPackages [xarray-safe-s1]: New version: [2024.5.6] Old Version: [2024.4.19.post1]
+[2024-05-06 14:41:43] INFO root fetch - processPackages [sanctify]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-06 14:41:43] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-06 14:41:43] INFO root fetch - processPackages [plone.app.theming]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-05-06 14:41:44] INFO root fetch - processPackages [collective.campaignmonitor]: Downloading https://files.pythonhosted.org/packages/ba/4c/9a31df18213a43b8c1170c8f6c366a1bcfb96851512163e639c82a2d97a5/collective_campaignmonitor-1.4.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/c0/a4/bf26c65b938d0e284fb84602fe99cf8cddda56d554b915b19c5d90c79b9f/sanctify-1.4.1.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [Andreani-QA-Functions]: Downloading https://files.pythonhosted.org/packages/05/18/54f36fe7f6c04fc8035d03c526abda840e691b58f59058156c9614c215b1/Andreani_QA_Functions-0.0.8.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/72/b8/eef23f8cdc73e710b652eeb62b6ca48265de1145281f51b6badd2ec2bb3c/xarray_safe_s1-2024.4.19.post1.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [plone.app.theming]: Downloading https://files.pythonhosted.org/packages/2e/ea/187cca3e0326057e773bccb591dd4e99df0cc5c641b7424e70c2546370b7/plone_app_theming-5.0.8.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/31/4d/d25bf1e9dc33aa3eaeedbf5b4b1e909b6dbd09f1c058fe2f24ef0de0354b/pygradflow-0.4.1.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [collective.campaignmonitor]: executing diffoscope
+[2024-05-06 14:41:44] INFO root fetch - processPackages [collective.campaignmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.campaignmonitor-1.3.tar.gz tmp/collective_campaignmonitor-1.4.tar.gz --markdown 20240506/c/collective.campaignmonitor/1.3-1.4/README.md --exclude *.pyd
+[2024-05-06 14:41:44] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-06 14:41:44] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.4.0.tar.gz tmp/pygradflow-0.4.1.tar.gz --markdown 20240506/p/pygradflow/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-06 14:41:44] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/8e/cb/edaae820b2c9944918519b34e8c3ecea371734c266446dfa832a6a5e2a3c/sanctify-1.4.2.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [Andreani-QA-Functions]: Downloading https://files.pythonhosted.org/packages/a7/ad/94077652e25ecf2b29ebd26e13f0771c8e5dcb3073af6a19ef4b6d48fcb6/Andreani_QA_Functions-0.0.9.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [sanctify]: executing diffoscope
+[2024-05-06 14:41:44] INFO root fetch - processPackages [sanctify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanctify-1.4.1.tar.gz tmp/sanctify-1.4.2.tar.gz --markdown 20240506/s/sanctify/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-06 14:41:44] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/90/25/d8378726e7962bddb1037ab512bc59902ad8c2a2ace9faeeb0473c8d01f1/xarray_safe_s1-2024.5.6.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [plone.app.theming]: Downloading https://files.pythonhosted.org/packages/6c/96/affc0c68a80a002f9ee98e52466bb1c90f642b778dd0bcddd8c959c7acbe/plone_app_theming-5.0.9.tar.gz
+[2024-05-06 14:41:44] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-06 14:41:44] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240506/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-06 14:41:44] INFO root fetch - processPackages [Andreani-QA-Functions]: executing diffoscope
+[2024-05-06 14:41:44] INFO root fetch - processPackages [Andreani-QA-Functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Andreani_QA_Functions-0.0.8.tar.gz tmp/Andreani_QA_Functions-0.0.9.tar.gz --markdown 20240506/A/Andreani-QA-Functions/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 14:41:44] INFO root fetch - processPackages [xarray-safe-s1]: executing diffoscope
+[2024-05-06 14:41:44] INFO root fetch - processPackages [xarray-safe-s1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray_safe_s1-2024.4.19.post1.tar.gz tmp/xarray_safe_s1-2024.5.6.tar.gz --markdown 20240506/x/xarray-safe-s1/2024.4.19.post1-2024.5.6/README.md --exclude *.pyd
+[2024-05-06 14:41:44] INFO root fetch - processPackages [plone.app.theming]: executing diffoscope
+[2024-05-06 14:41:44] INFO root fetch - processPackages [plone.app.theming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone_app_theming-5.0.8.tar.gz tmp/plone_app_theming-5.0.9.tar.gz --markdown 20240506/p/plone.app.theming/5.0.8-5.0.9/README.md --exclude *.pyd
+[2024-05-06 14:41:45] INFO root fetch - processPackages [collective.campaignmonitor]: Remove: archive file [/home/abi/fetcher/tmp/collective.campaignmonitor-1.3.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - processPackages [collective.campaignmonitor]: Remove: archive file [/home/abi/fetcher/tmp/collective_campaignmonitor-1.4.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - main [MainThread]: End processing [collective.campaignmonitor]: success
+[2024-05-06 14:41:45] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.0.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.1.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-06 14:41:45] INFO root fetch - processPackages [Andreani-QA-Functions]: Remove: archive file [/home/abi/fetcher/tmp/Andreani_QA_Functions-0.0.8.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - processPackages [Andreani-QA-Functions]: Remove: archive file [/home/abi/fetcher/tmp/Andreani_QA_Functions-0.0.9.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - main [MainThread]: End processing [Andreani-QA-Functions]: success
+[2024-05-06 14:41:45] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.4.1.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.4.2.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - main [MainThread]: End processing [sanctify]: success
+[2024-05-06 14:41:45] INFO root fetch - processPackages [xarray-safe-s1]: Remove: archive file [/home/abi/fetcher/tmp/xarray_safe_s1-2024.4.19.post1.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - processPackages [xarray-safe-s1]: Remove: archive file [/home/abi/fetcher/tmp/xarray_safe_s1-2024.5.6.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1]: success
+[2024-05-06 14:41:45] INFO root fetch - processPackages [plone.app.theming]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_theming-5.0.8.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - processPackages [plone.app.theming]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_theming-5.0.9.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - main [MainThread]: End processing [plone.app.theming]: success
+[2024-05-06 14:41:45] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-06 14:41:45] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-06 14:41:45] INFO root fetch - main [MainThread]: Store serial: [23077571]
