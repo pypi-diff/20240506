@@ -24200,3 +24200,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:58:18] INFO root fetch - processPackages [aposteriori]: Remove: archive file [/home/abi/fetcher/tmp/aposteriori-2.4.0.tar.gz]
 [2024-05-06 17:58:18] INFO root fetch - main [MainThread]: End processing [aposteriori]: success
 [2024-05-06 17:58:18] INFO root fetch - main [MainThread]: Store serial: [23080221]
+[2024-05-06 18:00:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23080221]
+[2024-05-06 18:00:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sain
+[2024-05-06 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strideutils
+[2024-05-06 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: h5ui
+[2024-05-06 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autocombobox
+[2024-05-06 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bol-sdk
+[2024-05-06 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crate-docs-theme
+[2024-05-06 18:00:27] WARNING root fetch - processPackages [h5ui]: Skipping, unable to determine old version
+[2024-05-06 18:00:27] INFO root fetch - main [MainThread]: End processing [h5ui] error
+[2024-05-06 18:00:27] WARNING root fetch - processPackages [bol-sdk]: Skipping, unable to determine old version
+[2024-05-06 18:00:27] INFO root fetch - main [MainThread]: End processing [bol-sdk] error
+[2024-05-06 18:00:27] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 18:00:27] INFO root fetch - processPackages [autocombobox]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 18:00:27] INFO root fetch - processPackages [strideutils]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-06 18:00:27] INFO root fetch - processPackages [sain]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-06 18:00:27] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 18:00:27] INFO root fetch - processPackages [strideutils]: Downloading https://files.pythonhosted.org/packages/79/cf/986b00160b73cb05acb6fab42e6f7d20ccc575bd8b4d7194bc4928f9b8ad/strideutils-0.3.3.tar.gz
+[2024-05-06 18:00:27] INFO root fetch - processPackages [autocombobox]: Downloading https://files.pythonhosted.org/packages/ee/2d/2acbc4d110c55d5c6e378fbf2e862a1a9e0eba967b52093212f3aca7e744/autocombobox-1.0.1.tar.gz
+[2024-05-06 18:00:28] INFO root fetch - processPackages [sain]: Downloading https://files.pythonhosted.org/packages/a2/7a/51ea55c02704db975454e0dfea6b3dfa1643b9eab9768587ddcf12a3658d/sain-0.0.4.tar.gz
+[2024-05-06 18:00:28] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 18:00:28] INFO root fetch - processPackages [strideutils]: Downloading https://files.pythonhosted.org/packages/69/a8/86343dddcb9326bc2de6a2e0558bb15b0e24a25b67d6daa5cf0470096557/strideutils-0.3.4.tar.gz
+[2024-05-06 18:00:28] INFO root fetch - processPackages [autocombobox]: Downloading https://files.pythonhosted.org/packages/04/d3/2acb625c78ce3665a99689c42e6220eb2fcf8b2c4c12e64f4e043c28e693/autocombobox-1.0.2.tar.gz
+[2024-05-06 18:00:28] INFO root fetch - processPackages [sain]: Downloading https://files.pythonhosted.org/packages/48/69/0a00eeca0b5d1c073fcf7bce553325c27cf2f10231cc4fd9593c6499bffc/sain-0.0.6.tar.gz
+[2024-05-06 18:00:28] INFO root fetch - processPackages [strideutils]: executing diffoscope
+[2024-05-06 18:00:28] INFO root fetch - processPackages [strideutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strideutils-0.3.3.tar.gz tmp/strideutils-0.3.4.tar.gz --markdown 20240506/s/strideutils/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-06 18:00:28] INFO root fetch - processPackages [autocombobox]: executing diffoscope
+[2024-05-06 18:00:28] INFO root fetch - processPackages [autocombobox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocombobox-1.0.1.tar.gz tmp/autocombobox-1.0.2.tar.gz --markdown 20240506/a/autocombobox/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 18:00:28] INFO root fetch - processPackages [sain]: executing diffoscope
+[2024-05-06 18:00:28] INFO root fetch - processPackages [sain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sain-0.0.4.tar.gz tmp/sain-0.0.6.tar.gz --markdown 20240506/s/sain/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-06 18:00:28] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 18:00:28] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 18:00:29] INFO root fetch - processPackages [strideutils]: Remove: archive file [/home/abi/fetcher/tmp/strideutils-0.3.3.tar.gz]
+[2024-05-06 18:00:29] INFO root fetch - processPackages [strideutils]: Remove: archive file [/home/abi/fetcher/tmp/strideutils-0.3.4.tar.gz]
+[2024-05-06 18:00:29] INFO root fetch - main [MainThread]: End processing [strideutils]: success
+[2024-05-06 18:00:29] INFO root fetch - processPackages [autocombobox]: Remove: archive file [/home/abi/fetcher/tmp/autocombobox-1.0.1.tar.gz]
+[2024-05-06 18:00:29] INFO root fetch - processPackages [autocombobox]: Remove: archive file [/home/abi/fetcher/tmp/autocombobox-1.0.2.tar.gz]
+[2024-05-06 18:00:29] INFO root fetch - main [MainThread]: End processing [autocombobox]: success
+[2024-05-06 18:00:29] INFO root fetch - processPackages [sain]: Remove: archive file [/home/abi/fetcher/tmp/sain-0.0.4.tar.gz]
+[2024-05-06 18:00:29] INFO root fetch - processPackages [sain]: Remove: archive file [/home/abi/fetcher/tmp/sain-0.0.6.tar.gz]
+[2024-05-06 18:00:29] INFO root fetch - main [MainThread]: End processing [sain]: success
+[2024-05-06 18:00:29] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 18:00:29] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 18:00:29] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 18:00:29] INFO root fetch - main [MainThread]: Store serial: [23080240]
