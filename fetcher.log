@@ -4687,3 +4687,24 @@
 [2024-05-06 06:14:12] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.2.4.tar.gz]
 [2024-05-06 06:14:12] INFO root fetch - main [MainThread]: End processing [qteasy]: success
 [2024-05-06 06:14:12] INFO root fetch - main [MainThread]: Store serial: [23071401]
+[2024-05-06 06:16:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071401]
+[2024-05-06 06:16:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 06:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: espy-contact
+[2024-05-06 06:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tradedangerous
+[2024-05-06 06:16:21] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-06 06:16:21] INFO root fetch - processPackages [tradedangerous]: New version: [11.2.0] Old Version: [11.1.6]
+[2024-05-06 06:16:21] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-06 06:16:21] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/3a/ff/047a8ba1524ae2d4a868ba043b9d3e95ca8a58c3082dc5fa25a3a45e8069/tradedangerous-11.1.6.tar.gz
+[2024-05-06 06:16:21] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-06 06:16:22] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/f5/c4/d720031fa0c80910f8b1a20eb3585bfc6437f74410b70823ff807db0fdf5/tradedangerous-11.2.0.tar.gz
+[2024-05-06 06:16:22] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-06 06:16:22] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240506/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-06 06:16:22] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-05-06 06:16:22] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-11.1.6.tar.gz tmp/tradedangerous-11.2.0.tar.gz --markdown 20240506/t/tradedangerous/11.1.6-11.2.0/README.md --exclude *.pyd
+[2024-05-06 06:16:22] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-06 06:16:22] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-06 06:16:22] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-06 06:16:23] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.1.6.tar.gz]
+[2024-05-06 06:16:23] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.2.0.tar.gz]
+[2024-05-06 06:16:23] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-05-06 06:16:23] INFO root fetch - main [MainThread]: Store serial: [23071408]
