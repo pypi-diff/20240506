@@ -7743,3 +7743,21 @@
 [2024-05-06 09:29:50] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.5-py2.py3-none-any.whl.zip]
 [2024-05-06 09:29:50] INFO root fetch - main [MainThread]: End processing [unimernet]: success
 [2024-05-06 09:29:50] INFO root fetch - main [MainThread]: Store serial: [23072955]
+[2024-05-06 09:31:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072955]
+[2024-05-06 09:31:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 09:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-edge-model-explorer
+[2024-05-06 09:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-openapi3-swagger
+[2024-05-06 09:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funcnodes-yolo
+[2024-05-06 09:31:59] INFO root fetch - processPackages [flask-openapi3-swagger]: New version: [5.17.2] Old Version: [5.16.2]
+[2024-05-06 09:31:59] WARNING root fetch - processPackages [funcnodes-yolo]: Skipping, unable to determine old version
+[2024-05-06 09:31:59] INFO root fetch - main [MainThread]: End processing [funcnodes-yolo] error
+[2024-05-06 09:31:59] WARNING root fetch - processPackages [ai-edge-model-explorer]: Skipping, unable to determine old version
+[2024-05-06 09:31:59] INFO root fetch - main [MainThread]: End processing [ai-edge-model-explorer] error
+[2024-05-06 09:31:59] INFO root fetch - processPackages [flask-openapi3-swagger]: Downloading https://files.pythonhosted.org/packages/c9/98/091ebf03c8e4d8fdcf27547210e0499d07ce9eb459ea37cf994c82a196c0/flask_openapi3_swagger-5.16.2.tar.gz
+[2024-05-06 09:31:59] INFO root fetch - processPackages [flask-openapi3-swagger]: Downloading https://files.pythonhosted.org/packages/62/e4/91bbe0553e396e14445281655ceb5cc8ad94e4df550361fb7a706f3b6f8e/flask_openapi3_swagger-5.17.2.tar.gz
+[2024-05-06 09:32:00] INFO root fetch - processPackages [flask-openapi3-swagger]: executing diffoscope
+[2024-05-06 09:32:00] INFO root fetch - processPackages [flask-openapi3-swagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_openapi3_swagger-5.16.2.tar.gz tmp/flask_openapi3_swagger-5.17.2.tar.gz --markdown 20240506/f/flask-openapi3-swagger/5.16.2-5.17.2/README.md --exclude *.pyd
+[2024-05-06 09:32:13] INFO root fetch - processPackages [flask-openapi3-swagger]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_swagger-5.16.2.tar.gz]
+[2024-05-06 09:32:13] INFO root fetch - processPackages [flask-openapi3-swagger]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_swagger-5.17.2.tar.gz]
+[2024-05-06 09:32:13] INFO root fetch - main [MainThread]: End processing [flask-openapi3-swagger]: success
+[2024-05-06 09:32:13] INFO root fetch - main [MainThread]: Store serial: [23072967]
