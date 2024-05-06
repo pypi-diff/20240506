@@ -16178,3 +16178,63 @@
 [2024-05-06 12:53:36] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.8.tar.gz]
 [2024-05-06 12:53:36] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
 [2024-05-06 12:53:36] INFO root fetch - main [MainThread]: Store serial: [23076308]
+[2024-05-06 12:55:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076308]
+[2024-05-06 12:55:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 12:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: one4all-iop-models
+[2024-05-06 12:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygenuz
+[2024-05-06 12:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upgxl
+[2024-05-06 12:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serpyco-rs
+[2024-05-06 12:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightweight-charts
+[2024-05-06 12:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bentoml
+[2024-05-06 12:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xiaomusic
+[2024-05-06 12:55:45] WARNING root fetch - processPackages [upgxl]: Skipping, unable to determine old version
+[2024-05-06 12:55:45] INFO root fetch - main [MainThread]: End processing [upgxl] error
+[2024-05-06 12:55:45] INFO root fetch - processPackages [pygenuz]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-06 12:55:45] INFO root fetch - processPackages [one4all-iop-models]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 12:55:45] INFO root fetch - processPackages [serpyco-rs]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-05-06 12:55:45] INFO root fetch - processPackages [pygenuz]: Downloading https://files.pythonhosted.org/packages/e0/93/76e478daaccf31504c0faa59a51245a53ad4bdddcd704445bd3a8fbf2a43/pygenuz-0.1.2.tar.gz
+[2024-05-06 12:55:45] INFO root fetch - processPackages [xiaomusic]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 12:55:45] INFO root fetch - processPackages [lightweight-charts]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-06 12:55:45] INFO root fetch - processPackages [bentoml]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-06 12:55:45] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/7e/a6/51a18e5b9e5bc9f4cb0a165a0f8b056732b1265c35e34d4366f292092205/one4all_iop_models-0.1.8.tar.gz
+[2024-05-06 12:55:45] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/43/b7/00d5b5484c941fbe637c09c55a9c8eb8efa9613e8f748eb82063230d7c40/xiaomusic-0.1.8.tar.gz
+[2024-05-06 12:55:45] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/89/47/c4ba1db5b863a175467d66e743b117aff7b293975b8c1494abdafb760b45/lightweight_charts-1.0.8.tar.gz
+[2024-05-06 12:55:45] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/96/b0/1e4559395d6049e7094e23f8e6718de26946b3e2586ff54c96a542a9e145/bentoml-1.2.8.tar.gz
+[2024-05-06 12:55:45] INFO root fetch - processPackages [pygenuz]: Downloading https://files.pythonhosted.org/packages/88/14/e2ea6ccd7de5357000dcb4bf9e09784f8be77d5236ad9dba6240ec901db3/pygenuz-0.1.3.tar.gz
+[2024-05-06 12:55:45] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/a5/c3/953af5db0382e45c5973718be50066a61269b83b59af01cfbc344f13262e/serpyco_rs-1.7.1.tar.gz
+[2024-05-06 12:55:45] INFO root fetch - processPackages [pygenuz]: executing diffoscope
+[2024-05-06 12:55:45] INFO root fetch - processPackages [pygenuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenuz-0.1.2.tar.gz tmp/pygenuz-0.1.3.tar.gz --markdown 20240506/p/pygenuz/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-06 12:55:45] INFO root fetch - processPackages [one4all-iop-models]: Downloading https://files.pythonhosted.org/packages/63/8c/e7803d402bfc6ee5b0bda22ef38d35c885a1396f784a30187507be8406aa/one4all_iop_models-0.1.9.tar.gz
+[2024-05-06 12:55:46] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/a1/21/10e07d79cc47710402442039f3fe0d28c854c8225032a4972152505951a3/xiaomusic-0.1.9.tar.gz
+[2024-05-06 12:55:46] INFO root fetch - processPackages [one4all-iop-models]: executing diffoscope
+[2024-05-06 12:55:46] INFO root fetch - processPackages [one4all-iop-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one4all_iop_models-0.1.8.tar.gz tmp/one4all_iop_models-0.1.9.tar.gz --markdown 20240506/o/one4all-iop-models/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 12:55:46] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/cf/d4/9663fbc09e849ab1b6fd51555de471f4d107dde6cb568043398b7376aeee/lightweight_charts-1.0.9.tar.gz
+[2024-05-06 12:55:46] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/64/1c/008b7d7f75caf1e68ca286012a0df9462265b353e11056db4ffdca6b8860/bentoml-1.2.9.tar.gz
+[2024-05-06 12:55:46] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/5e/43/078fc1903ae4204509707bf76e6993a95f52193efa469cfb6849b82b43f0/serpyco_rs-1.8.0.tar.gz
+[2024-05-06 12:55:46] INFO root fetch - processPackages [xiaomusic]: executing diffoscope
+[2024-05-06 12:55:46] INFO root fetch - processPackages [xiaomusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomusic-0.1.8.tar.gz tmp/xiaomusic-0.1.9.tar.gz --markdown 20240506/x/xiaomusic/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 12:55:46] INFO root fetch - processPackages [lightweight-charts]: executing diffoscope
+[2024-05-06 12:55:46] INFO root fetch - processPackages [lightweight-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweight_charts-1.0.8.tar.gz tmp/lightweight_charts-1.0.9.tar.gz --markdown 20240506/l/lightweight-charts/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-06 12:55:46] INFO root fetch - processPackages [bentoml]: executing diffoscope
+[2024-05-06 12:55:46] INFO root fetch - processPackages [bentoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bentoml-1.2.8.tar.gz tmp/bentoml-1.2.9.tar.gz --markdown 20240506/b/bentoml/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-06 12:55:46] INFO root fetch - processPackages [pygenuz]: Remove: archive file [/home/abi/fetcher/tmp/pygenuz-0.1.2.tar.gz]
+[2024-05-06 12:55:46] INFO root fetch - processPackages [pygenuz]: Remove: archive file [/home/abi/fetcher/tmp/pygenuz-0.1.3.tar.gz]
+[2024-05-06 12:55:46] INFO root fetch - main [MainThread]: End processing [pygenuz]: success
+[2024-05-06 12:55:46] INFO root fetch - processPackages [serpyco-rs]: executing diffoscope
+[2024-05-06 12:55:46] INFO root fetch - processPackages [serpyco-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serpyco_rs-1.7.1.tar.gz tmp/serpyco_rs-1.8.0.tar.gz --markdown 20240506/s/serpyco-rs/1.7.1-1.8.0/README.md --exclude *.pyd
+[2024-05-06 12:55:46] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.8.tar.gz]
+[2024-05-06 12:55:46] INFO root fetch - processPackages [one4all-iop-models]: Remove: archive file [/home/abi/fetcher/tmp/one4all_iop_models-0.1.9.tar.gz]
+[2024-05-06 12:55:46] INFO root fetch - main [MainThread]: End processing [one4all-iop-models]: success
+[2024-05-06 12:55:47] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.8.tar.gz]
+[2024-05-06 12:55:47] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.9.tar.gz]
+[2024-05-06 12:55:47] INFO root fetch - main [MainThread]: End processing [xiaomusic]: success
+[2024-05-06 12:55:47] INFO root fetch - processPackages [lightweight-charts]: Remove: archive file [/home/abi/fetcher/tmp/lightweight_charts-1.0.8.tar.gz]
+[2024-05-06 12:55:47] INFO root fetch - processPackages [lightweight-charts]: Remove: archive file [/home/abi/fetcher/tmp/lightweight_charts-1.0.9.tar.gz]
+[2024-05-06 12:55:47] INFO root fetch - main [MainThread]: End processing [lightweight-charts]: success
+[2024-05-06 12:55:48] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-1.7.1.tar.gz]
+[2024-05-06 12:55:48] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-1.8.0.tar.gz]
+[2024-05-06 12:55:48] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
+[2024-05-06 12:55:51] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.8.tar.gz]
+[2024-05-06 12:55:51] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.9.tar.gz]
+[2024-05-06 12:55:51] INFO root fetch - main [MainThread]: End processing [bentoml]: success
+[2024-05-06 12:55:51] INFO root fetch - main [MainThread]: Store serial: [23076360]
