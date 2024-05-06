@@ -17885,3 +17885,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:01:11] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
 [2024-05-06 14:01:11] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
 [2024-05-06 14:01:11] INFO root fetch - main [MainThread]: Store serial: [23077130]
+[2024-05-06 14:03:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077130]
+[2024-05-06 14:03:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 14:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ttxt
+[2024-05-06 14:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-sdk
+[2024-05-06 14:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qualang-tools
+[2024-05-06 14:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluecellulab
+[2024-05-06 14:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-node-binding
+[2024-05-06 14:03:20] INFO root fetch - processPackages [sentry-sdk]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-05-06 14:03:20] INFO root fetch - processPackages [bluecellulab]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-06 14:03:20] INFO root fetch - processPackages [qualang-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-06 14:03:20] INFO root fetch - processPackages [ttxt]: New version: [0.0.6.3] Old Version: [0.0.6.2]
+[2024-05-06 14:03:20] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/6a/61/a1ce6ea5aa22659b561718820448012d74becfa444804c7d103b0f6050f6/bluecellulab-2.6.8.tar.gz
+[2024-05-06 14:03:20] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/cb/4c/ba13103ee0bcdab7ea5ced90cacf8aef89b31305d2f39a8a637f7573d5cc/sentry_sdk-2.0.1.tar.gz
+[2024-05-06 14:03:20] INFO root fetch - processPackages [qualang-tools]: Downloading https://files.pythonhosted.org/packages/ef/85/8d494d0e2ea0ffc591fc6c1be844fbc93c4c91aed7f51e1334ddfde69386/qualang-tools-0.8.0.tar.gz
+[2024-05-06 14:03:20] INFO root fetch - processPackages [ttxt]: Downloading https://files.pythonhosted.org/packages/0f/d9/a82b553911cfce3848c287829af03bee9155a1917f9903ac2104c8764727/ttxt-0.0.6.2.tar.gz
+[2024-05-06 14:03:20] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/3c/f4/aa9292066e9a85ba28b2759c1b524d77907a7b1ede994391902939bcf498/bluecellulab-2.6.9.tar.gz
+[2024-05-06 14:03:20] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/99/e1/0816526502c33460f72b174033ba0d4e03f1056df7a515d7ef500dc23817/sentry_sdk-2.1.0.tar.gz
+[2024-05-06 14:03:20] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1250] Old Version: [3.0.3.post1247]
+[2024-05-06 14:03:20] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2024-05-06 14:03:20] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_sdk-2.0.1.tar.gz tmp/sentry_sdk-2.1.0.tar.gz --markdown 20240506/s/sentry-sdk/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-06 14:03:20] INFO root fetch - processPackages [ttxt]: Downloading https://files.pythonhosted.org/packages/28/65/fe180efeda8070cf95d39aaf20af671a6db72e61388d4cc035e75ba61bbe/ttxt-0.0.6.3.tar.gz
+[2024-05-06 14:03:21] INFO root fetch - processPackages [bluecellulab]: executing diffoscope
+[2024-05-06 14:03:21] INFO root fetch - processPackages [bluecellulab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecellulab-2.6.8.tar.gz tmp/bluecellulab-2.6.9.tar.gz --markdown 20240506/b/bluecellulab/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-06 14:03:21] INFO root fetch - processPackages [ttxt]: executing diffoscope
+[2024-05-06 14:03:21] INFO root fetch - processPackages [ttxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttxt-0.0.6.2.tar.gz tmp/ttxt-0.0.6.3.tar.gz --markdown 20240506/t/ttxt/0.0.6.2-0.0.6.3/README.md --exclude *.pyd
+[2024-05-06 14:03:21] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/cb/ce/7bcf79bf7aad06d8a03efc508fb05a292eff18945720b1650fbf11ed8634/nucliadb_node_binding-3.0.3.post1247.tar.gz
+[2024-05-06 14:03:21] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/de/21/9c85cd88197926257f86366e197f91e91dfc2d17a0c7625a22b91a5c882d/nucliadb_node_binding-3.0.3.post1250-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-06 14:03:21] INFO root fetch - processPackages [ttxt]: Remove: archive file [/home/abi/fetcher/tmp/ttxt-0.0.6.2.tar.gz]
+[2024-05-06 14:03:21] INFO root fetch - processPackages [ttxt]: Remove: archive file [/home/abi/fetcher/tmp/ttxt-0.0.6.3.tar.gz]
+[2024-05-06 14:03:21] INFO root fetch - main [MainThread]: End processing [ttxt]: success
+[2024-05-06 14:03:21] INFO root fetch - processPackages [bluecellulab]: Remove: archive file [/home/abi/fetcher/tmp/bluecellulab-2.6.8.tar.gz]
+[2024-05-06 14:03:21] INFO root fetch - processPackages [bluecellulab]: Remove: archive file [/home/abi/fetcher/tmp/bluecellulab-2.6.9.tar.gz]
+[2024-05-06 14:03:21] INFO root fetch - main [MainThread]: End processing [bluecellulab]: success
+[2024-05-06 14:03:21] INFO root fetch - processPackages [qualang-tools]: Downloading https://files.pythonhosted.org/packages/24/78/6133ba41e03538685cdd1e8771bc5a06d0e30e481118850873d5a16f45eb/qualang-tools-0.9.0.tar.gz
+[2024-05-06 14:03:22] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry_sdk-2.0.1.tar.gz]
+[2024-05-06 14:03:22] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry_sdk-2.1.0.tar.gz]
+[2024-05-06 14:03:22] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2024-05-06 14:03:22] INFO root fetch - processPackages [qualang-tools]: executing diffoscope
+[2024-05-06 14:03:22] INFO root fetch - processPackages [qualang-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualang-tools-0.8.0.tar.gz tmp/qualang-tools-0.9.0.tar.gz --markdown 20240506/q/qualang-tools/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-06 14:03:22] WARNING root fetch - processPackages [nucliadb-node-binding]: Skipping package: exceeds size limit 11902346>=10485760
+[2024-05-06 14:03:22] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding] error
+[2024-05-06 14:03:23] INFO root fetch - processPackages [qualang-tools]: Remove: archive file [/home/abi/fetcher/tmp/qualang-tools-0.8.0.tar.gz]
+[2024-05-06 14:03:23] INFO root fetch - processPackages [qualang-tools]: Remove: archive file [/home/abi/fetcher/tmp/qualang-tools-0.9.0.tar.gz]
+[2024-05-06 14:03:23] INFO root fetch - main [MainThread]: End processing [qualang-tools]: success
+[2024-05-06 14:03:23] INFO root fetch - main [MainThread]: Store serial: [23077145]
