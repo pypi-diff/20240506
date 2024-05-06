@@ -15286,3 +15286,45 @@
 [2024-05-06 12:13:40] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean_sdk-60.1.0.tar.gz]
 [2024-05-06 12:13:40] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
 [2024-05-06 12:13:40] INFO root fetch - main [MainThread]: Store serial: [23075935]
+[2024-05-06 12:15:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075935]
+[2024-05-06 12:15:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DataExtractorOEG
+[2024-05-06 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crate-docs-theme
+[2024-05-06 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moviesampler
+[2024-05-06 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drf-redesign
+[2024-05-06 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pkscreener
+[2024-05-06 12:15:50] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 12:15:50] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240506.343] Old Version: [0.44.20240506.342]
+[2024-05-06 12:15:50] WARNING root fetch - processPackages [moviesampler]: Skipping, unable to determine old version
+[2024-05-06 12:15:50] INFO root fetch - main [MainThread]: End processing [moviesampler] error
+[2024-05-06 12:15:50] INFO root fetch - processPackages [drf-redesign]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-06 12:15:50] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-06 12:15:50] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 12:15:50] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/7c/e2/ea6629d0223a82874ded36a47e4613f5ccfbdd6b1aef9c5ea7a46d8775d6/pkscreener-0.44.20240506.342.tar.gz
+[2024-05-06 12:15:51] INFO root fetch - processPackages [drf-redesign]: Downloading https://files.pythonhosted.org/packages/8c/e0/3f9847c23788264eb98b2c8449aea66fc990056084265a3224c2acc224f0/drf_redesign-0.3.5.tar.gz
+[2024-05-06 12:15:51] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/31/39/f3cfa8b4b6cddc51688cbd340eb30ef2a751e778bf37535b9d2db54b90b2/dataextractoroeg-0.4.3.tar.gz
+[2024-05-06 12:15:51] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/2e/c9/06b56ad51e1392646944640936da6fa0cd75dcddd7ce45f7a64f23ccba95/pkscreener-0.44.20240506.343.tar.gz
+[2024-05-06 12:15:51] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 12:15:51] INFO root fetch - processPackages [drf-redesign]: Downloading https://files.pythonhosted.org/packages/c7/bb/0cd0807411ca74176c1307c562c2a2fde1c6645f8d80c45347b614dbac01/drf_redesign-0.3.6.tar.gz
+[2024-05-06 12:15:51] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/d1/22/02661c009159c86b6773f8e0011ff7fa191d9ca34a56d52edbfb765e4f4d/dataextractoroeg-0.4.4.tar.gz
+[2024-05-06 12:15:51] INFO root fetch - processPackages [drf-redesign]: executing diffoscope
+[2024-05-06 12:15:51] INFO root fetch - processPackages [drf-redesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_redesign-0.3.5.tar.gz tmp/drf_redesign-0.3.6.tar.gz --markdown 20240506/d/drf-redesign/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-06 12:15:51] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-06 12:15:51] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240506.342.tar.gz tmp/pkscreener-0.44.20240506.343.tar.gz --markdown 20240506/p/pkscreener/0.44.20240506.342-0.44.20240506.343/README.md --exclude *.pyd
+[2024-05-06 12:15:51] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-06 12:15:51] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.4.3.tar.gz tmp/dataextractoroeg-0.4.4.tar.gz --markdown 20240506/D/DataExtractorOEG/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-06 12:15:51] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 12:15:51] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 12:15:52] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.3.tar.gz]
+[2024-05-06 12:15:52] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.4.tar.gz]
+[2024-05-06 12:15:52] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-06 12:15:52] INFO root fetch - processPackages [drf-redesign]: Remove: archive file [/home/abi/fetcher/tmp/drf_redesign-0.3.5.tar.gz]
+[2024-05-06 12:15:52] INFO root fetch - processPackages [drf-redesign]: Remove: archive file [/home/abi/fetcher/tmp/drf_redesign-0.3.6.tar.gz]
+[2024-05-06 12:15:52] INFO root fetch - main [MainThread]: End processing [drf-redesign]: success
+[2024-05-06 12:15:52] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.342.tar.gz]
+[2024-05-06 12:15:52] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.343.tar.gz]
+[2024-05-06 12:15:52] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-06 12:15:52] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 12:15:52] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 12:15:52] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 12:15:52] INFO root fetch - main [MainThread]: Store serial: [23075952]
