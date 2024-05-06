@@ -16520,3 +16520,87 @@
 [2024-05-06 13:09:05] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.6.tar.gz]
 [2024-05-06 13:09:05] INFO root fetch - main [MainThread]: End processing [text2story]: success
 [2024-05-06 13:09:05] INFO root fetch - main [MainThread]: Store serial: [23076461]
+[2024-05-06 13:11:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076461]
+[2024-05-06 13:11:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazyqml
+[2024-05-06 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: safe-cli
+[2024-05-06 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pqsdk
+[2024-05-06 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lhc-python
+[2024-05-06 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alphaz-next
+[2024-05-06 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: persist-cache
+[2024-05-06 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyPrediktorMapClient
+[2024-05-06 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mnists
+[2024-05-06 13:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: everai
+[2024-05-06 13:11:14] INFO root fetch - processPackages [lazyqml]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-06 13:11:14] INFO root fetch - processPackages [everai]: New version: [0.1.40] Old Version: [0.1.39]
+[2024-05-06 13:11:14] INFO root fetch - processPackages [alphaz-next]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-05-06 13:11:14] INFO root fetch - processPackages [pqsdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-06 13:11:14] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/4c/43/1f25a03152e22bbcfa3e7d564bc5983d48ad4415992c8bd988c898c5a8ec/lazyqml-0.0.1.tar.gz
+[2024-05-06 13:11:14] INFO root fetch - processPackages [safe-cli]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-06 13:11:14] INFO root fetch - processPackages [mnists]: New version: [0.2.0rc1] Old Version: [0.1.0]
+[2024-05-06 13:11:14] INFO root fetch - processPackages [persist-cache]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-06 13:11:14] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/df/89/9c1428e70518aa3390153172a17f1b821f1622dd96f67c911cbb8c2687b8/everai-0.1.39-py3-none-any.whl
+[2024-05-06 13:11:14] INFO root fetch - processPackages [lhc-python]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-06 13:11:14] INFO root fetch - processPackages [pyPrediktorMapClient]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-06 13:11:14] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/2d/91/9df6de73be4b53c78f4548229962e1314c10d2c7234b83aeddfa578f1fb1/alphaz-next-0.5.9.tar.gz
+[2024-05-06 13:11:14] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/80/c1/ac28afc335506508b90aba044d0f12d010af916b0d125ed05db3910ab289/pqsdk-0.0.5.tar.gz
+[2024-05-06 13:11:14] INFO root fetch - processPackages [pyPrediktorMapClient]: Downloading https://files.pythonhosted.org/packages/ff/0a/585967c861f8e3ad7d96dc58f6405c3eb335660fce6908230a24099f4fe1/pyPrediktorMapClient-0.7.0.tar.gz
+[2024-05-06 13:11:14] INFO root fetch - processPackages [safe-cli]: Downloading https://files.pythonhosted.org/packages/4d/d3/a47a331e1508758b3def6c8b8cd650968294f859aafb63a7f618108e8ed3/safe_cli-1.0.0.tar.gz
+[2024-05-06 13:11:14] INFO root fetch - processPackages [persist-cache]: Downloading https://files.pythonhosted.org/packages/20/7b/4835a5a2d13d69c29b0381fe47e4db543c73ac95ba19fbff08c040a25b3e/persist_cache-0.3.2.tar.gz
+[2024-05-06 13:11:14] INFO root fetch - processPackages [mnists]: Downloading https://files.pythonhosted.org/packages/c4/58/dbac16d645fc671ea017c2dc3cfe49625b2e86ac68387aace103ab13fabf/mnists-0.1.0.tar.gz
+[2024-05-06 13:11:14] INFO root fetch - processPackages [lhc-python]: Downloading https://files.pythonhosted.org/packages/4b/24/689dfb21592cdbb2be8bf2875ff9bd6e1415977c72c59ba9aa31a2361b1a/lhc-python-2.5.0.tar.gz
+[2024-05-06 13:11:14] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/e5/ec/8704ea13952ab52bf1b61ad410d5cec6f8113308a494077a4bc009ad2ed7/lazyqml-0.1.0.tar.gz
+[2024-05-06 13:11:14] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/81/0b/214c95afd1aa48db6745d23dfcec29dcf5a0d27944b51ef9efb17b3a8ab4/alphaz-next-0.6.0.tar.gz
+[2024-05-06 13:11:15] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-06 13:11:15] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.0.1.tar.gz tmp/lazyqml-0.1.0.tar.gz --markdown 20240506/l/lazyqml/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-06 13:11:15] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-05-06 13:11:15] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.9.tar.gz tmp/alphaz-next-0.6.0.tar.gz --markdown 20240506/a/alphaz-next/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-05-06 13:11:15] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/78/e3/991e57fe3cd5c59fee43c9063b92d2454c946074a0b1b6689983115a5dbd/everai-0.1.40-py3-none-any.whl
+[2024-05-06 13:11:15] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/99/7e/a66dfc0891bc15662e169fc8c70fe6b76f40d98d21bda7b4d5d74d396325/pqsdk-0.0.6.tar.gz
+[2024-05-06 13:11:15] INFO root fetch - processPackages [mnists]: Downloading https://files.pythonhosted.org/packages/ac/84/63f7a03d63db6943cf120d7f20b53d9d958da7a10d659bc8cf2da857c918/mnists-0.2.0rc1.tar.gz
+[2024-05-06 13:11:15] INFO root fetch - processPackages [lhc-python]: Downloading https://files.pythonhosted.org/packages/13/b0/185d0d7e7efc96a3b76d9dabc6632073378e21436364271d36b7f3c2b145/lhc_python-2.5.1.tar.gz
+[2024-05-06 13:11:15] INFO root fetch - processPackages [safe-cli]: Downloading https://files.pythonhosted.org/packages/aa/9d/6109c230a00476bc3ea1d5b6b084a1f6bada616e53138720c43c9c2cd847/safe_cli-1.1.0.tar.gz
+[2024-05-06 13:11:15] INFO root fetch - processPackages [persist-cache]: Downloading https://files.pythonhosted.org/packages/a1/7b/ce29fc135362f3d3a061e7df3f85f504831f066654bb1dfb750cf21e342e/persist_cache-0.4.0.tar.gz
+[2024-05-06 13:11:15] INFO root fetch - processPackages [pqsdk]: executing diffoscope
+[2024-05-06 13:11:15] INFO root fetch - processPackages [pqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqsdk-0.0.5.tar.gz tmp/pqsdk-0.0.6.tar.gz --markdown 20240506/p/pqsdk/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-06 13:11:15] INFO root fetch - processPackages [pyPrediktorMapClient]: Downloading https://files.pythonhosted.org/packages/3f/8b/519fbfc11f51618bfa68ad17453adcb8d718b0414db0719862bb00b16afb/pyPrediktorMapClient-0.8.0.tar.gz
+[2024-05-06 13:11:15] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-06 13:11:15] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.39-py3-none-any.whl.zip tmp/everai-0.1.40-py3-none-any.whl.zip --markdown 20240506/e/everai/0.1.39-0.1.40/README.md --exclude *.pyd
+[2024-05-06 13:11:15] INFO root fetch - processPackages [mnists]: executing diffoscope
+[2024-05-06 13:11:15] INFO root fetch - processPackages [mnists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnists-0.1.0.tar.gz tmp/mnists-0.2.0rc1.tar.gz --markdown 20240506/m/mnists/0.1.0-0.2.0rc1/README.md --exclude *.pyd
+[2024-05-06 13:11:15] INFO root fetch - processPackages [lhc-python]: executing diffoscope
+[2024-05-06 13:11:15] INFO root fetch - processPackages [lhc-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lhc-python-2.5.0.tar.gz tmp/lhc_python-2.5.1.tar.gz --markdown 20240506/l/lhc-python/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-06 13:11:15] INFO root fetch - processPackages [persist-cache]: executing diffoscope
+[2024-05-06 13:11:15] INFO root fetch - processPackages [persist-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persist_cache-0.3.2.tar.gz tmp/persist_cache-0.4.0.tar.gz --markdown 20240506/p/persist-cache/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-06 13:11:15] INFO root fetch - processPackages [safe-cli]: executing diffoscope
+[2024-05-06 13:11:15] INFO root fetch - processPackages [safe-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_cli-1.0.0.tar.gz tmp/safe_cli-1.1.0.tar.gz --markdown 20240506/s/safe-cli/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-06 13:11:15] INFO root fetch - processPackages [pyPrediktorMapClient]: executing diffoscope
+[2024-05-06 13:11:15] INFO root fetch - processPackages [pyPrediktorMapClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPrediktorMapClient-0.7.0.tar.gz tmp/pyPrediktorMapClient-0.8.0.tar.gz --markdown 20240506/p/pyPrediktorMapClient/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-06 13:11:16] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.0.1.tar.gz]
+[2024-05-06 13:11:16] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.1.0.tar.gz]
+[2024-05-06 13:11:16] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-06 13:11:16] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.9.tar.gz]
+[2024-05-06 13:11:16] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.6.0.tar.gz]
+[2024-05-06 13:11:16] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-05-06 13:11:16] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.5.tar.gz]
+[2024-05-06 13:11:16] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.6.tar.gz]
+[2024-05-06 13:11:16] INFO root fetch - main [MainThread]: End processing [pqsdk]: success
+[2024-05-06 13:11:16] INFO root fetch - processPackages [mnists]: Remove: archive file [/home/abi/fetcher/tmp/mnists-0.1.0.tar.gz]
+[2024-05-06 13:11:16] INFO root fetch - processPackages [mnists]: Remove: archive file [/home/abi/fetcher/tmp/mnists-0.2.0rc1.tar.gz]
+[2024-05-06 13:11:16] INFO root fetch - main [MainThread]: End processing [mnists]: success
+[2024-05-06 13:11:17] INFO root fetch - processPackages [pyPrediktorMapClient]: Remove: archive file [/home/abi/fetcher/tmp/pyPrediktorMapClient-0.7.0.tar.gz]
+[2024-05-06 13:11:17] INFO root fetch - processPackages [pyPrediktorMapClient]: Remove: archive file [/home/abi/fetcher/tmp/pyPrediktorMapClient-0.8.0.tar.gz]
+[2024-05-06 13:11:17] INFO root fetch - main [MainThread]: End processing [pyPrediktorMapClient]: success
+[2024-05-06 13:11:17] INFO root fetch - processPackages [safe-cli]: Remove: archive file [/home/abi/fetcher/tmp/safe_cli-1.0.0.tar.gz]
+[2024-05-06 13:11:17] INFO root fetch - processPackages [safe-cli]: Remove: archive file [/home/abi/fetcher/tmp/safe_cli-1.1.0.tar.gz]
+[2024-05-06 13:11:17] INFO root fetch - main [MainThread]: End processing [safe-cli]: success
+[2024-05-06 13:11:17] INFO root fetch - processPackages [persist-cache]: Remove: archive file [/home/abi/fetcher/tmp/persist_cache-0.3.2.tar.gz]
+[2024-05-06 13:11:17] INFO root fetch - processPackages [persist-cache]: Remove: archive file [/home/abi/fetcher/tmp/persist_cache-0.4.0.tar.gz]
+[2024-05-06 13:11:17] INFO root fetch - main [MainThread]: End processing [persist-cache]: success
+[2024-05-06 13:11:17] INFO root fetch - processPackages [lhc-python]: Remove: archive file [/home/abi/fetcher/tmp/lhc-python-2.5.0.tar.gz]
+[2024-05-06 13:11:17] INFO root fetch - processPackages [lhc-python]: Remove: archive file [/home/abi/fetcher/tmp/lhc_python-2.5.1.tar.gz]
+[2024-05-06 13:11:17] INFO root fetch - main [MainThread]: End processing [lhc-python]: success
+[2024-05-06 13:11:18] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.39-py3-none-any.whl.zip]
+[2024-05-06 13:11:18] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.40-py3-none-any.whl.zip]
+[2024-05-06 13:11:18] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-06 13:11:18] INFO root fetch - main [MainThread]: Store serial: [23076500]
