@@ -16442,3 +16442,81 @@
 [2024-05-06 13:06:53] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.9.0.tar.gz]
 [2024-05-06 13:06:53] INFO root fetch - main [MainThread]: End processing [ory-client]: success
 [2024-05-06 13:06:53] INFO root fetch - main [MainThread]: Store serial: [23076430]
+[2024-05-06 13:08:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076430]
+[2024-05-06 13:09:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenFisca-France-Data
+[2024-05-06 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smb-sync
+[2024-05-06 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubedantic
+[2024-05-06 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text2story
+[2024-05-06 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zyx
+[2024-05-06 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pluto-client
+[2024-05-06 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HawaData
+[2024-05-06 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coffe-analyzer
+[2024-05-06 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: usso
+[2024-05-06 13:09:03] INFO root fetch - processPackages [smb-sync]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 13:09:03] INFO root fetch - processPackages [usso]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-06 13:09:03] INFO root fetch - processPackages [coffe-analyzer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 13:09:03] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-06 13:09:03] WARNING root fetch - processPackages [kubedantic]: Skipping, unable to determine old version
+[2024-05-06 13:09:03] INFO root fetch - main [MainThread]: End processing [kubedantic] error
+[2024-05-06 13:09:03] INFO root fetch - processPackages [pluto-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-06 13:09:03] INFO root fetch - processPackages [OpenFisca-France-Data]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-05-06 13:09:03] INFO root fetch - processPackages [zyx]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-05-06 13:09:03] INFO root fetch - processPackages [smb-sync]: Downloading https://files.pythonhosted.org/packages/6f/ba/a9390879c9b320d3a9f76a7380f5e33d4c8b69ec77f6bf7f06f40201f85e/smb_sync-0.0.3.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [text2story]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-06 13:09:03] INFO root fetch - processPackages [usso]: Downloading https://files.pythonhosted.org/packages/32/6b/affc9cd10fca733f24a31679e715e276c8462d5b2199f3d9a35123e9e7d2/usso-0.8.0.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/74/82/c493c354355485d00927f38434888802b8a7b4485783699e82846b34f930/coffe_analyzer-0.1.8.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [pluto-client]: Downloading https://files.pythonhosted.org/packages/c7/4e/952154431d8ba60856ccb5d035afa5fab41cc554490f1eb2a1ea5e458f9d/pluto_client-0.0.7.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [OpenFisca-France-Data]: Downloading https://files.pythonhosted.org/packages/fd/a0/20bf736f20914becc17313b23b22c323691902b88615b4227305f24e5830/openfisca_france_data-3.2.0.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/ff/13/155151c00debc5a40cb3f59b07e4ab97ed860b2ab270e34bc97c46725357/text2story-1.4.5.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [zyx]: Downloading https://files.pythonhosted.org/packages/db/59/24321cb2d20d3071f58187d144634b55d1f3b377fbe3715535d754a54a30/zyx-0.0.14.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/d7/b9/eb95b4dc10e17f3cfbc42b752864e0d2c79cf976fc1077c0388b6617b589/coffe_analyzer-0.1.9.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [smb-sync]: Downloading https://files.pythonhosted.org/packages/3d/01/2f984b321268aa2f0ea72ef87ce526f47ab1129c877b7941077314ce687d/smb_sync-0.0.4.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [usso]: Downloading https://files.pythonhosted.org/packages/70/21/51c7a85adbbfdaf9730493f23f5076201187ebeed4cf1923b633e2a66a14/usso-0.9.0.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [coffe-analyzer]: executing diffoscope
+[2024-05-06 13:09:03] INFO root fetch - processPackages [coffe-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffe_analyzer-0.1.8.tar.gz tmp/coffe_analyzer-0.1.9.tar.gz --markdown 20240506/c/coffe-analyzer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 13:09:03] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-05-06 13:09:03] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240506/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-06 13:09:03] INFO root fetch - processPackages [smb-sync]: executing diffoscope
+[2024-05-06 13:09:03] INFO root fetch - processPackages [smb-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smb_sync-0.0.3.tar.gz tmp/smb_sync-0.0.4.tar.gz --markdown 20240506/s/smb-sync/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 13:09:03] INFO root fetch - processPackages [usso]: executing diffoscope
+[2024-05-06 13:09:03] INFO root fetch - processPackages [usso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usso-0.8.0.tar.gz tmp/usso-0.9.0.tar.gz --markdown 20240506/u/usso/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-06 13:09:03] INFO root fetch - processPackages [pluto-client]: Downloading https://files.pythonhosted.org/packages/9a/b4/fc3db6c9de530a5bd7b27a8409d47f89cce89495dc6684d7439b79411b44/pluto_client-0.0.8.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [OpenFisca-France-Data]: Downloading https://files.pythonhosted.org/packages/98/d5/10a806497bb59a2f7f03fad9c91d6f2e17d7239da390158d4f46dab8870e/openfisca_france_data-3.3.0.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [zyx]: Downloading https://files.pythonhosted.org/packages/93/e9/58d3ba2f0d27444015c6149a4170e7ba95b83881f7ddecd93df85e7b8ba9/zyx-0.0.15.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [pluto-client]: executing diffoscope
+[2024-05-06 13:09:03] INFO root fetch - processPackages [pluto-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluto_client-0.0.7.tar.gz tmp/pluto_client-0.0.8.tar.gz --markdown 20240506/p/pluto-client/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-06 13:09:03] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/64/23/9f8149be58e3cd33b4aebcedebaf2ebf0e79fb83841087206e47cf526f42/text2story-1.4.6.tar.gz
+[2024-05-06 13:09:03] INFO root fetch - processPackages [zyx]: executing diffoscope
+[2024-05-06 13:09:03] INFO root fetch - processPackages [zyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyx-0.0.14.tar.gz tmp/zyx-0.0.15.tar.gz --markdown 20240506/z/zyx/0.0.14-0.0.15/README.md --exclude *.pyd
+[2024-05-06 13:09:03] INFO root fetch - processPackages [OpenFisca-France-Data]: executing diffoscope
+[2024-05-06 13:09:03] INFO root fetch - processPackages [OpenFisca-France-Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfisca_france_data-3.2.0.tar.gz tmp/openfisca_france_data-3.3.0.tar.gz --markdown 20240506/O/OpenFisca-France-Data/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-05-06 13:09:04] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2024-05-06 13:09:04] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.4.5.tar.gz tmp/text2story-1.4.6.tar.gz --markdown 20240506/t/text2story/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-06 13:09:04] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.8.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.9.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - main [MainThread]: End processing [coffe-analyzer]: success
+[2024-05-06 13:09:04] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.8.0.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.9.0.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - main [MainThread]: End processing [usso]: success
+[2024-05-06 13:09:04] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-05-06 13:09:04] INFO root fetch - processPackages [smb-sync]: Remove: archive file [/home/abi/fetcher/tmp/smb_sync-0.0.3.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - processPackages [smb-sync]: Remove: archive file [/home/abi/fetcher/tmp/smb_sync-0.0.4.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - main [MainThread]: End processing [smb-sync]: success
+[2024-05-06 13:09:04] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.7.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.8.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - main [MainThread]: End processing [pluto-client]: success
+[2024-05-06 13:09:04] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.14.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.15.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - main [MainThread]: End processing [zyx]: success
+[2024-05-06 13:09:04] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/openfisca_france_data-3.2.0.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/openfisca_france_data-3.3.0.tar.gz]
+[2024-05-06 13:09:04] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Data]: success
+[2024-05-06 13:09:05] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.5.tar.gz]
+[2024-05-06 13:09:05] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.6.tar.gz]
+[2024-05-06 13:09:05] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2024-05-06 13:09:05] INFO root fetch - main [MainThread]: Store serial: [23076461]
