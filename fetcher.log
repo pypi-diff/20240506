@@ -14313,3 +14313,48 @@
 [2024-05-06 11:38:29] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.9.0.tar.gz]
 [2024-05-06 11:38:29] INFO root fetch - main [MainThread]: End processing [datasets]: success
 [2024-05-06 11:38:29] INFO root fetch - main [MainThread]: Store serial: [23075492]
+[2024-05-06 11:40:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075492]
+[2024-05-06 11:40:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrf24
+[2024-05-06 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygenuz
+[2024-05-06 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gptk
+[2024-05-06 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngstoolkits
+[2024-05-06 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: katcp-codec
+[2024-05-06 11:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-adapter-satori
+[2024-05-06 11:40:39] WARNING root fetch - processPackages [gptk]: Skipping, unable to determine old version
+[2024-05-06 11:40:39] INFO root fetch - main [MainThread]: End processing [gptk] error
+[2024-05-06 11:40:39] WARNING root fetch - processPackages [pygenuz]: Skipping, unable to determine old version
+[2024-05-06 11:40:39] INFO root fetch - main [MainThread]: End processing [pygenuz] error
+[2024-05-06 11:40:39] INFO root fetch - processPackages [ngstoolkits]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-05-06 11:40:39] INFO root fetch - processPackages [katcp-codec]: New version: [0.1.0b2] Old Version: [0.1.0]
+[2024-05-06 11:40:39] INFO root fetch - processPackages [nonebot-adapter-satori]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-06 11:40:39] INFO root fetch - processPackages [pyrf24]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-06 11:40:39] INFO root fetch - processPackages [katcp-codec]: Downloading https://files.pythonhosted.org/packages/2c/83/4bd4ac161d91a428385272cea36bad1436221b587e03cab302f8ab4d3f6b/katcp_codec-0.1.0.tar.gz
+[2024-05-06 11:40:39] INFO root fetch - processPackages [ngstoolkits]: Downloading https://files.pythonhosted.org/packages/d8/70/5bf9066fe225a54b785da4016ba2a7fd1ecf8e9b04721fd89fe924de0da7/ngstoolkits-1.0.0rc1.tar.gz
+[2024-05-06 11:40:39] INFO root fetch - processPackages [pyrf24]: Downloading https://files.pythonhosted.org/packages/77/18/78664d5283cdb7b63daa28e323c334c7d891a99fa7b7044b44f99dfc4d26/pyrf24-0.2.5.tar.gz
+[2024-05-06 11:40:39] INFO root fetch - processPackages [nonebot-adapter-satori]: Downloading https://files.pythonhosted.org/packages/38/9e/332ff095f0a58b1f2f01a556c59f3eb43d514cbd5de0e528f6566e765f8d/nonebot_adapter_satori-0.9.2.tar.gz
+[2024-05-06 11:40:40] INFO root fetch - processPackages [pyrf24]: Downloading https://files.pythonhosted.org/packages/e7/1a/4b54051542784e5b248cf5c8e4e2ae3a500abd76c4074f7303dbe81b811c/pyrf24-0.3.0.tar.gz
+[2024-05-06 11:40:40] INFO root fetch - processPackages [ngstoolkits]: Downloading https://files.pythonhosted.org/packages/72/18/819c5836b181ec315091296fd0b050d055ce91db66fb0879dbccd5710abb/ngstoolkits-1.0.0rc2.tar.gz
+[2024-05-06 11:40:40] INFO root fetch - processPackages [katcp-codec]: Downloading https://files.pythonhosted.org/packages/e9/0c/2253a6c74b9bc8fbffc60a9c0cd1d412b5141380326a799befc8e951ef01/katcp_codec-0.1.0b2.tar.gz
+[2024-05-06 11:40:40] INFO root fetch - processPackages [nonebot-adapter-satori]: Downloading https://files.pythonhosted.org/packages/b4/63/45cf90e98509d6081103ac32e520e3fd73306f9f2d7ead8be5ece0680e16/nonebot_adapter_satori-0.9.3.tar.gz
+[2024-05-06 11:40:40] INFO root fetch - processPackages [pyrf24]: executing diffoscope
+[2024-05-06 11:40:40] INFO root fetch - processPackages [pyrf24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrf24-0.2.5.tar.gz tmp/pyrf24-0.3.0.tar.gz --markdown 20240506/p/pyrf24/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-06 11:40:40] INFO root fetch - processPackages [katcp-codec]: executing diffoscope
+[2024-05-06 11:40:40] INFO root fetch - processPackages [katcp-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katcp_codec-0.1.0.tar.gz tmp/katcp_codec-0.1.0b2.tar.gz --markdown 20240506/k/katcp-codec/0.1.0-0.1.0b2/README.md --exclude *.pyd
+[2024-05-06 11:40:40] INFO root fetch - processPackages [ngstoolkits]: executing diffoscope
+[2024-05-06 11:40:40] INFO root fetch - processPackages [ngstoolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstoolkits-1.0.0rc1.tar.gz tmp/ngstoolkits-1.0.0rc2.tar.gz --markdown 20240506/n/ngstoolkits/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-05-06 11:40:40] INFO root fetch - processPackages [nonebot-adapter-satori]: executing diffoscope
+[2024-05-06 11:40:40] INFO root fetch - processPackages [nonebot-adapter-satori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_satori-0.9.2.tar.gz tmp/nonebot_adapter_satori-0.9.3.tar.gz --markdown 20240506/n/nonebot-adapter-satori/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-06 11:40:41] INFO root fetch - processPackages [ngstoolkits]: Remove: archive file [/home/abi/fetcher/tmp/ngstoolkits-1.0.0rc1.tar.gz]
+[2024-05-06 11:40:41] INFO root fetch - processPackages [ngstoolkits]: Remove: archive file [/home/abi/fetcher/tmp/ngstoolkits-1.0.0rc2.tar.gz]
+[2024-05-06 11:40:41] INFO root fetch - main [MainThread]: End processing [ngstoolkits]: success
+[2024-05-06 11:40:41] INFO root fetch - processPackages [katcp-codec]: Remove: archive file [/home/abi/fetcher/tmp/katcp_codec-0.1.0.tar.gz]
+[2024-05-06 11:40:41] INFO root fetch - processPackages [katcp-codec]: Remove: archive file [/home/abi/fetcher/tmp/katcp_codec-0.1.0b2.tar.gz]
+[2024-05-06 11:40:41] INFO root fetch - main [MainThread]: End processing [katcp-codec]: success
+[2024-05-06 11:40:41] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.2.tar.gz]
+[2024-05-06 11:40:41] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.3.tar.gz]
+[2024-05-06 11:40:41] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-satori]: success
+[2024-05-06 11:40:41] INFO root fetch - processPackages [pyrf24]: Remove: archive file [/home/abi/fetcher/tmp/pyrf24-0.2.5.tar.gz]
+[2024-05-06 11:40:41] INFO root fetch - processPackages [pyrf24]: Remove: archive file [/home/abi/fetcher/tmp/pyrf24-0.3.0.tar.gz]
+[2024-05-06 11:40:41] INFO root fetch - main [MainThread]: End processing [pyrf24]: success
+[2024-05-06 11:40:41] INFO root fetch - main [MainThread]: Store serial: [23075528]
