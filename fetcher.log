@@ -21281,3 +21281,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:07:29] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
 [2024-05-06 16:07:29] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
 [2024-05-06 16:07:29] INFO root fetch - main [MainThread]: Store serial: [23078912]
+[2024-05-06 16:09:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078912]
+[2024-05-06 16:09:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libresvip
+[2024-05-06 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alex_sudoku
+[2024-05-06 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-05-06 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girona-donostia
+[2024-05-06 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: demessaging
+[2024-05-06 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superlinked
+[2024-05-06 16:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iommi
+[2024-05-06 16:09:40] INFO root fetch - processPackages [libresvip]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-06 16:09:40] INFO root fetch - processPackages [demessaging]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-06 16:09:40] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 16:09:40] INFO root fetch - processPackages [libresvip]: Downloading https://files.pythonhosted.org/packages/a1/db/509a30009fbeebf70f662ad342080177069a62e763301c145ed254f63015/libresvip-1.1.1.tar.gz
+[2024-05-06 16:09:40] INFO root fetch - processPackages [demessaging]: Downloading https://files.pythonhosted.org/packages/94/17/33af12464230b5d6ab5543054b78ddb7013ae0ea7def3f277f048d3d8945/demessaging-0.5.1.tar.gz
+[2024-05-06 16:09:40] INFO root fetch - processPackages [alex_sudoku]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-06 16:09:40] INFO root fetch - processPackages [girona-donostia]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 16:09:40] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-06 16:09:40] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-06 16:09:40] INFO root fetch - processPackages [alex_sudoku]: Downloading https://files.pythonhosted.org/packages/44/d5/56a6485ea700c5f0d33243a9511436a7c87bb3950e716fc7f72bcde42a23/alex_sudoku-0.2.0.tar.gz
+[2024-05-06 16:09:40] INFO root fetch - processPackages [girona-donostia]: Downloading https://files.pythonhosted.org/packages/60/c4/36c745985e733f829f641f2f74f270959734e1371d5373d18d00da343153/girona_donostia-0.1.8.tar.gz
+[2024-05-06 16:09:40] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-05-06 16:09:40] INFO root fetch - processPackages [demessaging]: Downloading https://files.pythonhosted.org/packages/b6/85/5a56ae30ddfff15c1e03280ef1fe87969f371362f1232a18a017e910ebfe/demessaging-0.5.2.tar.gz
+[2024-05-06 16:09:40] INFO root fetch - processPackages [libresvip]: Downloading https://files.pythonhosted.org/packages/8b/48/67c0599a8b5a2c55e3facaff38762fa415b40bf741f4ed7a3d65099e5232/libresvip-1.1.2-py3-none-any.whl
+[2024-05-06 16:09:40] INFO root fetch - processPackages [iommi]: New version: [7.1.0] Old Version: [7.0.0]
+[2024-05-06 16:09:40] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-06 16:09:40] INFO root fetch - processPackages [demessaging]: executing diffoscope
+[2024-05-06 16:09:40] INFO root fetch - processPackages [demessaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demessaging-0.5.1.tar.gz tmp/demessaging-0.5.2.tar.gz --markdown 20240506/d/demessaging/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-06 16:09:41] INFO root fetch - processPackages [girona-donostia]: Downloading https://files.pythonhosted.org/packages/f1/fb/f355c092348fa1da903dd898a1aa616b514553b52cfda1036012d8115951/girona_donostia-0.1.9.tar.gz
+[2024-05-06 16:09:41] INFO root fetch - processPackages [libresvip]: executing diffoscope
+[2024-05-06 16:09:41] INFO root fetch - processPackages [libresvip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libresvip-1.1.1.tar.gz tmp/libresvip-1.1.2-py3-none-any.whl.zip --markdown 20240506/l/libresvip/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-06 16:09:41] INFO root fetch - processPackages [alex_sudoku]: Downloading https://files.pythonhosted.org/packages/5b/ae/f9058af7206a0f339abb731b2c123036b876e34daa7e3765c1a500ceb570/alex_sudoku-0.2.1.tar.gz
+[2024-05-06 16:09:41] INFO root fetch - processPackages [iommi]: Downloading https://files.pythonhosted.org/packages/e1/ba/3d144519565f94623c2cdf3740118f3e6b8b364e27fdaa861ec4fca349e7/iommi-7.0.0.tar.gz
+[2024-05-06 16:09:41] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-06 16:09:41] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240506/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 16:09:41] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-05-06 16:09:41] INFO root fetch - processPackages [alex_sudoku]: executing diffoscope
+[2024-05-06 16:09:41] INFO root fetch - processPackages [alex_sudoku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alex_sudoku-0.2.0.tar.gz tmp/alex_sudoku-0.2.1.tar.gz --markdown 20240506/a/alex_sudoku/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-06 16:09:41] INFO root fetch - processPackages [girona-donostia]: executing diffoscope
+[2024-05-06 16:09:41] INFO root fetch - processPackages [girona-donostia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girona_donostia-0.1.8.tar.gz tmp/girona_donostia-0.1.9.tar.gz --markdown 20240506/g/girona-donostia/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:09:41] INFO root fetch - processPackages [iommi]: Downloading https://files.pythonhosted.org/packages/c3/31/f0408c3571d8b51b3802baaeb90ce2a9196e143b2e1eb94e956ccb2d726f/iommi-7.1.0.tar.gz
+[2024-05-06 16:09:41] INFO root fetch - processPackages [demessaging]: Remove: archive file [/home/abi/fetcher/tmp/demessaging-0.5.1.tar.gz]
+[2024-05-06 16:09:41] INFO root fetch - processPackages [demessaging]: Remove: archive file [/home/abi/fetcher/tmp/demessaging-0.5.2.tar.gz]
+[2024-05-06 16:09:41] INFO root fetch - main [MainThread]: End processing [demessaging]: success
+[2024-05-06 16:09:41] INFO root fetch - processPackages [iommi]: executing diffoscope
+[2024-05-06 16:09:41] INFO root fetch - processPackages [iommi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iommi-7.0.0.tar.gz tmp/iommi-7.1.0.tar.gz --markdown 20240506/i/iommi/7.0.0-7.1.0/README.md --exclude *.pyd
+[2024-05-06 16:09:41] INFO root fetch - processPackages [libresvip]: Remove: archive file [/home/abi/fetcher/tmp/libresvip-1.1.1.tar.gz]
+[2024-05-06 16:09:41] INFO root fetch - processPackages [libresvip]: Remove: archive file [/home/abi/fetcher/tmp/libresvip-1.1.2-py3-none-any.whl.zip]
+[2024-05-06 16:09:41] INFO root fetch - main [MainThread]: End processing [libresvip]: success
+[2024-05-06 16:09:41] INFO root fetch - processPackages [alex_sudoku]: Remove: archive file [/home/abi/fetcher/tmp/alex_sudoku-0.2.0.tar.gz]
+[2024-05-06 16:09:41] INFO root fetch - processPackages [alex_sudoku]: Remove: archive file [/home/abi/fetcher/tmp/alex_sudoku-0.2.1.tar.gz]
+[2024-05-06 16:09:41] INFO root fetch - main [MainThread]: End processing [alex_sudoku]: success
+[2024-05-06 16:09:42] INFO root fetch - processPackages [girona-donostia]: Remove: archive file [/home/abi/fetcher/tmp/girona_donostia-0.1.8.tar.gz]
+[2024-05-06 16:09:42] INFO root fetch - processPackages [girona-donostia]: Remove: archive file [/home/abi/fetcher/tmp/girona_donostia-0.1.9.tar.gz]
+[2024-05-06 16:09:42] INFO root fetch - main [MainThread]: End processing [girona-donostia]: success
+[2024-05-06 16:09:42] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-06 16:09:42] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-06 16:09:42] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-06 16:09:42] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-06 16:09:42] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240506/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-06 16:09:43] INFO root fetch - processPackages [iommi]: Remove: archive file [/home/abi/fetcher/tmp/iommi-7.0.0.tar.gz]
+[2024-05-06 16:09:43] INFO root fetch - processPackages [iommi]: Remove: archive file [/home/abi/fetcher/tmp/iommi-7.1.0.tar.gz]
+[2024-05-06 16:09:43] INFO root fetch - main [MainThread]: End processing [iommi]: success
+[2024-05-06 16:09:43] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-05-06 16:09:43] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-05-06 16:09:43] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-06 16:09:43] INFO root fetch - main [MainThread]: Store serial: [23078932]
