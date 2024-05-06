@@ -4907,3 +4907,33 @@
 [2024-05-06 06:31:35] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
 [2024-05-06 06:31:35] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
 [2024-05-06 06:31:35] INFO root fetch - main [MainThread]: Store serial: [23071550]
+[2024-05-06 06:33:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071550]
+[2024-05-06 06:33:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 06:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-dbchat
+[2024-05-06 06:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SpatialQC
+[2024-05-06 06:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-l10n-mexico
+[2024-05-06 06:33:44] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-06 06:33:44] INFO root fetch - processPackages [odoo-addons-oca-l10n-mexico]: New version: [16.0.20231004.0] Old Version: [15.0.20240505.0]
+[2024-05-06 06:33:44] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-06 06:33:44] INFO root fetch - processPackages [SpatialQC]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-06 06:33:44] INFO root fetch - processPackages [odoo-addons-oca-l10n-mexico]: Downloading https://files.pythonhosted.org/packages/0c/0c/3313b2c6358714282e0beb11f9c8161274d6d38f91fab6395976852f4651/odoo_addons_oca_l10n_mexico-15.0.20240505.0-py3-none-any.whl
+[2024-05-06 06:33:44] INFO root fetch - processPackages [SpatialQC]: Downloading https://files.pythonhosted.org/packages/be/f6/77d77210a1c4a7dfe951338041c2f61c775ba4014f372db5061bea85f5b9/SpatialQC-1.0.2.tar.gz
+[2024-05-06 06:33:44] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-06 06:33:45] INFO root fetch - processPackages [odoo-addons-oca-l10n-mexico]: Downloading https://files.pythonhosted.org/packages/f7/b3/2ca3dfb734d7ce3bdf4efc917a4c52bfc9cb64d26ce43a29374b35ffd36f/odoo_addons_oca_l10n_mexico-16.0.20231004.0-py3-none-any.whl
+[2024-05-06 06:33:45] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-06 06:33:45] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240506/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-06 06:33:45] INFO root fetch - processPackages [odoo-addons-oca-l10n-mexico]: executing diffoscope
+[2024-05-06 06:33:45] INFO root fetch - processPackages [odoo-addons-oca-l10n-mexico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_mexico-15.0.20240505.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_mexico-16.0.20231004.0-py3-none-any.whl.zip --markdown 20240506/o/odoo-addons-oca-l10n-mexico/15.0.20240505.0-16.0.20231004.0/README.md --exclude *.pyd
+[2024-05-06 06:33:45] INFO root fetch - processPackages [SpatialQC]: Downloading https://files.pythonhosted.org/packages/70/d8/4c6e35860025ad34e445017a976d4db4226eebbab3ceb54f62236704e3df/SpatialQC-1.0.3.tar.gz
+[2024-05-06 06:33:45] INFO root fetch - processPackages [SpatialQC]: executing diffoscope
+[2024-05-06 06:33:45] INFO root fetch - processPackages [SpatialQC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialQC-1.0.2.tar.gz tmp/SpatialQC-1.0.3.tar.gz --markdown 20240506/S/SpatialQC/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-06 06:33:45] INFO root fetch - processPackages [odoo-addons-oca-l10n-mexico]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_mexico-15.0.20240505.0-py3-none-any.whl.zip]
+[2024-05-06 06:33:45] INFO root fetch - processPackages [odoo-addons-oca-l10n-mexico]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_mexico-16.0.20231004.0-py3-none-any.whl.zip]
+[2024-05-06 06:33:45] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-mexico]: success
+[2024-05-06 06:33:45] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-06 06:33:45] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-06 06:33:45] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-06 06:33:46] INFO root fetch - processPackages [SpatialQC]: Remove: archive file [/home/abi/fetcher/tmp/SpatialQC-1.0.2.tar.gz]
+[2024-05-06 06:33:46] INFO root fetch - processPackages [SpatialQC]: Remove: archive file [/home/abi/fetcher/tmp/SpatialQC-1.0.3.tar.gz]
+[2024-05-06 06:33:46] INFO root fetch - main [MainThread]: End processing [SpatialQC]: success
+[2024-05-06 06:33:46] INFO root fetch - main [MainThread]: Store serial: [23071559]
