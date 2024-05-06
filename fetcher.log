@@ -7394,3 +7394,33 @@
 [2024-05-06 09:14:22] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-06 09:14:22] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-06 09:14:22] INFO root fetch - main [MainThread]: Store serial: [23072769]
+[2024-05-06 09:16:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072769]
+[2024-05-06 09:16:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pyrozal
+[2024-05-06 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decoutilities
+[2024-05-06 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyetp
+[2024-05-06 09:16:31] INFO root fetch - processPackages [Pyrozal]: New version: [2.0] Old Version: [1.0]
+[2024-05-06 09:16:31] INFO root fetch - processPackages [decoutilities]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-06 09:16:31] INFO root fetch - processPackages [pyetp]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 09:16:31] INFO root fetch - processPackages [Pyrozal]: Downloading https://files.pythonhosted.org/packages/de/d5/11ce861020fc2413a7318797bc7e309da6f67b57153ae7741777030e734c/Pyrozal-1.0.tar.gz
+[2024-05-06 09:16:31] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/df/60/29e26c5d4c96d8a49f6ae70b54c207d8b882ed8640fdcda738770c968003/decoutilities-0.2.0.tar.gz
+[2024-05-06 09:16:31] INFO root fetch - processPackages [pyetp]: Downloading https://files.pythonhosted.org/packages/d1/3f/76647ee26cbf712c9b2812bffd26abad67531802737f9843bbbcbb77359f/pyetp-0.0.6.tar.gz
+[2024-05-06 09:16:31] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/3d/59/e7653bb94b8c95f548124f9a6d98c34e4725a9d665c60eddb6b52f3d3201/decoutilities-0.2.1.tar.gz
+[2024-05-06 09:16:31] INFO root fetch - processPackages [Pyrozal]: Downloading https://files.pythonhosted.org/packages/aa/26/65dd80b18f2d786fcf295e6757144c69336753ccc79b12254db5828a5d66/Pyrozal-2.0.tar.gz
+[2024-05-06 09:16:31] INFO root fetch - processPackages [pyetp]: Downloading https://files.pythonhosted.org/packages/74/52/ccb127ea833702757537e5236d5f017023884aae8f6c838cb55f2ed833c3/pyetp-0.0.7.tar.gz
+[2024-05-06 09:16:31] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-05-06 09:16:31] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.2.0.tar.gz tmp/decoutilities-0.2.1.tar.gz --markdown 20240506/d/decoutilities/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-06 09:16:31] INFO root fetch - processPackages [pyetp]: executing diffoscope
+[2024-05-06 09:16:31] INFO root fetch - processPackages [pyetp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyetp-0.0.6.tar.gz tmp/pyetp-0.0.7.tar.gz --markdown 20240506/p/pyetp/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 09:16:31] INFO root fetch - processPackages [Pyrozal]: executing diffoscope
+[2024-05-06 09:16:31] INFO root fetch - processPackages [Pyrozal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyrozal-1.0.tar.gz tmp/Pyrozal-2.0.tar.gz --markdown 20240506/P/Pyrozal/1.0-2.0/README.md --exclude *.pyd
+[2024-05-06 09:16:32] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.0.tar.gz]
+[2024-05-06 09:16:32] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.1.tar.gz]
+[2024-05-06 09:16:32] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-05-06 09:16:32] INFO root fetch - processPackages [pyetp]: Remove: archive file [/home/abi/fetcher/tmp/pyetp-0.0.6.tar.gz]
+[2024-05-06 09:16:32] INFO root fetch - processPackages [pyetp]: Remove: archive file [/home/abi/fetcher/tmp/pyetp-0.0.7.tar.gz]
+[2024-05-06 09:16:32] INFO root fetch - main [MainThread]: End processing [pyetp]: success
+[2024-05-06 09:16:37] INFO root fetch - processPackages [Pyrozal]: Remove: archive file [/home/abi/fetcher/tmp/Pyrozal-1.0.tar.gz]
+[2024-05-06 09:16:37] INFO root fetch - processPackages [Pyrozal]: Remove: archive file [/home/abi/fetcher/tmp/Pyrozal-2.0.tar.gz]
+[2024-05-06 09:16:37] INFO root fetch - main [MainThread]: End processing [Pyrozal]: success
+[2024-05-06 09:16:37] INFO root fetch - main [MainThread]: Store serial: [23072780]
