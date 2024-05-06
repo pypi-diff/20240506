@@ -1874,3 +1874,29 @@
 [2024-05-06 03:03:32] INFO root fetch - processPackages [tabletalk]: Remove: archive file [/home/abi/fetcher/tmp/tabletalk-0.0.9.tar.gz]
 [2024-05-06 03:03:32] INFO root fetch - main [MainThread]: End processing [tabletalk]: success
 [2024-05-06 03:03:32] INFO root fetch - main [MainThread]: Store serial: [23070286]
+[2024-05-06 03:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070286]
+[2024-05-06 03:05:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 03:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-assistant
+[2024-05-06 03:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thor
+[2024-05-06 03:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cycparser
+[2024-05-06 03:05:41] INFO root fetch - processPackages [thor]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-06 03:05:41] INFO root fetch - processPackages [thor]: Downloading https://files.pythonhosted.org/packages/6b/43/3808f163005af01c7fa631ef865898b34f6aa29d074d140066ba16c6ae78/thor-0.9.8.tar.gz
+[2024-05-06 03:05:41] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b145] Old Version: [2.0.0b144]
+[2024-05-06 03:05:41] INFO root fetch - processPackages [cycparser]: New version: [1.2.9] Old Version: [1.2.84]
+[2024-05-06 03:05:41] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/06/f2/c48a616ea6b3362910d1b45fb58704d654abfbfbf591b6e50b60ff489ec5/music_assistant-2.0.0b144.tar.gz
+[2024-05-06 03:05:41] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/b9/30/de02dd28f886f4b623398c03dfc103f4784803e092325b1c62a5dbe2303d/cycparser-1.2.84.tar.gz
+[2024-05-06 03:05:41] INFO root fetch - processPackages [thor]: Downloading https://files.pythonhosted.org/packages/d0/ca/4ed5b622a23dea82284cbe071a76f0c774adfdaa706917444e15f623bb98/thor-0.9.9.tar.gz
+[2024-05-06 03:05:41] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 13975972>=10485760
+[2024-05-06 03:05:41] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2024-05-06 03:05:41] INFO root fetch - processPackages [thor]: executing diffoscope
+[2024-05-06 03:05:41] INFO root fetch - processPackages [thor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thor-0.9.8.tar.gz tmp/thor-0.9.9.tar.gz --markdown 20240506/t/thor/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-06 03:05:41] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/18/d8/2b7fc87b39a5c7e3e5efb3c4fba10bdea69dddbcaccc22660be5d4666496/cycparser-1.2.9.tar.gz
+[2024-05-06 03:05:42] INFO root fetch - processPackages [cycparser]: executing diffoscope
+[2024-05-06 03:05:42] INFO root fetch - processPackages [cycparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycparser-1.2.84.tar.gz tmp/cycparser-1.2.9.tar.gz --markdown 20240506/c/cycparser/1.2.84-1.2.9/README.md --exclude *.pyd
+[2024-05-06 03:05:42] INFO root fetch - processPackages [thor]: Remove: archive file [/home/abi/fetcher/tmp/thor-0.9.8.tar.gz]
+[2024-05-06 03:05:42] INFO root fetch - processPackages [thor]: Remove: archive file [/home/abi/fetcher/tmp/thor-0.9.9.tar.gz]
+[2024-05-06 03:05:42] INFO root fetch - main [MainThread]: End processing [thor]: success
+[2024-05-06 03:05:42] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.84.tar.gz]
+[2024-05-06 03:05:42] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.9.tar.gz]
+[2024-05-06 03:05:42] INFO root fetch - main [MainThread]: End processing [cycparser]: success
+[2024-05-06 03:05:42] INFO root fetch - main [MainThread]: Store serial: [23070295]
