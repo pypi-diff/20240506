@@ -19233,3 +19233,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:58:57] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.0rc0.tar.gz]
 [2024-05-06 14:58:57] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2024-05-06 14:58:57] INFO root fetch - main [MainThread]: Store serial: [23077837]
+[2024-05-06 15:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077837]
+[2024-05-06 15:01:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-06 15:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picnic-bio
+[2024-05-06 15:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyCorrCPI
+[2024-05-06 15:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EAIK
+[2024-05-06 15:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hat-orchestrator
+[2024-05-06 15:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-pandas
+[2024-05-06 15:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-be-cooperator-national-number
+[2024-05-06 15:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bokeh-joystick-widget
+[2024-05-06 15:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lab
+[2024-05-06 15:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blankslate-python
+[2024-05-06 15:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neolibrary
+[2024-05-06 15:01:09] INFO root fetch - processPackages [bokeh-joystick-widget]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-06 15:01:09] INFO root fetch - processPackages [blankslate-python]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-06 15:01:09] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 15:01:09] INFO root fetch - processPackages [picnic-bio]: New version: [1.0.0rc1] Old Version: [1.0.0b3]
+[2024-05-06 15:01:09] INFO root fetch - processPackages [hat-orchestrator]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-06 15:01:09] INFO root fetch - processPackages [lab]: New version: [8.2] Old Version: [8.1]
+[2024-05-06 15:01:09] INFO root fetch - processPackages [PyCorrCPI]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-06 15:01:09] WARNING root fetch - processPackages [EAIK]: Skipping, unable to determine old version
+[2024-05-06 15:01:09] INFO root fetch - processPackages [EAIK]: Start processing: stack-graphs-python-bindings
+[2024-05-06 15:01:09] INFO root fetch - main [MainThread]: End processing [EAIK] error
+[2024-05-06 15:01:09] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-national-number]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2024-05-06 15:01:09] INFO root fetch - processPackages [neolibrary]: New version: [0.4.3b1] Old Version: [0.4.2b1]
+[2024-05-06 15:01:10] INFO root fetch - processPackages [blankslate-python]: Downloading https://files.pythonhosted.org/packages/48/61/87adcc82d9314cee7a91091563ec25662b17dcd57eee9114f77bb7b8bbbd/blankslate_python-1.3.1.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [picnic-bio]: Downloading https://files.pythonhosted.org/packages/77/7e/13f95f6d4e6daa2f6cac25db9817236111eaab48faf4fe20724f98d9aa43/picnic_bio-1.0.0b3.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [bokeh-joystick-widget]: Downloading https://files.pythonhosted.org/packages/3b/5e/8e24844a532f2d7370b53b3121869c8066c68770077eacd2dc6a49566484/bokeh_joystick_widget-0.1.0.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [stack-graphs-python-bindings]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 15:01:10] INFO root fetch - processPackages [hat-orchestrator]: Downloading https://files.pythonhosted.org/packages/2a/cf/6b299786919092fbcc510a1c41320b6919bf6b884ec0a38b9d348b2a050b/hat_orchestrator-0.7.0-cp310.cp311.cp312-none-any.whl
+[2024-05-06 15:01:10] INFO root fetch - processPackages [lab]: Downloading https://files.pythonhosted.org/packages/5a/95/9537795651d68c4b16285fde52bd176ee038a3dccb5f0e16afe212e52ca3/lab-8.1.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [PyCorrCPI]: Downloading https://files.pythonhosted.org/packages/36/b8/874e14d1df85f7d0c611e94d4c01ad24d2316281d0e0a0f1bd7786ede00d/PyCorrCPI-0.0.4.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [neolibrary]: Downloading https://files.pythonhosted.org/packages/9c/29/cad4171be9e88e6da310560c03d6fa86ecfa8bbd8b6246fc0f3988937757/neolibrary-0.4.2b1.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-national-number]: Downloading https://files.pythonhosted.org/packages/b7/ec/b3d3b926a2ce8977b6fc0c21caf7eea07aa75f9226afd06a1d54f45e7eb4/odoo_addon_l10n_be_cooperator_national_number-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-06 15:01:10] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/5c/eb/b8a1c1080e992940f58672b5c2552d2a1a12d6d4441a10821e1362b76bc1/stack_graphs_python_bindings-0.0.1.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [blankslate-python]: Downloading https://files.pythonhosted.org/packages/f6/df/1f978fa1ffa94c80e3d88299c6fb28867ae7e6eedf9129ad9e5d64779f6a/blankslate_python-1.3.2.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 15:01:10] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 15:01:10] INFO root fetch - processPackages [bokeh-joystick-widget]: Downloading https://files.pythonhosted.org/packages/4b/c6/3c6ba2e9436e5882f7841ba5fac372985c32bbe95652ad64dfae93b6f9e3/bokeh_joystick_widget-0.2.0.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [hat-orchestrator]: Downloading https://files.pythonhosted.org/packages/bf/4d/c891f8f30a4593ea01e626ba80645bd573bb8e500b817e75ab14baaf72a1/hat_orchestrator-0.7.1-cp310.cp311.cp312-none-any.whl
+[2024-05-06 15:01:10] INFO root fetch - processPackages [blankslate-python]: executing diffoscope
+[2024-05-06 15:01:10] INFO root fetch - processPackages [blankslate-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blankslate_python-1.3.1.tar.gz tmp/blankslate_python-1.3.2.tar.gz --markdown 20240506/b/blankslate-python/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-06 15:01:10] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-national-number]: Downloading https://files.pythonhosted.org/packages/a5/5f/c24b197528d2523d86d356539d300fb2c2f37756c6d617f8520baf05d169/odoo_addon_l10n_be_cooperator_national_number-16.0.1.0.1-py3-none-any.whl
+[2024-05-06 15:01:10] INFO root fetch - processPackages [neolibrary]: Downloading https://files.pythonhosted.org/packages/8e/10/d2c77bca6a951398a559abc734b4c854a9b97fc7ee6aea59d7678522a4e9/neolibrary-0.4.3b1.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [PyCorrCPI]: Downloading https://files.pythonhosted.org/packages/25/da/e903e1fa1b418c5bfa0e7c8c3778b950c002a365d232c7919ce6de7bda81/PyCorrCPI-0.0.5.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [bokeh-joystick-widget]: executing diffoscope
+[2024-05-06 15:01:10] INFO root fetch - processPackages [bokeh-joystick-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokeh_joystick_widget-0.1.0.tar.gz tmp/bokeh_joystick_widget-0.2.0.tar.gz --markdown 20240506/b/bokeh-joystick-widget/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-06 15:01:10] INFO root fetch - processPackages [lab]: Downloading https://files.pythonhosted.org/packages/c1/1e/924b1690e98db12e8b1bcf88fd2237d843ffe908e32aeeb4aeb797e39375/lab-8.2.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/9f/2c/8e0fb92bb2cfa1970965c495fffa27ed9728b028bfc107c1f8cd09fa30f4/stack_graphs_python_bindings-0.0.2.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [hat-orchestrator]: executing diffoscope
+[2024-05-06 15:01:10] INFO root fetch - processPackages [hat-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_orchestrator-0.7.0-cp310.cp311.cp312-none-any.whl.zip tmp/hat_orchestrator-0.7.1-cp310.cp311.cp312-none-any.whl.zip --markdown 20240506/h/hat-orchestrator/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-06 15:01:10] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-national-number]: executing diffoscope
+[2024-05-06 15:01:10] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-national-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_be_cooperator_national_number-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_be_cooperator_national_number-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-l10n-be-cooperator-national-number/16.0.1.0.0.3-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-06 15:01:10] INFO root fetch - processPackages [neolibrary]: executing diffoscope
+[2024-05-06 15:01:10] INFO root fetch - processPackages [neolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neolibrary-0.4.2b1.tar.gz tmp/neolibrary-0.4.3b1.tar.gz --markdown 20240506/n/neolibrary/0.4.2b1-0.4.3b1/README.md --exclude *.pyd
+[2024-05-06 15:01:10] INFO root fetch - processPackages [PyCorrCPI]: executing diffoscope
+[2024-05-06 15:01:10] INFO root fetch - processPackages [PyCorrCPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCorrCPI-0.0.4.tar.gz tmp/PyCorrCPI-0.0.5.tar.gz --markdown 20240506/P/PyCorrCPI/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-06 15:01:10] INFO root fetch - processPackages [lab]: executing diffoscope
+[2024-05-06 15:01:10] INFO root fetch - processPackages [lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-8.1.tar.gz tmp/lab-8.2.tar.gz --markdown 20240506/l/lab/8.1-8.2/README.md --exclude *.pyd
+[2024-05-06 15:01:10] INFO root fetch - processPackages [picnic-bio]: Downloading https://files.pythonhosted.org/packages/21/26/ab2363ad3fb6ab2fb5aafc23956d8310fdfe7c5944b48b30ed31dd3ae84a/picnic_bio-1.0.0rc1.tar.gz
+[2024-05-06 15:01:10] INFO root fetch - processPackages [stack-graphs-python-bindings]: executing diffoscope
+[2024-05-06 15:01:10] INFO root fetch - processPackages [stack-graphs-python-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stack_graphs_python_bindings-0.0.1.tar.gz tmp/stack_graphs_python_bindings-0.0.2.tar.gz --markdown 20240506/s/stack-graphs-python-bindings/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 15:01:11] INFO root fetch - processPackages [picnic-bio]: executing diffoscope
+[2024-05-06 15:01:11] INFO root fetch - processPackages [picnic-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picnic_bio-1.0.0b3.tar.gz tmp/picnic_bio-1.0.0rc1.tar.gz --markdown 20240506/p/picnic-bio/1.0.0b3-1.0.0rc1/README.md --exclude *.pyd
+[2024-05-06 15:01:11] INFO root fetch - processPackages [blankslate-python]: Remove: archive file [/home/abi/fetcher/tmp/blankslate_python-1.3.1.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [blankslate-python]: Remove: archive file [/home/abi/fetcher/tmp/blankslate_python-1.3.2.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [blankslate-python]: Start processing: fastembed-haystack
+[2024-05-06 15:01:11] INFO root fetch - main [MainThread]: End processing [blankslate-python]: success
+[2024-05-06 15:01:11] INFO root fetch - processPackages [bokeh-joystick-widget]: Remove: archive file [/home/abi/fetcher/tmp/bokeh_joystick_widget-0.1.0.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [bokeh-joystick-widget]: Remove: archive file [/home/abi/fetcher/tmp/bokeh_joystick_widget-0.2.0.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [bokeh-joystick-widget]: Start processing: hat-monitor
+[2024-05-06 15:01:11] INFO root fetch - main [MainThread]: End processing [bokeh-joystick-widget]: success
+[2024-05-06 15:01:11] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [abstract-pandas]: Start processing: bokeh-joystick-widget
+[2024-05-06 15:01:11] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 15:01:11] INFO root fetch - processPackages [PyCorrCPI]: Remove: archive file [/home/abi/fetcher/tmp/PyCorrCPI-0.0.4.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [PyCorrCPI]: Remove: archive file [/home/abi/fetcher/tmp/PyCorrCPI-0.0.5.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - main [MainThread]: End processing [PyCorrCPI]: success
+[2024-05-06 15:01:11] INFO root fetch - processPackages [bokeh-joystick-widget]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [fastembed-haystack]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [hat-monitor]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.1.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.2.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - main [MainThread]: End processing [stack-graphs-python-bindings]: success
+[2024-05-06 15:01:11] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-national-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_cooperator_national_number-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-national-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_cooperator_national_number-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-06 15:01:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-cooperator-national-number]: success
+[2024-05-06 15:01:11] INFO root fetch - processPackages [bokeh-joystick-widget]: Downloading https://files.pythonhosted.org/packages/ab/6b/008062489446edfbfb73dc900face267026b66a6b4e36d18fe98eb4fda7e/bokeh_joystick_widget-0.3.0.tar.gz
+[2024-05-06 15:01:11] INFO root fetch - processPackages [neolibrary]: Remove: archive file [/home/abi/fetcher/tmp/neolibrary-0.4.2b1.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [neolibrary]: Remove: archive file [/home/abi/fetcher/tmp/neolibrary-0.4.3b1.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - main [MainThread]: End processing [neolibrary]: success
+[2024-05-06 15:01:11] INFO root fetch - processPackages [fastembed-haystack]: Downloading https://files.pythonhosted.org/packages/a3/81/0b23f7219ff6d2df6ac0ee80b01ea3dcaf8dfd4cd95a5d9e2e9a6a6e0195/fastembed_haystack-0.1.0.tar.gz
+[2024-05-06 15:01:11] INFO root fetch - processPackages [hat-monitor]: Downloading https://files.pythonhosted.org/packages/b2/59/70f8c301eff6712ed496c49eda88cf545f4b9255148900755db8257eec1e/hat_monitor-0.8.6-cp310.cp311.cp312-none-any.whl
+[2024-05-06 15:01:11] INFO root fetch - processPackages [lab]: Remove: archive file [/home/abi/fetcher/tmp/lab-8.1.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - processPackages [lab]: Remove: archive file [/home/abi/fetcher/tmp/lab-8.2.tar.gz]
+[2024-05-06 15:01:11] INFO root fetch - main [MainThread]: End processing [lab]: success
+[2024-05-06 15:01:12] INFO root fetch - processPackages [hat-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/hat_orchestrator-0.7.0-cp310.cp311.cp312-none-any.whl.zip]
+[2024-05-06 15:01:12] INFO root fetch - processPackages [hat-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/hat_orchestrator-0.7.1-cp310.cp311.cp312-none-any.whl.zip]
+[2024-05-06 15:01:12] INFO root fetch - main [MainThread]: End processing [hat-orchestrator]: success
+[2024-05-06 15:01:12] INFO root fetch - processPackages [bokeh-joystick-widget]: Downloading https://files.pythonhosted.org/packages/b6/0b/60dfb6592598e30d44cd5f68adaca7a88f23445f8dd3c26131e2344bc009/bokeh_joystick_widget-0.3.1.tar.gz
+[2024-05-06 15:01:12] INFO root fetch - processPackages [hat-monitor]: Downloading https://files.pythonhosted.org/packages/06/d1/9016a3802237170a5fe937a599d1ba27e14944714553c28ec8e06ebf8e2e/hat_monitor-0.8.7-cp310.cp311.cp312-none-any.whl
+[2024-05-06 15:01:12] INFO root fetch - processPackages [bokeh-joystick-widget]: executing diffoscope
+[2024-05-06 15:01:12] INFO root fetch - processPackages [bokeh-joystick-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokeh_joystick_widget-0.3.0.tar.gz tmp/bokeh_joystick_widget-0.3.1.tar.gz --markdown 20240506/b/bokeh-joystick-widget/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-06 15:01:12] INFO root fetch - processPackages [fastembed-haystack]: Downloading https://files.pythonhosted.org/packages/a6/d6/a5b2f96fd9248afb204ac0b2ff97ab78f6b35cbf8d8390901103dd449448/fastembed_haystack-1.0.0.tar.gz
+[2024-05-06 15:01:12] INFO root fetch - processPackages [hat-monitor]: executing diffoscope
+[2024-05-06 15:01:12] INFO root fetch - processPackages [hat-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_monitor-0.8.6-cp310.cp311.cp312-none-any.whl.zip tmp/hat_monitor-0.8.7-cp310.cp311.cp312-none-any.whl.zip --markdown 20240506/h/hat-monitor/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-05-06 15:01:12] INFO root fetch - processPackages [fastembed-haystack]: executing diffoscope
+[2024-05-06 15:01:12] INFO root fetch - processPackages [fastembed-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastembed_haystack-0.1.0.tar.gz tmp/fastembed_haystack-1.0.0.tar.gz --markdown 20240506/f/fastembed-haystack/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-06 15:01:12] INFO root fetch - processPackages [picnic-bio]: Remove: archive file [/home/abi/fetcher/tmp/picnic_bio-1.0.0b3.tar.gz]
+[2024-05-06 15:01:12] INFO root fetch - processPackages [picnic-bio]: Remove: archive file [/home/abi/fetcher/tmp/picnic_bio-1.0.0rc1.tar.gz]
+[2024-05-06 15:01:12] INFO root fetch - main [MainThread]: End processing [picnic-bio]: success
+[2024-05-06 15:01:12] INFO root fetch - processPackages [bokeh-joystick-widget]: Remove: archive file [/home/abi/fetcher/tmp/bokeh_joystick_widget-0.3.0.tar.gz]
+[2024-05-06 15:01:12] INFO root fetch - processPackages [bokeh-joystick-widget]: Remove: archive file [/home/abi/fetcher/tmp/bokeh_joystick_widget-0.3.1.tar.gz]
+[2024-05-06 15:01:12] INFO root fetch - main [MainThread]: End processing [bokeh-joystick-widget]: success
+[2024-05-06 15:01:13] INFO root fetch - processPackages [fastembed-haystack]: Remove: archive file [/home/abi/fetcher/tmp/fastembed_haystack-0.1.0.tar.gz]
+[2024-05-06 15:01:13] INFO root fetch - processPackages [fastembed-haystack]: Remove: archive file [/home/abi/fetcher/tmp/fastembed_haystack-1.0.0.tar.gz]
+[2024-05-06 15:01:13] INFO root fetch - main [MainThread]: End processing [fastembed-haystack]: success
+[2024-05-06 15:01:13] INFO root fetch - processPackages [hat-monitor]: Remove: archive file [/home/abi/fetcher/tmp/hat_monitor-0.8.6-cp310.cp311.cp312-none-any.whl.zip]
+[2024-05-06 15:01:13] INFO root fetch - processPackages [hat-monitor]: Remove: archive file [/home/abi/fetcher/tmp/hat_monitor-0.8.7-cp310.cp311.cp312-none-any.whl.zip]
+[2024-05-06 15:01:13] INFO root fetch - main [MainThread]: End processing [hat-monitor]: success
+[2024-05-06 15:01:13] INFO root fetch - main [MainThread]: Store serial: [23077884]
