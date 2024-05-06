@@ -14991,3 +14991,48 @@
 [2024-05-06 12:02:38] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-05-06 12:02:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-report-valued]: success
 [2024-05-06 12:02:38] INFO root fetch - main [MainThread]: Store serial: [23075819]
+[2024-05-06 12:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075819]
+[2024-05-06 12:04:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 12:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic2-to-typescript
+[2024-05-06 12:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlops-ods
+[2024-05-06 12:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wxhook
+[2024-05-06 12:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aassempdf
+[2024-05-06 12:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQtUIkit
+[2024-05-06 12:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-nightly-cuda120
+[2024-05-06 12:04:47] INFO root fetch - processPackages [wxhook]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 12:04:47] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.9.0] Old Version: [2.8.7]
+[2024-05-06 12:04:47] INFO root fetch - processPackages [wxhook]: Downloading https://files.pythonhosted.org/packages/08/6d/dc707e74fdf5cb23a05b42a801b20fbbe41725fa2d7f81acdc6a40b65c5d/wxhook-0.0.3.tar.gz
+[2024-05-06 12:04:47] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.38.0.dev20240503] Old Version: [1.38.0.dev20240502]
+[2024-05-06 12:04:47] INFO root fetch - processPackages [mlops-ods]: New version: [0.1.202405061002] Old Version: [0.1.202404292030]
+[2024-05-06 12:04:47] WARNING root fetch - processPackages [aassempdf]: Skipping, unable to determine old version
+[2024-05-06 12:04:47] INFO root fetch - main [MainThread]: End processing [aassempdf] error
+[2024-05-06 12:04:47] WARNING root fetch - processPackages [pydantic2-to-typescript]: Skipping, unable to determine old version
+[2024-05-06 12:04:47] INFO root fetch - main [MainThread]: End processing [pydantic2-to-typescript] error
+[2024-05-06 12:04:47] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/33/39/67c798d7d600377400978c9e48e91748b7f3bbb82f246c22c9d2e5ad8f25/PyQtUIkit-2.8.7.tar.gz
+[2024-05-06 12:04:47] INFO root fetch - processPackages [mlops-ods]: Downloading https://files.pythonhosted.org/packages/6f/06/729e9167f4b98748c1509005a8e984050b6dbc496c292c3ab8f3b9e717a4/mlops_ods-0.1.202404292030.tar.gz
+[2024-05-06 12:04:47] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/0f/05/de2d4388dcf4e81e006cb79cc0c07fa98ba0fc0d653d0cf74b974ab2262e/nvidia_dali_nightly_cuda120-1.38.0.dev20240502.tar.gz
+[2024-05-06 12:04:47] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/66/80/bdfd049ba06a9e8d3bfb2663d46f852805b93acdcb6ea38aedaf4485a307/PyQtUIkit-2.9.0.tar.gz
+[2024-05-06 12:04:47] INFO root fetch - processPackages [wxhook]: Downloading https://files.pythonhosted.org/packages/8c/03/8c68e7bf182b843792866bd835453d2b77301dd12928f454e5c7c726cc15/wxhook-0.0.4.tar.gz
+[2024-05-06 12:04:47] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/7b/68/e3a358a51b94ea306d1f776f92643e9406db3ec8d3ea2f78feb0256d7679/nvidia_dali_nightly_cuda120-1.38.0.dev20240503.tar.gz
+[2024-05-06 12:04:48] INFO root fetch - processPackages [wxhook]: executing diffoscope
+[2024-05-06 12:04:48] INFO root fetch - processPackages [wxhook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxhook-0.0.3.tar.gz tmp/wxhook-0.0.4.tar.gz --markdown 20240506/w/wxhook/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 12:04:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2024-05-06 12:04:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240502.tar.gz tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240503.tar.gz --markdown 20240506/n/nvidia-dali-nightly-cuda120/1.38.0.dev20240502-1.38.0.dev20240503/README.md --exclude *.pyd
+[2024-05-06 12:04:48] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-05-06 12:04:48] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.8.7.tar.gz tmp/PyQtUIkit-2.9.0.tar.gz --markdown 20240506/P/PyQtUIkit/2.8.7-2.9.0/README.md --exclude *.pyd
+[2024-05-06 12:04:48] INFO root fetch - processPackages [mlops-ods]: Downloading https://files.pythonhosted.org/packages/90/a0/d7ed28bac8cd4014e281474220b5ff2b431004e0a2a273110ac9dad6db9d/mlops_ods-0.1.202405061002.tar.gz
+[2024-05-06 12:04:48] INFO root fetch - processPackages [mlops-ods]: executing diffoscope
+[2024-05-06 12:04:48] INFO root fetch - processPackages [mlops-ods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops_ods-0.1.202404292030.tar.gz tmp/mlops_ods-0.1.202405061002.tar.gz --markdown 20240506/m/mlops-ods/0.1.202404292030-0.1.202405061002/README.md --exclude *.pyd
+[2024-05-06 12:04:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240502.tar.gz]
+[2024-05-06 12:04:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240503.tar.gz]
+[2024-05-06 12:04:48] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2024-05-06 12:04:48] INFO root fetch - processPackages [wxhook]: Remove: archive file [/home/abi/fetcher/tmp/wxhook-0.0.3.tar.gz]
+[2024-05-06 12:04:48] INFO root fetch - processPackages [wxhook]: Remove: archive file [/home/abi/fetcher/tmp/wxhook-0.0.4.tar.gz]
+[2024-05-06 12:04:48] INFO root fetch - main [MainThread]: End processing [wxhook]: success
+[2024-05-06 12:04:49] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.8.7.tar.gz]
+[2024-05-06 12:04:49] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.0.tar.gz]
+[2024-05-06 12:04:49] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-05-06 12:04:49] INFO root fetch - processPackages [mlops-ods]: Remove: archive file [/home/abi/fetcher/tmp/mlops_ods-0.1.202404292030.tar.gz]
+[2024-05-06 12:04:49] INFO root fetch - processPackages [mlops-ods]: Remove: archive file [/home/abi/fetcher/tmp/mlops_ods-0.1.202405061002.tar.gz]
+[2024-05-06 12:04:49] INFO root fetch - main [MainThread]: End processing [mlops-ods]: success
+[2024-05-06 12:04:49] INFO root fetch - main [MainThread]: Store serial: [23075841]
