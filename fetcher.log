@@ -14502,3 +14502,81 @@
 [2024-05-06 11:45:04] INFO root fetch - processPackages [pycrdt]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt-0.8.9.tar.gz]
 [2024-05-06 11:45:04] INFO root fetch - main [MainThread]: End processing [pycrdt]: success
 [2024-05-06 11:45:04] INFO root fetch - main [MainThread]: Store serial: [23075613]
+[2024-05-06 11:47:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075613]
+[2024-05-06 11:47:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 11:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PypiInstruments
+[2024-05-06 11:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: migration-db
+[2024-05-06 11:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-bilichat
+[2024-05-06 11:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SQLConn
+[2024-05-06 11:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: projen
+[2024-05-06 11:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trex-lib
+[2024-05-06 11:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coffe-analyzer
+[2024-05-06 11:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GoldenCopy
+[2024-05-06 11:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: model-mart
+[2024-05-06 11:47:14] INFO root fetch - processPackages [migration-db]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-06 11:47:14] INFO root fetch - processPackages [trex-lib]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-06 11:47:14] WARNING root fetch - processPackages [PypiInstruments]: Skipping, unable to determine old version
+[2024-05-06 11:47:14] INFO root fetch - main [MainThread]: End processing [PypiInstruments] error
+[2024-05-06 11:47:14] INFO root fetch - processPackages [SQLConn]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 11:47:14] INFO root fetch - processPackages [model-mart]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 11:47:14] INFO root fetch - processPackages [coffe-analyzer]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 11:47:14] INFO root fetch - processPackages [projen]: New version: [0.81.6] Old Version: [0.81.5]
+[2024-05-06 11:47:14] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/ee/32/38e0c8ff3b329ee0cd5f7de55890703d07e0ef1bba5149e82b64af283b49/migration_db-1.0.7.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [GoldenCopy]: New version: [1.6] Old Version: [1.3.4]
+[2024-05-06 11:47:14] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [5.9.3] Old Version: [5.9.2]
+[2024-05-06 11:47:14] INFO root fetch - processPackages [model-mart]: Downloading https://files.pythonhosted.org/packages/00/32/082bc14768f6af3ae1474b248df0e8ac68fe1ffc9ab0a3fc98a3422232c5/model-mart-0.0.8.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [trex-lib]: Downloading https://files.pythonhosted.org/packages/96/ab/ad0efdbd940b45deb68ecf3c71246c4006d357a66d8f2aa437b7990ce8e2/trex-lib-1.1.0.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [SQLConn]: Downloading https://files.pythonhosted.org/packages/b2/ec/64ef7b3da444af378f1cab62b9ce6a1da7115b03519752bd8e8a40638c50/SQLConn-0.0.3.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/28/9c/002697741783fc6169e1c595371622c9708b95754fde69ffef366963e908/coffe_analyzer-0.1.4.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/1c/de/ff59a48ad83a10249bc9cc8c4948527e120e4a1389e570a07cda08eca05d/projen-0.81.5.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [GoldenCopy]: Downloading https://files.pythonhosted.org/packages/a6/7b/334696efc605846fa5eaf0f10615311d6ccb653c6bc44b8201f869673d3d/GoldenCopy-1.3.4.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/a8/b1/39d1cccb9707adc8966353d903f7026ba6c55650498ad28c75543d0055f7/nonebot_plugin_bilichat-5.9.2.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [model-mart]: Downloading https://files.pythonhosted.org/packages/2b/d8/86181b784b380b0579db36fa966a0adafb996009f8fcd9c10975135f84b3/model-mart-0.0.9.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [SQLConn]: Downloading https://files.pythonhosted.org/packages/6a/d0/04ef5d10101576af8ee3b27e1f41a6769e0bd08f9c1ba794e9c6424899b7/SQLConn-0.0.4.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/7f/ed/1d35592a8041b6e70f3af7408af064fcea50ebc84c2e08def0f09107c7ce/migration_db-1.0.8.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [trex-lib]: Downloading https://files.pythonhosted.org/packages/a7/56/9e6f5780eaacc2e979439afd20cf7321ccd10611d9198b0869acc6449345/trex-lib-1.1.1.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [model-mart]: executing diffoscope
+[2024-05-06 11:47:14] INFO root fetch - processPackages [model-mart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-mart-0.0.8.tar.gz tmp/model-mart-0.0.9.tar.gz --markdown 20240506/m/model-mart/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 11:47:14] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/60/04/c12f2c8f7405689efff120d42cfbd59ad4d3247a891150dd1ddbf2afad49/coffe_analyzer-0.1.5.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [SQLConn]: executing diffoscope
+[2024-05-06 11:47:14] INFO root fetch - processPackages [SQLConn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLConn-0.0.3.tar.gz tmp/SQLConn-0.0.4.tar.gz --markdown 20240506/S/SQLConn/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 11:47:14] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-05-06 11:47:14] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.7.tar.gz tmp/migration_db-1.0.8.tar.gz --markdown 20240506/m/migration-db/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-06 11:47:14] INFO root fetch - processPackages [trex-lib]: executing diffoscope
+[2024-05-06 11:47:14] INFO root fetch - processPackages [trex-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-lib-1.1.0.tar.gz tmp/trex-lib-1.1.1.tar.gz --markdown 20240506/t/trex-lib/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-06 11:47:14] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/82/37/1edd2792383313b751f32489cf8ff67e770a5efe2396bf983a0820939eb3/nonebot_plugin_bilichat-5.9.3.tar.gz
+[2024-05-06 11:47:14] INFO root fetch - processPackages [coffe-analyzer]: executing diffoscope
+[2024-05-06 11:47:14] INFO root fetch - processPackages [coffe-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffe_analyzer-0.1.4.tar.gz tmp/coffe_analyzer-0.1.5.tar.gz --markdown 20240506/c/coffe-analyzer/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 11:47:14] INFO root fetch - processPackages [GoldenCopy]: Downloading https://files.pythonhosted.org/packages/c6/f2/9307ed8f33b1765b66fbd634243511eb58457a7c3427e39230a7abcd5231/goldencopy-1.6.tar.gz
+[2024-05-06 11:47:15] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2024-05-06 11:47:15] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-5.9.2.tar.gz tmp/nonebot_plugin_bilichat-5.9.3.tar.gz --markdown 20240506/n/nonebot-plugin-bilichat/5.9.2-5.9.3/README.md --exclude *.pyd
+[2024-05-06 11:47:15] INFO root fetch - processPackages [GoldenCopy]: executing diffoscope
+[2024-05-06 11:47:15] INFO root fetch - processPackages [GoldenCopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoldenCopy-1.3.4.tar.gz tmp/goldencopy-1.6.tar.gz --markdown 20240506/G/GoldenCopy/1.3.4-1.6/README.md --exclude *.pyd
+[2024-05-06 11:47:15] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/f5/b5/da7c6df599f7649a34b2b456d21cc0d27aecbe32abb8f34acb668c20edb4/projen-0.81.6.tar.gz
+[2024-05-06 11:47:15] INFO root fetch - processPackages [model-mart]: Remove: archive file [/home/abi/fetcher/tmp/model-mart-0.0.8.tar.gz]
+[2024-05-06 11:47:15] INFO root fetch - processPackages [model-mart]: Remove: archive file [/home/abi/fetcher/tmp/model-mart-0.0.9.tar.gz]
+[2024-05-06 11:47:15] INFO root fetch - main [MainThread]: End processing [model-mart]: success
+[2024-05-06 11:47:15] INFO root fetch - processPackages [SQLConn]: Remove: archive file [/home/abi/fetcher/tmp/SQLConn-0.0.3.tar.gz]
+[2024-05-06 11:47:15] INFO root fetch - processPackages [SQLConn]: Remove: archive file [/home/abi/fetcher/tmp/SQLConn-0.0.4.tar.gz]
+[2024-05-06 11:47:15] INFO root fetch - main [MainThread]: End processing [SQLConn]: success
+[2024-05-06 11:47:15] INFO root fetch - processPackages [trex-lib]: Remove: archive file [/home/abi/fetcher/tmp/trex-lib-1.1.0.tar.gz]
+[2024-05-06 11:47:15] INFO root fetch - processPackages [trex-lib]: Remove: archive file [/home/abi/fetcher/tmp/trex-lib-1.1.1.tar.gz]
+[2024-05-06 11:47:15] INFO root fetch - main [MainThread]: End processing [trex-lib]: success
+[2024-05-06 11:47:15] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.4.tar.gz]
+[2024-05-06 11:47:15] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.5.tar.gz]
+[2024-05-06 11:47:15] INFO root fetch - main [MainThread]: End processing [coffe-analyzer]: success
+[2024-05-06 11:47:16] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-05-06 11:47:16] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.81.5.tar.gz tmp/projen-0.81.6.tar.gz --markdown 20240506/p/projen/0.81.5-0.81.6/README.md --exclude *.pyd
+[2024-05-06 11:47:16] INFO root fetch - processPackages [GoldenCopy]: Remove: archive file [/home/abi/fetcher/tmp/GoldenCopy-1.3.4.tar.gz]
+[2024-05-06 11:47:16] INFO root fetch - processPackages [GoldenCopy]: Remove: archive file [/home/abi/fetcher/tmp/goldencopy-1.6.tar.gz]
+[2024-05-06 11:47:16] INFO root fetch - main [MainThread]: End processing [GoldenCopy]: success
+[2024-05-06 11:47:16] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.7.tar.gz]
+[2024-05-06 11:47:16] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.8.tar.gz]
+[2024-05-06 11:47:16] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-05-06 11:47:16] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.9.2.tar.gz]
+[2024-05-06 11:47:16] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.9.3.tar.gz]
+[2024-05-06 11:47:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2024-05-06 11:47:17] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.5.tar.gz]
+[2024-05-06 11:47:17] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.6.tar.gz]
+[2024-05-06 11:47:17] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-05-06 11:47:17] INFO root fetch - main [MainThread]: Store serial: [23075665]
