@@ -13037,3 +13037,76 @@
 [2024-05-06 10:56:51] INFO root fetch - processPackages [sympy-plot-backends]: Remove: archive file [/home/abi/fetcher/tmp/sympy_plot_backends-3.4.0.tar.gz]
 [2024-05-06 10:56:51] INFO root fetch - main [MainThread]: End processing [sympy-plot-backends]: success
 [2024-05-06 10:56:51] INFO root fetch - main [MainThread]: Store serial: [23074828]
+[2024-05-06 10:58:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23074828]
+[2024-05-06 10:59:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 10:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vcf2seq
+[2024-05-06 10:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2docfx
+[2024-05-06 10:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weaverbird
+[2024-05-06 10:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weaverbird
+[2024-05-06 10:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-project-tracker
+[2024-05-06 10:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cj-package
+[2024-05-06 10:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anicli_api
+[2024-05-06 10:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molecule-plugin-lxd
+[2024-05-06 10:59:01] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-06 10:59:01] INFO root fetch - processPackages [vcf2seq]: New version: [0.6.0a0] Old Version: [0.5.0a0]
+[2024-05-06 10:59:01] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev9] Old Version: [0.0.3.dev8]
+[2024-05-06 10:59:01] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [molecule-plugin-lxd]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-06 10:59:01] INFO root fetch - processPackages [anicli_api]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-06 10:59:01] INFO root fetch - processPackages [py2docfx]: New version: [0.1.6rc1710622] Old Version: [0.1.6.dev1717829]
+[2024-05-06 10:59:01] INFO root fetch - processPackages [vcf2seq]: Downloading https://files.pythonhosted.org/packages/90/94/552e0f5c94ff72fe267f853192a2b833917126ad28439b28f97aaf3368b3/vcf2seq-0.5.0a0.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/13/26/a5b9a6b4bcb04a2c400aacd5ec9a82c1f19e9deeddec458b16a3214c0d43/ml_project_tracker-0.0.3.dev8.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-06 10:59:01] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-06 10:59:01] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/30/25/34d21f2bc40956672228fed2ee1be7ccea64cf61fbf1a533b224fdaf8bba/py2docfx-0.1.6.dev1717829-py3-none-any.whl
+[2024-05-06 10:59:01] INFO root fetch - processPackages [vcf2seq]: Downloading https://files.pythonhosted.org/packages/85/46/53f2d232ffc2029b5c75023a4b732a7db03e6c6989f0092d6e34aa6f33bb/vcf2seq-0.6.0a0.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/3d/93/3fc636a58e164ddb5e1ec90928722e61b62248afeebf67163c16d1ca67cc/ml_project_tracker-0.0.3.dev9.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [molecule-plugin-lxd]: Downloading https://files.pythonhosted.org/packages/27/70/9691a505b542f2539ff9b765fd35d2879aba49e47b96c32b19db2751b804/molecule-plugin-lxd-0.6.0.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [anicli_api]: Downloading https://files.pythonhosted.org/packages/a2/9f/48be2345bfb5eb9e5e0a019805ef4210dfb90fd987b4553b8655ceffeeec/anicli_api-0.6.4.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-06 10:59:01] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240506/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-06 10:59:01] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-06 10:59:01] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev8.tar.gz tmp/ml_project_tracker-0.0.3.dev9.tar.gz --markdown 20240506/m/ml-project-tracker/0.0.3.dev8-0.0.3.dev9/README.md --exclude *.pyd
+[2024-05-06 10:59:01] INFO root fetch - processPackages [vcf2seq]: executing diffoscope
+[2024-05-06 10:59:01] INFO root fetch - processPackages [vcf2seq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcf2seq-0.5.0a0.tar.gz tmp/vcf2seq-0.6.0a0.tar.gz --markdown 20240506/v/vcf2seq/0.5.0a0-0.6.0a0/README.md --exclude *.pyd
+[2024-05-06 10:59:01] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/5a/98/517fcf83a8e65749efb3a1c0c986ae87389a5eb90810b7bb511342e2c4d3/py2docfx-0.1.6rc1710622-py3-none-any.whl
+[2024-05-06 10:59:01] INFO root fetch - processPackages [anicli_api]: Downloading https://files.pythonhosted.org/packages/03/b7/7a62ec8b04fffbcafc5029cdac119349db81a81519d244372752fb4d55ae/anicli_api-0.6.5.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [molecule-plugin-lxd]: Downloading https://files.pythonhosted.org/packages/e4/6e/41bd9ad883ad12d802546f50e5335415dda54569de62cac4ec0bc8c50467/molecule_plugin_lxd-0.6.1.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-05-06 10:59:01] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.6.dev1717829-py3-none-any.whl.zip tmp/py2docfx-0.1.6rc1710622-py3-none-any.whl.zip --markdown 20240506/p/py2docfx/0.1.6.dev1717829-0.1.6rc1710622/README.md --exclude *.pyd
+[2024-05-06 10:59:01] INFO root fetch - processPackages [anicli_api]: executing diffoscope
+[2024-05-06 10:59:01] INFO root fetch - processPackages [anicli_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anicli_api-0.6.4.tar.gz tmp/anicli_api-0.6.5.tar.gz --markdown 20240506/a/anicli_api/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-06 10:59:01] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2024-05-06 10:59:01] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2024-05-06 10:59:02] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2024-05-06 10:59:02] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20240506/w/weaverbird/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-06 10:59:02] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2024-05-06 10:59:02] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20240506/w/weaverbird/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-06 10:59:02] INFO root fetch - processPackages [molecule-plugin-lxd]: executing diffoscope
+[2024-05-06 10:59:02] INFO root fetch - processPackages [molecule-plugin-lxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-plugin-lxd-0.6.0.tar.gz tmp/molecule_plugin_lxd-0.6.1.tar.gz --markdown 20240506/m/molecule-plugin-lxd/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-06 10:59:02] INFO root fetch - processPackages [vcf2seq]: Remove: archive file [/home/abi/fetcher/tmp/vcf2seq-0.5.0a0.tar.gz]
+[2024-05-06 10:59:02] INFO root fetch - processPackages [vcf2seq]: Remove: archive file [/home/abi/fetcher/tmp/vcf2seq-0.6.0a0.tar.gz]
+[2024-05-06 10:59:02] INFO root fetch - main [MainThread]: End processing [vcf2seq]: success
+[2024-05-06 10:59:02] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-06 10:59:02] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-06 10:59:02] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-06 10:59:02] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev8.tar.gz]
+[2024-05-06 10:59:02] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev9.tar.gz]
+[2024-05-06 10:59:02] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-06 10:59:02] INFO root fetch - processPackages [anicli_api]: Remove: archive file [/home/abi/fetcher/tmp/anicli_api-0.6.4.tar.gz]
+[2024-05-06 10:59:02] INFO root fetch - processPackages [anicli_api]: Remove: archive file [/home/abi/fetcher/tmp/anicli_api-0.6.5.tar.gz]
+[2024-05-06 10:59:02] INFO root fetch - main [MainThread]: End processing [anicli_api]: success
+[2024-05-06 10:59:03] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.6.dev1717829-py3-none-any.whl.zip]
+[2024-05-06 10:59:03] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.6rc1710622-py3-none-any.whl.zip]
+[2024-05-06 10:59:03] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-05-06 10:59:03] INFO root fetch - processPackages [molecule-plugin-lxd]: Remove: archive file [/home/abi/fetcher/tmp/molecule-plugin-lxd-0.6.0.tar.gz]
+[2024-05-06 10:59:03] INFO root fetch - processPackages [molecule-plugin-lxd]: Remove: archive file [/home/abi/fetcher/tmp/molecule_plugin_lxd-0.6.1.tar.gz]
+[2024-05-06 10:59:03] INFO root fetch - main [MainThread]: End processing [molecule-plugin-lxd]: success
+[2024-05-06 10:59:03] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.8.9.tar.gz]
+[2024-05-06 10:59:03] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
+[2024-05-06 10:59:03] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2024-05-06 10:59:03] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2024-05-06 10:59:03] INFO root fetch - main [MainThread]: Store serial: [23074855]
