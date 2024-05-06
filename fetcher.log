@@ -2914,3 +2914,33 @@
 [2024-05-06 04:22:49] INFO root fetch - processPackages [types-Pygments]: Remove: archive file [/home/abi/fetcher/tmp/types-Pygments-2.9.9.tar.gz]
 [2024-05-06 04:22:49] INFO root fetch - main [MainThread]: End processing [types-Pygments]: success
 [2024-05-06 04:22:49] INFO root fetch - main [MainThread]: Store serial: [23070670]
+[2024-05-06 04:24:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070670]
+[2024-05-06 04:24:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 04:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daisdk
+[2024-05-06 04:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marginaleffects
+[2024-05-06 04:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyopticon
+[2024-05-06 04:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2024-05-06 04:24:58] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240505] Old Version: [1.2.20240504]
+[2024-05-06 04:24:58] WARNING root fetch - processPackages [daisdk]: Skipping, unable to determine old version
+[2024-05-06 04:24:58] INFO root fetch - main [MainThread]: End processing [daisdk] error
+[2024-05-06 04:24:58] INFO root fetch - processPackages [marginaleffects]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 04:24:58] INFO root fetch - processPackages [pyopticon]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-06 04:24:58] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/60/25/2acf45b877c80ca0ce576fa39a5fd4d21d7995902b58178cc7c70bc64d43/iam_actions-1.2.20240504.tar.gz
+[2024-05-06 04:24:58] INFO root fetch - processPackages [marginaleffects]: Downloading https://files.pythonhosted.org/packages/cf/cf/17133e3713422897c1d60156f7ee7a912b62c8f0593344420394af0161f4/marginaleffects-0.0.8.tar.gz
+[2024-05-06 04:24:58] INFO root fetch - processPackages [pyopticon]: Downloading https://files.pythonhosted.org/packages/fa/0f/69e1da5f4978bfe8b1ed8c979f1b108c92fe93d0213e6619ab980049b18b/pyopticon-0.1.7.tar.gz
+[2024-05-06 04:24:58] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/d2/2f/c9d1b9599271c5db1e645768041967e7e6b21b77dd98d142fb3d2dbcbd3a/iam_actions-1.2.20240505.tar.gz
+[2024-05-06 04:24:58] INFO root fetch - processPackages [marginaleffects]: Downloading https://files.pythonhosted.org/packages/7a/15/018b6702f19ebe174498947a740f95f6c88317b8ba0c3b5b5edeee7c854d/marginaleffects-0.0.9.tar.gz
+[2024-05-06 04:24:58] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-06 04:24:58] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240504.tar.gz tmp/iam_actions-1.2.20240505.tar.gz --markdown 20240506/i/iam-actions/1.2.20240504-1.2.20240505/README.md --exclude *.pyd
+[2024-05-06 04:24:58] INFO root fetch - processPackages [marginaleffects]: executing diffoscope
+[2024-05-06 04:24:58] INFO root fetch - processPackages [marginaleffects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marginaleffects-0.0.8.tar.gz tmp/marginaleffects-0.0.9.tar.gz --markdown 20240506/m/marginaleffects/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 04:24:59] INFO root fetch - processPackages [marginaleffects]: Remove: archive file [/home/abi/fetcher/tmp/marginaleffects-0.0.8.tar.gz]
+[2024-05-06 04:24:59] INFO root fetch - processPackages [marginaleffects]: Remove: archive file [/home/abi/fetcher/tmp/marginaleffects-0.0.9.tar.gz]
+[2024-05-06 04:24:59] INFO root fetch - main [MainThread]: End processing [marginaleffects]: success
+[2024-05-06 04:25:00] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240504.tar.gz]
+[2024-05-06 04:25:00] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240505.tar.gz]
+[2024-05-06 04:25:00] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-06 04:25:02] INFO root fetch - processPackages [pyopticon]: Downloading https://files.pythonhosted.org/packages/81/92/33c97aab1a48a0dc2e15b37d90b007aab3c2edd61276ed76ad55f828de13/pyopticon-0.2.0.tar.gz
+[2024-05-06 04:25:02] WARNING root fetch - processPackages [pyopticon]: Skipping package: exceeds size limit 12702320>=10485760
+[2024-05-06 04:25:02] INFO root fetch - main [MainThread]: End processing [pyopticon] error
+[2024-05-06 04:25:02] INFO root fetch - main [MainThread]: Store serial: [23070684]
