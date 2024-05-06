@@ -2762,3 +2762,56 @@
 [2024-05-06 04:16:16] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-1.3.9.tar.gz]
 [2024-05-06 04:16:16] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2024-05-06 04:16:16] INFO root fetch - main [MainThread]: Store serial: [23070620]
+[2024-05-06 04:18:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070620]
+[2024-05-06 04:18:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 04:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aps-toolkit
+[2024-05-06 04:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-05-06 04:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BitCash
+[2024-05-06 04:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: specklia
+[2024-05-06 04:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpflib
+[2024-05-06 04:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-pandas
+[2024-05-06 04:18:25] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 04:18:25] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 04:18:25] INFO root fetch - processPackages [BitCash]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 04:18:25] INFO root fetch - processPackages [aps-toolkit]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-06 04:18:25] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-06 04:18:25] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-06 04:18:25] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-06 04:18:25] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/7f/61/cbd9fbdd87bc5a446fa0e3cfe7057f07d46245f958ef9aa318166b3ef3a3/aps-toolkit-0.5.4.tar.gz
+[2024-05-06 04:18:25] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 04:18:25] INFO root fetch - processPackages [BitCash]: Downloading https://files.pythonhosted.org/packages/08/e3/d363dfaa260ed30a6f2a17fbf68432e5425c90897c2908a282da402d4af3/BitCash-1.0.1-py3-none-any.whl
+[2024-05-06 04:18:25] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-05-06 04:18:25] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-06 04:18:25] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 04:18:25] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 04:18:25] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-05-06 04:18:25] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-05-06 04:18:25] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-05-06 04:18:25] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/ef/00/f808d0a78b5f884d8d73142140307fac055c85f2aa49d85ffd45f5b5cbca/aps-toolkit-0.5.5.tar.gz
+[2024-05-06 04:18:25] INFO root fetch - processPackages [BitCash]: Downloading https://files.pythonhosted.org/packages/df/3c/58e4ea1780a57df5a923d32dc064f5241a23896d7e30047e8b04478221cb/BitCash-1.0.2-py3-none-any.whl
+[2024-05-06 04:18:25] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-06 04:18:25] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-06 04:18:25] INFO root fetch - processPackages [aps-toolkit]: executing diffoscope
+[2024-05-06 04:18:25] INFO root fetch - processPackages [aps-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps-toolkit-0.5.4.tar.gz tmp/aps-toolkit-0.5.5.tar.gz --markdown 20240506/a/aps-toolkit/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-06 04:18:25] INFO root fetch - processPackages [BitCash]: executing diffoscope
+[2024-05-06 04:18:25] INFO root fetch - processPackages [BitCash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BitCash-1.0.1-py3-none-any.whl.zip tmp/BitCash-1.0.2-py3-none-any.whl.zip --markdown 20240506/B/BitCash/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 04:18:25] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-06 04:18:25] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240506/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-06 04:18:25] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-06 04:18:25] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240506/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-06 04:18:26] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 04:18:26] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 04:18:26] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 04:18:26] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-06 04:18:26] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-06 04:18:26] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-06 04:18:26] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.5.4.tar.gz]
+[2024-05-06 04:18:26] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.5.5.tar.gz]
+[2024-05-06 04:18:26] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
+[2024-05-06 04:18:26] INFO root fetch - processPackages [BitCash]: Remove: archive file [/home/abi/fetcher/tmp/BitCash-1.0.1-py3-none-any.whl.zip]
+[2024-05-06 04:18:26] INFO root fetch - processPackages [BitCash]: Remove: archive file [/home/abi/fetcher/tmp/BitCash-1.0.2-py3-none-any.whl.zip]
+[2024-05-06 04:18:26] INFO root fetch - main [MainThread]: End processing [BitCash]: success
+[2024-05-06 04:18:26] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-05-06 04:18:26] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-06 04:18:26] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-06 04:18:26] INFO root fetch - main [MainThread]: Store serial: [23070637]
