@@ -4780,3 +4780,24 @@
 [2024-05-06 06:20:45] INFO root fetch - processPackages [bootlace]: Remove: archive file [/home/abi/fetcher/tmp/bootlace-0.1.4.tar.gz]
 [2024-05-06 06:20:45] INFO root fetch - main [MainThread]: End processing [bootlace]: success
 [2024-05-06 06:20:45] INFO root fetch - main [MainThread]: Store serial: [23071434]
+[2024-05-06 06:22:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071434]
+[2024-05-06 06:22:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 06:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepeline
+[2024-05-06 06:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PepperPepper
+[2024-05-06 06:22:53] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.2] Old Version: [0.0.7.1]
+[2024-05-06 06:22:53] INFO root fetch - processPackages [pepeline]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 06:22:53] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/6d/54/dfcb3c01cce906cc3e3c8f4b9deceec47772a5ac3811dbacd5237135a07c/pepperpepper-0.0.7.1.tar.gz
+[2024-05-06 06:22:53] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/ab/cd/8ae3c24092da4eb0b2e004a29d5a3c0f5645221700bcc67d92564531a967/pepeline-0.2.8.tar.gz
+[2024-05-06 06:22:54] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/66/2c/70d91f510be1c17b6afddecc9555eb168e1da61db91dd65c8f7ae704073e/pepeline-0.2.9.tar.gz
+[2024-05-06 06:22:54] INFO root fetch - processPackages [pepeline]: executing diffoscope
+[2024-05-06 06:22:54] INFO root fetch - processPackages [pepeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepeline-0.2.8.tar.gz tmp/pepeline-0.2.9.tar.gz --markdown 20240506/p/pepeline/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 06:22:54] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/80/93/f5973bb738ef28ed8184d71ea6998a9e64d1edee3412084fde9bd71bdba9/pepperpepper-0.0.7.2.tar.gz
+[2024-05-06 06:22:54] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-06 06:22:54] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.1.tar.gz tmp/pepperpepper-0.0.7.2.tar.gz --markdown 20240506/P/PepperPepper/0.0.7.1-0.0.7.2/README.md --exclude *.pyd
+[2024-05-06 06:22:54] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.8.tar.gz]
+[2024-05-06 06:22:54] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.9.tar.gz]
+[2024-05-06 06:22:54] INFO root fetch - main [MainThread]: End processing [pepeline]: success
+[2024-05-06 06:22:54] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.1.tar.gz]
+[2024-05-06 06:22:54] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.2.tar.gz]
+[2024-05-06 06:22:54] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-06 06:22:54] INFO root fetch - main [MainThread]: Store serial: [23071443]
