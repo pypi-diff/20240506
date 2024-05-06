@@ -19955,3 +19955,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:20:04] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-0.9.7b1.tar.gz]
 [2024-05-06 15:20:04] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
 [2024-05-06 15:20:04] INFO root fetch - main [MainThread]: Store serial: [23078155]
+[2024-05-06 15:22:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078155]
+[2024-05-06 15:22:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 15:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MTGProxyPrinter
+[2024-05-06 15:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autots
+[2024-05-06 15:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agricore_sp_models
+[2024-05-06 15:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: verify4py
+[2024-05-06 15:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flash-amr-tools
+[2024-05-06 15:22:13] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-06 15:22:14] WARNING root fetch - processPackages [flash-amr-tools]: Skipping, unable to determine old version
+[2024-05-06 15:22:14] INFO root fetch - main [MainThread]: End processing [flash-amr-tools] error
+[2024-05-06 15:22:14] INFO root fetch - processPackages [verify4py]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-06 15:22:14] INFO root fetch - processPackages [MTGProxyPrinter]: New version: [0.28.1] Old Version: [0.28.0]
+[2024-05-06 15:22:14] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-05-06 15:22:14] INFO root fetch - processPackages [autots]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-06 15:22:14] INFO root fetch - processPackages [verify4py]: Downloading https://files.pythonhosted.org/packages/65/85/f44a0e36fbc934e0b825fe0f2251291e4f438889bde3e1591ae948e39afc/verify4py-2.0.0.tar.gz
+[2024-05-06 15:22:14] INFO root fetch - processPackages [autots]: Downloading https://files.pythonhosted.org/packages/3b/4d/5c9f3b6678f0f5c8631da75361fe10b304b7a6870c4998d3c0c10f4fc185/autots-0.6.8.tar.gz
+[2024-05-06 15:22:14] INFO root fetch - processPackages [MTGProxyPrinter]: Downloading https://files.pythonhosted.org/packages/6e/7c/d8fbdb7e693efa1200ee9386a08462513a1329e5e5ff076c1088525297de/MTGProxyPrinter-0.28.0.tar.gz
+[2024-05-06 15:22:14] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-05-06 15:22:14] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-05-06 15:22:14] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240506/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-06 15:22:14] INFO root fetch - processPackages [verify4py]: Downloading https://files.pythonhosted.org/packages/ff/df/f6dedadcd8c62a16a0cd3832c8a07f8827c48c019109e66c1abe260e7414/verify4py-2.0.1.tar.gz
+[2024-05-06 15:22:14] INFO root fetch - processPackages [MTGProxyPrinter]: Downloading https://files.pythonhosted.org/packages/90/95/b09dd7993e10dbbe9fcf0f0e33993047dcda2e2c41046f4bd2abdbf8bdb6/mtgproxyprinter-0.28.1.tar.gz
+[2024-05-06 15:22:14] INFO root fetch - processPackages [autots]: Downloading https://files.pythonhosted.org/packages/8e/5c/9b02a86bacaa612c71b0e48eb7d2e35ba9b58e2bbcb88a953d408be2a8fd/autots-0.6.9.tar.gz
+[2024-05-06 15:22:14] INFO root fetch - processPackages [MTGProxyPrinter]: executing diffoscope
+[2024-05-06 15:22:14] INFO root fetch - processPackages [MTGProxyPrinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MTGProxyPrinter-0.28.0.tar.gz tmp/mtgproxyprinter-0.28.1.tar.gz --markdown 20240506/M/MTGProxyPrinter/0.28.0-0.28.1/README.md --exclude *.pyd
+[2024-05-06 15:22:14] INFO root fetch - processPackages [verify4py]: executing diffoscope
+[2024-05-06 15:22:14] INFO root fetch - processPackages [verify4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify4py-2.0.0.tar.gz tmp/verify4py-2.0.1.tar.gz --markdown 20240506/v/verify4py/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-06 15:22:15] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-05-06 15:22:15] INFO root fetch - processPackages [autots]: executing diffoscope
+[2024-05-06 15:22:15] INFO root fetch - processPackages [autots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autots-0.6.8.tar.gz tmp/autots-0.6.9.tar.gz --markdown 20240506/a/autots/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-06 15:22:15] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-05-06 15:22:15] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-05-06 15:22:15] INFO root fetch - processPackages [verify4py]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-2.0.0.tar.gz]
+[2024-05-06 15:22:15] INFO root fetch - processPackages [verify4py]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-2.0.1.tar.gz]
+[2024-05-06 15:22:15] INFO root fetch - main [MainThread]: End processing [verify4py]: success
+[2024-05-06 15:22:15] INFO root fetch - processPackages [MTGProxyPrinter]: Remove: archive file [/home/abi/fetcher/tmp/MTGProxyPrinter-0.28.0.tar.gz]
+[2024-05-06 15:22:15] INFO root fetch - processPackages [MTGProxyPrinter]: Remove: archive file [/home/abi/fetcher/tmp/mtgproxyprinter-0.28.1.tar.gz]
+[2024-05-06 15:22:15] INFO root fetch - main [MainThread]: End processing [MTGProxyPrinter]: success
+[2024-05-06 15:22:16] INFO root fetch - processPackages [autots]: Remove: archive file [/home/abi/fetcher/tmp/autots-0.6.8.tar.gz]
+[2024-05-06 15:22:16] INFO root fetch - processPackages [autots]: Remove: archive file [/home/abi/fetcher/tmp/autots-0.6.9.tar.gz]
+[2024-05-06 15:22:16] INFO root fetch - main [MainThread]: End processing [autots]: success
+[2024-05-06 15:22:16] INFO root fetch - main [MainThread]: Store serial: [23078176]
