@@ -22008,3 +22008,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:33:41] INFO root fetch - processPackages [appsignal]: Remove: archive file [/home/abi/fetcher/tmp/appsignal-1.3.2-py3-none-musllinux_1_1_x86_64.whl.zip]
 [2024-05-06 16:33:41] INFO root fetch - main [MainThread]: End processing [appsignal]: success
 [2024-05-06 16:33:41] INFO root fetch - main [MainThread]: Store serial: [23079222]
+[2024-05-06 16:35:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079222]
+[2024-05-06 16:35:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inoopa_utils
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doppy
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heartbeat-library
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiXplain
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: beets-bpmanalyser
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: toxicarolz
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: octodns-selectel
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ema-pytorch
+[2024-05-06 16:35:57] INFO root fetch - processPackages [heartbeat-library]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 16:35:57] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-06 16:35:57] INFO root fetch - processPackages [heartbeat-library]: Downloading https://files.pythonhosted.org/packages/37/4d/42e7e47da47938407a5b36312f691909df5645727d96d0ef9ca0e2b6d9aa/heartbeat_library-0.0.3.tar.gz
+[2024-05-06 16:35:57] INFO root fetch - processPackages [doppy]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-06 16:35:57] INFO root fetch - processPackages [octodns-selectel]: New version: [0.99.3] Old Version: [0.99.2]
+[2024-05-06 16:35:57] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-06 16:35:57] WARNING root fetch - processPackages [toxicarolz]: Skipping, unable to determine old version
+[2024-05-06 16:35:57] INFO root fetch - main [MainThread]: End processing [toxicarolz] error
+[2024-05-06 16:35:57] INFO root fetch - processPackages [aiXplain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 16:35:57] INFO root fetch - processPackages [beets-bpmanalyser]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-06 16:35:57] INFO root fetch - processPackages [cg]: New version: [60.7.0] Old Version: [60.6.3]
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ema-pytorch]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-06 16:35:57] INFO root fetch - processPackages [doppy]: Downloading https://files.pythonhosted.org/packages/db/9e/560fbebd30aadda38487d2b7d4f8485a4a2193b05afab79deac18f08ae32/doppy-0.1.4.tar.gz
+[2024-05-06 16:35:57] INFO root fetch - processPackages [octodns-selectel]: Downloading https://files.pythonhosted.org/packages/9f/26/bd8ce1e855bcf9335843fe40e431f04fe1bb501c8ac78252943907634526/octodns-selectel-0.99.2.tar.gz
+[2024-05-06 16:35:57] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-06 16:35:57] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/3f/c7/f65de66f10f61501a2cfc50da290c1d318b2cd5be04e91b02bb648b77124/cg-60.6.3.tar.gz
+[2024-05-06 16:35:57] INFO root fetch - processPackages [beets-bpmanalyser]: Downloading https://files.pythonhosted.org/packages/6a/29/f14320d405d8f78fa1ee2ebea7cec09f9a37a1cfc1b09105a20846588e69/beets-bpmanalyser-1.4.0.tar.gz
+[2024-05-06 16:35:57] INFO root fetch - processPackages [ema-pytorch]: Downloading https://files.pythonhosted.org/packages/35/4f/32ece9cff38e19716fb27be9c06002a96611cc477bc540d3c6aaf49c85c7/ema-pytorch-0.4.5.tar.gz
+[2024-05-06 16:35:57] INFO root fetch - processPackages [heartbeat-library]: Downloading https://files.pythonhosted.org/packages/a2/ac/e8a98b4176b872314f955f6bb8ac06e197d8cc00569e5d3dc4a9f8f20c7c/heartbeat_library-0.0.4.tar.gz
+[2024-05-06 16:35:57] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-06 16:35:57] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240506/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-06 16:35:58] INFO root fetch - processPackages [aiXplain]: Downloading https://files.pythonhosted.org/packages/5f/15/6a6e7ae75ffa9779980541c63d6ce6f4ad9d19c3ec2f3f32ac145b9ea6d3/aiXplain-0.2.8.tar.gz
+[2024-05-06 16:35:58] INFO root fetch - processPackages [heartbeat-library]: executing diffoscope
+[2024-05-06 16:35:58] INFO root fetch - processPackages [heartbeat-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heartbeat_library-0.0.3.tar.gz tmp/heartbeat_library-0.0.4.tar.gz --markdown 20240506/h/heartbeat-library/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 16:35:58] INFO root fetch - processPackages [doppy]: Downloading https://files.pythonhosted.org/packages/d6/aa/66d3807561e69deac13b5b04cfbc316fb1fce10fdb6825f02d3b97638ba1/doppy-0.2.0.tar.gz
+[2024-05-06 16:35:58] INFO root fetch - processPackages [octodns-selectel]: Downloading https://files.pythonhosted.org/packages/cb/f3/ccf5c3ce4ae89b834e583023e24230face9e8135d295f7f4be7b1439ac82/octodns_selectel-0.99.3.tar.gz
+[2024-05-06 16:35:58] INFO root fetch - processPackages [ema-pytorch]: Downloading https://files.pythonhosted.org/packages/3b/62/5b3dc585dd383d3cd74bc304b06383e76f6e973117936946b73bef3c2240/ema_pytorch-0.4.6.tar.gz
+[2024-05-06 16:35:58] INFO root fetch - processPackages [beets-bpmanalyser]: Downloading https://files.pythonhosted.org/packages/f4/2f/44c191d64e6d4b33767f699c168e572623282acb636f1ace1959ace14e6f/beets-bpmanalyser-1.4.1.tar.gz
+[2024-05-06 16:35:58] INFO root fetch - processPackages [doppy]: executing diffoscope
+[2024-05-06 16:35:58] INFO root fetch - processPackages [doppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doppy-0.1.4.tar.gz tmp/doppy-0.2.0.tar.gz --markdown 20240506/d/doppy/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-06 16:35:58] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/51/68/f0aae8b89a87b46ad1db5948cb0a34185c68199bd6b417f917cd70114a76/cg-60.7.0.tar.gz
+[2024-05-06 16:35:58] INFO root fetch - processPackages [octodns-selectel]: executing diffoscope
+[2024-05-06 16:35:58] INFO root fetch - processPackages [octodns-selectel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octodns-selectel-0.99.2.tar.gz tmp/octodns_selectel-0.99.3.tar.gz --markdown 20240506/o/octodns-selectel/0.99.2-0.99.3/README.md --exclude *.pyd
+[2024-05-06 16:35:58] INFO root fetch - processPackages [beets-bpmanalyser]: executing diffoscope
+[2024-05-06 16:35:58] INFO root fetch - processPackages [beets-bpmanalyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets-bpmanalyser-1.4.0.tar.gz tmp/beets-bpmanalyser-1.4.1.tar.gz --markdown 20240506/b/beets-bpmanalyser/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-06 16:35:58] INFO root fetch - processPackages [ema-pytorch]: executing diffoscope
+[2024-05-06 16:35:58] INFO root fetch - processPackages [ema-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ema-pytorch-0.4.5.tar.gz tmp/ema_pytorch-0.4.6.tar.gz --markdown 20240506/e/ema-pytorch/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-06 16:35:58] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-06 16:35:58] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-06 16:35:58] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-06 16:35:58] INFO root fetch - processPackages [heartbeat-library]: Remove: archive file [/home/abi/fetcher/tmp/heartbeat_library-0.0.3.tar.gz]
+[2024-05-06 16:35:58] INFO root fetch - processPackages [heartbeat-library]: Remove: archive file [/home/abi/fetcher/tmp/heartbeat_library-0.0.4.tar.gz]
+[2024-05-06 16:35:58] INFO root fetch - main [MainThread]: End processing [heartbeat-library]: success
+[2024-05-06 16:35:58] INFO root fetch - processPackages [aiXplain]: Downloading https://files.pythonhosted.org/packages/85/dc/fc1697af76d85075274e0f395179855ada64bd1008efffd7e2dd4395f48a/aiXplain-0.2.9.tar.gz
+[2024-05-06 16:35:59] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-06 16:35:59] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.6.3.tar.gz tmp/cg-60.7.0.tar.gz --markdown 20240506/c/cg/60.6.3-60.7.0/README.md --exclude *.pyd
+[2024-05-06 16:35:59] INFO root fetch - processPackages [octodns-selectel]: Remove: archive file [/home/abi/fetcher/tmp/octodns-selectel-0.99.2.tar.gz]
+[2024-05-06 16:35:59] INFO root fetch - processPackages [octodns-selectel]: Remove: archive file [/home/abi/fetcher/tmp/octodns_selectel-0.99.3.tar.gz]
+[2024-05-06 16:35:59] INFO root fetch - main [MainThread]: End processing [octodns-selectel]: success
+[2024-05-06 16:35:59] INFO root fetch - processPackages [aiXplain]: executing diffoscope
+[2024-05-06 16:35:59] INFO root fetch - processPackages [aiXplain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiXplain-0.2.8.tar.gz tmp/aiXplain-0.2.9.tar.gz --markdown 20240506/a/aiXplain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 16:35:59] INFO root fetch - processPackages [doppy]: Remove: archive file [/home/abi/fetcher/tmp/doppy-0.1.4.tar.gz]
+[2024-05-06 16:35:59] INFO root fetch - processPackages [doppy]: Remove: archive file [/home/abi/fetcher/tmp/doppy-0.2.0.tar.gz]
+[2024-05-06 16:35:59] INFO root fetch - main [MainThread]: End processing [doppy]: success
+[2024-05-06 16:35:59] INFO root fetch - processPackages [ema-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ema-pytorch-0.4.5.tar.gz]
+[2024-05-06 16:35:59] INFO root fetch - processPackages [ema-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ema_pytorch-0.4.6.tar.gz]
+[2024-05-06 16:35:59] INFO root fetch - main [MainThread]: End processing [ema-pytorch]: success
+[2024-05-06 16:35:59] INFO root fetch - processPackages [beets-bpmanalyser]: Remove: archive file [/home/abi/fetcher/tmp/beets-bpmanalyser-1.4.0.tar.gz]
+[2024-05-06 16:35:59] INFO root fetch - processPackages [beets-bpmanalyser]: Remove: archive file [/home/abi/fetcher/tmp/beets-bpmanalyser-1.4.1.tar.gz]
+[2024-05-06 16:35:59] INFO root fetch - main [MainThread]: End processing [beets-bpmanalyser]: success
+[2024-05-06 16:36:00] INFO root fetch - processPackages [aiXplain]: Remove: archive file [/home/abi/fetcher/tmp/aiXplain-0.2.8.tar.gz]
+[2024-05-06 16:36:00] INFO root fetch - processPackages [aiXplain]: Remove: archive file [/home/abi/fetcher/tmp/aiXplain-0.2.9.tar.gz]
+[2024-05-06 16:36:00] INFO root fetch - main [MainThread]: End processing [aiXplain]: success
+[2024-05-06 16:36:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.6.3.tar.gz]
+[2024-05-06 16:36:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.0.tar.gz]
+[2024-05-06 16:36:03] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-06 16:36:03] INFO root fetch - main [MainThread]: Store serial: [23079252]
