@@ -17336,3 +17336,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:33:30] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
 [2024-05-06 13:33:30] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
 [2024-05-06 13:33:30] INFO root fetch - main [MainThread]: Store serial: [23076904]
+[2024-05-06 13:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076904]
+[2024-05-06 13:35:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 13:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PKNSETools
+[2024-05-06 13:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slicetca
+[2024-05-06 13:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wonder-diffusion-sdk
+[2024-05-06 13:35:40] INFO root fetch - processPackages [PKNSETools]: New version: [0.1.20240506.97] Old Version: [0.1.20240505.96]
+[2024-05-06 13:35:40] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/2b/d4/3f1a68abb0e44e00112fb8e73cd1bd41a681270870e85a301169ec67ed4c/PKNSETools-0.1.20240505.96.tar.gz
+[2024-05-06 13:35:40] INFO root fetch - processPackages [slicetca]: New version: [1.0.0] Old Version: [0.1.9]
+[2024-05-06 13:35:40] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.6.dev1] Old Version: [0.0.6.dev0]
+[2024-05-06 13:35:40] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/a1/76/272a0d9e1af939cb123a882ca84676d8e48603ea6827a4b9c5220b3d9ca8/wonder-diffusion-sdk-0.0.6.dev0.tar.gz
+[2024-05-06 13:35:40] INFO root fetch - processPackages [slicetca]: Downloading https://files.pythonhosted.org/packages/8f/de/3ef772ad16425d4f1ddfbfa08d4b0a2b2414c45488e55db81011fb478cf3/slicetca-0.1.9.tar.gz
+[2024-05-06 13:35:40] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/b8/a8/c01eb15695be523e0eec858263b056939a197bc549808e6dbf1aa235e4ec/PKNSETools-0.1.20240506.97.tar.gz
+[2024-05-06 13:35:40] INFO root fetch - processPackages [PKNSETools]: executing diffoscope
+[2024-05-06 13:35:40] INFO root fetch - processPackages [PKNSETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKNSETools-0.1.20240505.96.tar.gz tmp/PKNSETools-0.1.20240506.97.tar.gz --markdown 20240506/P/PKNSETools/0.1.20240505.96-0.1.20240506.97/README.md --exclude *.pyd
+[2024-05-06 13:35:40] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/43/c2/adcedab6a2a582d765b3c793aeef43c65104129ba0f1c4395f2b66c6945d/wonder-diffusion-sdk-0.0.6.dev1.tar.gz
+[2024-05-06 13:35:40] INFO root fetch - processPackages [slicetca]: Downloading https://files.pythonhosted.org/packages/59/25/92cfb97cbfbc5edb1f2219ff9bad8a1878aedc9c5b7de896c94657680428/slicetca-1.0.0.tar.gz
+[2024-05-06 13:35:40] INFO root fetch - processPackages [slicetca]: executing diffoscope
+[2024-05-06 13:35:40] INFO root fetch - processPackages [slicetca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slicetca-0.1.9.tar.gz tmp/slicetca-1.0.0.tar.gz --markdown 20240506/s/slicetca/0.1.9-1.0.0/README.md --exclude *.pyd
+[2024-05-06 13:35:41] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-05-06 13:35:41] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.6.dev0.tar.gz tmp/wonder-diffusion-sdk-0.0.6.dev1.tar.gz --markdown 20240506/w/wonder-diffusion-sdk/0.0.6.dev0-0.0.6.dev1/README.md --exclude *.pyd
+[2024-05-06 13:35:41] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240505.96.tar.gz]
+[2024-05-06 13:35:41] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240506.97.tar.gz]
+[2024-05-06 13:35:41] INFO root fetch - main [MainThread]: End processing [PKNSETools]: success
+[2024-05-06 13:35:41] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev0.tar.gz]
+[2024-05-06 13:35:41] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev1.tar.gz]
+[2024-05-06 13:35:41] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-05-06 13:35:41] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-0.1.9.tar.gz]
+[2024-05-06 13:35:41] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-1.0.0.tar.gz]
+[2024-05-06 13:35:41] INFO root fetch - main [MainThread]: End processing [slicetca]: success
+[2024-05-06 13:35:41] INFO root fetch - main [MainThread]: Store serial: [23076914]
