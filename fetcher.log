@@ -5685,3 +5685,27 @@
 [2024-05-06 07:25:50] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8964414125.tar.gz]
 [2024-05-06 07:25:50] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
 [2024-05-06 07:25:50] INFO root fetch - main [MainThread]: Store serial: [23071936]
+[2024-05-06 07:27:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071936]
+[2024-05-06 07:27:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdss-kaiju
+[2024-05-06 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nuitka-hatch
+[2024-05-06 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vfind
+[2024-05-06 07:27:58] WARNING root fetch - processPackages [nuitka-hatch]: Skipping, unable to determine old version
+[2024-05-06 07:27:58] INFO root fetch - main [MainThread]: End processing [nuitka-hatch] error
+[2024-05-06 07:27:58] INFO root fetch - processPackages [vfind]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 07:27:58] INFO root fetch - processPackages [sdss-kaiju]: New version: [1.4.0b2] Old Version: [1.4.0b1]
+[2024-05-06 07:27:59] INFO root fetch - processPackages [sdss-kaiju]: Downloading https://files.pythonhosted.org/packages/d9/28/35b5ef90bd07e70576d4df3150b126fbca98466c29bbd8db9db0a0ec0417/sdss-kaiju-1.4.0b1.tar.gz
+[2024-05-06 07:27:59] INFO root fetch - processPackages [vfind]: Downloading https://files.pythonhosted.org/packages/15/5e/3ab953caa3f30d38da54425fb2dfbac80de9674101763643225baf19b1cc/vfind-0.1.0-cp311-cp311-macosx_11_0_arm64.whl
+[2024-05-06 07:27:59] INFO root fetch - processPackages [sdss-kaiju]: Downloading https://files.pythonhosted.org/packages/31/a9/e252854b7cedd2ba6a6da50b7133be2342626b2a5fbc03f86d4dae192804/sdss_kaiju-1.4.0b2.tar.gz
+[2024-05-06 07:27:59] INFO root fetch - processPackages [sdss-kaiju]: executing diffoscope
+[2024-05-06 07:27:59] INFO root fetch - processPackages [sdss-kaiju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss-kaiju-1.4.0b1.tar.gz tmp/sdss_kaiju-1.4.0b2.tar.gz --markdown 20240506/s/sdss-kaiju/1.4.0b1-1.4.0b2/README.md --exclude *.pyd
+[2024-05-06 07:27:59] INFO root fetch - processPackages [vfind]: Downloading https://files.pythonhosted.org/packages/04/ce/deca03e6b5d3a5cacf10c6476c55e546854a892e366926539a18e099f0ff/vfind-0.1.1-cp312-cp312-manylinux_2_34_x86_64.whl
+[2024-05-06 07:28:00] INFO root fetch - processPackages [sdss-kaiju]: Remove: archive file [/home/abi/fetcher/tmp/sdss-kaiju-1.4.0b1.tar.gz]
+[2024-05-06 07:28:00] INFO root fetch - processPackages [sdss-kaiju]: Remove: archive file [/home/abi/fetcher/tmp/sdss_kaiju-1.4.0b2.tar.gz]
+[2024-05-06 07:28:00] INFO root fetch - main [MainThread]: End processing [sdss-kaiju]: success
+[2024-05-06 07:28:04] INFO root fetch - processPackages [vfind]: executing diffoscope
+[2024-05-06 07:28:04] INFO root fetch - processPackages [vfind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfind-0.1.0-cp311-cp311-macosx_11_0_arm64.whl.zip tmp/vfind-0.1.1-cp312-cp312-manylinux_2_34_x86_64.whl.zip --markdown 20240506/v/vfind/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 07:28:05] INFO root fetch - processPackages [vfind]: Remove: archive file [/home/abi/fetcher/tmp/vfind-0.1.0-cp311-cp311-macosx_11_0_arm64.whl.zip]
+[2024-05-06 07:28:05] INFO root fetch - processPackages [vfind]: Remove: archive file [/home/abi/fetcher/tmp/vfind-0.1.1-cp312-cp312-manylinux_2_34_x86_64.whl.zip]
+[2024-05-06 07:28:05] INFO root fetch - main [MainThread]: End processing [vfind]: success
+[2024-05-06 07:28:05] INFO root fetch - main [MainThread]: Store serial: [23071949]
