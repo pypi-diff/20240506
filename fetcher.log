@@ -3989,3 +3989,63 @@
 [2024-05-06 05:29:58] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-05-06 05:29:58] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-05-06 05:29:58] INFO root fetch - main [MainThread]: Store serial: [23071098]
+[2024-05-06 05:32:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071098]
+[2024-05-06 05:32:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 05:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xl2roefact
+[2024-05-06 05:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-standardized-response
+[2024-05-06 05:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autorunpy
+[2024-05-06 05:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: svg-ultralight
+[2024-05-06 05:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autopipeline
+[2024-05-06 05:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crossword-puzzle
+[2024-05-06 05:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnata-plugin-runtime
+[2024-05-06 05:32:07] INFO root fetch - processPackages [svg-ultralight]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-06 05:32:07] INFO root fetch - processPackages [autorunpy]: New version: [8.0.5] Old Version: [8.0.4]
+[2024-05-06 05:32:07] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-06 05:32:07] INFO root fetch - processPackages [xl2roefact]: New version: [0.7rc2] Old Version: [0.7rc1]
+[2024-05-06 05:32:07] WARNING root fetch - processPackages [drf-standardized-response]: Skipping, unable to determine old version
+[2024-05-06 05:32:07] INFO root fetch - main [MainThread]: End processing [drf-standardized-response] error
+[2024-05-06 05:32:07] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.58] Old Version: [1.2.57]
+[2024-05-06 05:32:07] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/43/48/bb8f3aa3f6e38072c2b02ada43bc2953e0aa12f6f624e5597e6b3420d1e8/autorunpy-8.0.4.tar.gz
+[2024-05-06 05:32:07] INFO root fetch - processPackages [svg-ultralight]: Downloading https://files.pythonhosted.org/packages/8d/82/ff6a14335591a3825078854462c3d572b43c2991ea316cbf69e09a7b3573/svg_ultralight-0.8.2.tar.gz
+[2024-05-06 05:32:07] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-06 05:32:07] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/bd/c0/42d8b4f768e370a66ab4c9a3dc314bcfcb243c9fb6508a327b43c93e4b48/crossword_puzzle-1.2.57.tar.gz
+[2024-05-06 05:32:07] INFO root fetch - processPackages [xl2roefact]: Downloading https://files.pythonhosted.org/packages/77/88/1e578811feec90852effb95c220d73bdfcac1d7a391aa50ca7f369673982/xl2roefact-0.7rc1.tar.gz
+[2024-05-06 05:32:07] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-06 05:32:07] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-06 05:32:07] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/af/e1/4027d33b3eecb9dfd63d81065b986710d34168e6fedcc687057fb44a5881/autorunpy-8.0.5.tar.gz
+[2024-05-06 05:32:07] INFO root fetch - processPackages [svg-ultralight]: Downloading https://files.pythonhosted.org/packages/1c/73/43e2a4c495a8fe97fa74642c7884ba3b040c603c744d8fb23adb4408eef7/svg_ultralight-0.9.0.tar.gz
+[2024-05-06 05:32:07] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-06 05:32:07] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.0.4.tar.gz tmp/autorunpy-8.0.5.tar.gz --markdown 20240506/a/autorunpy/8.0.4-8.0.5/README.md --exclude *.pyd
+[2024-05-06 05:32:07] INFO root fetch - processPackages [svg-ultralight]: executing diffoscope
+[2024-05-06 05:32:07] INFO root fetch - processPackages [svg-ultralight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svg_ultralight-0.8.2.tar.gz tmp/svg_ultralight-0.9.0.tar.gz --markdown 20240506/s/svg-ultralight/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-06 05:32:07] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-06 05:32:07] INFO root fetch - processPackages [xl2roefact]: Downloading https://files.pythonhosted.org/packages/4c/ba/ce30a169fa92ae3c31f2f4352f8fb20698443514281e423ee056d811926b/xl2roefact-0.7rc2.tar.gz
+[2024-05-06 05:32:08] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/5f/64/e2254e6d81d20799cd0048fd8f14d7d14072bfc0d35ec004caa4ed990a0f/crossword_puzzle-1.2.58.tar.gz
+[2024-05-06 05:32:08] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-06 05:32:08] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-06 05:32:08] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240506/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-06 05:32:08] INFO root fetch - processPackages [xl2roefact]: executing diffoscope
+[2024-05-06 05:32:08] INFO root fetch - processPackages [xl2roefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xl2roefact-0.7rc1.tar.gz tmp/xl2roefact-0.7rc2.tar.gz --markdown 20240506/x/xl2roefact/0.7rc1-0.7rc2/README.md --exclude *.pyd
+[2024-05-06 05:32:08] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-06 05:32:08] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240506/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-06 05:32:08] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-06 05:32:08] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.57.tar.gz tmp/crossword_puzzle-1.2.58.tar.gz --markdown 20240506/c/crossword-puzzle/1.2.57-1.2.58/README.md --exclude *.pyd
+[2024-05-06 05:32:08] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.0.4.tar.gz]
+[2024-05-06 05:32:08] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.0.5.tar.gz]
+[2024-05-06 05:32:08] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-06 05:32:08] INFO root fetch - processPackages [svg-ultralight]: Remove: archive file [/home/abi/fetcher/tmp/svg_ultralight-0.8.2.tar.gz]
+[2024-05-06 05:32:08] INFO root fetch - processPackages [svg-ultralight]: Remove: archive file [/home/abi/fetcher/tmp/svg_ultralight-0.9.0.tar.gz]
+[2024-05-06 05:32:08] INFO root fetch - main [MainThread]: End processing [svg-ultralight]: success
+[2024-05-06 05:32:08] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-06 05:32:08] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-06 05:32:08] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-06 05:32:08] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-06 05:32:08] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-06 05:32:08] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-06 05:32:08] INFO root fetch - processPackages [xl2roefact]: Remove: archive file [/home/abi/fetcher/tmp/xl2roefact-0.7rc1.tar.gz]
+[2024-05-06 05:32:08] INFO root fetch - processPackages [xl2roefact]: Remove: archive file [/home/abi/fetcher/tmp/xl2roefact-0.7rc2.tar.gz]
+[2024-05-06 05:32:08] INFO root fetch - main [MainThread]: End processing [xl2roefact]: success
+[2024-05-06 05:32:29] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.57.tar.gz]
+[2024-05-06 05:32:29] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.58.tar.gz]
+[2024-05-06 05:32:29] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-06 05:32:29] INFO root fetch - main [MainThread]: Store serial: [23071122]
