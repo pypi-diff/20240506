@@ -8045,3 +8045,38 @@
 [2024-05-06 09:44:49] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.5.4.zip]
 [2024-05-06 09:44:49] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
 [2024-05-06 09:44:49] INFO root fetch - main [MainThread]: Store serial: [23073083]
+[2024-05-06 09:46:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23073083]
+[2024-05-06 09:46:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 09:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-telemetry-generic-v2
+[2024-05-06 09:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AstecManager
+[2024-05-06 09:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multidefusion
+[2024-05-06 09:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ora2
+[2024-05-06 09:46:57] INFO root fetch - processPackages [open-telemetry-generic-v2]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-06 09:46:57] INFO root fetch - processPackages [open-telemetry-generic-v2]: Downloading https://files.pythonhosted.org/packages/39/bb/85b473331ebf4f2a9adef5496671e9f12f607949989c8bb28031104ee5b8/open_telemetry_generic_v2-0.2.2.tar.gz
+[2024-05-06 09:46:57] INFO root fetch - processPackages [multidefusion]: New version: [0.0.23] Old Version: [0.0.22]
+[2024-05-06 09:46:57] INFO root fetch - processPackages [AstecManager]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 09:46:57] INFO root fetch - processPackages [ora2]: New version: [6.9.0] Old Version: [6.7.0]
+[2024-05-06 09:46:57] INFO root fetch - processPackages [multidefusion]: Downloading https://files.pythonhosted.org/packages/c9/dd/630a6e4652120fb4e949cd262bc984580d9eebaf52b408e6459e94b32192/multidefusion-0.0.22.tar.gz
+[2024-05-06 09:46:57] INFO root fetch - processPackages [open-telemetry-generic-v2]: Downloading https://files.pythonhosted.org/packages/18/24/e0f2b034c0ac57c12067723fa697e235884b78a53e400093c33588859fd4/open_telemetry_generic_v2-0.2.3.tar.gz
+[2024-05-06 09:46:57] INFO root fetch - processPackages [AstecManager]: Downloading https://files.pythonhosted.org/packages/f9/ba/4fa80e4e502975f6f9607c8a651251568e1ab5f3e957349307595f0b2165/AstecManager-0.2.8.tar.gz
+[2024-05-06 09:46:57] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/91/be/0179afb9ad0fbe8646f1b512dec0748b03f60fb9baee130921c46ee75435/ora2-6.7.0.tar.gz
+[2024-05-06 09:46:57] WARNING root fetch - processPackages [AstecManager]: Skipping package: exceeds size limit 30603260>=10485760
+[2024-05-06 09:46:57] INFO root fetch - main [MainThread]: End processing [AstecManager] error
+[2024-05-06 09:46:57] INFO root fetch - processPackages [open-telemetry-generic-v2]: executing diffoscope
+[2024-05-06 09:46:57] INFO root fetch - processPackages [open-telemetry-generic-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_telemetry_generic_v2-0.2.2.tar.gz tmp/open_telemetry_generic_v2-0.2.3.tar.gz --markdown 20240506/o/open-telemetry-generic-v2/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-06 09:46:58] INFO root fetch - processPackages [multidefusion]: Downloading https://files.pythonhosted.org/packages/c1/1c/73d573f22412b75bcb4b8b344bdb78e2fb9f065eda77a6c212fe690a2dfe/multidefusion-0.0.23.tar.gz
+[2024-05-06 09:46:58] INFO root fetch - processPackages [multidefusion]: executing diffoscope
+[2024-05-06 09:46:58] INFO root fetch - processPackages [multidefusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidefusion-0.0.22.tar.gz tmp/multidefusion-0.0.23.tar.gz --markdown 20240506/m/multidefusion/0.0.22-0.0.23/README.md --exclude *.pyd
+[2024-05-06 09:46:58] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/c0/c9/bd87b2d0e32d62dddac5955e8afc4610afb0f2b860b0370324a8724aa71e/ora2-6.9.0.tar.gz
+[2024-05-06 09:46:58] INFO root fetch - processPackages [open-telemetry-generic-v2]: Remove: archive file [/home/abi/fetcher/tmp/open_telemetry_generic_v2-0.2.2.tar.gz]
+[2024-05-06 09:46:58] INFO root fetch - processPackages [open-telemetry-generic-v2]: Remove: archive file [/home/abi/fetcher/tmp/open_telemetry_generic_v2-0.2.3.tar.gz]
+[2024-05-06 09:46:58] INFO root fetch - main [MainThread]: End processing [open-telemetry-generic-v2]: success
+[2024-05-06 09:46:58] INFO root fetch - processPackages [multidefusion]: Remove: archive file [/home/abi/fetcher/tmp/multidefusion-0.0.22.tar.gz]
+[2024-05-06 09:46:58] INFO root fetch - processPackages [multidefusion]: Remove: archive file [/home/abi/fetcher/tmp/multidefusion-0.0.23.tar.gz]
+[2024-05-06 09:46:58] INFO root fetch - main [MainThread]: End processing [multidefusion]: success
+[2024-05-06 09:46:59] INFO root fetch - processPackages [ora2]: executing diffoscope
+[2024-05-06 09:46:59] INFO root fetch - processPackages [ora2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ora2-6.7.0.tar.gz tmp/ora2-6.9.0.tar.gz --markdown 20240506/o/ora2/6.7.0-6.9.0/README.md --exclude *.pyd
+[2024-05-06 09:47:01] INFO root fetch - processPackages [ora2]: Remove: archive file [/home/abi/fetcher/tmp/ora2-6.7.0.tar.gz]
+[2024-05-06 09:47:01] INFO root fetch - processPackages [ora2]: Remove: archive file [/home/abi/fetcher/tmp/ora2-6.9.0.tar.gz]
+[2024-05-06 09:47:01] INFO root fetch - main [MainThread]: End processing [ora2]: success
+[2024-05-06 09:47:01] INFO root fetch - main [MainThread]: Store serial: [23073097]
