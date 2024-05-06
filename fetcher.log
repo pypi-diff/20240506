@@ -17366,3 +17366,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:35:41] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-1.0.0.tar.gz]
 [2024-05-06 13:35:41] INFO root fetch - main [MainThread]: End processing [slicetca]: success
 [2024-05-06 13:35:41] INFO root fetch - main [MainThread]: Store serial: [23076914]
+[2024-05-06 13:37:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076914]
+[2024-05-06 13:37:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 13:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: communication-services
+[2024-05-06 13:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fcs-core-model-engine
+[2024-05-06 13:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bingo-elastic
+[2024-05-06 13:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epam.indigo
+[2024-05-06 13:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tomte
+[2024-05-06 13:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchserve-nightly
+[2024-05-06 13:37:50] WARNING root fetch - processPackages [communication-services]: Skipping, unable to determine old version
+[2024-05-06 13:37:50] INFO root fetch - main [MainThread]: End processing [communication-services] error
+[2024-05-06 13:37:50] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.5] Old Version: [2024.5.4]
+[2024-05-06 13:37:50] INFO root fetch - processPackages [bingo-elastic]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2024-05-06 13:37:50] INFO root fetch - processPackages [tomte]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 13:37:50] INFO root fetch - processPackages [fcs-core-model-engine]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-06 13:37:50] INFO root fetch - processPackages [epam.indigo]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2024-05-06 13:37:50] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/b3/ca/aec958e3ff3be93985337ee268b4c7e00df3f26a418bbe054f552dc123a8/torchserve_nightly-2024.5.4-py3-none-any.whl
+[2024-05-06 13:37:51] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332931>=10485760
+[2024-05-06 13:37:51] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-06 13:37:51] INFO root fetch - processPackages [bingo-elastic]: Downloading https://files.pythonhosted.org/packages/6d/cd/04a2f25555f373f632dbc074e0d2f89db55708716d7884c4a097a82d2ef3/bingo_elastic-1.9.0rc3-py3-none-any.whl
+[2024-05-06 13:37:51] INFO root fetch - processPackages [fcs-core-model-engine]: Downloading https://files.pythonhosted.org/packages/59/65/f257e073c3ebe49e7a7e8ef92f047e157a2b2be705a52d7159202d44ca02/fcs_core_model_engine-0.9.4-py3-none-win_amd64.whl
+[2024-05-06 13:37:51] INFO root fetch - processPackages [tomte]: Downloading https://files.pythonhosted.org/packages/d9/eb/9e15dbbf3af50f6391ebbcfcdf81e9182418fcbd483a7763d8710cd429dd/tomte-0.2.8.tar.gz
+[2024-05-06 13:37:51] INFO root fetch - processPackages [epam.indigo]: Downloading https://files.pythonhosted.org/packages/9c/79/5347eba118f9933e0a487d8029ab2b0766b1bd05b392c56497ddedd20d89/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl
+[2024-05-06 13:37:51] WARNING root fetch - processPackages [fcs-core-model-engine]: Skipping package: exceeds size limit 25253445>=10485760
+[2024-05-06 13:37:51] INFO root fetch - main [MainThread]: End processing [fcs-core-model-engine] error
+[2024-05-06 13:37:51] INFO root fetch - processPackages [tomte]: Downloading https://files.pythonhosted.org/packages/2d/b2/a811e15ed2ec19414197351a3e3aa9b576658bbdde99ee94e7f3b6d1c633/tomte-0.2.9.tar.gz
+[2024-05-06 13:37:51] INFO root fetch - processPackages [bingo-elastic]: Downloading https://files.pythonhosted.org/packages/34/fb/8816f55d488eeaa423309aa1b297f9a04a91087d26fb5d4641f534342096/bingo_elastic-1.9.0rc4-py3-none-any.whl
+[2024-05-06 13:37:51] INFO root fetch - processPackages [bingo-elastic]: executing diffoscope
+[2024-05-06 13:37:51] INFO root fetch - processPackages [bingo-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip --markdown 20240506/b/bingo-elastic/1.9.0rc3-1.9.0rc4/README.md --exclude *.pyd
+[2024-05-06 13:37:51] INFO root fetch - processPackages [tomte]: executing diffoscope
+[2024-05-06 13:37:51] INFO root fetch - processPackages [tomte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomte-0.2.8.tar.gz tmp/tomte-0.2.9.tar.gz --markdown 20240506/t/tomte/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 13:37:52] INFO root fetch - processPackages [epam.indigo]: Downloading https://files.pythonhosted.org/packages/74/8b/89f1c05a7600f204968e2f264edc40664ea3e59f6c837d3f189bdd08f1d0/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl
+[2024-05-06 13:37:52] INFO root fetch - processPackages [bingo-elastic]: Remove: archive file [/home/abi/fetcher/tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip]
+[2024-05-06 13:37:52] INFO root fetch - processPackages [bingo-elastic]: Remove: archive file [/home/abi/fetcher/tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip]
+[2024-05-06 13:37:52] INFO root fetch - main [MainThread]: End processing [bingo-elastic]: success
+[2024-05-06 13:37:52] INFO root fetch - processPackages [tomte]: Remove: archive file [/home/abi/fetcher/tmp/tomte-0.2.8.tar.gz]
+[2024-05-06 13:37:52] INFO root fetch - processPackages [tomte]: Remove: archive file [/home/abi/fetcher/tmp/tomte-0.2.9.tar.gz]
+[2024-05-06 13:37:52] INFO root fetch - main [MainThread]: End processing [tomte]: success
+[2024-05-06 13:37:54] INFO root fetch - processPackages [epam.indigo]: executing diffoscope
+[2024-05-06 13:37:54] INFO root fetch - processPackages [epam.indigo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip --markdown 20240506/e/epam.indigo/1.9.0rc3-1.9.0rc4/README.md --exclude *.pyd
+[2024-05-06 13:38:40] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip]
+[2024-05-06 13:38:40] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip]
+[2024-05-06 13:38:40] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
+[2024-05-06 13:38:40] INFO root fetch - main [MainThread]: Store serial: [23076932]
