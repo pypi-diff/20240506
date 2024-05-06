@@ -18682,3 +18682,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:37:21] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Remove: archive file [/home/abi/fetcher/tmp/asyncapi_python_parser_jonaslagoni-0.4.0.tar.gz]
 [2024-05-06 14:37:21] INFO root fetch - main [MainThread]: End processing [asyncapi-python-parser-jonaslagoni]: success
 [2024-05-06 14:37:21] INFO root fetch - main [MainThread]: Store serial: [23077495]
+[2024-05-06 14:39:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077495]
+[2024-05-06 14:39:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-06 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crate-docs-theme
+[2024-05-06 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bw-superstructure
+[2024-05-06 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bw-superstructure
+[2024-05-06 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsas
+[2024-05-06 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapegraphai
+[2024-05-06 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h2o-wave-university
+[2024-05-06 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: h2o-lightwave
+[2024-05-06 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: communication-services
+[2024-05-06 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: h2o-lightwave-web
+[2024-05-06 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-all-star
+[2024-05-06 14:39:30] INFO root fetch - processPackages [scrapegraphai]: New version: [0.9.0b7] Old Version: [0.9.0b6]
+[2024-05-06 14:39:30] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 14:39:30] INFO root fetch - processPackages [gpt-all-star]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-06 14:39:30] WARNING root fetch - processPackages [bw-superstructure]: Skipping, unable to determine old version
+[2024-05-06 14:39:30] WARNING root fetch - processPackages [bw-superstructure]: Skipping, unable to determine old version
+[2024-05-06 14:39:30] INFO root fetch - processPackages [bw-superstructure]: Start processing: fastapi-xroad-soap
+[2024-05-06 14:39:30] INFO root fetch - processPackages [bw-superstructure]: Start processing: chaostoolkit-google-cloud-platform
+[2024-05-06 14:39:30] INFO root fetch - main [MainThread]: End processing [bw-superstructure] error
+[2024-05-06 14:39:30] INFO root fetch - main [MainThread]: End processing [bw-superstructure] error
+[2024-05-06 14:39:30] INFO root fetch - processPackages [h2o-lightwave-web]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-06 14:39:30] WARNING root fetch - processPackages [lsas]: Skipping, unable to determine old version
+[2024-05-06 14:39:30] INFO root fetch - main [MainThread]: End processing [lsas] error
+[2024-05-06 14:39:30] INFO root fetch - processPackages [h2o-wave-university]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-06 14:39:30] INFO root fetch - processPackages [h2o-lightwave]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-06 14:39:30] WARNING root fetch - processPackages [communication-services]: Skipping, unable to determine old version
+[2024-05-06 14:39:30] INFO root fetch - main [MainThread]: End processing [communication-services] error
+[2024-05-06 14:39:30] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/a7/a2/7b776cb1ca127378d2edb3f3e068fad92fc07b76af6a167052eb647fb5f1/scrapegraphai-0.9.0b6.tar.gz
+[2024-05-06 14:39:30] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 14:39:30] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/95/00/47f2780dce549d1ce8aad7cb17a7c758209c4539c6f75dcdbe0e9322ce0e/gpt_all_star-0.0.7.tar.gz
+[2024-05-06 14:39:30] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-05-06 14:39:30] INFO root fetch - processPackages [fastapi-xroad-soap]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-06 14:39:30] INFO root fetch - processPackages [h2o-lightwave-web]: Downloading https://files.pythonhosted.org/packages/cb/c6/100419bfe41ee3a9d7beb07aa9e6d90a896a665d6c66ff7010f2daac4a75/h2o_lightwave_web-1.1.2-py3-none-any.whl
+[2024-05-06 14:39:30] INFO root fetch - processPackages [h2o-lightwave]: Downloading https://files.pythonhosted.org/packages/71/00/93672a122e03c2034422b3a473b227996f6ceeeae77a32aae2a087dde5b4/h2o_lightwave-1.1.2-py3-none-any.whl
+[2024-05-06 14:39:30] INFO root fetch - processPackages [h2o-wave-university]: Downloading https://files.pythonhosted.org/packages/72/7a/186f6e9c3360c1bc5a3394bc7774c374c9a1e7a4ebb36eed3368aa5bd348/h2o_wave_university-1.1.2-py3-none-any.whl
+[2024-05-06 14:39:31] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/96/40/c6f6b9dc146ffbf8c97d68b1ad200a51bb0f5a239c5e4d11725f1fff5f45/gpt_all_star-0.0.9.tar.gz
+[2024-05-06 14:39:31] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/28/09/ddde815397c13394667d2aca09ae9a6e6fae58533b23d515bb0064ac711e/fastapi_xroad_soap-0.4.3.tar.gz
+[2024-05-06 14:39:31] WARNING root fetch - processPackages [h2o-wave-university]: Skipping package: exceeds size limit 12938369>=10485760
+[2024-05-06 14:39:31] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/63/5c/30d12a2ba836f5972d1146557ac75b13200683a0808baa631508b12da6d1/scrapegraphai-0.9.0b7.tar.gz
+[2024-05-06 14:39:31] INFO root fetch - main [MainThread]: End processing [h2o-wave-university] error
+[2024-05-06 14:39:31] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Downloading https://files.pythonhosted.org/packages/12/07/4d1110a4d4b7d4991abc2505c4e18770bf058568bd5132c229c29711bb5e/chaostoolkit-google-cloud-platform-0.9.0.tar.gz
+[2024-05-06 14:39:31] INFO root fetch - processPackages [gpt-all-star]: executing diffoscope
+[2024-05-06 14:39:31] INFO root fetch - processPackages [gpt-all-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_all_star-0.0.7.tar.gz tmp/gpt_all_star-0.0.9.tar.gz --markdown 20240506/g/gpt-all-star/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-06 14:39:31] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 14:39:31] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-06 14:39:31] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.9.0b6.tar.gz tmp/scrapegraphai-0.9.0b7.tar.gz --markdown 20240506/s/scrapegraphai/0.9.0b6-0.9.0b7/README.md --exclude *.pyd
+[2024-05-06 14:39:31] INFO root fetch - processPackages [h2o-lightwave]: Downloading https://files.pythonhosted.org/packages/09/15/349fd43c878f03d40863a5d2d92eedced1ec9e6917988e132e4b8bff0f03/h2o_lightwave-1.2.0-py3-none-any.whl
+[2024-05-06 14:39:31] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Downloading https://files.pythonhosted.org/packages/37/3d/14b7a4021c6fcdb294d892739505d505baca7cdba954a40c2b9a5b5da456/chaostoolkit-google-cloud-platform-0.9.2.tar.gz
+[2024-05-06 14:39:31] INFO root fetch - processPackages [h2o-lightwave-web]: Downloading https://files.pythonhosted.org/packages/db/59/d697bb305434fc240b3b615b7e3ad0fdec5f2f619e8a672a1558aeff849b/h2o_lightwave_web-1.2.0-py3-none-any.whl
+[2024-05-06 14:39:31] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/bb/a3/82ac9a56130394b73fdde2a12adce4b5d7e668acdd2e06713583fb821861/fastapi_xroad_soap-0.4.4.tar.gz
+[2024-05-06 14:39:31] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 14:39:31] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 14:39:31] INFO root fetch - processPackages [h2o-lightwave]: executing diffoscope
+[2024-05-06 14:39:31] INFO root fetch - processPackages [h2o-lightwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_lightwave-1.1.2-py3-none-any.whl.zip tmp/h2o_lightwave-1.2.0-py3-none-any.whl.zip --markdown 20240506/h/h2o-lightwave/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-06 14:39:31] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: executing diffoscope
+[2024-05-06 14:39:31] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-google-cloud-platform-0.9.0.tar.gz tmp/chaostoolkit-google-cloud-platform-0.9.2.tar.gz --markdown 20240506/c/chaostoolkit-google-cloud-platform/0.9.0-0.9.2/README.md --exclude *.pyd
+[2024-05-06 14:39:31] INFO root fetch - processPackages [fastapi-xroad-soap]: executing diffoscope
+[2024-05-06 14:39:31] INFO root fetch - processPackages [fastapi-xroad-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_xroad_soap-0.4.3.tar.gz tmp/fastapi_xroad_soap-0.4.4.tar.gz --markdown 20240506/f/fastapi-xroad-soap/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-06 14:39:31] INFO root fetch - processPackages [h2o-lightwave-web]: executing diffoscope
+[2024-05-06 14:39:31] INFO root fetch - processPackages [h2o-lightwave-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_lightwave_web-1.1.2-py3-none-any.whl.zip tmp/h2o_lightwave_web-1.2.0-py3-none-any.whl.zip --markdown 20240506/h/h2o-lightwave-web/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-06 14:39:32] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b6.tar.gz]
+[2024-05-06 14:39:32] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b7.tar.gz]
+[2024-05-06 14:39:32] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-06 14:39:32] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.7.tar.gz]
+[2024-05-06 14:39:32] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.9.tar.gz]
+[2024-05-06 14:39:32] INFO root fetch - main [MainThread]: End processing [gpt-all-star]: success
+[2024-05-06 14:39:32] INFO root fetch - processPackages [h2o-lightwave]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave-1.1.2-py3-none-any.whl.zip]
+[2024-05-06 14:39:32] INFO root fetch - processPackages [h2o-lightwave]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave-1.2.0-py3-none-any.whl.zip]
+[2024-05-06 14:39:32] INFO root fetch - main [MainThread]: End processing [h2o-lightwave]: success
+[2024-05-06 14:39:32] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-google-cloud-platform-0.9.0.tar.gz]
+[2024-05-06 14:39:32] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-google-cloud-platform-0.9.2.tar.gz]
+[2024-05-06 14:39:32] INFO root fetch - main [MainThread]: End processing [chaostoolkit-google-cloud-platform]: success
+[2024-05-06 14:39:32] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.4.3.tar.gz]
+[2024-05-06 14:39:32] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.4.4.tar.gz]
+[2024-05-06 14:39:32] INFO root fetch - main [MainThread]: End processing [fastapi-xroad-soap]: success
+[2024-05-06 14:39:32] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 14:39:32] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 14:39:32] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 14:39:34] INFO root fetch - processPackages [h2o-lightwave-web]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave_web-1.1.2-py3-none-any.whl.zip]
+[2024-05-06 14:39:34] INFO root fetch - processPackages [h2o-lightwave-web]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave_web-1.2.0-py3-none-any.whl.zip]
+[2024-05-06 14:39:34] INFO root fetch - main [MainThread]: End processing [h2o-lightwave-web]: success
+[2024-05-06 14:39:34] INFO root fetch - main [MainThread]: Store serial: [23077537]
