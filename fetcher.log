@@ -2010,3 +2010,33 @@
 [2024-05-06 03:10:06] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.1.post1714957688.tar.gz]
 [2024-05-06 03:10:06] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
 [2024-05-06 03:10:06] INFO root fetch - main [MainThread]: Store serial: [23070329]
+[2024-05-06 03:12:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070329]
+[2024-05-06 03:12:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 03:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copyparty
+[2024-05-06 03:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelbase
+[2024-05-06 03:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtb-plot
+[2024-05-06 03:12:15] INFO root fetch - processPackages [qtb-plot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-06 03:12:15] INFO root fetch - processPackages [copyparty]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-06 03:12:15] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2024-05-06 03:12:15] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/11/03/b204f1332c788b8d60b1f6c015b831fa8085a212dfb69503e85f1598bd38/qtb_plot-0.3.8.tar.gz
+[2024-05-06 03:12:15] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/aa/91/e640302f729af122c993bc72216142859cf0d38009436473c9de51f2918f/copyparty-1.9.8.tar.gz
+[2024-05-06 03:12:15] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2024-05-06 03:12:16] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/f4/15/03462d32e24c9b67e3379c910f4c9ffaadaa56270659b362e0c45eaeaccd/qtb_plot-0.3.9.tar.gz
+[2024-05-06 03:12:16] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2024-05-06 03:12:16] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/fb/5b/a1bc07b4a139d33dbbb0b5355223c94f0621cab166e1b656113ab7ccb921/copyparty-1.9.9.tar.gz
+[2024-05-06 03:12:16] INFO root fetch - processPackages [qtb-plot]: executing diffoscope
+[2024-05-06 03:12:16] INFO root fetch - processPackages [qtb-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtb_plot-0.3.8.tar.gz tmp/qtb_plot-0.3.9.tar.gz --markdown 20240506/q/qtb-plot/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-06 03:12:16] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2024-05-06 03:12:16] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20240506/m/modelbase/1.9.3-1rc2/README.md --exclude *.pyd
+[2024-05-06 03:12:16] INFO root fetch - processPackages [copyparty]: executing diffoscope
+[2024-05-06 03:12:16] INFO root fetch - processPackages [copyparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyparty-1.9.8.tar.gz tmp/copyparty-1.9.9.tar.gz --markdown 20240506/c/copyparty/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-06 03:12:16] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.8.tar.gz]
+[2024-05-06 03:12:16] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.9.tar.gz]
+[2024-05-06 03:12:16] INFO root fetch - main [MainThread]: End processing [qtb-plot]: success
+[2024-05-06 03:12:16] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2024-05-06 03:12:16] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2024-05-06 03:12:16] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2024-05-06 03:12:17] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.9.8.tar.gz]
+[2024-05-06 03:12:17] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.9.9.tar.gz]
+[2024-05-06 03:12:17] INFO root fetch - main [MainThread]: End processing [copyparty]: success
+[2024-05-06 03:12:17] INFO root fetch - main [MainThread]: Store serial: [23070340]
