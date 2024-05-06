@@ -4103,3 +4103,54 @@
 [2024-05-06 05:36:49] INFO root fetch - processPackages [zeus-utility]: Remove: archive file [/home/abi/fetcher/tmp/zeus_utility-0.1.0.tar.gz]
 [2024-05-06 05:36:49] INFO root fetch - main [MainThread]: End processing [zeus-utility]: success
 [2024-05-06 05:36:49] INFO root fetch - main [MainThread]: Store serial: [23071156]
+[2024-05-06 05:38:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071156]
+[2024-05-06 05:38:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 05:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomic-bomb-engine
+[2024-05-06 05:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-pandas
+[2024-05-06 05:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MyLLM
+[2024-05-06 05:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pyuilder
+[2024-05-06 05:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyuilder
+[2024-05-06 05:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: biodem
+[2024-05-06 05:38:58] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 05:38:58] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 05:38:58] INFO root fetch - processPackages [Pyuilder]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-06 05:38:58] INFO root fetch - processPackages [pyuilder]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-06 05:38:58] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-05-06 05:38:58] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-06 05:38:58] INFO root fetch - processPackages [pyuilder]: Downloading https://files.pythonhosted.org/packages/e5/aa/d517206aa9416bf25b54dcf3debf80bb55809c5724518e920aed58476a94/pyuilder-0.0.1.tar.gz
+[2024-05-06 05:38:58] INFO root fetch - processPackages [Pyuilder]: Downloading https://files.pythonhosted.org/packages/e5/aa/d517206aa9416bf25b54dcf3debf80bb55809c5724518e920aed58476a94/pyuilder-0.0.1.tar.gz
+[2024-05-06 05:38:58] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 05:38:58] INFO root fetch - processPackages [biodem]: New version: [0.6.0] Old Version: [0.2.0]
+[2024-05-06 05:38:58] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-05-06 05:38:58] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-05-06 05:38:58] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 05:38:58] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 05:38:58] INFO root fetch - processPackages [biodem]: Downloading https://files.pythonhosted.org/packages/ee/68/1d42e3fee6b2324a5dcb5c1950e3cabcdd35f9f134a3d215cd91aec2c7ea/biodem-0.2.0.tar.gz
+[2024-05-06 05:38:58] INFO root fetch - processPackages [Pyuilder]: Downloading https://files.pythonhosted.org/packages/4c/93/73f5472225a2efd644552ba81e335b3262a6f6f064041b900869940c5da6/pyuilder-0.0.3.tar.gz
+[2024-05-06 05:38:58] INFO root fetch - processPackages [pyuilder]: Downloading https://files.pythonhosted.org/packages/4c/93/73f5472225a2efd644552ba81e335b3262a6f6f064041b900869940c5da6/pyuilder-0.0.3.tar.gz
+[2024-05-06 05:38:58] INFO root fetch - processPackages [pyuilder]: executing diffoscope
+[2024-05-06 05:38:58] INFO root fetch - processPackages [pyuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuilder-0.0.1.tar.gz tmp/pyuilder-0.0.3.tar.gz --markdown 20240506/p/pyuilder/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-06 05:38:58] INFO root fetch - processPackages [Pyuilder]: executing diffoscope
+[2024-05-06 05:38:58] INFO root fetch - processPackages [Pyuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuilder-0.0.1.tar.gz tmp/pyuilder-0.0.3.tar.gz --markdown 20240506/P/Pyuilder/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-06 05:38:58] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-05-06 05:38:58] WARNING root fetch - processPackages [biodem]: Skipping package: exceeds size limit 86570888>=10485760
+[2024-05-06 05:38:58] INFO root fetch - main [MainThread]: End processing [biodem] error
+[2024-05-06 05:38:59] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-05-06 05:38:59] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240506/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-05-06 05:38:59] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 05:38:59] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 05:38:59] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 05:38:59] INFO root fetch - processPackages [pyuilder]: Remove: archive file [/home/abi/fetcher/tmp/pyuilder-0.0.1.tar.gz]
+[2024-05-06 05:38:59] INFO root fetch - processPackages [pyuilder]: Remove: archive file [/home/abi/fetcher/tmp/pyuilder-0.0.3.tar.gz]
+[2024-05-06 05:38:59] INFO root fetch - main [MainThread]: End processing [pyuilder]: success
+[2024-05-06 05:38:59] INFO root fetch - main [MainThread]: End processing [Pyuilder]: success
+[2024-05-06 05:38:59] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-05-06 05:38:59] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-05-06 05:38:59] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-05-06 05:39:01] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-05-06 05:39:02] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-05-06 05:39:02] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240506/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-06 05:39:03] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-06 05:39:03] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-05-06 05:39:03] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-05-06 05:39:03] INFO root fetch - main [MainThread]: Store serial: [23071182]
