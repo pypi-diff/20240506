@@ -18002,3 +18002,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:07:47] INFO root fetch - processPackages [alibabacloud-r-kvstore20150101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_r-kvstore20150101-4.0.0.tar.gz]
 [2024-05-06 14:07:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-r-kvstore20150101]: success
 [2024-05-06 14:07:47] INFO root fetch - main [MainThread]: Store serial: [23077195]
+[2024-05-06 14:09:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077195]
+[2024-05-06 14:09:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 14:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esiaccel
+[2024-05-06 14:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlpro
+[2024-05-06 14:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-esimd
+[2024-05-06 14:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torcheval-nightly
+[2024-05-06 14:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiometry-trainer
+[2024-05-06 14:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkt-retv
+[2024-05-06 14:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: requests-sse
+[2024-05-06 14:09:57] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.5.5] Old Version: [2024.5.4]
+[2024-05-06 14:09:57] INFO root fetch - processPackages [mkt-retv]: New version: [1.419] Old Version: [1.418]
+[2024-05-06 14:09:57] INFO root fetch - processPackages [requests-sse]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-06 14:09:57] INFO root fetch - processPackages [mlpro]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-06 14:09:57] INFO root fetch - processPackages [audiometry-trainer]: New version: [0.1.9] Old Version: [0.1.6]
+[2024-05-06 14:09:57] INFO root fetch - processPackages [esiaccel]: New version: [0.0.2.dev98] Old Version: [0.0.2.dev60]
+[2024-05-06 14:09:57] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240506] Old Version: [2.5.0b20240505]
+[2024-05-06 14:09:58] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/f6/4f/9d64ef8deb81d6cb8dd873cfd853e958377b5967316565d5c9895861e278/mkt-retv-1.418.tar.gz
+[2024-05-06 14:09:58] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/ef/af/21b1fdb006794e9e4cab18e28d28c8d24a6376dcdc5b18e4458a899b92da/torcheval-nightly-2024.5.4.tar.gz
+[2024-05-06 14:09:58] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/45/ed/6cdf93dc49cc962884490d1534138100ca47fa328fe7e07c343791fcbfb0/esiaccel-0.0.2.dev60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 14:09:58] INFO root fetch - processPackages [mlpro]: Downloading https://files.pythonhosted.org/packages/64/cc/50304c1e32c4571d032c1776689994efc67ccd08dfede25f15ed89377a13/mlpro-1.4.0.tar.gz
+[2024-05-06 14:09:58] INFO root fetch - processPackages [audiometry-trainer]: Downloading https://files.pythonhosted.org/packages/a1/9c/73f5396f6d5f0370df4c2b8dc54dff7b6a5af5778207151ecaf45721a104/audiometry_trainer-0.1.6.tar.gz
+[2024-05-06 14:09:58] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/83/5b/1b9191def9a19690d36d8ccc71d9b93a7e5321f412c1dd4155f1cc6b3bc8/bigdl_core_xe_esimd-2.5.0b20240505-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-06 14:09:58] INFO root fetch - processPackages [requests-sse]: Downloading https://files.pythonhosted.org/packages/ba/60/6b5273167b077f3dc8f75efc0d1a42a4f616e0c5b31ae3edb7d7655b3a8f/requests_sse-0.3.1.tar.gz
+[2024-05-06 14:09:58] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61871660>=10485760
+[2024-05-06 14:09:58] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-05-06 14:09:58] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/db/30/e96ed22f9a4f93154bd3424cb1dc4408b379521cc8cbc40c459dad305937/mkt-retv-1.419.tar.gz
+[2024-05-06 14:09:58] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/35/8d/38bd101e49a5715e17930f2f7925b1ef4a663cf1b45794dc56264ff5b629/torcheval-nightly-2024.5.5.tar.gz
+[2024-05-06 14:09:58] INFO root fetch - processPackages [mkt-retv]: executing diffoscope
+[2024-05-06 14:09:58] INFO root fetch - processPackages [mkt-retv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkt-retv-1.418.tar.gz tmp/mkt-retv-1.419.tar.gz --markdown 20240506/m/mkt-retv/1.418-1.419/README.md --exclude *.pyd
+[2024-05-06 14:09:58] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-05-06 14:09:58] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.5.4.tar.gz tmp/torcheval-nightly-2024.5.5.tar.gz --markdown 20240506/t/torcheval-nightly/2024.5.4-2024.5.5/README.md --exclude *.pyd
+[2024-05-06 14:09:58] INFO root fetch - processPackages [requests-sse]: Downloading https://files.pythonhosted.org/packages/2f/38/17d72af6819a3443c1d42a7d02adce430b11e39b03f8273d684385eaa53d/requests_sse-0.3.2.tar.gz
+[2024-05-06 14:09:58] INFO root fetch - processPackages [mlpro]: Downloading https://files.pythonhosted.org/packages/f8/a2/6796cd0b29c51a244169a11ae38eff68510a359ba1ca61ca4efeec89e859/mlpro-1.4.1.tar.gz
+[2024-05-06 14:09:58] INFO root fetch - processPackages [requests-sse]: executing diffoscope
+[2024-05-06 14:09:58] INFO root fetch - processPackages [requests-sse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_sse-0.3.1.tar.gz tmp/requests_sse-0.3.2.tar.gz --markdown 20240506/r/requests-sse/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-06 14:09:58] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/93/f4/9beed7381169f21f10e10f09e5d57c93ea7dededbb225c62da2f27907b7d/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 14:09:58] INFO root fetch - processPackages [mlpro]: executing diffoscope
+[2024-05-06 14:09:58] INFO root fetch - processPackages [mlpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpro-1.4.0.tar.gz tmp/mlpro-1.4.1.tar.gz --markdown 20240506/m/mlpro/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-06 14:09:58] INFO root fetch - processPackages [audiometry-trainer]: Downloading https://files.pythonhosted.org/packages/31/62/0efef2b7715d0d72822d4db6348f0e5592fb14c2742a99dda47ce24ff611/audiometry_trainer-0.1.9.tar.gz
+[2024-05-06 14:09:59] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.418.tar.gz]
+[2024-05-06 14:09:59] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.419.tar.gz]
+[2024-05-06 14:09:59] INFO root fetch - main [MainThread]: End processing [mkt-retv]: success
+[2024-05-06 14:09:59] INFO root fetch - processPackages [requests-sse]: Remove: archive file [/home/abi/fetcher/tmp/requests_sse-0.3.1.tar.gz]
+[2024-05-06 14:09:59] INFO root fetch - processPackages [requests-sse]: Remove: archive file [/home/abi/fetcher/tmp/requests_sse-0.3.2.tar.gz]
+[2024-05-06 14:09:59] INFO root fetch - main [MainThread]: End processing [requests-sse]: success
+[2024-05-06 14:09:59] INFO root fetch - processPackages [audiometry-trainer]: executing diffoscope
+[2024-05-06 14:09:59] INFO root fetch - processPackages [audiometry-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiometry_trainer-0.1.6.tar.gz tmp/audiometry_trainer-0.1.9.tar.gz --markdown 20240506/a/audiometry-trainer/0.1.6-0.1.9/README.md --exclude *.pyd
+[2024-05-06 14:09:59] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.5.4.tar.gz]
+[2024-05-06 14:09:59] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.5.5.tar.gz]
+[2024-05-06 14:09:59] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-05-06 14:10:00] INFO root fetch - processPackages [mlpro]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-1.4.0.tar.gz]
+[2024-05-06 14:10:00] INFO root fetch - processPackages [mlpro]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-1.4.1.tar.gz]
+[2024-05-06 14:10:00] INFO root fetch - main [MainThread]: End processing [mlpro]: success
+[2024-05-06 14:10:00] INFO root fetch - processPackages [esiaccel]: executing diffoscope
+[2024-05-06 14:10:00] INFO root fetch - processPackages [esiaccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esiaccel-0.0.2.dev60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240506/e/esiaccel/0.0.2.dev60-0.0.2.dev98/README.md --exclude *.pyd
+[2024-05-06 14:10:02] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.1.6.tar.gz]
+[2024-05-06 14:10:02] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.1.9.tar.gz]
+[2024-05-06 14:10:02] INFO root fetch - main [MainThread]: End processing [audiometry-trainer]: success
+[2024-05-06 14:10:06] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.2.dev60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-06 14:10:06] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-06 14:10:06] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
+[2024-05-06 14:10:06] INFO root fetch - main [MainThread]: Store serial: [23077226]
