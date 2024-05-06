@@ -5332,3 +5332,42 @@
 [2024-05-06 07:04:06] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.9.tar.gz]
 [2024-05-06 07:04:06] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
 [2024-05-06 07:04:06] INFO root fetch - main [MainThread]: Store serial: [23071709]
+[2024-05-06 07:06:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071709]
+[2024-05-06 07:06:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 07:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-devkit
+[2024-05-06 07:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sf-hamilton
+[2024-05-06 07:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2024-05-06 07:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepeline
+[2024-05-06 07:06:15] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240505] Old Version: [0.1.2.dev20240504]
+[2024-05-06 07:06:15] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-06 07:06:15] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2024-05-06 07:06:15] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/c1/4f/165d2bacf6b6840884592802b1ae2f1c04137de810df1b48447e7bc2f92a/rapid_pe-0.1.2.dev20240504.tar.gz
+[2024-05-06 07:06:15] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/51/97/0ed66b947eb7371ed3f33d9501745d4bbc9b06a5cd25a6e7a6a6e7869fda/omnata_plugin_devkit-0.3.8.tar.gz
+[2024-05-06 07:06:15] INFO root fetch - processPackages [pepeline]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 07:06:15] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2024-05-06 07:06:15] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/ab/cd/8ae3c24092da4eb0b2e004a29d5a3c0f5645221700bcc67d92564531a967/pepeline-0.2.8.tar.gz
+[2024-05-06 07:06:15] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/05/26/00acb43f53fad72d614350962a4ab46ad393fce6583ee75c5dedc01385c8/omnata_plugin_devkit-0.3.9.tar.gz
+[2024-05-06 07:06:15] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2024-05-06 07:06:15] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/f4/9d/cc150236d8d6d92f870fe0f325e56a36bd9514a5e52dabfaedab225cc8e0/rapid_pe-0.1.2.dev20240505.tar.gz
+[2024-05-06 07:06:15] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2024-05-06 07:06:15] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.3.8.tar.gz tmp/omnata_plugin_devkit-0.3.9.tar.gz --markdown 20240506/o/omnata-plugin-devkit/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-06 07:06:15] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2024-05-06 07:06:15] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20240506/s/sf-hamilton/1.9.0-1.9.0rc0/README.md --exclude *.pyd
+[2024-05-06 07:06:15] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-06 07:06:15] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240504.tar.gz tmp/rapid_pe-0.1.2.dev20240505.tar.gz --markdown 20240506/r/rapid-pe/0.1.2.dev20240504-0.1.2.dev20240505/README.md --exclude *.pyd
+[2024-05-06 07:06:16] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/66/2c/70d91f510be1c17b6afddecc9555eb168e1da61db91dd65c8f7ae704073e/pepeline-0.2.9.tar.gz
+[2024-05-06 07:06:16] INFO root fetch - processPackages [pepeline]: executing diffoscope
+[2024-05-06 07:06:16] INFO root fetch - processPackages [pepeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepeline-0.2.8.tar.gz tmp/pepeline-0.2.9.tar.gz --markdown 20240506/p/pepeline/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 07:06:16] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.8.tar.gz]
+[2024-05-06 07:06:16] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.9.tar.gz]
+[2024-05-06 07:06:16] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2024-05-06 07:06:16] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240504.tar.gz]
+[2024-05-06 07:06:16] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240505.tar.gz]
+[2024-05-06 07:06:16] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-06 07:06:16] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2024-05-06 07:06:16] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2024-05-06 07:06:16] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2024-05-06 07:06:16] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.8.tar.gz]
+[2024-05-06 07:06:16] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.9.tar.gz]
+[2024-05-06 07:06:16] INFO root fetch - main [MainThread]: End processing [pepeline]: success
+[2024-05-06 07:06:16] INFO root fetch - main [MainThread]: Store serial: [23071727]
