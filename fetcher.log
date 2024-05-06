@@ -7033,3 +7033,21 @@
 [2024-05-06 08:52:22] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
 [2024-05-06 08:52:22] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
 [2024-05-06 08:52:22] INFO root fetch - main [MainThread]: Store serial: [23072549]
+[2024-05-06 08:54:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072549]
+[2024-05-06 08:54:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 08:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiuyutools
+[2024-05-06 08:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-audit-events
+[2024-05-06 08:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usso-python
+[2024-05-06 08:54:31] WARNING root fetch - processPackages [usso-python]: Skipping, unable to determine old version
+[2024-05-06 08:54:31] WARNING root fetch - processPackages [xiuyutools]: Skipping, unable to determine old version
+[2024-05-06 08:54:31] INFO root fetch - processPackages [django-audit-events]: New version: [0.3.0] Old Version: [0.2b0]
+[2024-05-06 08:54:31] INFO root fetch - main [MainThread]: End processing [usso-python] error
+[2024-05-06 08:54:31] INFO root fetch - main [MainThread]: End processing [xiuyutools] error
+[2024-05-06 08:54:31] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/20/52/a70de5807896c641d95baa1ae4b7d7803e1ac55627bea7192c3b9012bfbb/django-audit-events-0.2b0.tar.gz
+[2024-05-06 08:54:31] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/6b/25/c35946bbe5293ecf74549934c16137fa7a5a99835036b3ac2256cfc80778/django-audit-events-0.3.0.tar.gz
+[2024-05-06 08:54:31] INFO root fetch - processPackages [django-audit-events]: executing diffoscope
+[2024-05-06 08:54:31] INFO root fetch - processPackages [django-audit-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-audit-events-0.2b0.tar.gz tmp/django-audit-events-0.3.0.tar.gz --markdown 20240506/d/django-audit-events/0.2b0-0.3.0/README.md --exclude *.pyd
+[2024-05-06 08:54:32] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.2b0.tar.gz]
+[2024-05-06 08:54:32] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.0.tar.gz]
+[2024-05-06 08:54:32] INFO root fetch - main [MainThread]: End processing [django-audit-events]: success
+[2024-05-06 08:54:32] INFO root fetch - main [MainThread]: Store serial: [23072564]
