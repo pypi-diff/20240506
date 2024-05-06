@@ -4049,3 +4049,33 @@
 [2024-05-06 05:32:29] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.58.tar.gz]
 [2024-05-06 05:32:29] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-05-06 05:32:29] INFO root fetch - main [MainThread]: Store serial: [23071122]
+[2024-05-06 05:34:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071122]
+[2024-05-06 05:34:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 05:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-pandas
+[2024-05-06 05:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-05-06 05:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdmty-django-users
+[2024-05-06 05:34:38] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 05:34:38] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-06 05:34:38] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 05:34:38] INFO root fetch - processPackages [gdmty-django-users]: New version: [24.4.0] Old Version: [24.3.1.dev7]
+[2024-05-06 05:34:38] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-06 05:34:38] INFO root fetch - processPackages [gdmty-django-users]: Downloading https://files.pythonhosted.org/packages/b3/c6/872afd34a104fad5984ebe1c7d4b4dcb520a9bb80f3811c237f17dc0f29f/gdmty-django-users-24.3.1.dev7.tar.gz
+[2024-05-06 05:34:39] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 05:34:39] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-06 05:34:39] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-06 05:34:39] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240506/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-06 05:34:39] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 05:34:39] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 05:34:39] INFO root fetch - processPackages [gdmty-django-users]: Downloading https://files.pythonhosted.org/packages/ef/b2/aa031f2d94b22dea398862e327dd41439b5b60933838d789de281c5878f7/gdmty_django_users-24.4.0.tar.gz
+[2024-05-06 05:34:39] INFO root fetch - processPackages [gdmty-django-users]: executing diffoscope
+[2024-05-06 05:34:39] INFO root fetch - processPackages [gdmty-django-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdmty-django-users-24.3.1.dev7.tar.gz tmp/gdmty_django_users-24.4.0.tar.gz --markdown 20240506/g/gdmty-django-users/24.3.1.dev7-24.4.0/README.md --exclude *.pyd
+[2024-05-06 05:34:39] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-06 05:34:39] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-06 05:34:39] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-06 05:34:39] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 05:34:39] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 05:34:39] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 05:34:40] INFO root fetch - processPackages [gdmty-django-users]: Remove: archive file [/home/abi/fetcher/tmp/gdmty-django-users-24.3.1.dev7.tar.gz]
+[2024-05-06 05:34:40] INFO root fetch - processPackages [gdmty-django-users]: Remove: archive file [/home/abi/fetcher/tmp/gdmty_django_users-24.4.0.tar.gz]
+[2024-05-06 05:34:40] INFO root fetch - main [MainThread]: End processing [gdmty-django-users]: success
+[2024-05-06 05:34:40] INFO root fetch - main [MainThread]: Store serial: [23071136]
