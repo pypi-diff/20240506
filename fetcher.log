@@ -22528,3 +22528,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:47:38] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20240506.4.tar.gz]
 [2024-05-06 16:47:38] INFO root fetch - main [MainThread]: End processing [pyjhtdbv2]: success
 [2024-05-06 16:47:38] INFO root fetch - main [MainThread]: Store serial: [23079491]
+[2024-05-06 16:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079491]
+[2024-05-06 16:49:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Files.com
+[2024-05-06 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-manager
+[2024-05-06 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weasyprint
+[2024-05-06 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiboa-cli
+[2024-05-06 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twelvelabs
+[2024-05-06 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-prep-lab-kfp
+[2024-05-06 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redrover-api
+[2024-05-06 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: IOPaint
+[2024-05-06 16:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: girona-donostia
+[2024-05-06 16:49:53] INFO root fetch - processPackages [IOPaint]: New version: [1.3.0] Old Version: [1.2.3]
+[2024-05-06 16:49:53] INFO root fetch - processPackages [girona-donostia]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 16:49:53] INFO root fetch - processPackages [torch-model-manager]: New version: [0.2.0.dev7] Old Version: [0.2.0.dev6]
+[2024-05-06 16:49:53] INFO root fetch - processPackages [redrover-api]: New version: [1.9.3.dev0] Old Version: [1.9.2.dev0]
+[2024-05-06 16:49:53] INFO root fetch - processPackages [weasyprint]: New version: [62.0] Old Version: [61.2]
+[2024-05-06 16:49:53] INFO root fetch - processPackages [twelvelabs]: New version: [0.1.23] Old Version: [0.1.22]
+[2024-05-06 16:49:53] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/a1/9d/0b3988958063d4cf4c2f3d77bf5b6625c03a1a236a6220b4fc72fbb3013b/torch_model_manager-0.2.0.dev6.tar.gz
+[2024-05-06 16:49:53] INFO root fetch - processPackages [fiboa-cli]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-06 16:49:53] INFO root fetch - processPackages [data-prep-lab-kfp]: New version: [0.1.7] Old Version: [0.1.6.dev1]
+[2024-05-06 16:49:53] INFO root fetch - processPackages [girona-donostia]: Downloading https://files.pythonhosted.org/packages/60/c4/36c745985e733f829f641f2f74f270959734e1371d5373d18d00da343153/girona_donostia-0.1.8.tar.gz
+[2024-05-06 16:49:53] INFO root fetch - processPackages [IOPaint]: Downloading https://files.pythonhosted.org/packages/b9/39/df3766e11973a4fb22eae49f03145f741c399b666e8f5d35fff3df061160/IOPaint-1.2.3.tar.gz
+[2024-05-06 16:49:53] INFO root fetch - processPackages [redrover-api]: Downloading https://files.pythonhosted.org/packages/79/2a/aaf20ff281e9a4e56b80f8e93cbe9e41d97e06138d112160bdfdedecdef9/redrover-api-1.9.2.dev0.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [weasyprint]: Downloading https://files.pythonhosted.org/packages/f8/1a/32a7de6916ead1bd5b5ed6a5f4431d5011426850566d7ba2947f896cdd19/weasyprint-61.2.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [Files.com]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-06 16:49:54] INFO root fetch - processPackages [data-prep-lab-kfp]: Downloading https://files.pythonhosted.org/packages/b0/ea/7157d844ac3c1b64190f8fce60604b18ec91fda5a33418d75474ce5b1121/data_prep_lab_kfp-0.1.6.dev1.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [twelvelabs]: Downloading https://files.pythonhosted.org/packages/07/c7/0719fbafa7a109cc451db85f2d81b0fbc9e5aafc5287395438c44fd1c7cd/twelvelabs-0.1.22.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [fiboa-cli]: Downloading https://files.pythonhosted.org/packages/8e/b6/5c0098bec0c85e848c44bfc0c776e488b04fae479a0c89ff38ed6b8a1438/fiboa_cli-0.3.8.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [girona-donostia]: Downloading https://files.pythonhosted.org/packages/f1/fb/f355c092348fa1da903dd898a1aa616b514553b52cfda1036012d8115951/girona_donostia-0.1.9.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/93/77/704c785bb0a70c3ecb34cef44388ae8498fc348faabfdac8c35b393bb02e/torch_model_manager-0.2.0.dev7.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [redrover-api]: Downloading https://files.pythonhosted.org/packages/68/22/6846caf94ab205d51453e15d3cc89e9c454e2fd9d3f1efabd23602c23a64/redrover-api-1.9.3.dev0.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [girona-donostia]: executing diffoscope
+[2024-05-06 16:49:54] INFO root fetch - processPackages [girona-donostia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girona_donostia-0.1.8.tar.gz tmp/girona_donostia-0.1.9.tar.gz --markdown 20240506/g/girona-donostia/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:49:54] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-06 16:49:54] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.2.0.dev6.tar.gz tmp/torch_model_manager-0.2.0.dev7.tar.gz --markdown 20240506/t/torch-model-manager/0.2.0.dev6-0.2.0.dev7/README.md --exclude *.pyd
+[2024-05-06 16:49:54] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/fe/9f/8654a34abe6ed4232708475bb6c7dd30b128ab68594cd684d58e72375385/Files.com-1.4.8.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [weasyprint]: Downloading https://files.pythonhosted.org/packages/47/45/57dbaf38d631a964963bd762e93bf62536d548d59cacd4da2176b0098aaf/weasyprint-62.0.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [IOPaint]: Downloading https://files.pythonhosted.org/packages/a8/e1/f271505a68f67ed05b2a7fdd83193264c1a8c5effec590dea0c642205aff/IOPaint-1.3.0.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [redrover-api]: executing diffoscope
+[2024-05-06 16:49:54] INFO root fetch - processPackages [redrover-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redrover-api-1.9.2.dev0.tar.gz tmp/redrover-api-1.9.3.dev0.tar.gz --markdown 20240506/r/redrover-api/1.9.2.dev0-1.9.3.dev0/README.md --exclude *.pyd
+[2024-05-06 16:49:54] INFO root fetch - processPackages [weasyprint]: executing diffoscope
+[2024-05-06 16:49:54] INFO root fetch - processPackages [weasyprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weasyprint-61.2.tar.gz tmp/weasyprint-62.0.tar.gz --markdown 20240506/w/weasyprint/61.2-62.0/README.md --exclude *.pyd
+[2024-05-06 16:49:54] INFO root fetch - processPackages [data-prep-lab-kfp]: Downloading https://files.pythonhosted.org/packages/2d/6f/8ad98d051e2f1c775f84c32d1044591ddf42994b099c41320df488a1f060/data_prep_lab_kfp-0.1.7.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [fiboa-cli]: Downloading https://files.pythonhosted.org/packages/2d/a7/5bf5c91094b074aceef5808fe7d8dbd40bb3feeb3ec1d7b0e012299e35d8/fiboa_cli-0.3.9.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [twelvelabs]: Downloading https://files.pythonhosted.org/packages/0f/f2/5f9c75d12b333a1110e05bcb8a63d58caf59c2290052b712c6996d8c23b9/twelvelabs-0.1.23.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [data-prep-lab-kfp]: executing diffoscope
+[2024-05-06 16:49:54] INFO root fetch - processPackages [data-prep-lab-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_lab_kfp-0.1.6.dev1.tar.gz tmp/data_prep_lab_kfp-0.1.7.tar.gz --markdown 20240506/d/data-prep-lab-kfp/0.1.6.dev1-0.1.7/README.md --exclude *.pyd
+[2024-05-06 16:49:54] INFO root fetch - processPackages [twelvelabs]: executing diffoscope
+[2024-05-06 16:49:54] INFO root fetch - processPackages [twelvelabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twelvelabs-0.1.22.tar.gz tmp/twelvelabs-0.1.23.tar.gz --markdown 20240506/t/twelvelabs/0.1.22-0.1.23/README.md --exclude *.pyd
+[2024-05-06 16:49:54] INFO root fetch - processPackages [IOPaint]: executing diffoscope
+[2024-05-06 16:49:54] INFO root fetch - processPackages [fiboa-cli]: executing diffoscope
+[2024-05-06 16:49:54] INFO root fetch - processPackages [IOPaint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IOPaint-1.2.3.tar.gz tmp/IOPaint-1.3.0.tar.gz --markdown 20240506/I/IOPaint/1.2.3-1.3.0/README.md --exclude *.pyd
+[2024-05-06 16:49:54] INFO root fetch - processPackages [fiboa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiboa_cli-0.3.8.tar.gz tmp/fiboa_cli-0.3.9.tar.gz --markdown 20240506/f/fiboa-cli/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-06 16:49:54] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/50/2a/081bc12536110f3d42e66312b9c23d07fc87bd3eafaaa4b731c3a21d1660/Files.com-1.4.9.tar.gz
+[2024-05-06 16:49:54] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2024-05-06 16:49:54] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.4.8.tar.gz tmp/Files.com-1.4.9.tar.gz --markdown 20240506/F/Files.com/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-06 16:49:55] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev6.tar.gz]
+[2024-05-06 16:49:55] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev7.tar.gz]
+[2024-05-06 16:49:55] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-06 16:49:55] INFO root fetch - processPackages [girona-donostia]: Remove: archive file [/home/abi/fetcher/tmp/girona_donostia-0.1.8.tar.gz]
+[2024-05-06 16:49:55] INFO root fetch - processPackages [girona-donostia]: Remove: archive file [/home/abi/fetcher/tmp/girona_donostia-0.1.9.tar.gz]
+[2024-05-06 16:49:55] INFO root fetch - main [MainThread]: End processing [girona-donostia]: success
+[2024-05-06 16:49:55] INFO root fetch - processPackages [fiboa-cli]: Remove: archive file [/home/abi/fetcher/tmp/fiboa_cli-0.3.8.tar.gz]
+[2024-05-06 16:49:55] INFO root fetch - processPackages [fiboa-cli]: Remove: archive file [/home/abi/fetcher/tmp/fiboa_cli-0.3.9.tar.gz]
+[2024-05-06 16:49:55] INFO root fetch - main [MainThread]: End processing [fiboa-cli]: success
+[2024-05-06 16:49:55] INFO root fetch - processPackages [twelvelabs]: Remove: archive file [/home/abi/fetcher/tmp/twelvelabs-0.1.22.tar.gz]
+[2024-05-06 16:49:55] INFO root fetch - processPackages [twelvelabs]: Remove: archive file [/home/abi/fetcher/tmp/twelvelabs-0.1.23.tar.gz]
+[2024-05-06 16:49:55] INFO root fetch - main [MainThread]: End processing [twelvelabs]: success
+[2024-05-06 16:49:55] INFO root fetch - processPackages [data-prep-lab-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_lab_kfp-0.1.6.dev1.tar.gz]
+[2024-05-06 16:49:55] INFO root fetch - processPackages [data-prep-lab-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_lab_kfp-0.1.7.tar.gz]
+[2024-05-06 16:49:55] INFO root fetch - main [MainThread]: End processing [data-prep-lab-kfp]: success
+[2024-05-06 16:49:56] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.8.tar.gz]
+[2024-05-06 16:49:56] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
+[2024-05-06 16:49:56] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2024-05-06 16:49:57] INFO root fetch - processPackages [weasyprint]: Remove: archive file [/home/abi/fetcher/tmp/weasyprint-61.2.tar.gz]
+[2024-05-06 16:49:57] INFO root fetch - processPackages [weasyprint]: Remove: archive file [/home/abi/fetcher/tmp/weasyprint-62.0.tar.gz]
+[2024-05-06 16:49:57] INFO root fetch - main [MainThread]: End processing [weasyprint]: success
+[2024-05-06 16:49:57] INFO root fetch - processPackages [redrover-api]: Remove: archive file [/home/abi/fetcher/tmp/redrover-api-1.9.2.dev0.tar.gz]
+[2024-05-06 16:49:57] INFO root fetch - processPackages [redrover-api]: Remove: archive file [/home/abi/fetcher/tmp/redrover-api-1.9.3.dev0.tar.gz]
+[2024-05-06 16:49:57] INFO root fetch - main [MainThread]: End processing [redrover-api]: success
+[2024-05-06 16:50:03] INFO root fetch - processPackages [IOPaint]: Remove: archive file [/home/abi/fetcher/tmp/IOPaint-1.2.3.tar.gz]
+[2024-05-06 16:50:03] INFO root fetch - processPackages [IOPaint]: Remove: archive file [/home/abi/fetcher/tmp/IOPaint-1.3.0.tar.gz]
+[2024-05-06 16:50:03] INFO root fetch - main [MainThread]: End processing [IOPaint]: success
+[2024-05-06 16:50:03] INFO root fetch - main [MainThread]: Store serial: [23079521]
