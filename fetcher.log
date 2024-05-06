@@ -3067,3 +3067,60 @@
 [2024-05-06 04:31:34] INFO root fetch - processPackages [AutoNico]: Remove: archive file [/home/abi/fetcher/tmp/AutoNico-1.2.0-py3-none-any.whl.zip]
 [2024-05-06 04:31:34] INFO root fetch - main [MainThread]: End processing [AutoNico]: success
 [2024-05-06 04:31:34] INFO root fetch - main [MainThread]: Store serial: [23070724]
+[2024-05-06 04:33:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070724]
+[2024-05-06 04:33:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smipoly
+[2024-05-06 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmsofttest
+[2024-05-06 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zuspec-parser
+[2024-05-06 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChatGPTWeb
+[2024-05-06 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: furrow1k
+[2024-05-06 04:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-pandas
+[2024-05-06 04:33:43] INFO root fetch - processPackages [furrow1k]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-06 04:33:43] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 04:33:43] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/14/c4/8310dddf18adf1cc77c128e4eb8022654c830e461a19e74d416ac2219547/furrow1k-0.1.5.tar.gz
+[2024-05-06 04:33:43] INFO root fetch - processPackages [smipoly]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-06 04:33:43] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 04:33:43] INFO root fetch - processPackages [ChatGPTWeb]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 04:33:43] INFO root fetch - processPackages [gmsofttest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 04:33:43] INFO root fetch - processPackages [zuspec-parser]: New version: [0.0.1.8963196983] Old Version: [0.0.1.8954608045]
+[2024-05-06 04:33:43] INFO root fetch - processPackages [smipoly]: Downloading https://files.pythonhosted.org/packages/c3/b2/e05a47bc50b483c329c0d4b519de2e38b981ef47415d997ba961e5d5a154/smipoly-0.0.3.tar.gz
+[2024-05-06 04:33:43] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/eb/c9/80a2e9566b35349b1eb8378e20b5a4ed2e0f534992281be6f39de2183dfc/gmsofttest-0.0.8.tar.gz
+[2024-05-06 04:33:43] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/dc/7b/fb9f0536119158e52e7f94385abf4ccd9721c01503aa88b3264628dbaccf/zuspec_parser-0.0.1.8954608045-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 04:33:43] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 04:33:43] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/82/0b/2f40072238e539ff3dafbd19d986e0824e96f181027997b032d565a7250f/ChatGPTWeb-0.2.8.tar.gz
+[2024-05-06 04:33:43] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/a5/c4/6847a999d99f123bc572f84b0b407838ca6cb5568c6a2c2508bcd7c1420a/furrow1k-0.1.6.tar.gz
+[2024-05-06 04:33:43] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 04:33:43] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 04:33:43] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-06 04:33:43] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-0.1.5.tar.gz tmp/furrow1k-0.1.6.tar.gz --markdown 20240506/f/furrow1k/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-06 04:33:43] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/ed/9f/122493f4e3bf0b258a259a6fe55e73fbee9bdfc4fad41c41616c86d64327/gmsofttest-0.0.9.tar.gz
+[2024-05-06 04:33:43] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/c2/07/48a39963a051837ad1394281b0a7803bd8e57f7bd348e48ace95874fc0bb/ChatGPTWeb-0.2.9.tar.gz
+[2024-05-06 04:33:43] INFO root fetch - processPackages [gmsofttest]: executing diffoscope
+[2024-05-06 04:33:43] INFO root fetch - processPackages [gmsofttest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsofttest-0.0.8.tar.gz tmp/gmsofttest-0.0.9.tar.gz --markdown 20240506/g/gmsofttest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 04:33:44] INFO root fetch - processPackages [ChatGPTWeb]: executing diffoscope
+[2024-05-06 04:33:44] INFO root fetch - processPackages [ChatGPTWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPTWeb-0.2.8.tar.gz tmp/ChatGPTWeb-0.2.9.tar.gz --markdown 20240506/C/ChatGPTWeb/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 04:33:44] INFO root fetch - processPackages [smipoly]: Downloading https://files.pythonhosted.org/packages/6e/d6/3230403eaab1a6ac3964ef5e600a987bab920f6267dd6dd433ee7f54f723/smipoly-0.1.0.tar.gz
+[2024-05-06 04:33:44] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/8a/63/0e721ba33c78d8909b1476da694dccff36866e102cea15daa3065779aa68/zuspec_parser-0.0.1.8963196983-cp312-cp312-macosx_14_0_arm64.whl
+[2024-05-06 04:33:44] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.5.tar.gz]
+[2024-05-06 04:33:44] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.6.tar.gz]
+[2024-05-06 04:33:44] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-06 04:33:44] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 04:33:44] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 04:33:44] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 04:33:44] INFO root fetch - processPackages [smipoly]: executing diffoscope
+[2024-05-06 04:33:44] INFO root fetch - processPackages [smipoly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smipoly-0.0.3.tar.gz tmp/smipoly-0.1.0.tar.gz --markdown 20240506/s/smipoly/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-06 04:33:44] INFO root fetch - processPackages [zuspec-parser]: executing diffoscope
+[2024-05-06 04:33:44] INFO root fetch - processPackages [zuspec-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_parser-0.0.1.8954608045-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_parser-0.0.1.8963196983-cp312-cp312-macosx_14_0_arm64.whl.zip --markdown 20240506/z/zuspec-parser/0.0.1.8954608045-0.0.1.8963196983/README.md --exclude *.pyd
+[2024-05-06 04:33:44] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.8.tar.gz]
+[2024-05-06 04:33:44] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.9.tar.gz]
+[2024-05-06 04:33:44] INFO root fetch - main [MainThread]: End processing [ChatGPTWeb]: success
+[2024-05-06 04:33:44] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.8.tar.gz]
+[2024-05-06 04:33:44] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.9.tar.gz]
+[2024-05-06 04:33:44] INFO root fetch - main [MainThread]: End processing [gmsofttest]: success
+[2024-05-06 04:33:45] INFO root fetch - processPackages [smipoly]: Remove: archive file [/home/abi/fetcher/tmp/smipoly-0.0.3.tar.gz]
+[2024-05-06 04:33:45] INFO root fetch - processPackages [smipoly]: Remove: archive file [/home/abi/fetcher/tmp/smipoly-0.1.0.tar.gz]
+[2024-05-06 04:33:45] INFO root fetch - main [MainThread]: End processing [smipoly]: success
+[2024-05-06 04:33:47] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.8954608045-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-06 04:33:47] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.8963196983-cp312-cp312-macosx_14_0_arm64.whl.zip]
+[2024-05-06 04:33:47] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
+[2024-05-06 04:33:47] INFO root fetch - main [MainThread]: Store serial: [23070741]
