@@ -23243,3 +23243,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:15:59] INFO root fetch - processPackages [wc-django-device-recognizer]: Remove: archive file [/home/abi/fetcher/tmp/wc-django-device-recognizer-0.1.3.tar.gz]
 [2024-05-06 17:15:59] INFO root fetch - main [MainThread]: End processing [wc-django-device-recognizer]: success
 [2024-05-06 17:15:59] INFO root fetch - main [MainThread]: Store serial: [23079834]
+[2024-05-06 17:18:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079834]
+[2024-05-06 17:18:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pilotpy
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-draggable-no-console-logs
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: olist-loafer
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ParticleDetection
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trainml
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skillsnetwork-jupyter-extension
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proximl
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dupsz
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MobileInventoryCLI
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: romsearch
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ParticleDetection]: New version: [0.4.2.dev6] Old Version: [0.4.2.dev3]
+[2024-05-06 17:18:08] INFO root fetch - processPackages [dash-draggable-no-console-logs]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-06 17:18:08] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.88] Old Version: [0.4.87]
+[2024-05-06 17:18:08] WARNING root fetch - processPackages [dupsz]: Skipping, unable to determine old version
+[2024-05-06 17:18:08] INFO root fetch - processPackages [dupsz]: Start processing: modal
+[2024-05-06 17:18:08] INFO root fetch - main [MainThread]: End processing [dupsz] error
+[2024-05-06 17:18:08] INFO root fetch - processPackages [olist-loafer]: New version: [6.0.0a3] Old Version: [6.0.0a2]
+[2024-05-06 17:18:08] ERROR root fetch - processPackages [romsearch]: Unable to get metadata: No such project 'romsearch'
+[2024-05-06 17:18:08] INFO root fetch - main [MainThread]: End processing [romsearch] error
+[2024-05-06 17:18:08] INFO root fetch - processPackages [proximl]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-06 17:18:08] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Downloading https://files.pythonhosted.org/packages/51/39/2ef6dc16bc6b9fbb427ba5034e9eb0f59fcd4fbfd097a0fa3fd1faa92a72/dash_draggable_no_console_logs-0.0.2.tar.gz
+[2024-05-06 17:18:08] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: New version: [2.3.0rc1] Old Version: [2.3.0rc0]
+[2024-05-06 17:18:08] WARNING root fetch - processPackages [pilotpy]: Skipping, unable to determine old version
+[2024-05-06 17:18:08] INFO root fetch - main [MainThread]: End processing [pilotpy] error
+[2024-05-06 17:18:08] INFO root fetch - processPackages [trainml]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-06 17:18:08] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-06 17:18:08] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/14/fe/111f6eaee993a5d61c3f0cee3315fa611a251128c58d3c3e38ca41000947/MobileInventoryCLI-0.4.87.tar.gz
+[2024-05-06 17:18:08] INFO root fetch - processPackages [ParticleDetection]: Downloading https://files.pythonhosted.org/packages/1d/76/1be171876f4c69278d68a3f3fe16d1e3718a9a1bb40e1080d7f6107ec784/particledetection-0.4.2.dev3.tar.gz
+[2024-05-06 17:18:08] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-06 17:18:08] INFO root fetch - processPackages [olist-loafer]: Downloading https://files.pythonhosted.org/packages/43/d5/31a49b04c17848c984ee08506a5e4d1a39d681ebf73ce8b8d23928b902b8/olist_loafer-6.0.0a2.tar.gz
+[2024-05-06 17:18:08] INFO root fetch - processPackages [proximl]: Downloading https://files.pythonhosted.org/packages/ca/34/0b1a9ee91c0609e81dbf532ce812c01ed5e6bd0d5ed5062055e0034edd48/proximl-0.5.7.tar.gz
+[2024-05-06 17:18:08] INFO root fetch - processPackages [trainml]: Downloading https://files.pythonhosted.org/packages/a4/bc/5420d8d58847277710234c4c094378dc4d0c0e1ae72c7e1ecb3cbccada4a/trainml-0.5.7.tar.gz
+[2024-05-06 17:18:08] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Downloading https://files.pythonhosted.org/packages/52/e9/3f214e47c1ef46936faf54b20672e8e67e2d8ba41a6b72839e9b2c2a48bb/skillsnetwork_jupyter_extension-2.3.0rc0.tar.gz
+[2024-05-06 17:18:08] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/9b/f0/482a964be783afd09ea3a7d5437eccc972da51f2c347bc3e3dfbcc056f55/MobileInventoryCLI-0.4.88.tar.gz
+[2024-05-06 17:18:09] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Downloading https://files.pythonhosted.org/packages/2f/6b/5344affd7de0b6589888de448d1f65b75d92f9e51a536e2cb73853398902/dash_draggable_no_console_logs-0.0.3.tar.gz
+[2024-05-06 17:18:09] INFO root fetch - processPackages [ParticleDetection]: Downloading https://files.pythonhosted.org/packages/36/d7/236542d481ec8aee7460c4b01fc92f0dd43d514fbca14ba505944b214bd9/particledetection-0.4.2.dev6-py3-none-any.whl
+[2024-05-06 17:18:09] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-06 17:18:09] INFO root fetch - processPackages [dash-draggable-no-console-logs]: executing diffoscope
+[2024-05-06 17:18:09] INFO root fetch - processPackages [dash-draggable-no-console-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_draggable_no_console_logs-0.0.2.tar.gz tmp/dash_draggable_no_console_logs-0.0.3.tar.gz --markdown 20240506/d/dash-draggable-no-console-logs/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-06 17:18:09] INFO root fetch - processPackages [olist-loafer]: Downloading https://files.pythonhosted.org/packages/f8/62/646a39d6fad53580bd5e881030b1878c07c4fc7751f32af7417c374f2c38/olist_loafer-6.0.0a3.tar.gz
+[2024-05-06 17:18:09] INFO root fetch - processPackages [trainml]: Downloading https://files.pythonhosted.org/packages/d2/91/53176b34d80b8d96600bb53e983a0711dbaa2b21bb3ecb58f77e0cc85f61/trainml-0.5.8.tar.gz
+[2024-05-06 17:18:09] INFO root fetch - processPackages [proximl]: Downloading https://files.pythonhosted.org/packages/f3/14/279131f62f7c3ae952cba88ddc60ef4da84595535ca0a1cbef78802487b7/proximl-0.5.8.tar.gz
+[2024-05-06 17:18:09] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-06 17:18:09] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.87.tar.gz tmp/MobileInventoryCLI-0.4.88.tar.gz --markdown 20240506/M/MobileInventoryCLI/0.4.87-0.4.88/README.md --exclude *.pyd
+[2024-05-06 17:18:09] INFO root fetch - processPackages [ParticleDetection]: executing diffoscope
+[2024-05-06 17:18:09] INFO root fetch - processPackages [ParticleDetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/particledetection-0.4.2.dev3.tar.gz tmp/particledetection-0.4.2.dev6-py3-none-any.whl.zip --markdown 20240506/P/ParticleDetection/0.4.2.dev3-0.4.2.dev6/README.md --exclude *.pyd
+[2024-05-06 17:18:09] INFO root fetch - processPackages [olist-loafer]: executing diffoscope
+[2024-05-06 17:18:09] INFO root fetch - processPackages [olist-loafer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olist_loafer-6.0.0a2.tar.gz tmp/olist_loafer-6.0.0a3.tar.gz --markdown 20240506/o/olist-loafer/6.0.0a2-6.0.0a3/README.md --exclude *.pyd
+[2024-05-06 17:18:09] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-06 17:18:09] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240506/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-06 17:18:09] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Downloading https://files.pythonhosted.org/packages/b0/f1/6991a2f1a9b89d066c0e9531a31ddc4bbb4134b432e77898685345bd4d6b/skillsnetwork_jupyter_extension-2.3.0rc1.tar.gz
+[2024-05-06 17:18:09] INFO root fetch - processPackages [trainml]: executing diffoscope
+[2024-05-06 17:18:09] INFO root fetch - processPackages [trainml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainml-0.5.7.tar.gz tmp/trainml-0.5.8.tar.gz --markdown 20240506/t/trainml/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-06 17:18:09] INFO root fetch - processPackages [proximl]: executing diffoscope
+[2024-05-06 17:18:09] INFO root fetch - processPackages [proximl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proximl-0.5.7.tar.gz tmp/proximl-0.5.8.tar.gz --markdown 20240506/p/proximl/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-06 17:18:09] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: executing diffoscope
+[2024-05-06 17:18:09] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillsnetwork_jupyter_extension-2.3.0rc0.tar.gz tmp/skillsnetwork_jupyter_extension-2.3.0rc1.tar.gz --markdown 20240506/s/skillsnetwork-jupyter-extension/2.3.0rc0-2.3.0rc1/README.md --exclude *.pyd
+[2024-05-06 17:18:10] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Remove: archive file [/home/abi/fetcher/tmp/dash_draggable_no_console_logs-0.0.2.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Remove: archive file [/home/abi/fetcher/tmp/dash_draggable_no_console_logs-0.0.3.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - main [MainThread]: End processing [dash-draggable-no-console-logs]: success
+[2024-05-06 17:18:10] INFO root fetch - processPackages [ParticleDetection]: Remove: archive file [/home/abi/fetcher/tmp/particledetection-0.4.2.dev3.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - processPackages [ParticleDetection]: Remove: archive file [/home/abi/fetcher/tmp/particledetection-0.4.2.dev6-py3-none-any.whl.zip]
+[2024-05-06 17:18:10] INFO root fetch - main [MainThread]: End processing [ParticleDetection]: success
+[2024-05-06 17:18:10] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.87.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.88.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-06 17:18:10] INFO root fetch - processPackages [olist-loafer]: Remove: archive file [/home/abi/fetcher/tmp/olist_loafer-6.0.0a2.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - processPackages [olist-loafer]: Remove: archive file [/home/abi/fetcher/tmp/olist_loafer-6.0.0a3.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - main [MainThread]: End processing [olist-loafer]: success
+[2024-05-06 17:18:10] INFO root fetch - processPackages [proximl]: Remove: archive file [/home/abi/fetcher/tmp/proximl-0.5.7.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - processPackages [proximl]: Remove: archive file [/home/abi/fetcher/tmp/proximl-0.5.8.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - main [MainThread]: End processing [proximl]: success
+[2024-05-06 17:18:10] INFO root fetch - processPackages [trainml]: Remove: archive file [/home/abi/fetcher/tmp/trainml-0.5.7.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - processPackages [trainml]: Remove: archive file [/home/abi/fetcher/tmp/trainml-0.5.8.tar.gz]
+[2024-05-06 17:18:10] INFO root fetch - main [MainThread]: End processing [trainml]: success
+[2024-05-06 17:18:10] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-06 17:18:10] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-06 17:18:10] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-06 17:18:11] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/skillsnetwork_jupyter_extension-2.3.0rc0.tar.gz]
+[2024-05-06 17:18:11] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/skillsnetwork_jupyter_extension-2.3.0rc1.tar.gz]
+[2024-05-06 17:18:11] INFO root fetch - main [MainThread]: End processing [skillsnetwork-jupyter-extension]: success
+[2024-05-06 17:18:11] INFO root fetch - main [MainThread]: Store serial: [23079869]
