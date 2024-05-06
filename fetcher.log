@@ -16355,3 +16355,51 @@
 [2024-05-06 13:02:26] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Remove: archive file [/home/abi/fetcher/tmp/asyncapi_python_parser_jonaslagoni-0.0.2.tar.gz]
 [2024-05-06 13:02:26] INFO root fetch - main [MainThread]: End processing [asyncapi-python-parser-jonaslagoni]: success
 [2024-05-06 13:02:26] INFO root fetch - main [MainThread]: Store serial: [23076406]
+[2024-05-06 13:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076406]
+[2024-05-06 13:04:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 13:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iac-init
+[2024-05-06 13:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiorobonect
+[2024-05-06 13:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usso
+[2024-05-06 13:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redhat-qe-cloud-tools
+[2024-05-06 13:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openshift-cli-installer
+[2024-05-06 13:04:35] INFO root fetch - processPackages [usso]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-06 13:04:35] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-06 13:04:35] INFO root fetch - processPackages [openshift-cli-installer]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-06 13:04:36] INFO root fetch - processPackages [iac-init]: New version: [0.5.3] Old Version: [0.5.1]
+[2024-05-06 13:04:36] INFO root fetch - processPackages [usso]: Downloading https://files.pythonhosted.org/packages/77/80/a55da2441d6c2ba5e9112ad5486f7269a8d4dff64cd10630dd0d59fcb04f/usso-0.7.0.tar.gz
+[2024-05-06 13:04:36] INFO root fetch - processPackages [aiorobonect]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 13:04:36] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/93/ea/081916b4f7f911ee0b4d2373be0df43c7c020915e4dc0daddae9d0c85d23/openshift_cli_installer-2.0.8.tar.gz
+[2024-05-06 13:04:36] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/redhat_qe_cloud_tools-1.0.8.tar.gz
+[2024-05-06 13:04:36] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/d8/a1/b226356d6e34c79ab9dbee20de819fb41b64f9691761dea9929a89e00668/iac_init-0.5.1.tar.gz
+[2024-05-06 13:04:36] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/73/ee/78f15b2144832b2da8cfd67c1d7f49253a5bbeabe351e94adf1af190017c/redhat_qe_cloud_tools-1.0.9.tar.gz
+[2024-05-06 13:04:36] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/d4/51/d2a16c33f3c51bd7f105d46129423306feb089d6f448a94a7ac07925d1b9/aiorobonect-1.0.1.tar.gz
+[2024-05-06 13:04:36] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/2e/36/23bd27005a72d5bc87d2d81bd55477f2c4cbdee088189ef184dea2fb149c/openshift_cli_installer-2.0.9.tar.gz
+[2024-05-06 13:04:36] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2024-05-06 13:04:36] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.8.tar.gz tmp/redhat_qe_cloud_tools-1.0.9.tar.gz --markdown 20240506/r/redhat-qe-cloud-tools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-06 13:04:36] INFO root fetch - processPackages [usso]: Downloading https://files.pythonhosted.org/packages/32/6b/affc9cd10fca733f24a31679e715e276c8462d5b2199f3d9a35123e9e7d2/usso-0.8.0.tar.gz
+[2024-05-06 13:04:36] INFO root fetch - processPackages [openshift-cli-installer]: executing diffoscope
+[2024-05-06 13:04:36] INFO root fetch - processPackages [openshift-cli-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cli_installer-2.0.8.tar.gz tmp/openshift_cli_installer-2.0.9.tar.gz --markdown 20240506/o/openshift-cli-installer/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-06 13:04:36] INFO root fetch - processPackages [usso]: executing diffoscope
+[2024-05-06 13:04:36] INFO root fetch - processPackages [usso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usso-0.7.0.tar.gz tmp/usso-0.8.0.tar.gz --markdown 20240506/u/usso/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-06 13:04:36] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/67/c2/b4113c6bb0e0955c0af232e1a658be15910230db466187583e912a6e1746/iac_init-0.5.3.tar.gz
+[2024-05-06 13:04:36] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/63/e6/ec6fa72076bb5bc38e615d71a0fefa3c5ce8062fc2c3d212ab152aec3962/aiorobonect-1.0.2.tar.gz
+[2024-05-06 13:04:36] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-06 13:04:36] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.5.1.tar.gz tmp/iac_init-0.5.3.tar.gz --markdown 20240506/i/iac-init/0.5.1-0.5.3/README.md --exclude *.pyd
+[2024-05-06 13:04:36] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2024-05-06 13:04:36] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-1.0.1.tar.gz tmp/aiorobonect-1.0.2.tar.gz --markdown 20240506/a/aiorobonect/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 13:04:37] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.8.tar.gz]
+[2024-05-06 13:04:37] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
+[2024-05-06 13:04:37] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2024-05-06 13:04:37] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.7.0.tar.gz]
+[2024-05-06 13:04:37] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.8.0.tar.gz]
+[2024-05-06 13:04:37] INFO root fetch - main [MainThread]: End processing [usso]: success
+[2024-05-06 13:04:37] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.8.tar.gz]
+[2024-05-06 13:04:37] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.9.tar.gz]
+[2024-05-06 13:04:37] INFO root fetch - main [MainThread]: End processing [openshift-cli-installer]: success
+[2024-05-06 13:04:37] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-1.0.1.tar.gz]
+[2024-05-06 13:04:37] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-1.0.2.tar.gz]
+[2024-05-06 13:04:37] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2024-05-06 13:04:37] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.1.tar.gz]
+[2024-05-06 13:04:37] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.3.tar.gz]
+[2024-05-06 13:04:37] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-06 13:04:37] INFO root fetch - main [MainThread]: Store serial: [23076419]
