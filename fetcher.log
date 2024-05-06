@@ -17792,3 +17792,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:56:48] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.8.tar.gz]
 [2024-05-06 13:56:48] INFO root fetch - main [MainThread]: End processing [qiskit-scaleway]: success
 [2024-05-06 13:56:48] INFO root fetch - main [MainThread]: Store serial: [23077094]
+[2024-05-06 13:58:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077094]
+[2024-05-06 13:58:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 13:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: json-repair
+[2024-05-06 13:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kube-agent
+[2024-05-06 13:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amebo
+[2024-05-06 13:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whisperplus
+[2024-05-06 13:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whisperplus
+[2024-05-06 13:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hvplot
+[2024-05-06 13:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prediction-market-agent-tooling
+[2024-05-06 13:58:57] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-06 13:58:57] INFO root fetch - processPackages [amebo]: New version: [0.3.0] Old Version: [0.1.2]
+[2024-05-06 13:58:57] INFO root fetch - processPackages [whisperplus]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-06 13:58:57] INFO root fetch - processPackages [hvplot]: New version: [0.9.3a2] Old Version: [0.9.3a1]
+[2024-05-06 13:58:57] INFO root fetch - processPackages [whisperplus]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-06 13:58:57] WARNING root fetch - processPackages [kube-agent]: Skipping, unable to determine old version
+[2024-05-06 13:58:57] INFO root fetch - main [MainThread]: End processing [kube-agent] error
+[2024-05-06 13:58:57] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-05-06 13:58:57] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [amebo]: Downloading https://files.pythonhosted.org/packages/1f/71/c6602f7ae23b9e30f1eaeccd59ceea2491f68ac87ddfc61c14426f0eb99f/amebo-0.1.2.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/95/d7/5e490e43fa84e8a942b3df50d63139dbfb75d43a888c310e2a016bb2b9ab/whisperplus-0.3.0.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/95/d7/5e490e43fa84e8a942b3df50d63139dbfb75d43a888c310e2a016bb2b9ab/whisperplus-0.3.0.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [hvplot]: Downloading https://files.pythonhosted.org/packages/9c/1e/ba25c5e1f254d0b0c06b7fb7349013dfb786bd43f7d9e6a7af207cbc9f78/hvplot-0.9.3a1.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/40/cc/d5bea290bbf870b8c32f51179b33743c8bd2603c836bdadb915d8182e2dd/prediction_market_agent_tooling-0.9.1.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [amebo]: Downloading https://files.pythonhosted.org/packages/3e/ce/6af6f85b8227629342117accf07d36c751b111767115fd7ae74de69cf186/amebo-0.3.0.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/a5/09/acc4e860687e1b773f71a21ec6233448bb242b4d9e97757c3cb69a3a28e4/whisperplus-0.3.1.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [whisperplus]: Downloading https://files.pythonhosted.org/packages/a5/09/acc4e860687e1b773f71a21ec6233448bb242b4d9e97757c3cb69a3a28e4/whisperplus-0.3.1.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-05-06 13:58:57] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240506/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-06 13:58:57] INFO root fetch - processPackages [amebo]: executing diffoscope
+[2024-05-06 13:58:57] INFO root fetch - processPackages [amebo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amebo-0.1.2.tar.gz tmp/amebo-0.3.0.tar.gz --markdown 20240506/a/amebo/0.1.2-0.3.0/README.md --exclude *.pyd
+[2024-05-06 13:58:57] INFO root fetch - processPackages [whisperplus]: executing diffoscope
+[2024-05-06 13:58:57] INFO root fetch - processPackages [whisperplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisperplus-0.3.0.tar.gz tmp/whisperplus-0.3.1.tar.gz --markdown 20240506/w/whisperplus/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-06 13:58:57] INFO root fetch - processPackages [whisperplus]: executing diffoscope
+[2024-05-06 13:58:57] INFO root fetch - processPackages [whisperplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisperplus-0.3.0.tar.gz tmp/whisperplus-0.3.1.tar.gz --markdown 20240506/w/whisperplus/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-06 13:58:57] INFO root fetch - processPackages [hvplot]: Downloading https://files.pythonhosted.org/packages/93/44/fe971a1af35e8490f75efb4604b420ab7aaf9ee195830cfacd9371c959aa/hvplot-0.9.3a2.tar.gz
+[2024-05-06 13:58:57] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/2c/17/6b9526b52dfcdaf571b3cd941b0a0b14db378f0c8b89a1c361109cb73c26/prediction_market_agent_tooling-0.9.3.tar.gz
+[2024-05-06 13:58:58] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-05-06 13:58:58] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.9.1.tar.gz tmp/prediction_market_agent_tooling-0.9.3.tar.gz --markdown 20240506/p/prediction-market-agent-tooling/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-05-06 13:58:58] INFO root fetch - processPackages [hvplot]: executing diffoscope
+[2024-05-06 13:58:58] INFO root fetch - processPackages [hvplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvplot-0.9.3a1.tar.gz tmp/hvplot-0.9.3a2.tar.gz --markdown 20240506/h/hvplot/0.9.3a1-0.9.3a2/README.md --exclude *.pyd
+[2024-05-06 13:58:58] INFO root fetch - processPackages [amebo]: Remove: archive file [/home/abi/fetcher/tmp/amebo-0.1.2.tar.gz]
+[2024-05-06 13:58:58] INFO root fetch - processPackages [amebo]: Remove: archive file [/home/abi/fetcher/tmp/amebo-0.3.0.tar.gz]
+[2024-05-06 13:58:58] INFO root fetch - main [MainThread]: End processing [amebo]: success
+[2024-05-06 13:58:58] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-05-06 13:58:58] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-05-06 13:58:58] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-05-06 13:58:58] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.3.0.tar.gz]
+[2024-05-06 13:58:58] INFO root fetch - processPackages [whisperplus]: Remove: archive file [/home/abi/fetcher/tmp/whisperplus-0.3.1.tar.gz]
+[2024-05-06 13:58:58] INFO root fetch - main [MainThread]: End processing [whisperplus]: success
+[2024-05-06 13:58:58] INFO root fetch - main [MainThread]: End processing [whisperplus]: success
+[2024-05-06 13:58:58] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.1.tar.gz]
+[2024-05-06 13:58:58] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.3.tar.gz]
+[2024-05-06 13:58:58] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-05-06 13:58:59] INFO root fetch - processPackages [hvplot]: Remove: archive file [/home/abi/fetcher/tmp/hvplot-0.9.3a1.tar.gz]
+[2024-05-06 13:58:59] INFO root fetch - processPackages [hvplot]: Remove: archive file [/home/abi/fetcher/tmp/hvplot-0.9.3a2.tar.gz]
+[2024-05-06 13:58:59] INFO root fetch - main [MainThread]: End processing [hvplot]: success
+[2024-05-06 13:58:59] INFO root fetch - main [MainThread]: Store serial: [23077118]
