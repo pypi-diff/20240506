@@ -12998,3 +12998,42 @@
 [2024-05-06 10:54:39] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-06 10:54:39] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-06 10:54:39] INFO root fetch - main [MainThread]: Store serial: [23074815]
+[2024-05-06 10:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23074815]
+[2024-05-06 10:56:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 10:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linktest
+[2024-05-06 10:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eolymp
+[2024-05-06 10:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huntflow-api-client
+[2024-05-06 10:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sympy-plot-backends
+[2024-05-06 10:56:49] INFO root fetch - processPackages [linktest]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-05-06 10:56:49] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-06 10:56:49] INFO root fetch - processPackages [huntflow-api-client]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-06 10:56:49] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/d8/39/f6cba37d477bbcc6038a199501c5630d863fd16a4a236b48af054ee2f909/linktest-2.7.1.tar.gz
+[2024-05-06 10:56:49] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-05-06 10:56:49] INFO root fetch - processPackages [sympy-plot-backends]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-06 10:56:49] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/b8/cf/bf9de010ce1b5154261db62ec4e4159850a405fbde8d433620a19842992f/huntflow_api_client-2.1.0.tar.gz
+[2024-05-06 10:56:49] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-05-06 10:56:49] INFO root fetch - processPackages [sympy-plot-backends]: Downloading https://files.pythonhosted.org/packages/4c/c8/a8d41c1c6a924d428e97fdb494444b8d841ce8cb64157f44e91b1c326e7d/sympy_plot_backends-3.3.0.tar.gz
+[2024-05-06 10:56:49] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/af/cf/4e20739c1f8d60e2229baf11e8fb011b5f853dce29677a1d0efe994a934c/linktest-2.7.2.tar.gz
+[2024-05-06 10:56:50] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-05-06 10:56:50] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240506/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-06 10:56:50] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-06 10:56:50] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.7.1.tar.gz tmp/linktest-2.7.2.tar.gz --markdown 20240506/l/linktest/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-05-06 10:56:50] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/85/3a/e98cc1bf5ae93466b05d37060ba5aeb9b5458828153682d76aa420345371/huntflow_api_client-2.2.0.tar.gz
+[2024-05-06 10:56:50] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2024-05-06 10:56:50] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-2.1.0.tar.gz tmp/huntflow_api_client-2.2.0.tar.gz --markdown 20240506/h/huntflow-api-client/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-06 10:56:50] INFO root fetch - processPackages [sympy-plot-backends]: Downloading https://files.pythonhosted.org/packages/eb/a9/42a2a57292f6f8ca296647d99ed49e7fa098cc9d1c71d79b4e4b50a84d61/sympy_plot_backends-3.4.0.tar.gz
+[2024-05-06 10:56:50] INFO root fetch - processPackages [sympy-plot-backends]: executing diffoscope
+[2024-05-06 10:56:50] INFO root fetch - processPackages [sympy-plot-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sympy_plot_backends-3.3.0.tar.gz tmp/sympy_plot_backends-3.4.0.tar.gz --markdown 20240506/s/sympy-plot-backends/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-06 10:56:50] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.1.tar.gz]
+[2024-05-06 10:56:50] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.2.tar.gz]
+[2024-05-06 10:56:50] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-06 10:56:51] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-2.1.0.tar.gz]
+[2024-05-06 10:56:51] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-2.2.0.tar.gz]
+[2024-05-06 10:56:51] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2024-05-06 10:56:51] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-05-06 10:56:51] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-05-06 10:56:51] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-05-06 10:56:51] INFO root fetch - processPackages [sympy-plot-backends]: Remove: archive file [/home/abi/fetcher/tmp/sympy_plot_backends-3.3.0.tar.gz]
+[2024-05-06 10:56:51] INFO root fetch - processPackages [sympy-plot-backends]: Remove: archive file [/home/abi/fetcher/tmp/sympy_plot_backends-3.4.0.tar.gz]
+[2024-05-06 10:56:51] INFO root fetch - main [MainThread]: End processing [sympy-plot-backends]: success
+[2024-05-06 10:56:51] INFO root fetch - main [MainThread]: Store serial: [23074828]
