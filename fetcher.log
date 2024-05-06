@@ -4154,3 +4154,15 @@
 [2024-05-06 05:39:03] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-05-06 05:39:03] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-05-06 05:39:03] INFO root fetch - main [MainThread]: Store serial: [23071182]
+[2024-05-06 05:41:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071182]
+[2024-05-06 05:41:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 05:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IISRapi
+[2024-05-06 05:41:12] INFO root fetch - processPackages [IISRapi]: New version: [1.2.1] Old Version: [1.2]
+[2024-05-06 05:41:12] INFO root fetch - processPackages [IISRapi]: Downloading https://files.pythonhosted.org/packages/24/28/59093fe66df27f970c08209ee895046c5a3fe65e7a8f20c0435f3acfc211/IISRapi-1.2.tar.gz
+[2024-05-06 05:41:12] INFO root fetch - processPackages [IISRapi]: Downloading https://files.pythonhosted.org/packages/fe/f6/7bfceef0d330dd73805f69f456ae54be0cf3bb6a167c7a3856cb825a5cf7/IISRapi-1.2.1.tar.gz
+[2024-05-06 05:41:12] INFO root fetch - processPackages [IISRapi]: executing diffoscope
+[2024-05-06 05:41:12] INFO root fetch - processPackages [IISRapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IISRapi-1.2.tar.gz tmp/IISRapi-1.2.1.tar.gz --markdown 20240506/I/IISRapi/1.2-1.2.1/README.md --exclude *.pyd
+[2024-05-06 05:41:13] INFO root fetch - processPackages [IISRapi]: Remove: archive file [/home/abi/fetcher/tmp/IISRapi-1.2.tar.gz]
+[2024-05-06 05:41:13] INFO root fetch - processPackages [IISRapi]: Remove: archive file [/home/abi/fetcher/tmp/IISRapi-1.2.1.tar.gz]
+[2024-05-06 05:41:13] INFO root fetch - main [MainThread]: End processing [IISRapi]: success
+[2024-05-06 05:41:13] INFO root fetch - main [MainThread]: Store serial: [23071188]
