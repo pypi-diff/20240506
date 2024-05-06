@@ -19799,3 +19799,129 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:15:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.6-cp38-cp38-manylinux2014_x86_64.whl.zip]
 [2024-05-06 15:15:41] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-05-06 15:15:41] INFO root fetch - main [MainThread]: Store serial: [23078044]
+[2024-05-06 15:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078044]
+[2024-05-06 15:17:50] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2024-05-06 15:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cuiejoz
+[2024-05-06 15:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dunlapz
+[2024-05-06 15:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forechoicez
+[2024-05-06 15:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: helix.fhir.client.sdk
+[2024-05-06 15:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hematocytogenesisz
+[2024-05-06 15:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leucousz
+[2024-05-06 15:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ornithotrophyz
+[2024-05-06 15:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pentarchz
+[2024-05-06 15:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: screwsz
+[2024-05-06 15:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-resolver
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [ornithotrophyz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [ornithotrophyz]: Start processing: timberjackz
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [ornithotrophyz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [forechoicez]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [forechoicez]: Start processing: vivaz
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [forechoicez] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [hematocytogenesisz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [hematocytogenesisz]: Start processing: battlesomez
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [hematocytogenesisz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [leucousz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [leucousz]: Start processing: disenthronedz
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [leucousz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [cuiejoz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [cuiejoz]: Start processing: flumpingz
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [cuiejoz] error
+[2024-05-06 15:17:51] INFO root fetch - processPackages [nonebot-plugin-resolver]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [pentarchz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [pentarchz]: Start processing: fortz
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [pentarchz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [screwsz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [screwsz]: Start processing: inclinerz
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [screwsz] error
+[2024-05-06 15:17:51] INFO root fetch - processPackages [helix.fhir.client.sdk]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [dunlapz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [dunlapz]: Start processing: microdosez
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [dunlapz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [vivaz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [vivaz]: Start processing: parathyroidectomiesz
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [vivaz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [timberjackz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [timberjackz]: Start processing: procreatrixz
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [timberjackz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [battlesomez]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [battlesomez]: Start processing: spaesz
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [battlesomez] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [disenthronedz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [disenthronedz]: Start processing: btc-embedded
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [disenthronedz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [flumpingz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [flumpingz]: Start processing: pyhisto
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [flumpingz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [inclinerz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [inclinerz]: Start processing: cvmtrans
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [inclinerz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [fortz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [fortz]: Start processing: AdroitFisherman
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [fortz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [microdosez]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [microdosez]: Start processing: ce-mkc
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [microdosez] error
+[2024-05-06 15:17:51] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.6] Old Version: [24.1.5]
+[2024-05-06 15:17:51] INFO root fetch - processPackages [cvmtrans]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-06 15:17:51] INFO root fetch - processPackages [nonebot-plugin-resolver]: Downloading https://files.pythonhosted.org/packages/88/54/857412fe6bbfe439887833b37c3585e8c97abcb84abb04add963660e8a27/nonebot_plugin_resolver-1.0.8.tar.gz
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [ce-mkc]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [ce-mkc]: Start processing: mkdocs-spellcheck
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [ce-mkc] error
+[2024-05-06 15:17:51] INFO root fetch - processPackages [helix.fhir.client.sdk]: Downloading https://files.pythonhosted.org/packages/76/bd/b6c3bc87a1c59e6a499093fe9d0ca808b18303b5c4c8730facbbdde1493a/helix.fhir.client.sdk-2.0.6.tar.gz
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [parathyroidectomiesz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [parathyroidectomiesz] error
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [procreatrixz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [procreatrixz] error
+[2024-05-06 15:17:51] INFO root fetch - processPackages [pyhisto]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 15:17:51] WARNING root fetch - processPackages [spaesz]: Skipping, unable to determine old version
+[2024-05-06 15:17:51] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/8b/e8/9e00e79b018e905f39d99897ba81460a4b885356f929a725f6e9351948bc/btc_embedded-24.1.5.tar.gz
+[2024-05-06 15:17:51] INFO root fetch - main [MainThread]: End processing [spaesz] error
+[2024-05-06 15:17:51] INFO root fetch - processPackages [AdroitFisherman]: New version: [0.0.26] Old Version: [0.0.25]
+[2024-05-06 15:17:51] INFO root fetch - processPackages [cvmtrans]: Downloading https://files.pythonhosted.org/packages/9b/04/536e6adffd1122b1a525c6e2d721833e20ede51b43568d9d6113695dec98/cvmtrans-0.0.7.tar.gz
+[2024-05-06 15:17:51] INFO root fetch - processPackages [mkdocs-spellcheck]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-05-06 15:17:51] INFO root fetch - processPackages [pyhisto]: Downloading https://files.pythonhosted.org/packages/f8/db/0473f9241e50638e2e5cea82913995de7b464fea74887b5db4d436a73356/pyhisto-0.1.1.tar.gz
+[2024-05-06 15:17:51] INFO root fetch - processPackages [AdroitFisherman]: Downloading https://files.pythonhosted.org/packages/89/70/8bce1269be658d846aa10a360230f2ee1a04445a78952159c4cf953db58b/AdroitFisherman-0.0.25.tar.gz
+[2024-05-06 15:17:51] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-05-06 15:17:51] INFO root fetch - processPackages [cvmtrans]: Downloading https://files.pythonhosted.org/packages/a5/1c/886bce9dcda95e6b89907cc0f8e04d400e98bd00127462aeb8b60cb1e1b7/cvmtrans-0.0.8.tar.gz
+[2024-05-06 15:17:51] INFO root fetch - processPackages [mkdocs-spellcheck]: Downloading https://files.pythonhosted.org/packages/4b/70/1181fe1d7b0e478635c6d6c5ba863972b3cdedcfa6b61922ab1e30c3773f/mkdocs_spellcheck-1.0.3.tar.gz
+[2024-05-06 15:17:52] INFO root fetch - processPackages [nonebot-plugin-resolver]: Downloading https://files.pythonhosted.org/packages/51/a7/510bd8c201f4db070bbc88a1b7c29f9640737628810f3c87d503898dfb6b/nonebot_plugin_resolver-1.0.9.tar.gz
+[2024-05-06 15:17:52] INFO root fetch - processPackages [cvmtrans]: executing diffoscope
+[2024-05-06 15:17:52] INFO root fetch - processPackages [cvmtrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvmtrans-0.0.7.tar.gz tmp/cvmtrans-0.0.8.tar.gz --markdown 20240506/c/cvmtrans/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-06 15:17:52] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-05-06 15:17:52] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.5.tar.gz tmp/btc_embedded-24.1.6.tar.gz --markdown 20240506/b/btc-embedded/24.1.5-24.1.6/README.md --exclude *.pyd
+[2024-05-06 15:17:52] INFO root fetch - processPackages [helix.fhir.client.sdk]: Downloading https://files.pythonhosted.org/packages/21/fb/a3f6002bd768177e8829cebfe625bb3e85ab3d3b33d511bf06ad1da5bdbb/helix.fhir.client.sdk-2.0.7.tar.gz
+[2024-05-06 15:17:52] INFO root fetch - processPackages [pyhisto]: Downloading https://files.pythonhosted.org/packages/7d/72/cb4517bd94f38f6e985225f0ea3268f76e289985300c4c2b8f7b5b5f7b93/pyhisto-0.1.2.tar.gz
+[2024-05-06 15:17:52] INFO root fetch - processPackages [nonebot-plugin-resolver]: executing diffoscope
+[2024-05-06 15:17:52] INFO root fetch - processPackages [nonebot-plugin-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_resolver-1.0.8.tar.gz tmp/nonebot_plugin_resolver-1.0.9.tar.gz --markdown 20240506/n/nonebot-plugin-resolver/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-06 15:17:52] INFO root fetch - processPackages [helix.fhir.client.sdk]: executing diffoscope
+[2024-05-06 15:17:52] INFO root fetch - processPackages [helix.fhir.client.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helix.fhir.client.sdk-2.0.6.tar.gz tmp/helix.fhir.client.sdk-2.0.7.tar.gz --markdown 20240506/h/helix.fhir.client.sdk/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-06 15:17:52] INFO root fetch - processPackages [AdroitFisherman]: Downloading https://files.pythonhosted.org/packages/11/86/f1044958d1decaba03674eed38d5c7c16eaed2d642144c1f2af7fe6a7d66/AdroitFisherman-0.0.26.tar.gz
+[2024-05-06 15:17:52] INFO root fetch - processPackages [pyhisto]: executing diffoscope
+[2024-05-06 15:17:52] INFO root fetch - processPackages [pyhisto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhisto-0.1.1.tar.gz tmp/pyhisto-0.1.2.tar.gz --markdown 20240506/p/pyhisto/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 15:17:52] INFO root fetch - processPackages [mkdocs-spellcheck]: Downloading https://files.pythonhosted.org/packages/ac/89/0921b8e18c9e3926cf4e753a404b4d7d406260bc2d653b43186ce608908a/mkdocs_spellcheck-1.1.0.tar.gz
+[2024-05-06 15:17:52] INFO root fetch - processPackages [AdroitFisherman]: executing diffoscope
+[2024-05-06 15:17:52] INFO root fetch - processPackages [AdroitFisherman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AdroitFisherman-0.0.25.tar.gz tmp/AdroitFisherman-0.0.26.tar.gz --markdown 20240506/A/AdroitFisherman/0.0.25-0.0.26/README.md --exclude *.pyd
+[2024-05-06 15:17:52] INFO root fetch - processPackages [mkdocs-spellcheck]: executing diffoscope
+[2024-05-06 15:17:52] INFO root fetch - processPackages [mkdocs-spellcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_spellcheck-1.0.3.tar.gz tmp/mkdocs_spellcheck-1.1.0.tar.gz --markdown 20240506/m/mkdocs-spellcheck/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-05-06 15:17:52] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.7.tar.gz]
+[2024-05-06 15:17:52] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.8.tar.gz]
+[2024-05-06 15:17:52] INFO root fetch - main [MainThread]: End processing [cvmtrans]: success
+[2024-05-06 15:17:52] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.5.tar.gz]
+[2024-05-06 15:17:52] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-05-06 15:17:52] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-05-06 15:17:52] INFO root fetch - processPackages [nonebot-plugin-resolver]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_resolver-1.0.8.tar.gz]
+[2024-05-06 15:17:52] INFO root fetch - processPackages [nonebot-plugin-resolver]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_resolver-1.0.9.tar.gz]
+[2024-05-06 15:17:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-resolver]: success
+[2024-05-06 15:17:53] INFO root fetch - processPackages [pyhisto]: Remove: archive file [/home/abi/fetcher/tmp/pyhisto-0.1.1.tar.gz]
+[2024-05-06 15:17:53] INFO root fetch - processPackages [pyhisto]: Remove: archive file [/home/abi/fetcher/tmp/pyhisto-0.1.2.tar.gz]
+[2024-05-06 15:17:53] INFO root fetch - main [MainThread]: End processing [pyhisto]: success
+[2024-05-06 15:17:53] INFO root fetch - processPackages [helix.fhir.client.sdk]: Remove: archive file [/home/abi/fetcher/tmp/helix.fhir.client.sdk-2.0.6.tar.gz]
+[2024-05-06 15:17:53] INFO root fetch - processPackages [helix.fhir.client.sdk]: Remove: archive file [/home/abi/fetcher/tmp/helix.fhir.client.sdk-2.0.7.tar.gz]
+[2024-05-06 15:17:53] INFO root fetch - main [MainThread]: End processing [helix.fhir.client.sdk]: success
+[2024-05-06 15:17:53] INFO root fetch - processPackages [AdroitFisherman]: Remove: archive file [/home/abi/fetcher/tmp/AdroitFisherman-0.0.25.tar.gz]
+[2024-05-06 15:17:53] INFO root fetch - processPackages [AdroitFisherman]: Remove: archive file [/home/abi/fetcher/tmp/AdroitFisherman-0.0.26.tar.gz]
+[2024-05-06 15:17:53] INFO root fetch - main [MainThread]: End processing [AdroitFisherman]: success
+[2024-05-06 15:17:53] INFO root fetch - processPackages [mkdocs-spellcheck]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_spellcheck-1.0.3.tar.gz]
+[2024-05-06 15:17:53] INFO root fetch - processPackages [mkdocs-spellcheck]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_spellcheck-1.1.0.tar.gz]
+[2024-05-06 15:17:53] INFO root fetch - main [MainThread]: End processing [mkdocs-spellcheck]: success
+[2024-05-06 15:17:53] INFO root fetch - main [MainThread]: Store serial: [23078144]
