@@ -7292,3 +7292,42 @@
 [2024-05-06 09:07:45] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
 [2024-05-06 09:07:45] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-05-06 09:07:45] INFO root fetch - main [MainThread]: Store serial: [23072735]
+[2024-05-06 09:09:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072735]
+[2024-05-06 09:09:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 09:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2024-05-06 09:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: niquests
+[2024-05-06 09:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recoverable-async-task
+[2024-05-06 09:09:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elia-chat
+[2024-05-06 09:09:53] INFO root fetch - processPackages [elia-chat]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2024-05-06 09:09:53] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-06 09:09:53] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/2a/e4/e4513eaff0977876c452edcb92f4042431420b4f027b0da097af7236d3cb/elia_chat-1.0.0b1.tar.gz
+[2024-05-06 09:09:53] INFO root fetch - processPackages [recoverable-async-task]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-06 09:09:53] INFO root fetch - processPackages [niquests]: New version: [3.6.3] Old Version: [3.6.2]
+[2024-05-06 09:09:53] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-06 09:09:54] INFO root fetch - processPackages [recoverable-async-task]: Downloading https://files.pythonhosted.org/packages/9d/7c/24e6db6b74a2864ce95f4050f48f427a75c8bf67ee4162d819a912fedaf2/recoverable_async_task-0.1.3.tar.gz
+[2024-05-06 09:09:54] INFO root fetch - processPackages [niquests]: Downloading https://files.pythonhosted.org/packages/22/57/3a0d5805f84ddfe7918b2c8cba44995a61c482bc5c55650e68767b1c8ce7/niquests-3.6.2.tar.gz
+[2024-05-06 09:09:54] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/bb/c3/163fb8d82cb7c86cafe4f26932a9c9fcc2cf06a15e5fc887e00e8ab803cf/elia_chat-1.0.0b2.tar.gz
+[2024-05-06 09:09:54] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-06 09:09:54] INFO root fetch - processPackages [elia-chat]: executing diffoscope
+[2024-05-06 09:09:54] INFO root fetch - processPackages [elia-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elia_chat-1.0.0b1.tar.gz tmp/elia_chat-1.0.0b2.tar.gz --markdown 20240506/e/elia-chat/1.0.0b1-1.0.0b2/README.md --exclude *.pyd
+[2024-05-06 09:09:54] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-06 09:09:54] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240506/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-06 09:09:54] INFO root fetch - processPackages [recoverable-async-task]: Downloading https://files.pythonhosted.org/packages/0f/58/45021af3f1ba829d9e271d38bb0f47a5189de9497cef941fa2624bf0f11c/recoverable_async_task-0.1.4.tar.gz
+[2024-05-06 09:09:54] INFO root fetch - processPackages [niquests]: Downloading https://files.pythonhosted.org/packages/b9/cb/c6d2e78587158bf9e8b4b6214f08a0b186eb3adc94b82cda0c305514e8a1/niquests-3.6.3.tar.gz
+[2024-05-06 09:09:54] INFO root fetch - processPackages [recoverable-async-task]: executing diffoscope
+[2024-05-06 09:09:54] INFO root fetch - processPackages [recoverable-async-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recoverable_async_task-0.1.3.tar.gz tmp/recoverable_async_task-0.1.4.tar.gz --markdown 20240506/r/recoverable-async-task/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-06 09:09:54] INFO root fetch - processPackages [niquests]: executing diffoscope
+[2024-05-06 09:09:54] INFO root fetch - processPackages [niquests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niquests-3.6.2.tar.gz tmp/niquests-3.6.3.tar.gz --markdown 20240506/n/niquests/3.6.2-3.6.3/README.md --exclude *.pyd
+[2024-05-06 09:09:55] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.0.0b1.tar.gz]
+[2024-05-06 09:09:55] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.0.0b2.tar.gz]
+[2024-05-06 09:09:55] INFO root fetch - main [MainThread]: End processing [elia-chat]: success
+[2024-05-06 09:09:55] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-06 09:09:55] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-06 09:09:55] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-06 09:09:55] INFO root fetch - processPackages [recoverable-async-task]: Remove: archive file [/home/abi/fetcher/tmp/recoverable_async_task-0.1.3.tar.gz]
+[2024-05-06 09:09:55] INFO root fetch - processPackages [recoverable-async-task]: Remove: archive file [/home/abi/fetcher/tmp/recoverable_async_task-0.1.4.tar.gz]
+[2024-05-06 09:09:55] INFO root fetch - main [MainThread]: End processing [recoverable-async-task]: success
+[2024-05-06 09:09:55] INFO root fetch - processPackages [niquests]: Remove: archive file [/home/abi/fetcher/tmp/niquests-3.6.2.tar.gz]
+[2024-05-06 09:09:55] INFO root fetch - processPackages [niquests]: Remove: archive file [/home/abi/fetcher/tmp/niquests-3.6.3.tar.gz]
+[2024-05-06 09:09:55] INFO root fetch - main [MainThread]: End processing [niquests]: success
+[2024-05-06 09:09:55] INFO root fetch - main [MainThread]: Store serial: [23072747]
