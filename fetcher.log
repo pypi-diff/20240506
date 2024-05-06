@@ -21478,3 +21478,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:16:23] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
 [2024-05-06 16:16:23] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
 [2024-05-06 16:16:23] INFO root fetch - main [MainThread]: Store serial: [23078990]
+[2024-05-06 16:18:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078990]
+[2024-05-06 16:18:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 16:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbimagetotext
+[2024-05-06 16:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heartbeat-library
+[2024-05-06 16:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vnpy-btse
+[2024-05-06 16:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyticker
+[2024-05-06 16:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UQPyL
+[2024-05-06 16:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RejQ.py
+[2024-05-06 16:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-databricks
+[2024-05-06 16:18:35] INFO root fetch - processPackages [tinyticker]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-06 16:18:35] INFO root fetch - processPackages [heartbeat-library]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-06 16:18:35] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-06 16:18:35] WARNING root fetch - processPackages [vnpy-btse]: Skipping, unable to determine old version
+[2024-05-06 16:18:35] INFO root fetch - main [MainThread]: End processing [vnpy-btse] error
+[2024-05-06 16:18:35] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/01/4d/ecbbfb6f8217f927296717abcd4e7be23f1359b8148efcf3be9e15b8911c/tinyticker-0.5.0.tar.gz
+[2024-05-06 16:18:35] WARNING root fetch - processPackages [RejQ.py]: Skipping, unable to determine old version
+[2024-05-06 16:18:35] INFO root fetch - main [MainThread]: End processing [RejQ.py] error
+[2024-05-06 16:18:35] INFO root fetch - processPackages [UQPyL]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-06 16:18:35] INFO root fetch - processPackages [heartbeat-library]: Downloading https://files.pythonhosted.org/packages/60/66/c14ad1ea112fd9e45892c481e0aa8bf09487c2f11f9b2677d5da8b4a6c65/heartbeat_library-0.0.2.tar.gz
+[2024-05-06 16:18:35] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2024-05-06 16:18:35] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/b6/27/02e58218f802845258627821f708a6574ffab33c889bedf452af18be16c4/vbimagetotext-0.1.6.tar.gz
+[2024-05-06 16:18:35] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2024-05-06 16:18:36] INFO root fetch - processPackages [UQPyL]: Downloading https://files.pythonhosted.org/packages/cf/69/a90c351560f14c37d2d45337442e2bd1dd94cd758c10d9097adcddd33ca9/UQPyL-2.0.1.tar.gz
+[2024-05-06 16:18:36] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/52/d7/ade42ddad6aa0aa3be1adfc9d7f5a29e4d0f3c1666451aedc07c88036bee/tinyticker-0.5.1.tar.gz
+[2024-05-06 16:18:36] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/cb/f9/59c23ceefa1edb11df7706127002d782c074d949c44dc4f6d08589a6efae/vbimagetotext-0.1.7.tar.gz
+[2024-05-06 16:18:36] INFO root fetch - processPackages [heartbeat-library]: Downloading https://files.pythonhosted.org/packages/37/4d/42e7e47da47938407a5b36312f691909df5645727d96d0ef9ca0e2b6d9aa/heartbeat_library-0.0.3.tar.gz
+[2024-05-06 16:18:36] INFO root fetch - processPackages [tinyticker]: executing diffoscope
+[2024-05-06 16:18:36] INFO root fetch - processPackages [tinyticker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyticker-0.5.0.tar.gz tmp/tinyticker-0.5.1.tar.gz --markdown 20240506/t/tinyticker/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-06 16:18:36] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2024-05-06 16:18:36] INFO root fetch - processPackages [heartbeat-library]: executing diffoscope
+[2024-05-06 16:18:36] INFO root fetch - processPackages [heartbeat-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heartbeat_library-0.0.2.tar.gz tmp/heartbeat_library-0.0.3.tar.gz --markdown 20240506/h/heartbeat-library/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-06 16:18:36] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-06 16:18:36] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.6.tar.gz tmp/vbimagetotext-0.1.7.tar.gz --markdown 20240506/v/vbimagetotext/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-06 16:18:36] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2024-05-06 16:18:36] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20240506/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/README.md --exclude *.pyd
+[2024-05-06 16:18:36] INFO root fetch - processPackages [UQPyL]: Downloading https://files.pythonhosted.org/packages/aa/83/1e9546dbd6bfca8d2097ba8d4da4d62bade1bd8f986525a822fb45e1b1d9/UQPyL-2.0.2.tar.gz
+[2024-05-06 16:18:37] INFO root fetch - processPackages [heartbeat-library]: Remove: archive file [/home/abi/fetcher/tmp/heartbeat_library-0.0.2.tar.gz]
+[2024-05-06 16:18:37] INFO root fetch - processPackages [heartbeat-library]: Remove: archive file [/home/abi/fetcher/tmp/heartbeat_library-0.0.3.tar.gz]
+[2024-05-06 16:18:37] INFO root fetch - main [MainThread]: End processing [heartbeat-library]: success
+[2024-05-06 16:18:37] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.6.tar.gz]
+[2024-05-06 16:18:37] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.7.tar.gz]
+[2024-05-06 16:18:37] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-06 16:18:37] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.5.0.tar.gz]
+[2024-05-06 16:18:37] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.5.1.tar.gz]
+[2024-05-06 16:18:37] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
+[2024-05-06 16:18:37] INFO root fetch - processPackages [UQPyL]: executing diffoscope
+[2024-05-06 16:18:37] INFO root fetch - processPackages [UQPyL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UQPyL-2.0.1.tar.gz tmp/UQPyL-2.0.2.tar.gz --markdown 20240506/U/UQPyL/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-06 16:18:37] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2024-05-06 16:18:37] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2024-05-06 16:18:37] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2024-05-06 16:18:38] INFO root fetch - processPackages [UQPyL]: Remove: archive file [/home/abi/fetcher/tmp/UQPyL-2.0.1.tar.gz]
+[2024-05-06 16:18:38] INFO root fetch - processPackages [UQPyL]: Remove: archive file [/home/abi/fetcher/tmp/UQPyL-2.0.2.tar.gz]
+[2024-05-06 16:18:38] INFO root fetch - main [MainThread]: End processing [UQPyL]: success
+[2024-05-06 16:18:38] INFO root fetch - main [MainThread]: Store serial: [23079040]
