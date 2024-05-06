@@ -23965,3 +23965,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:45:10] INFO root fetch - processPackages [shrillecho]: Remove: archive file [/home/abi/fetcher/tmp/shrillecho-1.1.2.tar.gz]
 [2024-05-06 17:45:10] INFO root fetch - main [MainThread]: End processing [shrillecho]: success
 [2024-05-06 17:45:10] INFO root fetch - main [MainThread]: Store serial: [23080128]
+[2024-05-06 17:47:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23080128]
+[2024-05-06 17:47:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: barmuscomp
+[2024-05-06 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: algophon
+[2024-05-06 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TrajCompress
+[2024-05-06 17:47:19] INFO root fetch - processPackages [TrajCompress]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 17:47:19] INFO root fetch - processPackages [TrajCompress]: Downloading https://files.pythonhosted.org/packages/ef/13/664aa4214659c8e688bf53392721ea9611045b4a866a66681f35fc94a3c8/trajcompress-0.1.4.tar.gz
+[2024-05-06 17:47:19] INFO root fetch - processPackages [barmuscomp]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 17:47:19] INFO root fetch - processPackages [algophon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 17:47:19] INFO root fetch - processPackages [algophon]: Downloading https://files.pythonhosted.org/packages/7e/1f/050ab26ad93bb9797fe76b47e1ab26005173657fe7d212b1d0d36ab27b61/algophon-0.0.8.tar.gz
+[2024-05-06 17:47:19] INFO root fetch - processPackages [barmuscomp]: Downloading https://files.pythonhosted.org/packages/99/ac/5dc9494af1541b70fa948f18798f2bc14bd6ccfff567afcabebec667b8e4/barmuscomp-0.1.4.tar.gz
+[2024-05-06 17:47:19] INFO root fetch - processPackages [TrajCompress]: Downloading https://files.pythonhosted.org/packages/b7/60/5520b94ba61aa7a6db5309d2037c2542a78eba34eda7e28d03b9817dd00f/trajcompress-0.1.5.tar.gz
+[2024-05-06 17:47:20] INFO root fetch - processPackages [TrajCompress]: executing diffoscope
+[2024-05-06 17:47:20] INFO root fetch - processPackages [TrajCompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajcompress-0.1.4.tar.gz tmp/trajcompress-0.1.5.tar.gz --markdown 20240506/T/TrajCompress/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 17:47:20] INFO root fetch - processPackages [algophon]: Downloading https://files.pythonhosted.org/packages/08/ea/72b7cb78123727d9b051a23ba57fc69d36f0eb4ca9a0339b277f25cc6724/algophon-0.0.9.tar.gz
+[2024-05-06 17:47:20] INFO root fetch - processPackages [barmuscomp]: Downloading https://files.pythonhosted.org/packages/1d/8e/4165403e596d2d7b24915e3e500cf42cec1fda0b80f671e2489d5ca7b71c/barmuscomp-0.1.5.tar.gz
+[2024-05-06 17:47:20] INFO root fetch - processPackages [algophon]: executing diffoscope
+[2024-05-06 17:47:20] INFO root fetch - processPackages [algophon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algophon-0.0.8.tar.gz tmp/algophon-0.0.9.tar.gz --markdown 20240506/a/algophon/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 17:47:20] INFO root fetch - processPackages [barmuscomp]: executing diffoscope
+[2024-05-06 17:47:20] INFO root fetch - processPackages [barmuscomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barmuscomp-0.1.4.tar.gz tmp/barmuscomp-0.1.5.tar.gz --markdown 20240506/b/barmuscomp/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 17:47:20] INFO root fetch - processPackages [TrajCompress]: Remove: archive file [/home/abi/fetcher/tmp/trajcompress-0.1.4.tar.gz]
+[2024-05-06 17:47:20] INFO root fetch - processPackages [TrajCompress]: Remove: archive file [/home/abi/fetcher/tmp/trajcompress-0.1.5.tar.gz]
+[2024-05-06 17:47:20] INFO root fetch - main [MainThread]: End processing [TrajCompress]: success
+[2024-05-06 17:47:20] INFO root fetch - processPackages [barmuscomp]: Remove: archive file [/home/abi/fetcher/tmp/barmuscomp-0.1.4.tar.gz]
+[2024-05-06 17:47:20] INFO root fetch - processPackages [barmuscomp]: Remove: archive file [/home/abi/fetcher/tmp/barmuscomp-0.1.5.tar.gz]
+[2024-05-06 17:47:20] INFO root fetch - main [MainThread]: End processing [barmuscomp]: success
+[2024-05-06 17:47:20] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.8.tar.gz]
+[2024-05-06 17:47:20] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.9.tar.gz]
+[2024-05-06 17:47:20] INFO root fetch - main [MainThread]: End processing [algophon]: success
+[2024-05-06 17:47:20] INFO root fetch - main [MainThread]: Store serial: [23080137]
