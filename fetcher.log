@@ -2556,3 +2556,45 @@
 [2024-05-06 04:00:59] INFO root fetch - processPackages [mojo-landscaping]: Remove: archive file [/home/abi/fetcher/tmp/mojo_landscaping-1.3.6.tar.gz]
 [2024-05-06 04:00:59] INFO root fetch - main [MainThread]: End processing [mojo-landscaping]: success
 [2024-05-06 04:00:59] INFO root fetch - main [MainThread]: Store serial: [23070539]
+[2024-05-06 04:03:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070539]
+[2024-05-06 04:03:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 04:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-none-objects
+[2024-05-06 04:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlmc
+[2024-05-06 04:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emblematic
+[2024-05-06 04:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web-ui-helper
+[2024-05-06 04:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unusualwhales-python-client
+[2024-05-06 04:03:07] INFO root fetch - processPackages [web-ui-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 04:03:07] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/c9/ff/b364f60ce185f59ac74059aec301d941570acc93a0d289e15f139c988f81/web-ui-helper-0.0.8.tar.gz
+[2024-05-06 04:03:07] WARNING root fetch - processPackages [sqlmc]: Skipping, unable to determine old version
+[2024-05-06 04:03:07] INFO root fetch - main [MainThread]: End processing [sqlmc] error
+[2024-05-06 04:03:07] INFO root fetch - processPackages [unusualwhales-python-client]: New version: [3.1] Old Version: [3.0]
+[2024-05-06 04:03:07] INFO root fetch - processPackages [python-none-objects]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-06 04:03:07] INFO root fetch - processPackages [emblematic]: New version: [2.0.0] Old Version: [1.0.4]
+[2024-05-06 04:03:07] INFO root fetch - processPackages [unusualwhales-python-client]: Downloading https://files.pythonhosted.org/packages/f0/69/f98c774f5de903a9a8a397694aa1cc79c90db1b9c1e8338764b2f80202c2/unusualwhales_python_client-3.0.tar.gz
+[2024-05-06 04:03:07] INFO root fetch - processPackages [python-none-objects]: Downloading https://files.pythonhosted.org/packages/8b/2b/bf2505791970b2b07ea65852888a6ad64981ec2ebe66cb2e3b76ff2ebb73/python_none_objects-1.1.8.tar.gz
+[2024-05-06 04:03:07] INFO root fetch - processPackages [emblematic]: Downloading https://files.pythonhosted.org/packages/4a/d9/346bcf47195b77ababf4d194b95c61a683441f86cd8ad59cbaf2d51773fb/emblematic-1.0.4.tar.gz
+[2024-05-06 04:03:08] INFO root fetch - processPackages [python-none-objects]: Downloading https://files.pythonhosted.org/packages/eb/eb/a730b788e47806f7a11463da2c9aff313c20d559a9a9d7b9f302aff190da/python_none_objects-1.1.9.tar.gz
+[2024-05-06 04:03:08] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/f9/67/3ea65ed5e35cde11b9f359a759db6bfe6183992bce9d5cbf38c61cbca49f/web-ui-helper-0.0.9.tar.gz
+[2024-05-06 04:03:08] INFO root fetch - processPackages [unusualwhales-python-client]: Downloading https://files.pythonhosted.org/packages/ff/16/921c4fceed816b3cb3ee148a8ec1b8c0ff4b27f243cc552cec124e8c5548/unusualwhales_python_client-3.1.tar.gz
+[2024-05-06 04:03:08] INFO root fetch - processPackages [python-none-objects]: executing diffoscope
+[2024-05-06 04:03:08] INFO root fetch - processPackages [python-none-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_none_objects-1.1.8.tar.gz tmp/python_none_objects-1.1.9.tar.gz --markdown 20240506/p/python-none-objects/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-06 04:03:08] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-06 04:03:08] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.0.8.tar.gz tmp/web-ui-helper-0.0.9.tar.gz --markdown 20240506/w/web-ui-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 04:03:08] INFO root fetch - processPackages [emblematic]: Downloading https://files.pythonhosted.org/packages/fb/1a/6cf32ef28f3373c964d848241c62a90869b121e1e3600e5aa7fec6362b98/emblematic-2.0.0.tar.gz
+[2024-05-06 04:03:08] INFO root fetch - processPackages [emblematic]: executing diffoscope
+[2024-05-06 04:03:08] INFO root fetch - processPackages [emblematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emblematic-1.0.4.tar.gz tmp/emblematic-2.0.0.tar.gz --markdown 20240506/e/emblematic/1.0.4-2.0.0/README.md --exclude *.pyd
+[2024-05-06 04:03:08] INFO root fetch - processPackages [python-none-objects]: Remove: archive file [/home/abi/fetcher/tmp/python_none_objects-1.1.8.tar.gz]
+[2024-05-06 04:03:08] INFO root fetch - processPackages [python-none-objects]: Remove: archive file [/home/abi/fetcher/tmp/python_none_objects-1.1.9.tar.gz]
+[2024-05-06 04:03:08] INFO root fetch - main [MainThread]: End processing [python-none-objects]: success
+[2024-05-06 04:03:09] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.8.tar.gz]
+[2024-05-06 04:03:09] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.9.tar.gz]
+[2024-05-06 04:03:09] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-06 04:03:09] INFO root fetch - processPackages [emblematic]: Remove: archive file [/home/abi/fetcher/tmp/emblematic-1.0.4.tar.gz]
+[2024-05-06 04:03:09] INFO root fetch - processPackages [emblematic]: Remove: archive file [/home/abi/fetcher/tmp/emblematic-2.0.0.tar.gz]
+[2024-05-06 04:03:09] INFO root fetch - main [MainThread]: End processing [emblematic]: success
+[2024-05-06 04:03:10] INFO root fetch - processPackages [unusualwhales-python-client]: executing diffoscope
+[2024-05-06 04:03:10] INFO root fetch - processPackages [unusualwhales-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unusualwhales_python_client-3.0.tar.gz tmp/unusualwhales_python_client-3.1.tar.gz --markdown 20240506/u/unusualwhales-python-client/3.0-3.1/README.md --exclude *.pyd
+[2024-05-06 04:03:10] INFO root fetch - processPackages [unusualwhales-python-client]: Remove: archive file [/home/abi/fetcher/tmp/unusualwhales_python_client-3.0.tar.gz]
+[2024-05-06 04:03:10] INFO root fetch - processPackages [unusualwhales-python-client]: Remove: archive file [/home/abi/fetcher/tmp/unusualwhales_python_client-3.1.tar.gz]
+[2024-05-06 04:03:10] INFO root fetch - main [MainThread]: End processing [unusualwhales-python-client]: success
+[2024-05-06 04:03:10] INFO root fetch - main [MainThread]: Store serial: [23070554]
