@@ -19203,3 +19203,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:54:58] INFO root fetch - processPackages [picsellia]: Remove: archive file [/home/abi/fetcher/tmp/picsellia-6.9.1.tar.gz]
 [2024-05-06 14:54:58] INFO root fetch - main [MainThread]: End processing [picsellia]: success
 [2024-05-06 14:54:58] INFO root fetch - main [MainThread]: Store serial: [23077829]
+[2024-05-06 14:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077829]
+[2024-05-06 14:57:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 14:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainlit
+[2024-05-06 14:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: literalai
+[2024-05-06 14:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plone.api
+[2024-05-06 14:57:07] INFO root fetch - processPackages [plone.api]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-06 14:57:07] INFO root fetch - processPackages [chainlit]: New version: [1.1.0rc0] Old Version: [1.0.506]
+[2024-05-06 14:57:07] INFO root fetch - processPackages [literalai]: New version: [0.0.600] Old Version: [0.0.509]
+[2024-05-06 14:57:07] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/cf/6d/542e425665b97017347b2d845642bf26741393b25933b47537b7a027aa78/chainlit-1.0.506.tar.gz
+[2024-05-06 14:57:07] INFO root fetch - processPackages [plone.api]: Downloading https://files.pythonhosted.org/packages/08/bf/dd667e05fcf57839f4ab0f2bfc86826fcf340129c50194d4662086fc2ebe/plone.api-2.1.0.tar.gz
+[2024-05-06 14:57:07] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/4c/27/9ad6652feaf634b8831a3fea04be8ead07749e770aad6d7938cc8198e14e/literalai-0.0.509.tar.gz
+[2024-05-06 14:57:08] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/87/0f/5e562d745a9d654b0fc86b8f1b682a8b3e467410246deffe4fe41f42c2a9/literalai-0.0.600.tar.gz
+[2024-05-06 14:57:08] INFO root fetch - processPackages [plone.api]: Downloading https://files.pythonhosted.org/packages/ab/00/4a17a915ebe70ea087ca452782cd272970b97014fbd7a50779e46de31f74/plone_api-2.2.0.tar.gz
+[2024-05-06 14:57:08] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-05-06 14:57:08] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.509.tar.gz tmp/literalai-0.0.600.tar.gz --markdown 20240506/l/literalai/0.0.509-0.0.600/README.md --exclude *.pyd
+[2024-05-06 14:57:08] INFO root fetch - processPackages [plone.api]: executing diffoscope
+[2024-05-06 14:57:08] INFO root fetch - processPackages [plone.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.api-2.1.0.tar.gz tmp/plone_api-2.2.0.tar.gz --markdown 20240506/p/plone.api/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-06 14:57:08] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/cd/2b/9dd0a73f89ed70fc5f50193526aec273dfd9bef4778c913340b70213c1de/chainlit-1.1.0rc0.tar.gz
+[2024-05-06 14:57:08] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2024-05-06 14:57:08] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-1.0.506.tar.gz tmp/chainlit-1.1.0rc0.tar.gz --markdown 20240506/c/chainlit/1.0.506-1.1.0rc0/README.md --exclude *.pyd
+[2024-05-06 14:57:08] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.509.tar.gz]
+[2024-05-06 14:57:08] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.600.tar.gz]
+[2024-05-06 14:57:08] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-05-06 14:57:09] INFO root fetch - processPackages [plone.api]: Remove: archive file [/home/abi/fetcher/tmp/plone.api-2.1.0.tar.gz]
+[2024-05-06 14:57:09] INFO root fetch - processPackages [plone.api]: Remove: archive file [/home/abi/fetcher/tmp/plone_api-2.2.0.tar.gz]
+[2024-05-06 14:57:09] INFO root fetch - main [MainThread]: End processing [plone.api]: success
+[2024-05-06 14:58:57] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.506.tar.gz]
+[2024-05-06 14:58:57] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.0rc0.tar.gz]
+[2024-05-06 14:58:57] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2024-05-06 14:58:57] INFO root fetch - main [MainThread]: Store serial: [23077837]
