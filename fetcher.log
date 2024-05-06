@@ -5056,3 +5056,51 @@
 [2024-05-06 06:44:35] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.201.tar.gz]
 [2024-05-06 06:44:35] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
 [2024-05-06 06:44:35] INFO root fetch - main [MainThread]: Store serial: [23071601]
+[2024-05-06 06:46:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071601]
+[2024-05-06 06:46:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 06:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-05-06 06:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-05-06 06:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geohub
+[2024-05-06 06:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: group-profile-remote
+[2024-05-06 06:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: excel2xx
+[2024-05-06 06:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Django-jalali-date-new
+[2024-05-06 06:46:44] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.203] Old Version: [0.1.201]
+[2024-05-06 06:46:44] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-06 06:46:44] WARNING root fetch - processPackages [Django-jalali-date-new]: Skipping, unable to determine old version
+[2024-05-06 06:46:44] INFO root fetch - main [MainThread]: End processing [Django-jalali-date-new] error
+[2024-05-06 06:46:44] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/25/48/80e084bfca800cf936c01304f3d5367989849222355cda93685738fdc50a/ansar_connect-0.1.201.tar.gz
+[2024-05-06 06:46:44] INFO root fetch - processPackages [group-profile-remote]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 06:46:44] INFO root fetch - processPackages [geohub]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-06 06:46:44] INFO root fetch - processPackages [excel2xx]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-06 06:46:44] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-05-06 06:46:44] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/d6/33/ab096f276fe5e54500857cb3593d867c9d8078ea8c62fa953704ab27462b/group-profile-remote-0.0.8.tar.gz
+[2024-05-06 06:46:44] INFO root fetch - processPackages [geohub]: Downloading https://files.pythonhosted.org/packages/e2/6a/dcfc7aff09aa6b23004ddf04503d81ac0fc6b76448d9647d9c774d7f044f/geohub-0.0.5.tar.gz
+[2024-05-06 06:46:44] INFO root fetch - processPackages [excel2xx]: Downloading https://files.pythonhosted.org/packages/31/b0/1134d743682f49a76ed770ca7d3742697e813e8184430254a3fedebbff01/excel2xx-0.9.0.tar.gz
+[2024-05-06 06:46:44] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-05-06 06:46:44] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/5b/98/690bbef924b7ea8581fffe32f7fa7e0c29fc45b199009b48c5966c749e66/ansar_connect-0.1.203.tar.gz
+[2024-05-06 06:46:44] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-05-06 06:46:44] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240506/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-06 06:46:44] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-06 06:46:44] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.201.tar.gz tmp/ansar_connect-0.1.203.tar.gz --markdown 20240506/a/ansar-connect/0.1.201-0.1.203/README.md --exclude *.pyd
+[2024-05-06 06:46:44] INFO root fetch - processPackages [geohub]: Downloading https://files.pythonhosted.org/packages/8c/39/b5146684b5b1f0485a0fd63b41e35a242b98af56f319c63be2ce4a98f533/geohub-0.0.6.tar.gz
+[2024-05-06 06:46:44] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/34/ee/57cb372a3197cdeb2c87926baf42fae2595983919e4f9ab179939ad1b72e/group-profile-remote-0.0.9.tar.gz
+[2024-05-06 06:46:44] WARNING root fetch - processPackages [geohub]: Skipping package: exceeds size limit 38866959>=10485760
+[2024-05-06 06:46:44] INFO root fetch - main [MainThread]: End processing [geohub] error
+[2024-05-06 06:46:45] INFO root fetch - processPackages [excel2xx]: Downloading https://files.pythonhosted.org/packages/e6/5d/b52e6bf6f941be46a6b93e70fc949419982549bc2b7a8fa09c7ce6a2bd44/excel2xx-0.9.1.tar.gz
+[2024-05-06 06:46:45] INFO root fetch - processPackages [group-profile-remote]: executing diffoscope
+[2024-05-06 06:46:45] INFO root fetch - processPackages [group-profile-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group-profile-remote-0.0.8.tar.gz tmp/group-profile-remote-0.0.9.tar.gz --markdown 20240506/g/group-profile-remote/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 06:46:45] INFO root fetch - processPackages [excel2xx]: executing diffoscope
+[2024-05-06 06:46:45] INFO root fetch - processPackages [excel2xx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel2xx-0.9.0.tar.gz tmp/excel2xx-0.9.1.tar.gz --markdown 20240506/e/excel2xx/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-06 06:46:45] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-05-06 06:46:45] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-05-06 06:46:45] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-05-06 06:46:45] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.201.tar.gz]
+[2024-05-06 06:46:45] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.203.tar.gz]
+[2024-05-06 06:46:45] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-06 06:46:45] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.8.tar.gz]
+[2024-05-06 06:46:45] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.9.tar.gz]
+[2024-05-06 06:46:45] INFO root fetch - main [MainThread]: End processing [group-profile-remote]: success
+[2024-05-06 06:46:45] INFO root fetch - processPackages [excel2xx]: Remove: archive file [/home/abi/fetcher/tmp/excel2xx-0.9.0.tar.gz]
+[2024-05-06 06:46:45] INFO root fetch - processPackages [excel2xx]: Remove: archive file [/home/abi/fetcher/tmp/excel2xx-0.9.1.tar.gz]
+[2024-05-06 06:46:45] INFO root fetch - main [MainThread]: End processing [excel2xx]: success
+[2024-05-06 06:46:45] INFO root fetch - main [MainThread]: Store serial: [23071621]
