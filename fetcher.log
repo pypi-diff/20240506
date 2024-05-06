@@ -4582,3 +4582,54 @@
 [2024-05-06 06:05:15] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.6.tar.gz]
 [2024-05-06 06:05:15] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
 [2024-05-06 06:05:15] INFO root fetch - main [MainThread]: Store serial: [23071368]
+[2024-05-06 06:07:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071368]
+[2024-05-06 06:07:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 06:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multiconnection
+[2024-05-06 06:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-encode-tool
+[2024-05-06 06:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espy-contact
+[2024-05-06 06:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-pandas
+[2024-05-06 06:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-rds-dump
+[2024-05-06 06:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PepperPepper
+[2024-05-06 06:07:24] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-06 06:07:24] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 06:07:24] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.1] Old Version: [0.0.7.0]
+[2024-05-06 06:07:24] INFO root fetch - processPackages [multiconnection]: New version: [2.34.16] Old Version: [2.34.14]
+[2024-05-06 06:07:24] WARNING root fetch - processPackages [data-encode-tool]: Skipping, unable to determine old version
+[2024-05-06 06:07:24] INFO root fetch - main [MainThread]: End processing [data-encode-tool] error
+[2024-05-06 06:07:24] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-06 06:07:24] INFO root fetch - processPackages [cdk-rds-dump]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-06 06:07:24] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 06:07:24] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/d3/f1/aac2cdaab2017dbe372999804788d365dfdbae2fc0b62953d990d1da1cdb/pepperpepper-0.0.7.0.tar.gz
+[2024-05-06 06:07:24] INFO root fetch - processPackages [multiconnection]: Downloading https://files.pythonhosted.org/packages/da/e3/4b19482ecb00a9bbfbfb86a634ba26ab94bb46b5b07c693e689f95af600a/multiconnection-2.34.14.tar.gz
+[2024-05-06 06:07:24] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/51/f3/7a1627c2a4bc48f1259891a0dcc0ea7115a5de7467ad399432a92ff2cb3c/cdk-rds-dump-2.1.1.tar.gz
+[2024-05-06 06:07:24] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 06:07:24] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/6d/54/dfcb3c01cce906cc3e3c8f4b9deceec47772a5ac3811dbacd5237135a07c/pepperpepper-0.0.7.1.tar.gz
+[2024-05-06 06:07:24] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-06 06:07:24] INFO root fetch - processPackages [multiconnection]: Downloading https://files.pythonhosted.org/packages/2d/bf/5d4c7583f457118ad4e95e42f0ccf9e967fa49df5a26b550aa15d095c0f0/multiconnection-2.34.16.tar.gz
+[2024-05-06 06:07:24] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 06:07:24] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 06:07:24] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-06 06:07:24] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.0.tar.gz tmp/pepperpepper-0.0.7.1.tar.gz --markdown 20240506/P/PepperPepper/0.0.7.0-0.0.7.1/README.md --exclude *.pyd
+[2024-05-06 06:07:24] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-06 06:07:24] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240506/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-06 06:07:25] INFO root fetch - processPackages [multiconnection]: executing diffoscope
+[2024-05-06 06:07:25] INFO root fetch - processPackages [multiconnection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiconnection-2.34.14.tar.gz tmp/multiconnection-2.34.16.tar.gz --markdown 20240506/m/multiconnection/2.34.14-2.34.16/README.md --exclude *.pyd
+[2024-05-06 06:07:25] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/da/31/1c8c9ee416e95ac3b494c308e648738ba0d16c2b5853c0cc8f8c59b96cae/cdk-rds-dump-2.1.2.tar.gz
+[2024-05-06 06:07:25] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 06:07:25] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 06:07:25] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 06:07:25] INFO root fetch - processPackages [multiconnection]: Remove: archive file [/home/abi/fetcher/tmp/multiconnection-2.34.14.tar.gz]
+[2024-05-06 06:07:25] INFO root fetch - processPackages [multiconnection]: Remove: archive file [/home/abi/fetcher/tmp/multiconnection-2.34.16.tar.gz]
+[2024-05-06 06:07:25] INFO root fetch - main [MainThread]: End processing [multiconnection]: success
+[2024-05-06 06:07:25] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.0.tar.gz]
+[2024-05-06 06:07:25] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.1.tar.gz]
+[2024-05-06 06:07:25] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-06 06:07:25] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-06 06:07:25] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-06 06:07:25] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-06 06:07:26] INFO root fetch - processPackages [cdk-rds-dump]: executing diffoscope
+[2024-05-06 06:07:26] INFO root fetch - processPackages [cdk-rds-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-rds-dump-2.1.1.tar.gz tmp/cdk-rds-dump-2.1.2.tar.gz --markdown 20240506/c/cdk-rds-dump/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-06 06:07:26] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-2.1.1.tar.gz]
+[2024-05-06 06:07:26] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-2.1.2.tar.gz]
+[2024-05-06 06:07:26] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
+[2024-05-06 06:07:26] INFO root fetch - main [MainThread]: Store serial: [23071387]
