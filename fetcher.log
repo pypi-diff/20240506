@@ -5843,3 +5843,33 @@
 [2024-05-06 07:37:19] INFO root fetch - processPackages [briefcase]: Remove: archive file [/home/abi/fetcher/tmp/briefcase-0.3.9.tar.gz]
 [2024-05-06 07:37:19] INFO root fetch - main [MainThread]: End processing [briefcase]: success
 [2024-05-06 07:37:19] INFO root fetch - main [MainThread]: Store serial: [23072001]
+[2024-05-06 07:39:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072001]
+[2024-05-06 07:39:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 07:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlfab
+[2024-05-06 07:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cubaflixdownload
+[2024-05-06 07:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkscreener
+[2024-05-06 07:39:28] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240506.340] Old Version: [0.44.20240506.339]
+[2024-05-06 07:39:28] INFO root fetch - processPackages [cubaflixdownload]: New version: [5.0.0] Old Version: [4.0.0]
+[2024-05-06 07:39:28] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/fa/87/62ce9731c4902928cbfa842935a381db4eaf17213024459db05bad887da4/pkscreener-0.44.20240506.339.tar.gz
+[2024-05-06 07:39:28] INFO root fetch - processPackages [mlfab]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 07:39:28] INFO root fetch - processPackages [cubaflixdownload]: Downloading https://files.pythonhosted.org/packages/7f/40/7d2dc0a48c4f6ceb5c8acaf13dcf08da9d28d375e7361b66ecc3b5d340d0/cubaflixdownload-4.0.0.tar.gz
+[2024-05-06 07:39:28] INFO root fetch - processPackages [mlfab]: Downloading https://files.pythonhosted.org/packages/c4/72/85d3c3a95ee721e23153609f999bdf722318ecd5c35c5628d184be3053ac/mlfab-0.1.8.tar.gz
+[2024-05-06 07:39:28] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/73/68/17be3a7446801cdf1a9fcd999dd9a0d69eda1cc2ee704eed888518a48a81/pkscreener-0.44.20240506.340.tar.gz
+[2024-05-06 07:39:28] INFO root fetch - processPackages [cubaflixdownload]: Downloading https://files.pythonhosted.org/packages/9a/50/7cf84e422c2dd31dd8caae579eb4659f0477a1c0a0c9bdce82fb6da0e99e/cubaflixdownload-5.0.0.tar.gz
+[2024-05-06 07:39:28] INFO root fetch - processPackages [cubaflixdownload]: executing diffoscope
+[2024-05-06 07:39:28] INFO root fetch - processPackages [cubaflixdownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubaflixdownload-4.0.0.tar.gz tmp/cubaflixdownload-5.0.0.tar.gz --markdown 20240506/c/cubaflixdownload/4.0.0-5.0.0/README.md --exclude *.pyd
+[2024-05-06 07:39:28] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-06 07:39:28] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240506.339.tar.gz tmp/pkscreener-0.44.20240506.340.tar.gz --markdown 20240506/p/pkscreener/0.44.20240506.339-0.44.20240506.340/README.md --exclude *.pyd
+[2024-05-06 07:39:29] INFO root fetch - processPackages [mlfab]: Downloading https://files.pythonhosted.org/packages/0e/87/ef727427b8dfe81acffbb1f26533da2a70f85e7beb67451421ead578c9a1/mlfab-0.1.9.tar.gz
+[2024-05-06 07:39:29] INFO root fetch - processPackages [mlfab]: executing diffoscope
+[2024-05-06 07:39:29] INFO root fetch - processPackages [mlfab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfab-0.1.8.tar.gz tmp/mlfab-0.1.9.tar.gz --markdown 20240506/m/mlfab/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 07:39:29] INFO root fetch - processPackages [cubaflixdownload]: Remove: archive file [/home/abi/fetcher/tmp/cubaflixdownload-4.0.0.tar.gz]
+[2024-05-06 07:39:29] INFO root fetch - processPackages [cubaflixdownload]: Remove: archive file [/home/abi/fetcher/tmp/cubaflixdownload-5.0.0.tar.gz]
+[2024-05-06 07:39:29] INFO root fetch - main [MainThread]: End processing [cubaflixdownload]: success
+[2024-05-06 07:39:29] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.339.tar.gz]
+[2024-05-06 07:39:29] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.340.tar.gz]
+[2024-05-06 07:39:29] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-06 07:39:30] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.8.tar.gz]
+[2024-05-06 07:39:30] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.9.tar.gz]
+[2024-05-06 07:39:30] INFO root fetch - main [MainThread]: End processing [mlfab]: success
+[2024-05-06 07:39:30] INFO root fetch - main [MainThread]: Store serial: [23072010]
