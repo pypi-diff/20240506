@@ -15251,3 +15251,38 @@
 [2024-05-06 12:11:28] INFO root fetch - processPackages [odoo-addon-mail-debrand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_debrand-17.0.1.0.0.7-py3-none-any.whl.zip]
 [2024-05-06 12:11:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-debrand]: success
 [2024-05-06 12:11:28] INFO root fetch - main [MainThread]: Store serial: [23075917]
+[2024-05-06 12:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075917]
+[2024-05-06 12:13:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grooveshop-django-api
+[2024-05-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glean-sdk
+[2024-05-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collective.volto.gdprcookie
+[2024-05-06 12:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python_dev_utils
+[2024-05-06 12:13:38] INFO root fetch - processPackages [python_dev_utils]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-05-06 12:13:38] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/6d/63/68c54aee419f31319dab58d849c28770c9f6a692b9d03f3fb08a26d59392/python_dev_utils-1.8.2.tar.gz
+[2024-05-06 12:13:38] INFO root fetch - processPackages [collective.volto.gdprcookie]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-06 12:13:38] INFO root fetch - processPackages [glean-sdk]: New version: [60.1.0] Old Version: [60.0.0]
+[2024-05-06 12:13:38] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-05-06 12:13:38] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/3e/11/3823e4bc2a189721a90a232d9b9e79a55c072c8132d638a81babc905a323/glean_sdk-60.0.0.tar.gz
+[2024-05-06 12:13:38] INFO root fetch - processPackages [collective.volto.gdprcookie]: Downloading https://files.pythonhosted.org/packages/72/1c/e80443837aa48197382a06846d5d5e832876568b818ac7ed5f5695081a3a/collective.volto.gdprcookie-1.0.2.tar.gz
+[2024-05-06 12:13:38] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/7f/a7/0d6a615cddf282a20c5473422783b8e46581bf1c77d73c7dfc581210dc37/grooveshop_django_api-0.99.0.tar.gz
+[2024-05-06 12:13:38] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/12/e2/f2d8b1952f63665e2f906503e0752fca0505c655fb4f315f327fc0631799/python_dev_utils-1.8.3.tar.gz
+[2024-05-06 12:13:38] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33783695>=10485760
+[2024-05-06 12:13:38] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-05-06 12:13:38] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-05-06 12:13:38] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.8.2.tar.gz tmp/python_dev_utils-1.8.3.tar.gz --markdown 20240506/p/python_dev_utils/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-05-06 12:13:39] INFO root fetch - processPackages [collective.volto.gdprcookie]: Downloading https://files.pythonhosted.org/packages/f9/a2/830825c0553f8c63dd7f26f8d2bd206f771e23abca0211e498eaa1781ff3/collective.volto.gdprcookie-1.0.3.tar.gz
+[2024-05-06 12:13:39] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/db/3e/d63b59359a9b65216cca5d1b1005e0540a44d9b00511907f6a68a07aa7d2/glean_sdk-60.1.0.tar.gz
+[2024-05-06 12:13:39] INFO root fetch - processPackages [collective.volto.gdprcookie]: executing diffoscope
+[2024-05-06 12:13:39] INFO root fetch - processPackages [collective.volto.gdprcookie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.volto.gdprcookie-1.0.2.tar.gz tmp/collective.volto.gdprcookie-1.0.3.tar.gz --markdown 20240506/c/collective.volto.gdprcookie/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-06 12:13:39] INFO root fetch - processPackages [glean-sdk]: executing diffoscope
+[2024-05-06 12:13:39] INFO root fetch - processPackages [glean-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean_sdk-60.0.0.tar.gz tmp/glean_sdk-60.1.0.tar.gz --markdown 20240506/g/glean-sdk/60.0.0-60.1.0/README.md --exclude *.pyd
+[2024-05-06 12:13:39] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.8.2.tar.gz]
+[2024-05-06 12:13:39] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.8.3.tar.gz]
+[2024-05-06 12:13:39] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-05-06 12:13:39] INFO root fetch - processPackages [collective.volto.gdprcookie]: Remove: archive file [/home/abi/fetcher/tmp/collective.volto.gdprcookie-1.0.2.tar.gz]
+[2024-05-06 12:13:39] INFO root fetch - processPackages [collective.volto.gdprcookie]: Remove: archive file [/home/abi/fetcher/tmp/collective.volto.gdprcookie-1.0.3.tar.gz]
+[2024-05-06 12:13:39] INFO root fetch - main [MainThread]: End processing [collective.volto.gdprcookie]: success
+[2024-05-06 12:13:40] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean_sdk-60.0.0.tar.gz]
+[2024-05-06 12:13:40] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean_sdk-60.1.0.tar.gz]
+[2024-05-06 12:13:40] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
+[2024-05-06 12:13:40] INFO root fetch - main [MainThread]: Store serial: [23075935]
