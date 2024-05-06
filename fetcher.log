@@ -22825,3 +22825,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:57:03] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
 [2024-05-06 16:57:03] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-05-06 16:57:03] INFO root fetch - main [MainThread]: Store serial: [23079613]
+[2024-05-06 16:59:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079613]
+[2024-05-06 16:59:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 16:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-kookit
+[2024-05-06 16:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VenC
+[2024-05-06 16:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deltares-coastalhazardstoolkit
+[2024-05-06 16:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycloudlib
+[2024-05-06 16:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: caluxPy-fi
+[2024-05-06 16:59:20] INFO root fetch - processPackages [deltares-coastalhazardstoolkit]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-06 16:59:20] INFO root fetch - processPackages [pytest-kookit]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 16:59:20] INFO root fetch - processPackages [VenC]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-05-06 16:59:20] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2024-05-06 16:59:20] INFO root fetch - processPackages [caluxPy-fi]: New version: [0.1.47] Old Version: [0.1.46]
+[2024-05-06 16:59:20] INFO root fetch - processPackages [deltares-coastalhazardstoolkit]: Downloading https://files.pythonhosted.org/packages/6e/54/dd5b325f72064063f8754eff7bba69b51d3f63d945c38bb965c363019da1/deltares-coastalhazardstoolkit-0.2.6.tar.gz
+[2024-05-06 16:59:20] INFO root fetch - processPackages [VenC]: Downloading https://files.pythonhosted.org/packages/48/f0/bf3557de7a13ac33d52f263f61e0628457e257c591ce916fe2291cde78e0/VenC-3.2.1.tar.gz
+[2024-05-06 16:59:20] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/4a/44/c841b603dffe78313de70b56f2872063e0e34011e08f92e08a521ebf068f/pytest_kookit-0.0.1.tar.gz
+[2024-05-06 16:59:20] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2024-05-06 16:59:20] INFO root fetch - processPackages [caluxPy-fi]: Downloading https://files.pythonhosted.org/packages/26/12/2ea0df2d34cc1eadfed1c740d0ee92d20221e2d769492783b57e53fea67c/caluxpy_fi-0.1.46.tar.gz
+[2024-05-06 16:59:21] INFO root fetch - processPackages [VenC]: Downloading https://files.pythonhosted.org/packages/14/53/d4d8166728edc121c0a97986350fbb8f036b1994355d2325a6cf060428a5/VenC-3.2.2.tar.gz
+[2024-05-06 16:59:21] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/f1/56/6a92e5558d6ae10774ab13f87e9010cbd50e1b2c8550492a4a76f7d551d3/pytest_kookit-0.0.2.tar.gz
+[2024-05-06 16:59:21] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2024-05-06 16:59:21] INFO root fetch - processPackages [deltares-coastalhazardstoolkit]: Downloading https://files.pythonhosted.org/packages/21/33/7a5b9cc7c38d519ee3a73b669f69ce87045913ccc524d4ba6a3e31ccda66/deltares_coastalhazardstoolkit-0.2.7.tar.gz
+[2024-05-06 16:59:21] INFO root fetch - processPackages [caluxPy-fi]: Downloading https://files.pythonhosted.org/packages/64/5e/feff7f880322c07affa31cf9473556ab66286ba5708154b9e00697b48f7c/caluxpy_fi-0.1.47.tar.gz
+[2024-05-06 16:59:21] INFO root fetch - processPackages [pytest-kookit]: executing diffoscope
+[2024-05-06 16:59:21] INFO root fetch - processPackages [pytest-kookit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_kookit-0.0.1.tar.gz tmp/pytest_kookit-0.0.2.tar.gz --markdown 20240506/p/pytest-kookit/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 16:59:21] INFO root fetch - processPackages [VenC]: executing diffoscope
+[2024-05-06 16:59:21] INFO root fetch - processPackages [VenC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VenC-3.2.1.tar.gz tmp/VenC-3.2.2.tar.gz --markdown 20240506/V/VenC/3.2.1-3.2.2/README.md --exclude *.pyd
+[2024-05-06 16:59:21] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2024-05-06 16:59:21] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20240506/p/pycloudlib/18.7-18.8/README.md --exclude *.pyd
+[2024-05-06 16:59:21] INFO root fetch - processPackages [deltares-coastalhazardstoolkit]: executing diffoscope
+[2024-05-06 16:59:21] INFO root fetch - processPackages [deltares-coastalhazardstoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltares-coastalhazardstoolkit-0.2.6.tar.gz tmp/deltares_coastalhazardstoolkit-0.2.7.tar.gz --markdown 20240506/d/deltares-coastalhazardstoolkit/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-06 16:59:21] INFO root fetch - processPackages [caluxPy-fi]: executing diffoscope
+[2024-05-06 16:59:21] INFO root fetch - processPackages [caluxPy-fi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caluxpy_fi-0.1.46.tar.gz tmp/caluxpy_fi-0.1.47.tar.gz --markdown 20240506/c/caluxPy-fi/0.1.46-0.1.47/README.md --exclude *.pyd
+[2024-05-06 16:59:22] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.0.1.tar.gz]
+[2024-05-06 16:59:22] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.0.2.tar.gz]
+[2024-05-06 16:59:22] INFO root fetch - main [MainThread]: End processing [pytest-kookit]: success
+[2024-05-06 16:59:22] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2024-05-06 16:59:22] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2024-05-06 16:59:22] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2024-05-06 16:59:22] INFO root fetch - processPackages [caluxPy-fi]: Remove: archive file [/home/abi/fetcher/tmp/caluxpy_fi-0.1.46.tar.gz]
+[2024-05-06 16:59:22] INFO root fetch - processPackages [VenC]: Remove: archive file [/home/abi/fetcher/tmp/VenC-3.2.1.tar.gz]
+[2024-05-06 16:59:22] INFO root fetch - processPackages [caluxPy-fi]: Remove: archive file [/home/abi/fetcher/tmp/caluxpy_fi-0.1.47.tar.gz]
+[2024-05-06 16:59:22] INFO root fetch - processPackages [VenC]: Remove: archive file [/home/abi/fetcher/tmp/VenC-3.2.2.tar.gz]
+[2024-05-06 16:59:22] INFO root fetch - main [MainThread]: End processing [caluxPy-fi]: success
+[2024-05-06 16:59:22] INFO root fetch - main [MainThread]: End processing [VenC]: success
+[2024-05-06 16:59:22] INFO root fetch - processPackages [deltares-coastalhazardstoolkit]: Remove: archive file [/home/abi/fetcher/tmp/deltares-coastalhazardstoolkit-0.2.6.tar.gz]
+[2024-05-06 16:59:22] INFO root fetch - processPackages [deltares-coastalhazardstoolkit]: Remove: archive file [/home/abi/fetcher/tmp/deltares_coastalhazardstoolkit-0.2.7.tar.gz]
+[2024-05-06 16:59:22] INFO root fetch - main [MainThread]: End processing [deltares-coastalhazardstoolkit]: success
+[2024-05-06 16:59:22] INFO root fetch - main [MainThread]: Store serial: [23079637]
