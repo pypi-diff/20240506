@@ -3557,3 +3557,24 @@
 [2024-05-06 05:00:10] INFO root fetch - processPackages [joker-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/joker-mongodb-0.3.0.tar.gz]
 [2024-05-06 05:00:10] INFO root fetch - main [MainThread]: End processing [joker-mongodb]: success
 [2024-05-06 05:00:10] INFO root fetch - main [MainThread]: Store serial: [23070898]
+[2024-05-06 05:02:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070898]
+[2024-05-06 05:02:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 05:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-semantic-release
+[2024-05-06 05:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xnippy
+[2024-05-06 05:02:19] INFO root fetch - processPackages [xnippy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 05:02:19] INFO root fetch - processPackages [xnippy]: Downloading https://files.pythonhosted.org/packages/d0/40/265710042a89fcab3e98f99a9705c912bccbebabdf5db2907b2e30f1c3af/xnippy-0.1.0.tar.gz
+[2024-05-06 05:02:19] INFO root fetch - processPackages [python-semantic-release]: New version: [9.7.0] Old Version: [9.6.0]
+[2024-05-06 05:02:19] INFO root fetch - processPackages [xnippy]: Downloading https://files.pythonhosted.org/packages/22/57/403d9dfe0ff5d3047d5b9026afc0e817d6b734e3fd60b0eb759f7d419c62/xnippy-0.1.1.tar.gz
+[2024-05-06 05:02:19] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/ac/bc/db70ddf9ea5fbee0ab53e2d688aa877d9e737fc0bb99c059394153368918/python_semantic_release-9.6.0.tar.gz
+[2024-05-06 05:02:19] INFO root fetch - processPackages [xnippy]: executing diffoscope
+[2024-05-06 05:02:19] INFO root fetch - processPackages [xnippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnippy-0.1.0.tar.gz tmp/xnippy-0.1.1.tar.gz --markdown 20240506/x/xnippy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 05:02:20] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/d2/b1/d79ab9bea383f36e0f2da37e211f1d57f0a785ceb2fb75d60c8755cb1806/python_semantic_release-9.7.0.tar.gz
+[2024-05-06 05:02:20] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2024-05-06 05:02:20] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_semantic_release-9.6.0.tar.gz tmp/python_semantic_release-9.7.0.tar.gz --markdown 20240506/p/python-semantic-release/9.6.0-9.7.0/README.md --exclude *.pyd
+[2024-05-06 05:02:20] INFO root fetch - processPackages [xnippy]: Remove: archive file [/home/abi/fetcher/tmp/xnippy-0.1.0.tar.gz]
+[2024-05-06 05:02:20] INFO root fetch - processPackages [xnippy]: Remove: archive file [/home/abi/fetcher/tmp/xnippy-0.1.1.tar.gz]
+[2024-05-06 05:02:20] INFO root fetch - main [MainThread]: End processing [xnippy]: success
+[2024-05-06 05:02:21] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.6.0.tar.gz]
+[2024-05-06 05:02:21] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.7.0.tar.gz]
+[2024-05-06 05:02:21] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2024-05-06 05:02:21] INFO root fetch - main [MainThread]: Store serial: [23070906]
