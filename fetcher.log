@@ -6534,3 +6534,30 @@
 [2024-05-06 08:24:02] INFO root fetch - processPackages [oscillators]: Remove: archive file [/home/abi/fetcher/tmp/oscillators-0.2.tar.gz]
 [2024-05-06 08:24:02] INFO root fetch - main [MainThread]: End processing [oscillators]: success
 [2024-05-06 08:24:02] INFO root fetch - main [MainThread]: Store serial: [23072352]
+[2024-05-06 08:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072352]
+[2024-05-06 08:26:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oscillators-package
+[2024-05-06 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbgpt
+[2024-05-06 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: owntools
+[2024-05-06 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-telemetry-generic
+[2024-05-06 08:26:10] INFO root fetch - processPackages [owntools]: New version: [1.3] Old Version: [1.2]
+[2024-05-06 08:26:10] INFO root fetch - processPackages [owntools]: Downloading https://files.pythonhosted.org/packages/90/a0/709a39804e14b6dce5a5fffa76be497dc8222f03f938abd2d704f5bed477/owntools-1.2.tar.gz
+[2024-05-06 08:26:11] WARNING root fetch - processPackages [oscillators-package]: Skipping, unable to determine old version
+[2024-05-06 08:26:11] INFO root fetch - main [MainThread]: End processing [oscillators-package] error
+[2024-05-06 08:26:11] INFO root fetch - processPackages [dbgpt]: New version: [0.5.6rc0] Old Version: [0.5.5rc0]
+[2024-05-06 08:26:11] WARNING root fetch - processPackages [open-telemetry-generic]: Skipping, unable to determine old version
+[2024-05-06 08:26:11] INFO root fetch - main [MainThread]: End processing [open-telemetry-generic] error
+[2024-05-06 08:26:11] INFO root fetch - processPackages [dbgpt]: Downloading https://files.pythonhosted.org/packages/75/ea/2a7bab181806ff0e9bf6d960734d70dcb20d88189d339bd4083b0a022479/dbgpt-0.5.5rc0.tar.gz
+[2024-05-06 08:26:11] INFO root fetch - processPackages [owntools]: Downloading https://files.pythonhosted.org/packages/2d/63/ede2c32b416d6b46b547fb71bc2b410af1ce3925017cd3b2942819026a2b/owntools-1.3.tar.gz
+[2024-05-06 08:26:11] INFO root fetch - processPackages [owntools]: executing diffoscope
+[2024-05-06 08:26:11] INFO root fetch - processPackages [owntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owntools-1.2.tar.gz tmp/owntools-1.3.tar.gz --markdown 20240506/o/owntools/1.2-1.3/README.md --exclude *.pyd
+[2024-05-06 08:26:11] INFO root fetch - processPackages [dbgpt]: Downloading https://files.pythonhosted.org/packages/36/07/61fc97a1559794fe8772c3ff36bc94e0d4ad46397096a628dd7948d77343/dbgpt-0.5.6rc0.tar.gz
+[2024-05-06 08:26:11] INFO root fetch - processPackages [dbgpt]: executing diffoscope
+[2024-05-06 08:26:11] INFO root fetch - processPackages [dbgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbgpt-0.5.5rc0.tar.gz tmp/dbgpt-0.5.6rc0.tar.gz --markdown 20240506/d/dbgpt/0.5.5rc0-0.5.6rc0/README.md --exclude *.pyd
+[2024-05-06 08:26:11] INFO root fetch - processPackages [owntools]: Remove: archive file [/home/abi/fetcher/tmp/owntools-1.2.tar.gz]
+[2024-05-06 08:26:11] INFO root fetch - processPackages [owntools]: Remove: archive file [/home/abi/fetcher/tmp/owntools-1.3.tar.gz]
+[2024-05-06 08:26:11] INFO root fetch - main [MainThread]: End processing [owntools]: success
+[2024-05-06 08:26:13] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.5rc0.tar.gz]
+[2024-05-06 08:26:13] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.6rc0.tar.gz]
+[2024-05-06 08:26:13] INFO root fetch - main [MainThread]: End processing [dbgpt]: success
+[2024-05-06 08:26:13] INFO root fetch - main [MainThread]: Store serial: [23072367]
