@@ -19407,3 +19407,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:03:24] INFO root fetch - processPackages [hat-gui]: Remove: archive file [/home/abi/fetcher/tmp/hat_gui-0.7.1-cp310.cp311.cp312-none-any.whl.zip]
 [2024-05-06 15:03:24] INFO root fetch - main [MainThread]: End processing [hat-gui]: success
 [2024-05-06 15:03:24] INFO root fetch - main [MainThread]: Store serial: [23077904]
+[2024-05-06 15:05:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077904]
+[2024-05-06 15:05:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 15:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ReverseBox
+[2024-05-06 15:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dissect.cstruct
+[2024-05-06 15:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epimodel-sensitivity-test
+[2024-05-06 15:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycyclops
+[2024-05-06 15:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psl
+[2024-05-06 15:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: f4
+[2024-05-06 15:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlable
+[2024-05-06 15:05:33] INFO root fetch - processPackages [epimodel-sensitivity-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 15:05:34] INFO root fetch - processPackages [pycyclops]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-06 15:05:34] WARNING root fetch - processPackages [mlable]: Skipping, unable to determine old version
+[2024-05-06 15:05:34] INFO root fetch - main [MainThread]: End processing [mlable] error
+[2024-05-06 15:05:34] INFO root fetch - processPackages [ReverseBox]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-06 15:05:34] INFO root fetch - processPackages [dissect.cstruct]: New version: [3.9.dev3] Old Version: [3.9.dev2]
+[2024-05-06 15:05:34] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/8e/7f/0d0d25c57a332c235ca8795a2d7c90b66a2fb95df691edb26f3e2ea592a4/epimodel_sensitivity_test-0.1.8.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [psl]: New version: [2024.5.6] Old Version: [2024.4.8]
+[2024-05-06 15:05:34] INFO root fetch - processPackages [f4]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 15:05:34] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/f3/c6/79bc46f128e4bf9fa04dd3d277decef1e8d78adb3cb550427f1844dcf67c/pycyclops-0.2.6.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/ed/3b/a0f1c8c09bf6885ed6b93a16fec56a98c796f25dbc49ac2da82a6df499e3/dissect.cstruct-3.9.dev2.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/d1/c3/6bc63d99438ad058c6caf3cd05d52bd03200ec6ceda9b935dc71447ab750/ReverseBox-0.8.9.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/9e/20/77382f93c165261f7bc7761f03bd2536aede851113676c65531adf216f3e/psl-2024.4.8.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/a9/0c/e1d7174491f6f3d50eea38b9c8683fc963772b09ba1a55583af6f3b8dc2c/f4-1.0.0.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/d7/d7/8b62d5443dfbe8593c57e1b827c1944ff940d9e7dcf8041f4a4ff5a17fd4/epimodel_sensitivity_test-0.1.9.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [epimodel-sensitivity-test]: executing diffoscope
+[2024-05-06 15:05:34] INFO root fetch - processPackages [epimodel-sensitivity-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epimodel_sensitivity_test-0.1.8.tar.gz tmp/epimodel_sensitivity_test-0.1.9.tar.gz --markdown 20240506/e/epimodel-sensitivity-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 15:05:34] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/04/1e/077b7aa469bf0c3ceed645098f958838f9ed969be03dd4f80483c6e83819/pycyclops-0.2.7.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/16/27/a59d96f441aca0f08ca9b923a0c2f7c01d5ba0ad0fb10daf3a1d5280cb04/dissect.cstruct-3.9.dev3.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/18/a4/6c90dc232bf1436b9fd15aa3e0b2538e3b6a5f2b72eb8462659c198e67b2/psl-2024.5.6.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/f1/6b/e5b7fdb14897320027c9e6efb976e08d1aa116bd2f3fad4a87803e00ccce/f4-1.0.1.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/3c/1b/23d76b3e10b16e93f1678f40e6fb6e444d98e7a9d5c36f300ae9517702e9/ReverseBox-0.9.0.tar.gz
+[2024-05-06 15:05:34] INFO root fetch - processPackages [dissect.cstruct]: executing diffoscope
+[2024-05-06 15:05:34] INFO root fetch - processPackages [dissect.cstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.cstruct-3.9.dev2.tar.gz tmp/dissect.cstruct-3.9.dev3.tar.gz --markdown 20240506/d/dissect.cstruct/3.9.dev2-3.9.dev3/README.md --exclude *.pyd
+[2024-05-06 15:05:34] INFO root fetch - processPackages [psl]: executing diffoscope
+[2024-05-06 15:05:34] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2024.4.8.tar.gz tmp/psl-2024.5.6.tar.gz --markdown 20240506/p/psl/2024.4.8-2024.5.6/README.md --exclude *.pyd
+[2024-05-06 15:05:34] INFO root fetch - processPackages [pycyclops]: executing diffoscope
+[2024-05-06 15:05:34] INFO root fetch - processPackages [pycyclops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycyclops-0.2.6.tar.gz tmp/pycyclops-0.2.7.tar.gz --markdown 20240506/p/pycyclops/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-06 15:05:34] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2024-05-06 15:05:34] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.8.9.tar.gz tmp/ReverseBox-0.9.0.tar.gz --markdown 20240506/R/ReverseBox/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-06 15:05:34] INFO root fetch - processPackages [f4]: executing diffoscope
+[2024-05-06 15:05:34] INFO root fetch - processPackages [f4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f4-1.0.0.tar.gz tmp/f4-1.0.1.tar.gz --markdown 20240506/f/f4/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 15:05:35] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.8.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.9.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - main [MainThread]: End processing [epimodel-sensitivity-test]: success
+[2024-05-06 15:05:35] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.4.8.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.5.6.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2024-05-06 15:05:35] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cstruct-3.9.dev2.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cstruct-3.9.dev3.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - main [MainThread]: End processing [dissect.cstruct]: success
+[2024-05-06 15:05:35] INFO root fetch - processPackages [f4]: Remove: archive file [/home/abi/fetcher/tmp/f4-1.0.0.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - processPackages [f4]: Remove: archive file [/home/abi/fetcher/tmp/f4-1.0.1.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - main [MainThread]: End processing [f4]: success
+[2024-05-06 15:05:35] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.8.9.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.0.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2024-05-06 15:05:35] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.2.6.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.2.7.tar.gz]
+[2024-05-06 15:05:35] INFO root fetch - main [MainThread]: End processing [pycyclops]: success
+[2024-05-06 15:05:35] INFO root fetch - main [MainThread]: Store serial: [23077928]
