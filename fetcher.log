@@ -4196,3 +4196,36 @@
 [2024-05-06 05:43:23] INFO root fetch - processPackages [PLAID-X]: Remove: archive file [/home/abi/fetcher/tmp/plaid_x-0.3.1a0.tar.gz]
 [2024-05-06 05:43:23] INFO root fetch - main [MainThread]: End processing [PLAID-X]: success
 [2024-05-06 05:43:23] INFO root fetch - main [MainThread]: Store serial: [23071197]
+[2024-05-06 05:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071197]
+[2024-05-06 05:45:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 05:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-pandas
+[2024-05-06 05:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-dataset-converter
+[2024-05-06 05:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyswmm
+[2024-05-06 05:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PLAID-X
+[2024-05-06 05:45:32] INFO root fetch - processPackages [PLAID-X]: New version: [0.3.1a0] Old Version: [0.3.1]
+[2024-05-06 05:45:32] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 05:45:32] INFO root fetch - processPackages [PLAID-X]: Downloading https://files.pythonhosted.org/packages/15/fc/23e3bdebe135f67fc98493e9810b77bef1bbc437b80231a9a2200ad31f96/PLAID-X-0.3.1.tar.gz
+[2024-05-06 05:45:32] WARNING root fetch - processPackages [image-dataset-converter]: Skipping, unable to determine old version
+[2024-05-06 05:45:32] INFO root fetch - main [MainThread]: End processing [image-dataset-converter] error
+[2024-05-06 05:45:32] INFO root fetch - processPackages [pyswmm]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-06 05:45:32] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 05:45:32] INFO root fetch - processPackages [PLAID-X]: Downloading https://files.pythonhosted.org/packages/1d/c5/ceebce54e990e388f7b49fbec37b996bbe5b0ebe09c5f65bc809c2d5189d/plaid_x-0.3.1a0.tar.gz
+[2024-05-06 05:45:33] INFO root fetch - processPackages [pyswmm]: Downloading https://files.pythonhosted.org/packages/c0/df/13c4dd79b075ad3cdb20a0204c7197a80f8e561ed802b5ad34daffcc8140/pyswmm-2.0.0.tar.gz
+[2024-05-06 05:45:33] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 05:45:33] INFO root fetch - processPackages [PLAID-X]: executing diffoscope
+[2024-05-06 05:45:33] INFO root fetch - processPackages [PLAID-X]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PLAID-X-0.3.1.tar.gz tmp/plaid_x-0.3.1a0.tar.gz --markdown 20240506/P/PLAID-X/0.3.1-0.3.1a0/README.md --exclude *.pyd
+[2024-05-06 05:45:33] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 05:45:33] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 05:45:33] INFO root fetch - processPackages [pyswmm]: Downloading https://files.pythonhosted.org/packages/a9/69/682dfcc7e594d0f45c07d769264fb74351c72628ea48d24465efb19b900a/pyswmm-2.0.1.tar.gz
+[2024-05-06 05:45:33] INFO root fetch - processPackages [pyswmm]: executing diffoscope
+[2024-05-06 05:45:33] INFO root fetch - processPackages [pyswmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswmm-2.0.0.tar.gz tmp/pyswmm-2.0.1.tar.gz --markdown 20240506/p/pyswmm/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-06 05:45:33] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 05:45:33] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 05:45:33] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 05:45:34] INFO root fetch - processPackages [PLAID-X]: Remove: archive file [/home/abi/fetcher/tmp/PLAID-X-0.3.1.tar.gz]
+[2024-05-06 05:45:34] INFO root fetch - processPackages [PLAID-X]: Remove: archive file [/home/abi/fetcher/tmp/plaid_x-0.3.1a0.tar.gz]
+[2024-05-06 05:45:34] INFO root fetch - main [MainThread]: End processing [PLAID-X]: success
+[2024-05-06 05:45:34] INFO root fetch - processPackages [pyswmm]: Remove: archive file [/home/abi/fetcher/tmp/pyswmm-2.0.0.tar.gz]
+[2024-05-06 05:45:34] INFO root fetch - processPackages [pyswmm]: Remove: archive file [/home/abi/fetcher/tmp/pyswmm-2.0.1.tar.gz]
+[2024-05-06 05:45:34] INFO root fetch - main [MainThread]: End processing [pyswmm]: success
+[2024-05-06 05:45:34] INFO root fetch - main [MainThread]: Store serial: [23071213]
