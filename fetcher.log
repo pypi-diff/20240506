@@ -17717,3 +17717,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:52:25] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.3.tar.gz]
 [2024-05-06 13:52:25] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-06 13:52:25] INFO root fetch - main [MainThread]: Store serial: [23077066]
+[2024-05-06 13:54:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077066]
+[2024-05-06 13:54:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 13:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-memoize
+[2024-05-06 13:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packaage
+[2024-05-06 13:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odlabel
+[2024-05-06 13:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysypt
+[2024-05-06 13:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysgconnect
+[2024-05-06 13:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkscreener
+[2024-05-06 13:54:34] WARNING root fetch - processPackages [odlabel]: Skipping, unable to determine old version
+[2024-05-06 13:54:34] INFO root fetch - main [MainThread]: End processing [odlabel] error
+[2024-05-06 13:54:34] INFO root fetch - processPackages [packaage]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-06 13:54:34] INFO root fetch - processPackages [pysypt]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-06 13:54:34] WARNING root fetch - processPackages [pysgconnect]: Skipping, unable to determine old version
+[2024-05-06 13:54:34] INFO root fetch - main [MainThread]: End processing [pysgconnect] error
+[2024-05-06 13:54:34] INFO root fetch - processPackages [py-memoize]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-06 13:54:34] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240506.347] Old Version: [0.44.20240506.344]
+[2024-05-06 13:54:34] INFO root fetch - processPackages [packaage]: Downloading https://files.pythonhosted.org/packages/78/a5/d642b3c4b2705d5df89a0f8165eeccf2e68d1d72f3d2360ecb160da08e6a/packaage-0.0.7.tar.gz
+[2024-05-06 13:54:34] INFO root fetch - processPackages [pysypt]: Downloading https://files.pythonhosted.org/packages/b4/79/b8c99178e29402c7473905d19d6a04b08e2cc5af2208c853e8ab2900d497/pysypt-0.1.0.tar.gz
+[2024-05-06 13:54:34] INFO root fetch - processPackages [py-memoize]: Downloading https://files.pythonhosted.org/packages/a7/ae/6dbce5498c55fa72b311b738d8f50c8f6911c2c5e897508710eac0333ec7/py-memoize-2.0.0.tar.gz
+[2024-05-06 13:54:34] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/21/f7/a90907c5247157498a624563ad4f85bd1a49bb5dc134b7e0a08a81e718c3/pkscreener-0.44.20240506.344.tar.gz
+[2024-05-06 13:54:35] INFO root fetch - processPackages [py-memoize]: Downloading https://files.pythonhosted.org/packages/ce/d4/8c36f434e99ddbfcf72c79ae0aec1da378ca8de6137e4439afe0533fe62e/py-memoize-2.1.0.tar.gz
+[2024-05-06 13:54:35] INFO root fetch - processPackages [packaage]: Downloading https://files.pythonhosted.org/packages/bd/4a/edb2041acb5c2daf6af9543812451a4503f5eb56021148392359f60738f1/packaage-0.0.8.tar.gz
+[2024-05-06 13:54:35] INFO root fetch - processPackages [py-memoize]: executing diffoscope
+[2024-05-06 13:54:35] INFO root fetch - processPackages [py-memoize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-memoize-2.0.0.tar.gz tmp/py-memoize-2.1.0.tar.gz --markdown 20240506/p/py-memoize/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-06 13:54:35] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/3a/a1/76052abb1dc1ddd28c1198ad5df0487c53a9e907faf3774946416ac135c1/pkscreener-0.44.20240506.347.tar.gz
+[2024-05-06 13:54:35] INFO root fetch - processPackages [packaage]: executing diffoscope
+[2024-05-06 13:54:35] INFO root fetch - processPackages [packaage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packaage-0.0.7.tar.gz tmp/packaage-0.0.8.tar.gz --markdown 20240506/p/packaage/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-06 13:54:35] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-06 13:54:35] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240506.344.tar.gz tmp/pkscreener-0.44.20240506.347.tar.gz --markdown 20240506/p/pkscreener/0.44.20240506.344-0.44.20240506.347/README.md --exclude *.pyd
+[2024-05-06 13:54:36] INFO root fetch - processPackages [py-memoize]: Remove: archive file [/home/abi/fetcher/tmp/py-memoize-2.0.0.tar.gz]
+[2024-05-06 13:54:36] INFO root fetch - processPackages [py-memoize]: Remove: archive file [/home/abi/fetcher/tmp/py-memoize-2.1.0.tar.gz]
+[2024-05-06 13:54:36] INFO root fetch - main [MainThread]: End processing [py-memoize]: success
+[2024-05-06 13:54:36] INFO root fetch - processPackages [packaage]: Remove: archive file [/home/abi/fetcher/tmp/packaage-0.0.7.tar.gz]
+[2024-05-06 13:54:36] INFO root fetch - processPackages [packaage]: Remove: archive file [/home/abi/fetcher/tmp/packaage-0.0.8.tar.gz]
+[2024-05-06 13:54:36] INFO root fetch - main [MainThread]: End processing [packaage]: success
+[2024-05-06 13:54:36] INFO root fetch - processPackages [pysypt]: Downloading https://files.pythonhosted.org/packages/b3/cd/6aa8411730524f2ecf82eeac67af20e9f7de40110ae41cff16b3ba0b91f3/pysypt-1.0.0.tar.gz
+[2024-05-06 13:54:36] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.344.tar.gz]
+[2024-05-06 13:54:36] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.347.tar.gz]
+[2024-05-06 13:54:36] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-06 13:54:36] INFO root fetch - processPackages [pysypt]: executing diffoscope
+[2024-05-06 13:54:36] INFO root fetch - processPackages [pysypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysypt-0.1.0.tar.gz tmp/pysypt-1.0.0.tar.gz --markdown 20240506/p/pysypt/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-06 13:54:37] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-0.1.0.tar.gz]
+[2024-05-06 13:54:37] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-1.0.0.tar.gz]
+[2024-05-06 13:54:37] INFO root fetch - main [MainThread]: End processing [pysypt]: success
+[2024-05-06 13:54:37] INFO root fetch - main [MainThread]: Store serial: [23077088]
