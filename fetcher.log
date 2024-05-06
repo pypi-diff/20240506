@@ -21371,3 +21371,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:11:56] INFO root fetch - processPackages [scbl-utils]: Remove: archive file [/home/abi/fetcher/tmp/scbl_utils-1.15.tar.gz]
 [2024-05-06 16:11:56] INFO root fetch - main [MainThread]: End processing [scbl-utils]: success
 [2024-05-06 16:11:56] INFO root fetch - main [MainThread]: Store serial: [23078944]
+[2024-05-06 16:14:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078944]
+[2024-05-06 16:14:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 16:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adapta
+[2024-05-06 16:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-repo-client
+[2024-05-06 16:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taurus-pyqtgraph
+[2024-05-06 16:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkt-retv
+[2024-05-06 16:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edgegap-cli
+[2024-05-06 16:14:07] INFO root fetch - processPackages [mkt-retv]: New version: [1.420] Old Version: [1.419]
+[2024-05-06 16:14:07] INFO root fetch - processPackages [taurus-pyqtgraph]: New version: [0.9.0a0] Old Version: [0.9.0]
+[2024-05-06 16:14:07] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-06 16:14:07] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/db/30/e96ed22f9a4f93154bd3424cb1dc4408b379521cc8cbc40c459dad305937/mkt-retv-1.419.tar.gz
+[2024-05-06 16:14:07] WARNING root fetch - processPackages [edgegap-cli]: Skipping, unable to determine old version
+[2024-05-06 16:14:07] INFO root fetch - main [MainThread]: End processing [edgegap-cli] error
+[2024-05-06 16:14:07] INFO root fetch - processPackages [data-repo-client]: New version: [2.57.0] Old Version: [2.56.0]
+[2024-05-06 16:14:08] INFO root fetch - processPackages [taurus-pyqtgraph]: Downloading https://files.pythonhosted.org/packages/b3/a4/4704b7ab9add7f43f015e6cf77178d29b2b3c255eec8036f4328b526fa31/taurus_pyqtgraph-0.9.0.tar.gz
+[2024-05-06 16:14:08] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/13/09/e4db65eaece93a69c52152ca4ab673638ba2f4ffe7f51e05232ae029120d/data-repo-client-2.56.0.tar.gz
+[2024-05-06 16:14:08] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-06 16:14:08] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/b6/71/432118a156fdfe6e3a43f120251d44b16e760d0d24d784695b492a9551f2/mkt-retv-1.420.tar.gz
+[2024-05-06 16:14:08] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/4e/09/93e891acbdef21c7d42f8b9af038d159d51bf03bbff8464ca1fd6fa31d12/data-repo-client-2.57.0.tar.gz
+[2024-05-06 16:14:08] INFO root fetch - processPackages [mkt-retv]: executing diffoscope
+[2024-05-06 16:14:08] INFO root fetch - processPackages [mkt-retv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkt-retv-1.419.tar.gz tmp/mkt-retv-1.420.tar.gz --markdown 20240506/m/mkt-retv/1.419-1.420/README.md --exclude *.pyd
+[2024-05-06 16:14:08] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-06 16:14:08] INFO root fetch - processPackages [taurus-pyqtgraph]: Downloading https://files.pythonhosted.org/packages/7c/da/5f8dd3bef7f7dbcff16875ac88402d43aabef484398a7404e58e45c515fe/taurus_pyqtgraph-0.9.0a0.tar.gz
+[2024-05-06 16:14:08] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-06 16:14:08] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240506/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-06 16:14:08] INFO root fetch - processPackages [taurus-pyqtgraph]: executing diffoscope
+[2024-05-06 16:14:08] INFO root fetch - processPackages [taurus-pyqtgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taurus_pyqtgraph-0.9.0.tar.gz tmp/taurus_pyqtgraph-0.9.0a0.tar.gz --markdown 20240506/t/taurus-pyqtgraph/0.9.0-0.9.0a0/README.md --exclude *.pyd
+[2024-05-06 16:14:08] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-05-06 16:14:08] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.56.0.tar.gz tmp/data-repo-client-2.57.0.tar.gz --markdown 20240506/d/data-repo-client/2.56.0-2.57.0/README.md --exclude *.pyd
+[2024-05-06 16:14:09] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.419.tar.gz]
+[2024-05-06 16:14:09] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.420.tar.gz]
+[2024-05-06 16:14:09] INFO root fetch - main [MainThread]: End processing [mkt-retv]: success
+[2024-05-06 16:14:09] INFO root fetch - processPackages [taurus-pyqtgraph]: Remove: archive file [/home/abi/fetcher/tmp/taurus_pyqtgraph-0.9.0.tar.gz]
+[2024-05-06 16:14:09] INFO root fetch - processPackages [taurus-pyqtgraph]: Remove: archive file [/home/abi/fetcher/tmp/taurus_pyqtgraph-0.9.0a0.tar.gz]
+[2024-05-06 16:14:09] INFO root fetch - main [MainThread]: End processing [taurus-pyqtgraph]: success
+[2024-05-06 16:14:09] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-06 16:14:09] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-06 16:14:09] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-06 16:14:10] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.56.0.tar.gz]
+[2024-05-06 16:14:10] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.57.0.tar.gz]
+[2024-05-06 16:14:10] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-05-06 16:14:10] INFO root fetch - main [MainThread]: Store serial: [23078963]
