@@ -3231,3 +3231,15 @@
 [2024-05-06 04:40:16] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
 [2024-05-06 04:40:16] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
 [2024-05-06 04:40:16] INFO root fetch - main [MainThread]: Store serial: [23070789]
+[2024-05-06 04:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070789]
+[2024-05-06 04:42:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamapplot
+[2024-05-06 04:42:25] INFO root fetch - processPackages [datamapplot]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-06 04:42:25] INFO root fetch - processPackages [datamapplot]: Downloading https://files.pythonhosted.org/packages/de/ab/0dfc789deb32c3d1a7796f237119237be7619ee28652309db9cf87127f5d/datamapplot-0.2.2.tar.gz
+[2024-05-06 04:42:25] INFO root fetch - processPackages [datamapplot]: Downloading https://files.pythonhosted.org/packages/12/c6/2e5cbbddd79be2cfa88f578d48f249dd938a7df8d3a810596a99c7a0116b/datamapplot-0.3.0.tar.gz
+[2024-05-06 04:42:25] INFO root fetch - processPackages [datamapplot]: executing diffoscope
+[2024-05-06 04:42:25] INFO root fetch - processPackages [datamapplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamapplot-0.2.2.tar.gz tmp/datamapplot-0.3.0.tar.gz --markdown 20240506/d/datamapplot/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-06 04:42:26] INFO root fetch - processPackages [datamapplot]: Remove: archive file [/home/abi/fetcher/tmp/datamapplot-0.2.2.tar.gz]
+[2024-05-06 04:42:26] INFO root fetch - processPackages [datamapplot]: Remove: archive file [/home/abi/fetcher/tmp/datamapplot-0.3.0.tar.gz]
+[2024-05-06 04:42:26] INFO root fetch - main [MainThread]: End processing [datamapplot]: success
+[2024-05-06 04:42:26] INFO root fetch - main [MainThread]: Store serial: [23070798]
