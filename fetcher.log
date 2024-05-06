@@ -20178,3 +20178,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:30:49] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.0rc0.tar.gz]
 [2024-05-06 15:30:49] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2024-05-06 15:30:49] INFO root fetch - main [MainThread]: Store serial: [23078340]
+[2024-05-06 15:32:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078340]
+[2024-05-06 15:32:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devsecops-engine-tools
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyclonedx-python-lib
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ul-db-utils
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slicetca
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyjhtdbv2
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mindnlp
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msmanager
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sapiopylib
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: upgini
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trix
+[2024-05-06 15:32:58] INFO root fetch - processPackages [slicetca]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-06 15:32:58] INFO root fetch - processPackages [cyclonedx-python-lib]: New version: [7.3.3] Old Version: [7.3.2]
+[2024-05-06 15:32:58] INFO root fetch - processPackages [pyjhtdbv2]: New version: [20230506.0] Old Version: [20230505.0]
+[2024-05-06 15:32:58] INFO root fetch - processPackages [msmanager]: New version: [0.4.6.dev1] Old Version: [0.4.5]
+[2024-05-06 15:32:58] INFO root fetch - processPackages [devsecops-engine-tools]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ul-db-utils]: New version: [3.3.6] Old Version: [3.3.5]
+[2024-05-06 15:32:58] INFO root fetch - processPackages [slicetca]: Downloading https://files.pythonhosted.org/packages/b7/c4/0c98ad6878b9963848d4340d45f0e3e91eb8bc2ca2016ca5b718322140ff/slicetca-1.0.2.tar.gz
+[2024-05-06 15:32:58] INFO root fetch - processPackages [mindnlp]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-05-06 15:32:58] INFO root fetch - processPackages [trix]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-05-06 15:32:58] INFO root fetch - processPackages [cyclonedx-python-lib]: Downloading https://files.pythonhosted.org/packages/3a/31/e87ec9cce7977e115fd2eca25fc6d2cd454f423073bb799f4a212d096107/cyclonedx_python_lib-7.3.2.tar.gz
+[2024-05-06 15:32:58] INFO root fetch - processPackages [sapiopylib]: New version: [2024.5.6rc193] Old Version: [2024.5.4a192]
+[2024-05-06 15:32:58] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/a4/83/59158a3c9ff92e53460045b2eacbd472167ef920c57095cd5437b716775a/msmanager-0.4.5.tar.gz
+[2024-05-06 15:32:58] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-06 15:32:58] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/34/bd/1ee5d4c313df6bc9cd87f64e82d2fcbbf6719251577a3ca124ea2fb3175b/pyjhtdbv2-20230505.0.tar.gz
+[2024-05-06 15:32:58] INFO root fetch - processPackages [devsecops-engine-tools]: Downloading https://files.pythonhosted.org/packages/15/a1/3e8ca3977046094481705cb386aa1c371fa2349db0c54041d1d7cf2ce912/devsecops_engine_tools-1.7.1.tar.gz
+[2024-05-06 15:32:58] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/27/71/635037f5fdc4acc6940b1c7f9bc229125c7ea5fd28b1e112c7170be679c3/ul-db-utils-3.3.5.tar.gz
+[2024-05-06 15:32:58] INFO root fetch - processPackages [mindnlp]: Downloading https://files.pythonhosted.org/packages/72/a5/31206e2dc9dbee96e63b077286825cabbb719e93638b6117dd4bb2615463/mindnlp-0.2.4-py3-none-any.whl
+[2024-05-06 15:32:58] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/d6/e4/4d982a0699fbdce7eb7fe05756f984a2fef5cdc4b5fcd12e902bdde687b5/sapiopylib-2024.5.4a192.tar.gz
+[2024-05-06 15:32:58] INFO root fetch - processPackages [trix]: Downloading https://files.pythonhosted.org/packages/bd/53/ea8c08fdc9ca9ad69fc4ac57f4d229e9dea68645343fcbb5035ebeaac71d/trix-4.1.1.tar.gz
+[2024-05-06 15:32:58] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/f6/02/54eca7127f640bf0669f7040ffac078f418a71fb4a254356ca28cbbf0266/msmanager-0.4.6.dev1.tar.gz
+[2024-05-06 15:32:58] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-06 15:32:59] INFO root fetch - processPackages [slicetca]: Downloading https://files.pythonhosted.org/packages/19/bb/b684654200306bf419f895f0331bdc86e918cb3bf119c040cb80ed7f983e/slicetca-1.0.3.tar.gz
+[2024-05-06 15:32:59] INFO root fetch - processPackages [msmanager]: executing diffoscope
+[2024-05-06 15:32:59] INFO root fetch - processPackages [msmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmanager-0.4.5.tar.gz tmp/msmanager-0.4.6.dev1.tar.gz --markdown 20240506/m/msmanager/0.4.5-0.4.6.dev1/README.md --exclude *.pyd
+[2024-05-06 15:32:59] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/a0/1f/46de1c94022ab4d03f36f393811cd637cff6b80660c2806d74ce8f4cfdcc/pyjhtdbv2-20230506.0.tar.gz
+[2024-05-06 15:32:59] INFO root fetch - processPackages [slicetca]: executing diffoscope
+[2024-05-06 15:32:59] INFO root fetch - processPackages [slicetca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slicetca-1.0.2.tar.gz tmp/slicetca-1.0.3.tar.gz --markdown 20240506/s/slicetca/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-06 15:32:59] INFO root fetch - processPackages [devsecops-engine-tools]: Downloading https://files.pythonhosted.org/packages/d6/37/1b251cbee0080da29f1a92dff4160040b0dc884187bef96471270f89cd57/devsecops_engine_tools-1.7.2.tar.gz
+[2024-05-06 15:32:59] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/ec/7f/afb73db6556c9fc161a8139bd3592d26da2f1d011a4ccd5c341d0851b6f8/sapiopylib-2024.5.6rc193.tar.gz
+[2024-05-06 15:32:59] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/01/8a/cf3b5497c10ef8c4921714650a1dda82af384c544aeb19a5df280d90add0/ul-db-utils-3.3.6.tar.gz
+[2024-05-06 15:32:59] INFO root fetch - processPackages [pyjhtdbv2]: executing diffoscope
+[2024-05-06 15:32:59] INFO root fetch - processPackages [pyjhtdbv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjhtdbv2-20230505.0.tar.gz tmp/pyjhtdbv2-20230506.0.tar.gz --markdown 20240506/p/pyjhtdbv2/20230505.0-20230506.0/README.md --exclude *.pyd
+[2024-05-06 15:32:59] INFO root fetch - processPackages [devsecops-engine-tools]: executing diffoscope
+[2024-05-06 15:32:59] INFO root fetch - processPackages [devsecops-engine-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devsecops_engine_tools-1.7.1.tar.gz tmp/devsecops_engine_tools-1.7.2.tar.gz --markdown 20240506/d/devsecops-engine-tools/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-05-06 15:32:59] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-06 15:32:59] INFO root fetch - processPackages [trix]: Downloading https://files.pythonhosted.org/packages/7c/69/8d490d495dce8a97e1f6c0ee906ce6319d7997e90d73a221b914ecd5bfe3/trix-4.1.2.tar.gz
+[2024-05-06 15:32:59] INFO root fetch - processPackages [ul-db-utils]: executing diffoscope
+[2024-05-06 15:32:59] INFO root fetch - processPackages [ul-db-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-db-utils-3.3.5.tar.gz tmp/ul-db-utils-3.3.6.tar.gz --markdown 20240506/u/ul-db-utils/3.3.5-3.3.6/README.md --exclude *.pyd
+[2024-05-06 15:32:59] INFO root fetch - processPackages [sapiopylib]: executing diffoscope
+[2024-05-06 15:32:59] INFO root fetch - processPackages [sapiopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopylib-2024.5.4a192.tar.gz tmp/sapiopylib-2024.5.6rc193.tar.gz --markdown 20240506/s/sapiopylib/2024.5.4a192-2024.5.6rc193/README.md --exclude *.pyd
+[2024-05-06 15:32:59] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-06 15:32:59] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240506/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-06 15:32:59] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.5.tar.gz]
+[2024-05-06 15:32:59] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.6.dev1.tar.gz]
+[2024-05-06 15:32:59] INFO root fetch - processPackages [msmanager]: Start processing: hypersync-fuel
+[2024-05-06 15:32:59] INFO root fetch - main [MainThread]: End processing [msmanager]: success
+[2024-05-06 15:32:59] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-1.0.2.tar.gz]
+[2024-05-06 15:32:59] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-1.0.3.tar.gz]
+[2024-05-06 15:32:59] INFO root fetch - main [MainThread]: End processing [slicetca]: success
+[2024-05-06 15:33:00] WARNING root fetch - processPackages [hypersync-fuel]: Skipping, unable to determine old version
+[2024-05-06 15:33:00] INFO root fetch - main [MainThread]: End processing [hypersync-fuel] error
+[2024-05-06 15:33:00] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20230505.0.tar.gz]
+[2024-05-06 15:33:00] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20230506.0.tar.gz]
+[2024-05-06 15:33:00] INFO root fetch - main [MainThread]: End processing [pyjhtdbv2]: success
+[2024-05-06 15:33:00] INFO root fetch - processPackages [mindnlp]: Downloading https://files.pythonhosted.org/packages/62/be/623bb9ad2735599dacf59bde5a6e6cb7b30d656a07afd5a590515ff31389/mindnlp-0.3.0-py3-none-any.whl
+[2024-05-06 15:33:00] INFO root fetch - processPackages [trix]: executing diffoscope
+[2024-05-06 15:33:00] INFO root fetch - processPackages [trix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trix-4.1.1.tar.gz tmp/trix-4.1.2.tar.gz --markdown 20240506/t/trix/4.1.1-4.1.2/README.md --exclude *.pyd
+[2024-05-06 15:33:00] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.5.tar.gz]
+[2024-05-06 15:33:00] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.6.tar.gz]
+[2024-05-06 15:33:00] INFO root fetch - main [MainThread]: End processing [ul-db-utils]: success
+[2024-05-06 15:33:00] INFO root fetch - processPackages [cyclonedx-python-lib]: Downloading https://files.pythonhosted.org/packages/5d/73/e3ecd53a6368d067b6389844b0ff00d48cf7bd07c91c5c3d51ab97ff0fae/cyclonedx_python_lib-7.3.3.tar.gz
+[2024-05-06 15:33:00] INFO root fetch - processPackages [devsecops-engine-tools]: Remove: archive file [/home/abi/fetcher/tmp/devsecops_engine_tools-1.7.1.tar.gz]
+[2024-05-06 15:33:00] INFO root fetch - processPackages [devsecops-engine-tools]: Remove: archive file [/home/abi/fetcher/tmp/devsecops_engine_tools-1.7.2.tar.gz]
+[2024-05-06 15:33:00] INFO root fetch - main [MainThread]: End processing [devsecops-engine-tools]: success
+[2024-05-06 15:33:00] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-06 15:33:00] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-06 15:33:00] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-06 15:33:00] INFO root fetch - processPackages [cyclonedx-python-lib]: executing diffoscope
+[2024-05-06 15:33:00] INFO root fetch - processPackages [cyclonedx-python-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclonedx_python_lib-7.3.2.tar.gz tmp/cyclonedx_python_lib-7.3.3.tar.gz --markdown 20240506/c/cyclonedx-python-lib/7.3.2-7.3.3/README.md --exclude *.pyd
+[2024-05-06 15:33:00] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.5.4a192.tar.gz]
+[2024-05-06 15:33:00] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.5.6rc193.tar.gz]
+[2024-05-06 15:33:00] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
+[2024-05-06 15:33:01] INFO root fetch - processPackages [mindnlp]: executing diffoscope
+[2024-05-06 15:33:01] INFO root fetch - processPackages [mindnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindnlp-0.2.4-py3-none-any.whl.zip tmp/mindnlp-0.3.0-py3-none-any.whl.zip --markdown 20240506/m/mindnlp/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-05-06 15:33:01] INFO root fetch - processPackages [trix]: Remove: archive file [/home/abi/fetcher/tmp/trix-4.1.1.tar.gz]
+[2024-05-06 15:33:01] INFO root fetch - processPackages [trix]: Remove: archive file [/home/abi/fetcher/tmp/trix-4.1.2.tar.gz]
+[2024-05-06 15:33:01] INFO root fetch - main [MainThread]: End processing [trix]: success
+[2024-05-06 15:33:04] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.3.2.tar.gz]
+[2024-05-06 15:33:04] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.3.3.tar.gz]
+[2024-05-06 15:33:04] INFO root fetch - main [MainThread]: End processing [cyclonedx-python-lib]: success
+[2024-05-06 15:33:05] INFO root fetch - processPackages [mindnlp]: Remove: archive file [/home/abi/fetcher/tmp/mindnlp-0.2.4-py3-none-any.whl.zip]
+[2024-05-06 15:33:05] INFO root fetch - processPackages [mindnlp]: Remove: archive file [/home/abi/fetcher/tmp/mindnlp-0.3.0-py3-none-any.whl.zip]
+[2024-05-06 15:33:05] INFO root fetch - main [MainThread]: End processing [mindnlp]: success
+[2024-05-06 15:33:05] INFO root fetch - main [MainThread]: Store serial: [23078367]
