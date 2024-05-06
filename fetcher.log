@@ -3683,3 +3683,9 @@
 [2024-05-06 05:11:36] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_winsvc-2.2.1.tar.gz]
 [2024-05-06 05:11:36] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
 [2024-05-06 05:11:36] INFO root fetch - main [MainThread]: Store serial: [23070986]
+[2024-05-06 05:13:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070986]
+[2024-05-06 05:13:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 05:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiwang-cp-API
+[2024-05-06 05:13:45] WARNING root fetch - processPackages [xiwang-cp-API]: Skipping, unable to determine old version
+[2024-05-06 05:13:45] INFO root fetch - main [MainThread]: End processing [xiwang-cp-API] error
+[2024-05-06 05:13:45] INFO root fetch - main [MainThread]: Store serial: [23070997]
