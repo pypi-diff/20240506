@@ -1900,3 +1900,42 @@
 [2024-05-06 03:05:42] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.9.tar.gz]
 [2024-05-06 03:05:42] INFO root fetch - main [MainThread]: End processing [cycparser]: success
 [2024-05-06 03:05:42] INFO root fetch - main [MainThread]: Store serial: [23070295]
+[2024-05-06 03:07:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070295]
+[2024-05-06 03:07:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 03:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hue-sunrise
+[2024-05-06 03:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: difai
+[2024-05-06 03:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxtal
+[2024-05-06 03:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-portfolio-index
+[2024-05-06 03:07:51] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-06 03:07:51] INFO root fetch - processPackages [py-portfolio-index]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 03:07:51] INFO root fetch - processPackages [difai]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-06 03:07:51] INFO root fetch - processPackages [pyxtal]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-06 03:07:51] INFO root fetch - processPackages [pyxtal]: Downloading https://files.pythonhosted.org/packages/a6/8f/1229d73d8e25970ae80ffd3090544246fee571796e94b90adf6c0c4ec64c/pyxtal-0.6.5.tar.gz
+[2024-05-06 03:07:51] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2024-05-06 03:07:51] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/28/11/c6881565febce439d43d58de2e2a17606319196ca25c3c27cef1c63d2daa/difai-0.9.8.tar.gz
+[2024-05-06 03:07:51] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/56/47/1136551b0e963bbc2d3d3fce66043142f2f536a88a5e5918b3bae66b9480/py-portfolio-index-0.0.8.tar.gz
+[2024-05-06 03:07:51] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2024-05-06 03:07:51] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/f8/09/7d1db68c5c752de567fec30ef6c66715361c7a8ab440134667aaef9c87d1/difai-0.9.9.tar.gz
+[2024-05-06 03:07:51] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/35/d9/e930790cd08eb7aba472719eb95421a6b5ed634f852f1eb262a0430147f6/py-portfolio-index-0.0.9.tar.gz
+[2024-05-06 03:07:51] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2024-05-06 03:07:51] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20240506/h/hue-sunrise/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-06 03:07:51] INFO root fetch - processPackages [difai]: executing diffoscope
+[2024-05-06 03:07:51] INFO root fetch - processPackages [difai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difai-0.9.8.tar.gz tmp/difai-0.9.9.tar.gz --markdown 20240506/d/difai/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-06 03:07:51] INFO root fetch - processPackages [py-portfolio-index]: executing diffoscope
+[2024-05-06 03:07:51] INFO root fetch - processPackages [py-portfolio-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-portfolio-index-0.0.8.tar.gz tmp/py-portfolio-index-0.0.9.tar.gz --markdown 20240506/p/py-portfolio-index/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 03:07:51] INFO root fetch - processPackages [pyxtal]: Downloading https://files.pythonhosted.org/packages/e5/b8/eabe9579f8b3ec8854f62662cfbd3891ef22f9da2058066714899555b38a/pyxtal-0.6.6.tar.gz
+[2024-05-06 03:07:52] INFO root fetch - processPackages [pyxtal]: executing diffoscope
+[2024-05-06 03:07:52] INFO root fetch - processPackages [pyxtal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxtal-0.6.5.tar.gz tmp/pyxtal-0.6.6.tar.gz --markdown 20240506/p/pyxtal/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-06 03:07:52] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.8.tar.gz]
+[2024-05-06 03:07:52] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.9.tar.gz]
+[2024-05-06 03:07:52] INFO root fetch - main [MainThread]: End processing [difai]: success
+[2024-05-06 03:07:52] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.8.tar.gz]
+[2024-05-06 03:07:52] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.9.tar.gz]
+[2024-05-06 03:07:52] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2024-05-06 03:07:52] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.8.tar.gz]
+[2024-05-06 03:07:52] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.9.tar.gz]
+[2024-05-06 03:07:52] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
+[2024-05-06 03:07:54] INFO root fetch - processPackages [pyxtal]: Remove: archive file [/home/abi/fetcher/tmp/pyxtal-0.6.5.tar.gz]
+[2024-05-06 03:07:54] INFO root fetch - processPackages [pyxtal]: Remove: archive file [/home/abi/fetcher/tmp/pyxtal-0.6.6.tar.gz]
+[2024-05-06 03:07:54] INFO root fetch - main [MainThread]: End processing [pyxtal]: success
+[2024-05-06 03:07:54] INFO root fetch - main [MainThread]: Store serial: [23070307]
