@@ -2370,3 +2370,15 @@
 [2024-05-06 03:43:40] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-1.3.9.tar.gz]
 [2024-05-06 03:43:40] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
 [2024-05-06 03:43:40] INFO root fetch - main [MainThread]: Store serial: [23070479]
+[2024-05-06 03:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070479]
+[2024-05-06 03:45:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 03:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xursparks
+[2024-05-06 03:45:49] INFO root fetch - processPackages [xursparks]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-06 03:45:49] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/de/22/266685034a6a88212d32e6d3a47bf7cdcb1b0fb9b91b81f2d5e92a13d115/xursparks-1.0.3.tar.gz
+[2024-05-06 03:45:49] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/8f/53/023c3995bfbcd21187bc0f82d0d727295a4d40b7746be6c1471f0b69ffe8/xursparks-1.0.4.tar.gz
+[2024-05-06 03:45:49] INFO root fetch - processPackages [xursparks]: executing diffoscope
+[2024-05-06 03:45:49] INFO root fetch - processPackages [xursparks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xursparks-1.0.3.tar.gz tmp/xursparks-1.0.4.tar.gz --markdown 20240506/x/xursparks/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-06 03:45:50] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.3.tar.gz]
+[2024-05-06 03:45:50] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.4.tar.gz]
+[2024-05-06 03:45:50] INFO root fetch - main [MainThread]: End processing [xursparks]: success
+[2024-05-06 03:45:50] INFO root fetch - main [MainThread]: Store serial: [23070482]
