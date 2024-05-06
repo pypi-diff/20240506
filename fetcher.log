@@ -1745,3 +1745,36 @@
 [2024-05-06 02:47:53] INFO root fetch - processPackages [execnb]: Remove: archive file [/home/abi/fetcher/tmp/execnb-0.1.6.tar.gz]
 [2024-05-06 02:47:53] INFO root fetch - main [MainThread]: End processing [execnb]: success
 [2024-05-06 02:47:53] INFO root fetch - main [MainThread]: Store serial: [23070230]
+[2024-05-06 02:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070230]
+[2024-05-06 02:50:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 02:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-doc
+[2024-05-06 02:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: context-cite
+[2024-05-06 02:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-criteria
+[2024-05-06 02:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pd-extras
+[2024-05-06 02:50:02] INFO root fetch - processPackages [pd-extras]: New version: [5.0.6] Old Version: [5.0.5]
+[2024-05-06 02:50:02] INFO root fetch - processPackages [pih-doc]: New version: [0.14] Old Version: [0.13]
+[2024-05-06 02:50:02] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/69/8a/2f52afec2e28b5bf70900362c1ad82648b2112a8dd7f1e8cdde6b7175171/pd_extras-5.0.5.tar.gz
+[2024-05-06 02:50:02] INFO root fetch - processPackages [python-criteria]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-06 02:50:02] WARNING root fetch - processPackages [context-cite]: Skipping, unable to determine old version
+[2024-05-06 02:50:02] INFO root fetch - main [MainThread]: End processing [context-cite] error
+[2024-05-06 02:50:02] INFO root fetch - processPackages [pih-doc]: Downloading https://files.pythonhosted.org/packages/9a/a7/d4425bedfb06c5562cc405dd504381e22555f4e284956ae33ac20ea79b8f/pih-doc-0.13.tar.gz
+[2024-05-06 02:50:02] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/da/f4/9110ea6f4d21ad9d0f916cd2c8ea2b1a658ab566849bce2dbe4e25966db8/python_criteria-0.6.1.tar.gz
+[2024-05-06 02:50:02] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/6e/4b/c65aefcffd6fd11c490aa9c330653178c48fa2e9d7c12566d90a667ee3a1/pd_extras-5.0.6.tar.gz
+[2024-05-06 02:50:02] INFO root fetch - processPackages [pd-extras]: executing diffoscope
+[2024-05-06 02:50:02] INFO root fetch - processPackages [pd-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_extras-5.0.5.tar.gz tmp/pd_extras-5.0.6.tar.gz --markdown 20240506/p/pd-extras/5.0.5-5.0.6/README.md --exclude *.pyd
+[2024-05-06 02:50:02] INFO root fetch - processPackages [pih-doc]: Downloading https://files.pythonhosted.org/packages/41/67/0aecf10c1a334ba91e0b273992e44256c9e014fd654aa509bb4fa63fb8d4/pih-doc-0.14.tar.gz
+[2024-05-06 02:50:02] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/ef/f9/dd15921ac9bf2c61327eaf2a59de73de584d8429bc249b533e2c4eca502e/python_criteria-0.7.0.tar.gz
+[2024-05-06 02:50:02] INFO root fetch - processPackages [pih-doc]: executing diffoscope
+[2024-05-06 02:50:02] INFO root fetch - processPackages [pih-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-doc-0.13.tar.gz tmp/pih-doc-0.14.tar.gz --markdown 20240506/p/pih-doc/0.13-0.14/README.md --exclude *.pyd
+[2024-05-06 02:50:02] INFO root fetch - processPackages [python-criteria]: executing diffoscope
+[2024-05-06 02:50:02] INFO root fetch - processPackages [python-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_criteria-0.6.1.tar.gz tmp/python_criteria-0.7.0.tar.gz --markdown 20240506/p/python-criteria/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-06 02:50:03] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-5.0.5.tar.gz]
+[2024-05-06 02:50:03] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-5.0.6.tar.gz]
+[2024-05-06 02:50:03] INFO root fetch - main [MainThread]: End processing [pd-extras]: success
+[2024-05-06 02:50:03] INFO root fetch - processPackages [pih-doc]: Remove: archive file [/home/abi/fetcher/tmp/pih-doc-0.13.tar.gz]
+[2024-05-06 02:50:03] INFO root fetch - processPackages [pih-doc]: Remove: archive file [/home/abi/fetcher/tmp/pih-doc-0.14.tar.gz]
+[2024-05-06 02:50:03] INFO root fetch - main [MainThread]: End processing [pih-doc]: success
+[2024-05-06 02:50:03] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python_criteria-0.6.1.tar.gz]
+[2024-05-06 02:50:03] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python_criteria-0.7.0.tar.gz]
+[2024-05-06 02:50:03] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
+[2024-05-06 02:50:03] INFO root fetch - main [MainThread]: Store serial: [23070243]
