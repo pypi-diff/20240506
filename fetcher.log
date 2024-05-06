@@ -14197,3 +14197,119 @@
 [2024-05-06 11:36:14] INFO root fetch - processPackages [oci]: Remove: archive file [/home/abi/fetcher/tmp/oci-2.99.1.tar.gz]
 [2024-05-06 11:36:14] INFO root fetch - main [MainThread]: End processing [oci]: success
 [2024-05-06 11:36:14] INFO root fetch - main [MainThread]: Store serial: [23075382]
+[2024-05-06 11:38:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075382]
+[2024-05-06 11:38:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasets
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resvg-py
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: captureflow-agent
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plone-sphinx-theme
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lddtestgitforjenkins
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Test19991021
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ddddocr
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trex-mail
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-sentry
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: captureflow-agent
+[2024-05-06 11:38:26] INFO root fetch - processPackages [Test19991021]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-05-06 11:38:26] INFO root fetch - processPackages [captureflow-agent]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 11:38:26] INFO root fetch - processPackages [captureflow-agent]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 11:38:26] INFO root fetch - processPackages [lddtestgitforjenkins]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ddddocr]: New version: [1.5.2] Old Version: [1.4.9]
+[2024-05-06 11:38:26] INFO root fetch - processPackages [datasets]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-06 11:38:26] INFO root fetch - processPackages [trex-mail]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 11:38:26] INFO root fetch - processPackages [nonebot-plugin-sentry]: New version: [2.0.0] Old Version: [1.1.0]
+[2024-05-06 11:38:26] WARNING root fetch - processPackages [plone-sphinx-theme]: Skipping, unable to determine old version
+[2024-05-06 11:38:26] INFO root fetch - processPackages [plone-sphinx-theme]: Start processing: dptb
+[2024-05-06 11:38:26] INFO root fetch - main [MainThread]: End processing [plone-sphinx-theme] error
+[2024-05-06 11:38:26] INFO root fetch - processPackages [resvg-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-06 11:38:26] INFO root fetch - processPackages [Test19991021]: Downloading https://files.pythonhosted.org/packages/a1/0c/82395223c9d9bf3c950f239eadb9dafcfeff36654ad4b98323461d231a99/Test19991021-3.4.0.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [captureflow-agent]: Downloading https://files.pythonhosted.org/packages/b8/27/03c18c920a273920b2b666eb25df33400809d4995db226c3a9069e3fd596/captureflow_agent-0.0.6.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [captureflow-agent]: Downloading https://files.pythonhosted.org/packages/b8/27/03c18c920a273920b2b666eb25df33400809d4995db226c3a9069e3fd596/captureflow_agent-0.0.6.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ddddocr]: Downloading https://files.pythonhosted.org/packages/b1/2f/ccfa506e27cad0dddd894f938bdfed24b9f0d5eef815049618dcfaf0452a/ddddocr-1.4.9.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [dptb]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-06 11:38:26] WARNING root fetch - processPackages [ddddocr]: Skipping package: exceeds size limit 75816634>=10485760
+[2024-05-06 11:38:26] INFO root fetch - processPackages [ddddocr]: Start processing: mrfifo
+[2024-05-06 11:38:26] INFO root fetch - main [MainThread]: End processing [ddddocr] error
+[2024-05-06 11:38:26] INFO root fetch - processPackages [lddtestgitforjenkins]: Downloading https://files.pythonhosted.org/packages/f6/6c/17b87a3292b5890a77bc0277b808c2902c34f5250c27ef24a6ab988d3954/lddtestgitforjenkins-0.0.3.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [datasets]: Downloading https://files.pythonhosted.org/packages/ce/ba/2ed94e21dd2d425ebd185a2f5ea6cc63b48c145a374b161c7eb274d76229/datasets-2.8.0.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [trex-mail]: Downloading https://files.pythonhosted.org/packages/4d/a2/899f7f6fe7dc9303ba8d3c278e986a7ec2f20be21a5d182d6ea63ccd6c96/trex-mail-0.1.8.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [nonebot-plugin-sentry]: Downloading https://files.pythonhosted.org/packages/74/33/bf49e19282c5f60cc70b1445e01d0c66819ebd77d9c63b7a1fa1ab73a26f/nonebot_plugin_sentry-1.1.0.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [resvg-py]: Downloading https://files.pythonhosted.org/packages/e5/c1/aa84a3d2814c4d6a1df936aeb7e2caeb03fecb30afa97a00e02209031139/resvg_py-0.1.2.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [Test19991021]: Downloading https://files.pythonhosted.org/packages/07/89/7d4b9ff46886287ac14f228ac50694438e7b7f070351e02af2e40157cee9/Test19991021-3.5.0-py3-none-any.whl
+[2024-05-06 11:38:26] INFO root fetch - processPackages [mrfifo]: New version: [0.7] Old Version: [0.6]
+[2024-05-06 11:38:26] INFO root fetch - processPackages [dptb]: Downloading https://files.pythonhosted.org/packages/af/26/944cf288b2090439d3be9f63537c72a56157b0771ff1b0dd0042d290814a/dptb-2.0.1.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [Test19991021]: executing diffoscope
+[2024-05-06 11:38:26] INFO root fetch - processPackages [Test19991021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Test19991021-3.4.0.tar.gz tmp/Test19991021-3.5.0-py3-none-any.whl.zip --markdown 20240506/T/Test19991021/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-05-06 11:38:26] INFO root fetch - processPackages [captureflow-agent]: Downloading https://files.pythonhosted.org/packages/34/75/8a41e1cb958a79e5a96bb8cb03145c6c68584903331be88977cafd62ea1c/captureflow_agent-0.0.7.tar.gz
+[2024-05-06 11:38:26] INFO root fetch - processPackages [captureflow-agent]: Downloading https://files.pythonhosted.org/packages/34/75/8a41e1cb958a79e5a96bb8cb03145c6c68584903331be88977cafd62ea1c/captureflow_agent-0.0.7.tar.gz
+[2024-05-06 11:38:27] WARNING root fetch - processPackages [dptb]: Skipping package: exceeds size limit 43376884>=10485760
+[2024-05-06 11:38:27] INFO root fetch - processPackages [dptb]: Start processing: mkdocs-macros-adr-summary
+[2024-05-06 11:38:27] INFO root fetch - main [MainThread]: End processing [dptb] error
+[2024-05-06 11:38:27] INFO root fetch - processPackages [lddtestgitforjenkins]: Downloading https://files.pythonhosted.org/packages/31/45/963a3bbd869ab83b170aaa8ce201892d616aba6c445ebc459017e2ba5926/lddtestgitforjenkins-0.1.0-py3-none-any.whl
+[2024-05-06 11:38:27] INFO root fetch - processPackages [mrfifo]: Downloading https://files.pythonhosted.org/packages/70/82/ef9994b42e1fcf041b6817bc92e1a2b5a6f49c80c55502b1a25e569e5f79/mrfifo-0.6.tar.gz
+[2024-05-06 11:38:27] INFO root fetch - processPackages [nonebot-plugin-sentry]: Downloading https://files.pythonhosted.org/packages/55/84/a40e089857d1b84969b823bdf4cd93d55fc7c7471235bc5d2cde04f5779d/nonebot_plugin_sentry-2.0.0.tar.gz
+[2024-05-06 11:38:27] INFO root fetch - processPackages [captureflow-agent]: executing diffoscope
+[2024-05-06 11:38:27] INFO root fetch - processPackages [captureflow-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captureflow_agent-0.0.6.tar.gz tmp/captureflow_agent-0.0.7.tar.gz --markdown 20240506/c/captureflow-agent/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 11:38:27] INFO root fetch - processPackages [captureflow-agent]: executing diffoscope
+[2024-05-06 11:38:27] INFO root fetch - processPackages [captureflow-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captureflow_agent-0.0.6.tar.gz tmp/captureflow_agent-0.0.7.tar.gz --markdown 20240506/c/captureflow-agent/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 11:38:27] INFO root fetch - processPackages [lddtestgitforjenkins]: executing diffoscope
+[2024-05-06 11:38:27] INFO root fetch - processPackages [lddtestgitforjenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lddtestgitforjenkins-0.0.3.tar.gz tmp/lddtestgitforjenkins-0.1.0-py3-none-any.whl.zip --markdown 20240506/l/lddtestgitforjenkins/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-06 11:38:27] INFO root fetch - processPackages [mkdocs-macros-adr-summary]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-06 11:38:27] INFO root fetch - processPackages [trex-mail]: Downloading https://files.pythonhosted.org/packages/40/8c/a14364f74d3835f958cbe1ea26f4307f65da6c09c5a216ab4975bcba2c32/trex-mail-0.1.9.tar.gz
+[2024-05-06 11:38:27] INFO root fetch - processPackages [datasets]: Downloading https://files.pythonhosted.org/packages/f6/d0/ccd1c9148fe300a069b42a8701fe9f1cb9a22c056d449c96ef5d546e18aa/datasets-2.9.0.tar.gz
+[2024-05-06 11:38:27] INFO root fetch - processPackages [nonebot-plugin-sentry]: executing diffoscope
+[2024-05-06 11:38:27] INFO root fetch - processPackages [nonebot-plugin-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sentry-1.1.0.tar.gz tmp/nonebot_plugin_sentry-2.0.0.tar.gz --markdown 20240506/n/nonebot-plugin-sentry/1.1.0-2.0.0/README.md --exclude *.pyd
+[2024-05-06 11:38:27] INFO root fetch - processPackages [datasets]: executing diffoscope
+[2024-05-06 11:38:27] INFO root fetch - processPackages [mkdocs-macros-adr-summary]: Downloading https://files.pythonhosted.org/packages/c0/7a/238100e2b7c65707d9b21fbbca2d5cd0ffd3f0782ef00a05db60f2294615/mkdocs_macros_adr_summary-0.1.0.tar.gz
+[2024-05-06 11:38:27] INFO root fetch - processPackages [datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasets-2.8.0.tar.gz tmp/datasets-2.9.0.tar.gz --markdown 20240506/d/datasets/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-06 11:38:27] INFO root fetch - processPackages [trex-mail]: executing diffoscope
+[2024-05-06 11:38:27] INFO root fetch - processPackages [trex-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-mail-0.1.8.tar.gz tmp/trex-mail-0.1.9.tar.gz --markdown 20240506/t/trex-mail/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 11:38:27] INFO root fetch - processPackages [mrfifo]: Downloading https://files.pythonhosted.org/packages/d3/7c/234e668df60c89638fd00607e4a1bbc1b09b148965f0d862e5fecae03588/mrfifo-0.7.tar.gz
+[2024-05-06 11:38:27] INFO root fetch - processPackages [resvg-py]: Downloading https://files.pythonhosted.org/packages/19/84/b4a769cb1a249a79ea524bedf7e7ed717ec43a7bc8e6709376879de0141a/resvg_py-0.1.3.tar.gz
+[2024-05-06 11:38:27] INFO root fetch - processPackages [mrfifo]: executing diffoscope
+[2024-05-06 11:38:27] INFO root fetch - processPackages [mrfifo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfifo-0.6.tar.gz tmp/mrfifo-0.7.tar.gz --markdown 20240506/m/mrfifo/0.6-0.7/README.md --exclude *.pyd
+[2024-05-06 11:38:27] INFO root fetch - processPackages [Test19991021]: Remove: archive file [/home/abi/fetcher/tmp/Test19991021-3.4.0.tar.gz]
+[2024-05-06 11:38:27] INFO root fetch - processPackages [Test19991021]: Remove: archive file [/home/abi/fetcher/tmp/Test19991021-3.5.0-py3-none-any.whl.zip]
+[2024-05-06 11:38:27] INFO root fetch - processPackages [Test19991021]: Start processing: airflow-provider-qlik-sense-client-managed
+[2024-05-06 11:38:27] INFO root fetch - main [MainThread]: End processing [Test19991021]: success
+[2024-05-06 11:38:27] INFO root fetch - processPackages [resvg-py]: executing diffoscope
+[2024-05-06 11:38:27] INFO root fetch - processPackages [resvg-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resvg_py-0.1.2.tar.gz tmp/resvg_py-0.1.3.tar.gz --markdown 20240506/r/resvg-py/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-06 11:38:27] INFO root fetch - processPackages [mkdocs-macros-adr-summary]: Downloading https://files.pythonhosted.org/packages/dd/14/3d87adb79fb43a3cbf38535aaffd1a31f20edc551d9369a789b2f1d5b3b5/mkdocs_macros_adr_summary-1.0.0.tar.gz
+[2024-05-06 11:38:27] INFO root fetch - processPackages [mkdocs-macros-adr-summary]: executing diffoscope
+[2024-05-06 11:38:27] INFO root fetch - processPackages [mkdocs-macros-adr-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_macros_adr_summary-0.1.0.tar.gz tmp/mkdocs_macros_adr_summary-1.0.0.tar.gz --markdown 20240506/m/mkdocs-macros-adr-summary/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-06 11:38:27] WARNING root fetch - processPackages [airflow-provider-qlik-sense-client-managed]: Skipping, unable to determine old version
+[2024-05-06 11:38:27] INFO root fetch - processPackages [airflow-provider-qlik-sense-client-managed]: Start processing: podlozhnyy-module
+[2024-05-06 11:38:27] INFO root fetch - main [MainThread]: End processing [airflow-provider-qlik-sense-client-managed] error
+[2024-05-06 11:38:27] INFO root fetch - processPackages [captureflow-agent]: Remove: archive file [/home/abi/fetcher/tmp/captureflow_agent-0.0.6.tar.gz]
+[2024-05-06 11:38:27] INFO root fetch - processPackages [captureflow-agent]: Remove: archive file [/home/abi/fetcher/tmp/captureflow_agent-0.0.7.tar.gz]
+[2024-05-06 11:38:27] INFO root fetch - main [MainThread]: End processing [captureflow-agent]: success
+[2024-05-06 11:38:27] INFO root fetch - processPackages [lddtestgitforjenkins]: Remove: archive file [/home/abi/fetcher/tmp/lddtestgitforjenkins-0.0.3.tar.gz]
+[2024-05-06 11:38:27] INFO root fetch - processPackages [lddtestgitforjenkins]: Remove: archive file [/home/abi/fetcher/tmp/lddtestgitforjenkins-0.1.0-py3-none-any.whl.zip]
+[2024-05-06 11:38:27] INFO root fetch - main [MainThread]: End processing [lddtestgitforjenkins]: success
+[2024-05-06 11:38:28] INFO root fetch - processPackages [podlozhnyy-module]: New version: [2.3a1] Old Version: [2.3a0]
+[2024-05-06 11:38:28] INFO root fetch - main [MainThread]: End processing [captureflow-agent]: success
+[2024-05-06 11:38:28] INFO root fetch - processPackages [nonebot-plugin-sentry]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sentry-1.1.0.tar.gz]
+[2024-05-06 11:38:28] INFO root fetch - processPackages [nonebot-plugin-sentry]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sentry-2.0.0.tar.gz]
+[2024-05-06 11:38:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sentry]: success
+[2024-05-06 11:38:28] INFO root fetch - processPackages [podlozhnyy-module]: Downloading https://files.pythonhosted.org/packages/44/5d/905bce9bb5dd4b4b852e94dda04eeca7c10a29d1534d2139a0ea8390a720/podlozhnyy_module-2.3a0.tar.gz
+[2024-05-06 11:38:28] INFO root fetch - processPackages [trex-mail]: Remove: archive file [/home/abi/fetcher/tmp/trex-mail-0.1.8.tar.gz]
+[2024-05-06 11:38:28] INFO root fetch - processPackages [trex-mail]: Remove: archive file [/home/abi/fetcher/tmp/trex-mail-0.1.9.tar.gz]
+[2024-05-06 11:38:28] INFO root fetch - main [MainThread]: End processing [trex-mail]: success
+[2024-05-06 11:38:28] INFO root fetch - processPackages [podlozhnyy-module]: Downloading https://files.pythonhosted.org/packages/6c/d2/c6212b3ed503b5d182b59c35610751c3b5a60e8a2e340bb88a07fd215adb/podlozhnyy_module-2.3a1.tar.gz
+[2024-05-06 11:38:28] INFO root fetch - processPackages [mrfifo]: Remove: archive file [/home/abi/fetcher/tmp/mrfifo-0.6.tar.gz]
+[2024-05-06 11:38:28] INFO root fetch - processPackages [mrfifo]: Remove: archive file [/home/abi/fetcher/tmp/mrfifo-0.7.tar.gz]
+[2024-05-06 11:38:28] INFO root fetch - main [MainThread]: End processing [mrfifo]: success
+[2024-05-06 11:38:28] INFO root fetch - processPackages [podlozhnyy-module]: executing diffoscope
+[2024-05-06 11:38:28] INFO root fetch - processPackages [podlozhnyy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podlozhnyy_module-2.3a0.tar.gz tmp/podlozhnyy_module-2.3a1.tar.gz --markdown 20240506/p/podlozhnyy-module/2.3a0-2.3a1/README.md --exclude *.pyd
+[2024-05-06 11:38:28] INFO root fetch - processPackages [mkdocs-macros-adr-summary]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_macros_adr_summary-0.1.0.tar.gz]
+[2024-05-06 11:38:28] INFO root fetch - processPackages [mkdocs-macros-adr-summary]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_macros_adr_summary-1.0.0.tar.gz]
+[2024-05-06 11:38:28] INFO root fetch - main [MainThread]: End processing [mkdocs-macros-adr-summary]: success
+[2024-05-06 11:38:29] INFO root fetch - processPackages [resvg-py]: Remove: archive file [/home/abi/fetcher/tmp/resvg_py-0.1.2.tar.gz]
+[2024-05-06 11:38:29] INFO root fetch - processPackages [resvg-py]: Remove: archive file [/home/abi/fetcher/tmp/resvg_py-0.1.3.tar.gz]
+[2024-05-06 11:38:29] INFO root fetch - main [MainThread]: End processing [resvg-py]: success
+[2024-05-06 11:38:29] INFO root fetch - processPackages [podlozhnyy-module]: Remove: archive file [/home/abi/fetcher/tmp/podlozhnyy_module-2.3a0.tar.gz]
+[2024-05-06 11:38:29] INFO root fetch - processPackages [podlozhnyy-module]: Remove: archive file [/home/abi/fetcher/tmp/podlozhnyy_module-2.3a1.tar.gz]
+[2024-05-06 11:38:29] INFO root fetch - main [MainThread]: End processing [podlozhnyy-module]: success
+[2024-05-06 11:38:29] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.8.0.tar.gz]
+[2024-05-06 11:38:29] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.9.0.tar.gz]
+[2024-05-06 11:38:29] INFO root fetch - main [MainThread]: End processing [datasets]: success
+[2024-05-06 11:38:29] INFO root fetch - main [MainThread]: Store serial: [23075492]
