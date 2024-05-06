@@ -7782,3 +7782,81 @@
 [2024-05-06 09:34:26] INFO root fetch - processPackages [tmdsclient]: Remove: archive file [/home/abi/fetcher/tmp/tmdsclient-0.2.0.tar.gz]
 [2024-05-06 09:34:26] INFO root fetch - main [MainThread]: End processing [tmdsclient]: success
 [2024-05-06 09:34:26] INFO root fetch - main [MainThread]: Store serial: [23072973]
+[2024-05-06 09:36:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072973]
+[2024-05-06 09:36:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samplepythonavishek
+[2024-05-06 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-mgmt-resource
+[2024-05-06 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyftg-sound
+[2024-05-06 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2edge
+[2024-05-06 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-pandas
+[2024-05-06 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EAPI-SDK
+[2024-05-06 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prodsys
+[2024-05-06 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kytest
+[2024-05-06 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: verify4py-test1
+[2024-05-06 09:36:36] INFO root fetch - processPackages [EAPI-SDK]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-06 09:36:36] INFO root fetch - processPackages [e2edge]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-06 09:36:36] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 09:36:36] INFO root fetch - processPackages [prodsys]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-06 09:36:36] INFO root fetch - processPackages [EAPI-SDK]: Downloading https://files.pythonhosted.org/packages/ca/e6/a81d9e06d3b6f0ffac9cdf32c864b606d45d54281a84316054bf53b2e24a/eapi_sdk-0.1.0.tar.gz
+[2024-05-06 09:36:36] WARNING root fetch - processPackages [samplepythonavishek]: Skipping, unable to determine old version
+[2024-05-06 09:36:36] INFO root fetch - main [MainThread]: End processing [samplepythonavishek] error
+[2024-05-06 09:36:36] INFO root fetch - processPackages [verify4py-test1]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 09:36:36] INFO root fetch - processPackages [pyftg-sound]: New version: [0.2] Old Version: [0.1]
+[2024-05-06 09:36:36] INFO root fetch - processPackages [kytest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 09:36:36] INFO root fetch - processPackages [e2edge]: Downloading https://files.pythonhosted.org/packages/e7/e2/39451af0b00e300cc2ba10cc4b38eb4d75aeb2ea4df56c589e9f5be0ac53/e2edge-0.1.2.tar.gz
+[2024-05-06 09:36:36] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 09:36:36] INFO root fetch - processPackages [prodsys]: Downloading https://files.pythonhosted.org/packages/18/d5/49bb58f1592ed6823582ea59b43eb6655f402889bae3e0a10194c5af312d/prodsys-0.6.0.tar.gz
+[2024-05-06 09:36:36] INFO root fetch - processPackages [azure-mgmt-resource]: New version: [9.0.0] Old Version: [8.0.1]
+[2024-05-06 09:36:36] INFO root fetch - processPackages [verify4py-test1]: Downloading https://files.pythonhosted.org/packages/6b/c1/2d76d526553c95c654d1cb97cd40bd61558579ddbff1b7e8bd0a204a6699/verify4py-test1-1.0.1.tar.gz
+[2024-05-06 09:36:36] INFO root fetch - processPackages [pyftg-sound]: Downloading https://files.pythonhosted.org/packages/10/b3/613c20fcfaea663f127ce5ac56959d9012d743385280da0f307b39022afa/pyftg_sound-0.1.tar.gz
+[2024-05-06 09:36:36] INFO root fetch - processPackages [EAPI-SDK]: Downloading https://files.pythonhosted.org/packages/00/d9/a08944b038c4495ea8efccc909b427151fc26b5aa1c495d9a0da6909903f/eapi_sdk-1.0.0.tar.gz
+[2024-05-06 09:36:36] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/38/b4/85e915d95e6d8ae6caae685be018b54adaadfcc88094c4b9a766af3f139c/kytest-0.0.8.tar.gz
+[2024-05-06 09:36:36] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 09:36:36] INFO root fetch - processPackages [azure-mgmt-resource]: Downloading https://files.pythonhosted.org/packages/a7/95/d579825c509242853233a7a65f0ee5cd2fcd4dfd4c24f7f723a8d91b6bba/azure-mgmt-resource-8.0.1.zip
+[2024-05-06 09:36:36] INFO root fetch - processPackages [e2edge]: Downloading https://files.pythonhosted.org/packages/ae/fb/48abd4e6cf96b57a29a9b931b2872df4c8392e750c3957df506e459989b7/e2edge-0.1.3.tar.gz
+[2024-05-06 09:36:36] INFO root fetch - processPackages [prodsys]: Downloading https://files.pythonhosted.org/packages/d4/49/2f3ebfad3d8fd1b513b73bf7846a50e99b864ab211f3103bd9694ce226e3/prodsys-0.6.1.tar.gz
+[2024-05-06 09:36:36] INFO root fetch - processPackages [EAPI-SDK]: executing diffoscope
+[2024-05-06 09:36:36] INFO root fetch - processPackages [EAPI-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eapi_sdk-0.1.0.tar.gz tmp/eapi_sdk-1.0.0.tar.gz --markdown 20240506/E/EAPI-SDK/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-06 09:36:36] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 09:36:36] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 09:36:36] INFO root fetch - processPackages [e2edge]: executing diffoscope
+[2024-05-06 09:36:36] INFO root fetch - processPackages [e2edge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2edge-0.1.2.tar.gz tmp/e2edge-0.1.3.tar.gz --markdown 20240506/e/e2edge/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-06 09:36:36] INFO root fetch - processPackages [prodsys]: executing diffoscope
+[2024-05-06 09:36:36] INFO root fetch - processPackages [prodsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodsys-0.6.0.tar.gz tmp/prodsys-0.6.1.tar.gz --markdown 20240506/p/prodsys/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-06 09:36:36] INFO root fetch - processPackages [pyftg-sound]: Downloading https://files.pythonhosted.org/packages/98/fd/9eb8333d5e1023dd923097505638a664b4291f67da6ee1f22547c0c53f50/pyftg_sound-0.2.tar.gz
+[2024-05-06 09:36:37] INFO root fetch - processPackages [pyftg-sound]: executing diffoscope
+[2024-05-06 09:36:37] INFO root fetch - processPackages [pyftg-sound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyftg_sound-0.1.tar.gz tmp/pyftg_sound-0.2.tar.gz --markdown 20240506/p/pyftg-sound/0.1-0.2/README.md --exclude *.pyd
+[2024-05-06 09:36:37] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/36/f4/c3ebb11b933fe50ea919d941f19fdd760121247aa33dcca464e43242fc1c/kytest-0.0.9.tar.gz
+[2024-05-06 09:36:37] INFO root fetch - processPackages [verify4py-test1]: Downloading https://files.pythonhosted.org/packages/f1/34/2e84a4bcb3aa8ff8984ee1b3b4e0d24ca29b9111a2b5a3ba832faa1f2c96/verify4py-test1-1.0.2.tar.gz
+[2024-05-06 09:36:37] INFO root fetch - processPackages [kytest]: executing diffoscope
+[2024-05-06 09:36:37] INFO root fetch - processPackages [kytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kytest-0.0.8.tar.gz tmp/kytest-0.0.9.tar.gz --markdown 20240506/k/kytest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 09:36:37] INFO root fetch - processPackages [verify4py-test1]: executing diffoscope
+[2024-05-06 09:36:37] INFO root fetch - processPackages [verify4py-test1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify4py-test1-1.0.1.tar.gz tmp/verify4py-test1-1.0.2.tar.gz --markdown 20240506/v/verify4py-test1/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 09:36:37] INFO root fetch - processPackages [azure-mgmt-resource]: Downloading https://files.pythonhosted.org/packages/f7/27/f4ee7662fa0d5ac043d4e9daff5e8b0299a6a4f57d3b572a30da36e1b0e1/azure-mgmt-resource-9.0.0.zip
+[2024-05-06 09:36:37] INFO root fetch - processPackages [EAPI-SDK]: Remove: archive file [/home/abi/fetcher/tmp/eapi_sdk-0.1.0.tar.gz]
+[2024-05-06 09:36:37] INFO root fetch - processPackages [EAPI-SDK]: Remove: archive file [/home/abi/fetcher/tmp/eapi_sdk-1.0.0.tar.gz]
+[2024-05-06 09:36:37] INFO root fetch - main [MainThread]: End processing [EAPI-SDK]: success
+[2024-05-06 09:36:37] INFO root fetch - processPackages [e2edge]: Remove: archive file [/home/abi/fetcher/tmp/e2edge-0.1.2.tar.gz]
+[2024-05-06 09:36:37] INFO root fetch - processPackages [e2edge]: Remove: archive file [/home/abi/fetcher/tmp/e2edge-0.1.3.tar.gz]
+[2024-05-06 09:36:37] INFO root fetch - main [MainThread]: End processing [e2edge]: success
+[2024-05-06 09:36:37] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 09:36:37] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 09:36:37] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 09:36:37] INFO root fetch - processPackages [pyftg-sound]: Remove: archive file [/home/abi/fetcher/tmp/pyftg_sound-0.1.tar.gz]
+[2024-05-06 09:36:37] INFO root fetch - processPackages [pyftg-sound]: Remove: archive file [/home/abi/fetcher/tmp/pyftg_sound-0.2.tar.gz]
+[2024-05-06 09:36:37] INFO root fetch - main [MainThread]: End processing [pyftg-sound]: success
+[2024-05-06 09:36:37] INFO root fetch - processPackages [azure-mgmt-resource]: executing diffoscope
+[2024-05-06 09:36:37] INFO root fetch - processPackages [azure-mgmt-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-resource-8.0.1.zip tmp/azure-mgmt-resource-9.0.0.zip --markdown 20240506/a/azure-mgmt-resource/8.0.1-9.0.0/README.md --exclude *.pyd
+[2024-05-06 09:36:38] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.6.0.tar.gz]
+[2024-05-06 09:36:38] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.6.1.tar.gz]
+[2024-05-06 09:36:38] INFO root fetch - main [MainThread]: End processing [prodsys]: success
+[2024-05-06 09:36:38] INFO root fetch - processPackages [verify4py-test1]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-test1-1.0.1.tar.gz]
+[2024-05-06 09:36:38] INFO root fetch - processPackages [verify4py-test1]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-test1-1.0.2.tar.gz]
+[2024-05-06 09:36:38] INFO root fetch - main [MainThread]: End processing [verify4py-test1]: success
+[2024-05-06 09:36:38] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.8.tar.gz]
+[2024-05-06 09:36:38] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.9.tar.gz]
+[2024-05-06 09:36:38] INFO root fetch - main [MainThread]: End processing [kytest]: success
+[2024-05-06 09:36:41] INFO root fetch - processPackages [azure-mgmt-resource]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-resource-8.0.1.zip]
+[2024-05-06 09:36:41] INFO root fetch - processPackages [azure-mgmt-resource]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-resource-9.0.0.zip]
+[2024-05-06 09:36:41] INFO root fetch - main [MainThread]: End processing [azure-mgmt-resource]: success
+[2024-05-06 09:36:41] INFO root fetch - main [MainThread]: Store serial: [23073000]
