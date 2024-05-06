@@ -14604,3 +14604,51 @@
 [2024-05-06 11:49:28] INFO root fetch - processPackages [locust-swarm]: Remove: archive file [/home/abi/fetcher/tmp/locust_swarm-6.1.1.tar.gz]
 [2024-05-06 11:49:28] INFO root fetch - main [MainThread]: End processing [locust-swarm]: success
 [2024-05-06 11:49:28] INFO root fetch - main [MainThread]: Store serial: [23075674]
+[2024-05-06 11:51:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075674]
+[2024-05-06 11:51:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 11:51:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngstoolkits
+[2024-05-06 11:51:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ado_wrapper
+[2024-05-06 11:51:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atsphinx-mini18n
+[2024-05-06 11:51:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coffe-analyzer
+[2024-05-06 11:51:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trex-analytic
+[2024-05-06 11:51:36] INFO root fetch - processPackages [ngstoolkits]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-05-06 11:51:36] INFO root fetch - processPackages [ado_wrapper]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-06 11:51:36] INFO root fetch - processPackages [coffe-analyzer]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-06 11:51:36] INFO root fetch - processPackages [ngstoolkits]: Downloading https://files.pythonhosted.org/packages/d8/70/5bf9066fe225a54b785da4016ba2a7fd1ecf8e9b04721fd89fe924de0da7/ngstoolkits-1.0.0rc1.tar.gz
+[2024-05-06 11:51:36] INFO root fetch - processPackages [atsphinx-mini18n]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-06 11:51:36] INFO root fetch - processPackages [trex-analytic]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-06 11:51:37] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/5a/4e/5446bc9281bd9ba584421a78463e3d7eab79b6f357865c34abe73dbeb48e/ado_wrapper-1.6.1.tar.gz
+[2024-05-06 11:51:37] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/60/04/c12f2c8f7405689efff120d42cfbd59ad4d3247a891150dd1ddbf2afad49/coffe_analyzer-0.1.5.tar.gz
+[2024-05-06 11:51:37] INFO root fetch - processPackages [trex-analytic]: Downloading https://files.pythonhosted.org/packages/5d/ca/475453edac766210f7103cfafb80163c1c9bb6ec624fadc61eec6c893768/trex-analytic-1.0.3.tar.gz
+[2024-05-06 11:51:37] INFO root fetch - processPackages [atsphinx-mini18n]: Downloading https://files.pythonhosted.org/packages/3a/fb/0239a60f6c7332224c5a8f9e807c2ef2a243ac0e37e5652d13752cdf7327/atsphinx_mini18n-0.3.0.tar.gz
+[2024-05-06 11:51:37] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/36/f0/c0ceaf0ad18865eeb4d25559d73e2a88069d12c2777e50bc279da084152b/ado_wrapper-1.6.2.tar.gz
+[2024-05-06 11:51:37] INFO root fetch - processPackages [ngstoolkits]: Downloading https://files.pythonhosted.org/packages/72/18/819c5836b181ec315091296fd0b050d055ce91db66fb0879dbccd5710abb/ngstoolkits-1.0.0rc2.tar.gz
+[2024-05-06 11:51:37] INFO root fetch - processPackages [ado_wrapper]: executing diffoscope
+[2024-05-06 11:51:37] INFO root fetch - processPackages [ado_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ado_wrapper-1.6.1.tar.gz tmp/ado_wrapper-1.6.2.tar.gz --markdown 20240506/a/ado_wrapper/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-06 11:51:37] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/7a/7c/9270604274cec2ef2ece176dd4b4d9cbcd99039a77e3774dbc05c3ff5551/coffe_analyzer-0.1.6.tar.gz
+[2024-05-06 11:51:37] INFO root fetch - processPackages [ngstoolkits]: executing diffoscope
+[2024-05-06 11:51:37] INFO root fetch - processPackages [ngstoolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstoolkits-1.0.0rc1.tar.gz tmp/ngstoolkits-1.0.0rc2.tar.gz --markdown 20240506/n/ngstoolkits/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-05-06 11:51:37] INFO root fetch - processPackages [coffe-analyzer]: executing diffoscope
+[2024-05-06 11:51:37] INFO root fetch - processPackages [coffe-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffe_analyzer-0.1.5.tar.gz tmp/coffe_analyzer-0.1.6.tar.gz --markdown 20240506/c/coffe-analyzer/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-06 11:51:37] INFO root fetch - processPackages [trex-analytic]: Downloading https://files.pythonhosted.org/packages/d9/53/e09559c4bb2f42595ade2186fc62a0b18c336160e8de1ef57c3c3efe1d8b/trex-analytic-1.0.4.tar.gz
+[2024-05-06 11:51:37] INFO root fetch - processPackages [atsphinx-mini18n]: Downloading https://files.pythonhosted.org/packages/e2/51/c07fb6dee14ad4b6e0f927724e33e33ac26681c8ba15f00f189df5c65773/atsphinx_mini18n-0.3.1.tar.gz
+[2024-05-06 11:51:37] INFO root fetch - processPackages [trex-analytic]: executing diffoscope
+[2024-05-06 11:51:37] INFO root fetch - processPackages [trex-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-analytic-1.0.3.tar.gz tmp/trex-analytic-1.0.4.tar.gz --markdown 20240506/t/trex-analytic/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-06 11:51:37] INFO root fetch - processPackages [atsphinx-mini18n]: executing diffoscope
+[2024-05-06 11:51:37] INFO root fetch - processPackages [atsphinx-mini18n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atsphinx_mini18n-0.3.0.tar.gz tmp/atsphinx_mini18n-0.3.1.tar.gz --markdown 20240506/a/atsphinx-mini18n/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-06 11:51:38] INFO root fetch - processPackages [ngstoolkits]: Remove: archive file [/home/abi/fetcher/tmp/ngstoolkits-1.0.0rc1.tar.gz]
+[2024-05-06 11:51:38] INFO root fetch - processPackages [ngstoolkits]: Remove: archive file [/home/abi/fetcher/tmp/ngstoolkits-1.0.0rc2.tar.gz]
+[2024-05-06 11:51:38] INFO root fetch - main [MainThread]: End processing [ngstoolkits]: success
+[2024-05-06 11:51:38] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.5.tar.gz]
+[2024-05-06 11:51:38] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.6.tar.gz]
+[2024-05-06 11:51:38] INFO root fetch - main [MainThread]: End processing [coffe-analyzer]: success
+[2024-05-06 11:51:38] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.6.1.tar.gz]
+[2024-05-06 11:51:38] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.6.2.tar.gz]
+[2024-05-06 11:51:38] INFO root fetch - main [MainThread]: End processing [ado_wrapper]: success
+[2024-05-06 11:51:38] INFO root fetch - processPackages [trex-analytic]: Remove: archive file [/home/abi/fetcher/tmp/trex-analytic-1.0.3.tar.gz]
+[2024-05-06 11:51:38] INFO root fetch - processPackages [trex-analytic]: Remove: archive file [/home/abi/fetcher/tmp/trex-analytic-1.0.4.tar.gz]
+[2024-05-06 11:51:38] INFO root fetch - main [MainThread]: End processing [trex-analytic]: success
+[2024-05-06 11:51:38] INFO root fetch - processPackages [atsphinx-mini18n]: Remove: archive file [/home/abi/fetcher/tmp/atsphinx_mini18n-0.3.0.tar.gz]
+[2024-05-06 11:51:38] INFO root fetch - processPackages [atsphinx-mini18n]: Remove: archive file [/home/abi/fetcher/tmp/atsphinx_mini18n-0.3.1.tar.gz]
+[2024-05-06 11:51:38] INFO root fetch - main [MainThread]: End processing [atsphinx-mini18n]: success
+[2024-05-06 11:51:38] INFO root fetch - main [MainThread]: Store serial: [23075687]
