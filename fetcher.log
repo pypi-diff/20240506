@@ -18113,3 +18113,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:12:18] INFO root fetch - processPackages [shrillecho]: Remove: archive file [/home/abi/fetcher/tmp/shrillecho-1.1.0.tar.gz]
 [2024-05-06 14:12:18] INFO root fetch - main [MainThread]: End processing [shrillecho]: success
 [2024-05-06 14:12:18] INFO root fetch - main [MainThread]: Store serial: [23077250]
+[2024-05-06 14:14:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077250]
+[2024-05-06 14:14:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 14:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ne-m3u8
+[2024-05-06 14:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yowasp-yosys
+[2024-05-06 14:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-foundation-messaging-python
+[2024-05-06 14:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-foundation-messaging-python
+[2024-05-06 14:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odestimationpy
+[2024-05-06 14:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slicetca
+[2024-05-06 14:14:27] INFO root fetch - processPackages [slicetca]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 14:14:27] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1714997625] Old Version: [1.7.0.dev1714997624]
+[2024-05-06 14:14:27] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1714997625] Old Version: [1.7.0.dev1714997624]
+[2024-05-06 14:14:27] WARNING root fetch - processPackages [ne-m3u8]: Skipping, unable to determine old version
+[2024-05-06 14:14:27] INFO root fetch - main [MainThread]: End processing [ne-m3u8] error
+[2024-05-06 14:14:27] INFO root fetch - processPackages [slicetca]: Downloading https://files.pythonhosted.org/packages/61/9e/51a274d411b1a7e5b071057ee66632d9ac7613f7fc3e14505176c2c9b561/slicetca-1.0.1.tar.gz
+[2024-05-06 14:14:27] INFO root fetch - processPackages [yowasp-yosys]: New version: [0.9.post5623.dev231] Old Version: [0.9.post5610.dev226]
+[2024-05-06 14:14:27] WARNING root fetch - processPackages [odestimationpy]: Skipping, unable to determine old version
+[2024-05-06 14:14:27] INFO root fetch - main [MainThread]: End processing [odestimationpy] error
+[2024-05-06 14:14:28] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/0f/71/5acfc93efb35fc7a02b17196a1866698d87da241264b7a347466f898fc8e/aissemble_foundation_messaging_python-1.7.0.dev1714997624.tar.gz
+[2024-05-06 14:14:28] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/0f/71/5acfc93efb35fc7a02b17196a1866698d87da241264b7a347466f898fc8e/aissemble_foundation_messaging_python-1.7.0.dev1714997624.tar.gz
+[2024-05-06 14:14:28] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/d9/10/e7c660588919726a2a41c8d346d4509ae1048b18dd3668a5a08e26ded384/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl
+[2024-05-06 14:14:28] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170478>=10485760
+[2024-05-06 14:14:28] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-06 14:14:28] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170478>=10485760
+[2024-05-06 14:14:28] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-06 14:14:28] INFO root fetch - processPackages [slicetca]: Downloading https://files.pythonhosted.org/packages/b7/c4/0c98ad6878b9963848d4340d45f0e3e91eb8bc2ca2016ca5b718322140ff/slicetca-1.0.2.tar.gz
+[2024-05-06 14:14:28] INFO root fetch - processPackages [slicetca]: executing diffoscope
+[2024-05-06 14:14:28] INFO root fetch - processPackages [slicetca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slicetca-1.0.1.tar.gz tmp/slicetca-1.0.2.tar.gz --markdown 20240506/s/slicetca/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 14:14:28] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-1.0.1.tar.gz]
+[2024-05-06 14:14:28] INFO root fetch - processPackages [slicetca]: Remove: archive file [/home/abi/fetcher/tmp/slicetca-1.0.2.tar.gz]
+[2024-05-06 14:14:28] INFO root fetch - main [MainThread]: End processing [slicetca]: success
+[2024-05-06 14:14:29] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/35/c4/b4e64452f262989908f22d3e1fff557841f6182c69b887c4f6508b655418/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl
+[2024-05-06 14:14:31] INFO root fetch - processPackages [yowasp-yosys]: executing diffoscope
+[2024-05-06 14:14:31] INFO root fetch - processPackages [yowasp-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip --markdown 20240506/y/yowasp-yosys/0.9.post5610.dev226-0.9.post5623.dev231/README.md --exclude *.pyd
+[2024-05-06 14:15:27] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip]
+[2024-05-06 14:15:27] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
+[2024-05-06 14:15:27] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
+[2024-05-06 14:15:27] INFO root fetch - main [MainThread]: Store serial: [23077272]
