@@ -6016,3 +6016,33 @@
 [2024-05-06 07:48:11] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.907.tar.gz]
 [2024-05-06 07:48:11] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
 [2024-05-06 07:48:11] INFO root fetch - main [MainThread]: Store serial: [23072060]
+[2024-05-06 07:50:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072060]
+[2024-05-06 07:50:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 07:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nuitka-hatch
+[2024-05-06 07:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qdsdk
+[2024-05-06 07:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beanhub-import
+[2024-05-06 07:50:20] INFO root fetch - processPackages [beanhub-import]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 07:50:20] INFO root fetch - processPackages [nuitka-hatch]: New version: [1.4] Old Version: [1.3]
+[2024-05-06 07:50:20] INFO root fetch - processPackages [qdsdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 07:50:20] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/31/46/9ab8f1f37f44528aae4c832ec180b93c8eececa738b430fcb2cb1302f536/beanhub_import-0.0.3.tar.gz
+[2024-05-06 07:50:20] INFO root fetch - processPackages [nuitka-hatch]: Downloading https://files.pythonhosted.org/packages/b6/42/edd47beb30ba22e58e2fd36facc51b982949d3ef7ef958b24b6ee8442d8a/nuitka_hatch-1.3.tar.gz
+[2024-05-06 07:50:20] INFO root fetch - processPackages [qdsdk]: Downloading https://files.pythonhosted.org/packages/29/cf/695ff30ca6f17f52a202db080a23e4cbae49a68cbf6fdf361a0c333d28e3/qdsdk-0.0.3.tar.gz
+[2024-05-06 07:50:20] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/9f/35/d83ac738bbf1c0135c1d60df12ac2fd9a4c7ab5db9162f1c8328fd7dfed4/beanhub_import-0.0.4.tar.gz
+[2024-05-06 07:50:21] INFO root fetch - processPackages [nuitka-hatch]: Downloading https://files.pythonhosted.org/packages/96/53/b234a7ff065adcbddb3934c8c675161cff41419a495ef7be90bbefbcd220/nuitka_hatch-1.4.tar.gz
+[2024-05-06 07:50:21] INFO root fetch - processPackages [beanhub-import]: executing diffoscope
+[2024-05-06 07:50:21] INFO root fetch - processPackages [beanhub-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_import-0.0.3.tar.gz tmp/beanhub_import-0.0.4.tar.gz --markdown 20240506/b/beanhub-import/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 07:50:21] INFO root fetch - processPackages [qdsdk]: Downloading https://files.pythonhosted.org/packages/5b/4c/750df7e0f0e9ad7cfd60d5a2e3b8a78127d2c5e92cd19404ca0ec7d271cf/qdsdk-0.0.4.tar.gz
+[2024-05-06 07:50:21] INFO root fetch - processPackages [nuitka-hatch]: executing diffoscope
+[2024-05-06 07:50:21] INFO root fetch - processPackages [nuitka-hatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuitka_hatch-1.3.tar.gz tmp/nuitka_hatch-1.4.tar.gz --markdown 20240506/n/nuitka-hatch/1.3-1.4/README.md --exclude *.pyd
+[2024-05-06 07:50:21] INFO root fetch - processPackages [qdsdk]: executing diffoscope
+[2024-05-06 07:50:21] INFO root fetch - processPackages [qdsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdsdk-0.0.3.tar.gz tmp/qdsdk-0.0.4.tar.gz --markdown 20240506/q/qdsdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 07:50:21] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.3.tar.gz]
+[2024-05-06 07:50:21] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.4.tar.gz]
+[2024-05-06 07:50:21] INFO root fetch - main [MainThread]: End processing [beanhub-import]: success
+[2024-05-06 07:50:21] INFO root fetch - processPackages [nuitka-hatch]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_hatch-1.3.tar.gz]
+[2024-05-06 07:50:21] INFO root fetch - processPackages [nuitka-hatch]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_hatch-1.4.tar.gz]
+[2024-05-06 07:50:21] INFO root fetch - main [MainThread]: End processing [nuitka-hatch]: success
+[2024-05-06 07:50:21] INFO root fetch - processPackages [qdsdk]: Remove: archive file [/home/abi/fetcher/tmp/qdsdk-0.0.3.tar.gz]
+[2024-05-06 07:50:21] INFO root fetch - processPackages [qdsdk]: Remove: archive file [/home/abi/fetcher/tmp/qdsdk-0.0.4.tar.gz]
+[2024-05-06 07:50:21] INFO root fetch - main [MainThread]: End processing [qdsdk]: success
+[2024-05-06 07:50:21] INFO root fetch - main [MainThread]: Store serial: [23072069]
