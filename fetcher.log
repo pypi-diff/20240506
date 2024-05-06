@@ -6150,3 +6150,27 @@
 [2024-05-06 07:56:59] INFO root fetch - processPackages [manila]: Remove: archive file [/home/abi/fetcher/tmp/manila-9.1.5.tar.gz]
 [2024-05-06 07:56:59] INFO root fetch - main [MainThread]: End processing [manila]: success
 [2024-05-06 07:56:59] INFO root fetch - main [MainThread]: Store serial: [23072111]
+[2024-05-06 07:59:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072111]
+[2024-05-06 07:59:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 07:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datalibro-utils
+[2024-05-06 07:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freeze-dried-data
+[2024-05-06 07:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oscillators-pkg
+[2024-05-06 07:59:08] INFO root fetch - processPackages [freeze-dried-data]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-06 07:59:08] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/e4/38/6c2c26c1cf51796d5645f1246b7d52fae6a9c11bee568d1fdef945ecca6e/freeze_dried_data-2.0.0.tar.gz
+[2024-05-06 07:59:08] WARNING root fetch - processPackages [oscillators-pkg]: Skipping, unable to determine old version
+[2024-05-06 07:59:08] INFO root fetch - main [MainThread]: End processing [oscillators-pkg] error
+[2024-05-06 07:59:08] INFO root fetch - processPackages [datalibro-utils]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-05-06 07:59:08] INFO root fetch - processPackages [datalibro-utils]: Downloading https://files.pythonhosted.org/packages/75/75/8d7106bca4f3eb579b3fa3af7fd32129f947189a1d6dbe28adeb514ac5c5/datalibro_utils-2.3.2.tar.gz
+[2024-05-06 07:59:08] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/00/0f/0496f165069bf9bfac61603d48aab16f9c3a9ac27ad4db1ed0d1aaae223e/freeze_dried_data-2.1.0.tar.gz
+[2024-05-06 07:59:08] INFO root fetch - processPackages [freeze-dried-data]: executing diffoscope
+[2024-05-06 07:59:08] INFO root fetch - processPackages [freeze-dried-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeze_dried_data-2.0.0.tar.gz tmp/freeze_dried_data-2.1.0.tar.gz --markdown 20240506/f/freeze-dried-data/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-06 07:59:09] INFO root fetch - processPackages [datalibro-utils]: Downloading https://files.pythonhosted.org/packages/9a/a8/b4547a304b143ba36be259990b0dd1bf5e0f75ae7eb492108fcbdea6f86c/datalibro_utils-2.3.3.tar.gz
+[2024-05-06 07:59:09] INFO root fetch - processPackages [datalibro-utils]: executing diffoscope
+[2024-05-06 07:59:09] INFO root fetch - processPackages [datalibro-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_utils-2.3.2.tar.gz tmp/datalibro_utils-2.3.3.tar.gz --markdown 20240506/d/datalibro-utils/2.3.2-2.3.3/README.md --exclude *.pyd
+[2024-05-06 07:59:09] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.0.0.tar.gz]
+[2024-05-06 07:59:09] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.1.0.tar.gz]
+[2024-05-06 07:59:09] INFO root fetch - main [MainThread]: End processing [freeze-dried-data]: success
+[2024-05-06 07:59:09] INFO root fetch - processPackages [datalibro-utils]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_utils-2.3.2.tar.gz]
+[2024-05-06 07:59:09] INFO root fetch - processPackages [datalibro-utils]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_utils-2.3.3.tar.gz]
+[2024-05-06 07:59:09] INFO root fetch - main [MainThread]: End processing [datalibro-utils]: success
+[2024-05-06 07:59:09] INFO root fetch - main [MainThread]: Store serial: [23072128]
