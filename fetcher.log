@@ -3874,3 +3874,81 @@
 [2024-05-06 05:25:04] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
 [2024-05-06 05:25:04] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
 [2024-05-06 05:25:04] INFO root fetch - main [MainThread]: Store serial: [23071057]
+[2024-05-06 05:27:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071057]
+[2024-05-06 05:27:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptflow-tracing
+[2024-05-06 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptflow-core
+[2024-05-06 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptflow-devkit
+[2024-05-06 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptflow-azure
+[2024-05-06 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: promptflow
+[2024-05-06 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multiconnection
+[2024-05-06 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lute3
+[2024-05-06 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: packyak-aws-cdk
+[2024-05-06 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ilds
+[2024-05-06 05:27:15] WARNING root fetch - processPackages [multiconnection]: Skipping, unable to determine old version
+[2024-05-06 05:27:15] INFO root fetch - main [MainThread]: End processing [multiconnection] error
+[2024-05-06 05:27:15] INFO root fetch - processPackages [packyak-aws-cdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-tracing]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-06 05:27:15] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/3f/5c/9c62d5ca11e5b2b4dce5e057fc33093ed5dbde055cfab1842da917cf273b/packyak-aws-cdk-0.4.8.tar.gz
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-devkit]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-core]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-azure]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-06 05:27:15] INFO root fetch - processPackages [lute3]: New version: [3.3.3b1] Old Version: [3.3.3]
+[2024-05-06 05:27:15] INFO root fetch - processPackages [ilds]: New version: [2024.5.6] Old Version: [2024.3.1]
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-tracing]: Downloading https://files.pythonhosted.org/packages/49/14/dbc959af05f0dfaebeb90ad196ce4d9f95f03555385ad4f68e402357d929/promptflow_tracing-1.8.0-py3-none-any.whl
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/f0/6f/51cb0283b12115e724744081fdb4d93250bebda5ec967df66d7d854482d5/promptflow-1.8.0-py3-none-any.whl
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-devkit]: Downloading https://files.pythonhosted.org/packages/a7/80/a42998ec0e0d7a76bcd3a43d1f267fad31864cde8300a116126c2d5669fb/promptflow_devkit-1.8.0-py3-none-any.whl
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-core]: Downloading https://files.pythonhosted.org/packages/25/4d/3b703134fd3c50f59bb1c3fea4210db6b74f9f4694cd97b5bbfc941ffa83/promptflow_core-1.8.0-py3-none-any.whl
+[2024-05-06 05:27:15] INFO root fetch - processPackages [lute3]: Downloading https://files.pythonhosted.org/packages/c6/b5/c11a0f83f0f341bc6ad40a1b85acc7d3b76a45bc37bb2035cd2449600941/lute3-3.3.3.tar.gz
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-azure]: Downloading https://files.pythonhosted.org/packages/36/ea/080a767769525e5743710e7a54e425b2aae998dc9e2f711689a2efc5e291/promptflow_azure-1.8.0-py3-none-any.whl
+[2024-05-06 05:27:15] INFO root fetch - processPackages [ilds]: Downloading https://files.pythonhosted.org/packages/40/b1/6cc764c468e0e9aa4919113e25272f4b85fe2ce37a7581ebac6d5575a32c/ilds-2024.3.1.tar.gz
+[2024-05-06 05:27:15] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/f5/c9/e1e1e0b9b00311d30bf76d73a1b624c59a03f40fa3252dd635089b115f37/packyak-aws-cdk-0.4.9.tar.gz
+[2024-05-06 05:27:15] INFO root fetch - processPackages [packyak-aws-cdk]: executing diffoscope
+[2024-05-06 05:27:15] INFO root fetch - processPackages [packyak-aws-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packyak-aws-cdk-0.4.8.tar.gz tmp/packyak-aws-cdk-0.4.9.tar.gz --markdown 20240506/p/packyak-aws-cdk/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow]: Downloading https://files.pythonhosted.org/packages/54/f1/131d0ea16e3b4d8203def8bb39dfc821716ed4fad106d3fa0516adcff1c7/promptflow-1.9.0-py3-none-any.whl
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-tracing]: Downloading https://files.pythonhosted.org/packages/89/f6/ceefcf4302f79a1f1d9df02ed0266df362bf7d7c01b08f56e1ca8f3347bb/promptflow_tracing-1.9.0-py3-none-any.whl
+[2024-05-06 05:27:15] INFO root fetch - processPackages [ilds]: Downloading https://files.pythonhosted.org/packages/49/0f/25659f22b1d5d6f5851aaca57b8ec8400bf56cfa9794de10e416fd0bd753/ilds-2024.5.6.tar.gz
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-tracing]: executing diffoscope
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow]: executing diffoscope
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow-1.8.0-py3-none-any.whl.zip tmp/promptflow-1.9.0-py3-none-any.whl.zip --markdown 20240506/p/promptflow/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-tracing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_tracing-1.8.0-py3-none-any.whl.zip tmp/promptflow_tracing-1.9.0-py3-none-any.whl.zip --markdown 20240506/p/promptflow-tracing/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-azure]: Downloading https://files.pythonhosted.org/packages/62/87/641981f0ea8dbe256baa83a45e12e5c38b68f597813b5c496db878bad92a/promptflow_azure-1.9.0-py3-none-any.whl
+[2024-05-06 05:27:15] INFO root fetch - processPackages [lute3]: Downloading https://files.pythonhosted.org/packages/b9/c5/99347ead774f5caffc4aac6bdefe577fe2382f923adc45cfc687ab2bc7bb/lute3-3.3.3b1.tar.gz
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-core]: Downloading https://files.pythonhosted.org/packages/b9/6b/1cb0f975e7cde850d15e6259f87d53caa3e79bd4120c3f476e341adb29ad/promptflow_core-1.9.0-py3-none-any.whl
+[2024-05-06 05:27:15] INFO root fetch - processPackages [promptflow-devkit]: Downloading https://files.pythonhosted.org/packages/e4/f8/fdd16738d6d12c1a789acd81c40c3bc37795f33919a608f44e37a08e22e0/promptflow_devkit-1.9.0-py3-none-any.whl
+[2024-05-06 05:27:16] INFO root fetch - processPackages [ilds]: executing diffoscope
+[2024-05-06 05:27:16] INFO root fetch - processPackages [ilds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilds-2024.3.1.tar.gz tmp/ilds-2024.5.6.tar.gz --markdown 20240506/i/ilds/2024.3.1-2024.5.6/README.md --exclude *.pyd
+[2024-05-06 05:27:16] INFO root fetch - processPackages [promptflow-azure]: executing diffoscope
+[2024-05-06 05:27:16] INFO root fetch - processPackages [promptflow-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_azure-1.8.0-py3-none-any.whl.zip tmp/promptflow_azure-1.9.0-py3-none-any.whl.zip --markdown 20240506/p/promptflow-azure/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-06 05:27:16] INFO root fetch - processPackages [lute3]: executing diffoscope
+[2024-05-06 05:27:16] INFO root fetch - processPackages [lute3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lute3-3.3.3.tar.gz tmp/lute3-3.3.3b1.tar.gz --markdown 20240506/l/lute3/3.3.3-3.3.3b1/README.md --exclude *.pyd
+[2024-05-06 05:27:16] INFO root fetch - processPackages [promptflow-core]: executing diffoscope
+[2024-05-06 05:27:16] INFO root fetch - processPackages [promptflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_core-1.8.0-py3-none-any.whl.zip tmp/promptflow_core-1.9.0-py3-none-any.whl.zip --markdown 20240506/p/promptflow-core/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-06 05:27:16] INFO root fetch - processPackages [promptflow-devkit]: executing diffoscope
+[2024-05-06 05:27:16] INFO root fetch - processPackages [promptflow-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_devkit-1.8.0-py3-none-any.whl.zip tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip --markdown 20240506/p/promptflow-devkit/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-06 05:27:16] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.8.0-py3-none-any.whl.zip]
+[2024-05-06 05:27:16] INFO root fetch - processPackages [promptflow]: Remove: archive file [/home/abi/fetcher/tmp/promptflow-1.9.0-py3-none-any.whl.zip]
+[2024-05-06 05:27:16] INFO root fetch - main [MainThread]: End processing [promptflow]: success
+[2024-05-06 05:27:16] INFO root fetch - processPackages [promptflow-tracing]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_tracing-1.8.0-py3-none-any.whl.zip]
+[2024-05-06 05:27:16] INFO root fetch - processPackages [promptflow-tracing]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_tracing-1.9.0-py3-none-any.whl.zip]
+[2024-05-06 05:27:16] INFO root fetch - main [MainThread]: End processing [promptflow-tracing]: success
+[2024-05-06 05:27:16] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.8.tar.gz]
+[2024-05-06 05:27:16] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.9.tar.gz]
+[2024-05-06 05:27:16] INFO root fetch - main [MainThread]: End processing [packyak-aws-cdk]: success
+[2024-05-06 05:27:16] INFO root fetch - processPackages [ilds]: Remove: archive file [/home/abi/fetcher/tmp/ilds-2024.3.1.tar.gz]
+[2024-05-06 05:27:16] INFO root fetch - processPackages [ilds]: Remove: archive file [/home/abi/fetcher/tmp/ilds-2024.5.6.tar.gz]
+[2024-05-06 05:27:16] INFO root fetch - main [MainThread]: End processing [ilds]: success
+[2024-05-06 05:27:18] INFO root fetch - processPackages [promptflow-core]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_core-1.8.0-py3-none-any.whl.zip]
+[2024-05-06 05:27:18] INFO root fetch - processPackages [promptflow-core]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_core-1.9.0-py3-none-any.whl.zip]
+[2024-05-06 05:27:18] INFO root fetch - main [MainThread]: End processing [promptflow-core]: success
+[2024-05-06 05:27:18] INFO root fetch - processPackages [lute3]: Remove: archive file [/home/abi/fetcher/tmp/lute3-3.3.3.tar.gz]
+[2024-05-06 05:27:18] INFO root fetch - processPackages [lute3]: Remove: archive file [/home/abi/fetcher/tmp/lute3-3.3.3b1.tar.gz]
+[2024-05-06 05:27:18] INFO root fetch - main [MainThread]: End processing [lute3]: success
+[2024-05-06 05:27:19] INFO root fetch - processPackages [promptflow-azure]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_azure-1.8.0-py3-none-any.whl.zip]
+[2024-05-06 05:27:19] INFO root fetch - processPackages [promptflow-azure]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_azure-1.9.0-py3-none-any.whl.zip]
+[2024-05-06 05:27:19] INFO root fetch - main [MainThread]: End processing [promptflow-azure]: success
+[2024-05-06 05:27:41] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.8.0-py3-none-any.whl.zip]
+[2024-05-06 05:27:41] INFO root fetch - processPackages [promptflow-devkit]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_devkit-1.9.0-py3-none-any.whl.zip]
+[2024-05-06 05:27:41] INFO root fetch - main [MainThread]: End processing [promptflow-devkit]: success
+[2024-05-06 05:27:41] INFO root fetch - main [MainThread]: Store serial: [23071081]
