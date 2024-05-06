@@ -6621,3 +6621,56 @@
 [2024-05-06 08:28:28] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-06 08:28:28] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-05-06 08:28:28] INFO root fetch - main [MainThread]: Store serial: [23072396]
+[2024-05-06 08:30:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072396]
+[2024-05-06 08:30:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 08:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cubaflixdownload
+[2024-05-06 08:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: e2edge
+[2024-05-06 08:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygdsm
+[2024-05-06 08:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shelchin-safe-eth-py
+[2024-05-06 08:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ks3sdk
+[2024-05-06 08:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybotrade
+[2024-05-06 08:30:37] INFO root fetch - processPackages [e2edge]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 08:30:37] INFO root fetch - processPackages [cubaflixdownload]: New version: [5.0.0] Old Version: [4.0.0]
+[2024-05-06 08:30:37] INFO root fetch - processPackages [pygdsm]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-05-06 08:30:37] INFO root fetch - processPackages [ks3sdk]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-06 08:30:37] INFO root fetch - processPackages [e2edge]: Downloading https://files.pythonhosted.org/packages/0d/04/767fefb7a20b2b154943bbf79376efa07b4ddee8d91470d5b9073bfc069f/e2edge-0.1.1.tar.gz
+[2024-05-06 08:30:37] INFO root fetch - processPackages [cubaflixdownload]: Downloading https://files.pythonhosted.org/packages/7f/40/7d2dc0a48c4f6ceb5c8acaf13dcf08da9d28d375e7361b66ecc3b5d340d0/cubaflixdownload-4.0.0.tar.gz
+[2024-05-06 08:30:37] INFO root fetch - processPackages [shelchin-safe-eth-py]: New version: [6.0.1b26] Old Version: [6.0.0b26]
+[2024-05-06 08:30:37] INFO root fetch - processPackages [cybotrade]: New version: [1.4.1b1] Old Version: [1.4.1a2]
+[2024-05-06 08:30:37] INFO root fetch - processPackages [pygdsm]: Downloading https://files.pythonhosted.org/packages/a8/d1/4834226c0c6173db3cbf3ac25cc8e3cb7aa6bc42a2c1d9a3a002cb304558/pygdsm-1.5.3.tar.gz
+[2024-05-06 08:30:37] INFO root fetch - processPackages [shelchin-safe-eth-py]: Downloading https://files.pythonhosted.org/packages/06/02/ce865afe3d612d040001b3f0d8a5e9a5fd03a91387a4f152c024ad52c2e8/shelchin-safe-eth-py-6.0.0b26.tar.gz
+[2024-05-06 08:30:37] INFO root fetch - processPackages [ks3sdk]: Downloading https://files.pythonhosted.org/packages/bd/61/9558a72fcb9f7a49a07a1aebf00ad3e2f909760fac1df5f462e730ae8571/ks3sdk-1.6.2.tar.gz
+[2024-05-06 08:30:37] INFO root fetch - processPackages [e2edge]: Downloading https://files.pythonhosted.org/packages/e7/e2/39451af0b00e300cc2ba10cc4b38eb4d75aeb2ea4df56c589e9f5be0ac53/e2edge-0.1.2.tar.gz
+[2024-05-06 08:30:37] INFO root fetch - processPackages [cubaflixdownload]: Downloading https://files.pythonhosted.org/packages/9a/50/7cf84e422c2dd31dd8caae579eb4659f0477a1c0a0c9bdce82fb6da0e99e/cubaflixdownload-5.0.0.tar.gz
+[2024-05-06 08:30:37] INFO root fetch - processPackages [cybotrade]: Downloading https://files.pythonhosted.org/packages/33/e8/5451fa9c2710841a8b68bcd4c8f6ac066c82c4b78d5b4706bb4ec0aec0bd/cybotrade-1.4.1a2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 08:30:38] INFO root fetch - processPackages [e2edge]: executing diffoscope
+[2024-05-06 08:30:38] INFO root fetch - processPackages [e2edge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2edge-0.1.1.tar.gz tmp/e2edge-0.1.2.tar.gz --markdown 20240506/e/e2edge/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 08:30:38] INFO root fetch - processPackages [cubaflixdownload]: executing diffoscope
+[2024-05-06 08:30:38] INFO root fetch - processPackages [cubaflixdownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubaflixdownload-4.0.0.tar.gz tmp/cubaflixdownload-5.0.0.tar.gz --markdown 20240506/c/cubaflixdownload/4.0.0-5.0.0/README.md --exclude *.pyd
+[2024-05-06 08:30:38] WARNING root fetch - processPackages [cybotrade]: Skipping package: exceeds size limit 16284798>=10485760
+[2024-05-06 08:30:38] INFO root fetch - main [MainThread]: End processing [cybotrade] error
+[2024-05-06 08:30:38] INFO root fetch - processPackages [pygdsm]: Downloading https://files.pythonhosted.org/packages/86/d1/d1d7f8d39f2d76d48edccce78bb246261f9f6a875ced468481c5b7c46bbc/pygdsm-1.5.4.tar.gz
+[2024-05-06 08:30:38] INFO root fetch - processPackages [shelchin-safe-eth-py]: Downloading https://files.pythonhosted.org/packages/71/24/aa09ed10ede079671c99079345590c470b59a0eeffa09d18c542730cf742/shelchin-safe-eth-py-6.0.1b26.tar.gz
+[2024-05-06 08:30:38] INFO root fetch - processPackages [pygdsm]: executing diffoscope
+[2024-05-06 08:30:38] INFO root fetch - processPackages [pygdsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygdsm-1.5.3.tar.gz tmp/pygdsm-1.5.4.tar.gz --markdown 20240506/p/pygdsm/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-05-06 08:30:38] INFO root fetch - processPackages [ks3sdk]: Downloading https://files.pythonhosted.org/packages/70/8c/f3cdd6cbac56512b8f43bd7e805a75117ba198c78645b3242b32ab2ada50/ks3sdk-1.6.3.tar.gz
+[2024-05-06 08:30:38] INFO root fetch - processPackages [shelchin-safe-eth-py]: executing diffoscope
+[2024-05-06 08:30:38] INFO root fetch - processPackages [shelchin-safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shelchin-safe-eth-py-6.0.0b26.tar.gz tmp/shelchin-safe-eth-py-6.0.1b26.tar.gz --markdown 20240506/s/shelchin-safe-eth-py/6.0.0b26-6.0.1b26/README.md --exclude *.pyd
+[2024-05-06 08:30:38] INFO root fetch - processPackages [ks3sdk]: executing diffoscope
+[2024-05-06 08:30:38] INFO root fetch - processPackages [ks3sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ks3sdk-1.6.2.tar.gz tmp/ks3sdk-1.6.3.tar.gz --markdown 20240506/k/ks3sdk/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-06 08:30:38] INFO root fetch - processPackages [e2edge]: Remove: archive file [/home/abi/fetcher/tmp/e2edge-0.1.1.tar.gz]
+[2024-05-06 08:30:38] INFO root fetch - processPackages [e2edge]: Remove: archive file [/home/abi/fetcher/tmp/e2edge-0.1.2.tar.gz]
+[2024-05-06 08:30:38] INFO root fetch - main [MainThread]: End processing [e2edge]: success
+[2024-05-06 08:30:38] INFO root fetch - processPackages [cubaflixdownload]: Remove: archive file [/home/abi/fetcher/tmp/cubaflixdownload-4.0.0.tar.gz]
+[2024-05-06 08:30:38] INFO root fetch - processPackages [cubaflixdownload]: Remove: archive file [/home/abi/fetcher/tmp/cubaflixdownload-5.0.0.tar.gz]
+[2024-05-06 08:30:38] INFO root fetch - main [MainThread]: End processing [cubaflixdownload]: success
+[2024-05-06 08:30:39] INFO root fetch - processPackages [pygdsm]: Remove: archive file [/home/abi/fetcher/tmp/pygdsm-1.5.3.tar.gz]
+[2024-05-06 08:30:39] INFO root fetch - processPackages [pygdsm]: Remove: archive file [/home/abi/fetcher/tmp/pygdsm-1.5.4.tar.gz]
+[2024-05-06 08:30:39] INFO root fetch - main [MainThread]: End processing [pygdsm]: success
+[2024-05-06 08:30:39] INFO root fetch - processPackages [ks3sdk]: Remove: archive file [/home/abi/fetcher/tmp/ks3sdk-1.6.2.tar.gz]
+[2024-05-06 08:30:39] INFO root fetch - processPackages [ks3sdk]: Remove: archive file [/home/abi/fetcher/tmp/ks3sdk-1.6.3.tar.gz]
+[2024-05-06 08:30:39] INFO root fetch - main [MainThread]: End processing [ks3sdk]: success
+[2024-05-06 08:30:40] INFO root fetch - processPackages [shelchin-safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/shelchin-safe-eth-py-6.0.0b26.tar.gz]
+[2024-05-06 08:30:40] INFO root fetch - processPackages [shelchin-safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/shelchin-safe-eth-py-6.0.1b26.tar.gz]
+[2024-05-06 08:30:40] INFO root fetch - main [MainThread]: End processing [shelchin-safe-eth-py]: success
+[2024-05-06 08:30:40] INFO root fetch - main [MainThread]: Store serial: [23072415]
