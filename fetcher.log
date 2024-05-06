@@ -17276,3 +17276,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:29:05] INFO root fetch - processPackages [FreeTAKServer]: Remove: archive file [/home/abi/fetcher/tmp/freetakserver-2.1.4.5.tar.gz]
 [2024-05-06 13:29:05] INFO root fetch - main [MainThread]: End processing [FreeTAKServer]: success
 [2024-05-06 13:29:05] INFO root fetch - main [MainThread]: Store serial: [23076834]
+[2024-05-06 13:31:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076834]
+[2024-05-06 13:31:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 13:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2024-05-06 13:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dimentyy.tl-parse
+[2024-05-06 13:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orchestrator-core
+[2024-05-06 13:31:14] INFO root fetch - processPackages [orchestrator-core]: New version: [2.2.2rc2] Old Version: [2.2.2rc1]
+[2024-05-06 13:31:14] INFO root fetch - processPackages [qwak-core]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-06 13:31:14] INFO root fetch - processPackages [dimentyy.tl-parse]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2024-05-06 13:31:14] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/0d/3c/23581255f8b383b388c3015dfdb3229e0365ade803b99aa84b8d98c0de4c/orchestrator_core-2.2.2rc1.tar.gz
+[2024-05-06 13:31:14] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/67/5c/230a4b38912da5b8730d4c30c421b4331788da9ed85148ed8cc9dc3c04a1/qwak_core-0.4.0.tar.gz
+[2024-05-06 13:31:15] INFO root fetch - processPackages [dimentyy.tl-parse]: Downloading https://files.pythonhosted.org/packages/05/db/9fad65acd88dc90652af29adc6caf32c45f93b53ead497faba4dbaab3899/dimentyy_tl_parse-0.0.1.dev3.tar.gz
+[2024-05-06 13:31:15] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/fd/15/44dc829efa3faeb99dafa25cb459250a9ef0bc6e856fbb8d2622b74fd609/orchestrator_core-2.2.2rc2.tar.gz
+[2024-05-06 13:31:15] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/6e/9b/426aecf339242736c29aed8e92385faee4712914fe134c3934075bb723c3/qwak_core-0.4.1.tar.gz
+[2024-05-06 13:31:15] INFO root fetch - processPackages [dimentyy.tl-parse]: Downloading https://files.pythonhosted.org/packages/e0/93/be2179d79f0615e3c3a644689811c1186bb43d7a6288a34e83cfec2f5100/dimentyy_tl_parse-0.0.1.dev4.tar.gz
+[2024-05-06 13:31:15] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2024-05-06 13:31:15] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-2.2.2rc1.tar.gz tmp/orchestrator_core-2.2.2rc2.tar.gz --markdown 20240506/o/orchestrator-core/2.2.2rc1-2.2.2rc2/README.md --exclude *.pyd
+[2024-05-06 13:31:15] INFO root fetch - processPackages [dimentyy.tl-parse]: executing diffoscope
+[2024-05-06 13:31:15] INFO root fetch - processPackages [dimentyy.tl-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimentyy_tl_parse-0.0.1.dev3.tar.gz tmp/dimentyy_tl_parse-0.0.1.dev4.tar.gz --markdown 20240506/d/dimentyy.tl-parse/0.0.1.dev3-0.0.1.dev4/README.md --exclude *.pyd
+[2024-05-06 13:31:15] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-06 13:31:15] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.0.tar.gz tmp/qwak_core-0.4.1.tar.gz --markdown 20240506/q/qwak-core/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-06 13:31:16] INFO root fetch - processPackages [dimentyy.tl-parse]: Remove: archive file [/home/abi/fetcher/tmp/dimentyy_tl_parse-0.0.1.dev3.tar.gz]
+[2024-05-06 13:31:16] INFO root fetch - processPackages [dimentyy.tl-parse]: Remove: archive file [/home/abi/fetcher/tmp/dimentyy_tl_parse-0.0.1.dev4.tar.gz]
+[2024-05-06 13:31:16] INFO root fetch - main [MainThread]: End processing [dimentyy.tl-parse]: success
+[2024-05-06 13:31:18] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.2rc1.tar.gz]
+[2024-05-06 13:31:18] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.2rc2.tar.gz]
+[2024-05-06 13:31:18] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2024-05-06 13:31:18] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.0.tar.gz]
+[2024-05-06 13:31:18] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.1.tar.gz]
+[2024-05-06 13:31:18] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-06 13:31:18] INFO root fetch - main [MainThread]: Store serial: [23076895]
