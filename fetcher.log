@@ -23849,3 +23849,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:40:49] INFO root fetch - processPackages [chemdataextractor2]: Remove: archive file [/home/abi/fetcher/tmp/chemdataextractor2-2.3.2.tar.gz]
 [2024-05-06 17:40:49] INFO root fetch - main [MainThread]: End processing [chemdataextractor2]: success
 [2024-05-06 17:40:49] INFO root fetch - main [MainThread]: Store serial: [23080084]
+[2024-05-06 17:42:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23080084]
+[2024-05-06 17:42:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 17:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxbox
+[2024-05-06 17:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AlleleFinder
+[2024-05-06 17:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kv-rest
+[2024-05-06 17:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-nvf-builds
+[2024-05-06 17:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alamos
+[2024-05-06 17:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synnax-freighter
+[2024-05-06 17:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ATH
+[2024-05-06 17:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aw-cli
+[2024-05-06 17:42:58] WARNING root fetch - processPackages [kv-rest]: Skipping, unable to determine old version
+[2024-05-06 17:42:58] INFO root fetch - main [MainThread]: End processing [kv-rest] error
+[2024-05-06 17:42:58] INFO root fetch - processPackages [AlleleFinder]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 17:42:58] WARNING root fetch - processPackages [test-nvf-builds]: Skipping, unable to determine old version
+[2024-05-06 17:42:58] INFO root fetch - main [MainThread]: End processing [test-nvf-builds] error
+[2024-05-06 17:42:58] INFO root fetch - processPackages [AlleleFinder]: Downloading https://files.pythonhosted.org/packages/7f/6b/f3272453cf64f04291e9de7dba781ac6b7d48aa834565054bd25e6ec743c/allelefinder-0.2.7.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-06 17:42:58] INFO root fetch - processPackages [ATH]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-06 17:42:58] INFO root fetch - processPackages [aw-cli]: New version: [1.8.1] Old Version: [1.8]
+[2024-05-06 17:42:58] INFO root fetch - processPackages [pyxbox]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 17:42:58] INFO root fetch - processPackages [synnax-freighter]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-06 17:42:58] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [pyxbox]: Downloading https://files.pythonhosted.org/packages/d6/17/b18c35dd2d311f09e295ee1132e94c25fd1d6f089f42c16aec8d1aba0d0e/pyxbox-0.1.4.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [aw-cli]: Downloading https://files.pythonhosted.org/packages/de/f1/c5367b065377124832757282795a17a5b1f36571cac0fb99e8f5b919d42a/aw-cli-1.8.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/47/1d/b44d0a666ad7dfde7a8635a95d6241671db501c8ed9f7dd576bdf7fe184e/synnax_freighter-0.6.8.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [ATH]: Downloading https://files.pythonhosted.org/packages/25/bf/4cb86191dbc0ca485a5fbed109a08ba8f39542aa2142f7e31ac0c74946d2/ATH-0.4.9.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [AlleleFinder]: Downloading https://files.pythonhosted.org/packages/e7/ea/04c6a3243d568fad634f4d5b8d8ad3aec90761f4203865d2a1c137e8e577/allelefinder-0.2.8.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [AlleleFinder]: executing diffoscope
+[2024-05-06 17:42:58] INFO root fetch - processPackages [AlleleFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allelefinder-0.2.7.tar.gz tmp/allelefinder-0.2.8.tar.gz --markdown 20240506/A/AlleleFinder/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 17:42:58] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [aw-cli]: Downloading https://files.pythonhosted.org/packages/6c/96/82f068920bffad02c69cfd89af68ce72d628a1630bf88e1f400fb5d21f4f/aw-cli-1.8.1.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [ATH]: Downloading https://files.pythonhosted.org/packages/d6/d1/25c8ae005b554212211e572ab5861d70a40f929356d6ac6be8f045f6bc14/ATH-0.5.0.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/97/99/8375d1635ab3481a144b8507f5f4be9c85b138a7ecc2c616808ded325e74/synnax_freighter-0.6.9.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [pyxbox]: Downloading https://files.pythonhosted.org/packages/fe/07/b1cf5850c674cfcaa9656ff7e5718799587407a31d7edcf78e074862bc4e/pyxbox-0.1.5.tar.gz
+[2024-05-06 17:42:58] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-06 17:42:58] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240506/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-06 17:42:59] INFO root fetch - processPackages [ATH]: executing diffoscope
+[2024-05-06 17:42:59] INFO root fetch - processPackages [ATH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ATH-0.4.9.tar.gz tmp/ATH-0.5.0.tar.gz --markdown 20240506/A/ATH/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-06 17:42:59] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-06 17:42:59] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.6.8.tar.gz tmp/synnax_freighter-0.6.9.tar.gz --markdown 20240506/s/synnax-freighter/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-06 17:42:59] INFO root fetch - processPackages [pyxbox]: executing diffoscope
+[2024-05-06 17:42:59] INFO root fetch - processPackages [pyxbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxbox-0.1.4.tar.gz tmp/pyxbox-0.1.5.tar.gz --markdown 20240506/p/pyxbox/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 17:42:59] INFO root fetch - processPackages [aw-cli]: executing diffoscope
+[2024-05-06 17:42:59] INFO root fetch - processPackages [aw-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aw-cli-1.8.tar.gz tmp/aw-cli-1.8.1.tar.gz --markdown 20240506/a/aw-cli/1.8-1.8.1/README.md --exclude *.pyd
+[2024-05-06 17:42:59] INFO root fetch - processPackages [AlleleFinder]: Remove: archive file [/home/abi/fetcher/tmp/allelefinder-0.2.7.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - processPackages [AlleleFinder]: Remove: archive file [/home/abi/fetcher/tmp/allelefinder-0.2.8.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - main [MainThread]: End processing [AlleleFinder]: success
+[2024-05-06 17:42:59] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-06 17:42:59] INFO root fetch - processPackages [ATH]: Remove: archive file [/home/abi/fetcher/tmp/ATH-0.4.9.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - processPackages [ATH]: Remove: archive file [/home/abi/fetcher/tmp/ATH-0.5.0.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - main [MainThread]: End processing [ATH]: success
+[2024-05-06 17:42:59] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.8.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.9.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-06 17:42:59] INFO root fetch - processPackages [aw-cli]: Remove: archive file [/home/abi/fetcher/tmp/aw-cli-1.8.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - processPackages [aw-cli]: Remove: archive file [/home/abi/fetcher/tmp/aw-cli-1.8.1.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - main [MainThread]: End processing [aw-cli]: success
+[2024-05-06 17:42:59] INFO root fetch - processPackages [pyxbox]: Remove: archive file [/home/abi/fetcher/tmp/pyxbox-0.1.4.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - processPackages [pyxbox]: Remove: archive file [/home/abi/fetcher/tmp/pyxbox-0.1.5.tar.gz]
+[2024-05-06 17:42:59] INFO root fetch - main [MainThread]: End processing [pyxbox]: success
+[2024-05-06 17:42:59] INFO root fetch - main [MainThread]: Store serial: [23080108]
