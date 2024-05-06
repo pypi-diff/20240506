@@ -2685,3 +2685,29 @@
 [2024-05-06 04:09:43] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.9.tar.gz]
 [2024-05-06 04:09:43] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
 [2024-05-06 04:09:43] INFO root fetch - main [MainThread]: Store serial: [23070587]
+[2024-05-06 04:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070587]
+[2024-05-06 04:11:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 04:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faster-whisper
+[2024-05-06 04:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-csgo-case-simulator
+[2024-05-06 04:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saraApi
+[2024-05-06 04:11:52] INFO root fetch - processPackages [faster-whisper]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 04:11:52] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-06 04:11:53] INFO root fetch - processPackages [saraApi]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2024-05-06 04:11:53] INFO root fetch - processPackages [faster-whisper]: Downloading https://files.pythonhosted.org/packages/4c/ac/5087b2eef14e8578815088438e14a7520d96a1521360505ea05fc3f8c7bc/faster-whisper-1.0.1.tar.gz
+[2024-05-06 04:11:53] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Downloading https://files.pythonhosted.org/packages/20/e8/1a33f01507cdcad5c172b78a1cfbc470315ebcd8679a7a127a2b71f92ae7/nonebot_plugin_csgo_case_simulator-1.1.3.tar.gz
+[2024-05-06 04:11:53] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/2f/ff/eb080f9c82c86f12426130db97c20a700da7e40a64ee1aee2a58fbe550dd/saraapi-0.0.0.1.tar.gz
+[2024-05-06 04:11:53] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/1d/8a/96407ed8a549f2f7f28825d401d7318bf555592c97f32a39382f531b1c63/saraapi-0.0.0.2.tar.gz
+[2024-05-06 04:11:53] INFO root fetch - processPackages [saraApi]: executing diffoscope
+[2024-05-06 04:11:53] INFO root fetch - processPackages [saraApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saraapi-0.0.0.1.tar.gz tmp/saraapi-0.0.0.2.tar.gz --markdown 20240506/s/saraApi/0.0.0.1-0.0.0.2/README.md --exclude *.pyd
+[2024-05-06 04:11:54] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.1.tar.gz]
+[2024-05-06 04:11:54] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.2.tar.gz]
+[2024-05-06 04:11:54] INFO root fetch - main [MainThread]: End processing [saraApi]: success
+[2024-05-06 04:11:54] INFO root fetch - processPackages [faster-whisper]: Downloading https://files.pythonhosted.org/packages/fd/e7/c205daba8e56b11231615651e1c47213ed5ce182e07961bdf8d7bf7ed9f3/faster-whisper-1.0.2.tar.gz
+[2024-05-06 04:11:54] INFO root fetch - processPackages [faster-whisper]: executing diffoscope
+[2024-05-06 04:11:54] INFO root fetch - processPackages [faster-whisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faster-whisper-1.0.1.tar.gz tmp/faster-whisper-1.0.2.tar.gz --markdown 20240506/f/faster-whisper/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 04:11:55] INFO root fetch - processPackages [faster-whisper]: Remove: archive file [/home/abi/fetcher/tmp/faster-whisper-1.0.1.tar.gz]
+[2024-05-06 04:11:55] INFO root fetch - processPackages [faster-whisper]: Remove: archive file [/home/abi/fetcher/tmp/faster-whisper-1.0.2.tar.gz]
+[2024-05-06 04:11:55] INFO root fetch - main [MainThread]: End processing [faster-whisper]: success
+[2024-05-06 04:11:55] WARNING root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Skipping package: exceeds size limit 11001242>=10485760
+[2024-05-06 04:11:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator] error
+[2024-05-06 04:11:55] INFO root fetch - main [MainThread]: Store serial: [23070596]
