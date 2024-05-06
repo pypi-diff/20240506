@@ -6405,3 +6405,33 @@
 [2024-05-06 08:15:04] INFO root fetch - processPackages [libewf-python]: Remove: archive file [/home/abi/fetcher/tmp/libewf-python-20240506.tar.gz]
 [2024-05-06 08:15:04] INFO root fetch - main [MainThread]: End processing [libewf-python]: success
 [2024-05-06 08:15:04] INFO root fetch - main [MainThread]: Store serial: [23072251]
+[2024-05-06 08:17:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072251]
+[2024-05-06 08:17:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 08:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscail
+[2024-05-06 08:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PepperPepper
+[2024-05-06 08:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2024-05-06 08:17:12] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.4] Old Version: [0.0.7.3]
+[2024-05-06 08:17:12] INFO root fetch - processPackages [pyscail]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 08:17:12] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240505] Old Version: [20240504]
+[2024-05-06 08:17:13] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/75/c6/e84cae64d99f9ddfa8f328fb079131d481b59a9e6164ea318c23d36bcd84/pepperpepper-0.0.7.3.tar.gz
+[2024-05-06 08:17:13] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/4a/00/3e3781aae7e203a839571278308c21970e613a5a122d5eba3e93b4f03a3b/fake_bpy_module_latest-20240504.tar.gz
+[2024-05-06 08:17:13] INFO root fetch - processPackages [pyscail]: Downloading https://files.pythonhosted.org/packages/d7/37/5654551f6c51590f1192a759c06b68bf9c8ffa0b7e25f35f856e919a768d/pyscail-0.0.8.tar.gz
+[2024-05-06 08:17:13] INFO root fetch - processPackages [pyscail]: Downloading https://files.pythonhosted.org/packages/74/55/3192ec1d6830a7049d153171fa72eefa0fa27ea0f72f14c651a13c023448/pyscail-0.0.9.tar.gz
+[2024-05-06 08:17:13] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/5d/2d/be15ff89e6d5766c835ed885fa84264d640e6c5489f5e3d31b7546a3e072/pepperpepper-0.0.7.4.tar.gz
+[2024-05-06 08:17:13] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/0a/fc/b39680cda3af4f2fe96890c90f764364a564ca82838627384c675ab346e4/fake_bpy_module_latest-20240505.tar.gz
+[2024-05-06 08:17:13] INFO root fetch - processPackages [pyscail]: executing diffoscope
+[2024-05-06 08:17:13] INFO root fetch - processPackages [pyscail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscail-0.0.8.tar.gz tmp/pyscail-0.0.9.tar.gz --markdown 20240506/p/pyscail/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 08:17:13] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-06 08:17:13] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.3.tar.gz tmp/pepperpepper-0.0.7.4.tar.gz --markdown 20240506/P/PepperPepper/0.0.7.3-0.0.7.4/README.md --exclude *.pyd
+[2024-05-06 08:17:13] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-06 08:17:13] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240504.tar.gz tmp/fake_bpy_module_latest-20240505.tar.gz --markdown 20240506/f/fake-bpy-module-latest/20240504-20240505/README.md --exclude *.pyd
+[2024-05-06 08:17:14] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.3.tar.gz]
+[2024-05-06 08:17:14] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.4.tar.gz]
+[2024-05-06 08:17:14] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-06 08:17:14] INFO root fetch - processPackages [pyscail]: Remove: archive file [/home/abi/fetcher/tmp/pyscail-0.0.8.tar.gz]
+[2024-05-06 08:17:14] INFO root fetch - processPackages [pyscail]: Remove: archive file [/home/abi/fetcher/tmp/pyscail-0.0.9.tar.gz]
+[2024-05-06 08:17:14] INFO root fetch - main [MainThread]: End processing [pyscail]: success
+[2024-05-06 08:17:21] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240504.tar.gz]
+[2024-05-06 08:17:21] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240505.tar.gz]
+[2024-05-06 08:17:21] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-06 08:17:21] INFO root fetch - main [MainThread]: Store serial: [23072322]
