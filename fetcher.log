@@ -6933,3 +6933,41 @@
 [2024-05-06 08:47:59] INFO root fetch - processPackages [dj-dynamic-settings]: Remove: archive file [/home/abi/fetcher/tmp/dj-dynamic-settings-0.2.5.tar.gz]
 [2024-05-06 08:47:59] INFO root fetch - main [MainThread]: End processing [dj-dynamic-settings]: success
 [2024-05-06 08:47:59] INFO root fetch - main [MainThread]: Store serial: [23072508]
+[2024-05-06 08:50:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072508]
+[2024-05-06 08:50:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 08:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telegram-notifier-client
+[2024-05-06 08:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-05-06 08:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynex
+[2024-05-06 08:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hello-world-avishek2
+[2024-05-06 08:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bitblas
+[2024-05-06 08:50:08] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.206] Old Version: [0.1.205]
+[2024-05-06 08:50:08] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/bb/59/02e421fbec1102db91f634809084e36257d6153de56ca1120c892b6af65a/ansar_connect-0.1.205.tar.gz
+[2024-05-06 08:50:08] WARNING root fetch - processPackages [hello-world-avishek2]: Skipping, unable to determine old version
+[2024-05-06 08:50:08] INFO root fetch - main [MainThread]: End processing [hello-world-avishek2] error
+[2024-05-06 08:50:08] INFO root fetch - processPackages [dynex]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 08:50:08] INFO root fetch - processPackages [telegram-notifier-client]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-06 08:50:08] INFO root fetch - processPackages [bitblas]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2024-05-06 08:50:08] INFO root fetch - processPackages [dynex]: Downloading https://files.pythonhosted.org/packages/8e/bd/6b9da67be3a376b494d07bf6581bb380a8c19c7847dd4ec2a96eaa95d31c/dynex-0.1.8.tar.gz
+[2024-05-06 08:50:08] INFO root fetch - processPackages [telegram-notifier-client]: Downloading https://files.pythonhosted.org/packages/18/0f/240a000b415ab147c478e06a1b57e91798482a1a3cbe03e9e84e0ebff14b/telegram_notifier_client-1.1.0.tar.gz
+[2024-05-06 08:50:08] INFO root fetch - processPackages [bitblas]: Downloading https://files.pythonhosted.org/packages/62/7f/ae8fe9dfc97354891e5f42ee1cddbb6a3eaea41edfc4f2261a7b82892f34/bitblas-0.0.1.dev3-py3-none-manylinux1_x86_64.whl
+[2024-05-06 08:50:08] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/70/81/ee07c375743e44fddfe1c1a1a707eeb328dfebfc151772d9c06b66ef68f4/ansar_connect-0.1.206.tar.gz
+[2024-05-06 08:50:08] WARNING root fetch - processPackages [bitblas]: Skipping package: exceeds size limit 57514841>=10485760
+[2024-05-06 08:50:08] INFO root fetch - main [MainThread]: End processing [bitblas] error
+[2024-05-06 08:50:08] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-06 08:50:08] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.205.tar.gz tmp/ansar_connect-0.1.206.tar.gz --markdown 20240506/a/ansar-connect/0.1.205-0.1.206/README.md --exclude *.pyd
+[2024-05-06 08:50:08] INFO root fetch - processPackages [telegram-notifier-client]: Downloading https://files.pythonhosted.org/packages/92/d0/28114a692c5ac2f657b1c2f87bda3f67fca45be8fb41a566833de3716890/telegram_notifier_client-1.2.0.tar.gz
+[2024-05-06 08:50:08] INFO root fetch - processPackages [dynex]: Downloading https://files.pythonhosted.org/packages/0e/88/fa8872a75f21f8c67e552040c27bf4ae758273834e7d4a2aadabbcf1239a/dynex-0.1.9.tar.gz
+[2024-05-06 08:50:08] INFO root fetch - processPackages [telegram-notifier-client]: executing diffoscope
+[2024-05-06 08:50:08] INFO root fetch - processPackages [telegram-notifier-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_notifier_client-1.1.0.tar.gz tmp/telegram_notifier_client-1.2.0.tar.gz --markdown 20240506/t/telegram-notifier-client/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-06 08:50:08] INFO root fetch - processPackages [dynex]: executing diffoscope
+[2024-05-06 08:50:08] INFO root fetch - processPackages [dynex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynex-0.1.8.tar.gz tmp/dynex-0.1.9.tar.gz --markdown 20240506/d/dynex/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 08:50:09] INFO root fetch - processPackages [telegram-notifier-client]: Remove: archive file [/home/abi/fetcher/tmp/telegram_notifier_client-1.1.0.tar.gz]
+[2024-05-06 08:50:09] INFO root fetch - processPackages [telegram-notifier-client]: Remove: archive file [/home/abi/fetcher/tmp/telegram_notifier_client-1.2.0.tar.gz]
+[2024-05-06 08:50:09] INFO root fetch - main [MainThread]: End processing [telegram-notifier-client]: success
+[2024-05-06 08:50:09] INFO root fetch - processPackages [dynex]: Remove: archive file [/home/abi/fetcher/tmp/dynex-0.1.8.tar.gz]
+[2024-05-06 08:50:09] INFO root fetch - processPackages [dynex]: Remove: archive file [/home/abi/fetcher/tmp/dynex-0.1.9.tar.gz]
+[2024-05-06 08:50:09] INFO root fetch - main [MainThread]: End processing [dynex]: success
+[2024-05-06 08:50:09] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.205.tar.gz]
+[2024-05-06 08:50:09] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.206.tar.gz]
+[2024-05-06 08:50:09] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-06 08:50:09] INFO root fetch - main [MainThread]: Store serial: [23072524]
