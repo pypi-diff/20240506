@@ -15661,3 +15661,63 @@
 [2024-05-06 12:35:32] WARNING root fetch - processPackages [dynalglib]: Skipping, unable to determine old version
 [2024-05-06 12:35:32] INFO root fetch - main [MainThread]: End processing [dynalglib] error
 [2024-05-06 12:35:32] INFO root fetch - main [MainThread]: Store serial: [23076078]
+[2024-05-06 12:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076078]
+[2024-05-06 12:37:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 12:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyAthena
+[2024-05-06 12:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JayttleProcess
+[2024-05-06 12:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stack-graphs-python-bindings
+[2024-05-06 12:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: etm-dgraham
+[2024-05-06 12:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mentabotix
+[2024-05-06 12:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fcm-django
+[2024-05-06 12:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysharek
+[2024-05-06 12:37:41] INFO root fetch - processPackages [mentabotix]: New version: [0.1.2] Old Version: [0.1.1a0]
+[2024-05-06 12:37:41] WARNING root fetch - processPackages [stack-graphs-python-bindings]: Skipping, unable to determine old version
+[2024-05-06 12:37:41] INFO root fetch - main [MainThread]: End processing [stack-graphs-python-bindings] error
+[2024-05-06 12:37:41] INFO root fetch - processPackages [JayttleProcess]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 12:37:41] INFO root fetch - processPackages [PyAthena]: New version: [3.8.2] Old Version: [3.8.1]
+[2024-05-06 12:37:41] INFO root fetch - processPackages [fcm-django]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-05-06 12:37:41] INFO root fetch - processPackages [etm-dgraham]: New version: [6.2.1] Old Version: [6.2.0]
+[2024-05-06 12:37:41] INFO root fetch - processPackages [pysharek]: New version: [0.11.1] Old Version: [0.10.5]
+[2024-05-06 12:37:41] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/21/65/1b3fc47560ea551127d8e077eb652bba8faf7221e2e431d22c15cc21bc67/mentabotix-0.1.1a0.tar.gz
+[2024-05-06 12:37:41] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/4a/50/e9c22c6c1a6fbd548db0ff9a81b2981100c3f2a1716f9425ab7fe84cd39e/JayttleProcess-0.2.8-py3-none-any.whl
+[2024-05-06 12:37:41] INFO root fetch - processPackages [PyAthena]: Downloading https://files.pythonhosted.org/packages/33/f8/c0c421665f075b33f673aee62a92f65e6dc59c7be34c2cbfb9e32d2c98ed/pyathena-3.8.1.tar.gz
+[2024-05-06 12:37:41] INFO root fetch - processPackages [fcm-django]: Downloading https://files.pythonhosted.org/packages/68/14/47449c10fcd91e3ddc0aa8056d1774b9655e02a293bd2c06b2e900b8600e/fcm-django-2.0.1.tar.gz
+[2024-05-06 12:37:41] INFO root fetch - processPackages [pysharek]: Downloading https://files.pythonhosted.org/packages/6a/06/26a892d663864d372a3c730bd38241bc57936b24bb973fc224b40c644ba6/pysharek-0.10.5.tar.gz
+[2024-05-06 12:37:41] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/8c/f4/d59c81b9dd89fd20aaaa22a0e9f32b1c6f91bf2d7dcdb4cf840932d55445/etm-dgraham-6.2.0.tar.gz
+[2024-05-06 12:37:41] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/9d/25/74239c8b9565b52d740c3f1b388daff500945aae77d908d5eff096c8697e/mentabotix-0.1.2.tar.gz
+[2024-05-06 12:37:41] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/ed/3f/b6e737dd63acb88d210963c18dbfd269c08af301cbd327dee7882a31731a/JayttleProcess-0.2.9-py3-none-any.whl
+[2024-05-06 12:37:41] INFO root fetch - processPackages [PyAthena]: Downloading https://files.pythonhosted.org/packages/df/37/dfa51e65bfa55d819dd64150d477822d412fc430c00ac78198cf42a2f8f2/pyathena-3.8.2.tar.gz
+[2024-05-06 12:37:42] INFO root fetch - processPackages [fcm-django]: Downloading https://files.pythonhosted.org/packages/74/16/887c8935722da0d24559efe2206ebb7e404fd6d12dd831fca27c8f8cd221/fcm_django-2.1.0.tar.gz
+[2024-05-06 12:37:42] INFO root fetch - processPackages [pysharek]: Downloading https://files.pythonhosted.org/packages/ca/42/70ef2dfa497bb7f5cde7492d5b1dffa053a54366e95d90e84d597e36c2d9/pysharek-0.11.1.tar.gz
+[2024-05-06 12:37:42] INFO root fetch - processPackages [JayttleProcess]: executing diffoscope
+[2024-05-06 12:37:42] INFO root fetch - processPackages [JayttleProcess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JayttleProcess-0.2.8-py3-none-any.whl.zip tmp/JayttleProcess-0.2.9-py3-none-any.whl.zip --markdown 20240506/J/JayttleProcess/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 12:37:42] INFO root fetch - processPackages [mentabotix]: executing diffoscope
+[2024-05-06 12:37:42] INFO root fetch - processPackages [mentabotix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentabotix-0.1.1a0.tar.gz tmp/mentabotix-0.1.2.tar.gz --markdown 20240506/m/mentabotix/0.1.1a0-0.1.2/README.md --exclude *.pyd
+[2024-05-06 12:37:42] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/ca/d3/6dfda02a9fecf449824b3bca0b8b36f99f6262a16d039860d7f5d0598bb3/etm-dgraham-6.2.1.tar.gz
+[2024-05-06 12:37:42] INFO root fetch - processPackages [PyAthena]: executing diffoscope
+[2024-05-06 12:37:42] INFO root fetch - processPackages [PyAthena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyathena-3.8.1.tar.gz tmp/pyathena-3.8.2.tar.gz --markdown 20240506/P/PyAthena/3.8.1-3.8.2/README.md --exclude *.pyd
+[2024-05-06 12:37:42] INFO root fetch - processPackages [fcm-django]: executing diffoscope
+[2024-05-06 12:37:42] INFO root fetch - processPackages [fcm-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcm-django-2.0.1.tar.gz tmp/fcm_django-2.1.0.tar.gz --markdown 20240506/f/fcm-django/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-06 12:37:42] INFO root fetch - processPackages [pysharek]: executing diffoscope
+[2024-05-06 12:37:42] INFO root fetch - processPackages [pysharek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysharek-0.10.5.tar.gz tmp/pysharek-0.11.1.tar.gz --markdown 20240506/p/pysharek/0.10.5-0.11.1/README.md --exclude *.pyd
+[2024-05-06 12:37:42] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2024-05-06 12:37:42] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-6.2.0.tar.gz tmp/etm-dgraham-6.2.1.tar.gz --markdown 20240506/e/etm-dgraham/6.2.0-6.2.1/README.md --exclude *.pyd
+[2024-05-06 12:37:42] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.1a0.tar.gz]
+[2024-05-06 12:37:42] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.2.tar.gz]
+[2024-05-06 12:37:42] INFO root fetch - main [MainThread]: End processing [mentabotix]: success
+[2024-05-06 12:37:42] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.8-py3-none-any.whl.zip]
+[2024-05-06 12:37:42] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.9-py3-none-any.whl.zip]
+[2024-05-06 12:37:42] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
+[2024-05-06 12:37:43] INFO root fetch - processPackages [PyAthena]: Remove: archive file [/home/abi/fetcher/tmp/pyathena-3.8.1.tar.gz]
+[2024-05-06 12:37:43] INFO root fetch - processPackages [PyAthena]: Remove: archive file [/home/abi/fetcher/tmp/pyathena-3.8.2.tar.gz]
+[2024-05-06 12:37:43] INFO root fetch - main [MainThread]: End processing [PyAthena]: success
+[2024-05-06 12:37:43] INFO root fetch - processPackages [pysharek]: Remove: archive file [/home/abi/fetcher/tmp/pysharek-0.10.5.tar.gz]
+[2024-05-06 12:37:43] INFO root fetch - processPackages [pysharek]: Remove: archive file [/home/abi/fetcher/tmp/pysharek-0.11.1.tar.gz]
+[2024-05-06 12:37:43] INFO root fetch - main [MainThread]: End processing [pysharek]: success
+[2024-05-06 12:37:43] INFO root fetch - processPackages [fcm-django]: Remove: archive file [/home/abi/fetcher/tmp/fcm-django-2.0.1.tar.gz]
+[2024-05-06 12:37:43] INFO root fetch - processPackages [fcm-django]: Remove: archive file [/home/abi/fetcher/tmp/fcm_django-2.1.0.tar.gz]
+[2024-05-06 12:37:43] INFO root fetch - main [MainThread]: End processing [fcm-django]: success
+[2024-05-06 12:37:43] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-6.2.0.tar.gz]
+[2024-05-06 12:37:43] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-6.2.1.tar.gz]
+[2024-05-06 12:37:43] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2024-05-06 12:37:43] INFO root fetch - main [MainThread]: Store serial: [23076113]
