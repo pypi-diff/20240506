@@ -15589,3 +15589,69 @@
 [2024-05-06 12:31:12] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev52.tar.gz]
 [2024-05-06 12:31:12] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2024-05-06 12:31:12] INFO root fetch - main [MainThread]: Store serial: [23076055]
+[2024-05-06 12:33:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076055]
+[2024-05-06 12:33:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 12:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lddtestgitforjenkins
+[2024-05-06 12:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapegraphai
+[2024-05-06 12:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpm-ai-inference
+[2024-05-06 12:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gempyp
+[2024-05-06 12:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jax-tools
+[2024-05-06 12:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usso
+[2024-05-06 12:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trailblazer
+[2024-05-06 12:33:21] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-05-06 12:33:21] INFO root fetch - processPackages [scrapegraphai]: New version: [0.9.0b5] Old Version: [0.9.0b4]
+[2024-05-06 12:33:21] INFO root fetch - processPackages [lddtestgitforjenkins]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-06 12:33:21] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/bf/9e/e153277d1242b510304440a2b864b6251af7ea50e33832a068a9a9e67818/scrapegraphai-0.9.0b4.tar.gz
+[2024-05-06 12:33:21] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-05-06 12:33:21] INFO root fetch - processPackages [bpm-ai-inference]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-06 12:33:21] INFO root fetch - processPackages [gempyp]: New version: [1.0.90b2] Old Version: [1.0.90b1]
+[2024-05-06 12:33:21] INFO root fetch - processPackages [usso]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-06 12:33:21] INFO root fetch - processPackages [lddtestgitforjenkins]: Downloading https://files.pythonhosted.org/packages/f6/6c/17b87a3292b5890a77bc0277b808c2902c34f5250c27ef24a6ab988d3954/lddtestgitforjenkins-0.0.3.tar.gz
+[2024-05-06 12:33:21] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-05-06 12:33:22] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-05-06 12:33:22] INFO root fetch - processPackages [bpm-ai-inference]: Downloading https://files.pythonhosted.org/packages/b6/6f/180ecf54a7e0a194a0cde563e6fdf0a37fdbe4fce32432075bc4da7eba6c/bpm_ai_inference-0.3.4.tar.gz
+[2024-05-06 12:33:22] INFO root fetch - processPackages [usso]: Downloading https://files.pythonhosted.org/packages/cc/f2/15d6c842668e6121680e844161b216bc14eb9e4e42e6ee8a9871ed153b80/usso-0.6.0.tar.gz
+[2024-05-06 12:33:22] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/ac/4e/01d697094dc6066b0e0074a5faf5829fe73c12439063ac616fbf7da6f440/gempyp-1.0.90b1.tar.gz
+[2024-05-06 12:33:22] INFO root fetch - processPackages [lddtestgitforjenkins]: Downloading https://files.pythonhosted.org/packages/31/45/963a3bbd869ab83b170aaa8ce201892d616aba6c445ebc459017e2ba5926/lddtestgitforjenkins-0.1.0-py3-none-any.whl
+[2024-05-06 12:33:22] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-05-06 12:33:22] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-05-06 12:33:22] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/83/c5/d21687ee5cd94b0e98555d2568ddb3252843269abb79e0242a044c95554d/scrapegraphai-0.9.0b5.tar.gz
+[2024-05-06 12:33:22] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240506/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-05-06 12:33:22] INFO root fetch - processPackages [lddtestgitforjenkins]: executing diffoscope
+[2024-05-06 12:33:22] INFO root fetch - processPackages [lddtestgitforjenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lddtestgitforjenkins-0.0.3.tar.gz tmp/lddtestgitforjenkins-0.1.0-py3-none-any.whl.zip --markdown 20240506/l/lddtestgitforjenkins/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-06 12:33:22] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-06 12:33:22] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.9.0b4.tar.gz tmp/scrapegraphai-0.9.0b5.tar.gz --markdown 20240506/s/scrapegraphai/0.9.0b4-0.9.0b5/README.md --exclude *.pyd
+[2024-05-06 12:33:22] INFO root fetch - processPackages [bpm-ai-inference]: Downloading https://files.pythonhosted.org/packages/b0/97/cfb6cf3abe9bd6b236280dda5adad7d300efd53ffe78db74bbebefc96a08/bpm_ai_inference-0.3.5.tar.gz
+[2024-05-06 12:33:22] INFO root fetch - processPackages [usso]: Downloading https://files.pythonhosted.org/packages/77/80/a55da2441d6c2ba5e9112ad5486f7269a8d4dff64cd10630dd0d59fcb04f/usso-0.7.0.tar.gz
+[2024-05-06 12:33:22] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/7d/33/9c6993ac7e1753b3fbb7421f96360ab3f3300b76c7de47762c92198dff51/gempyp-1.0.90b2.tar.gz
+[2024-05-06 12:33:22] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-05-06 12:33:22] INFO root fetch - processPackages [bpm-ai-inference]: executing diffoscope
+[2024-05-06 12:33:22] INFO root fetch - processPackages [bpm-ai-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai_inference-0.3.4.tar.gz tmp/bpm_ai_inference-0.3.5.tar.gz --markdown 20240506/b/bpm-ai-inference/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-06 12:33:22] INFO root fetch - processPackages [gempyp]: executing diffoscope
+[2024-05-06 12:33:22] INFO root fetch - processPackages [gempyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempyp-1.0.90b1.tar.gz tmp/gempyp-1.0.90b2.tar.gz --markdown 20240506/g/gempyp/1.0.90b1-1.0.90b2/README.md --exclude *.pyd
+[2024-05-06 12:33:22] INFO root fetch - processPackages [usso]: executing diffoscope
+[2024-05-06 12:33:22] INFO root fetch - processPackages [usso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usso-0.6.0.tar.gz tmp/usso-0.7.0.tar.gz --markdown 20240506/u/usso/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-06 12:33:22] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-05-06 12:33:22] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240506/t/trailblazer/9.2.1-9.2.2/README.md --exclude *.pyd
+[2024-05-06 12:33:23] INFO root fetch - processPackages [lddtestgitforjenkins]: Remove: archive file [/home/abi/fetcher/tmp/lddtestgitforjenkins-0.0.3.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - processPackages [lddtestgitforjenkins]: Remove: archive file [/home/abi/fetcher/tmp/lddtestgitforjenkins-0.1.0-py3-none-any.whl.zip]
+[2024-05-06 12:33:23] INFO root fetch - main [MainThread]: End processing [lddtestgitforjenkins]: success
+[2024-05-06 12:33:23] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-05-06 12:33:23] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b4.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b5.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-06 12:33:23] INFO root fetch - processPackages [bpm-ai-inference]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_inference-0.3.4.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - processPackages [bpm-ai-inference]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_inference-0.3.5.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - main [MainThread]: End processing [bpm-ai-inference]: success
+[2024-05-06 12:33:23] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-05-06 12:33:23] INFO root fetch - processPackages [gempyp]: Remove: archive file [/home/abi/fetcher/tmp/gempyp-1.0.90b1.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - processPackages [gempyp]: Remove: archive file [/home/abi/fetcher/tmp/gempyp-1.0.90b2.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - main [MainThread]: End processing [gempyp]: success
+[2024-05-06 12:33:23] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.6.0.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.7.0.tar.gz]
+[2024-05-06 12:33:23] INFO root fetch - main [MainThread]: End processing [usso]: success
+[2024-05-06 12:33:23] INFO root fetch - main [MainThread]: Store serial: [23076074]
