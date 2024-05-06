@@ -6513,3 +6513,24 @@
 [2024-05-06 08:21:52] INFO root fetch - processPackages [alibabacloud-cas20200407]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cas20200407-1.3.0.tar.gz]
 [2024-05-06 08:21:52] INFO root fetch - main [MainThread]: End processing [alibabacloud-cas20200407]: success
 [2024-05-06 08:21:52] INFO root fetch - main [MainThread]: Store serial: [23072346]
+[2024-05-06 08:23:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072346]
+[2024-05-06 08:24:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 08:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oscillators
+[2024-05-06 08:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langjam
+[2024-05-06 08:24:01] INFO root fetch - processPackages [langjam]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 08:24:01] INFO root fetch - processPackages [oscillators]: New version: [0.2] Old Version: [0.1]
+[2024-05-06 08:24:01] INFO root fetch - processPackages [langjam]: Downloading https://files.pythonhosted.org/packages/32/42/0fa74b4e6b4e9bd9904445a244bbfd8b082940968d57c21f0854cc75b388/langjam-0.1.4.tar.gz
+[2024-05-06 08:24:01] INFO root fetch - processPackages [oscillators]: Downloading https://files.pythonhosted.org/packages/97/e6/5e6d6c4c7f07092fd39f4512f107379cf51d40fdbabaa995e336eeea2108/oscillators-0.1.tar.gz
+[2024-05-06 08:24:01] INFO root fetch - processPackages [langjam]: Downloading https://files.pythonhosted.org/packages/b7/f1/a81b2822c893aec109eae6f82ccc6e31a9db808b664526af5023f23af90d/langjam-0.1.5.tar.gz
+[2024-05-06 08:24:01] INFO root fetch - processPackages [langjam]: executing diffoscope
+[2024-05-06 08:24:01] INFO root fetch - processPackages [langjam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langjam-0.1.4.tar.gz tmp/langjam-0.1.5.tar.gz --markdown 20240506/l/langjam/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 08:24:01] INFO root fetch - processPackages [oscillators]: Downloading https://files.pythonhosted.org/packages/69/0d/686a2bc158d322550aa9ab3c70a53c37a4e708fb652383dedd4da3279e76/oscillators-0.2.tar.gz
+[2024-05-06 08:24:01] INFO root fetch - processPackages [oscillators]: executing diffoscope
+[2024-05-06 08:24:01] INFO root fetch - processPackages [oscillators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oscillators-0.1.tar.gz tmp/oscillators-0.2.tar.gz --markdown 20240506/o/oscillators/0.1-0.2/README.md --exclude *.pyd
+[2024-05-06 08:24:02] INFO root fetch - processPackages [langjam]: Remove: archive file [/home/abi/fetcher/tmp/langjam-0.1.4.tar.gz]
+[2024-05-06 08:24:02] INFO root fetch - processPackages [langjam]: Remove: archive file [/home/abi/fetcher/tmp/langjam-0.1.5.tar.gz]
+[2024-05-06 08:24:02] INFO root fetch - main [MainThread]: End processing [langjam]: success
+[2024-05-06 08:24:02] INFO root fetch - processPackages [oscillators]: Remove: archive file [/home/abi/fetcher/tmp/oscillators-0.1.tar.gz]
+[2024-05-06 08:24:02] INFO root fetch - processPackages [oscillators]: Remove: archive file [/home/abi/fetcher/tmp/oscillators-0.2.tar.gz]
+[2024-05-06 08:24:02] INFO root fetch - main [MainThread]: End processing [oscillators]: success
+[2024-05-06 08:24:02] INFO root fetch - main [MainThread]: Store serial: [23072352]
