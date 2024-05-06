@@ -20812,3 +20812,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:53:16] INFO root fetch - processPackages [cdk-vpc-toumoro-projen]: Remove: archive file [/home/abi/fetcher/tmp/cdk-vpc-toumoro-projen-0.0.9.tar.gz]
 [2024-05-06 15:53:16] INFO root fetch - main [MainThread]: End processing [cdk-vpc-toumoro-projen]: success
 [2024-05-06 15:53:16] INFO root fetch - main [MainThread]: Store serial: [23078660]
+[2024-05-06 15:55:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078660]
+[2024-05-06 15:55:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blueshed-gust
+[2024-05-06 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lljz-tools
+[2024-05-06 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pragmatic-business-rules
+[2024-05-06 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensordict-nightly
+[2024-05-06 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: altmol
+[2024-05-06 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botasaurus2
+[2024-05-06 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vbimagetotext
+[2024-05-06 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenFisca-France
+[2024-05-06 15:55:26] WARNING root fetch - processPackages [blueshed-gust]: Skipping, unable to determine old version
+[2024-05-06 15:55:26] INFO root fetch - main [MainThread]: End processing [blueshed-gust] error
+[2024-05-06 15:55:26] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 15:55:26] INFO root fetch - processPackages [pragmatic-business-rules]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-06 15:55:26] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-06 15:55:26] WARNING root fetch - processPackages [altmol]: Skipping, unable to determine old version
+[2024-05-06 15:55:26] INFO root fetch - main [MainThread]: End processing [altmol] error
+[2024-05-06 15:55:26] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/07/e1/d8ad41d04bd7526045884eb68fffdf0d0584720dc1f876fa9b7b87605451/lljz_tools-0.2.8.tar.gz
+[2024-05-06 15:55:26] INFO root fetch - processPackages [botasaurus2]: New version: [1.4.8] Old Version: [1.4.7]
+[2024-05-06 15:55:26] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.5.6] Old Version: [2024.5.5]
+[2024-05-06 15:55:26] INFO root fetch - processPackages [pragmatic-business-rules]: Downloading https://files.pythonhosted.org/packages/0b/db/f29dd90b12bde78a4867b6896ab47e0f9fa225bd7c6d96571420f408aaa5/pragmatic_business_rules-0.4.0.tar.gz
+[2024-05-06 15:55:26] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/65/d0/80304649727520ed085feef9996d26dec78c40c69dbb6786bf88af8b40b8/botasaurus2-1.4.7.tar.gz
+[2024-05-06 15:55:26] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/cf/44/c1fab0a2327ae2523669bfa33c1ea7c95c48daac5b760d55b04f7408e7ef/vbimagetotext-0.1.5.tar.gz
+[2024-05-06 15:55:26] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2024-05-06 15:55:26] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/a7/af/a18c36655f7f553567ff5dd5fb22c0f4e280c4a0200a0b3c876136e8201f/lljz_tools-0.2.9.tar.gz
+[2024-05-06 15:55:26] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/0a/97/38b88ebdab2aae8f566f9adeb42c7a8c74fbdd7dfad2f4c1b2b0bed56d0b/tensordict_nightly-2024.5.5-cp39-cp39-win_amd64.whl
+[2024-05-06 15:55:26] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-05-06 15:55:26] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.8.tar.gz tmp/lljz_tools-0.2.9.tar.gz --markdown 20240506/l/lljz-tools/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 15:55:27] INFO root fetch - processPackages [pragmatic-business-rules]: Downloading https://files.pythonhosted.org/packages/9c/e9/dd85771846ab6f2e4468f626b0b098e3b9eb2e13c7a49a984f41ed56fe72/pragmatic_business_rules-0.4.1.tar.gz
+[2024-05-06 15:55:27] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2024-05-06 15:55:27] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/b6/27/02e58218f802845258627821f708a6574ffab33c889bedf452af18be16c4/vbimagetotext-0.1.6.tar.gz
+[2024-05-06 15:55:27] INFO root fetch - processPackages [pragmatic-business-rules]: executing diffoscope
+[2024-05-06 15:55:27] INFO root fetch - processPackages [pragmatic-business-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pragmatic_business_rules-0.4.0.tar.gz tmp/pragmatic_business_rules-0.4.1.tar.gz --markdown 20240506/p/pragmatic-business-rules/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-06 15:55:27] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/8b/2c/b5513600be1d57416d670bc2e866570129177a6cdab2a87ab970203606c6/botasaurus2-1.4.8.tar.gz
+[2024-05-06 15:55:27] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/4a/fd/7ae659e59203babffd61d7166d993861d77f6239245955eafa83d486636b/tensordict_nightly-2024.5.6-cp39-cp39-manylinux1_x86_64.whl
+[2024-05-06 15:55:27] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-06 15:55:27] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.5.tar.gz tmp/vbimagetotext-0.1.6.tar.gz --markdown 20240506/v/vbimagetotext/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-06 15:55:27] INFO root fetch - processPackages [botasaurus2]: executing diffoscope
+[2024-05-06 15:55:27] INFO root fetch - processPackages [botasaurus2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus2-1.4.7.tar.gz tmp/botasaurus2-1.4.8.tar.gz --markdown 20240506/b/botasaurus2/1.4.7-1.4.8/README.md --exclude *.pyd
+[2024-05-06 15:55:27] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.8.tar.gz]
+[2024-05-06 15:55:27] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.9.tar.gz]
+[2024-05-06 15:55:27] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-05-06 15:55:27] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-05-06 15:55:27] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.5.5-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.5.6-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240506/t/tensordict-nightly/2024.5.5-2024.5.6/README.md --exclude *.pyd
+[2024-05-06 15:55:27] INFO root fetch - processPackages [pragmatic-business-rules]: Remove: archive file [/home/abi/fetcher/tmp/pragmatic_business_rules-0.4.0.tar.gz]
+[2024-05-06 15:55:27] INFO root fetch - processPackages [pragmatic-business-rules]: Remove: archive file [/home/abi/fetcher/tmp/pragmatic_business_rules-0.4.1.tar.gz]
+[2024-05-06 15:55:27] INFO root fetch - main [MainThread]: End processing [pragmatic-business-rules]: success
+[2024-05-06 15:55:27] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.5.tar.gz]
+[2024-05-06 15:55:27] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.6.tar.gz]
+[2024-05-06 15:55:27] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-06 15:55:28] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.7.tar.gz]
+[2024-05-06 15:55:28] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.8.tar.gz]
+[2024-05-06 15:55:28] INFO root fetch - main [MainThread]: End processing [botasaurus2]: success
+[2024-05-06 15:55:28] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2024-05-06 15:55:28] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-06 15:55:28] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.6-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-05-06 15:55:28] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-05-06 15:55:28] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2024-05-06 15:55:28] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20240506/O/OpenFisca-France/99.0.0-99.0.1/README.md --exclude *.pyd
+[2024-05-06 15:55:37] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2024-05-06 15:55:37] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2024-05-06 15:55:37] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2024-05-06 15:55:37] INFO root fetch - main [MainThread]: Store serial: [23078689]
