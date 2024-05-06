@@ -16277,3 +16277,48 @@
 [2024-05-06 12:58:02] INFO root fetch - processPackages [oda-data]: Remove: archive file [/home/abi/fetcher/tmp/oda_data-1.2.0.tar.gz]
 [2024-05-06 12:58:02] INFO root fetch - main [MainThread]: End processing [oda-data]: success
 [2024-05-06 12:58:02] INFO root fetch - main [MainThread]: Store serial: [23076372]
+[2024-05-06 13:00:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076372]
+[2024-05-06 13:00:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plutobook
+[2024-05-06 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypipr
+[2024-05-06 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: btc-embedded
+[2024-05-06 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysgconnect
+[2024-05-06 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crate-docs-theme
+[2024-05-06 13:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dyn-drf
+[2024-05-06 13:00:11] INFO root fetch - processPackages [plutobook]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 13:00:11] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 13:00:11] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-06 13:00:11] WARNING root fetch - processPackages [pysgconnect]: Skipping, unable to determine old version
+[2024-05-06 13:00:11] INFO root fetch - main [MainThread]: End processing [pysgconnect] error
+[2024-05-06 13:00:11] INFO root fetch - processPackages [plutobook]: Downloading https://files.pythonhosted.org/packages/4f/dd/ba572a553753cea938f36cfb75d381333e2c2715b0c44096e93a28f6e086/plutobook-0.0.6-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-06 13:00:11] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.6] Old Version: [24.1.5]
+[2024-05-06 13:00:11] WARNING root fetch - processPackages [dyn-drf]: Skipping, unable to determine old version
+[2024-05-06 13:00:11] INFO root fetch - main [MainThread]: End processing [dyn-drf] error
+[2024-05-06 13:00:11] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 13:00:11] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-05-06 13:00:11] INFO root fetch - processPackages [plutobook]: Downloading https://files.pythonhosted.org/packages/28/c3/54170b1b1b7015f9c17bc89f16a0028d9a2b4fe2a2a6d0990db69f8f49c7/plutobook-0.0.7.tar.gz
+[2024-05-06 13:00:11] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-05-06 13:00:11] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/8b/e8/9e00e79b018e905f39d99897ba81460a4b885356f929a725f6e9351948bc/btc_embedded-24.1.5.tar.gz
+[2024-05-06 13:00:11] INFO root fetch - processPackages [plutobook]: executing diffoscope
+[2024-05-06 13:00:11] INFO root fetch - processPackages [plutobook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutobook-0.0.6-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/plutobook-0.0.7.tar.gz --markdown 20240506/p/plutobook/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 13:00:11] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-05-06 13:00:11] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240506/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-06 13:00:11] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 13:00:12] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-05-06 13:00:12] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-05-06 13:00:12] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.5.tar.gz tmp/btc_embedded-24.1.6.tar.gz --markdown 20240506/b/btc-embedded/24.1.5-24.1.6/README.md --exclude *.pyd
+[2024-05-06 13:00:12] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 13:00:12] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 13:00:12] INFO root fetch - processPackages [plutobook]: Remove: archive file [/home/abi/fetcher/tmp/plutobook-0.0.6-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-06 13:00:12] INFO root fetch - processPackages [plutobook]: Remove: archive file [/home/abi/fetcher/tmp/plutobook-0.0.7.tar.gz]
+[2024-05-06 13:00:12] INFO root fetch - main [MainThread]: End processing [plutobook]: success
+[2024-05-06 13:00:12] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-05-06 13:00:12] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-05-06 13:00:12] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-05-06 13:00:12] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.5.tar.gz]
+[2024-05-06 13:00:12] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-05-06 13:00:12] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-05-06 13:00:13] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 13:00:13] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 13:00:13] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 13:00:13] INFO root fetch - main [MainThread]: Store serial: [23076391]
