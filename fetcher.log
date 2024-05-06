@@ -21588,3 +21588,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:20:53] INFO root fetch - processPackages [google-cloud-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-3.9.0.tar.gz]
 [2024-05-06 16:20:53] INFO root fetch - main [MainThread]: End processing [google-cloud-bigquery]: success
 [2024-05-06 16:20:53] INFO root fetch - main [MainThread]: Store serial: [23079065]
+[2024-05-06 16:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079065]
+[2024-05-06 16:23:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 16:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-05-06 16:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: permit
+[2024-05-06 16:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal
+[2024-05-06 16:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal-client
+[2024-05-06 16:23:06] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 16:23:06] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-06 16:23:06] INFO root fetch - processPackages [permit]: New version: [2.5.0] Old Version: [2.4.3]
+[2024-05-06 16:23:06] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-06 16:23:06] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-06 16:23:06] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/01/93/f9bd6ac2cce4395a9dc3b7a93498d38fe04f083a36eb6801444d01574188/permit-2.4.3.tar.gz
+[2024-05-06 16:23:06] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-06 16:23:06] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-06 16:23:06] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-06 16:23:06] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-06 16:23:06] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240506/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 16:23:06] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-06 16:23:06] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/09/a3/237613edac427585757217cf669822d10a8758efa2ecdf3c9cab606c4e69/permit-2.5.0.tar.gz
+[2024-05-06 16:23:06] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-06 16:23:06] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240506/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-06 16:23:06] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-06 16:23:06] INFO root fetch - processPackages [permit]: executing diffoscope
+[2024-05-06 16:23:06] INFO root fetch - processPackages [permit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permit-2.4.3.tar.gz tmp/permit-2.5.0.tar.gz --markdown 20240506/p/permit/2.4.3-2.5.0/README.md --exclude *.pyd
+[2024-05-06 16:23:07] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-06 16:23:07] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240506/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-06 16:23:07] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-06 16:23:07] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-06 16:23:07] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-06 16:23:07] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-06 16:23:07] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-06 16:23:07] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-06 16:23:07] INFO root fetch - processPackages [permit]: Remove: archive file [/home/abi/fetcher/tmp/permit-2.4.3.tar.gz]
+[2024-05-06 16:23:07] INFO root fetch - processPackages [permit]: Remove: archive file [/home/abi/fetcher/tmp/permit-2.5.0.tar.gz]
+[2024-05-06 16:23:07] INFO root fetch - main [MainThread]: End processing [permit]: success
+[2024-05-06 16:23:08] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-06 16:23:08] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-06 16:23:08] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-06 16:23:08] INFO root fetch - main [MainThread]: Store serial: [23079076]
