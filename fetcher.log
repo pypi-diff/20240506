@@ -1710,3 +1710,38 @@
 [2024-05-06 02:45:43] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405050044.tar.gz]
 [2024-05-06 02:45:43] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-06 02:45:43] INFO root fetch - main [MainThread]: Store serial: [23070214]
+[2024-05-06 02:47:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070214]
+[2024-05-06 02:47:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 02:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nm-magic-wand-nightly
+[2024-05-06 02:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TreeSAK
+[2024-05-06 02:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-databrew-cicd
+[2024-05-06 02:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: execnb
+[2024-05-06 02:47:52] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240505] Old Version: [0.2.2.20240504]
+[2024-05-06 02:47:52] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-06 02:47:52] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-06 02:47:52] INFO root fetch - processPackages [execnb]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-06 02:47:52] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/9a/52/b0b5184c9db4bbdb0724508e7e07ee8a889f6d2fc150e13e17aa1a0bdab3/nm_magic_wand_nightly-0.2.2.20240504-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-05-06 02:47:52] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-06 02:47:52] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-06 02:47:52] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76879062>=10485760
+[2024-05-06 02:47:52] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-05-06 02:47:52] INFO root fetch - processPackages [execnb]: Downloading https://files.pythonhosted.org/packages/2d/f5/5621e35bc692514db44aea307b5c2e41ac0cd1193b4251c5584e1f6fe6ce/execnb-0.1.5.tar.gz
+[2024-05-06 02:47:52] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-06 02:47:52] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-06 02:47:53] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-06 02:47:53] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240506/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-06 02:47:53] INFO root fetch - processPackages [execnb]: Downloading https://files.pythonhosted.org/packages/18/89/bf1d1b8acef9d6743c55759c89f3a27aff2f7f9946a397fae3d53f5aea2c/execnb-0.1.6.tar.gz
+[2024-05-06 02:47:53] INFO root fetch - processPackages [execnb]: executing diffoscope
+[2024-05-06 02:47:53] INFO root fetch - processPackages [execnb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execnb-0.1.5.tar.gz tmp/execnb-0.1.6.tar.gz --markdown 20240506/e/execnb/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-06 02:47:53] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-06 02:47:53] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240506/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-06 02:47:53] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-06 02:47:53] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-06 02:47:53] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-06 02:47:53] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-06 02:47:53] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-06 02:47:53] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-06 02:47:53] INFO root fetch - processPackages [execnb]: Remove: archive file [/home/abi/fetcher/tmp/execnb-0.1.5.tar.gz]
+[2024-05-06 02:47:53] INFO root fetch - processPackages [execnb]: Remove: archive file [/home/abi/fetcher/tmp/execnb-0.1.6.tar.gz]
+[2024-05-06 02:47:53] INFO root fetch - main [MainThread]: End processing [execnb]: success
+[2024-05-06 02:47:53] INFO root fetch - main [MainThread]: Store serial: [23070230]
