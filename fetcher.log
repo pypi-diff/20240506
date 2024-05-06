@@ -23081,3 +23081,117 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:11:29] INFO root fetch - processPackages [openvino-dev]: Remove: archive file [/home/abi/fetcher/tmp/openvino_dev-2024.1.0-15008-py3-none-any.whl.zip]
 [2024-05-06 17:11:29] INFO root fetch - main [MainThread]: End processing [openvino-dev]: success
 [2024-05-06 17:11:29] INFO root fetch - main [MainThread]: Store serial: [23079782]
+[2024-05-06 17:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079782]
+[2024-05-06 17:13:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-06 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-SPLASH
+[2024-05-06 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-draggable-no-console-logs
+[2024-05-06 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fattureincloud-python-sdk
+[2024-05-06 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maptasker
+[2024-05-06 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udata-tabular-preview
+[2024-05-06 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AlleleFinder
+[2024-05-06 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: IOPaint
+[2024-05-06 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-shopfloor
+[2024-05-06 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-shopfloor-reception
+[2024-05-06 17:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: my-media-crawler
+[2024-05-06 17:13:38] INFO root fetch - processPackages [maptasker]: New version: [4.0] Old Version: [2.6.3]
+[2024-05-06 17:13:38] INFO root fetch - processPackages [IOPaint]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-06 17:13:38] INFO root fetch - processPackages [astro-SPLASH]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 17:13:38] INFO root fetch - processPackages [AlleleFinder]: New version: [0.2.6] Old Version: [0.2.4]
+[2024-05-06 17:13:38] INFO root fetch - processPackages [dash-draggable-no-console-logs]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 17:13:38] INFO root fetch - processPackages [udata-tabular-preview]: New version: [4.0.1.dev767] Old Version: [4.0.0]
+[2024-05-06 17:13:38] INFO root fetch - processPackages [maptasker]: Downloading https://files.pythonhosted.org/packages/ab/49/200acdb52a7646011175e546240bd0b707e122f159fbbd747f7926ab18c4/maptasker-2.6.3.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [my-media-crawler]: New version: [0.1.4] Old Version: [0.1.0]
+[2024-05-06 17:13:38] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-05-06 17:13:38] INFO root fetch - processPackages [fattureincloud-python-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-06 17:13:38] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.4.9.1.dev3] Old Version: [14.0.4.9.0]
+[2024-05-06 17:13:38] INFO root fetch - processPackages [IOPaint]: Downloading https://files.pythonhosted.org/packages/29/0c/d34069595a6655c325195fb754a9441e6609676f3c3a125e833f7a8d0833/IOPaint-1.3.1.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Downloading https://files.pythonhosted.org/packages/f7/11/ee240c038df438707ebf731b622ba7464fc9dcf9e2050290edbf720d12d6/dash_draggable_no_console_logs-0.0.1.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/2d/62/5193b720fe79afcf4ddb0a84999a77b2d3def33934be3e971b52e5290221/astro_SPLASH-0.0.8.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [AlleleFinder]: Downloading https://files.pythonhosted.org/packages/71/20/356a2cfc2ce8d1692d899d393b2b523c40cd8318f485ab69364951e8c69d/allelefinder-0.2.4.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [udata-tabular-preview]: Downloading https://files.pythonhosted.org/packages/9c/15/2139637482737c48b23646911e1adaca5566c6d2f22943ee83c6aabe6252/udata_tabular_preview-4.0.0-py2.py3-none-any.whl
+[2024-05-06 17:13:38] INFO root fetch - processPackages [fattureincloud-python-sdk]: Downloading https://files.pythonhosted.org/packages/07/68/ca4647f06cc8170b393a02e7994291d0c94f552ceb2a86d68ad86851966f/fattureincloud-python-sdk-2.0.8.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [my-media-crawler]: Downloading https://files.pythonhosted.org/packages/dd/94/a407f0ede3087ef22f4e895f1cc99673e576ecd5319f4f53cf31a3aa44f8/my_media_crawler-0.1.0.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Downloading https://files.pythonhosted.org/packages/3d/3c/6d46ebeb8cb06bc493ed70b8a76011ca97f374f1e715a93f11569b3db53a/odoo14_addon_shopfloor_reception-14.0.2.8.0-py3-none-any.whl
+[2024-05-06 17:13:38] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/30/3a/87c5464add8f91a77b2cccbc02f5526d7ca05288541725ee9944ccd6f3ad/astro_SPLASH-0.0.9.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [AlleleFinder]: Downloading https://files.pythonhosted.org/packages/42/80/60dd08c00db3d286affcb145d2f69d5fd2fb31da8fd9e187addbda37b6b5/allelefinder-0.2.6.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/36/46/77c34338bb4ff8ad81427a6a096765b30072d313f47ec4884180d1cea259/odoo14_addon_shopfloor-14.0.4.9.0-py3-none-any.whl
+[2024-05-06 17:13:38] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Downloading https://files.pythonhosted.org/packages/51/39/2ef6dc16bc6b9fbb427ba5034e9eb0f59fcd4fbfd097a0fa3fd1faa92a72/dash_draggable_no_console_logs-0.0.2.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [maptasker]: Downloading https://files.pythonhosted.org/packages/55/0f/5b80f8abad8bd4eabf41a88c9f8070ec031d5d58a6692858ac0aa68620c0/maptasker-4.0.tar.gz
+[2024-05-06 17:13:38] INFO root fetch - processPackages [AlleleFinder]: executing diffoscope
+[2024-05-06 17:13:38] INFO root fetch - processPackages [AlleleFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allelefinder-0.2.4.tar.gz tmp/allelefinder-0.2.6.tar.gz --markdown 20240506/A/AlleleFinder/0.2.4-0.2.6/README.md --exclude *.pyd
+[2024-05-06 17:13:38] INFO root fetch - processPackages [dash-draggable-no-console-logs]: executing diffoscope
+[2024-05-06 17:13:38] INFO root fetch - processPackages [dash-draggable-no-console-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_draggable_no_console_logs-0.0.1.tar.gz tmp/dash_draggable_no_console_logs-0.0.2.tar.gz --markdown 20240506/d/dash-draggable-no-console-logs/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 17:13:38] INFO root fetch - processPackages [astro-SPLASH]: executing diffoscope
+[2024-05-06 17:13:38] INFO root fetch - processPackages [astro-SPLASH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_SPLASH-0.0.8.tar.gz tmp/astro_SPLASH-0.0.9.tar.gz --markdown 20240506/a/astro-SPLASH/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 17:13:38] INFO root fetch - processPackages [maptasker]: executing diffoscope
+[2024-05-06 17:13:38] INFO root fetch - processPackages [maptasker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maptasker-2.6.3.tar.gz tmp/maptasker-4.0.tar.gz --markdown 20240506/m/maptasker/2.6.3-4.0/README.md --exclude *.pyd
+[2024-05-06 17:13:38] INFO root fetch - processPackages [udata-tabular-preview]: Downloading https://files.pythonhosted.org/packages/43/da/8fa404c9e6692a563da8547252025ca4ac13fee8e97236982be830c086cd/udata_tabular_preview-4.0.1.dev767-py2.py3-none-any.whl
+[2024-05-06 17:13:38] INFO root fetch - processPackages [IOPaint]: Downloading https://files.pythonhosted.org/packages/c2/11/7dc350fca7143ac74637a18d30070e9a8082155cd4fc45bff8c0ffec3193/IOPaint-1.3.2.tar.gz
+[2024-05-06 17:13:39] INFO root fetch - processPackages [my-media-crawler]: Downloading https://files.pythonhosted.org/packages/be/83/6094c37a12d4be4d1f5f0db2d646060a216af7b96402e33fd6b3218148f5/my_media_crawler-0.1.4-py3-none-any.whl
+[2024-05-06 17:13:39] INFO root fetch - processPackages [fattureincloud-python-sdk]: Downloading https://files.pythonhosted.org/packages/58/4d/b02e21c01bbde9517449526d78585b25115420fb3798a6c7417570aa9d2f/fattureincloud-python-sdk-2.0.9.tar.gz
+[2024-05-06 17:13:39] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Downloading https://files.pythonhosted.org/packages/e1/5a/d689cbe903915e96ea5c06d74c0a719b658fc8aa578429b14e3a12805440/odoo14_addon_shopfloor_reception-14.0.2.9.0-py3-none-any.whl
+[2024-05-06 17:13:39] INFO root fetch - processPackages [my-media-crawler]: executing diffoscope
+[2024-05-06 17:13:39] INFO root fetch - processPackages [my-media-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_media_crawler-0.1.0.tar.gz tmp/my_media_crawler-0.1.4-py3-none-any.whl.zip --markdown 20240506/m/my-media-crawler/0.1.0-0.1.4/README.md --exclude *.pyd
+[2024-05-06 17:13:39] INFO root fetch - processPackages [udata-tabular-preview]: executing diffoscope
+[2024-05-06 17:13:39] INFO root fetch - processPackages [udata-tabular-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_tabular_preview-4.0.0-py2.py3-none-any.whl.zip tmp/udata_tabular_preview-4.0.1.dev767-py2.py3-none-any.whl.zip --markdown 20240506/u/udata-tabular-preview/4.0.0-4.0.1.dev767/README.md --exclude *.pyd
+[2024-05-06 17:13:39] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: executing diffoscope
+[2024-05-06 17:13:39] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_reception-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_reception-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240506/o/odoo14-addon-shopfloor-reception/14.0.2.8.0-14.0.2.9.0/README.md --exclude *.pyd
+[2024-05-06 17:13:39] INFO root fetch - processPackages [fattureincloud-python-sdk]: executing diffoscope
+[2024-05-06 17:13:39] INFO root fetch - processPackages [fattureincloud-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fattureincloud-python-sdk-2.0.8.tar.gz tmp/fattureincloud-python-sdk-2.0.9.tar.gz --markdown 20240506/f/fattureincloud-python-sdk/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-06 17:13:39] INFO root fetch - processPackages [IOPaint]: executing diffoscope
+[2024-05-06 17:13:39] INFO root fetch - processPackages [IOPaint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IOPaint-1.3.1.tar.gz tmp/IOPaint-1.3.2.tar.gz --markdown 20240506/I/IOPaint/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-06 17:13:39] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/05/80/64e500b5f8865fb59acbee60e882e3935916e24b56659ea9580eb6e2440a/odoo14_addon_shopfloor-14.0.4.9.1.dev3-py3-none-any.whl
+[2024-05-06 17:13:39] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2024-05-06 17:13:39] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.4.9.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.4.9.1.dev3-py3-none-any.whl.zip --markdown 20240506/o/odoo14-addon-shopfloor/14.0.4.9.0-14.0.4.9.1.dev3/README.md --exclude *.pyd
+[2024-05-06 17:13:39] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.8.tar.gz]
+[2024-05-06 17:13:39] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.9.tar.gz]
+[2024-05-06 17:13:39] INFO root fetch - processPackages [astro-SPLASH]: Start processing: astro-reduce
+[2024-05-06 17:13:39] INFO root fetch - main [MainThread]: End processing [astro-SPLASH]: success
+[2024-05-06 17:13:39] INFO root fetch - processPackages [AlleleFinder]: Remove: archive file [/home/abi/fetcher/tmp/allelefinder-0.2.4.tar.gz]
+[2024-05-06 17:13:39] INFO root fetch - processPackages [AlleleFinder]: Remove: archive file [/home/abi/fetcher/tmp/allelefinder-0.2.6.tar.gz]
+[2024-05-06 17:13:39] INFO root fetch - processPackages [AlleleFinder]: Start processing: bookops-worldcat
+[2024-05-06 17:13:39] INFO root fetch - main [MainThread]: End processing [AlleleFinder]: success
+[2024-05-06 17:13:39] INFO root fetch - processPackages [astro-reduce]: New version: [5.0.4] Old Version: [5.0.3]
+[2024-05-06 17:13:39] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Remove: archive file [/home/abi/fetcher/tmp/dash_draggable_no_console_logs-0.0.1.tar.gz]
+[2024-05-06 17:13:39] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Remove: archive file [/home/abi/fetcher/tmp/dash_draggable_no_console_logs-0.0.2.tar.gz]
+[2024-05-06 17:13:39] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Start processing: boruta-py-versioned
+[2024-05-06 17:13:39] INFO root fetch - main [MainThread]: End processing [dash-draggable-no-console-logs]: success
+[2024-05-06 17:13:40] INFO root fetch - processPackages [bookops-worldcat]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 17:13:40] INFO root fetch - processPackages [my-media-crawler]: Remove: archive file [/home/abi/fetcher/tmp/my_media_crawler-0.1.0.tar.gz]
+[2024-05-06 17:13:40] INFO root fetch - processPackages [my-media-crawler]: Remove: archive file [/home/abi/fetcher/tmp/my_media_crawler-0.1.4-py3-none-any.whl.zip]
+[2024-05-06 17:13:40] INFO root fetch - main [MainThread]: End processing [my-media-crawler]: success
+[2024-05-06 17:13:40] WARNING root fetch - processPackages [boruta-py-versioned]: Skipping, unable to determine old version
+[2024-05-06 17:13:40] INFO root fetch - main [MainThread]: End processing [boruta-py-versioned] error
+[2024-05-06 17:13:40] INFO root fetch - processPackages [udata-tabular-preview]: Remove: archive file [/home/abi/fetcher/tmp/udata_tabular_preview-4.0.0-py2.py3-none-any.whl.zip]
+[2024-05-06 17:13:40] INFO root fetch - processPackages [udata-tabular-preview]: Remove: archive file [/home/abi/fetcher/tmp/udata_tabular_preview-4.0.1.dev767-py2.py3-none-any.whl.zip]
+[2024-05-06 17:13:40] INFO root fetch - main [MainThread]: End processing [udata-tabular-preview]: success
+[2024-05-06 17:13:40] INFO root fetch - processPackages [astro-reduce]: Downloading https://files.pythonhosted.org/packages/ae/cb/90aa269fe18e580d5b5f1a9151a07e11fb596e30206b4d8c73411a2eb3d8/astro_reduce-5.0.3-py3-none-any.whl
+[2024-05-06 17:13:40] INFO root fetch - processPackages [bookops-worldcat]: Downloading https://files.pythonhosted.org/packages/9d/58/1e6d5725d9555d2448c87a456037c75f815326f3e027e1c41b9ec7a1ee1d/bookops_worldcat-1.0.0.tar.gz
+[2024-05-06 17:13:40] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-05-06 17:13:40] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-05-06 17:13:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-reception]: success
+[2024-05-06 17:13:40] INFO root fetch - processPackages [maptasker]: Remove: archive file [/home/abi/fetcher/tmp/maptasker-2.6.3.tar.gz]
+[2024-05-06 17:13:40] INFO root fetch - processPackages [maptasker]: Remove: archive file [/home/abi/fetcher/tmp/maptasker-4.0.tar.gz]
+[2024-05-06 17:13:40] INFO root fetch - main [MainThread]: End processing [maptasker]: success
+[2024-05-06 17:13:40] INFO root fetch - processPackages [bookops-worldcat]: Downloading https://files.pythonhosted.org/packages/3a/03/3b56161f1f823d7cc3f168964c39bf492520d65b1bed6f6c6d2188637159/bookops_worldcat-1.0.1.tar.gz
+[2024-05-06 17:13:40] INFO root fetch - processPackages [astro-reduce]: Downloading https://files.pythonhosted.org/packages/d9/90/ad942f65b91ae3206734e04d1a19b6a0c6258973985a9d3592331fba21c1/astro_reduce-5.0.4-py3-none-any.whl
+[2024-05-06 17:13:40] INFO root fetch - processPackages [bookops-worldcat]: executing diffoscope
+[2024-05-06 17:13:40] INFO root fetch - processPackages [bookops-worldcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookops_worldcat-1.0.0.tar.gz tmp/bookops_worldcat-1.0.1.tar.gz --markdown 20240506/b/bookops-worldcat/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 17:13:40] INFO root fetch - processPackages [astro-reduce]: executing diffoscope
+[2024-05-06 17:13:40] INFO root fetch - processPackages [astro-reduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_reduce-5.0.3-py3-none-any.whl.zip tmp/astro_reduce-5.0.4-py3-none-any.whl.zip --markdown 20240506/a/astro-reduce/5.0.3-5.0.4/README.md --exclude *.pyd
+[2024-05-06 17:13:40] INFO root fetch - processPackages [IOPaint]: Remove: archive file [/home/abi/fetcher/tmp/IOPaint-1.3.1.tar.gz]
+[2024-05-06 17:13:40] INFO root fetch - processPackages [IOPaint]: Remove: archive file [/home/abi/fetcher/tmp/IOPaint-1.3.2.tar.gz]
+[2024-05-06 17:13:40] INFO root fetch - main [MainThread]: End processing [IOPaint]: success
+[2024-05-06 17:13:41] INFO root fetch - processPackages [astro-reduce]: Remove: archive file [/home/abi/fetcher/tmp/astro_reduce-5.0.3-py3-none-any.whl.zip]
+[2024-05-06 17:13:41] INFO root fetch - processPackages [astro-reduce]: Remove: archive file [/home/abi/fetcher/tmp/astro_reduce-5.0.4-py3-none-any.whl.zip]
+[2024-05-06 17:13:41] INFO root fetch - main [MainThread]: End processing [astro-reduce]: success
+[2024-05-06 17:13:41] INFO root fetch - processPackages [bookops-worldcat]: Remove: archive file [/home/abi/fetcher/tmp/bookops_worldcat-1.0.0.tar.gz]
+[2024-05-06 17:13:41] INFO root fetch - processPackages [bookops-worldcat]: Remove: archive file [/home/abi/fetcher/tmp/bookops_worldcat-1.0.1.tar.gz]
+[2024-05-06 17:13:41] INFO root fetch - main [MainThread]: End processing [bookops-worldcat]: success
+[2024-05-06 17:13:42] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.4.9.0-py3-none-any.whl.zip]
+[2024-05-06 17:13:42] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.4.9.1.dev3-py3-none-any.whl.zip]
+[2024-05-06 17:13:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2024-05-06 17:13:43] INFO root fetch - processPackages [fattureincloud-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fattureincloud-python-sdk-2.0.8.tar.gz]
+[2024-05-06 17:13:43] INFO root fetch - processPackages [fattureincloud-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fattureincloud-python-sdk-2.0.9.tar.gz]
+[2024-05-06 17:13:43] INFO root fetch - main [MainThread]: End processing [fattureincloud-python-sdk]: success
+[2024-05-06 17:13:43] INFO root fetch - main [MainThread]: Store serial: [23079821]
