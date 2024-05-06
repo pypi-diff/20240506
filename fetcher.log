@@ -18284,3 +18284,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:22:01] INFO root fetch - processPackages [openst]: Remove: archive file [/home/abi/fetcher/tmp/openst-0.1.2.tar.gz]
 [2024-05-06 14:22:01] INFO root fetch - main [MainThread]: End processing [openst]: success
 [2024-05-06 14:22:01] INFO root fetch - main [MainThread]: Store serial: [23077329]
+[2024-05-06 14:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077329]
+[2024-05-06 14:24:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 14:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sag-py-execution-time-decorator
+[2024-05-06 14:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-awscdk-resolver
+[2024-05-06 14:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-vizier-dev
+[2024-05-06 14:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amsdal_models
+[2024-05-06 14:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-transformation-marta-miseke1
+[2024-05-06 14:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysypt
+[2024-05-06 14:24:10] INFO root fetch - processPackages [data-transformation-marta-miseke1]: New version: [0.1.1a5] Old Version: [0.1.1a4]
+[2024-05-06 14:24:10] INFO root fetch - processPackages [pysypt]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-06 14:24:10] INFO root fetch - processPackages [data-transformation-marta-miseke1]: Downloading https://files.pythonhosted.org/packages/6d/9e/7412dc15da6fc122bde00fe2e94bb095a2d1f994da162300318fce5d0bb5/data_transformation_marta_miseke1-0.1.1a4.tar.gz
+[2024-05-06 14:24:10] INFO root fetch - processPackages [sag-py-execution-time-decorator]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 14:24:10] INFO root fetch - processPackages [google-vizier-dev]: New version: [0.1.16.dev20240506122331] Old Version: [0.1.16.dev20240426195015]
+[2024-05-06 14:24:10] INFO root fetch - processPackages [pysypt]: Downloading https://files.pythonhosted.org/packages/b4/79/b8c99178e29402c7473905d19d6a04b08e2cc5af2208c853e8ab2900d497/pysypt-0.1.0.tar.gz
+[2024-05-06 14:24:10] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.97] Old Version: [0.0.96]
+[2024-05-06 14:24:10] INFO root fetch - processPackages [amsdal_models]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 14:24:10] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/45/e7/b80f16a5ddfc170bfe0c6a7b2c99d6ce3bb72baf448839ea092143cd16d3/cdk8s-awscdk-resolver-0.0.96.tar.gz
+[2024-05-06 14:24:10] INFO root fetch - processPackages [google-vizier-dev]: Downloading https://files.pythonhosted.org/packages/ff/8b/a1d2083837cff55d335af5384f6c34fb656faf3425643bed1b0a968451db/google-vizier-dev-0.1.16.dev20240426195015.tar.gz
+[2024-05-06 14:24:10] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Downloading https://files.pythonhosted.org/packages/92/16/3504da533ed7abcb7545f248831ef54626c20b070ceb46a890f8d7c496f6/sag-py-execution-time-decorator-1.0.1.tar.gz
+[2024-05-06 14:24:10] INFO root fetch - processPackages [amsdal_models]: Downloading https://files.pythonhosted.org/packages/62/73/14dcca3b07e98624f224b9c02baf6037842667c88373b5549a6ee7d84d3f/amsdal_models-0.1.8-cp311-cp311-win_amd64.whl
+[2024-05-06 14:24:10] INFO root fetch - processPackages [data-transformation-marta-miseke1]: Downloading https://files.pythonhosted.org/packages/bc/22/97a1193dcdcd3b214af68a7ba71124144ca62d51ebf7e9839426d571a638/data_transformation_marta_miseke1-0.1.1a5.tar.gz
+[2024-05-06 14:24:11] INFO root fetch - processPackages [data-transformation-marta-miseke1]: executing diffoscope
+[2024-05-06 14:24:11] INFO root fetch - processPackages [data-transformation-marta-miseke1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_transformation_marta_miseke1-0.1.1a4.tar.gz tmp/data_transformation_marta_miseke1-0.1.1a5.tar.gz --markdown 20240506/d/data-transformation-marta-miseke1/0.1.1a4-0.1.1a5/README.md --exclude *.pyd
+[2024-05-06 14:24:11] INFO root fetch - processPackages [pysypt]: Downloading https://files.pythonhosted.org/packages/b3/cd/6aa8411730524f2ecf82eeac67af20e9f7de40110ae41cff16b3ba0b91f3/pysypt-1.0.0.tar.gz
+[2024-05-06 14:24:11] INFO root fetch - processPackages [google-vizier-dev]: Downloading https://files.pythonhosted.org/packages/16/16/10d1b9678e1785efd439cdb683e3b318d7f3bed6169a6fcb9a864bdeddca/google-vizier-dev-0.1.16.dev20240506122331.tar.gz
+[2024-05-06 14:24:11] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/68/cb/ad6eff57f46db04f4e1734fcb276617ba2c093c1cfa735cec9cf82958cd0/cdk8s-awscdk-resolver-0.0.97.tar.gz
+[2024-05-06 14:24:11] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Downloading https://files.pythonhosted.org/packages/dd/e7/59a271c558ac7c265e7b783aa8c67c5bb335a7b7f6ca7658d09b6f642912/sag_py_execution_time_decorator-1.0.2.tar.gz
+[2024-05-06 14:24:11] INFO root fetch - processPackages [sag-py-execution-time-decorator]: executing diffoscope
+[2024-05-06 14:24:11] INFO root fetch - processPackages [sag-py-execution-time-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-execution-time-decorator-1.0.1.tar.gz tmp/sag_py_execution_time_decorator-1.0.2.tar.gz --markdown 20240506/s/sag-py-execution-time-decorator/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 14:24:11] INFO root fetch - processPackages [google-vizier-dev]: executing diffoscope
+[2024-05-06 14:24:11] INFO root fetch - processPackages [google-vizier-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-vizier-dev-0.1.16.dev20240426195015.tar.gz tmp/google-vizier-dev-0.1.16.dev20240506122331.tar.gz --markdown 20240506/g/google-vizier-dev/0.1.16.dev20240426195015-0.1.16.dev20240506122331/README.md --exclude *.pyd
+[2024-05-06 14:24:11] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-05-06 14:24:11] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.96.tar.gz tmp/cdk8s-awscdk-resolver-0.0.97.tar.gz --markdown 20240506/c/cdk8s-awscdk-resolver/0.0.96-0.0.97/README.md --exclude *.pyd
+[2024-05-06 14:24:11] INFO root fetch - processPackages [amsdal_models]: Downloading https://files.pythonhosted.org/packages/91/57/3a8d69975d8b202e8cb455d48dc908108d07593c7601ded20c9be996ada1/amsdal_models-0.1.9-cp311-cp311-win_amd64.whl
+[2024-05-06 14:24:11] INFO root fetch - processPackages [pysypt]: executing diffoscope
+[2024-05-06 14:24:11] INFO root fetch - processPackages [pysypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysypt-0.1.0.tar.gz tmp/pysypt-1.0.0.tar.gz --markdown 20240506/p/pysypt/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-06 14:24:11] INFO root fetch - processPackages [data-transformation-marta-miseke1]: Remove: archive file [/home/abi/fetcher/tmp/data_transformation_marta_miseke1-0.1.1a4.tar.gz]
+[2024-05-06 14:24:11] INFO root fetch - processPackages [data-transformation-marta-miseke1]: Remove: archive file [/home/abi/fetcher/tmp/data_transformation_marta_miseke1-0.1.1a5.tar.gz]
+[2024-05-06 14:24:11] INFO root fetch - main [MainThread]: End processing [data-transformation-marta-miseke1]: success
+[2024-05-06 14:24:11] INFO root fetch - processPackages [amsdal_models]: executing diffoscope
+[2024-05-06 14:24:11] INFO root fetch - processPackages [amsdal_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_models-0.1.8-cp311-cp311-win_amd64.whl.zip tmp/amsdal_models-0.1.9-cp311-cp311-win_amd64.whl.zip --markdown 20240506/a/amsdal_models/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 14:24:11] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-execution-time-decorator-1.0.1.tar.gz]
+[2024-05-06 14:24:11] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Remove: archive file [/home/abi/fetcher/tmp/sag_py_execution_time_decorator-1.0.2.tar.gz]
+[2024-05-06 14:24:12] INFO root fetch - main [MainThread]: End processing [sag-py-execution-time-decorator]: success
+[2024-05-06 14:24:12] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.96.tar.gz]
+[2024-05-06 14:24:12] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.97.tar.gz]
+[2024-05-06 14:24:12] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-05-06 14:24:12] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-0.1.0.tar.gz]
+[2024-05-06 14:24:12] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-1.0.0.tar.gz]
+[2024-05-06 14:24:12] INFO root fetch - main [MainThread]: End processing [pysypt]: success
+[2024-05-06 14:24:12] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.8-cp311-cp311-win_amd64.whl.zip]
+[2024-05-06 14:24:12] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.9-cp311-cp311-win_amd64.whl.zip]
+[2024-05-06 14:24:12] INFO root fetch - main [MainThread]: End processing [amsdal_models]: success
+[2024-05-06 14:24:13] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240426195015.tar.gz]
+[2024-05-06 14:24:13] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240506122331.tar.gz]
+[2024-05-06 14:24:13] INFO root fetch - main [MainThread]: End processing [google-vizier-dev]: success
+[2024-05-06 14:24:13] INFO root fetch - main [MainThread]: Store serial: [23077352]
