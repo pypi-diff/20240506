@@ -22445,3 +22445,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:45:20] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.5.tar.gz]
 [2024-05-06 16:45:20] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
 [2024-05-06 16:45:20] INFO root fetch - main [MainThread]: Store serial: [23079450]
+[2024-05-06 16:47:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079450]
+[2024-05-06 16:47:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-06 16:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haskellian
+[2024-05-06 16:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tasksflow
+[2024-05-06 16:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spokesterz
+[2024-05-06 16:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyjhtdbv2
+[2024-05-06 16:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m3u8-achiver
+[2024-05-06 16:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mns-common
+[2024-05-06 16:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rye-tui
+[2024-05-06 16:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpflib
+[2024-05-06 16:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trouncersz
+[2024-05-06 16:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: redlite
+[2024-05-06 16:47:35] INFO root fetch - processPackages [pyjhtdbv2]: New version: [20240506.4] Old Version: [20240506.3]
+[2024-05-06 16:47:35] INFO root fetch - processPackages [tasksflow]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-05-06 16:47:35] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-06 16:47:35] INFO root fetch - processPackages [mns-common]: New version: [1.0.8.0] Old Version: [1.0.7.9]
+[2024-05-06 16:47:35] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/d8/b0/46aef7fae6e0468da5e5449d6f8efc34c3456402c7ddeb70730df5399d86/pyjhtdbv2-20240506.3.tar.gz
+[2024-05-06 16:47:35] WARNING root fetch - processPackages [m3u8-achiver]: Skipping, unable to determine old version
+[2024-05-06 16:47:35] INFO root fetch - processPackages [m3u8-achiver]: Start processing: pydfuutil
+[2024-05-06 16:47:35] INFO root fetch - main [MainThread]: End processing [m3u8-achiver] error
+[2024-05-06 16:47:35] INFO root fetch - processPackages [haskellian]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-06 16:47:35] WARNING root fetch - processPackages [spokesterz]: Skipping, unable to determine old version
+[2024-05-06 16:47:35] INFO root fetch - processPackages [spokesterz]: Start processing: r3xa
+[2024-05-06 16:47:35] INFO root fetch - main [MainThread]: End processing [spokesterz] error
+[2024-05-06 16:47:35] WARNING root fetch - processPackages [rye-tui]: Skipping, unable to determine old version
+[2024-05-06 16:47:35] INFO root fetch - main [MainThread]: End processing [rye-tui] error
+[2024-05-06 16:47:35] WARNING root fetch - processPackages [trouncersz]: Skipping, unable to determine old version
+[2024-05-06 16:47:35] INFO root fetch - main [MainThread]: End processing [trouncersz] error
+[2024-05-06 16:47:35] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-05-06 16:47:35] INFO root fetch - processPackages [redlite]: New version: [0.1.4rc0] Old Version: [0.1.3]
+[2024-05-06 16:47:35] INFO root fetch - processPackages [tasksflow]: Downloading https://files.pythonhosted.org/packages/99/7e/a271e9ed7845d75d27698a259718dc5c5224ae787761967bcb45209ae06e/tasksflow-0.2.5.tar.gz
+[2024-05-06 16:47:35] INFO root fetch - processPackages [pydfuutil]: New version: [0.0.3] Old Version: [0.0.2b3]
+[2024-05-06 16:47:35] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/87/a4/a0320b75036bdea03d9187d31ff0ede8c7e93a08900d75f27f59bbf6d3ac/mns_common-1.0.7.9.tar.gz
+[2024-05-06 16:47:35] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-05-06 16:47:35] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-05-06 16:47:35] INFO root fetch - processPackages [pydfuutil]: Downloading https://files.pythonhosted.org/packages/15/7d/495793e56d321d77e0d383ac64b24c61eade60adf36cf0705607db6aa593/pydfuutil-0.0.2b3.tar.gz
+[2024-05-06 16:47:35] INFO root fetch - processPackages [r3xa]: New version: [2024.5.dev1] Old Version: [2024.4.dev2]
+[2024-05-06 16:47:35] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/db/6c/0cdc593830d9100fe25525ec6686c93e0284c0c2dec1bd9a6f2756850f4c/haskellian-0.3.8.tar.gz
+[2024-05-06 16:47:35] INFO root fetch - processPackages [redlite]: Downloading https://files.pythonhosted.org/packages/a1/3c/efcc986a849b818cf046bd4d157e951b440f4bbd4899ac9ad58f1b7901e1/redlite-0.1.3-py3-none-any.whl
+[2024-05-06 16:47:35] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/0c/e7/4dc0d7c20b37349c37df0ddd3d451e0fff83ff0c8c136d9a78c8cd71dd57/mns_common-1.0.8.0.tar.gz
+[2024-05-06 16:47:35] INFO root fetch - processPackages [r3xa]: Downloading https://files.pythonhosted.org/packages/58/6b/3002f30715a2e271d232415407cd9b2e30c05664d9a0350287c0204c5af7/r3xa-2024.4.dev2.tar.gz
+[2024-05-06 16:47:35] INFO root fetch - processPackages [tasksflow]: Downloading https://files.pythonhosted.org/packages/eb/92/003254a19113dd9f41776264a6281cc005c30f25c9411fdc50d02c7e4f5d/tasksflow-0.3.0.tar.gz
+[2024-05-06 16:47:36] INFO root fetch - processPackages [pydfuutil]: Downloading https://files.pythonhosted.org/packages/3d/c7/252d774887a4b24ec6b0797543bacbd8df2915d8504841415399037c1b96/pydfuutil-0.0.3.tar.gz
+[2024-05-06 16:47:36] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-06 16:47:36] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.9.tar.gz tmp/mns_common-1.0.8.0.tar.gz --markdown 20240506/m/mns-common/1.0.7.9-1.0.8.0/README.md --exclude *.pyd
+[2024-05-06 16:47:36] INFO root fetch - processPackages [tasksflow]: executing diffoscope
+[2024-05-06 16:47:36] INFO root fetch - processPackages [tasksflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasksflow-0.2.5.tar.gz tmp/tasksflow-0.3.0.tar.gz --markdown 20240506/t/tasksflow/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-05-06 16:47:36] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/0b/18/55f10489b147d748714d8c8f1c909a4e8f65586dae9254b9c6bf60a9302f/pyjhtdbv2-20240506.4.tar.gz
+[2024-05-06 16:47:36] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/03/2b/ba04bf61c6d93413248fa1d1286dad3fe5fa7835df534f02230b764ad6e3/haskellian-0.3.9.tar.gz
+[2024-05-06 16:47:36] INFO root fetch - processPackages [pydfuutil]: executing diffoscope
+[2024-05-06 16:47:36] INFO root fetch - processPackages [pydfuutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydfuutil-0.0.2b3.tar.gz tmp/pydfuutil-0.0.3.tar.gz --markdown 20240506/p/pydfuutil/0.0.2b3-0.0.3/README.md --exclude *.pyd
+[2024-05-06 16:47:36] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-05-06 16:47:36] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.3.8.tar.gz tmp/haskellian-0.3.9.tar.gz --markdown 20240506/h/haskellian/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-06 16:47:36] INFO root fetch - processPackages [r3xa]: Downloading https://files.pythonhosted.org/packages/ad/de/f1da895b301255e5d4c727b2698f353e38963f1ddca81b795f2502665187/r3xa-2024.5.dev1.tar.gz
+[2024-05-06 16:47:36] INFO root fetch - processPackages [r3xa]: executing diffoscope
+[2024-05-06 16:47:36] INFO root fetch - processPackages [r3xa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r3xa-2024.4.dev2.tar.gz tmp/r3xa-2024.5.dev1.tar.gz --markdown 20240506/r/r3xa/2024.4.dev2-2024.5.dev1/README.md --exclude *.pyd
+[2024-05-06 16:47:36] INFO root fetch - processPackages [redlite]: Downloading https://files.pythonhosted.org/packages/c3/50/6f35551c756669a76e13bf6563ee9a39585ce84b2c1750b3ce583670f2d8/redlite-0.1.4rc0-py3-none-any.whl
+[2024-05-06 16:47:36] INFO root fetch - processPackages [pyjhtdbv2]: executing diffoscope
+[2024-05-06 16:47:36] INFO root fetch - processPackages [pyjhtdbv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjhtdbv2-20240506.3.tar.gz tmp/pyjhtdbv2-20240506.4.tar.gz --markdown 20240506/p/pyjhtdbv2/20240506.3-20240506.4/README.md --exclude *.pyd
+[2024-05-06 16:47:36] INFO root fetch - processPackages [tasksflow]: Remove: archive file [/home/abi/fetcher/tmp/tasksflow-0.2.5.tar.gz]
+[2024-05-06 16:47:36] INFO root fetch - processPackages [tasksflow]: Remove: archive file [/home/abi/fetcher/tmp/tasksflow-0.3.0.tar.gz]
+[2024-05-06 16:47:36] INFO root fetch - main [MainThread]: End processing [tasksflow]: success
+[2024-05-06 16:47:37] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.9.tar.gz]
+[2024-05-06 16:47:37] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.0.tar.gz]
+[2024-05-06 16:47:37] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-06 16:47:37] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.8.tar.gz]
+[2024-05-06 16:47:37] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.9.tar.gz]
+[2024-05-06 16:47:37] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-05-06 16:47:37] INFO root fetch - processPackages [redlite]: executing diffoscope
+[2024-05-06 16:47:37] INFO root fetch - processPackages [redlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redlite-0.1.3-py3-none-any.whl.zip tmp/redlite-0.1.4rc0-py3-none-any.whl.zip --markdown 20240506/r/redlite/0.1.3-0.1.4rc0/README.md --exclude *.pyd
+[2024-05-06 16:47:37] INFO root fetch - processPackages [r3xa]: Remove: archive file [/home/abi/fetcher/tmp/r3xa-2024.4.dev2.tar.gz]
+[2024-05-06 16:47:37] INFO root fetch - processPackages [r3xa]: Remove: archive file [/home/abi/fetcher/tmp/r3xa-2024.5.dev1.tar.gz]
+[2024-05-06 16:47:37] INFO root fetch - main [MainThread]: End processing [r3xa]: success
+[2024-05-06 16:47:37] INFO root fetch - processPackages [pydfuutil]: Remove: archive file [/home/abi/fetcher/tmp/pydfuutil-0.0.2b3.tar.gz]
+[2024-05-06 16:47:37] INFO root fetch - processPackages [pydfuutil]: Remove: archive file [/home/abi/fetcher/tmp/pydfuutil-0.0.3.tar.gz]
+[2024-05-06 16:47:37] INFO root fetch - main [MainThread]: End processing [pydfuutil]: success
+[2024-05-06 16:47:38] INFO root fetch - processPackages [redlite]: Remove: archive file [/home/abi/fetcher/tmp/redlite-0.1.3-py3-none-any.whl.zip]
+[2024-05-06 16:47:38] INFO root fetch - processPackages [redlite]: Remove: archive file [/home/abi/fetcher/tmp/redlite-0.1.4rc0-py3-none-any.whl.zip]
+[2024-05-06 16:47:38] INFO root fetch - main [MainThread]: End processing [redlite]: success
+[2024-05-06 16:47:38] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20240506.3.tar.gz]
+[2024-05-06 16:47:38] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20240506.4.tar.gz]
+[2024-05-06 16:47:38] INFO root fetch - main [MainThread]: End processing [pyjhtdbv2]: success
+[2024-05-06 16:47:38] INFO root fetch - main [MainThread]: Store serial: [23079491]
