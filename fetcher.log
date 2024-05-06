@@ -5134,3 +5134,15 @@
 [2024-05-06 06:48:56] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
 [2024-05-06 06:48:56] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2024-05-06 06:48:56] INFO root fetch - main [MainThread]: Store serial: [23071627]
+[2024-05-06 06:51:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071627]
+[2024-05-06 06:51:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 06:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atsdk
+[2024-05-06 06:51:05] INFO root fetch - processPackages [atsdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 06:51:05] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/3a/94/52e4043c02706c5469ddde7c41ba9bac0b2f5ed6f6a215011e17bea94539/atsdk-0.2.7.tar.gz
+[2024-05-06 06:51:05] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/71/a3/c2134f04675a35de720047245d2cd68d236e1789325393f6163f0c772ed0/atsdk-0.2.8.tar.gz
+[2024-05-06 06:51:05] INFO root fetch - processPackages [atsdk]: executing diffoscope
+[2024-05-06 06:51:05] INFO root fetch - processPackages [atsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atsdk-0.2.7.tar.gz tmp/atsdk-0.2.8.tar.gz --markdown 20240506/a/atsdk/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 06:51:06] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.7.tar.gz]
+[2024-05-06 06:51:06] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.8.tar.gz]
+[2024-05-06 06:51:06] INFO root fetch - main [MainThread]: End processing [atsdk]: success
+[2024-05-06 06:51:06] INFO root fetch - main [MainThread]: Store serial: [23071630]
