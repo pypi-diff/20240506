@@ -16079,3 +16079,45 @@
 [2024-05-06 12:48:58] INFO root fetch - processPackages [amsdal_data]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_data-0.1.9-cp311-cp311-win_amd64.whl.zip]
 [2024-05-06 12:48:58] INFO root fetch - main [MainThread]: End processing [amsdal_data]: success
 [2024-05-06 12:48:58] INFO root fetch - main [MainThread]: Store serial: [23076273]
+[2024-05-06 12:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076273]
+[2024-05-06 12:51:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 12:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lunar-interceptor
+[2024-05-06 12:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncapi-python-parser-jonaslagoni
+[2024-05-06 12:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phir
+[2024-05-06 12:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: picai-eval
+[2024-05-06 12:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: YMS
+[2024-05-06 12:51:08] WARNING root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Skipping, unable to determine old version
+[2024-05-06 12:51:08] INFO root fetch - main [MainThread]: End processing [asyncapi-python-parser-jonaslagoni] error
+[2024-05-06 12:51:08] INFO root fetch - processPackages [YMS]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-06 12:51:08] INFO root fetch - processPackages [lunar-interceptor]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-06 12:51:08] INFO root fetch - processPackages [picai-eval]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-06 12:51:08] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/76/b5/1a3982d2f6841af193a3a6cf9118cf43617a4dd6bc6f938973ab4e5c26be/YMS-1.2.8.tar.gz
+[2024-05-06 12:51:08] INFO root fetch - processPackages [phir]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-06 12:51:08] INFO root fetch - processPackages [lunar-interceptor]: Downloading https://files.pythonhosted.org/packages/36/b7/4e73683e9d192d47da685231cf9243c9b300030dcb84e93c6a67147c7945/lunar_interceptor-0.3.3.tar.gz
+[2024-05-06 12:51:08] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/43/dd/c3463a5599b349d398e1bab06a9c3fe9488cdb6b74971fe0ed66456af6a7/YMS-1.2.9.tar.gz
+[2024-05-06 12:51:08] INFO root fetch - processPackages [picai-eval]: Downloading https://files.pythonhosted.org/packages/4d/83/35ba7767674bd4ce974854c756930d2113eb3c8de396af0e5273988bb18f/picai_eval-1.4.5.tar.gz
+[2024-05-06 12:51:08] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2024-05-06 12:51:08] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-1.2.8.tar.gz tmp/YMS-1.2.9.tar.gz --markdown 20240506/Y/YMS/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-06 12:51:08] INFO root fetch - processPackages [phir]: Downloading https://files.pythonhosted.org/packages/85/fb/f992ebf91ffb8caa349c61293dd428da36922451ad5554a519539a8835ab/phir-0.3.2.tar.gz
+[2024-05-06 12:51:08] INFO root fetch - processPackages [lunar-interceptor]: Downloading https://files.pythonhosted.org/packages/e2/18/5063a4e39362c1a8eab8e2f8680ed4e2fac2cd246705b9a5d406bab3ef0c/lunar_interceptor-0.3.4.tar.gz
+[2024-05-06 12:51:09] INFO root fetch - processPackages [picai-eval]: Downloading https://files.pythonhosted.org/packages/b3/37/544d54086006ed0f3ea24f485e86dd233eef3d36a14e0e55564dad400937/picai_eval-1.4.6.tar.gz
+[2024-05-06 12:51:09] INFO root fetch - processPackages [phir]: Downloading https://files.pythonhosted.org/packages/1e/34/89dc01d1e6dd8c7f56c17c4a8dd7e5afb60184057daf860dda995b951be0/phir-0.3.3.tar.gz
+[2024-05-06 12:51:09] INFO root fetch - processPackages [picai-eval]: executing diffoscope
+[2024-05-06 12:51:09] INFO root fetch - processPackages [picai-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picai_eval-1.4.5.tar.gz tmp/picai_eval-1.4.6.tar.gz --markdown 20240506/p/picai-eval/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-06 12:51:09] INFO root fetch - processPackages [lunar-interceptor]: executing diffoscope
+[2024-05-06 12:51:09] INFO root fetch - processPackages [lunar-interceptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunar_interceptor-0.3.3.tar.gz tmp/lunar_interceptor-0.3.4.tar.gz --markdown 20240506/l/lunar-interceptor/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-06 12:51:09] INFO root fetch - processPackages [phir]: executing diffoscope
+[2024-05-06 12:51:09] INFO root fetch - processPackages [phir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phir-0.3.2.tar.gz tmp/phir-0.3.3.tar.gz --markdown 20240506/p/phir/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-06 12:51:09] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-1.2.8.tar.gz]
+[2024-05-06 12:51:09] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-1.2.9.tar.gz]
+[2024-05-06 12:51:09] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2024-05-06 12:51:09] INFO root fetch - processPackages [lunar-interceptor]: Remove: archive file [/home/abi/fetcher/tmp/lunar_interceptor-0.3.3.tar.gz]
+[2024-05-06 12:51:09] INFO root fetch - processPackages [lunar-interceptor]: Remove: archive file [/home/abi/fetcher/tmp/lunar_interceptor-0.3.4.tar.gz]
+[2024-05-06 12:51:09] INFO root fetch - main [MainThread]: End processing [lunar-interceptor]: success
+[2024-05-06 12:51:09] INFO root fetch - processPackages [phir]: Remove: archive file [/home/abi/fetcher/tmp/phir-0.3.2.tar.gz]
+[2024-05-06 12:51:09] INFO root fetch - processPackages [phir]: Remove: archive file [/home/abi/fetcher/tmp/phir-0.3.3.tar.gz]
+[2024-05-06 12:51:09] INFO root fetch - main [MainThread]: End processing [phir]: success
+[2024-05-06 12:51:09] INFO root fetch - processPackages [picai-eval]: Remove: archive file [/home/abi/fetcher/tmp/picai_eval-1.4.5.tar.gz]
+[2024-05-06 12:51:09] INFO root fetch - processPackages [picai-eval]: Remove: archive file [/home/abi/fetcher/tmp/picai_eval-1.4.6.tar.gz]
+[2024-05-06 12:51:09] INFO root fetch - main [MainThread]: End processing [picai-eval]: success
+[2024-05-06 12:51:09] INFO root fetch - main [MainThread]: Store serial: [23076288]
