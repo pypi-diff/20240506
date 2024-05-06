@@ -19356,3 +19356,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:01:13] INFO root fetch - processPackages [hat-monitor]: Remove: archive file [/home/abi/fetcher/tmp/hat_monitor-0.8.7-cp310.cp311.cp312-none-any.whl.zip]
 [2024-05-06 15:01:13] INFO root fetch - main [MainThread]: End processing [hat-monitor]: success
 [2024-05-06 15:01:13] INFO root fetch - main [MainThread]: Store serial: [23077884]
+[2024-05-06 15:03:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077884]
+[2024-05-06 15:03:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 15:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fs-product-brand-multi-image
+[2024-05-06 15:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basilisp-kernel
+[2024-05-06 15:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudquery-plugin-sdk
+[2024-05-06 15:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sts-lib
+[2024-05-06 15:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcf2seq
+[2024-05-06 15:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hat-gui
+[2024-05-06 15:03:22] INFO root fetch - processPackages [vcf2seq]: New version: [0.6.2a0] Old Version: [0.6.1a0]
+[2024-05-06 15:03:22] INFO root fetch - processPackages [vcf2seq]: Downloading https://files.pythonhosted.org/packages/23/6b/21c274c0c22492bf31d9f664e0f5c7a4837b4d4b6714d875cd63caecaed9/vcf2seq-0.6.1a0.tar.gz
+[2024-05-06 15:03:22] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.4]
+[2024-05-06 15:03:22] INFO root fetch - processPackages [sts-lib]: New version: [0.31.1] Old Version: [0.31.0]
+[2024-05-06 15:03:22] INFO root fetch - processPackages [hat-gui]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-06 15:03:22] INFO root fetch - processPackages [cloudquery-plugin-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 15:03:22] WARNING root fetch - processPackages [basilisp-kernel]: Skipping, unable to determine old version
+[2024-05-06 15:03:22] INFO root fetch - main [MainThread]: End processing [basilisp-kernel] error
+[2024-05-06 15:03:22] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/e4/ca/a7bdbebea3bb6fd5263d35000502b29db2cbd373e27bb45d3db0934bb32c/sts_lib-0.31.0.tar.gz
+[2024-05-06 15:03:23] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: Downloading https://files.pythonhosted.org/packages/44/c6/502dc365ee18125a8dd24e28a08eedf891f9a50702e8f3e09e6b171e6286/odoo_addon_fs_product_brand_multi_image-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-06 15:03:23] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/8d/fb/733720cbd77f5285dbf2d5e27b1c0aaaa06ff7792bcb8073c0ee5339ca57/cloudquery-plugin-sdk-0.1.8.tar.gz
+[2024-05-06 15:03:23] INFO root fetch - processPackages [hat-gui]: Downloading https://files.pythonhosted.org/packages/80/25/44cb5a0ce1ac5f6e8a603945464309b859373fc10b7fabdb3a89f54e4e81/hat_gui-0.7.0-cp310.cp311.cp312-none-any.whl
+[2024-05-06 15:03:23] INFO root fetch - processPackages [vcf2seq]: Downloading https://files.pythonhosted.org/packages/e2/9e/aadf7b86fab8741db57de4fa1ac52179e7d417bb04b6b0b7c491414b1f6b/vcf2seq-0.6.2a0.tar.gz
+[2024-05-06 15:03:23] INFO root fetch - processPackages [vcf2seq]: executing diffoscope
+[2024-05-06 15:03:23] INFO root fetch - processPackages [vcf2seq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcf2seq-0.6.1a0.tar.gz tmp/vcf2seq-0.6.2a0.tar.gz --markdown 20240506/v/vcf2seq/0.6.1a0-0.6.2a0/README.md --exclude *.pyd
+[2024-05-06 15:03:23] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/6a/25/afe4ff15eb864e0c19b24d470cbedbcc91e453a368b0eba57edff6b1f79d/sts_lib-0.31.1.tar.gz
+[2024-05-06 15:03:23] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/05/dd/0462f062ce579c3d91af881cc72873b51b63a963fc6e8cfc436135ef582a/cloudquery-plugin-sdk-0.1.9.tar.gz
+[2024-05-06 15:03:23] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: Downloading https://files.pythonhosted.org/packages/f8/64/5ea783964c17bc897a7f9a95cc1ce64e0c0e3730eb280c7d30d5098c8d87/odoo_addon_fs_product_brand_multi_image-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-06 15:03:23] INFO root fetch - processPackages [cloudquery-plugin-sdk]: executing diffoscope
+[2024-05-06 15:03:23] INFO root fetch - processPackages [cloudquery-plugin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquery-plugin-sdk-0.1.8.tar.gz tmp/cloudquery-plugin-sdk-0.1.9.tar.gz --markdown 20240506/c/cloudquery-plugin-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 15:03:23] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-05-06 15:03:23] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_lib-0.31.0.tar.gz tmp/sts_lib-0.31.1.tar.gz --markdown 20240506/s/sts-lib/0.31.0-0.31.1/README.md --exclude *.pyd
+[2024-05-06 15:03:23] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: executing diffoscope
+[2024-05-06 15:03:23] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_product_brand_multi_image-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_fs_product_brand_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-fs-product-brand-multi-image/16.0.1.0.0.4-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-06 15:03:23] INFO root fetch - processPackages [hat-gui]: Downloading https://files.pythonhosted.org/packages/61/94/e95844b79cc0b948132f32125b7e9a48162c4113b71138300b4a948ec313/hat_gui-0.7.1-cp310.cp311.cp312-none-any.whl
+[2024-05-06 15:03:23] INFO root fetch - processPackages [hat-gui]: executing diffoscope
+[2024-05-06 15:03:23] INFO root fetch - processPackages [hat-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_gui-0.7.0-cp310.cp311.cp312-none-any.whl.zip tmp/hat_gui-0.7.1-cp310.cp311.cp312-none-any.whl.zip --markdown 20240506/h/hat-gui/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-06 15:03:23] INFO root fetch - processPackages [vcf2seq]: Remove: archive file [/home/abi/fetcher/tmp/vcf2seq-0.6.1a0.tar.gz]
+[2024-05-06 15:03:23] INFO root fetch - processPackages [vcf2seq]: Remove: archive file [/home/abi/fetcher/tmp/vcf2seq-0.6.2a0.tar.gz]
+[2024-05-06 15:03:23] INFO root fetch - main [MainThread]: End processing [vcf2seq]: success
+[2024-05-06 15:03:24] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_product_brand_multi_image-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-06 15:03:24] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_product_brand_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-06 15:03:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-product-brand-multi-image]: success
+[2024-05-06 15:03:24] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.8.tar.gz]
+[2024-05-06 15:03:24] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.9.tar.gz]
+[2024-05-06 15:03:24] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-sdk]: success
+[2024-05-06 15:03:24] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.31.0.tar.gz]
+[2024-05-06 15:03:24] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.31.1.tar.gz]
+[2024-05-06 15:03:24] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-05-06 15:03:24] INFO root fetch - processPackages [hat-gui]: Remove: archive file [/home/abi/fetcher/tmp/hat_gui-0.7.0-cp310.cp311.cp312-none-any.whl.zip]
+[2024-05-06 15:03:24] INFO root fetch - processPackages [hat-gui]: Remove: archive file [/home/abi/fetcher/tmp/hat_gui-0.7.1-cp310.cp311.cp312-none-any.whl.zip]
+[2024-05-06 15:03:24] INFO root fetch - main [MainThread]: End processing [hat-gui]: success
+[2024-05-06 15:03:24] INFO root fetch - main [MainThread]: Store serial: [23077904]
