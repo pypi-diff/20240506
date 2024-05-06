@@ -6971,3 +6971,65 @@
 [2024-05-06 08:50:09] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.206.tar.gz]
 [2024-05-06 08:50:09] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
 [2024-05-06 08:50:09] INFO root fetch - main [MainThread]: Store serial: [23072524]
+[2024-05-06 08:52:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072524]
+[2024-05-06 08:52:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 08:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend-driver
+[2024-05-06 08:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyad
+[2024-05-06 08:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Opti-HPLC-Handler
+[2024-05-06 08:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acquire
+[2024-05-06 08:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capymoa
+[2024-05-06 08:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schubertpy
+[2024-05-06 08:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkt-retv
+[2024-05-06 08:52:18] INFO root fetch - processPackages [schubertpy]: New version: [0.3.17] Old Version: [0.3.16]
+[2024-05-06 08:52:18] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 08:52:18] INFO root fetch - processPackages [mkt-retv]: New version: [1.416] Old Version: [1.415]
+[2024-05-06 08:52:18] INFO root fetch - processPackages [databend-driver]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-06 08:52:18] INFO root fetch - processPackages [capymoa]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-06 08:52:18] INFO root fetch - processPackages [Opti-HPLC-Handler]: New version: [2.7.0] Old Version: [2.6.1]
+[2024-05-06 08:52:18] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-05-06 08:52:18] INFO root fetch - processPackages [acquire]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2024-05-06 08:52:18] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/04/9c/5c9577f03841338a9d25cd155e9a8d24f944ab1eb2c31883e9402ddc54d5/mkt-retv-1.415.tar.gz
+[2024-05-06 08:52:18] INFO root fetch - processPackages [schubertpy]: Downloading https://files.pythonhosted.org/packages/07/dd/156fa7d51603d5b468f075b9f357a64f117db6734143fa35bfe5c5252c4d/schubertpy-0.3.16.tar.gz
+[2024-05-06 08:52:18] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/9e/d2/0bd5410dd972dbb678b40872c610f4f48032a9640df408af5feea4cb50b1/databend_driver-0.9.4-cp37-abi3-win_amd64.whl
+[2024-05-06 08:52:18] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/84/93/0ad75506614e6982b031006a623fa4914f082e8791f6297b87e24cd0f382/acquire-3.9.dev8.tar.gz
+[2024-05-06 08:52:18] INFO root fetch - processPackages [capymoa]: Downloading https://files.pythonhosted.org/packages/8a/0a/bcc586da4edcb32709cd6741167449159c35c9d163ca66e9b8a6dbcd5f94/capymoa-0.2.0.tar.gz
+[2024-05-06 08:52:18] INFO root fetch - processPackages [Opti-HPLC-Handler]: Downloading https://files.pythonhosted.org/packages/c5/bb/b99c6f6eb87ae813e46605511551101ee404f3939bb2eaf697ca82decc1b/Opti_HPLC_Handler-2.6.1.tar.gz
+[2024-05-06 08:52:19] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-05-06 08:52:19] WARNING root fetch - processPackages [capymoa]: Skipping package: exceeds size limit 59959225>=10485760
+[2024-05-06 08:52:19] INFO root fetch - main [MainThread]: End processing [capymoa] error
+[2024-05-06 08:52:19] INFO root fetch - processPackages [schubertpy]: Downloading https://files.pythonhosted.org/packages/14/67/b68f35efb2e11fbc9215ac32dcf8aafd8b83241c771e1bd9d29048a76bc8/schubertpy-0.3.17.tar.gz
+[2024-05-06 08:52:19] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-05-06 08:52:19] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240506/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 08:52:19] INFO root fetch - processPackages [schubertpy]: executing diffoscope
+[2024-05-06 08:52:19] INFO root fetch - processPackages [schubertpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schubertpy-0.3.16.tar.gz tmp/schubertpy-0.3.17.tar.gz --markdown 20240506/s/schubertpy/0.3.16-0.3.17/README.md --exclude *.pyd
+[2024-05-06 08:52:19] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/d5/dc/3c9d07663fb3c8bec3dcdbe58ad62abff3189a9ba4f0a20f815ba745f938/mkt-retv-1.416.tar.gz
+[2024-05-06 08:52:19] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/a5/45/14009b331bc74be537a1be7f24ceae3e6bd070ca28f848a7f1002bd95f8e/acquire-3.9.dev9.tar.gz
+[2024-05-06 08:52:19] INFO root fetch - processPackages [mkt-retv]: executing diffoscope
+[2024-05-06 08:52:19] INFO root fetch - processPackages [mkt-retv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkt-retv-1.415.tar.gz tmp/mkt-retv-1.416.tar.gz --markdown 20240506/m/mkt-retv/1.415-1.416/README.md --exclude *.pyd
+[2024-05-06 08:52:19] INFO root fetch - processPackages [Opti-HPLC-Handler]: Downloading https://files.pythonhosted.org/packages/62/4f/418afb540a241e15cf60cafe7b4754751585e31b85e003fbf69c3ea441e3/opti_hplc_handler-2.7.0.tar.gz
+[2024-05-06 08:52:19] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2024-05-06 08:52:19] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.9.dev8.tar.gz tmp/acquire-3.9.dev9.tar.gz --markdown 20240506/a/acquire/3.9.dev8-3.9.dev9/README.md --exclude *.pyd
+[2024-05-06 08:52:19] INFO root fetch - processPackages [Opti-HPLC-Handler]: executing diffoscope
+[2024-05-06 08:52:19] INFO root fetch - processPackages [Opti-HPLC-Handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Opti_HPLC_Handler-2.6.1.tar.gz tmp/opti_hplc_handler-2.7.0.tar.gz --markdown 20240506/O/Opti-HPLC-Handler/2.6.1-2.7.0/README.md --exclude *.pyd
+[2024-05-06 08:52:19] INFO root fetch - processPackages [schubertpy]: Remove: archive file [/home/abi/fetcher/tmp/schubertpy-0.3.16.tar.gz]
+[2024-05-06 08:52:19] INFO root fetch - processPackages [schubertpy]: Remove: archive file [/home/abi/fetcher/tmp/schubertpy-0.3.17.tar.gz]
+[2024-05-06 08:52:19] INFO root fetch - main [MainThread]: End processing [schubertpy]: success
+[2024-05-06 08:52:20] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/b7/e3/195c2e775c9ea50822c2431f0a00f48ae03a7a10be4d3e583cce489052ee/databend_driver-0.9.5-cp37-abi3-win_amd64.whl
+[2024-05-06 08:52:20] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-05-06 08:52:20] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-05-06 08:52:20] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-05-06 08:52:20] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.415.tar.gz]
+[2024-05-06 08:52:20] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.416.tar.gz]
+[2024-05-06 08:52:20] INFO root fetch - main [MainThread]: End processing [mkt-retv]: success
+[2024-05-06 08:52:20] INFO root fetch - processPackages [Opti-HPLC-Handler]: Remove: archive file [/home/abi/fetcher/tmp/Opti_HPLC_Handler-2.6.1.tar.gz]
+[2024-05-06 08:52:20] INFO root fetch - processPackages [Opti-HPLC-Handler]: Remove: archive file [/home/abi/fetcher/tmp/opti_hplc_handler-2.7.0.tar.gz]
+[2024-05-06 08:52:20] INFO root fetch - main [MainThread]: End processing [Opti-HPLC-Handler]: success
+[2024-05-06 08:52:20] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.9.dev8.tar.gz]
+[2024-05-06 08:52:20] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.9.dev9.tar.gz]
+[2024-05-06 08:52:20] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2024-05-06 08:52:22] INFO root fetch - processPackages [databend-driver]: executing diffoscope
+[2024-05-06 08:52:22] INFO root fetch - processPackages [databend-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip --markdown 20240506/d/databend-driver/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-06 08:52:22] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip]
+[2024-05-06 08:52:22] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
+[2024-05-06 08:52:22] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
+[2024-05-06 08:52:22] INFO root fetch - main [MainThread]: Store serial: [23072549]
