@@ -20334,3 +20334,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:35:17] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
 [2024-05-06 15:35:17] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
 [2024-05-06 15:35:17] INFO root fetch - main [MainThread]: Store serial: [23078406]
+[2024-05-06 15:37:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078406]
+[2024-05-06 15:37:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulp-container
+[2024-05-06 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulp-container-client
+[2024-05-06 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2024-05-06 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: versup
+[2024-05-06 15:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jgtml
+[2024-05-06 15:37:26] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.80]
+[2024-05-06 15:37:26] INFO root fetch - processPackages [versup]: New version: [1.6.0] Old Version: [1.5.9]
+[2024-05-06 15:37:26] INFO root fetch - processPackages [pulp-container]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-06 15:37:26] INFO root fetch - processPackages [jgtml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 15:37:26] INFO root fetch - processPackages [pulp-container-client]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-06 15:37:26] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/22/94/c8e4979d45ad356860a1f4678ca24a0aa2226d3fc18fdd6d96218f6171a9/bridgecrew-3.2.80.tar.gz
+[2024-05-06 15:37:26] INFO root fetch - processPackages [pulp-container]: Downloading https://files.pythonhosted.org/packages/57/4c/de95a198cf3ae576fad5962898a4437820d9482a608240abc66d5bebe2c1/pulp-container-2.9.8.tar.gz
+[2024-05-06 15:37:26] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-06 15:37:26] INFO root fetch - processPackages [versup]: Downloading https://files.pythonhosted.org/packages/41/54/7993e074931b7057670310702b564283a65f79414b5c366bc33fbf6ca11d/versup-1.5.9.tar.gz
+[2024-05-06 15:37:26] INFO root fetch - processPackages [pulp-container-client]: Downloading https://files.pythonhosted.org/packages/e9/01/a3daad08d76d51b9e0347223055817e98861ea9bf1c8cf02987348bb3357/pulp_container-client-2.9.8.tar.gz
+[2024-05-06 15:37:26] INFO root fetch - processPackages [jgtml]: Downloading https://files.pythonhosted.org/packages/24/aa/db47d03e50f3ded4102b246ebd27aec21b7deedbe9e4624a24644f7a7392/jgtml-0.0.8.tar.gz
+[2024-05-06 15:37:26] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-06 15:37:26] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.80.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240506/b/bridgecrew/3.2.80-3.2.9/README.md --exclude *.pyd
+[2024-05-06 15:37:27] INFO root fetch - processPackages [pulp-container]: Downloading https://files.pythonhosted.org/packages/d4/6d/3386b11359dfd542f3fd8f302eb8bb09777dfbd1caff886578e05374938f/pulp-container-2.9.9.tar.gz
+[2024-05-06 15:37:27] INFO root fetch - processPackages [versup]: Downloading https://files.pythonhosted.org/packages/bd/68/16361adb3af1bd061795ada87b4742ace486868fd7ef1ceed9402f313697/versup-1.6.0.tar.gz
+[2024-05-06 15:37:27] INFO root fetch - processPackages [jgtml]: Downloading https://files.pythonhosted.org/packages/12/f5/435d6d259546ba6a9a515dc4a6d6557949bddfacfb511697a4b47fb54f89/jgtml-0.0.9.tar.gz
+[2024-05-06 15:37:27] INFO root fetch - processPackages [pulp-container-client]: Downloading https://files.pythonhosted.org/packages/fb/1f/d65523f406ba6275db9e0fdb44160109d2c5b1ac2db48bec3fd97cb5ccc3/pulp_container-client-2.9.9.tar.gz
+[2024-05-06 15:37:27] INFO root fetch - processPackages [pulp-container]: executing diffoscope
+[2024-05-06 15:37:27] INFO root fetch - processPackages [pulp-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-container-2.9.8.tar.gz tmp/pulp-container-2.9.9.tar.gz --markdown 20240506/p/pulp-container/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-06 15:37:27] INFO root fetch - processPackages [pulp-container-client]: executing diffoscope
+[2024-05-06 15:37:27] INFO root fetch - processPackages [pulp-container-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_container-client-2.9.8.tar.gz tmp/pulp_container-client-2.9.9.tar.gz --markdown 20240506/p/pulp-container-client/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-06 15:37:27] INFO root fetch - processPackages [versup]: executing diffoscope
+[2024-05-06 15:37:27] INFO root fetch - processPackages [versup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/versup-1.5.9.tar.gz tmp/versup-1.6.0.tar.gz --markdown 20240506/v/versup/1.5.9-1.6.0/README.md --exclude *.pyd
+[2024-05-06 15:37:27] INFO root fetch - processPackages [jgtml]: executing diffoscope
+[2024-05-06 15:37:27] INFO root fetch - processPackages [jgtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtml-0.0.8.tar.gz tmp/jgtml-0.0.9.tar.gz --markdown 20240506/j/jgtml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 15:37:27] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.80.tar.gz]
+[2024-05-06 15:37:27] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-06 15:37:27] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-06 15:37:27] INFO root fetch - processPackages [jgtml]: Remove: archive file [/home/abi/fetcher/tmp/jgtml-0.0.8.tar.gz]
+[2024-05-06 15:37:27] INFO root fetch - processPackages [jgtml]: Remove: archive file [/home/abi/fetcher/tmp/jgtml-0.0.9.tar.gz]
+[2024-05-06 15:37:27] INFO root fetch - main [MainThread]: End processing [jgtml]: success
+[2024-05-06 15:37:28] INFO root fetch - processPackages [versup]: Remove: archive file [/home/abi/fetcher/tmp/versup-1.5.9.tar.gz]
+[2024-05-06 15:37:28] INFO root fetch - processPackages [versup]: Remove: archive file [/home/abi/fetcher/tmp/versup-1.6.0.tar.gz]
+[2024-05-06 15:37:28] INFO root fetch - main [MainThread]: End processing [versup]: success
+[2024-05-06 15:37:28] INFO root fetch - processPackages [pulp-container]: Remove: archive file [/home/abi/fetcher/tmp/pulp-container-2.9.8.tar.gz]
+[2024-05-06 15:37:28] INFO root fetch - processPackages [pulp-container]: Remove: archive file [/home/abi/fetcher/tmp/pulp-container-2.9.9.tar.gz]
+[2024-05-06 15:37:28] INFO root fetch - main [MainThread]: End processing [pulp-container]: success
+[2024-05-06 15:37:28] INFO root fetch - processPackages [pulp-container-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_container-client-2.9.8.tar.gz]
+[2024-05-06 15:37:28] INFO root fetch - processPackages [pulp-container-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_container-client-2.9.9.tar.gz]
+[2024-05-06 15:37:28] INFO root fetch - main [MainThread]: End processing [pulp-container-client]: success
+[2024-05-06 15:37:28] INFO root fetch - main [MainThread]: Store serial: [23078424]
