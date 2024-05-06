@@ -5264,3 +5264,15 @@
 [2024-05-06 06:57:35] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-06 06:57:35] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-06 06:57:35] INFO root fetch - main [MainThread]: Store serial: [23071670]
+[2024-05-06 06:59:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071670]
+[2024-05-06 06:59:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 06:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-SPLASH
+[2024-05-06 06:59:45] INFO root fetch - processPackages [astro-SPLASH]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-06 06:59:45] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/d4/28/92ad85c847395f68c2ab0937ec92f1e125ead20ec49e6ce4769672ef2d8e/astro_SPLASH-0.0.7.tar.gz
+[2024-05-06 06:59:45] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/2d/62/5193b720fe79afcf4ddb0a84999a77b2d3def33934be3e971b52e5290221/astro_SPLASH-0.0.8.tar.gz
+[2024-05-06 06:59:46] INFO root fetch - processPackages [astro-SPLASH]: executing diffoscope
+[2024-05-06 06:59:46] INFO root fetch - processPackages [astro-SPLASH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_SPLASH-0.0.7.tar.gz tmp/astro_SPLASH-0.0.8.tar.gz --markdown 20240506/a/astro-SPLASH/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-06 06:59:46] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.7.tar.gz]
+[2024-05-06 06:59:46] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.8.tar.gz]
+[2024-05-06 06:59:46] INFO root fetch - main [MainThread]: End processing [astro-SPLASH]: success
+[2024-05-06 06:59:46] INFO root fetch - main [MainThread]: Store serial: [23071672]
