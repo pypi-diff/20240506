@@ -17084,3 +17084,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:22:20] INFO root fetch - processPackages [app-server]: Remove: archive file [/home/abi/fetcher/tmp/app_server-0.9.9.tar.gz]
 [2024-05-06 13:22:20] INFO root fetch - main [MainThread]: End processing [app-server]: success
 [2024-05-06 13:22:20] INFO root fetch - main [MainThread]: Store serial: [23076716]
+[2024-05-06 13:24:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076716]
+[2024-05-06 13:24:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 13:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hadronic
+[2024-05-06 13:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: infrable
+[2024-05-06 13:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: firebolt-sdk
+[2024-05-06 13:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe
+[2024-05-06 13:24:29] WARNING root fetch - processPackages [hadronic]: Skipping, unable to determine old version
+[2024-05-06 13:24:29] INFO root fetch - main [MainThread]: End processing [hadronic] error
+[2024-05-06 13:24:29] INFO root fetch - processPackages [infrable]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 13:24:29] INFO root fetch - processPackages [firebolt-sdk]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-06 13:24:29] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/dc/88/90ccc9e3c786dd62d050b3d39b98ccca35ef72c17875b94d2872ede9ba81/infrable-0.1.1.tar.gz
+[2024-05-06 13:24:29] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240506] Old Version: [2.5.0b20240505]
+[2024-05-06 13:24:29] INFO root fetch - processPackages [firebolt-sdk]: Downloading https://files.pythonhosted.org/packages/3b/3a/264d5ee4342604c0bffd8109b86f94cbb3f186c32309ce61da54a87f50f2/firebolt_sdk-1.4.2.tar.gz
+[2024-05-06 13:24:29] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/05/9e/dc710e3dfa3c0c05523d896b3a47c0597ed773a9cc4ed62e640978206aff/bigdl_core_xe-2.5.0b20240505-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-06 13:24:29] INFO root fetch - processPackages [firebolt-sdk]: Downloading https://files.pythonhosted.org/packages/ca/e3/2e1683cb1a0de0cdfbc2601bcb94c8b274c2eaff7c7962d66e038841d68b/firebolt_sdk-1.4.3.tar.gz
+[2024-05-06 13:24:29] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105668124>=10485760
+[2024-05-06 13:24:29] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-05-06 13:24:29] INFO root fetch - processPackages [firebolt-sdk]: executing diffoscope
+[2024-05-06 13:24:29] INFO root fetch - processPackages [firebolt-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebolt_sdk-1.4.2.tar.gz tmp/firebolt_sdk-1.4.3.tar.gz --markdown 20240506/f/firebolt-sdk/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-06 13:24:29] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/dd/89/a4d73360b462cc89158a378f6539feb1d108e3fb465a73ecf13e910aa887/infrable-0.1.2.tar.gz
+[2024-05-06 13:24:29] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-06 13:24:29] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.1.tar.gz tmp/infrable-0.1.2.tar.gz --markdown 20240506/i/infrable/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 13:24:30] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.1.tar.gz]
+[2024-05-06 13:24:30] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.2.tar.gz]
+[2024-05-06 13:24:30] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-06 13:24:30] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-1.4.2.tar.gz]
+[2024-05-06 13:24:30] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-1.4.3.tar.gz]
+[2024-05-06 13:24:30] INFO root fetch - main [MainThread]: End processing [firebolt-sdk]: success
+[2024-05-06 13:24:30] INFO root fetch - main [MainThread]: Store serial: [23076728]
