@@ -1381,3 +1381,27 @@
 [2024-05-06 02:15:21] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.9.tar.gz]
 [2024-05-06 02:15:21] INFO root fetch - main [MainThread]: End processing [cdktf-tf-module-stack]: success
 [2024-05-06 02:15:21] INFO root fetch - main [MainThread]: Store serial: [23070036]
+[2024-05-06 02:17:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070036]
+[2024-05-06 02:17:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyoscar
+[2024-05-06 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-06 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Summarize-Repo
+[2024-05-06 02:17:30] WARNING root fetch - processPackages [Summarize-Repo]: Skipping, unable to determine old version
+[2024-05-06 02:17:30] INFO root fetch - main [MainThread]: End processing [Summarize-Repo] error
+[2024-05-06 02:17:30] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-06 02:17:30] INFO root fetch - processPackages [pyoscar]: New version: [0.7.0] Old Version: [0.6.4]
+[2024-05-06 02:17:30] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-06 02:17:30] INFO root fetch - processPackages [pyoscar]: Downloading https://files.pythonhosted.org/packages/c2/6e/018dbbc6e83dbc099b8e4db13b6103751f52eb147a0b51293c1482cb37e5/pyoscar-0.6.4.tar.gz
+[2024-05-06 02:17:30] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-06 02:17:30] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-06 02:17:30] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240506/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-06 02:17:30] INFO root fetch - processPackages [pyoscar]: Downloading https://files.pythonhosted.org/packages/37/69/9e937a132a28992c2c3bf4fb025cb45a77643d40d7ea8c783502a6e1b1d0/pyoscar-0.7.0.tar.gz
+[2024-05-06 02:17:30] INFO root fetch - processPackages [pyoscar]: executing diffoscope
+[2024-05-06 02:17:30] INFO root fetch - processPackages [pyoscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoscar-0.6.4.tar.gz tmp/pyoscar-0.7.0.tar.gz --markdown 20240506/p/pyoscar/0.6.4-0.7.0/README.md --exclude *.pyd
+[2024-05-06 02:17:31] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-06 02:17:31] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-06 02:17:31] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-06 02:17:31] INFO root fetch - processPackages [pyoscar]: Remove: archive file [/home/abi/fetcher/tmp/pyoscar-0.6.4.tar.gz]
+[2024-05-06 02:17:31] INFO root fetch - processPackages [pyoscar]: Remove: archive file [/home/abi/fetcher/tmp/pyoscar-0.7.0.tar.gz]
+[2024-05-06 02:17:31] INFO root fetch - main [MainThread]: End processing [pyoscar]: success
+[2024-05-06 02:17:31] INFO root fetch - main [MainThread]: Store serial: [23070054]
