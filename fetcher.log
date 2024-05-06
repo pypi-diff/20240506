@@ -4972,3 +4972,15 @@
 [2024-05-06 06:35:56] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.9-py3-none-any.whl.zip]
 [2024-05-06 06:35:56] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2024-05-06 06:35:56] INFO root fetch - main [MainThread]: Store serial: [23071574]
+[2024-05-06 06:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071574]
+[2024-05-06 06:38:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 06:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-SPLASH
+[2024-05-06 06:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whatsapp-chat-analyze
+[2024-05-06 06:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astro-SPLASH
+[2024-05-06 06:38:05] WARNING root fetch - processPackages [astro-SPLASH]: Skipping, unable to determine old version
+[2024-05-06 06:38:05] WARNING root fetch - processPackages [whatsapp-chat-analyze]: Skipping, unable to determine old version
+[2024-05-06 06:38:05] INFO root fetch - main [MainThread]: End processing [astro-SPLASH] error
+[2024-05-06 06:38:05] INFO root fetch - main [MainThread]: End processing [whatsapp-chat-analyze] error
+[2024-05-06 06:38:05] WARNING root fetch - processPackages [astro-SPLASH]: Skipping, unable to determine old version
+[2024-05-06 06:38:05] INFO root fetch - main [MainThread]: End processing [astro-SPLASH] error
+[2024-05-06 06:38:05] INFO root fetch - main [MainThread]: Store serial: [23071581]
