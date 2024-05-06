@@ -18956,3 +18956,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:46:13] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-34.3.0.tar.gz]
 [2024-05-06 14:46:13] INFO root fetch - main [MainThread]: End processing [rucio]: success
 [2024-05-06 14:46:13] INFO root fetch - main [MainThread]: Store serial: [23077610]
+[2024-05-06 14:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077610]
+[2024-05-06 14:48:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 14:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marisa-trie
+[2024-05-06 14:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: communication-services
+[2024-05-06 14:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naas-models
+[2024-05-06 14:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysypt
+[2024-05-06 14:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-aedt-toolkits-common
+[2024-05-06 14:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flow-core
+[2024-05-06 14:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CustomtkinterCodeViewer
+[2024-05-06 14:48:22] WARNING root fetch - processPackages [communication-services]: Skipping, unable to determine old version
+[2024-05-06 14:48:22] INFO root fetch - main [MainThread]: End processing [communication-services] error
+[2024-05-06 14:48:22] INFO root fetch - processPackages [pysypt]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 14:48:22] INFO root fetch - processPackages [marisa-trie]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-06 14:48:22] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-06 14:48:22] INFO root fetch - processPackages [CustomtkinterCodeViewer]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-06 14:48:22] WARNING root fetch - processPackages [flow-core]: Skipping, unable to determine old version
+[2024-05-06 14:48:22] INFO root fetch - main [MainThread]: End processing [flow-core] error
+[2024-05-06 14:48:22] INFO root fetch - processPackages [naas-models]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-06 14:48:22] INFO root fetch - processPackages [pysypt]: Downloading https://files.pythonhosted.org/packages/b3/cd/6aa8411730524f2ecf82eeac67af20e9f7de40110ae41cff16b3ba0b91f3/pysypt-1.0.0.tar.gz
+[2024-05-06 14:48:23] INFO root fetch - processPackages [marisa-trie]: Downloading https://files.pythonhosted.org/packages/29/1e/49cfda94a5719fa3bb899d3d7e06a53f7446f1f11abbcd071fcafb189b54/marisa-trie-1.0.0.tar.gz
+[2024-05-06 14:48:23] INFO root fetch - processPackages [CustomtkinterCodeViewer]: Downloading https://files.pythonhosted.org/packages/d3/a6/e25d35ebc5e8d4de9f5cd414ffb9bed42472ca771b4d400adcdd46d733df/CustomtkinterCodeViewer-0.0.2.tar.gz
+[2024-05-06 14:48:23] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Downloading https://files.pythonhosted.org/packages/fc/a0/2dbe6b9f51b5f6803b087e6cdd93e8fed128ad70fb681cbe0dd7a3a8c0ee/ansys_aedt_toolkits_common-0.3.1.tar.gz
+[2024-05-06 14:48:23] INFO root fetch - processPackages [naas-models]: Downloading https://files.pythonhosted.org/packages/73/62/46ceb1ecf9fc4b1125b9222d91bd37235b1fa9be3cc047e322b14cf1fc95/naas_models-1.8.0.tar.gz
+[2024-05-06 14:48:23] INFO root fetch - processPackages [marisa-trie]: Downloading https://files.pythonhosted.org/packages/d6/4b/2ed9582a19889fbb964458d38d4124191d4d65648c97dc66d1b49af63ce8/marisa-trie-1.1.0.tar.gz
+[2024-05-06 14:48:23] INFO root fetch - processPackages [pysypt]: Downloading https://files.pythonhosted.org/packages/13/f2/d1d2b4ab64d48614a56c721ef59ca5a0ad317a7a9c74d43338d39757a10a/pysypt-1.0.1.tar.gz
+[2024-05-06 14:48:23] INFO root fetch - processPackages [marisa-trie]: executing diffoscope
+[2024-05-06 14:48:23] INFO root fetch - processPackages [marisa-trie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marisa-trie-1.0.0.tar.gz tmp/marisa-trie-1.1.0.tar.gz --markdown 20240506/m/marisa-trie/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-06 14:48:23] INFO root fetch - processPackages [naas-models]: Downloading https://files.pythonhosted.org/packages/74/7d/68867962369ecf3c2ccc7aaa1d77332921f642b0f4b12889a39fd04a02e8/naas_models-1.9.0.tar.gz
+[2024-05-06 14:48:23] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Downloading https://files.pythonhosted.org/packages/fe/7f/07a5c8453a87e3d171ebbcfbabc32cdfe109cfedd919262d3c43d53cecd9/ansys_aedt_toolkits_common-0.3.2.tar.gz
+[2024-05-06 14:48:23] INFO root fetch - processPackages [CustomtkinterCodeViewer]: Downloading https://files.pythonhosted.org/packages/1d/68/880426823cd3606a54ba5bff3b12b37e31978464e68ae7553f64cc887701/CustomtkinterCodeViewer-0.0.3.tar.gz
+[2024-05-06 14:48:23] INFO root fetch - processPackages [naas-models]: executing diffoscope
+[2024-05-06 14:48:23] INFO root fetch - processPackages [naas-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naas_models-1.8.0.tar.gz tmp/naas_models-1.9.0.tar.gz --markdown 20240506/n/naas-models/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-06 14:48:23] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: executing diffoscope
+[2024-05-06 14:48:23] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_aedt_toolkits_common-0.3.1.tar.gz tmp/ansys_aedt_toolkits_common-0.3.2.tar.gz --markdown 20240506/a/ansys-aedt-toolkits-common/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-06 14:48:23] INFO root fetch - processPackages [CustomtkinterCodeViewer]: executing diffoscope
+[2024-05-06 14:48:23] INFO root fetch - processPackages [CustomtkinterCodeViewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CustomtkinterCodeViewer-0.0.2.tar.gz tmp/CustomtkinterCodeViewer-0.0.3.tar.gz --markdown 20240506/C/CustomtkinterCodeViewer/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-06 14:48:23] INFO root fetch - processPackages [pysypt]: executing diffoscope
+[2024-05-06 14:48:23] INFO root fetch - processPackages [pysypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysypt-1.0.0.tar.gz tmp/pysypt-1.0.1.tar.gz --markdown 20240506/p/pysypt/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 14:48:24] INFO root fetch - processPackages [naas-models]: Remove: archive file [/home/abi/fetcher/tmp/naas_models-1.8.0.tar.gz]
+[2024-05-06 14:48:24] INFO root fetch - processPackages [naas-models]: Remove: archive file [/home/abi/fetcher/tmp/naas_models-1.9.0.tar.gz]
+[2024-05-06 14:48:24] INFO root fetch - main [MainThread]: End processing [naas-models]: success
+[2024-05-06 14:48:24] INFO root fetch - processPackages [CustomtkinterCodeViewer]: Remove: archive file [/home/abi/fetcher/tmp/CustomtkinterCodeViewer-0.0.2.tar.gz]
+[2024-05-06 14:48:24] INFO root fetch - processPackages [CustomtkinterCodeViewer]: Remove: archive file [/home/abi/fetcher/tmp/CustomtkinterCodeViewer-0.0.3.tar.gz]
+[2024-05-06 14:48:24] INFO root fetch - main [MainThread]: End processing [CustomtkinterCodeViewer]: success
+[2024-05-06 14:48:24] INFO root fetch - processPackages [marisa-trie]: Remove: archive file [/home/abi/fetcher/tmp/marisa-trie-1.0.0.tar.gz]
+[2024-05-06 14:48:24] INFO root fetch - processPackages [marisa-trie]: Remove: archive file [/home/abi/fetcher/tmp/marisa-trie-1.1.0.tar.gz]
+[2024-05-06 14:48:24] INFO root fetch - main [MainThread]: End processing [marisa-trie]: success
+[2024-05-06 14:48:24] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Remove: archive file [/home/abi/fetcher/tmp/ansys_aedt_toolkits_common-0.3.1.tar.gz]
+[2024-05-06 14:48:24] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Remove: archive file [/home/abi/fetcher/tmp/ansys_aedt_toolkits_common-0.3.2.tar.gz]
+[2024-05-06 14:48:24] INFO root fetch - main [MainThread]: End processing [ansys-aedt-toolkits-common]: success
+[2024-05-06 14:48:24] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-1.0.0.tar.gz]
+[2024-05-06 14:48:24] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-1.0.1.tar.gz]
+[2024-05-06 14:48:24] INFO root fetch - main [MainThread]: End processing [pysypt]: success
+[2024-05-06 14:48:24] INFO root fetch - main [MainThread]: Store serial: [23077703]
