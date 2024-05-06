@@ -2340,3 +2340,33 @@
 [2024-05-06 03:41:30] WARNING root fetch - processPackages [opendal]: Skipping package: exceeds size limit 14766958>=10485760
 [2024-05-06 03:41:30] INFO root fetch - main [MainThread]: End processing [opendal] error
 [2024-05-06 03:41:30] INFO root fetch - main [MainThread]: Store serial: [23070470]
+[2024-05-06 03:43:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070470]
+[2024-05-06 03:43:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inngest
+[2024-05-06 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: espy-contact
+[2024-05-06 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-xmodules
+[2024-05-06 03:43:39] INFO root fetch - processPackages [espy-contact]: New version: [0.6] Old Version: [0.5]
+[2024-05-06 03:43:39] INFO root fetch - processPackages [inngest]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-06 03:43:39] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/98/5c/77e4bff6734b1054fa181da431476faf3ff7288e0cecbc19baf95d65c8c4/espy_contact-0.5.tar.gz
+[2024-05-06 03:43:39] INFO root fetch - processPackages [mojo-xmodules]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-06 03:43:39] INFO root fetch - processPackages [inngest]: Downloading https://files.pythonhosted.org/packages/4e/be/6af3c80e98198eaf9d43381f17fb76dd8fd86e8c650e9598c2b9ed0d742c/inngest-0.3.8.tar.gz
+[2024-05-06 03:43:39] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/35/fc/19a8128466b8d8419aa99f81e56fae265657c652a7314ed32e6770d708e7/mojo_xmodules-1.3.8.tar.gz
+[2024-05-06 03:43:39] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/bf/b3/c2e422cbffe7a8224e7ebd6b38809b979b9892e949cf62180b98485c1e8c/espy_contact-0.6.tar.gz
+[2024-05-06 03:43:39] INFO root fetch - processPackages [inngest]: Downloading https://files.pythonhosted.org/packages/3f/8b/d12f3e2af00158cfea42533c98f19e9f4700781bcac2b601473d5f9446f0/inngest-0.3.9.tar.gz
+[2024-05-06 03:43:39] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-06 03:43:39] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.5.tar.gz tmp/espy_contact-0.6.tar.gz --markdown 20240506/e/espy-contact/0.5-0.6/README.md --exclude *.pyd
+[2024-05-06 03:43:39] INFO root fetch - processPackages [inngest]: executing diffoscope
+[2024-05-06 03:43:39] INFO root fetch - processPackages [inngest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inngest-0.3.8.tar.gz tmp/inngest-0.3.9.tar.gz --markdown 20240506/i/inngest/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-06 03:43:39] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/96/d0/6cd535c199db02fe9f5d2284c6568b0c368e53e88812598da557212d7a3a/mojo_xmodules-1.3.9.tar.gz
+[2024-05-06 03:43:39] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2024-05-06 03:43:39] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-1.3.8.tar.gz tmp/mojo_xmodules-1.3.9.tar.gz --markdown 20240506/m/mojo-xmodules/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-06 03:43:40] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.5.tar.gz]
+[2024-05-06 03:43:40] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.6.tar.gz]
+[2024-05-06 03:43:40] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-06 03:43:40] INFO root fetch - processPackages [inngest]: Remove: archive file [/home/abi/fetcher/tmp/inngest-0.3.8.tar.gz]
+[2024-05-06 03:43:40] INFO root fetch - processPackages [inngest]: Remove: archive file [/home/abi/fetcher/tmp/inngest-0.3.9.tar.gz]
+[2024-05-06 03:43:40] INFO root fetch - main [MainThread]: End processing [inngest]: success
+[2024-05-06 03:43:40] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-1.3.8.tar.gz]
+[2024-05-06 03:43:40] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-1.3.9.tar.gz]
+[2024-05-06 03:43:40] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2024-05-06 03:43:40] INFO root fetch - main [MainThread]: Store serial: [23070479]
