@@ -17930,3 +17930,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:03:23] INFO root fetch - processPackages [qualang-tools]: Remove: archive file [/home/abi/fetcher/tmp/qualang-tools-0.9.0.tar.gz]
 [2024-05-06 14:03:23] INFO root fetch - main [MainThread]: End processing [qualang-tools]: success
 [2024-05-06 14:03:23] INFO root fetch - main [MainThread]: Store serial: [23077145]
+[2024-05-06 14:05:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077145]
+[2024-05-06 14:05:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 14:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wxhook
+[2024-05-06 14:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-records-lom
+[2024-05-06 14:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-user-limiter
+[2024-05-06 14:05:33] INFO root fetch - processPackages [wxhook]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-06 14:05:33] INFO root fetch - processPackages [wxhook]: Downloading https://files.pythonhosted.org/packages/b9/33/b2fb7b5ef1cbec61ede8d9b152e34d4872f3b9fb7a44a6ed1997f0abcc3a/wxhook-0.0.5.tar.gz
+[2024-05-06 14:05:33] INFO root fetch - processPackages [fastapi-user-limiter]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-06 14:05:33] INFO root fetch - processPackages [invenio-records-lom]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-06 14:05:33] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/a7/d9/b366af89a5d223ea850fb149d543d8535f1a63df7d6aaf194b788ade4a81/invenio-records-lom-0.8.1.tar.gz
+[2024-05-06 14:05:33] INFO root fetch - processPackages [fastapi-user-limiter]: Downloading https://files.pythonhosted.org/packages/38/d7/1980196643b6f8ddf9829c61095131bf2048f8c6681537ff62464d4a9e76/fastapi_user_limiter-1.0.0.tar.gz
+[2024-05-06 14:05:33] INFO root fetch - processPackages [wxhook]: Downloading https://files.pythonhosted.org/packages/87/35/47d5090df2994f67bc4dc6d527fd2045896ac335cfff5127cafb19dacf55/wxhook-0.0.6.tar.gz
+[2024-05-06 14:05:33] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/d2/a1/a4f27a3949cb9641f050db71c0e20941c366e57450ec499c9f5e40d718c4/invenio-records-lom-0.9.0.tar.gz
+[2024-05-06 14:05:33] INFO root fetch - processPackages [fastapi-user-limiter]: Downloading https://files.pythonhosted.org/packages/a9/50/0d6c0721d6a552649df0b8565fe1f754a7da42b088c05c08de90a5e2ff10/fastapi_user_limiter-1.1.0.tar.gz
+[2024-05-06 14:05:33] INFO root fetch - processPackages [wxhook]: executing diffoscope
+[2024-05-06 14:05:33] INFO root fetch - processPackages [wxhook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxhook-0.0.5.tar.gz tmp/wxhook-0.0.6.tar.gz --markdown 20240506/w/wxhook/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-06 14:05:33] INFO root fetch - processPackages [invenio-records-lom]: executing diffoscope
+[2024-05-06 14:05:33] INFO root fetch - processPackages [invenio-records-lom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-lom-0.8.1.tar.gz tmp/invenio-records-lom-0.9.0.tar.gz --markdown 20240506/i/invenio-records-lom/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-06 14:05:33] INFO root fetch - processPackages [fastapi-user-limiter]: executing diffoscope
+[2024-05-06 14:05:33] INFO root fetch - processPackages [fastapi-user-limiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_user_limiter-1.0.0.tar.gz tmp/fastapi_user_limiter-1.1.0.tar.gz --markdown 20240506/f/fastapi-user-limiter/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-06 14:05:34] INFO root fetch - processPackages [fastapi-user-limiter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_limiter-1.0.0.tar.gz]
+[2024-05-06 14:05:34] INFO root fetch - processPackages [fastapi-user-limiter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_limiter-1.1.0.tar.gz]
+[2024-05-06 14:05:34] INFO root fetch - main [MainThread]: End processing [fastapi-user-limiter]: success
+[2024-05-06 14:05:34] INFO root fetch - processPackages [wxhook]: Remove: archive file [/home/abi/fetcher/tmp/wxhook-0.0.5.tar.gz]
+[2024-05-06 14:05:34] INFO root fetch - processPackages [wxhook]: Remove: archive file [/home/abi/fetcher/tmp/wxhook-0.0.6.tar.gz]
+[2024-05-06 14:05:34] INFO root fetch - main [MainThread]: End processing [wxhook]: success
+[2024-05-06 14:05:35] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.8.1.tar.gz]
+[2024-05-06 14:05:35] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.9.0.tar.gz]
+[2024-05-06 14:05:35] INFO root fetch - main [MainThread]: End processing [invenio-records-lom]: success
+[2024-05-06 14:05:35] INFO root fetch - main [MainThread]: Store serial: [23077176]
