@@ -6891,3 +6891,15 @@
 [2024-05-06 08:43:40] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-06 08:43:40] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-06 08:43:40] INFO root fetch - main [MainThread]: Store serial: [23072491]
+[2024-05-06 08:45:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072491]
+[2024-05-06 08:45:48] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 08:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beanhub-import
+[2024-05-06 08:45:48] INFO root fetch - processPackages [beanhub-import]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 08:45:48] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/68/60/c9ba74d3df96fd159a8495d6a224a0f1f0f4d34b83743488939aad21b1e8/beanhub_import-0.0.6.tar.gz
+[2024-05-06 08:45:49] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/6a/31/5920f40bc8063b3db477ff8a77d9184db79b98f90e1795716da546318607/beanhub_import-0.0.7.tar.gz
+[2024-05-06 08:45:49] INFO root fetch - processPackages [beanhub-import]: executing diffoscope
+[2024-05-06 08:45:49] INFO root fetch - processPackages [beanhub-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_import-0.0.6.tar.gz tmp/beanhub_import-0.0.7.tar.gz --markdown 20240506/b/beanhub-import/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 08:45:49] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.6.tar.gz]
+[2024-05-06 08:45:49] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.7.tar.gz]
+[2024-05-06 08:45:49] INFO root fetch - main [MainThread]: End processing [beanhub-import]: success
+[2024-05-06 08:45:49] INFO root fetch - main [MainThread]: Store serial: [23072500]
