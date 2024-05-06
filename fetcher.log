@@ -22723,3 +22723,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:54:41] INFO root fetch - processPackages [ubo-gui]: Remove: archive file [/home/abi/fetcher/tmp/ubo_gui-0.9.9.tar.gz]
 [2024-05-06 16:54:41] INFO root fetch - main [MainThread]: End processing [ubo-gui]: success
 [2024-05-06 16:54:41] INFO root fetch - main [MainThread]: Store serial: [23079567]
+[2024-05-06 16:56:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079567]
+[2024-05-06 16:56:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-06 16:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tap-clinicaltrials
+[2024-05-06 16:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zxkane.cdk-construct-simple-nat
+[2024-05-06 16:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tap-bitly
+[2024-05-06 16:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-vcon-server
+[2024-05-06 16:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowmatching-bdt
+[2024-05-06 16:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crate-docs-theme
+[2024-05-06 16:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tap-google-play
+[2024-05-06 16:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: task-6-report-package
+[2024-05-06 16:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mimllearning
+[2024-05-06 16:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: text2story
+[2024-05-06 16:56:58] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-06 16:56:58] INFO root fetch - processPackages [text2story]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-06 16:56:58] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 16:56:58] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 16:56:58] INFO root fetch - processPackages [tap-clinicaltrials]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 16:56:58] WARNING root fetch - processPackages [flowmatching-bdt]: Skipping, unable to determine old version
+[2024-05-06 16:56:58] INFO root fetch - processPackages [flowmatching-bdt]: Start processing: edgeimpulse-api
+[2024-05-06 16:56:58] INFO root fetch - main [MainThread]: End processing [flowmatching-bdt] error
+[2024-05-06 16:56:58] WARNING root fetch - processPackages [py-vcon-server]: Skipping, unable to determine old version
+[2024-05-06 16:56:58] INFO root fetch - processPackages [py-vcon-server]: Start processing: fastpdb
+[2024-05-06 16:56:58] INFO root fetch - main [MainThread]: End processing [py-vcon-server] error
+[2024-05-06 16:56:58] INFO root fetch - processPackages [tap-bitly]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-06 16:56:58] WARNING root fetch - processPackages [task-6-report-package]: Skipping, unable to determine old version
+[2024-05-06 16:56:58] INFO root fetch - processPackages [task-6-report-package]: Start processing: pyjhtdbv2
+[2024-05-06 16:56:58] INFO root fetch - main [MainThread]: End processing [task-6-report-package] error
+[2024-05-06 16:56:58] INFO root fetch - processPackages [tap-google-play]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-06 16:56:58] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/64/23/9f8149be58e3cd33b4aebcedebaf2ebf0e79fb83841087206e47cf526f42/text2story-1.4.6.tar.gz
+[2024-05-06 16:56:58] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 16:56:58] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/8e/42/0a609d15782dbbbc9ed11adae4b6947cb95d90050b2993420f854023f40d/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz
+[2024-05-06 16:56:58] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-06 16:56:58] INFO root fetch - processPackages [pyjhtdbv2]: New version: [20240506.5] Old Version: [20240506.4]
+[2024-05-06 16:56:58] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.49.9] Old Version: [1.49.8]
+[2024-05-06 16:56:58] INFO root fetch - processPackages [tap-clinicaltrials]: Downloading https://files.pythonhosted.org/packages/a1/23/41a912443c5c9ef8fd3d0281b807168ddfce9a0918374cbbfe9c036552a3/tap_clinicaltrials-0.1.1.tar.gz
+[2024-05-06 16:56:58] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/0b/18/55f10489b147d748714d8c8f1c909a4e8f65586dae9254b9c6bf60a9302f/pyjhtdbv2-20240506.4.tar.gz
+[2024-05-06 16:56:58] INFO root fetch - processPackages [fastpdb]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-06 16:56:58] INFO root fetch - processPackages [tap-bitly]: Downloading https://files.pythonhosted.org/packages/af/67/169ca94597d08ec9b23e52a579d2e0557e3de49f32271f9cfd8d648d11aa/tap_bitly-0.2.1.tar.gz
+[2024-05-06 16:56:58] INFO root fetch - processPackages [tap-google-play]: Downloading https://files.pythonhosted.org/packages/8e/64/ce559ea1cced4959cd4bb17957a294fabaeffda1af7760b18e81ab79b4af/tap_google_play-0.3.3.tar.gz
+[2024-05-06 16:56:58] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/b9/f8/6046aa2afc88718422d134f2f5818c383b5e88aa849c8a4d74a3c1bf370e/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/c3/18/33f68925bcf332efc7ba6f4038a59ad0039a971abe54a4138a716ef06ffb/edgeimpulse_api-1.49.8.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [fastpdb]: Downloading https://files.pythonhosted.org/packages/96/d5/9f246a61090ecf8d01fe1e638c73f32a8fd4747ca6e177bd16a473f61b1c/fastpdb-1.3.0.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: executing diffoscope
+[2024-05-06 16:56:59] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz --markdown 20240506/z/zxkane.cdk-construct-simple-nat/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-06 16:56:59] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/1e/5b/59901a37da2f639e7d261b8e561bd4f078d492a0efc78bcb5d436185352d/text2story-1.4.7.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [tap-bitly]: Downloading https://files.pythonhosted.org/packages/3a/f8/d5a15816b9de10e08db553bd6ad001a704d7c9c42f5651e1791ee249e723/tap_bitly-0.2.2.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [tap-google-play]: Downloading https://files.pythonhosted.org/packages/99/1e/48b2ecdd0ce93e2bbdc4b962da6b763b6fa3d281965781c11022dc1cb3c4/tap_google_play-0.3.4.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [tap-clinicaltrials]: Downloading https://files.pythonhosted.org/packages/c3/ef/f86d8f42237978953503231538fda572ba80f0b5a8f1c561db6ab621265c/tap_clinicaltrials-0.1.2.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-06 16:56:59] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240506/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 16:56:59] INFO root fetch - processPackages [tap-bitly]: executing diffoscope
+[2024-05-06 16:56:59] INFO root fetch - processPackages [tap-bitly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_bitly-0.2.1.tar.gz tmp/tap_bitly-0.2.2.tar.gz --markdown 20240506/t/tap-bitly/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-06 16:56:59] INFO root fetch - processPackages [tap-google-play]: executing diffoscope
+[2024-05-06 16:56:59] INFO root fetch - processPackages [tap-google-play]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_google_play-0.3.3.tar.gz tmp/tap_google_play-0.3.4.tar.gz --markdown 20240506/t/tap-google-play/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-06 16:56:59] INFO root fetch - processPackages [tap-clinicaltrials]: executing diffoscope
+[2024-05-06 16:56:59] INFO root fetch - processPackages [tap-clinicaltrials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_clinicaltrials-0.1.1.tar.gz tmp/tap_clinicaltrials-0.1.2.tar.gz --markdown 20240506/t/tap-clinicaltrials/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 16:56:59] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/db/6d/b7f3f6cd37f776864579192c3034d1dd175709c686d15c6b5861d957838c/pyjhtdbv2-20240506.5.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2024-05-06 16:56:59] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.4.6.tar.gz tmp/text2story-1.4.7.tar.gz --markdown 20240506/t/text2story/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-06 16:56:59] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/7f/2e/61db10bac2d979482398361a4532a56341b89eb7e3cd645df17c5ecdbfc5/edgeimpulse_api-1.49.9.tar.gz
+[2024-05-06 16:56:59] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 16:56:59] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 16:56:59] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-05-06 16:56:59] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.49.8.tar.gz tmp/edgeimpulse_api-1.49.9.tar.gz --markdown 20240506/e/edgeimpulse-api/1.49.8-1.49.9/README.md --exclude *.pyd
+[2024-05-06 16:56:59] INFO root fetch - processPackages [pyjhtdbv2]: executing diffoscope
+[2024-05-06 16:56:59] INFO root fetch - processPackages [pyjhtdbv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjhtdbv2-20240506.4.tar.gz tmp/pyjhtdbv2-20240506.5.tar.gz --markdown 20240506/p/pyjhtdbv2/20240506.4-20240506.5/README.md --exclude *.pyd
+[2024-05-06 16:56:59] INFO root fetch - processPackages [fastpdb]: Downloading https://files.pythonhosted.org/packages/ff/e3/be3b68743930f079776cdfa7d6475278c2160f77d2610fd4e98a1ae1c545/fastpdb-1.3.1-cp311-cp311-macosx_10_12_x86_64.whl
+[2024-05-06 16:56:59] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz]
+[2024-05-06 16:56:59] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz]
+[2024-05-06 16:56:59] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
+[2024-05-06 16:57:00] INFO root fetch - processPackages [fastpdb]: executing diffoscope
+[2024-05-06 16:57:00] INFO root fetch - processPackages [fastpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastpdb-1.3.0.tar.gz tmp/fastpdb-1.3.1-cp311-cp311-macosx_10_12_x86_64.whl.zip --markdown 20240506/f/fastpdb/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-06 16:57:00] INFO root fetch - processPackages [tap-bitly]: Remove: archive file [/home/abi/fetcher/tmp/tap_bitly-0.2.1.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - processPackages [tap-bitly]: Remove: archive file [/home/abi/fetcher/tmp/tap_bitly-0.2.2.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - main [MainThread]: End processing [tap-bitly]: success
+[2024-05-06 16:57:00] INFO root fetch - processPackages [tap-google-play]: Remove: archive file [/home/abi/fetcher/tmp/tap_google_play-0.3.3.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - processPackages [tap-google-play]: Remove: archive file [/home/abi/fetcher/tmp/tap_google_play-0.3.4.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - main [MainThread]: End processing [tap-google-play]: success
+[2024-05-06 16:57:00] INFO root fetch - processPackages [tap-clinicaltrials]: Remove: archive file [/home/abi/fetcher/tmp/tap_clinicaltrials-0.1.1.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - processPackages [tap-clinicaltrials]: Remove: archive file [/home/abi/fetcher/tmp/tap_clinicaltrials-0.1.2.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - main [MainThread]: End processing [tap-clinicaltrials]: success
+[2024-05-06 16:57:00] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-06 16:57:00] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.6.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - processPackages [text2story]: Remove: archive file [/home/abi/fetcher/tmp/text2story-1.4.7.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2024-05-06 16:57:00] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 16:57:00] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 16:57:01] INFO root fetch - processPackages [fastpdb]: Remove: archive file [/home/abi/fetcher/tmp/fastpdb-1.3.0.tar.gz]
+[2024-05-06 16:57:01] INFO root fetch - processPackages [fastpdb]: Remove: archive file [/home/abi/fetcher/tmp/fastpdb-1.3.1-cp311-cp311-macosx_10_12_x86_64.whl.zip]
+[2024-05-06 16:57:01] INFO root fetch - main [MainThread]: End processing [fastpdb]: success
+[2024-05-06 16:57:01] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20240506.4.tar.gz]
+[2024-05-06 16:57:01] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20240506.5.tar.gz]
+[2024-05-06 16:57:01] INFO root fetch - main [MainThread]: End processing [pyjhtdbv2]: success
+[2024-05-06 16:57:03] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.8.tar.gz]
+[2024-05-06 16:57:03] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
+[2024-05-06 16:57:03] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-05-06 16:57:03] INFO root fetch - main [MainThread]: Store serial: [23079613]
