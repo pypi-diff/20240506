@@ -4865,3 +4865,24 @@
 [2024-05-06 06:27:15] INFO root fetch - processPackages [platforms]: Remove: archive file [/home/abi/fetcher/tmp/platforms-3.0.0.tar.gz]
 [2024-05-06 06:27:15] INFO root fetch - main [MainThread]: End processing [platforms]: success
 [2024-05-06 06:27:15] INFO root fetch - main [MainThread]: Store serial: [23071529]
+[2024-05-06 06:29:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071529]
+[2024-05-06 06:29:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 06:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cubaflixdownload
+[2024-05-06 06:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iac-init
+[2024-05-06 06:29:24] INFO root fetch - processPackages [iac-init]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-06 06:29:24] INFO root fetch - processPackages [cubaflixdownload]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-06 06:29:24] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/bb/af/1fce45755cb43ce32accc79ad3d5cf6051f3bc2ff6ca8abc6b6868525bd8/iac_init-0.4.6.tar.gz
+[2024-05-06 06:29:24] INFO root fetch - processPackages [cubaflixdownload]: Downloading https://files.pythonhosted.org/packages/f4/b9/3c16cfa59c48fed65994cfa4943ccd1687f14b1b73cbee3b7ebe7f66d89e/cubaflixdownload-2.0.0.tar.gz
+[2024-05-06 06:29:24] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/e6/56/ed2d66bdbb7340eaae3a5ade59d479701459325478efa2a6bc1525373045/iac_init-0.4.7.tar.gz
+[2024-05-06 06:29:24] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-06 06:29:24] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.4.6.tar.gz tmp/iac_init-0.4.7.tar.gz --markdown 20240506/i/iac-init/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-06 06:29:24] INFO root fetch - processPackages [cubaflixdownload]: Downloading https://files.pythonhosted.org/packages/43/28/7bf68faa04ceaf03ee7329b6c5b72a2e2782550564d4cad76d3c5b60dfc4/cubaflixdownload-3.0.0.tar.gz
+[2024-05-06 06:29:25] INFO root fetch - processPackages [cubaflixdownload]: executing diffoscope
+[2024-05-06 06:29:25] INFO root fetch - processPackages [cubaflixdownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubaflixdownload-2.0.0.tar.gz tmp/cubaflixdownload-3.0.0.tar.gz --markdown 20240506/c/cubaflixdownload/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-06 06:29:25] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.6.tar.gz]
+[2024-05-06 06:29:25] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.7.tar.gz]
+[2024-05-06 06:29:25] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-06 06:29:25] INFO root fetch - processPackages [cubaflixdownload]: Remove: archive file [/home/abi/fetcher/tmp/cubaflixdownload-2.0.0.tar.gz]
+[2024-05-06 06:29:25] INFO root fetch - processPackages [cubaflixdownload]: Remove: archive file [/home/abi/fetcher/tmp/cubaflixdownload-3.0.0.tar.gz]
+[2024-05-06 06:29:25] INFO root fetch - main [MainThread]: End processing [cubaflixdownload]: success
+[2024-05-06 06:29:25] INFO root fetch - main [MainThread]: Store serial: [23071537]
