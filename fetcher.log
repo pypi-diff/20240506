@@ -7964,3 +7964,84 @@
 [2024-05-06 09:42:36] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
 [2024-05-06 09:42:36] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2024-05-06 09:42:36] INFO root fetch - main [MainThread]: Store serial: [23073050]
+[2024-05-06 09:44:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23073050]
+[2024-05-06 09:44:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-06 09:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zscaler-sdk-python
+[2024-05-06 09:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trex-program
+[2024-05-06 09:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-math-unimore
+[2024-05-06 09:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: formio-data
+[2024-05-06 09:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usso
+[2024-05-06 09:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-allauth-themes
+[2024-05-06 09:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sbcli-dev
+[2024-05-06 09:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unimernet
+[2024-05-06 09:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rooms-shared-services
+[2024-05-06 09:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PepperPepper
+[2024-05-06 09:44:46] INFO root fetch - processPackages [django-allauth-themes]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 09:44:46] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.5] Old Version: [0.0.7.4]
+[2024-05-06 09:44:46] INFO root fetch - processPackages [formio-data]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-06 09:44:46] INFO root fetch - processPackages [trex-program]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-06 09:44:46] INFO root fetch - processPackages [zscaler-sdk-python]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-06 09:44:46] WARNING root fetch - processPackages [my-math-unimore]: Skipping, unable to determine old version
+[2024-05-06 09:44:46] INFO root fetch - main [MainThread]: End processing [my-math-unimore] error
+[2024-05-06 09:44:46] INFO root fetch - processPackages [unimernet]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 09:44:46] WARNING root fetch - processPackages [usso]: Skipping, unable to determine old version
+[2024-05-06 09:44:46] INFO root fetch - main [MainThread]: End processing [usso] error
+[2024-05-06 09:44:46] INFO root fetch - processPackages [sbcli-dev]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-05-06 09:44:46] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/5d/2d/be15ff89e6d5766c835ed885fa84264d640e6c5489f5e3d31b7546a3e072/pepperpepper-0.0.7.4.tar.gz
+[2024-05-06 09:44:46] INFO root fetch - processPackages [formio-data]: Downloading https://files.pythonhosted.org/packages/3c/52/92d96ccbdd051da5197faab0808e3efe6461f6efcac9569803858c295a0d/formio-data-1.2.6.tar.gz
+[2024-05-06 09:44:46] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-05-06 09:44:46] INFO root fetch - processPackages [django-allauth-themes]: Downloading https://files.pythonhosted.org/packages/63/44/38822e55b3e992ad1d44773b5824f3723432791ecdd8cb6c6e209cc71285/django_allauth_themes-0.0.3.tar.gz
+[2024-05-06 09:44:46] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/94/23/37d4cb952fda72f95f64263beea44c9fb09a1d723fbc15047eb4519e61da/sbcli_dev-2.5.3.zip
+[2024-05-06 09:44:46] INFO root fetch - processPackages [trex-program]: Downloading https://files.pythonhosted.org/packages/a3/95/199053b92e960492c79bc8ca8882541f4658f5f81feac4d43006eca691fe/trex-program-0.0.1.tar.gz
+[2024-05-06 09:44:46] INFO root fetch - processPackages [zscaler-sdk-python]: Downloading https://files.pythonhosted.org/packages/89/70/0e8e081cd7d1dfe0621452b987e1aa46fdc33223add48cbdb6dcf03771cb/zscaler_sdk_python-0.1.6.tar.gz
+[2024-05-06 09:44:47] INFO root fetch - processPackages [unimernet]: Downloading https://files.pythonhosted.org/packages/f0/41/76d204d06d2b3e44d0ce64b82195d4801f101fb90425e5e4d9c6237836fd/unimernet-0.0.6-py2.py3-none-any.whl
+[2024-05-06 09:44:47] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-05-06 09:44:47] INFO root fetch - processPackages [formio-data]: Downloading https://files.pythonhosted.org/packages/ba/0c/0731a3c8990c5f74542e22c8497182abe8b21e3ddcc7d960fd2ed3f66389/formio-data-1.2.7.tar.gz
+[2024-05-06 09:44:47] INFO root fetch - processPackages [django-allauth-themes]: Downloading https://files.pythonhosted.org/packages/2b/cc/a071ad963a5ca52278f7c1b9e375b404c588b80218af68af7f8f7f77448e/django_allauth_themes-0.0.4.tar.gz
+[2024-05-06 09:44:47] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/99/26/9e64be76d8d521870ea6502c7ca05ea55c9566f93ae119799c59bfb8f124/pepperpepper-0.0.7.5.tar.gz
+[2024-05-06 09:44:47] INFO root fetch - processPackages [formio-data]: executing diffoscope
+[2024-05-06 09:44:47] INFO root fetch - processPackages [formio-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formio-data-1.2.6.tar.gz tmp/formio-data-1.2.7.tar.gz --markdown 20240506/f/formio-data/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-06 09:44:47] INFO root fetch - processPackages [trex-program]: Downloading https://files.pythonhosted.org/packages/ae/4f/902ebb9d7fa083fb69c36fcb395a5e308b5714d83e973b5d448a2adf1f23/trex-program-1.0.0.tar.gz
+[2024-05-06 09:44:47] INFO root fetch - processPackages [django-allauth-themes]: executing diffoscope
+[2024-05-06 09:44:47] INFO root fetch - processPackages [django-allauth-themes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_allauth_themes-0.0.3.tar.gz tmp/django_allauth_themes-0.0.4.tar.gz --markdown 20240506/d/django-allauth-themes/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 09:44:47] INFO root fetch - processPackages [zscaler-sdk-python]: Downloading https://files.pythonhosted.org/packages/3d/b2/8de124ff942300ba7d14636920d2913155b02ca25480e2586a2b2253ac83/zscaler_sdk_python-0.1.7.tar.gz
+[2024-05-06 09:44:47] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/53/bc/f9698f89b462ec03a4d0d2efd1d654d220b137328f3822cb6e9c37ff1dca/sbcli_dev-2.5.4.zip
+[2024-05-06 09:44:47] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-06 09:44:47] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.4.tar.gz tmp/pepperpepper-0.0.7.5.tar.gz --markdown 20240506/P/PepperPepper/0.0.7.4-0.0.7.5/README.md --exclude *.pyd
+[2024-05-06 09:44:47] INFO root fetch - processPackages [trex-program]: executing diffoscope
+[2024-05-06 09:44:47] INFO root fetch - processPackages [trex-program]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-program-0.0.1.tar.gz tmp/trex-program-1.0.0.tar.gz --markdown 20240506/t/trex-program/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-06 09:44:47] INFO root fetch - processPackages [zscaler-sdk-python]: executing diffoscope
+[2024-05-06 09:44:47] INFO root fetch - processPackages [zscaler-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zscaler_sdk_python-0.1.6.tar.gz tmp/zscaler_sdk_python-0.1.7.tar.gz --markdown 20240506/z/zscaler-sdk-python/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-06 09:44:47] INFO root fetch - processPackages [unimernet]: Downloading https://files.pythonhosted.org/packages/c9/3f/01734986263767b43fe46b8136b8aaedba5c056cd3c6be9c9a1ca6b1f158/unimernet-0.0.7-py2.py3-none-any.whl
+[2024-05-06 09:44:47] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-05-06 09:44:47] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-06 09:44:47] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.5.3.zip tmp/sbcli_dev-2.5.4.zip --markdown 20240506/s/sbcli-dev/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-05-06 09:44:47] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-05-06 09:44:47] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240506/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-05-06 09:44:47] INFO root fetch - processPackages [unimernet]: executing diffoscope
+[2024-05-06 09:44:47] INFO root fetch - processPackages [unimernet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimernet-0.0.6-py2.py3-none-any.whl.zip tmp/unimernet-0.0.7-py2.py3-none-any.whl.zip --markdown 20240506/u/unimernet/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 09:44:48] INFO root fetch - processPackages [formio-data]: Remove: archive file [/home/abi/fetcher/tmp/formio-data-1.2.6.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - processPackages [formio-data]: Remove: archive file [/home/abi/fetcher/tmp/formio-data-1.2.7.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - main [MainThread]: End processing [formio-data]: success
+[2024-05-06 09:44:48] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.4.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.5.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-06 09:44:48] INFO root fetch - processPackages [django-allauth-themes]: Remove: archive file [/home/abi/fetcher/tmp/django_allauth_themes-0.0.3.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - processPackages [django-allauth-themes]: Remove: archive file [/home/abi/fetcher/tmp/django_allauth_themes-0.0.4.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - main [MainThread]: End processing [django-allauth-themes]: success
+[2024-05-06 09:44:48] INFO root fetch - processPackages [trex-program]: Remove: archive file [/home/abi/fetcher/tmp/trex-program-0.0.1.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - processPackages [trex-program]: Remove: archive file [/home/abi/fetcher/tmp/trex-program-1.0.0.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - main [MainThread]: End processing [trex-program]: success
+[2024-05-06 09:44:48] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-05-06 09:44:48] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_sdk_python-0.1.6.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_sdk_python-0.1.7.tar.gz]
+[2024-05-06 09:44:48] INFO root fetch - main [MainThread]: End processing [zscaler-sdk-python]: success
+[2024-05-06 09:44:48] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.6-py2.py3-none-any.whl.zip]
+[2024-05-06 09:44:48] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.7-py2.py3-none-any.whl.zip]
+[2024-05-06 09:44:48] INFO root fetch - main [MainThread]: End processing [unimernet]: success
+[2024-05-06 09:44:49] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.5.3.zip]
+[2024-05-06 09:44:49] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.5.4.zip]
+[2024-05-06 09:44:49] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-06 09:44:49] INFO root fetch - main [MainThread]: Store serial: [23073083]
