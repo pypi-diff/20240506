@@ -5897,3 +5897,30 @@
 [2024-05-06 07:41:39] INFO root fetch - processPackages [gendazpack]: Remove: archive file [/home/abi/fetcher/tmp/gendazpack-0.1.2.tar.gz]
 [2024-05-06 07:41:39] INFO root fetch - main [MainThread]: End processing [gendazpack]: success
 [2024-05-06 07:41:39] INFO root fetch - main [MainThread]: Store serial: [23072020]
+[2024-05-06 07:43:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072020]
+[2024-05-06 07:43:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shorts-generator
+[2024-05-06 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hkube-python-wrapper
+[2024-05-06 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nuitka-hatch
+[2024-05-06 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ADViewpy
+[2024-05-06 07:43:48] WARNING root fetch - processPackages [shorts-generator]: Skipping, unable to determine old version
+[2024-05-06 07:43:48] INFO root fetch - main [MainThread]: End processing [shorts-generator] error
+[2024-05-06 07:43:48] INFO root fetch - processPackages [nuitka-hatch]: New version: [1.2] Old Version: [1.1]
+[2024-05-06 07:43:48] INFO root fetch - processPackages [hkube-python-wrapper]: New version: [2.6.0.dev9] Old Version: [2.6.0.dev8]
+[2024-05-06 07:43:48] WARNING root fetch - processPackages [ADViewpy]: Skipping, unable to determine old version
+[2024-05-06 07:43:48] INFO root fetch - main [MainThread]: End processing [ADViewpy] error
+[2024-05-06 07:43:48] INFO root fetch - processPackages [nuitka-hatch]: Downloading https://files.pythonhosted.org/packages/b2/b2/e109b18879264bbefcf1f5b844e148e2416ac61df5deb1fbb9e1e17944bd/nuitka_hatch-1.1.tar.gz
+[2024-05-06 07:43:48] INFO root fetch - processPackages [hkube-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9e/2a/38a90d83d86cabcef2e9d272b42eadd2b52efe9c007b8381a42916c05aa5/hkube_python_wrapper-2.6.0.dev8.tar.gz
+[2024-05-06 07:43:49] INFO root fetch - processPackages [nuitka-hatch]: Downloading https://files.pythonhosted.org/packages/75/ad/d3bc65205c8de2b46acc071ef36162b4ce45f88333097b31b3c946deae7e/nuitka_hatch-1.2.tar.gz
+[2024-05-06 07:43:49] INFO root fetch - processPackages [nuitka-hatch]: executing diffoscope
+[2024-05-06 07:43:49] INFO root fetch - processPackages [nuitka-hatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuitka_hatch-1.1.tar.gz tmp/nuitka_hatch-1.2.tar.gz --markdown 20240506/n/nuitka-hatch/1.1-1.2/README.md --exclude *.pyd
+[2024-05-06 07:43:49] INFO root fetch - processPackages [hkube-python-wrapper]: Downloading https://files.pythonhosted.org/packages/ed/e9/b53819c3b451ad5f59dc0c70f2007d252adb35bf8cfe74d1fac1c1b05893/hkube_python_wrapper-2.6.0.dev9.tar.gz
+[2024-05-06 07:43:49] INFO root fetch - processPackages [hkube-python-wrapper]: executing diffoscope
+[2024-05-06 07:43:49] INFO root fetch - processPackages [hkube-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkube_python_wrapper-2.6.0.dev8.tar.gz tmp/hkube_python_wrapper-2.6.0.dev9.tar.gz --markdown 20240506/h/hkube-python-wrapper/2.6.0.dev8-2.6.0.dev9/README.md --exclude *.pyd
+[2024-05-06 07:43:49] INFO root fetch - processPackages [nuitka-hatch]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_hatch-1.1.tar.gz]
+[2024-05-06 07:43:49] INFO root fetch - processPackages [nuitka-hatch]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_hatch-1.2.tar.gz]
+[2024-05-06 07:43:49] INFO root fetch - main [MainThread]: End processing [nuitka-hatch]: success
+[2024-05-06 07:43:50] INFO root fetch - processPackages [hkube-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hkube_python_wrapper-2.6.0.dev8.tar.gz]
+[2024-05-06 07:43:50] INFO root fetch - processPackages [hkube-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hkube_python_wrapper-2.6.0.dev9.tar.gz]
+[2024-05-06 07:43:50] INFO root fetch - main [MainThread]: End processing [hkube-python-wrapper]: success
+[2024-05-06 07:43:50] INFO root fetch - main [MainThread]: Store serial: [23072037]
