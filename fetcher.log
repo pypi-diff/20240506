@@ -1203,3 +1203,59 @@
 [2024-05-06 02:06:39] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240505.435.tar.gz]
 [2024-05-06 02:06:39] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-06 02:06:39] INFO root fetch - main [MainThread]: Store serial: [23069954]
+[2024-05-06 02:08:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23069954]
+[2024-05-06 02:08:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 02:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2024-05-06 02:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-waiting
+[2024-05-06 02:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rlsdk_python
+[2024-05-06 02:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: goldlink-client-python
+[2024-05-06 02:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-common
+[2024-05-06 02:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-amazon-chime-resources
+[2024-05-06 02:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: espy-pdfier
+[2024-05-06 02:08:47] WARNING root fetch - processPackages [espy-pdfier]: Skipping, unable to determine old version
+[2024-05-06 02:08:47] INFO root fetch - main [MainThread]: End processing [espy-pdfier] error
+[2024-05-06 02:08:48] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240505] Old Version: [0.0.8.dev20240504]
+[2024-05-06 02:08:48] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-06 02:08:48] INFO root fetch - processPackages [rlsdk_python]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-06 02:08:48] INFO root fetch - processPackages [goldlink-client-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 02:08:48] INFO root fetch - processPackages [mojo-waiting]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-06 02:08:48] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-06 02:08:48] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/e5/96/8b383ab6933bc18c8929bfd465027534c45a37f6539233d43a43ae0a540f/jaxutils-nightly-0.0.8.dev20240504.tar.gz
+[2024-05-06 02:08:48] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-06 02:08:48] INFO root fetch - processPackages [rlsdk_python]: Downloading https://files.pythonhosted.org/packages/49/18/7c9265ed902c17e0db714327b4a79b492ddc68ce8a0b01af7c4e01041a19/rlsdk_python-0.4.0.tar.gz
+[2024-05-06 02:08:48] INFO root fetch - processPackages [goldlink-client-python]: Downloading https://files.pythonhosted.org/packages/84/bc/3797edb3f33f7a450acb6b4ae6186ab16786a040c8b8ae9876c7f5f46b51/goldlink-client-python-0.0.1.tar.gz
+[2024-05-06 02:08:48] INFO root fetch - processPackages [mojo-waiting]: Downloading https://files.pythonhosted.org/packages/cc/ca/63c1622458e5113c831d90d06902ac0fbdf4086114c722bb967ccc5bf2ea/mojo_waiting-1.3.1.tar.gz
+[2024-05-06 02:08:48] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/53/8e/af4ea53f622275d6ec0f84caa323cfc63e80989bde3151c2291175f43f4c/cdk-amazon-chime-resources-3.2.8.tar.gz
+[2024-05-06 02:08:48] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/79/66/e384e0fc440477aba400a027105d7a0554b9302fa75c2540168367fa3767/jaxutils-nightly-0.0.8.dev20240505.tar.gz
+[2024-05-06 02:08:48] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 15472143>=10485760
+[2024-05-06 02:08:48] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2024-05-06 02:08:48] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-06 02:08:48] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240504.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240505.tar.gz --markdown 20240506/j/jaxutils-nightly/0.0.8.dev20240504-0.0.8.dev20240505/README.md --exclude *.pyd
+[2024-05-06 02:08:48] INFO root fetch - processPackages [rlsdk_python]: Downloading https://files.pythonhosted.org/packages/20/ad/603a995642770f151925132fb59ccb7d06cef4326768cca9bd87113a3051/rlsdk_python-0.4.1.tar.gz
+[2024-05-06 02:08:48] INFO root fetch - processPackages [mojo-waiting]: Downloading https://files.pythonhosted.org/packages/15/78/bbb37b72d55a3095bd104a65c750dc931828563074b5dd22adcf579eedcf/mojo_waiting-1.3.2.tar.gz
+[2024-05-06 02:08:48] INFO root fetch - processPackages [goldlink-client-python]: Downloading https://files.pythonhosted.org/packages/0c/68/a6b9119ceeb88e6583b89f9abe3f0c48a72fb94f42274da16cf6a25a3cd5/goldlink_client_python-0.0.2-py3-none-any.whl
+[2024-05-06 02:08:48] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-06 02:08:48] INFO root fetch - processPackages [rlsdk_python]: executing diffoscope
+[2024-05-06 02:08:48] INFO root fetch - processPackages [rlsdk_python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlsdk_python-0.4.0.tar.gz tmp/rlsdk_python-0.4.1.tar.gz --markdown 20240506/r/rlsdk_python/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-06 02:08:48] INFO root fetch - processPackages [mojo-waiting]: executing diffoscope
+[2024-05-06 02:08:48] INFO root fetch - processPackages [mojo-waiting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_waiting-1.3.1.tar.gz tmp/mojo_waiting-1.3.2.tar.gz --markdown 20240506/m/mojo-waiting/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-06 02:08:48] INFO root fetch - processPackages [goldlink-client-python]: executing diffoscope
+[2024-05-06 02:08:48] INFO root fetch - processPackages [goldlink-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goldlink-client-python-0.0.1.tar.gz tmp/goldlink_client_python-0.0.2-py3-none-any.whl.zip --markdown 20240506/g/goldlink-client-python/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 02:08:49] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-06 02:08:49] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240506/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-06 02:08:49] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240504.tar.gz]
+[2024-05-06 02:08:49] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240505.tar.gz]
+[2024-05-06 02:08:49] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-06 02:08:49] INFO root fetch - processPackages [rlsdk_python]: Remove: archive file [/home/abi/fetcher/tmp/rlsdk_python-0.4.0.tar.gz]
+[2024-05-06 02:08:49] INFO root fetch - processPackages [rlsdk_python]: Remove: archive file [/home/abi/fetcher/tmp/rlsdk_python-0.4.1.tar.gz]
+[2024-05-06 02:08:49] INFO root fetch - main [MainThread]: End processing [rlsdk_python]: success
+[2024-05-06 02:08:49] INFO root fetch - processPackages [goldlink-client-python]: Remove: archive file [/home/abi/fetcher/tmp/goldlink-client-python-0.0.1.tar.gz]
+[2024-05-06 02:08:49] INFO root fetch - processPackages [goldlink-client-python]: Remove: archive file [/home/abi/fetcher/tmp/goldlink_client_python-0.0.2-py3-none-any.whl.zip]
+[2024-05-06 02:08:49] INFO root fetch - main [MainThread]: End processing [goldlink-client-python]: success
+[2024-05-06 02:08:49] INFO root fetch - processPackages [mojo-waiting]: Remove: archive file [/home/abi/fetcher/tmp/mojo_waiting-1.3.1.tar.gz]
+[2024-05-06 02:08:49] INFO root fetch - processPackages [mojo-waiting]: Remove: archive file [/home/abi/fetcher/tmp/mojo_waiting-1.3.2.tar.gz]
+[2024-05-06 02:08:49] INFO root fetch - main [MainThread]: End processing [mojo-waiting]: success
+[2024-05-06 02:08:49] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-06 02:08:49] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-06 02:08:49] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-06 02:08:49] INFO root fetch - main [MainThread]: Store serial: [23069975]
