@@ -6366,3 +6366,42 @@
 [2024-05-06 08:12:34] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-1.0.3.tar.gz]
 [2024-05-06 08:12:34] INFO root fetch - main [MainThread]: End processing [accmt]: success
 [2024-05-06 08:12:34] INFO root fetch - main [MainThread]: Store serial: [23072233]
+[2024-05-06 08:14:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072233]
+[2024-05-06 08:14:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 08:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beanhub-import
+[2024-05-06 08:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libewf-python
+[2024-05-06 08:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioSAK
+[2024-05-06 08:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qh3
+[2024-05-06 08:14:43] INFO root fetch - processPackages [beanhub-import]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-06 08:14:43] INFO root fetch - processPackages [BioSAK]: New version: [1.88.2] Old Version: [1.88.1]
+[2024-05-06 08:14:43] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/9f/35/d83ac738bbf1c0135c1d60df12ac2fd9a4c7ab5db9162f1c8328fd7dfed4/beanhub_import-0.0.4.tar.gz
+[2024-05-06 08:14:43] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/94/fa/4df2fd2fc6b3430e1f8d6d3d50665467a96ad38253594aca03b150992882/BioSAK-1.88.1.tar.gz
+[2024-05-06 08:14:43] INFO root fetch - processPackages [qh3]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-06 08:14:43] INFO root fetch - processPackages [libewf-python]: New version: [20240506] Old Version: [20231119]
+[2024-05-06 08:14:43] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/18/c4/50c0e0619e9ba94757be9492c206763d5fb347dc512d090adc2498789c7c/beanhub_import-0.0.5.tar.gz
+[2024-05-06 08:14:43] INFO root fetch - processPackages [libewf-python]: Downloading https://files.pythonhosted.org/packages/82/4a/ed4754ea2d75480cbee388e748df44cc538217f0aac703cac54725082e97/libewf-python-20231119.tar.gz
+[2024-05-06 08:14:43] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/fa/9b/15e739942dc46ab71bb0a1f7329a65e93db55b04b42dfa2a14dc9b17b14c/BioSAK-1.88.2.tar.gz
+[2024-05-06 08:14:43] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/ae/c3/1185fffb68f7cfedad41b19595e7c552f079313652de8ec80493edf375d8/qh3-1.0.5.tar.gz
+[2024-05-06 08:14:43] INFO root fetch - processPackages [beanhub-import]: executing diffoscope
+[2024-05-06 08:14:43] INFO root fetch - processPackages [beanhub-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_import-0.0.4.tar.gz tmp/beanhub_import-0.0.5.tar.gz --markdown 20240506/b/beanhub-import/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-06 08:14:43] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-05-06 08:14:43] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.88.1.tar.gz tmp/BioSAK-1.88.2.tar.gz --markdown 20240506/B/BioSAK/1.88.1-1.88.2/README.md --exclude *.pyd
+[2024-05-06 08:14:44] INFO root fetch - processPackages [libewf-python]: Downloading https://files.pythonhosted.org/packages/3e/ff/b66e4b9dcaabf9c0a02aeaaea74d4649b34f2a89e456b531b6e40ea2a8fb/libewf-python-20240506.tar.gz
+[2024-05-06 08:14:44] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/98/fc/ffb8e7a91a0fccd6698625aec78cd2dcf542803736a435c1b1143cbd496b/qh3-1.0.6-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2024-05-06 08:14:44] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.4.tar.gz]
+[2024-05-06 08:14:44] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.5.tar.gz]
+[2024-05-06 08:14:44] INFO root fetch - main [MainThread]: End processing [beanhub-import]: success
+[2024-05-06 08:14:44] INFO root fetch - processPackages [libewf-python]: executing diffoscope
+[2024-05-06 08:14:44] INFO root fetch - processPackages [libewf-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libewf-python-20231119.tar.gz tmp/libewf-python-20240506.tar.gz --markdown 20240506/l/libewf-python/20231119-20240506/README.md --exclude *.pyd
+[2024-05-06 08:14:45] INFO root fetch - processPackages [qh3]: executing diffoscope
+[2024-05-06 08:14:45] INFO root fetch - processPackages [qh3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qh3-1.0.5.tar.gz tmp/qh3-1.0.6-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip --markdown 20240506/q/qh3/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-06 08:14:45] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.1.tar.gz]
+[2024-05-06 08:14:45] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.2.tar.gz]
+[2024-05-06 08:14:45] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-05-06 08:14:46] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-1.0.5.tar.gz]
+[2024-05-06 08:14:46] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-1.0.6-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
+[2024-05-06 08:14:46] INFO root fetch - main [MainThread]: End processing [qh3]: success
+[2024-05-06 08:15:04] INFO root fetch - processPackages [libewf-python]: Remove: archive file [/home/abi/fetcher/tmp/libewf-python-20231119.tar.gz]
+[2024-05-06 08:15:04] INFO root fetch - processPackages [libewf-python]: Remove: archive file [/home/abi/fetcher/tmp/libewf-python-20240506.tar.gz]
+[2024-05-06 08:15:04] INFO root fetch - main [MainThread]: End processing [libewf-python]: success
+[2024-05-06 08:15:04] INFO root fetch - main [MainThread]: Store serial: [23072251]
