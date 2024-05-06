@@ -23051,3 +23051,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:09:13] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240505-py3-none-win_amd64.whl.zip]
 [2024-05-06 17:09:13] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-05-06 17:09:13] INFO root fetch - main [MainThread]: Store serial: [23079748]
+[2024-05-06 17:11:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079748]
+[2024-05-06 17:11:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 17:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openvino-dev
+[2024-05-06 17:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypersync-fuel
+[2024-05-06 17:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TrajCompress
+[2024-05-06 17:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ejecteez
+[2024-05-06 17:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlsauce
+[2024-05-06 17:11:22] WARNING root fetch - processPackages [hypersync-fuel]: Skipping, unable to determine old version
+[2024-05-06 17:11:22] INFO root fetch - main [MainThread]: End processing [hypersync-fuel] error
+[2024-05-06 17:11:22] WARNING root fetch - processPackages [TrajCompress]: Skipping, unable to determine old version
+[2024-05-06 17:11:22] INFO root fetch - main [MainThread]: End processing [TrajCompress] error
+[2024-05-06 17:11:22] INFO root fetch - processPackages [mlsauce]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-06 17:11:22] WARNING root fetch - processPackages [ejecteez]: Skipping, unable to determine old version
+[2024-05-06 17:11:22] INFO root fetch - main [MainThread]: End processing [ejecteez] error
+[2024-05-06 17:11:22] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/09/f7/2b520a477f7710396348e4b9d582826758d5b083fe9b79613abe9c1435dd/mlsauce-0.9.0.tar.gz
+[2024-05-06 17:11:22] INFO root fetch - processPackages [openvino-dev]: New version: [2024.1.0] Old Version: [2024.0.0]
+[2024-05-06 17:11:22] INFO root fetch - processPackages [openvino-dev]: Downloading https://files.pythonhosted.org/packages/fd/7c/99ddc485793406adfccfc678a93cb7681e26443242801fc113a19215ba79/openvino_dev-2024.0.0-14509-py3-none-any.whl
+[2024-05-06 17:11:22] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/34/94/ecad26410f10cd9ffb719f2bc235ed21c44541226f01a963cd37706f4b37/mlsauce-0.9.1.tar.gz
+[2024-05-06 17:11:22] INFO root fetch - processPackages [mlsauce]: executing diffoscope
+[2024-05-06 17:11:22] INFO root fetch - processPackages [mlsauce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsauce-0.9.0.tar.gz tmp/mlsauce-0.9.1.tar.gz --markdown 20240506/m/mlsauce/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-06 17:11:23] INFO root fetch - processPackages [openvino-dev]: Downloading https://files.pythonhosted.org/packages/95/e0/26f07522ed343a727a0b5aa10222a5d30b629886c240da2a7fbc67676c4c/openvino_dev-2024.1.0-15008-py3-none-any.whl
+[2024-05-06 17:11:23] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.0.tar.gz]
+[2024-05-06 17:11:23] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
+[2024-05-06 17:11:23] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
+[2024-05-06 17:11:23] INFO root fetch - processPackages [openvino-dev]: executing diffoscope
+[2024-05-06 17:11:23] INFO root fetch - processPackages [openvino-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvino_dev-2024.0.0-14509-py3-none-any.whl.zip tmp/openvino_dev-2024.1.0-15008-py3-none-any.whl.zip --markdown 20240506/o/openvino-dev/2024.0.0-2024.1.0/README.md --exclude *.pyd
+[2024-05-06 17:11:29] INFO root fetch - processPackages [openvino-dev]: Remove: archive file [/home/abi/fetcher/tmp/openvino_dev-2024.0.0-14509-py3-none-any.whl.zip]
+[2024-05-06 17:11:29] INFO root fetch - processPackages [openvino-dev]: Remove: archive file [/home/abi/fetcher/tmp/openvino_dev-2024.1.0-15008-py3-none-any.whl.zip]
+[2024-05-06 17:11:29] INFO root fetch - main [MainThread]: End processing [openvino-dev]: success
+[2024-05-06 17:11:29] INFO root fetch - main [MainThread]: Store serial: [23079782]
