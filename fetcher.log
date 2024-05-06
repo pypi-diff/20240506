@@ -7424,3 +7424,39 @@
 [2024-05-06 09:16:37] INFO root fetch - processPackages [Pyrozal]: Remove: archive file [/home/abi/fetcher/tmp/Pyrozal-2.0.tar.gz]
 [2024-05-06 09:16:37] INFO root fetch - main [MainThread]: End processing [Pyrozal]: success
 [2024-05-06 09:16:37] INFO root fetch - main [MainThread]: Store serial: [23072780]
+[2024-05-06 09:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072780]
+[2024-05-06 09:18:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panda-server
+[2024-05-06 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usso-python
+[2024-05-06 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atomic-bomb-engine
+[2024-05-06 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starlite
+[2024-05-06 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snapcat
+[2024-05-06 09:18:47] WARNING root fetch - processPackages [snapcat]: Skipping, unable to determine old version
+[2024-05-06 09:18:47] INFO root fetch - main [MainThread]: End processing [snapcat] error
+[2024-05-06 09:18:47] WARNING root fetch - processPackages [usso-python]: Skipping, unable to determine old version
+[2024-05-06 09:18:47] INFO root fetch - main [MainThread]: End processing [usso-python] error
+[2024-05-06 09:18:47] INFO root fetch - processPackages [panda-server]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-06 09:18:47] INFO root fetch - processPackages [starlite]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2024-05-06 09:18:47] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-06 09:18:47] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/53/3d/9e1c73be6b6babd219bd9b97db04098da1df3e56ca7bc0d3d204b5415309/panda_server-0.3.4.tar.gz
+[2024-05-06 09:18:47] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-05-06 09:18:47] INFO root fetch - processPackages [starlite]: Downloading https://files.pythonhosted.org/packages/44/4e/ca45ad4d9ca7cc1fe1ef4b895da684ad409208c69bbbedcbc4730ac06f47/starlite-2.0.0a1.tar.gz
+[2024-05-06 09:18:48] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/89/ef/b1784630da18094f8c4a7a21d6a3f1266908c9ed377ae33bbe12307a0c2c/panda_server-0.3.5.tar.gz
+[2024-05-06 09:18:48] INFO root fetch - processPackages [starlite]: Downloading https://files.pythonhosted.org/packages/db/01/eae30b612e372f77d4db66f6ba8bc578968ab10ab0e8e198c91bc687c18d/starlite-2.0.0a2.tar.gz
+[2024-05-06 09:18:48] INFO root fetch - processPackages [panda-server]: executing diffoscope
+[2024-05-06 09:18:48] INFO root fetch - processPackages [panda-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_server-0.3.4.tar.gz tmp/panda_server-0.3.5.tar.gz --markdown 20240506/p/panda-server/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-06 09:18:48] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-05-06 09:18:48] INFO root fetch - processPackages [starlite]: executing diffoscope
+[2024-05-06 09:18:48] INFO root fetch - processPackages [starlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlite-2.0.0a1.tar.gz tmp/starlite-2.0.0a2.tar.gz --markdown 20240506/s/starlite/2.0.0a1-2.0.0a2/README.md --exclude *.pyd
+[2024-05-06 09:18:48] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-05-06 09:18:48] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240506/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-06 09:18:49] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-06 09:18:49] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-05-06 09:18:49] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-05-06 09:18:50] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda_server-0.3.4.tar.gz]
+[2024-05-06 09:18:50] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda_server-0.3.5.tar.gz]
+[2024-05-06 09:18:50] INFO root fetch - main [MainThread]: End processing [panda-server]: success
+[2024-05-06 09:18:50] INFO root fetch - processPackages [starlite]: Remove: archive file [/home/abi/fetcher/tmp/starlite-2.0.0a1.tar.gz]
+[2024-05-06 09:18:50] INFO root fetch - processPackages [starlite]: Remove: archive file [/home/abi/fetcher/tmp/starlite-2.0.0a2.tar.gz]
+[2024-05-06 09:18:50] INFO root fetch - main [MainThread]: End processing [starlite]: success
+[2024-05-06 09:18:50] INFO root fetch - main [MainThread]: Store serial: [23072795]
