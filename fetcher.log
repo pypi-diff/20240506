@@ -19063,3 +19063,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:50:36] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.9.0.tar.gz]
 [2024-05-06 14:50:36] INFO root fetch - main [MainThread]: End processing [policyengine-core]: success
 [2024-05-06 14:50:36] INFO root fetch - main [MainThread]: Store serial: [23077736]
+[2024-05-06 14:52:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077736]
+[2024-05-06 14:52:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 14:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openweatherapi-sdk
+[2024-05-06 14:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plone.app.layout
+[2024-05-06 14:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: patiencediff
+[2024-05-06 14:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-ce-forms-api
+[2024-05-06 14:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ComplexJSON
+[2024-05-06 14:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fractal-server
+[2024-05-06 14:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hat-syslog
+[2024-05-06 14:52:45] WARNING root fetch - processPackages [openweatherapi-sdk]: Skipping, unable to determine old version
+[2024-05-06 14:52:45] INFO root fetch - main [MainThread]: End processing [openweatherapi-sdk] error
+[2024-05-06 14:52:45] INFO root fetch - processPackages [plone.app.layout]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-05-06 14:52:45] INFO root fetch - processPackages [py-ce-forms-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 14:52:45] INFO root fetch - processPackages [ComplexJSON]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-06 14:52:45] INFO root fetch - processPackages [fractal-server]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-06 14:52:45] INFO root fetch - processPackages [hat-syslog]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-06 14:52:45] INFO root fetch - processPackages [patiencediff]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 14:52:45] INFO root fetch - processPackages [plone.app.layout]: Downloading https://files.pythonhosted.org/packages/79/45/76f33b8cfaf1f0d771dde9f7d3f45dfb47f5ca20646f89b4887e6ad68351/plone_app_layout-4.1.0.tar.gz
+[2024-05-06 14:52:45] INFO root fetch - processPackages [py-ce-forms-api]: Downloading https://files.pythonhosted.org/packages/ff/a1/ab4989a0cebc56f3391068ba86c94874409e1945483f3c5a5d21a361891f/py_ce_forms_api-0.0.6.tar.gz
+[2024-05-06 14:52:45] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/bb/28/1150b4402b5ba75960d272e4ad0cc776b9323bf8eb15a81319a1c46b54ef/fractal_server-2.0.3.tar.gz
+[2024-05-06 14:52:45] INFO root fetch - processPackages [ComplexJSON]: Downloading https://files.pythonhosted.org/packages/8e/5a/74d059bcbb9c5019082dc7b3fc69ef316dcd2ae2b6aec8471b101c5c67c4/ComplexJSON-1.1.0.tar.gz
+[2024-05-06 14:52:45] INFO root fetch - processPackages [hat-syslog]: Downloading https://files.pythonhosted.org/packages/ba/76/f4488fe5efd11b841edc128240b7646a20ffefc60962e733836056bc7f81/hat_syslog-0.7.8-cp310.cp311-none-any.whl
+[2024-05-06 14:52:45] INFO root fetch - processPackages [patiencediff]: Downloading https://files.pythonhosted.org/packages/96/d7/88848319e68f92db32982d0a2ca9b84c6fc05f38786f74c41c84adf26f6d/patiencediff-0.2.8.tar.gz
+[2024-05-06 14:52:45] INFO root fetch - processPackages [ComplexJSON]: Downloading https://files.pythonhosted.org/packages/c0/17/4e4f1761c233b6cf1f914fb2644fc5ef707a1f89500424b26789a2a390fd/ComplexJSON-1.2.0.tar.gz
+[2024-05-06 14:52:45] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/8a/31/dc0992ecb106f8d6efefcf9a2eb6f9817525e1d3515e2e0faa0e1c03c2ba/fractal_server-2.0.4.tar.gz
+[2024-05-06 14:52:45] INFO root fetch - processPackages [plone.app.layout]: Downloading https://files.pythonhosted.org/packages/da/31/6b4b39a375f0064f1afd9efb774db0b06cf795572098e18ea619dc57e40f/plone_app_layout-4.1.1.tar.gz
+[2024-05-06 14:52:46] INFO root fetch - processPackages [py-ce-forms-api]: Downloading https://files.pythonhosted.org/packages/70/b3/1f2f585b128459cbaa60f430476d6559065d0438a9ad398a39981dc3a0fc/py_ce_forms_api-0.0.7.tar.gz
+[2024-05-06 14:52:46] INFO root fetch - processPackages [ComplexJSON]: executing diffoscope
+[2024-05-06 14:52:46] INFO root fetch - processPackages [ComplexJSON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ComplexJSON-1.1.0.tar.gz tmp/ComplexJSON-1.2.0.tar.gz --markdown 20240506/C/ComplexJSON/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-06 14:52:46] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-05-06 14:52:46] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.3.tar.gz tmp/fractal_server-2.0.4.tar.gz --markdown 20240506/f/fractal-server/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-06 14:52:46] INFO root fetch - processPackages [plone.app.layout]: executing diffoscope
+[2024-05-06 14:52:46] INFO root fetch - processPackages [plone.app.layout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone_app_layout-4.1.0.tar.gz tmp/plone_app_layout-4.1.1.tar.gz --markdown 20240506/p/plone.app.layout/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-05-06 14:52:46] INFO root fetch - processPackages [py-ce-forms-api]: executing diffoscope
+[2024-05-06 14:52:46] INFO root fetch - processPackages [py-ce-forms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ce_forms_api-0.0.6.tar.gz tmp/py_ce_forms_api-0.0.7.tar.gz --markdown 20240506/p/py-ce-forms-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 14:52:46] INFO root fetch - processPackages [patiencediff]: Downloading https://files.pythonhosted.org/packages/11/a0/2d150e1c166de5982dcd196465d93c50057a40983374acd971d8b003601e/patiencediff-0.2.9.tar.gz
+[2024-05-06 14:52:46] INFO root fetch - processPackages [hat-syslog]: Downloading https://files.pythonhosted.org/packages/c8/3e/b502f28ddbaa12b3647d4b2b5c3ce105650dab7b8de64230df3a14493a7b/hat_syslog-0.7.9-cp310.cp311-none-any.whl
+[2024-05-06 14:52:46] INFO root fetch - processPackages [patiencediff]: executing diffoscope
+[2024-05-06 14:52:46] INFO root fetch - processPackages [patiencediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patiencediff-0.2.8.tar.gz tmp/patiencediff-0.2.9.tar.gz --markdown 20240506/p/patiencediff/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 14:52:46] INFO root fetch - processPackages [hat-syslog]: executing diffoscope
+[2024-05-06 14:52:46] INFO root fetch - processPackages [hat-syslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_syslog-0.7.8-cp310.cp311-none-any.whl.zip tmp/hat_syslog-0.7.9-cp310.cp311-none-any.whl.zip --markdown 20240506/h/hat-syslog/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-06 14:52:46] INFO root fetch - processPackages [py-ce-forms-api]: Remove: archive file [/home/abi/fetcher/tmp/py_ce_forms_api-0.0.6.tar.gz]
+[2024-05-06 14:52:46] INFO root fetch - processPackages [py-ce-forms-api]: Remove: archive file [/home/abi/fetcher/tmp/py_ce_forms_api-0.0.7.tar.gz]
+[2024-05-06 14:52:46] INFO root fetch - main [MainThread]: End processing [py-ce-forms-api]: success
+[2024-05-06 14:52:46] INFO root fetch - processPackages [ComplexJSON]: Remove: archive file [/home/abi/fetcher/tmp/ComplexJSON-1.1.0.tar.gz]
+[2024-05-06 14:52:46] INFO root fetch - processPackages [ComplexJSON]: Remove: archive file [/home/abi/fetcher/tmp/ComplexJSON-1.2.0.tar.gz]
+[2024-05-06 14:52:46] INFO root fetch - main [MainThread]: End processing [ComplexJSON]: success
+[2024-05-06 14:52:46] INFO root fetch - processPackages [patiencediff]: Remove: archive file [/home/abi/fetcher/tmp/patiencediff-0.2.8.tar.gz]
+[2024-05-06 14:52:46] INFO root fetch - processPackages [patiencediff]: Remove: archive file [/home/abi/fetcher/tmp/patiencediff-0.2.9.tar.gz]
+[2024-05-06 14:52:46] INFO root fetch - main [MainThread]: End processing [patiencediff]: success
+[2024-05-06 14:52:47] INFO root fetch - processPackages [plone.app.layout]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_layout-4.1.0.tar.gz]
+[2024-05-06 14:52:47] INFO root fetch - processPackages [plone.app.layout]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_layout-4.1.1.tar.gz]
+[2024-05-06 14:52:47] INFO root fetch - main [MainThread]: End processing [plone.app.layout]: success
+[2024-05-06 14:52:47] INFO root fetch - processPackages [hat-syslog]: Remove: archive file [/home/abi/fetcher/tmp/hat_syslog-0.7.8-cp310.cp311-none-any.whl.zip]
+[2024-05-06 14:52:47] INFO root fetch - processPackages [hat-syslog]: Remove: archive file [/home/abi/fetcher/tmp/hat_syslog-0.7.9-cp310.cp311-none-any.whl.zip]
+[2024-05-06 14:52:47] INFO root fetch - main [MainThread]: End processing [hat-syslog]: success
+[2024-05-06 14:52:47] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.3.tar.gz]
+[2024-05-06 14:52:47] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.4.tar.gz]
+[2024-05-06 14:52:47] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-05-06 14:52:47] INFO root fetch - main [MainThread]: Store serial: [23077771]
