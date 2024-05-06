@@ -16985,3 +16985,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:17:56] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.49.tar.gz]
 [2024-05-06 13:17:56] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
 [2024-05-06 13:17:56] INFO root fetch - main [MainThread]: Store serial: [23076632]
+[2024-05-06 13:20:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076632]
+[2024-05-06 13:20:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqla-utils
+[2024-05-06 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scoring-matrices
+[2024-05-06 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orchestrator-core
+[2024-05-06 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mnists
+[2024-05-06 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywwa
+[2024-05-06 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DataExtractorOEG
+[2024-05-06 13:20:05] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-06 13:20:05] INFO root fetch - processPackages [mnists]: New version: [0.2.0rc1] Old Version: [0.1.0]
+[2024-05-06 13:20:05] INFO root fetch - processPackages [scoring-matrices]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-06 13:20:05] INFO root fetch - processPackages [sqla-utils]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-06 13:20:05] INFO root fetch - processPackages [pywwa]: New version: [1.6] Old Version: [1.5]
+[2024-05-06 13:20:05] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/ee/63/3bd1764bd5e7959f1638f28194b8be8a98ab4a4ae8eb57bb764eb2aa3883/dataextractoroeg-0.4.6.tar.gz
+[2024-05-06 13:20:05] INFO root fetch - processPackages [mnists]: Downloading https://files.pythonhosted.org/packages/c4/58/dbac16d645fc671ea017c2dc3cfe49625b2e86ac68387aace103ab13fabf/mnists-0.1.0.tar.gz
+[2024-05-06 13:20:05] INFO root fetch - processPackages [orchestrator-core]: New version: [2.2.2rc2] Old Version: [2.2.2rc1]
+[2024-05-06 13:20:05] INFO root fetch - processPackages [pywwa]: Downloading https://files.pythonhosted.org/packages/02/0e/8a5cdbc2c7d38dc6eab71b579734ce212f9ae6af9e8193e77e18e6511a47/pywwa-1.5.tar.gz
+[2024-05-06 13:20:05] INFO root fetch - processPackages [sqla-utils]: Downloading https://files.pythonhosted.org/packages/f6/1b/1e52ac952467cd2aa99a580d95cdebe3635e608ad60487d87b14d31bac75/sqla_utils-0.6.0.tar.gz
+[2024-05-06 13:20:05] INFO root fetch - processPackages [scoring-matrices]: Downloading https://files.pythonhosted.org/packages/ac/03/218bcad24e143db96a5c3355da95bd38bdbc18c05f58c99d61918d678631/scoring-matrices-0.1.1.tar.gz
+[2024-05-06 13:20:05] INFO root fetch - processPackages [mnists]: Downloading https://files.pythonhosted.org/packages/ac/84/63f7a03d63db6943cf120d7f20b53d9d958da7a10d659bc8cf2da857c918/mnists-0.2.0rc1.tar.gz
+[2024-05-06 13:20:05] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/0d/3c/23581255f8b383b388c3015dfdb3229e0365ade803b99aa84b8d98c0de4c/orchestrator_core-2.2.2rc1.tar.gz
+[2024-05-06 13:20:05] INFO root fetch - processPackages [mnists]: executing diffoscope
+[2024-05-06 13:20:05] INFO root fetch - processPackages [mnists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnists-0.1.0.tar.gz tmp/mnists-0.2.0rc1.tar.gz --markdown 20240506/m/mnists/0.1.0-0.2.0rc1/README.md --exclude *.pyd
+[2024-05-06 13:20:05] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/0b/73/8db260aa8d5c5a2add547e442041aab12b3f2bbaee6bd06cee8ac8c84867/dataextractoroeg-0.4.7.tar.gz
+[2024-05-06 13:20:05] INFO root fetch - processPackages [sqla-utils]: Downloading https://files.pythonhosted.org/packages/fe/8e/9f660c038454cb667689c896d731cd24e6e5c106f405ff7cf4663759efb8/sqla_utils-0.6.1.tar.gz
+[2024-05-06 13:20:05] INFO root fetch - processPackages [scoring-matrices]: Downloading https://files.pythonhosted.org/packages/49/c7/ec5bc36a03b23929950c1602609f772d7dc77423337c67bebab9a5935b18/scoring-matrices-0.2.0.tar.gz
+[2024-05-06 13:20:06] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-06 13:20:06] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.4.6.tar.gz tmp/dataextractoroeg-0.4.7.tar.gz --markdown 20240506/D/DataExtractorOEG/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-06 13:20:06] INFO root fetch - processPackages [sqla-utils]: executing diffoscope
+[2024-05-06 13:20:06] INFO root fetch - processPackages [sqla-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqla_utils-0.6.0.tar.gz tmp/sqla_utils-0.6.1.tar.gz --markdown 20240506/s/sqla-utils/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-06 13:20:06] INFO root fetch - processPackages [pywwa]: Downloading https://files.pythonhosted.org/packages/af/d5/bd7ccdcb90e27d352847dd34da8f61babc7c0c67b8c5ed07aecf141fed56/pywwa-1.6.tar.gz
+[2024-05-06 13:20:06] INFO root fetch - processPackages [scoring-matrices]: executing diffoscope
+[2024-05-06 13:20:06] INFO root fetch - processPackages [scoring-matrices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoring-matrices-0.1.1.tar.gz tmp/scoring-matrices-0.2.0.tar.gz --markdown 20240506/s/scoring-matrices/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-06 13:20:06] INFO root fetch - processPackages [pywwa]: executing diffoscope
+[2024-05-06 13:20:06] INFO root fetch - processPackages [pywwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywwa-1.5.tar.gz tmp/pywwa-1.6.tar.gz --markdown 20240506/p/pywwa/1.5-1.6/README.md --exclude *.pyd
+[2024-05-06 13:20:06] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/fd/15/44dc829efa3faeb99dafa25cb459250a9ef0bc6e856fbb8d2622b74fd609/orchestrator_core-2.2.2rc2.tar.gz
+[2024-05-06 13:20:06] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2024-05-06 13:20:06] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-2.2.2rc1.tar.gz tmp/orchestrator_core-2.2.2rc2.tar.gz --markdown 20240506/o/orchestrator-core/2.2.2rc1-2.2.2rc2/README.md --exclude *.pyd
+[2024-05-06 13:20:06] INFO root fetch - processPackages [mnists]: Remove: archive file [/home/abi/fetcher/tmp/mnists-0.1.0.tar.gz]
+[2024-05-06 13:20:06] INFO root fetch - processPackages [mnists]: Remove: archive file [/home/abi/fetcher/tmp/mnists-0.2.0rc1.tar.gz]
+[2024-05-06 13:20:06] INFO root fetch - main [MainThread]: End processing [mnists]: success
+[2024-05-06 13:20:07] INFO root fetch - processPackages [sqla-utils]: Remove: archive file [/home/abi/fetcher/tmp/sqla_utils-0.6.0.tar.gz]
+[2024-05-06 13:20:07] INFO root fetch - processPackages [sqla-utils]: Remove: archive file [/home/abi/fetcher/tmp/sqla_utils-0.6.1.tar.gz]
+[2024-05-06 13:20:07] INFO root fetch - main [MainThread]: End processing [sqla-utils]: success
+[2024-05-06 13:20:07] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.6.tar.gz]
+[2024-05-06 13:20:07] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.7.tar.gz]
+[2024-05-06 13:20:07] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-06 13:20:07] INFO root fetch - processPackages [scoring-matrices]: Remove: archive file [/home/abi/fetcher/tmp/scoring-matrices-0.1.1.tar.gz]
+[2024-05-06 13:20:07] INFO root fetch - processPackages [scoring-matrices]: Remove: archive file [/home/abi/fetcher/tmp/scoring-matrices-0.2.0.tar.gz]
+[2024-05-06 13:20:07] INFO root fetch - main [MainThread]: End processing [scoring-matrices]: success
+[2024-05-06 13:20:08] INFO root fetch - processPackages [pywwa]: Remove: archive file [/home/abi/fetcher/tmp/pywwa-1.5.tar.gz]
+[2024-05-06 13:20:08] INFO root fetch - processPackages [pywwa]: Remove: archive file [/home/abi/fetcher/tmp/pywwa-1.6.tar.gz]
+[2024-05-06 13:20:08] INFO root fetch - main [MainThread]: End processing [pywwa]: success
+[2024-05-06 13:20:09] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.2rc1.tar.gz]
+[2024-05-06 13:20:09] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.2rc2.tar.gz]
+[2024-05-06 13:20:09] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2024-05-06 13:20:09] INFO root fetch - main [MainThread]: Store serial: [23076698]
