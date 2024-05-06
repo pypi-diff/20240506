@@ -13310,3 +13310,90 @@
 [2024-05-06 11:05:37] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
 [2024-05-06 11:05:37] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2024-05-06 11:05:37] INFO root fetch - main [MainThread]: Store serial: [23074994]
+[2024-05-06 11:07:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23074994]
+[2024-05-06 11:07:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-06 11:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon
+[2024-05-06 11:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iac-init
+[2024-05-06 11:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getodo
+[2024-05-06 11:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluecellulab
+[2024-05-06 11:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msmanager
+[2024-05-06 11:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snapcat
+[2024-05-06 11:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tokyo-stock-exchange
+[2024-05-06 11:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycrdt-websocket
+[2024-05-06 11:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cognite-sdk
+[2024-05-06 11:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LLMEasyTools
+[2024-05-06 11:07:46] INFO root fetch - processPackages [msmanager]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-06 11:07:46] INFO root fetch - processPackages [iac-init]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-06 11:07:46] INFO root fetch - processPackages [snapcat]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 11:07:46] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240505] Old Version: [1.1.1b20240504]
+[2024-05-06 11:07:46] INFO root fetch - processPackages [getodo]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-06 11:07:46] INFO root fetch - processPackages [pycrdt-websocket]: New version: [0.13.3] Old Version: [0.13.2]
+[2024-05-06 11:07:46] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/e3/64/c06df07ec93923d9315d90b855b4b70e1b61128167c26d67cf82e741af55/msmanager-0.4.2.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [LLMEasyTools]: New version: [0.9] Old Version: [0.8]
+[2024-05-06 11:07:46] WARNING root fetch - processPackages [tokyo-stock-exchange]: Skipping, unable to determine old version
+[2024-05-06 11:07:46] INFO root fetch - main [MainThread]: End processing [tokyo-stock-exchange] error
+[2024-05-06 11:07:46] INFO root fetch - processPackages [bluecellulab]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-06 11:07:46] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-05-06 11:07:46] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/e6/56/ed2d66bdbb7340eaae3a5ade59d479701459325478efa2a6bc1525373045/iac_init-0.4.7.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [snapcat]: Downloading https://files.pythonhosted.org/packages/fb/c9/58285047b93e46cd2fa9cf8adc89c919a0fcfd3d18ab8989abd009564b74/snapcat-0.1.0.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/cf/32/1321e8a8d5404129a32b2c133cc76dadeb46514a034d4a1ee58ccd91aa84/autogluon-1.1.1b20240504.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [getodo]: Downloading https://files.pythonhosted.org/packages/b5/7e/ed8236d7b20ca00ebeee68dbdd630be552823ce678e30ffc5e8028930d32/getodo-2.0.0.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [pycrdt-websocket]: Downloading https://files.pythonhosted.org/packages/ac/dc/c3cca23e65a3a2fe59893bbc05260c05cbf824d49b72fd42eb498340ac18/pycrdt_websocket-0.13.2.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [LLMEasyTools]: Downloading https://files.pythonhosted.org/packages/82/92/3b67230d7ddb3b80cc3c61e5bd7678372c21db75cd4249fc296e1e48663c/LLMEasyTools-0.8.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/6a/61/a1ce6ea5aa22659b561718820448012d74becfa444804c7d103b0f6050f6/bluecellulab-2.6.8.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [snapcat]: Downloading https://files.pythonhosted.org/packages/f7/7b/99071bab2ee691bde34d3e3922be84cc1fa3bf74bcc2d14431f550c1043f/snapcat-0.1.1.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/67/72/14c18a91baf44b2b85113a2f4902efabed8831b5bab8496a4ea0744c343c/msmanager-0.4.3.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/c7/24/dc9a5b2dd9a674c25d64928834455fbe6e488b14241fb7d0607ea4731925/iac_init-0.4.8.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [snapcat]: executing diffoscope
+[2024-05-06 11:07:46] INFO root fetch - processPackages [snapcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapcat-0.1.0.tar.gz tmp/snapcat-0.1.1.tar.gz --markdown 20240506/s/snapcat/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 11:07:46] INFO root fetch - processPackages [msmanager]: executing diffoscope
+[2024-05-06 11:07:46] INFO root fetch - processPackages [msmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmanager-0.4.2.tar.gz tmp/msmanager-0.4.3.tar.gz --markdown 20240506/m/msmanager/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-06 11:07:46] INFO root fetch - processPackages [getodo]: Downloading https://files.pythonhosted.org/packages/b3/e6/b271bb864db9aacbf29c71b88475b25c0fbfc23f115dd4c78a1ae2ac96f8/getodo-2.0.1.tar.gz
+[2024-05-06 11:07:46] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-06 11:07:46] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.4.7.tar.gz tmp/iac_init-0.4.8.tar.gz --markdown 20240506/i/iac-init/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-06 11:07:47] INFO root fetch - processPackages [pycrdt-websocket]: Downloading https://files.pythonhosted.org/packages/84/48/fb96b39fd4a67f9dd2918e9928225ecd2e1869ad0e42df5cce905a085982/pycrdt_websocket-0.13.3.tar.gz
+[2024-05-06 11:07:47] INFO root fetch - processPackages [LLMEasyTools]: Downloading https://files.pythonhosted.org/packages/72/a3/c49ac0fb7ddf156d6a831d2b908fcf1ca4c36f2081aec1178176f19d3958/LLMEasyTools-0.9.tar.gz
+[2024-05-06 11:07:47] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/ec/00/e836ef89e587fb76a3b82962fab1f16919cfc2b31c09043ea2e33ccf53c2/autogluon-1.1.1b20240505.tar.gz
+[2024-05-06 11:07:47] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/3c/f4/aa9292066e9a85ba28b2759c1b524d77907a7b1ede994391902939bcf498/bluecellulab-2.6.9.tar.gz
+[2024-05-06 11:07:47] INFO root fetch - processPackages [getodo]: executing diffoscope
+[2024-05-06 11:07:47] INFO root fetch - processPackages [getodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getodo-2.0.0.tar.gz tmp/getodo-2.0.1.tar.gz --markdown 20240506/g/getodo/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-06 11:07:47] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-05-06 11:07:47] INFO root fetch - processPackages [pycrdt-websocket]: executing diffoscope
+[2024-05-06 11:07:47] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-06 11:07:47] INFO root fetch - processPackages [pycrdt-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrdt_websocket-0.13.2.tar.gz tmp/pycrdt_websocket-0.13.3.tar.gz --markdown 20240506/p/pycrdt-websocket/0.13.2-0.13.3/README.md --exclude *.pyd
+[2024-05-06 11:07:47] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240504.tar.gz tmp/autogluon-1.1.1b20240505.tar.gz --markdown 20240506/a/autogluon/1.1.1b20240504-1.1.1b20240505/README.md --exclude *.pyd
+[2024-05-06 11:07:47] INFO root fetch - processPackages [LLMEasyTools]: executing diffoscope
+[2024-05-06 11:07:47] INFO root fetch - processPackages [LLMEasyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLMEasyTools-0.8.tar.gz tmp/LLMEasyTools-0.9.tar.gz --markdown 20240506/L/LLMEasyTools/0.8-0.9/README.md --exclude *.pyd
+[2024-05-06 11:07:47] INFO root fetch - processPackages [bluecellulab]: executing diffoscope
+[2024-05-06 11:07:47] INFO root fetch - processPackages [bluecellulab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecellulab-2.6.8.tar.gz tmp/bluecellulab-2.6.9.tar.gz --markdown 20240506/b/bluecellulab/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-06 11:07:47] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-05-06 11:07:47] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240506/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-05-06 11:07:47] INFO root fetch - processPackages [snapcat]: Remove: archive file [/home/abi/fetcher/tmp/snapcat-0.1.0.tar.gz]
+[2024-05-06 11:07:47] INFO root fetch - processPackages [snapcat]: Remove: archive file [/home/abi/fetcher/tmp/snapcat-0.1.1.tar.gz]
+[2024-05-06 11:07:47] INFO root fetch - main [MainThread]: End processing [snapcat]: success
+[2024-05-06 11:07:47] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.2.tar.gz]
+[2024-05-06 11:07:47] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.3.tar.gz]
+[2024-05-06 11:07:47] INFO root fetch - main [MainThread]: End processing [msmanager]: success
+[2024-05-06 11:07:48] INFO root fetch - processPackages [getodo]: Remove: archive file [/home/abi/fetcher/tmp/getodo-2.0.0.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - processPackages [getodo]: Remove: archive file [/home/abi/fetcher/tmp/getodo-2.0.1.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - main [MainThread]: End processing [getodo]: success
+[2024-05-06 11:07:48] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240504.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240505.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-06 11:07:48] INFO root fetch - processPackages [pycrdt-websocket]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt_websocket-0.13.2.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - processPackages [pycrdt-websocket]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt_websocket-0.13.3.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - main [MainThread]: End processing [pycrdt-websocket]: success
+[2024-05-06 11:07:48] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.7.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.4.8.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-06 11:07:48] INFO root fetch - processPackages [LLMEasyTools]: Remove: archive file [/home/abi/fetcher/tmp/LLMEasyTools-0.8.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - processPackages [LLMEasyTools]: Remove: archive file [/home/abi/fetcher/tmp/LLMEasyTools-0.9.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - main [MainThread]: End processing [LLMEasyTools]: success
+[2024-05-06 11:07:48] INFO root fetch - processPackages [bluecellulab]: Remove: archive file [/home/abi/fetcher/tmp/bluecellulab-2.6.8.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - processPackages [bluecellulab]: Remove: archive file [/home/abi/fetcher/tmp/bluecellulab-2.6.9.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - main [MainThread]: End processing [bluecellulab]: success
+[2024-05-06 11:07:48] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-05-06 11:07:48] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-05-06 11:07:48] INFO root fetch - main [MainThread]: Store serial: [23075027]
