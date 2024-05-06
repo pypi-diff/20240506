@@ -4079,3 +4079,27 @@
 [2024-05-06 05:34:40] INFO root fetch - processPackages [gdmty-django-users]: Remove: archive file [/home/abi/fetcher/tmp/gdmty_django_users-24.4.0.tar.gz]
 [2024-05-06 05:34:40] INFO root fetch - main [MainThread]: End processing [gdmty-django-users]: success
 [2024-05-06 05:34:40] INFO root fetch - main [MainThread]: Store serial: [23071136]
+[2024-05-06 05:36:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071136]
+[2024-05-06 05:36:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 05:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zeus-utility
+[2024-05-06 05:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CategorAI
+[2024-05-06 05:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autorunpy
+[2024-05-06 05:36:48] INFO root fetch - processPackages [autorunpy]: New version: [8.0.6] Old Version: [8.0.5]
+[2024-05-06 05:36:48] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/af/e1/4027d33b3eecb9dfd63d81065b986710d34168e6fedcc687057fb44a5881/autorunpy-8.0.5.tar.gz
+[2024-05-06 05:36:48] WARNING root fetch - processPackages [CategorAI]: Skipping, unable to determine old version
+[2024-05-06 05:36:48] INFO root fetch - main [MainThread]: End processing [CategorAI] error
+[2024-05-06 05:36:48] INFO root fetch - processPackages [zeus-utility]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-06 05:36:48] INFO root fetch - processPackages [zeus-utility]: Downloading https://files.pythonhosted.org/packages/fc/75/ed283ce0be5bb9c6b19572eab325210e6d548988eca2fe9c7082d1627292/zeus_utility-0.0.9.tar.gz
+[2024-05-06 05:36:48] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/d5/5b/f17159565da91c0aa7eb27ac3bc49c33260cfecfec1bfd67a963279b59e9/autorunpy-8.0.6.tar.gz
+[2024-05-06 05:36:49] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-06 05:36:49] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.0.5.tar.gz tmp/autorunpy-8.0.6.tar.gz --markdown 20240506/a/autorunpy/8.0.5-8.0.6/README.md --exclude *.pyd
+[2024-05-06 05:36:49] INFO root fetch - processPackages [zeus-utility]: Downloading https://files.pythonhosted.org/packages/23/7c/194e4132814af11889b85a795ef9e83b27aca6aa8d7b3845a631024123e6/zeus_utility-0.1.0.tar.gz
+[2024-05-06 05:36:49] INFO root fetch - processPackages [zeus-utility]: executing diffoscope
+[2024-05-06 05:36:49] INFO root fetch - processPackages [zeus-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeus_utility-0.0.9.tar.gz tmp/zeus_utility-0.1.0.tar.gz --markdown 20240506/z/zeus-utility/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-06 05:36:49] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.0.5.tar.gz]
+[2024-05-06 05:36:49] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.0.6.tar.gz]
+[2024-05-06 05:36:49] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-06 05:36:49] INFO root fetch - processPackages [zeus-utility]: Remove: archive file [/home/abi/fetcher/tmp/zeus_utility-0.0.9.tar.gz]
+[2024-05-06 05:36:49] INFO root fetch - processPackages [zeus-utility]: Remove: archive file [/home/abi/fetcher/tmp/zeus_utility-0.1.0.tar.gz]
+[2024-05-06 05:36:49] INFO root fetch - main [MainThread]: End processing [zeus-utility]: success
+[2024-05-06 05:36:49] INFO root fetch - main [MainThread]: Store serial: [23071156]
