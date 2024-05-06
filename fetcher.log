@@ -22912,3 +22912,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:01:42] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.9.dev1.tar.gz]
 [2024-05-06 17:01:42] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2024-05-06 17:01:42] INFO root fetch - main [MainThread]: Store serial: [23079654]
+[2024-05-06 17:03:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079654]
+[2024-05-06 17:03:59] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 17:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkt-retv
+[2024-05-06 17:03:59] INFO root fetch - processPackages [mkt-retv]: New version: [1.421] Old Version: [1.420]
+[2024-05-06 17:03:59] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/b6/71/432118a156fdfe6e3a43f120251d44b16e760d0d24d784695b492a9551f2/mkt-retv-1.420.tar.gz
+[2024-05-06 17:03:59] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/8f/f1/9a73823838d99e20fbe155392728e67624e5c0964599b5ef7fe0eb3a9ad1/mkt-retv-1.421.tar.gz
+[2024-05-06 17:04:00] INFO root fetch - processPackages [mkt-retv]: executing diffoscope
+[2024-05-06 17:04:00] INFO root fetch - processPackages [mkt-retv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkt-retv-1.420.tar.gz tmp/mkt-retv-1.421.tar.gz --markdown 20240506/m/mkt-retv/1.420-1.421/README.md --exclude *.pyd
+[2024-05-06 17:04:00] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.420.tar.gz]
+[2024-05-06 17:04:00] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.421.tar.gz]
+[2024-05-06 17:04:00] INFO root fetch - main [MainThread]: End processing [mkt-retv]: success
+[2024-05-06 17:04:00] INFO root fetch - main [MainThread]: Store serial: [23079658]
