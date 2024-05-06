@@ -4540,3 +4540,45 @@
 [2024-05-06 06:03:05] INFO root fetch - processPackages [libsmraw-python]: Remove: archive file [/home/abi/fetcher/tmp/libsmraw-python-20240506.tar.gz]
 [2024-05-06 06:03:05] INFO root fetch - main [MainThread]: End processing [libsmraw-python]: success
 [2024-05-06 06:03:05] INFO root fetch - main [MainThread]: Store serial: [23071353]
+[2024-05-06 06:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071353]
+[2024-05-06 06:05:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 06:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtmodel
+[2024-05-06 06:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byte-unit
+[2024-05-06 06:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appintel
+[2024-05-06 06:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyuilder
+[2024-05-06 06:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-binary
+[2024-05-06 06:05:14] INFO root fetch - processPackages [appintel]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 06:05:14] INFO root fetch - processPackages [pyuilder]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-06 06:05:14] INFO root fetch - processPackages [qtmodel]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-06 06:05:14] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-06 06:05:14] WARNING root fetch - processPackages [byte-unit]: Skipping, unable to determine old version
+[2024-05-06 06:05:14] INFO root fetch - main [MainThread]: End processing [byte-unit] error
+[2024-05-06 06:05:14] INFO root fetch - processPackages [pyuilder]: Downloading https://files.pythonhosted.org/packages/e5/aa/d517206aa9416bf25b54dcf3debf80bb55809c5724518e920aed58476a94/pyuilder-0.0.1.tar.gz
+[2024-05-06 06:05:14] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-06 06:05:14] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/72/6b/053bf46861b60fb3570477c153d24e4ae06ba81e94a18853875e1957391f/qtmodel-0.2.5.tar.gz
+[2024-05-06 06:05:14] INFO root fetch - processPackages [appintel]: Downloading https://files.pythonhosted.org/packages/cd/31/2dda4d7b6545c4b06aadf16a9340f745c6bd61f6338b85e99dd9b4a19531/appintel-1.0.0.tar.gz
+[2024-05-06 06:05:14] INFO root fetch - processPackages [pyuilder]: Downloading https://files.pythonhosted.org/packages/4c/93/73f5472225a2efd644552ba81e335b3262a6f6f064041b900869940c5da6/pyuilder-0.0.3.tar.gz
+[2024-05-06 06:05:14] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-06 06:05:14] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/52/98/f25b82b107a75d484c46c3f1beb0e1f99c633020dec2967de5bf40bc5de2/qtmodel-0.2.6.tar.gz
+[2024-05-06 06:05:14] INFO root fetch - processPackages [pyuilder]: executing diffoscope
+[2024-05-06 06:05:14] INFO root fetch - processPackages [pyuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuilder-0.0.1.tar.gz tmp/pyuilder-0.0.3.tar.gz --markdown 20240506/p/pyuilder/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-06 06:05:14] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-06 06:05:14] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240506/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-06 06:05:14] INFO root fetch - processPackages [appintel]: Downloading https://files.pythonhosted.org/packages/6b/a9/f69b27f48d7cfab90079b225490ba5f433b6a9d1d8604f669e62f8a1d4ef/appintel-1.0.1.tar.gz
+[2024-05-06 06:05:14] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-06 06:05:14] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.2.5.tar.gz tmp/qtmodel-0.2.6.tar.gz --markdown 20240506/q/qtmodel/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-06 06:05:15] INFO root fetch - processPackages [appintel]: executing diffoscope
+[2024-05-06 06:05:15] INFO root fetch - processPackages [appintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appintel-1.0.0.tar.gz tmp/appintel-1.0.1.tar.gz --markdown 20240506/a/appintel/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 06:05:15] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-06 06:05:15] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-06 06:05:15] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-06 06:05:15] INFO root fetch - processPackages [pyuilder]: Remove: archive file [/home/abi/fetcher/tmp/pyuilder-0.0.1.tar.gz]
+[2024-05-06 06:05:15] INFO root fetch - processPackages [pyuilder]: Remove: archive file [/home/abi/fetcher/tmp/pyuilder-0.0.3.tar.gz]
+[2024-05-06 06:05:15] INFO root fetch - main [MainThread]: End processing [pyuilder]: success
+[2024-05-06 06:05:15] INFO root fetch - processPackages [appintel]: Remove: archive file [/home/abi/fetcher/tmp/appintel-1.0.0.tar.gz]
+[2024-05-06 06:05:15] INFO root fetch - processPackages [appintel]: Remove: archive file [/home/abi/fetcher/tmp/appintel-1.0.1.tar.gz]
+[2024-05-06 06:05:15] INFO root fetch - main [MainThread]: End processing [appintel]: success
+[2024-05-06 06:05:15] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.5.tar.gz]
+[2024-05-06 06:05:15] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.6.tar.gz]
+[2024-05-06 06:05:15] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-06 06:05:15] INFO root fetch - main [MainThread]: Store serial: [23071368]
