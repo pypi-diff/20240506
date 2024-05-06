@@ -23327,3 +23327,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:18:11] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/skillsnetwork_jupyter_extension-2.3.0rc1.tar.gz]
 [2024-05-06 17:18:11] INFO root fetch - main [MainThread]: End processing [skillsnetwork-jupyter-extension]: success
 [2024-05-06 17:18:11] INFO root fetch - main [MainThread]: Store serial: [23079869]
+[2024-05-06 17:20:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079869]
+[2024-05-06 17:20:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal-client
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-ical
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uncordedz
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fluentogram
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TrajCompress
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-pygen
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: boruta_py_versioned
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gym-pusht
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ophyd-registry
+[2024-05-06 17:20:20] INFO root fetch - processPackages [TrajCompress]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-06 17:20:20] WARNING root fetch - processPackages [boruta_py_versioned]: Skipping, unable to determine old version
+[2024-05-06 17:20:20] INFO root fetch - main [MainThread]: End processing [boruta_py_versioned] error
+[2024-05-06 17:20:20] INFO root fetch - processPackages [policyengine-us]: New version: [0.759.1] Old Version: [0.759.0]
+[2024-05-06 17:20:20] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-06 17:20:20] WARNING root fetch - processPackages [odoo-addon-base-ical]: Skipping, unable to determine old version
+[2024-05-06 17:20:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-ical] error
+[2024-05-06 17:20:20] INFO root fetch - processPackages [fluentogram]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ophyd-registry]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-06 17:20:20] WARNING root fetch - processPackages [uncordedz]: Skipping, unable to determine old version
+[2024-05-06 17:20:20] INFO root fetch - processPackages [gym-pusht]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 17:20:20] INFO root fetch - main [MainThread]: End processing [uncordedz] error
+[2024-05-06 17:20:20] INFO root fetch - processPackages [cognite-pygen]: New version: [0.99.9] Old Version: [0.99.8]
+[2024-05-06 17:20:20] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/01/ea/48a71acbe62843e90f5798577b3309bc886565683416cad7381465a2be71/policyengine-us-0.759.0.tar.gz
+[2024-05-06 17:20:20] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-06 17:20:20] INFO root fetch - processPackages [TrajCompress]: Downloading https://files.pythonhosted.org/packages/20/b4/ac8c44c1a39441bfa172606809ff61845c28e1f25593bd31152475cebea8/TrajCompress-0.1.tar.gz
+[2024-05-06 17:20:20] INFO root fetch - processPackages [gym-pusht]: Downloading https://files.pythonhosted.org/packages/9f/17/2f72b5b375d91e0711c3831ff08a4b05752130910cb316f05abc407119a5/gym_pusht-0.1.0.tar.gz
+[2024-05-06 17:20:20] INFO root fetch - processPackages [fluentogram]: Downloading https://files.pythonhosted.org/packages/aa/29/b1ec0023a5c2719cc7cccbcaa9724a27630957c34c74a50d66a7d6c90354/fluentogram-1.1.6.tar.gz
+[2024-05-06 17:20:20] INFO root fetch - processPackages [ophyd-registry]: Downloading https://files.pythonhosted.org/packages/c0/fd/b59cd8f1dfb65a886c6301933eaf76dec439ae6f5b2767a8853fea9d3f05/ophyd_registry-1.2.0.tar.gz
+[2024-05-06 17:20:20] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/09/88/b6ce9f34bd386b576d77924a4e8170e2c5e5f309ceca2c5ad8732a00470e/cognite_pygen-0.99.8.tar.gz
+[2024-05-06 17:20:20] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-06 17:20:20] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-06 17:20:20] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240506/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-06 17:20:21] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/6d/e6/bd7bbc4340df7ce438c72f055cefbba100ee34195ea5f4a96c002d90bad1/policyengine-us-0.759.1.tar.gz
+[2024-05-06 17:20:21] INFO root fetch - processPackages [TrajCompress]: Downloading https://files.pythonhosted.org/packages/03/2f/e30de74a58b72f7f5809081dd3d3c1b1b822471503f8c2338fcef09fadb4/trajcompress-0.1.1.tar.gz
+[2024-05-06 17:20:21] INFO root fetch - processPackages [gym-pusht]: Downloading https://files.pythonhosted.org/packages/00/95/646d26a0e272ea2e7b538488763af353b6d75f87150f0909cb95e867f092/gym_pusht-0.1.1.tar.gz
+[2024-05-06 17:20:21] INFO root fetch - processPackages [fluentogram]: Downloading https://files.pythonhosted.org/packages/02/6f/807ce2f9c53114bd6fe6ed9daee4483361b3f94ed35c30f2ed51ed56f051/fluentogram-1.1.7.tar.gz
+[2024-05-06 17:20:21] INFO root fetch - processPackages [ophyd-registry]: Downloading https://files.pythonhosted.org/packages/1f/ec/31e2bdd6749a7114e9fff636ca431cb499b06de968166c8b41ec5a25731f/ophyd_registry-1.2.1.tar.gz
+[2024-05-06 17:20:21] INFO root fetch - processPackages [TrajCompress]: executing diffoscope
+[2024-05-06 17:20:21] INFO root fetch - processPackages [TrajCompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrajCompress-0.1.tar.gz tmp/trajcompress-0.1.1.tar.gz --markdown 20240506/T/TrajCompress/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-06 17:20:21] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/64/a8/ac71d66bceceebd7f5f5b8e6078a35c78bc2bbdb5525fcc70681a95b9ad2/cognite_pygen-0.99.9.tar.gz
+[2024-05-06 17:20:21] INFO root fetch - processPackages [fluentogram]: executing diffoscope
+[2024-05-06 17:20:21] INFO root fetch - processPackages [fluentogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluentogram-1.1.6.tar.gz tmp/fluentogram-1.1.7.tar.gz --markdown 20240506/f/fluentogram/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-06 17:20:21] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2024-05-06 17:20:21] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.99.8.tar.gz tmp/cognite_pygen-0.99.9.tar.gz --markdown 20240506/c/cognite-pygen/0.99.8-0.99.9/README.md --exclude *.pyd
+[2024-05-06 17:20:21] INFO root fetch - processPackages [gym-pusht]: executing diffoscope
+[2024-05-06 17:20:21] INFO root fetch - processPackages [gym-pusht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_pusht-0.1.0.tar.gz tmp/gym_pusht-0.1.1.tar.gz --markdown 20240506/g/gym-pusht/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 17:20:21] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-06 17:20:21] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.759.0.tar.gz tmp/policyengine-us-0.759.1.tar.gz --markdown 20240506/p/policyengine-us/0.759.0-0.759.1/README.md --exclude *.pyd
+[2024-05-06 17:20:21] INFO root fetch - processPackages [ophyd-registry]: executing diffoscope
+[2024-05-06 17:20:21] INFO root fetch - processPackages [ophyd-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd_registry-1.2.0.tar.gz tmp/ophyd_registry-1.2.1.tar.gz --markdown 20240506/o/ophyd-registry/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-06 17:20:21] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-06 17:20:21] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-06 17:20:21] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-06 17:20:21] INFO root fetch - processPackages [TrajCompress]: Remove: archive file [/home/abi/fetcher/tmp/TrajCompress-0.1.tar.gz]
+[2024-05-06 17:20:21] INFO root fetch - processPackages [TrajCompress]: Remove: archive file [/home/abi/fetcher/tmp/trajcompress-0.1.1.tar.gz]
+[2024-05-06 17:20:21] INFO root fetch - main [MainThread]: End processing [TrajCompress]: success
+[2024-05-06 17:20:21] INFO root fetch - processPackages [fluentogram]: Remove: archive file [/home/abi/fetcher/tmp/fluentogram-1.1.6.tar.gz]
+[2024-05-06 17:20:21] INFO root fetch - processPackages [fluentogram]: Remove: archive file [/home/abi/fetcher/tmp/fluentogram-1.1.7.tar.gz]
+[2024-05-06 17:20:21] INFO root fetch - main [MainThread]: End processing [fluentogram]: success
+[2024-05-06 17:20:22] INFO root fetch - processPackages [ophyd-registry]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_registry-1.2.0.tar.gz]
+[2024-05-06 17:20:22] INFO root fetch - processPackages [ophyd-registry]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_registry-1.2.1.tar.gz]
+[2024-05-06 17:20:22] INFO root fetch - main [MainThread]: End processing [ophyd-registry]: success
+[2024-05-06 17:20:22] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.99.8.tar.gz]
+[2024-05-06 17:20:22] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.99.9.tar.gz]
+[2024-05-06 17:20:22] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2024-05-06 17:20:22] INFO root fetch - processPackages [gym-pusht]: Remove: archive file [/home/abi/fetcher/tmp/gym_pusht-0.1.0.tar.gz]
+[2024-05-06 17:20:22] INFO root fetch - processPackages [gym-pusht]: Remove: archive file [/home/abi/fetcher/tmp/gym_pusht-0.1.1.tar.gz]
+[2024-05-06 17:20:22] INFO root fetch - main [MainThread]: End processing [gym-pusht]: success
+[2024-05-06 17:20:53] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.759.0.tar.gz]
+[2024-05-06 17:20:53] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.759.1.tar.gz]
+[2024-05-06 17:20:53] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-06 17:20:53] INFO root fetch - main [MainThread]: Store serial: [23079915]
