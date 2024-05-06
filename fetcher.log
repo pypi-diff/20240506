@@ -5565,3 +5565,33 @@
 [2024-05-06 07:17:09] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
 [2024-05-06 07:17:09] INFO root fetch - main [MainThread]: End processing [pih]: success
 [2024-05-06 07:17:09] INFO root fetch - main [MainThread]: Store serial: [23071905]
+[2024-05-06 07:19:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071905]
+[2024-05-06 07:19:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 07:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2024-05-06 07:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cubaflixdownload
+[2024-05-06 07:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stefutils
+[2024-05-06 07:19:18] INFO root fetch - processPackages [cubaflixdownload]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-06 07:19:18] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-06 07:19:18] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-06 07:19:18] INFO root fetch - processPackages [cubaflixdownload]: Downloading https://files.pythonhosted.org/packages/f4/b9/3c16cfa59c48fed65994cfa4943ccd1687f14b1b73cbee3b7ebe7f66d89e/cubaflixdownload-2.0.0.tar.gz
+[2024-05-06 07:19:18] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-06 07:19:18] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-06 07:19:18] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-06 07:19:18] INFO root fetch - processPackages [cubaflixdownload]: Downloading https://files.pythonhosted.org/packages/43/28/7bf68faa04ceaf03ee7329b6c5b72a2e2782550564d4cad76d3c5b60dfc4/cubaflixdownload-3.0.0.tar.gz
+[2024-05-06 07:19:18] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-06 07:19:18] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-06 07:19:18] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240506/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-06 07:19:18] INFO root fetch - processPackages [cubaflixdownload]: executing diffoscope
+[2024-05-06 07:19:18] INFO root fetch - processPackages [cubaflixdownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubaflixdownload-2.0.0.tar.gz tmp/cubaflixdownload-3.0.0.tar.gz --markdown 20240506/c/cubaflixdownload/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-06 07:19:18] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-06 07:19:18] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240506/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-06 07:19:19] INFO root fetch - processPackages [cubaflixdownload]: Remove: archive file [/home/abi/fetcher/tmp/cubaflixdownload-2.0.0.tar.gz]
+[2024-05-06 07:19:19] INFO root fetch - processPackages [cubaflixdownload]: Remove: archive file [/home/abi/fetcher/tmp/cubaflixdownload-3.0.0.tar.gz]
+[2024-05-06 07:19:19] INFO root fetch - main [MainThread]: End processing [cubaflixdownload]: success
+[2024-05-06 07:19:19] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-06 07:19:19] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-06 07:19:19] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-06 07:19:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-06 07:19:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-06 07:19:19] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-06 07:19:19] INFO root fetch - main [MainThread]: Store serial: [23071913]
