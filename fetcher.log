@@ -23498,3 +23498,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:23:09] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
 [2024-05-06 17:23:09] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
 [2024-05-06 17:23:09] INFO root fetch - main [MainThread]: Store serial: [23079946]
+[2024-05-06 17:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079946]
+[2024-05-06 17:25:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 17:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrotgfork
+[2024-05-06 17:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neo4j-runway
+[2024-05-06 17:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TrajCompress
+[2024-05-06 17:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyLodStorage
+[2024-05-06 17:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybermarket-client
+[2024-05-06 17:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miner-ai-beta
+[2024-05-06 17:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: incognia-python
+[2024-05-06 17:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: as-seg
+[2024-05-06 17:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cognite-neat
+[2024-05-06 17:25:18] INFO root fetch - processPackages [TrajCompress]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 17:25:18] INFO root fetch - processPackages [cognite-neat]: New version: [0.76.0] Old Version: [0.75.9]
+[2024-05-06 17:25:18] INFO root fetch - processPackages [TrajCompress]: Downloading https://files.pythonhosted.org/packages/03/2f/e30de74a58b72f7f5809081dd3d3c1b1b822471503f8c2338fcef09fadb4/trajcompress-0.1.1.tar.gz
+[2024-05-06 17:25:18] WARNING root fetch - processPackages [neo4j-runway]: Skipping, unable to determine old version
+[2024-05-06 17:25:18] INFO root fetch - main [MainThread]: End processing [neo4j-runway] error
+[2024-05-06 17:25:18] INFO root fetch - processPackages [pyrotgfork]: New version: [2.1.30] Old Version: [2.1.29]
+[2024-05-06 17:25:18] WARNING root fetch - processPackages [cybermarket-client]: Skipping, unable to determine old version
+[2024-05-06 17:25:18] INFO root fetch - main [MainThread]: End processing [cybermarket-client] error
+[2024-05-06 17:25:18] INFO root fetch - processPackages [incognia-python]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-05-06 17:25:18] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-06 17:25:18] INFO root fetch - processPackages [as-seg]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-06 17:25:18] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/96/3a/baa0be607d2faae20dec2be02b65e215a3a94b86dbac4a849044a888988f/cognite_neat-0.75.9.tar.gz
+[2024-05-06 17:25:18] INFO root fetch - processPackages [pyLodStorage]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-06 17:25:19] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/c2/e3/928395cd59ee887ee975eede8a54f9b2768f634b047851f391a605556239/pyrotgfork-2.1.29.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [pyLodStorage]: Downloading https://files.pythonhosted.org/packages/4c/e3/15ad58c688ca9613afcfa8f73ab039cb5ee8a215b2780d306a423cdcc76a/pylodstorage-0.9.1.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [as-seg]: Downloading https://files.pythonhosted.org/packages/a9/1a/59f637a6ec1c8f940814df66144a36c9c67c9bbff5e513438f0de091965b/as_seg-0.1.5.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/25/48/c6504ca2eefef928226be04e798b11bedc8510eafdfcc569a069dd47a3c4/miner_ai_beta-0.1.5.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [incognia-python]: Downloading https://files.pythonhosted.org/packages/87/34/535e6530241e65b8775e27d5cd9b5d60eeb0a5e0b272e8b0955ac8a5676c/incognia-python-1.5.1.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [TrajCompress]: Downloading https://files.pythonhosted.org/packages/1f/6e/7a9b0119d09dc8ecf301a4c1d1c37472f95cce2a734d61b9f00a9cf70382/trajcompress-0.1.2.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/84/50/3d2f73bd01732834074f7f527b665d619a7ac4c134045d1ab6d440ac26ce/cognite_neat-0.76.0.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [TrajCompress]: executing diffoscope
+[2024-05-06 17:25:19] INFO root fetch - processPackages [TrajCompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajcompress-0.1.1.tar.gz tmp/trajcompress-0.1.2.tar.gz --markdown 20240506/T/TrajCompress/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 17:25:19] INFO root fetch - processPackages [as-seg]: Downloading https://files.pythonhosted.org/packages/70/57/c6f12f4cea1f1466fe318dde0712b5cd1306bf4f2bfdd51fec03d8ccd260/as_seg-0.1.6.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/ed/c0/5299deba73c2f72c7d8c30f6c2ec355a3bb31aa585eb557188e6bd08c0da/pyrotgfork-2.1.30.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/83/d2/9adb1863cd98180bdff8d328f3f1842942f7416eb93c6a0689b19f68de83/miner_ai_beta-0.1.6.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [pyLodStorage]: Downloading https://files.pythonhosted.org/packages/fa/73/19116c570959e490c6e63cc4ed466cc8f943e9f123f6c0fb7c3f944ee193/pylodstorage-0.9.2.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [incognia-python]: Downloading https://files.pythonhosted.org/packages/c3/73/e7ed3850a690a575c253928c714e01cf63fe0a139531bd53200f62c18ab2/incognia_python-1.6.0.tar.gz
+[2024-05-06 17:25:19] INFO root fetch - processPackages [as-seg]: executing diffoscope
+[2024-05-06 17:25:19] INFO root fetch - processPackages [as-seg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/as_seg-0.1.5.tar.gz tmp/as_seg-0.1.6.tar.gz --markdown 20240506/a/as-seg/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-06 17:25:19] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-05-06 17:25:19] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.75.9.tar.gz tmp/cognite_neat-0.76.0.tar.gz --markdown 20240506/c/cognite-neat/0.75.9-0.76.0/README.md --exclude *.pyd
+[2024-05-06 17:25:19] INFO root fetch - processPackages [pyLodStorage]: executing diffoscope
+[2024-05-06 17:25:19] INFO root fetch - processPackages [pyLodStorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylodstorage-0.9.1.tar.gz tmp/pylodstorage-0.9.2.tar.gz --markdown 20240506/p/pyLodStorage/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-06 17:25:19] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-06 17:25:19] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.5.tar.gz tmp/miner_ai_beta-0.1.6.tar.gz --markdown 20240506/m/miner-ai-beta/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-06 17:25:19] INFO root fetch - processPackages [pyrotgfork]: executing diffoscope
+[2024-05-06 17:25:19] INFO root fetch - processPackages [pyrotgfork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrotgfork-2.1.29.tar.gz tmp/pyrotgfork-2.1.30.tar.gz --markdown 20240506/p/pyrotgfork/2.1.29-2.1.30/README.md --exclude *.pyd
+[2024-05-06 17:25:19] INFO root fetch - processPackages [incognia-python]: executing diffoscope
+[2024-05-06 17:25:19] INFO root fetch - processPackages [incognia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/incognia-python-1.5.1.tar.gz tmp/incognia_python-1.6.0.tar.gz --markdown 20240506/i/incognia-python/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-05-06 17:25:20] INFO root fetch - processPackages [TrajCompress]: Remove: archive file [/home/abi/fetcher/tmp/trajcompress-0.1.1.tar.gz]
+[2024-05-06 17:25:20] INFO root fetch - processPackages [TrajCompress]: Remove: archive file [/home/abi/fetcher/tmp/trajcompress-0.1.2.tar.gz]
+[2024-05-06 17:25:20] INFO root fetch - main [MainThread]: End processing [TrajCompress]: success
+[2024-05-06 17:25:20] INFO root fetch - processPackages [as-seg]: Remove: archive file [/home/abi/fetcher/tmp/as_seg-0.1.5.tar.gz]
+[2024-05-06 17:25:20] INFO root fetch - processPackages [as-seg]: Remove: archive file [/home/abi/fetcher/tmp/as_seg-0.1.6.tar.gz]
+[2024-05-06 17:25:20] INFO root fetch - main [MainThread]: End processing [as-seg]: success
+[2024-05-06 17:25:20] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.5.tar.gz]
+[2024-05-06 17:25:20] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.6.tar.gz]
+[2024-05-06 17:25:20] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-06 17:25:20] INFO root fetch - processPackages [incognia-python]: Remove: archive file [/home/abi/fetcher/tmp/incognia-python-1.5.1.tar.gz]
+[2024-05-06 17:25:20] INFO root fetch - processPackages [incognia-python]: Remove: archive file [/home/abi/fetcher/tmp/incognia_python-1.6.0.tar.gz]
+[2024-05-06 17:25:20] INFO root fetch - main [MainThread]: End processing [incognia-python]: success
+[2024-05-06 17:25:20] INFO root fetch - processPackages [pyLodStorage]: Remove: archive file [/home/abi/fetcher/tmp/pylodstorage-0.9.1.tar.gz]
+[2024-05-06 17:25:20] INFO root fetch - processPackages [pyLodStorage]: Remove: archive file [/home/abi/fetcher/tmp/pylodstorage-0.9.2.tar.gz]
+[2024-05-06 17:25:20] INFO root fetch - main [MainThread]: End processing [pyLodStorage]: success
+[2024-05-06 17:25:22] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.29.tar.gz]
+[2024-05-06 17:25:22] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.30.tar.gz]
+[2024-05-06 17:25:22] INFO root fetch - main [MainThread]: End processing [pyrotgfork]: success
+[2024-05-06 17:25:24] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.9.tar.gz]
+[2024-05-06 17:25:24] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.76.0.tar.gz]
+[2024-05-06 17:25:24] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-05-06 17:25:24] INFO root fetch - main [MainThread]: Store serial: [23079977]
