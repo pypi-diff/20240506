@@ -8080,3 +8080,33 @@
 [2024-05-06 09:47:01] INFO root fetch - processPackages [ora2]: Remove: archive file [/home/abi/fetcher/tmp/ora2-6.9.0.tar.gz]
 [2024-05-06 09:47:01] INFO root fetch - main [MainThread]: End processing [ora2]: success
 [2024-05-06 09:47:01] INFO root fetch - main [MainThread]: Store serial: [23073097]
+[2024-05-06 09:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23073097]
+[2024-05-06 09:49:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python
+[2024-05-06 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weightfactors
+[2024-05-06 09:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EAPI-SDK
+[2024-05-06 09:49:11] INFO root fetch - processPackages [EAPI-SDK]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 09:49:11] INFO root fetch - processPackages [EAPI-SDK]: Downloading https://files.pythonhosted.org/packages/00/d9/a08944b038c4495ea8efccc909b427151fc26b5aa1c495d9a0da6909903f/eapi_sdk-1.0.0.tar.gz
+[2024-05-06 09:49:11] INFO root fetch - processPackages [weightfactors]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-06 09:49:11] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 09:49:11] INFO root fetch - processPackages [weightfactors]: Downloading https://files.pythonhosted.org/packages/bb/79/07282de57af999b2429567196de9068338feed5274ff5e5de781c433819e/weightfactors-0.0.2.tar.gz
+[2024-05-06 09:49:11] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/0e/49/d3deea1dbe9eed3d486f850eab70b665bc903e06042c7b39c19585e01b6a/tencentcloud-sdk-python-3.0.998.tar.gz
+[2024-05-06 09:49:11] INFO root fetch - processPackages [EAPI-SDK]: Downloading https://files.pythonhosted.org/packages/f9/93/5b6a7abecd917c36817d31f2c97647252fed35f0a2993597b9474afff0b4/eapi_sdk-1.0.1.tar.gz
+[2024-05-06 09:49:12] INFO root fetch - processPackages [EAPI-SDK]: executing diffoscope
+[2024-05-06 09:49:12] INFO root fetch - processPackages [EAPI-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eapi_sdk-1.0.0.tar.gz tmp/eapi_sdk-1.0.1.tar.gz --markdown 20240506/E/EAPI-SDK/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 09:49:12] INFO root fetch - processPackages [weightfactors]: Downloading https://files.pythonhosted.org/packages/17/42/a2c114ad1437689afdc797f51ac2327688b2959c5f79995de10e91182306/weightfactors-0.0.3.tar.gz
+[2024-05-06 09:49:12] INFO root fetch - processPackages [weightfactors]: executing diffoscope
+[2024-05-06 09:49:12] INFO root fetch - processPackages [weightfactors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weightfactors-0.0.2.tar.gz tmp/weightfactors-0.0.3.tar.gz --markdown 20240506/w/weightfactors/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-06 09:49:12] INFO root fetch - processPackages [EAPI-SDK]: Remove: archive file [/home/abi/fetcher/tmp/eapi_sdk-1.0.0.tar.gz]
+[2024-05-06 09:49:12] INFO root fetch - processPackages [EAPI-SDK]: Remove: archive file [/home/abi/fetcher/tmp/eapi_sdk-1.0.1.tar.gz]
+[2024-05-06 09:49:12] INFO root fetch - main [MainThread]: End processing [EAPI-SDK]: success
+[2024-05-06 09:49:12] INFO root fetch - processPackages [weightfactors]: Remove: archive file [/home/abi/fetcher/tmp/weightfactors-0.0.2.tar.gz]
+[2024-05-06 09:49:12] INFO root fetch - processPackages [weightfactors]: Remove: archive file [/home/abi/fetcher/tmp/weightfactors-0.0.3.tar.gz]
+[2024-05-06 09:49:12] INFO root fetch - main [MainThread]: End processing [weightfactors]: success
+[2024-05-06 09:49:13] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/72/eb/b7f20f227c30beeb1298a5013dbd98cf616d9c321398cf216c1b15940a8b/tencentcloud-sdk-python-3.0.999.tar.gz
+[2024-05-06 09:49:14] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2024-05-06 09:49:14] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.998.tar.gz tmp/tencentcloud-sdk-python-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 09:49:26] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.998.tar.gz]
+[2024-05-06 09:49:26] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
+[2024-05-06 09:49:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2024-05-06 09:49:26] INFO root fetch - main [MainThread]: Store serial: [23073107]
