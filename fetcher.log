@@ -5487,3 +5487,36 @@
 [2024-05-06 07:12:47] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.4.1.tar.gz]
 [2024-05-06 07:12:47] INFO root fetch - main [MainThread]: End processing [docprompt]: success
 [2024-05-06 07:12:47] INFO root fetch - main [MainThread]: Store serial: [23071866]
+[2024-05-06 07:14:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071866]
+[2024-05-06 07:14:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 07:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-sitter-typescript
+[2024-05-06 07:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astro-SPLASH
+[2024-05-06 07:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zern
+[2024-05-06 07:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmcv-tools
+[2024-05-06 07:14:56] INFO root fetch - processPackages [zern]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-06 07:14:56] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/43/6a/d5bf2cc2e8262843c5c73d0fe9475b03292331da666f64783bb7ea66cde8/zern-0.0.5.tar.gz
+[2024-05-06 07:14:56] WARNING root fetch - processPackages [tree-sitter-typescript]: Skipping, unable to determine old version
+[2024-05-06 07:14:56] INFO root fetch - main [MainThread]: End processing [tree-sitter-typescript] error
+[2024-05-06 07:14:56] INFO root fetch - processPackages [astro-SPLASH]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 07:14:56] INFO root fetch - processPackages [lmcv-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 07:14:57] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/2d/62/5193b720fe79afcf4ddb0a84999a77b2d3def33934be3e971b52e5290221/astro_SPLASH-0.0.8.tar.gz
+[2024-05-06 07:14:57] INFO root fetch - processPackages [lmcv-tools]: Downloading https://files.pythonhosted.org/packages/6c/a8/be5c371f9d09c0df28407c5486d7568c34fd32b1015d0a79d25e11db0bff/lmcv_tools-0.0.8.tar.gz
+[2024-05-06 07:14:57] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/ad/e1/c5b783ddc4ace65cdadeea387cc86edd2289134a0d91942e8abedca28f6e/zern-0.0.6.tar.gz
+[2024-05-06 07:14:57] INFO root fetch - processPackages [zern]: executing diffoscope
+[2024-05-06 07:14:57] INFO root fetch - processPackages [zern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zern-0.0.5.tar.gz tmp/zern-0.0.6.tar.gz --markdown 20240506/z/zern/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-06 07:14:57] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/30/3a/87c5464add8f91a77b2cccbc02f5526d7ca05288541725ee9944ccd6f3ad/astro_SPLASH-0.0.9.tar.gz
+[2024-05-06 07:14:57] INFO root fetch - processPackages [astro-SPLASH]: executing diffoscope
+[2024-05-06 07:14:57] INFO root fetch - processPackages [astro-SPLASH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_SPLASH-0.0.8.tar.gz tmp/astro_SPLASH-0.0.9.tar.gz --markdown 20240506/a/astro-SPLASH/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 07:14:57] INFO root fetch - processPackages [lmcv-tools]: Downloading https://files.pythonhosted.org/packages/79/4c/798409a3a7b29e9651c8eb43bbc4ff4e97ac628b164eeaf79ae8a6210463/lmcv_tools-0.0.9.tar.gz
+[2024-05-06 07:14:57] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.5.tar.gz]
+[2024-05-06 07:14:57] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.6.tar.gz]
+[2024-05-06 07:14:57] INFO root fetch - main [MainThread]: End processing [zern]: success
+[2024-05-06 07:14:57] INFO root fetch - processPackages [lmcv-tools]: executing diffoscope
+[2024-05-06 07:14:57] INFO root fetch - processPackages [lmcv-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcv_tools-0.0.8.tar.gz tmp/lmcv_tools-0.0.9.tar.gz --markdown 20240506/l/lmcv-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 07:14:57] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.8.tar.gz]
+[2024-05-06 07:14:57] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.9.tar.gz]
+[2024-05-06 07:14:57] INFO root fetch - main [MainThread]: End processing [astro-SPLASH]: success
+[2024-05-06 07:14:58] INFO root fetch - processPackages [lmcv-tools]: Remove: archive file [/home/abi/fetcher/tmp/lmcv_tools-0.0.8.tar.gz]
+[2024-05-06 07:14:58] INFO root fetch - processPackages [lmcv-tools]: Remove: archive file [/home/abi/fetcher/tmp/lmcv_tools-0.0.9.tar.gz]
+[2024-05-06 07:14:58] INFO root fetch - main [MainThread]: End processing [lmcv-tools]: success
+[2024-05-06 07:14:58] INFO root fetch - main [MainThread]: Store serial: [23071884]
