@@ -24028,3 +24028,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:49:34] INFO root fetch - processPackages [ismn]: Remove: archive file [/home/abi/fetcher/tmp/ismn-1.4.1.tar.gz]
 [2024-05-06 17:49:34] INFO root fetch - main [MainThread]: End processing [ismn]: success
 [2024-05-06 17:49:34] INFO root fetch - main [MainThread]: Store serial: [23080151]
+[2024-05-06 17:51:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23080151]
+[2024-05-06 17:51:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 17:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htagui
+[2024-05-06 17:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myf-face-recognition
+[2024-05-06 17:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psssodls
+[2024-05-06 17:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zeus-ml
+[2024-05-06 17:51:43] INFO root fetch - processPackages [htagui]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-06 17:51:43] INFO root fetch - processPackages [psssodls]: New version: [0.3] Old Version: [0.1.0]
+[2024-05-06 17:51:43] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/fe/f7/085ff92f4ab42725b5fa32eee5ad7a4c94fab13deaeaeb61cda3e6363b77/htagui-0.5.8.tar.gz
+[2024-05-06 17:51:43] INFO root fetch - processPackages [zeus-ml]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-06 17:51:43] INFO root fetch - processPackages [myf-face-recognition]: New version: [0.9] Old Version: [0.8]
+[2024-05-06 17:51:43] INFO root fetch - processPackages [myf-face-recognition]: Downloading https://files.pythonhosted.org/packages/fd/9e/f6bb52c8c7f17dbeb9945f85bab284c8eeffda82ada0522466f82bd7f5f9/myf_face_recognition-0.8.tar.gz
+[2024-05-06 17:51:43] INFO root fetch - processPackages [psssodls]: Downloading https://files.pythonhosted.org/packages/66/01/b83baf526b01a4ace996e59caf114a55b4b5bd5cf37170d8fa1fb3fd330c/psssodls-0.1.0.tar.gz
+[2024-05-06 17:51:43] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/47/9d/0c1208869caef2f9ea3d38c248f7354673c6dc8fd26b2495b4d75f3b1236/htagui-0.5.9.tar.gz
+[2024-05-06 17:51:43] INFO root fetch - processPackages [zeus-ml]: Downloading https://files.pythonhosted.org/packages/fa/91/c3b1620eb3715a094dec0f8d9661b00f5cbc6163779ecee3aecf1f33140f/zeus-ml-0.8.2.tar.gz
+[2024-05-06 17:51:43] INFO root fetch - processPackages [htagui]: executing diffoscope
+[2024-05-06 17:51:43] INFO root fetch - processPackages [htagui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagui-0.5.8.tar.gz tmp/htagui-0.5.9.tar.gz --markdown 20240506/h/htagui/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-06 17:51:43] INFO root fetch - processPackages [myf-face-recognition]: Downloading https://files.pythonhosted.org/packages/80/71/75029b51bf454bdcb985e1cac1d64fd55f178b9895ffd6de459c418f9371/myf_face_recognition-0.9.tar.gz
+[2024-05-06 17:51:43] INFO root fetch - processPackages [psssodls]: Downloading https://files.pythonhosted.org/packages/1d/87/bf673eabe83b7ae17952a0c6de9b16dfc87f9ebb41682bb42fd00abe84ff/psssodls-0.3.tar.gz
+[2024-05-06 17:51:43] INFO root fetch - processPackages [myf-face-recognition]: executing diffoscope
+[2024-05-06 17:51:43] INFO root fetch - processPackages [myf-face-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myf_face_recognition-0.8.tar.gz tmp/myf_face_recognition-0.9.tar.gz --markdown 20240506/m/myf-face-recognition/0.8-0.9/README.md --exclude *.pyd
+[2024-05-06 17:51:44] INFO root fetch - processPackages [zeus-ml]: Downloading https://files.pythonhosted.org/packages/1e/5c/d733e49e5b60f4b77018900c0b0da0cbad1f3399ea30c090fa636b3d2499/zeus_ml-0.9.0.tar.gz
+[2024-05-06 17:51:44] INFO root fetch - processPackages [psssodls]: executing diffoscope
+[2024-05-06 17:51:44] INFO root fetch - processPackages [psssodls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psssodls-0.1.0.tar.gz tmp/psssodls-0.3.tar.gz --markdown 20240506/p/psssodls/0.1.0-0.3/README.md --exclude *.pyd
+[2024-05-06 17:51:44] INFO root fetch - processPackages [zeus-ml]: executing diffoscope
+[2024-05-06 17:51:44] INFO root fetch - processPackages [zeus-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeus-ml-0.8.2.tar.gz tmp/zeus_ml-0.9.0.tar.gz --markdown 20240506/z/zeus-ml/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-06 17:51:44] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.5.8.tar.gz]
+[2024-05-06 17:51:44] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.5.9.tar.gz]
+[2024-05-06 17:51:44] INFO root fetch - main [MainThread]: End processing [htagui]: success
+[2024-05-06 17:51:44] INFO root fetch - processPackages [myf-face-recognition]: Remove: archive file [/home/abi/fetcher/tmp/myf_face_recognition-0.8.tar.gz]
+[2024-05-06 17:51:44] INFO root fetch - processPackages [myf-face-recognition]: Remove: archive file [/home/abi/fetcher/tmp/myf_face_recognition-0.9.tar.gz]
+[2024-05-06 17:51:44] INFO root fetch - main [MainThread]: End processing [myf-face-recognition]: success
+[2024-05-06 17:51:44] INFO root fetch - processPackages [psssodls]: Remove: archive file [/home/abi/fetcher/tmp/psssodls-0.1.0.tar.gz]
+[2024-05-06 17:51:44] INFO root fetch - processPackages [psssodls]: Remove: archive file [/home/abi/fetcher/tmp/psssodls-0.3.tar.gz]
+[2024-05-06 17:51:44] INFO root fetch - main [MainThread]: End processing [psssodls]: success
+[2024-05-06 17:51:45] INFO root fetch - processPackages [zeus-ml]: Remove: archive file [/home/abi/fetcher/tmp/zeus-ml-0.8.2.tar.gz]
+[2024-05-06 17:51:45] INFO root fetch - processPackages [zeus-ml]: Remove: archive file [/home/abi/fetcher/tmp/zeus_ml-0.9.0.tar.gz]
+[2024-05-06 17:51:45] INFO root fetch - main [MainThread]: End processing [zeus-ml]: success
+[2024-05-06 17:51:45] INFO root fetch - main [MainThread]: Store serial: [23080163]
