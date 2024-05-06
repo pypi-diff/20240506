@@ -21068,3 +21068,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:00:46] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-06 16:00:46] INFO root fetch - main [MainThread]: End processing [Mosek]: success
 [2024-05-06 16:00:46] INFO root fetch - main [MainThread]: Store serial: [23078833]
+[2024-05-06 16:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078833]
+[2024-05-06 16:02:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 16:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vnpy-rest
+[2024-05-06 16:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysypt
+[2024-05-06 16:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bettermoments
+[2024-05-06 16:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lugandalens
+[2024-05-06 16:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jgtml
+[2024-05-06 16:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: faasmctl
+[2024-05-06 16:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mimllearning
+[2024-05-06 16:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FastRAMQPI
+[2024-05-06 16:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inoopa_utils
+[2024-05-06 16:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyneople
+[2024-05-06 16:02:57] INFO root fetch - processPackages [pysypt]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-06 16:02:57] INFO root fetch - processPackages [jgtml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 16:02:57] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 16:02:57] INFO root fetch - processPackages [bettermoments]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-05-06 16:02:57] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-06 16:02:57] INFO root fetch - processPackages [vnpy-rest]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-06 16:02:57] WARNING root fetch - processPackages [lugandalens]: Skipping, unable to determine old version
+[2024-05-06 16:02:57] INFO root fetch - processPackages [lugandalens]: Start processing: alex_sudoku
+[2024-05-06 16:02:57] INFO root fetch - main [MainThread]: End processing [lugandalens] error
+[2024-05-06 16:02:57] INFO root fetch - processPackages [pyneople]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-06 16:02:57] INFO root fetch - processPackages [faasmctl]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-06 16:02:57] INFO root fetch - processPackages [FastRAMQPI]: New version: [7.3.0] Old Version: [7.2.1]
+[2024-05-06 16:02:57] INFO root fetch - processPackages [pysypt]: Downloading https://files.pythonhosted.org/packages/66/47/382b998b1d9890531161b19e4b25ff217be69ddd70cd6abb6a278921761e/pysypt-1.0.2.tar.gz
+[2024-05-06 16:02:57] INFO root fetch - processPackages [bettermoments]: Downloading https://files.pythonhosted.org/packages/50/23/f018bce8560ecdc42847a5db823a79ec4632540eacfa8d203639ffc14cc2/bettermoments-1.8.5.tar.gz
+[2024-05-06 16:02:57] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-06 16:02:57] INFO root fetch - processPackages [jgtml]: Downloading https://files.pythonhosted.org/packages/24/aa/db47d03e50f3ded4102b246ebd27aec21b7deedbe9e4624a24644f7a7392/jgtml-0.0.8.tar.gz
+[2024-05-06 16:02:57] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-06 16:02:57] WARNING root fetch - processPackages [alex_sudoku]: Skipping, unable to determine old version
+[2024-05-06 16:02:57] INFO root fetch - main [MainThread]: End processing [alex_sudoku] error
+[2024-05-06 16:02:57] INFO root fetch - processPackages [vnpy-rest]: Downloading https://files.pythonhosted.org/packages/5c/59/62e94d7a755e233e15a293457e7235b50b7ecbdbf6a1f8d5e750301d2b27/vnpy_rest-1.0.7.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/38/e4/dff09873a8761498bf090bc86a2364dfcd7753dd9bc74448aa6c71a828eb/faasmctl-0.9.0.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/8b/7e/4c5051bc434e3b796dcfd10c14a04db157338ff3a2902c233823703a4aa6/pyneople-0.2.9.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/af/29/8b11758834daa527edcf2ce16be8659001946eea3c068ba0c321b956ebd1/fastramqpi-7.2.1.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [bettermoments]: Downloading https://files.pythonhosted.org/packages/fe/25/d5669e2239ca3d6745cfec2e6413d7efd7ab3259a7d901ba8e3395e24740/bettermoments-1.8.6.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [jgtml]: Downloading https://files.pythonhosted.org/packages/12/f5/435d6d259546ba6a9a515dc4a6d6557949bddfacfb511697a4b47fb54f89/jgtml-0.0.9.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [bettermoments]: executing diffoscope
+[2024-05-06 16:02:58] INFO root fetch - processPackages [bettermoments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bettermoments-1.8.5.tar.gz tmp/bettermoments-1.8.6.tar.gz --markdown 20240506/b/bettermoments/1.8.5-1.8.6/README.md --exclude *.pyd
+[2024-05-06 16:02:58] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-06 16:02:58] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240506/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-06 16:02:58] INFO root fetch - processPackages [jgtml]: executing diffoscope
+[2024-05-06 16:02:58] INFO root fetch - processPackages [jgtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtml-0.0.8.tar.gz tmp/jgtml-0.0.9.tar.gz --markdown 20240506/j/jgtml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 16:02:58] INFO root fetch - processPackages [vnpy-rest]: Downloading https://files.pythonhosted.org/packages/99/7b/0bfd21ec3ef8bd129bd3646d2865b2b67d742d8200569fd443cc13eec9f3/vnpy_rest-1.0.8.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/82/7b/1cfbea3d703bbf99d878a570847c46c446915d58ecd25a141020b30a3542/pyneople-0.3.0.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-06 16:02:58] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240506/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 16:02:58] INFO root fetch - processPackages [vnpy-rest]: executing diffoscope
+[2024-05-06 16:02:58] INFO root fetch - processPackages [vnpy-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_rest-1.0.7.tar.gz tmp/vnpy_rest-1.0.8.tar.gz --markdown 20240506/v/vnpy-rest/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-06 16:02:58] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/12/94/9638f501b93a4d5196fdc4cc2fabae586b16cd83dfce921eca78c2dec55f/faasmctl-0.9.1.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/58/31/a7d8683200e3ed06529abe745663cb53ad22d27ea986e0c867b300c34304/fastramqpi-7.3.0.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [pysypt]: Downloading https://files.pythonhosted.org/packages/dc/bb/a4c913805d3a11b1eb03917ac806f96337cfa3e50e026ba05d474811fe93/pysypt-1.0.3.tar.gz
+[2024-05-06 16:02:58] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-06 16:02:58] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.2.9.tar.gz tmp/pyneople-0.3.0.tar.gz --markdown 20240506/p/pyneople/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-06 16:02:58] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2024-05-06 16:02:58] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.9.0.tar.gz tmp/faasmctl-0.9.1.tar.gz --markdown 20240506/f/faasmctl/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-06 16:02:58] INFO root fetch - processPackages [FastRAMQPI]: executing diffoscope
+[2024-05-06 16:02:58] INFO root fetch - processPackages [FastRAMQPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-7.2.1.tar.gz tmp/fastramqpi-7.3.0.tar.gz --markdown 20240506/F/FastRAMQPI/7.2.1-7.3.0/README.md --exclude *.pyd
+[2024-05-06 16:02:59] INFO root fetch - processPackages [pysypt]: executing diffoscope
+[2024-05-06 16:02:59] INFO root fetch - processPackages [pysypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysypt-1.0.2.tar.gz tmp/pysypt-1.0.3.tar.gz --markdown 20240506/p/pysypt/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-06 16:02:59] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-06 16:02:59] INFO root fetch - processPackages [jgtml]: Remove: archive file [/home/abi/fetcher/tmp/jgtml-0.0.8.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - processPackages [jgtml]: Remove: archive file [/home/abi/fetcher/tmp/jgtml-0.0.9.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - main [MainThread]: End processing [jgtml]: success
+[2024-05-06 16:02:59] INFO root fetch - processPackages [vnpy-rest]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_rest-1.0.7.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - processPackages [vnpy-rest]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_rest-1.0.8.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - main [MainThread]: End processing [vnpy-rest]: success
+[2024-05-06 16:02:59] INFO root fetch - processPackages [bettermoments]: Remove: archive file [/home/abi/fetcher/tmp/bettermoments-1.8.5.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - processPackages [bettermoments]: Remove: archive file [/home/abi/fetcher/tmp/bettermoments-1.8.6.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - main [MainThread]: End processing [bettermoments]: success
+[2024-05-06 16:02:59] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-06 16:02:59] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.2.9.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.0.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-06 16:02:59] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.0.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.1.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2024-05-06 16:02:59] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.2.1.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.0.tar.gz]
+[2024-05-06 16:02:59] INFO root fetch - main [MainThread]: End processing [FastRAMQPI]: success
+[2024-05-06 16:03:00] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-1.0.2.tar.gz]
+[2024-05-06 16:03:00] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-1.0.3.tar.gz]
+[2024-05-06 16:03:00] INFO root fetch - main [MainThread]: End processing [pysypt]: success
+[2024-05-06 16:03:00] INFO root fetch - main [MainThread]: Store serial: [23078869]
