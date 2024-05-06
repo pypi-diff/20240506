@@ -4937,3 +4937,38 @@
 [2024-05-06 06:33:46] INFO root fetch - processPackages [SpatialQC]: Remove: archive file [/home/abi/fetcher/tmp/SpatialQC-1.0.3.tar.gz]
 [2024-05-06 06:33:46] INFO root fetch - main [MainThread]: End processing [SpatialQC]: success
 [2024-05-06 06:33:46] INFO root fetch - main [MainThread]: Store serial: [23071559]
+[2024-05-06 06:35:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071559]
+[2024-05-06 06:35:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agixt
+[2024-05-06 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astro-SPLASH
+[2024-05-06 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PepperPepper
+[2024-05-06 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: espy-contact
+[2024-05-06 06:35:55] INFO root fetch - processPackages [astro-SPLASH]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-06 06:35:55] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-06 06:35:55] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-06 06:35:55] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.4] Old Version: [0.0.7.3]
+[2024-05-06 06:35:55] INFO root fetch - processPackages [agixt]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-06 06:35:55] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/91/e9/588051f62cda0cb3615f0d08598f45e0d9add32247fc5023e6b4b0d90db8/astro_SPLASH-0.0.0.tar.gz
+[2024-05-06 06:35:55] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/75/c6/e84cae64d99f9ddfa8f328fb079131d481b59a9e6164ea318c23d36bcd84/pepperpepper-0.0.7.3.tar.gz
+[2024-05-06 06:35:55] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/06/8b/f4b0981365819afdbeecb1796ebb1d23439132f5063fcb9b4192e4c43a18/agixt-1.5.8-py3-none-any.whl
+[2024-05-06 06:35:55] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-06 06:35:55] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-06 06:35:55] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240506/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-06 06:35:55] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/5d/2d/be15ff89e6d5766c835ed885fa84264d640e6c5489f5e3d31b7546a3e072/pepperpepper-0.0.7.4.tar.gz
+[2024-05-06 06:35:55] ERROR root fetch - processPackages [astro-SPLASH]: Unable to fetch info: No such project/version 'astro-SPLASH' 0.0.1
+[2024-05-06 06:35:55] INFO root fetch - main [MainThread]: End processing [astro-SPLASH] error
+[2024-05-06 06:35:55] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/25/a0/f70bdd10c23b4095f2f5ebd25957e2c061b93a50907a0651a729f4b4656c/agixt-1.5.9-py3-none-any.whl
+[2024-05-06 06:35:55] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-06 06:35:55] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.3.tar.gz tmp/pepperpepper-0.0.7.4.tar.gz --markdown 20240506/P/PepperPepper/0.0.7.3-0.0.7.4/README.md --exclude *.pyd
+[2024-05-06 06:35:55] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2024-05-06 06:35:55] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.5.8-py3-none-any.whl.zip tmp/agixt-1.5.9-py3-none-any.whl.zip --markdown 20240506/a/agixt/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-06 06:35:56] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-06 06:35:56] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-06 06:35:56] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-06 06:35:56] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.3.tar.gz]
+[2024-05-06 06:35:56] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.4.tar.gz]
+[2024-05-06 06:35:56] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-06 06:35:56] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.8-py3-none-any.whl.zip]
+[2024-05-06 06:35:56] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.9-py3-none-any.whl.zip]
+[2024-05-06 06:35:56] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2024-05-06 06:35:56] INFO root fetch - main [MainThread]: Store serial: [23071574]
