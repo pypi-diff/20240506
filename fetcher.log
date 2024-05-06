@@ -5873,3 +5873,27 @@
 [2024-05-06 07:39:30] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.9.tar.gz]
 [2024-05-06 07:39:30] INFO root fetch - main [MainThread]: End processing [mlfab]: success
 [2024-05-06 07:39:30] INFO root fetch - main [MainThread]: Store serial: [23072010]
+[2024-05-06 07:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072010]
+[2024-05-06 07:41:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 07:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nuitka-hatch
+[2024-05-06 07:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gendazpack
+[2024-05-06 07:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: potatoscript
+[2024-05-06 07:41:38] WARNING root fetch - processPackages [potatoscript]: Skipping, unable to determine old version
+[2024-05-06 07:41:38] INFO root fetch - main [MainThread]: End processing [potatoscript] error
+[2024-05-06 07:41:38] INFO root fetch - processPackages [nuitka-hatch]: New version: [1.1] Old Version: [1.0]
+[2024-05-06 07:41:38] INFO root fetch - processPackages [gendazpack]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 07:41:38] INFO root fetch - processPackages [nuitka-hatch]: Downloading https://files.pythonhosted.org/packages/c9/90/fb5e2494b71191756eccf9fc7d69f4c2622f2397d8c55179ae249837ad94/nuitka_hatch-1.0-py3-none-any.whl
+[2024-05-06 07:41:38] INFO root fetch - processPackages [gendazpack]: Downloading https://files.pythonhosted.org/packages/55/c3/a4026eabef1124c0c485a7247177737ada001cdfee9c6db3e3f6fb4b7453/gendazpack-0.1.1.tar.gz
+[2024-05-06 07:41:39] INFO root fetch - processPackages [nuitka-hatch]: Downloading https://files.pythonhosted.org/packages/b2/b2/e109b18879264bbefcf1f5b844e148e2416ac61df5deb1fbb9e1e17944bd/nuitka_hatch-1.1.tar.gz
+[2024-05-06 07:41:39] INFO root fetch - processPackages [gendazpack]: Downloading https://files.pythonhosted.org/packages/9c/81/e9b59bac208db9c8b0db68d5022dbc6f7fcf2ee09ff6e188074acf822beb/gendazpack-0.1.2.tar.gz
+[2024-05-06 07:41:39] INFO root fetch - processPackages [nuitka-hatch]: executing diffoscope
+[2024-05-06 07:41:39] INFO root fetch - processPackages [nuitka-hatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuitka_hatch-1.0-py3-none-any.whl.zip tmp/nuitka_hatch-1.1.tar.gz --markdown 20240506/n/nuitka-hatch/1.0-1.1/README.md --exclude *.pyd
+[2024-05-06 07:41:39] INFO root fetch - processPackages [gendazpack]: executing diffoscope
+[2024-05-06 07:41:39] INFO root fetch - processPackages [gendazpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gendazpack-0.1.1.tar.gz tmp/gendazpack-0.1.2.tar.gz --markdown 20240506/g/gendazpack/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 07:41:39] INFO root fetch - processPackages [nuitka-hatch]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_hatch-1.0-py3-none-any.whl.zip]
+[2024-05-06 07:41:39] INFO root fetch - processPackages [nuitka-hatch]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_hatch-1.1.tar.gz]
+[2024-05-06 07:41:39] INFO root fetch - main [MainThread]: End processing [nuitka-hatch]: success
+[2024-05-06 07:41:39] INFO root fetch - processPackages [gendazpack]: Remove: archive file [/home/abi/fetcher/tmp/gendazpack-0.1.1.tar.gz]
+[2024-05-06 07:41:39] INFO root fetch - processPackages [gendazpack]: Remove: archive file [/home/abi/fetcher/tmp/gendazpack-0.1.2.tar.gz]
+[2024-05-06 07:41:39] INFO root fetch - main [MainThread]: End processing [gendazpack]: success
+[2024-05-06 07:41:39] INFO root fetch - main [MainThread]: Store serial: [23072020]
