@@ -4633,3 +4633,15 @@
 [2024-05-06 06:07:26] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-2.1.2.tar.gz]
 [2024-05-06 06:07:26] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
 [2024-05-06 06:07:26] INFO root fetch - main [MainThread]: Store serial: [23071387]
+[2024-05-06 06:09:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071387]
+[2024-05-06 06:09:35] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 06:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miniosl
+[2024-05-06 06:09:35] INFO root fetch - processPackages [miniosl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 06:09:35] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/ec/23/0a40da03e8d4efaa180037441979bfeecb3b76264d97ff4a9b50aca248fb/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl
+[2024-05-06 06:09:36] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/52/e1/2eae407bda00f8e2ae889b1f97fba9a3c2178f4caeaaf633f7febb6f2b16/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl
+[2024-05-06 06:09:36] INFO root fetch - processPackages [miniosl]: executing diffoscope
+[2024-05-06 06:09:36] INFO root fetch - processPackages [miniosl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip --markdown 20240506/m/miniosl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 06:09:48] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2024-05-06 06:09:48] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2024-05-06 06:09:48] INFO root fetch - main [MainThread]: End processing [miniosl]: success
+[2024-05-06 06:09:48] INFO root fetch - main [MainThread]: Store serial: [23071389]
