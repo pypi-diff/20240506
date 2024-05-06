@@ -18431,3 +18431,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:26:25] INFO root fetch - processPackages [hvplot]: Remove: archive file [/home/abi/fetcher/tmp/hvplot-0.9.3a2.tar.gz]
 [2024-05-06 14:26:25] INFO root fetch - main [MainThread]: End processing [hvplot]: success
 [2024-05-06 14:26:25] INFO root fetch - main [MainThread]: Store serial: [23077386]
+[2024-05-06 14:28:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077386]
+[2024-05-06 14:28:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 14:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2024-05-06 14:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KFSconfig
+[2024-05-06 14:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crawlipt
+[2024-05-06 14:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tldr-news
+[2024-05-06 14:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fortiedr
+[2024-05-06 14:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-treemodeladmin
+[2024-05-06 14:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bokeh-joystick-widget
+[2024-05-06 14:28:34] WARNING root fetch - processPackages [bokeh-joystick-widget]: Skipping, unable to determine old version
+[2024-05-06 14:28:34] INFO root fetch - main [MainThread]: End processing [bokeh-joystick-widget] error
+[2024-05-06 14:28:34] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-06 14:28:34] INFO root fetch - processPackages [tldr-news]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 14:28:34] INFO root fetch - processPackages [fortiedr]: New version: [3.6.5] Old Version: [3.6.4]
+[2024-05-06 14:28:34] INFO root fetch - processPackages [wagtail-treemodeladmin]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-06 14:28:34] INFO root fetch - processPackages [KFSconfig]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-06 14:28:34] INFO root fetch - processPackages [crawlipt]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-06 14:28:34] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-05-06 14:28:34] INFO root fetch - processPackages [tldr-news]: Downloading https://files.pythonhosted.org/packages/56/d8/d3e68fad87e5b45a985d313a50e8b51892abc91f8dede70fa61f3683bcce/tldr_news-0.2.8.tar.gz
+[2024-05-06 14:28:34] INFO root fetch - processPackages [fortiedr]: Downloading https://files.pythonhosted.org/packages/a1/a7/d2bb1089f99da5fafbbabd117b64af14add02f8edaf0279e927da382b10a/fortiedr-3.6.4.tar.gz
+[2024-05-06 14:28:34] INFO root fetch - processPackages [KFSconfig]: Downloading https://files.pythonhosted.org/packages/91/74/d966d7dd3d07713bdcc45bc97aa06a948df38225c8373d334d8129ffdcc8/kfsconfig-2.0.0.tar.gz
+[2024-05-06 14:28:34] INFO root fetch - processPackages [wagtail-treemodeladmin]: Downloading https://files.pythonhosted.org/packages/d1/be/aa4f8706f35ead904bdad328cb235a1033b8f49f3063e3c67d73354226f6/wagtail_treemodeladmin-1.9.1.tar.gz
+[2024-05-06 14:28:34] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/2b/95/0a7e422b694db9bd5da171b153c00471ac511d27e756dbde2c2a5cad20ad/crawlipt-0.0.4.tar.gz
+[2024-05-06 14:28:34] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-05-06 14:28:35] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-05-06 14:28:35] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240506/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-06 14:28:35] INFO root fetch - processPackages [fortiedr]: Downloading https://files.pythonhosted.org/packages/5a/0c/7e0ab8abf8235b309d76285385c2994f060767cebfabd1c0e4fef8a16dd4/fortiedr-3.6.5.tar.gz
+[2024-05-06 14:28:35] INFO root fetch - processPackages [KFSconfig]: Downloading https://files.pythonhosted.org/packages/83/79/6f9d33121eb781a7ccefe2eda8a4cc0bbb17556d6b64d7ee82d88a282601/kfsconfig-2.0.1.tar.gz
+[2024-05-06 14:28:35] INFO root fetch - processPackages [wagtail-treemodeladmin]: Downloading https://files.pythonhosted.org/packages/ed/f3/0318280a5cb0dab879aad0c93ef17d0c957a613f49442a0e3b2ee163586b/wagtail_treemodeladmin-1.9.2.tar.gz
+[2024-05-06 14:28:35] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/81/7a/5dc2ab46b1310eb2584d0baf39632fa81aac39c83be7c20b32fbff671473/crawlipt-0.0.5.tar.gz
+[2024-05-06 14:28:35] INFO root fetch - processPackages [KFSconfig]: executing diffoscope
+[2024-05-06 14:28:35] INFO root fetch - processPackages [KFSconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsconfig-2.0.0.tar.gz tmp/kfsconfig-2.0.1.tar.gz --markdown 20240506/K/KFSconfig/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-06 14:28:35] INFO root fetch - processPackages [fortiedr]: executing diffoscope
+[2024-05-06 14:28:35] INFO root fetch - processPackages [fortiedr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortiedr-3.6.4.tar.gz tmp/fortiedr-3.6.5.tar.gz --markdown 20240506/f/fortiedr/3.6.4-3.6.5/README.md --exclude *.pyd
+[2024-05-06 14:28:35] INFO root fetch - processPackages [wagtail-treemodeladmin]: executing diffoscope
+[2024-05-06 14:28:35] INFO root fetch - processPackages [wagtail-treemodeladmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_treemodeladmin-1.9.1.tar.gz tmp/wagtail_treemodeladmin-1.9.2.tar.gz --markdown 20240506/w/wagtail-treemodeladmin/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-06 14:28:35] INFO root fetch - processPackages [crawlipt]: executing diffoscope
+[2024-05-06 14:28:35] INFO root fetch - processPackages [crawlipt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlipt-0.0.4.tar.gz tmp/crawlipt-0.0.5.tar.gz --markdown 20240506/c/crawlipt/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-06 14:28:35] INFO root fetch - processPackages [tldr-news]: Downloading https://files.pythonhosted.org/packages/b1/80/c96a61c2b0ae4d9b25a582d2640dda73017e70f41132190e4208184657ca/tldr_news-0.2.9.tar.gz
+[2024-05-06 14:28:35] INFO root fetch - processPackages [tldr-news]: executing diffoscope
+[2024-05-06 14:28:35] INFO root fetch - processPackages [tldr-news]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldr_news-0.2.8.tar.gz tmp/tldr_news-0.2.9.tar.gz --markdown 20240506/t/tldr-news/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 14:28:35] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-05-06 14:28:35] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-05-06 14:28:35] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-05-06 14:28:36] INFO root fetch - processPackages [KFSconfig]: Remove: archive file [/home/abi/fetcher/tmp/kfsconfig-2.0.0.tar.gz]
+[2024-05-06 14:28:36] INFO root fetch - processPackages [KFSconfig]: Remove: archive file [/home/abi/fetcher/tmp/kfsconfig-2.0.1.tar.gz]
+[2024-05-06 14:28:36] INFO root fetch - main [MainThread]: End processing [KFSconfig]: success
+[2024-05-06 14:28:36] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.0.4.tar.gz]
+[2024-05-06 14:28:36] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.0.5.tar.gz]
+[2024-05-06 14:28:36] INFO root fetch - main [MainThread]: End processing [crawlipt]: success
+[2024-05-06 14:28:36] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.6.4.tar.gz]
+[2024-05-06 14:28:36] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.6.5.tar.gz]
+[2024-05-06 14:28:36] INFO root fetch - main [MainThread]: End processing [fortiedr]: success
+[2024-05-06 14:28:36] INFO root fetch - processPackages [wagtail-treemodeladmin]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_treemodeladmin-1.9.1.tar.gz]
+[2024-05-06 14:28:36] INFO root fetch - processPackages [wagtail-treemodeladmin]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_treemodeladmin-1.9.2.tar.gz]
+[2024-05-06 14:28:36] INFO root fetch - main [MainThread]: End processing [wagtail-treemodeladmin]: success
+[2024-05-06 14:28:36] INFO root fetch - processPackages [tldr-news]: Remove: archive file [/home/abi/fetcher/tmp/tldr_news-0.2.8.tar.gz]
+[2024-05-06 14:28:36] INFO root fetch - processPackages [tldr-news]: Remove: archive file [/home/abi/fetcher/tmp/tldr_news-0.2.9.tar.gz]
+[2024-05-06 14:28:36] INFO root fetch - main [MainThread]: End processing [tldr-news]: success
+[2024-05-06 14:28:36] INFO root fetch - main [MainThread]: Store serial: [23077409]
