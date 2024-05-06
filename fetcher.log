@@ -19010,3 +19010,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:48:24] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-1.0.1.tar.gz]
 [2024-05-06 14:48:24] INFO root fetch - main [MainThread]: End processing [pysypt]: success
 [2024-05-06 14:48:24] INFO root fetch - main [MainThread]: Store serial: [23077703]
+[2024-05-06 14:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077703]
+[2024-05-06 14:50:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 14:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RikPy
+[2024-05-06 14:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sapphire.py
+[2024-05-06 14:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ch.sachi.weatherstation
+[2024-05-06 14:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hat-juggler
+[2024-05-06 14:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-core
+[2024-05-06 14:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plone.app.linkintegrity
+[2024-05-06 14:50:34] INFO root fetch - processPackages [ch.sachi.weatherstation]: New version: [2.0.3] Old Version: [2.0.1]
+[2024-05-06 14:50:34] INFO root fetch - processPackages [hat-juggler]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-06 14:50:34] INFO root fetch - processPackages [ch.sachi.weatherstation]: Downloading https://files.pythonhosted.org/packages/29/0c/806844f09d729fcc37c4eb1c92bc621c54eea3c2e9484875278d833a7542/ch_sachi_weatherstation-2.0.1.tar.gz
+[2024-05-06 14:50:34] INFO root fetch - processPackages [sapphire.py]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-06 14:50:34] INFO root fetch - processPackages [RikPy]: New version: [0.2.8] Old Version: [0.2.73]
+[2024-05-06 14:50:34] INFO root fetch - processPackages [hat-juggler]: Downloading https://files.pythonhosted.org/packages/b6/bc/e6bedc653fa494f7c67bebac5c6be63144e8576aee78837690f1c022f06a/hat_juggler-0.6.8-cp38.cp39.cp310-none-any.whl
+[2024-05-06 14:50:34] INFO root fetch - processPackages [plone.app.linkintegrity]: New version: [4.0.4] Old Version: [4.0.3]
+[2024-05-06 14:50:34] INFO root fetch - processPackages [policyengine-core]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-05-06 14:50:34] INFO root fetch - processPackages [RikPy]: Downloading https://files.pythonhosted.org/packages/49/cc/23bdf6c970361a5490baee83e03bceb63b65f1c2392335c0f1c10fa30f25/RikPy-0.2.73.tar.gz
+[2024-05-06 14:50:34] INFO root fetch - processPackages [sapphire.py]: Downloading https://files.pythonhosted.org/packages/e6/fc/715e5891e886cb90b2c472139532dd4234da207a36cd471936e6a96df33f/sapphire.py-0.2.2.tar.gz
+[2024-05-06 14:50:34] INFO root fetch - processPackages [hat-juggler]: Downloading https://files.pythonhosted.org/packages/88/f0/606d20d4b3770c9e7250511e52d30c9bdb4763dfbaaf9f64ca5f693e0b78/hat_juggler-0.6.9-cp38.cp39.cp310-none-any.whl
+[2024-05-06 14:50:34] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/07/97/2bc82753b761563058e4b2a2d1fdfa98561d4e4c738445057c8cab7cc095/policyengine-core-2.8.2.tar.gz
+[2024-05-06 14:50:34] INFO root fetch - processPackages [ch.sachi.weatherstation]: Downloading https://files.pythonhosted.org/packages/87/bc/187c74ee0aa10cb26c9824cc3ebaba57fe5bdc89c0f99bff54e9ab2096c2/ch_sachi_weatherstation-2.0.3.tar.gz
+[2024-05-06 14:50:34] INFO root fetch - processPackages [plone.app.linkintegrity]: Downloading https://files.pythonhosted.org/packages/65/75/3c89279e50a00f104aee1d8c9f82f709159a1576b044265b8eda5009c0bf/plone.app.linkintegrity-4.0.3.tar.gz
+[2024-05-06 14:50:34] INFO root fetch - processPackages [hat-juggler]: executing diffoscope
+[2024-05-06 14:50:34] INFO root fetch - processPackages [hat-juggler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_juggler-0.6.8-cp38.cp39.cp310-none-any.whl.zip tmp/hat_juggler-0.6.9-cp38.cp39.cp310-none-any.whl.zip --markdown 20240506/h/hat-juggler/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-06 14:50:34] INFO root fetch - processPackages [ch.sachi.weatherstation]: executing diffoscope
+[2024-05-06 14:50:34] INFO root fetch - processPackages [ch.sachi.weatherstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ch_sachi_weatherstation-2.0.1.tar.gz tmp/ch_sachi_weatherstation-2.0.3.tar.gz --markdown 20240506/c/ch.sachi.weatherstation/2.0.1-2.0.3/README.md --exclude *.pyd
+[2024-05-06 14:50:34] WARNING root fetch - processPackages [sapphire.py]: Skipping package: exceeds size limit 33673547>=10485760
+[2024-05-06 14:50:34] INFO root fetch - main [MainThread]: End processing [sapphire.py] error
+[2024-05-06 14:50:34] INFO root fetch - processPackages [RikPy]: Downloading https://files.pythonhosted.org/packages/b3/3f/23e3a121573841a6e6fcea01af995b97f589ac5db6106d16786b6445cdc8/RikPy-0.2.8.tar.gz
+[2024-05-06 14:50:34] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/26/a2/83d36d4b568d37e6724b68831dc58b4b0c74c437e7537f296c45353a7986/policyengine-core-2.9.0.tar.gz
+[2024-05-06 14:50:35] INFO root fetch - processPackages [RikPy]: executing diffoscope
+[2024-05-06 14:50:35] INFO root fetch - processPackages [RikPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RikPy-0.2.73.tar.gz tmp/RikPy-0.2.8.tar.gz --markdown 20240506/R/RikPy/0.2.73-0.2.8/README.md --exclude *.pyd
+[2024-05-06 14:50:35] INFO root fetch - processPackages [plone.app.linkintegrity]: Downloading https://files.pythonhosted.org/packages/35/90/fce9102764a953b44d25b8e360579038b452ee1fbea3754334e881858be6/plone_app_linkintegrity-4.0.4.tar.gz
+[2024-05-06 14:50:35] INFO root fetch - processPackages [policyengine-core]: executing diffoscope
+[2024-05-06 14:50:35] INFO root fetch - processPackages [policyengine-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-core-2.8.2.tar.gz tmp/policyengine-core-2.9.0.tar.gz --markdown 20240506/p/policyengine-core/2.8.2-2.9.0/README.md --exclude *.pyd
+[2024-05-06 14:50:35] INFO root fetch - processPackages [hat-juggler]: Remove: archive file [/home/abi/fetcher/tmp/hat_juggler-0.6.8-cp38.cp39.cp310-none-any.whl.zip]
+[2024-05-06 14:50:35] INFO root fetch - processPackages [hat-juggler]: Remove: archive file [/home/abi/fetcher/tmp/hat_juggler-0.6.9-cp38.cp39.cp310-none-any.whl.zip]
+[2024-05-06 14:50:35] INFO root fetch - main [MainThread]: End processing [hat-juggler]: success
+[2024-05-06 14:50:35] INFO root fetch - processPackages [plone.app.linkintegrity]: executing diffoscope
+[2024-05-06 14:50:35] INFO root fetch - processPackages [plone.app.linkintegrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.linkintegrity-4.0.3.tar.gz tmp/plone_app_linkintegrity-4.0.4.tar.gz --markdown 20240506/p/plone.app.linkintegrity/4.0.3-4.0.4/README.md --exclude *.pyd
+[2024-05-06 14:50:35] INFO root fetch - processPackages [ch.sachi.weatherstation]: Remove: archive file [/home/abi/fetcher/tmp/ch_sachi_weatherstation-2.0.1.tar.gz]
+[2024-05-06 14:50:35] INFO root fetch - processPackages [ch.sachi.weatherstation]: Remove: archive file [/home/abi/fetcher/tmp/ch_sachi_weatherstation-2.0.3.tar.gz]
+[2024-05-06 14:50:35] INFO root fetch - main [MainThread]: End processing [ch.sachi.weatherstation]: success
+[2024-05-06 14:50:35] INFO root fetch - processPackages [RikPy]: Remove: archive file [/home/abi/fetcher/tmp/RikPy-0.2.73.tar.gz]
+[2024-05-06 14:50:35] INFO root fetch - processPackages [RikPy]: Remove: archive file [/home/abi/fetcher/tmp/RikPy-0.2.8.tar.gz]
+[2024-05-06 14:50:35] INFO root fetch - main [MainThread]: End processing [RikPy]: success
+[2024-05-06 14:50:35] INFO root fetch - processPackages [plone.app.linkintegrity]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.linkintegrity-4.0.3.tar.gz]
+[2024-05-06 14:50:35] INFO root fetch - processPackages [plone.app.linkintegrity]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_linkintegrity-4.0.4.tar.gz]
+[2024-05-06 14:50:35] INFO root fetch - main [MainThread]: End processing [plone.app.linkintegrity]: success
+[2024-05-06 14:50:36] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.8.2.tar.gz]
+[2024-05-06 14:50:36] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.9.0.tar.gz]
+[2024-05-06 14:50:36] INFO root fetch - main [MainThread]: End processing [policyengine-core]: success
+[2024-05-06 14:50:36] INFO root fetch - main [MainThread]: Store serial: [23077736]
