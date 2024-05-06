@@ -14676,3 +14676,75 @@
 [2024-05-06 11:53:50] INFO root fetch - processPackages [simple-build-system]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_system-1.1.2.tar.gz]
 [2024-05-06 11:53:50] INFO root fetch - main [MainThread]: End processing [simple-build-system]: success
 [2024-05-06 11:53:50] INFO root fetch - main [MainThread]: Store serial: [23075697]
+[2024-05-06 11:55:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075697]
+[2024-05-06 11:55:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HawaData
+[2024-05-06 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptk
+[2024-05-06 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: InternEvo
+[2024-05-06 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rotary-emb
+[2024-05-06 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tokyo-stock-exchange
+[2024-05-06 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plone-sphinx-theme
+[2024-05-06 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: migration-db
+[2024-05-06 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mptradelib
+[2024-05-06 11:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: WebinarRu
+[2024-05-06 11:55:59] INFO root fetch - processPackages [tokyo-stock-exchange]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 11:55:59] INFO root fetch - processPackages [rotary-emb]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-06 11:55:59] INFO root fetch - processPackages [mptradelib]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-06 11:55:59] WARNING root fetch - processPackages [plone-sphinx-theme]: Skipping, unable to determine old version
+[2024-05-06 11:55:59] INFO root fetch - main [MainThread]: End processing [plone-sphinx-theme] error
+[2024-05-06 11:55:59] INFO root fetch - processPackages [migration-db]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-06 11:55:59] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-06 11:55:59] WARNING root fetch - processPackages [gptk]: Skipping, unable to determine old version
+[2024-05-06 11:55:59] INFO root fetch - main [MainThread]: End processing [gptk] error
+[2024-05-06 11:55:59] INFO root fetch - processPackages [InternEvo]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-06 11:55:59] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/37/55/0cb27249e5e9f0c9c6452ffc4e619caf1632fa550960bad273dbb2f082ab/mptradelib-0.3.8.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/d6/38/199e27467a2d35554351964a081a02b67a2827ef5fc32209016cafbab4f9/rotary_emb-0.4.4.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/7f/ed/1d35592a8041b6e70f3af7408af064fcea50ebc84c2e08def0f09107c7ce/migration_db-1.0.8.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/a3/68/7d36f2607aec5023e183552bbb6d592829451f0529ae50bc0ae0c1f13865/InternEvo-0.4.5.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [WebinarRu]: New version: [0.0.54] Old Version: [0.0.53]
+[2024-05-06 11:55:59] INFO root fetch - processPackages [tokyo-stock-exchange]: Downloading https://files.pythonhosted.org/packages/6f/00/304437f1c88f7fae5209f7638f164559f30904cc1d17fcc25cdeb35e4c31/tokyo_stock_exchange-0.0.1.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/ed/ed/5379fee0776f116bac2d010694a8e92fea50be9d59a92fabbe52b25468f3/rotary_emb-0.4.5.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [WebinarRu]: Downloading https://files.pythonhosted.org/packages/d0/6a/80b3d7c205964fd369980db08dae20920312604f18a63c9b8b49b043384f/webinarru-0.0.53.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/da/69/3594d7db0bf3d7a94ef33b67bc8d85af3676671cb507430a3ef88c30214f/mptradelib-0.3.9.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/78/49/a626a12e9569256054f423de2f9d979955bf383eb0a87161a2e41f32d7ce/InternEvo-0.4.6.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/21/4d/a05ab9a9bb48f79223952469dbca6b72d5dd7b36d9ecafec42abe2033706/migration_db-1.0.9.tar.gz
+[2024-05-06 11:55:59] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-05-06 11:55:59] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240506/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-06 11:56:00] INFO root fetch - processPackages [rotary-emb]: executing diffoscope
+[2024-05-06 11:56:00] INFO root fetch - processPackages [rotary-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotary_emb-0.4.4.tar.gz tmp/rotary_emb-0.4.5.tar.gz --markdown 20240506/r/rotary-emb/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-06 11:56:00] INFO root fetch - processPackages [mptradelib]: executing diffoscope
+[2024-05-06 11:56:00] INFO root fetch - processPackages [mptradelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mptradelib-0.3.8.tar.gz tmp/mptradelib-0.3.9.tar.gz --markdown 20240506/m/mptradelib/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-06 11:56:00] INFO root fetch - processPackages [tokyo-stock-exchange]: Downloading https://files.pythonhosted.org/packages/ab/e5/4c19b9e2f1e1d0e38bca57f9a8b30133abc5571375bffb5b8eea516aac04/tokyo_stock_exchange-0.0.2.tar.gz
+[2024-05-06 11:56:00] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-05-06 11:56:00] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.8.tar.gz tmp/migration_db-1.0.9.tar.gz --markdown 20240506/m/migration-db/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-06 11:56:00] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-06 11:56:00] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.4.5.tar.gz tmp/InternEvo-0.4.6.tar.gz --markdown 20240506/I/InternEvo/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-06 11:56:00] INFO root fetch - processPackages [tokyo-stock-exchange]: executing diffoscope
+[2024-05-06 11:56:00] INFO root fetch - processPackages [tokyo-stock-exchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokyo_stock_exchange-0.0.1.tar.gz tmp/tokyo_stock_exchange-0.0.2.tar.gz --markdown 20240506/t/tokyo-stock-exchange/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 11:56:00] INFO root fetch - processPackages [WebinarRu]: Downloading https://files.pythonhosted.org/packages/cb/9d/aa5df6a0da42bb9217d1e655ce73b580f913e67aa634e8e41251160d7fa0/webinarru-0.0.54.tar.gz
+[2024-05-06 11:56:00] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.4.tar.gz]
+[2024-05-06 11:56:00] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.5.tar.gz]
+[2024-05-06 11:56:00] INFO root fetch - main [MainThread]: End processing [rotary-emb]: success
+[2024-05-06 11:56:00] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-05-06 11:56:00] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-05-06 11:56:00] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-05-06 11:56:00] INFO root fetch - processPackages [WebinarRu]: executing diffoscope
+[2024-05-06 11:56:00] INFO root fetch - processPackages [WebinarRu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webinarru-0.0.53.tar.gz tmp/webinarru-0.0.54.tar.gz --markdown 20240506/W/WebinarRu/0.0.53-0.0.54/README.md --exclude *.pyd
+[2024-05-06 11:56:00] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.3.8.tar.gz]
+[2024-05-06 11:56:00] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.3.9.tar.gz]
+[2024-05-06 11:56:00] INFO root fetch - main [MainThread]: End processing [mptradelib]: success
+[2024-05-06 11:56:01] INFO root fetch - processPackages [tokyo-stock-exchange]: Remove: archive file [/home/abi/fetcher/tmp/tokyo_stock_exchange-0.0.1.tar.gz]
+[2024-05-06 11:56:01] INFO root fetch - processPackages [tokyo-stock-exchange]: Remove: archive file [/home/abi/fetcher/tmp/tokyo_stock_exchange-0.0.2.tar.gz]
+[2024-05-06 11:56:01] INFO root fetch - main [MainThread]: End processing [tokyo-stock-exchange]: success
+[2024-05-06 11:56:01] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.8.tar.gz]
+[2024-05-06 11:56:01] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.9.tar.gz]
+[2024-05-06 11:56:01] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-05-06 11:56:01] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.5.tar.gz]
+[2024-05-06 11:56:01] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.6.tar.gz]
+[2024-05-06 11:56:01] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-06 11:56:01] INFO root fetch - processPackages [WebinarRu]: Remove: archive file [/home/abi/fetcher/tmp/webinarru-0.0.53.tar.gz]
+[2024-05-06 11:56:01] INFO root fetch - processPackages [WebinarRu]: Remove: archive file [/home/abi/fetcher/tmp/webinarru-0.0.54.tar.gz]
+[2024-05-06 11:56:01] INFO root fetch - main [MainThread]: End processing [WebinarRu]: success
+[2024-05-06 11:56:01] INFO root fetch - main [MainThread]: Store serial: [23075721]
