@@ -16322,3 +16322,36 @@
 [2024-05-06 13:00:13] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
 [2024-05-06 13:00:13] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
 [2024-05-06 13:00:13] INFO root fetch - main [MainThread]: Store serial: [23076391]
+[2024-05-06 13:02:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076391]
+[2024-05-06 13:02:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytypingchat
+[2024-05-06 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iqm-client
+[2024-05-06 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-pikpdf
+[2024-05-06 13:02:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncapi-python-parser-jonaslagoni
+[2024-05-06 13:02:22] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 13:02:22] INFO root fetch - processPackages [django-pikpdf]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-06 13:02:22] WARNING root fetch - processPackages [pytypingchat]: Skipping, unable to determine old version
+[2024-05-06 13:02:22] INFO root fetch - main [MainThread]: End processing [pytypingchat] error
+[2024-05-06 13:02:22] INFO root fetch - processPackages [iqm-client]: New version: [9.8] Old Version: [9.7]
+[2024-05-06 13:02:22] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Downloading https://files.pythonhosted.org/packages/8b/52/6a642b1d3a3b554f9846ffdee341daa7acdaeddc2bfc02e32641c0f5a05e/asyncapi_python_parser_jonaslagoni-0.0.1.tar.gz
+[2024-05-06 13:02:22] INFO root fetch - processPackages [django-pikpdf]: Downloading https://files.pythonhosted.org/packages/48/2a/86609748aa8ccb3b8f27645ebeb34a6156c6342ad883e8fef6ad63958a31/django-pikpdf-0.3.4.tar.gz
+[2024-05-06 13:02:22] INFO root fetch - processPackages [iqm-client]: Downloading https://files.pythonhosted.org/packages/99/fc/f098b725596fbe26c658967e1c14b848d3a2c90549099d038fea031556f6/iqm-client-9.7.tar.gz
+[2024-05-06 13:02:23] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Downloading https://files.pythonhosted.org/packages/36/a6/375b22cdafa186c83fbcc5d92038417f1342617fa5b4c0d74dd959b552fb/asyncapi_python_parser_jonaslagoni-0.0.2.tar.gz
+[2024-05-06 13:02:23] INFO root fetch - processPackages [django-pikpdf]: Downloading https://files.pythonhosted.org/packages/c7/2b/0a751880516157a41eab1f82bad8851d875512973252bbceba1f0f6a3329/django-pikpdf-0.3.5.tar.gz
+[2024-05-06 13:02:23] INFO root fetch - processPackages [iqm-client]: Downloading https://files.pythonhosted.org/packages/b5/0c/bc58a77ae5654da6f56e104c9317e6de8a82e0c8c546c5291848649874db/iqm-client-9.8.tar.gz
+[2024-05-06 13:02:23] INFO root fetch - processPackages [django-pikpdf]: executing diffoscope
+[2024-05-06 13:02:23] INFO root fetch - processPackages [django-pikpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pikpdf-0.3.4.tar.gz tmp/django-pikpdf-0.3.5.tar.gz --markdown 20240506/d/django-pikpdf/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-06 13:02:23] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: executing diffoscope
+[2024-05-06 13:02:23] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncapi_python_parser_jonaslagoni-0.0.1.tar.gz tmp/asyncapi_python_parser_jonaslagoni-0.0.2.tar.gz --markdown 20240506/a/asyncapi-python-parser-jonaslagoni/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 13:02:23] INFO root fetch - processPackages [iqm-client]: executing diffoscope
+[2024-05-06 13:02:23] INFO root fetch - processPackages [iqm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-client-9.7.tar.gz tmp/iqm-client-9.8.tar.gz --markdown 20240506/i/iqm-client/9.7-9.8/README.md --exclude *.pyd
+[2024-05-06 13:02:24] INFO root fetch - processPackages [django-pikpdf]: Remove: archive file [/home/abi/fetcher/tmp/django-pikpdf-0.3.4.tar.gz]
+[2024-05-06 13:02:24] INFO root fetch - processPackages [django-pikpdf]: Remove: archive file [/home/abi/fetcher/tmp/django-pikpdf-0.3.5.tar.gz]
+[2024-05-06 13:02:24] INFO root fetch - main [MainThread]: End processing [django-pikpdf]: success
+[2024-05-06 13:02:24] INFO root fetch - processPackages [iqm-client]: Remove: archive file [/home/abi/fetcher/tmp/iqm-client-9.7.tar.gz]
+[2024-05-06 13:02:24] INFO root fetch - processPackages [iqm-client]: Remove: archive file [/home/abi/fetcher/tmp/iqm-client-9.8.tar.gz]
+[2024-05-06 13:02:24] INFO root fetch - main [MainThread]: End processing [iqm-client]: success
+[2024-05-06 13:02:26] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Remove: archive file [/home/abi/fetcher/tmp/asyncapi_python_parser_jonaslagoni-0.0.1.tar.gz]
+[2024-05-06 13:02:26] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Remove: archive file [/home/abi/fetcher/tmp/asyncapi_python_parser_jonaslagoni-0.0.2.tar.gz]
+[2024-05-06 13:02:26] INFO root fetch - main [MainThread]: End processing [asyncapi-python-parser-jonaslagoni]: success
+[2024-05-06 13:02:26] INFO root fetch - main [MainThread]: Store serial: [23076406]
