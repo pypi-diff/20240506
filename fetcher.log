@@ -17113,3 +17113,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:24:30] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-1.4.3.tar.gz]
 [2024-05-06 13:24:30] INFO root fetch - main [MainThread]: End processing [firebolt-sdk]: success
 [2024-05-06 13:24:30] INFO root fetch - main [MainThread]: Store serial: [23076728]
+[2024-05-06 13:26:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076728]
+[2024-05-06 13:26:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 13:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ethz-iam-webservice
+[2024-05-06 13:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapegraphai
+[2024-05-06 13:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-21
+[2024-05-06 13:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LugandaOCR
+[2024-05-06 13:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchx-nightly
+[2024-05-06 13:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchrl-nightly
+[2024-05-06 13:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-warn-option
+[2024-05-06 13:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hadronic
+[2024-05-06 13:26:41] INFO root fetch - processPackages [scrapegraphai]: New version: [0.9.0b6] Old Version: [0.9.0b5]
+[2024-05-06 13:26:41] INFO root fetch - processPackages [hadronic]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 13:26:41] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.5] Old Version: [2024.5.4]
+[2024-05-06 13:26:41] WARNING root fetch - processPackages [odoo-addon-account-warn-option]: Skipping, unable to determine old version
+[2024-05-06 13:26:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-warn-option] error
+[2024-05-06 13:26:41] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240506] Old Version: [2.5.0b20240505]
+[2024-05-06 13:26:41] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/83/c5/d21687ee5cd94b0e98555d2568ddb3252843269abb79e0242a044c95554d/scrapegraphai-0.9.0b5.tar.gz
+[2024-05-06 13:26:41] WARNING root fetch - processPackages [LugandaOCR]: Skipping, unable to determine old version
+[2024-05-06 13:26:41] INFO root fetch - main [MainThread]: End processing [LugandaOCR] error
+[2024-05-06 13:26:41] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4b/89/a06c1f678debaacf247549e7e1dbe65b8753f1cb8b96ea17c5d9d6394219/torchx_nightly-2024.5.4-py3-none-any.whl
+[2024-05-06 13:26:41] INFO root fetch - processPackages [ethz-iam-webservice]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-06 13:26:41] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.6] Old Version: [2024.5.5]
+[2024-05-06 13:26:41] INFO root fetch - processPackages [hadronic]: Downloading https://files.pythonhosted.org/packages/bb/34/b59648e076761e1d3f883e8a7e5f371272ff5ec9e3fe82583887fcd00f54/hadronic-0.0.1.tar.gz
+[2024-05-06 13:26:41] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/78/26/78d0588fe87a2b8f319f1d7eb0cf4a9cf2367c0ca9ec9868c1e73d212957/bigdl_core_xe_21-2.5.0b20240505-cp39-cp39-win_amd64.whl
+[2024-05-06 13:26:41] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28998868>=10485760
+[2024-05-06 13:26:41] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-06 13:26:41] INFO root fetch - processPackages [ethz-iam-webservice]: Downloading https://files.pythonhosted.org/packages/a0/b8/d1ceeb21e4df6430560bf8205b61fd0829feed79dc5115bed620fb139287/ethz_iam_webservice-0.8.0.tar.gz
+[2024-05-06 13:26:41] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/6f/b2/85e627cd7d19f3e10b388d7fcce0f245b59126c61e9c10183369a4ccc579/torchrl_nightly-2024.5.5-cp39-cp39-win_amd64.whl
+[2024-05-06 13:26:41] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/a7/a2/7b776cb1ca127378d2edb3f3e068fad92fc07b76af6a167052eb647fb5f1/scrapegraphai-0.9.0b6.tar.gz
+[2024-05-06 13:26:41] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/2f/d1/b0ee9a821c10067cfbcdb93646e60e1e0c30d389274acd2e0ba2db3ae2da/torchx_nightly-2024.5.5-py3-none-any.whl
+[2024-05-06 13:26:41] INFO root fetch - processPackages [hadronic]: Downloading https://files.pythonhosted.org/packages/44/79/df61f4fb325a5ebdfcf5cfeff764d548da1ea92259fc9732ceff0a5e933c/hadronic-0.0.2.tar.gz
+[2024-05-06 13:26:41] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-06 13:26:41] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.9.0b5.tar.gz tmp/scrapegraphai-0.9.0b6.tar.gz --markdown 20240506/s/scrapegraphai/0.9.0b5-0.9.0b6/README.md --exclude *.pyd
+[2024-05-06 13:26:41] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-06 13:26:41] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.4-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.5-py3-none-any.whl.zip --markdown 20240506/t/torchx-nightly/2024.5.4-2024.5.5/README.md --exclude *.pyd
+[2024-05-06 13:26:41] INFO root fetch - processPackages [hadronic]: executing diffoscope
+[2024-05-06 13:26:41] INFO root fetch - processPackages [hadronic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hadronic-0.0.1.tar.gz tmp/hadronic-0.0.2.tar.gz --markdown 20240506/h/hadronic/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 13:26:41] INFO root fetch - processPackages [ethz-iam-webservice]: Downloading https://files.pythonhosted.org/packages/d0/97/69afe508386104d4ca7bb45f423f85cc7c225867fa33af2a28a7b42b21a8/ethz_iam_webservice-0.9.0.tar.gz
+[2024-05-06 13:26:41] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/f9/5a/d053525cda7704d07cf6dd528449a7ccf800f29be521154ef4cd42f93649/torchrl_nightly-2024.5.6-cp39-cp39-manylinux1_x86_64.whl
+[2024-05-06 13:26:42] INFO root fetch - processPackages [ethz-iam-webservice]: executing diffoscope
+[2024-05-06 13:26:42] INFO root fetch - processPackages [ethz-iam-webservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethz_iam_webservice-0.8.0.tar.gz tmp/ethz_iam_webservice-0.9.0.tar.gz --markdown 20240506/e/ethz-iam-webservice/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-06 13:26:42] INFO root fetch - processPackages [hadronic]: Remove: archive file [/home/abi/fetcher/tmp/hadronic-0.0.1.tar.gz]
+[2024-05-06 13:26:42] INFO root fetch - processPackages [hadronic]: Remove: archive file [/home/abi/fetcher/tmp/hadronic-0.0.2.tar.gz]
+[2024-05-06 13:26:42] INFO root fetch - main [MainThread]: End processing [hadronic]: success
+[2024-05-06 13:26:42] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b5.tar.gz]
+[2024-05-06 13:26:42] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b6.tar.gz]
+[2024-05-06 13:26:42] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-06 13:26:42] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-06 13:26:42] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.5-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.6-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240506/t/torchrl-nightly/2024.5.5-2024.5.6/README.md --exclude *.pyd
+[2024-05-06 13:26:42] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.4-py3-none-any.whl.zip]
+[2024-05-06 13:26:42] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.5-py3-none-any.whl.zip]
+[2024-05-06 13:26:42] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-06 13:26:43] INFO root fetch - processPackages [ethz-iam-webservice]: Remove: archive file [/home/abi/fetcher/tmp/ethz_iam_webservice-0.8.0.tar.gz]
+[2024-05-06 13:26:43] INFO root fetch - processPackages [ethz-iam-webservice]: Remove: archive file [/home/abi/fetcher/tmp/ethz_iam_webservice-0.9.0.tar.gz]
+[2024-05-06 13:26:43] INFO root fetch - main [MainThread]: End processing [ethz-iam-webservice]: success
+[2024-05-06 13:26:46] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-06 13:26:46] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.6-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-05-06 13:26:46] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-06 13:26:46] INFO root fetch - main [MainThread]: Store serial: [23076753]
