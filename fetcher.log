@@ -21840,3 +21840,171 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:31:09] INFO root fetch - processPackages [IOPaint]: Remove: archive file [/home/abi/fetcher/tmp/IOPaint-1.3.0.tar.gz]
 [2024-05-06 16:31:09] INFO root fetch - main [MainThread]: End processing [IOPaint]: success
 [2024-05-06 16:31:09] INFO root fetch - main [MainThread]: Store serial: [23079162]
+[2024-05-06 16:33:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079162]
+[2024-05-06 16:33:22] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-06 16:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prometheus-eval
+[2024-05-06 16:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjhtdbv2
+[2024-05-06 16:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: a2y-inst
+[2024-05-06 16:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crate-docs-theme
+[2024-05-06 16:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dash-draggable-no-console-logs
+[2024-05-06 16:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiproxy-python
+[2024-05-06 16:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-glightbox
+[2024-05-06 16:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: movoid-robotframework
+[2024-05-06 16:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: adafruit-circuitpython-esp32spi
+[2024-05-06 16:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-salesforce
+[2024-05-06 16:33:22] INFO root fetch - processPackages [pyjhtdbv2]: New version: [20240506.2] Old Version: [20240506.1]
+[2024-05-06 16:33:22] INFO root fetch - processPackages [prometheus-eval]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 16:33:22] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 16:33:22] INFO root fetch - processPackages [a2y-inst]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-06 16:33:22] WARNING root fetch - processPackages [dash-draggable-no-console-logs]: Skipping, unable to determine old version
+[2024-05-06 16:33:22] INFO root fetch - processPackages [dash-draggable-no-console-logs]: Start processing: appsignal
+[2024-05-06 16:33:22] INFO root fetch - main [MainThread]: End processing [dash-draggable-no-console-logs] error
+[2024-05-06 16:33:22] INFO root fetch - processPackages [aiproxy-python]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-06 16:33:22] INFO root fetch - processPackages [mkdocs-glightbox]: New version: [0.4.0] Old Version: [0.3.7]
+[2024-05-06 16:33:22] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: New version: [8.1.1] Old Version: [8.1.0]
+[2024-05-06 16:33:22] INFO root fetch - processPackages [airbyte-source-salesforce]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-05-06 16:33:22] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/9c/71/b8e4bb6e016c6555640a69589ad28f4c984e164e249d7b032b330622e0da/pyjhtdbv2-20240506.1.tar.gz
+[2024-05-06 16:33:22] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/54/42/112fff76d74fa32ca9bc26a8b2dfbf13f143416063c3cb1bc0dc28456d72/prometheus_eval-0.1.8.tar.gz
+[2024-05-06 16:33:22] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 16:33:22] INFO root fetch - processPackages [appsignal]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-06 16:33:22] INFO root fetch - processPackages [a2y-inst]: Downloading https://files.pythonhosted.org/packages/86/a4/829a640ba41be534f368bda022f23d594042b19d7d2747a93ee72a8c1399/a2y_inst-1.3.1-py3-none-any.whl
+[2024-05-06 16:33:22] INFO root fetch - processPackages [movoid-robotframework]: New version: [1.4.4] Old Version: [1.4.2]
+[2024-05-06 16:33:22] INFO root fetch - processPackages [aiproxy-python]: Downloading https://files.pythonhosted.org/packages/48/24/2b7b3224c9fd1c69b844f69124a98668b3ff441da723f68ee1aa6100887e/aiproxy_python-0.4.2-py3-none-any.whl
+[2024-05-06 16:33:22] INFO root fetch - processPackages [mkdocs-glightbox]: Downloading https://files.pythonhosted.org/packages/f0/5a/d38df54137a7ce2a438af5e1727f205ce97897a826c39674117aa5b185c3/mkdocs-glightbox-0.3.7.tar.gz
+[2024-05-06 16:33:22] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: Downloading https://files.pythonhosted.org/packages/4c/9f/ddd0f7542112b77b62202b8892049090579244e0e6811b9169377de66f42/adafruit_circuitpython_esp32spi-8.1.0.tar.gz
+[2024-05-06 16:33:22] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/5a/bc/dd53179ac39fa0c948b03814f7a0f3ea56ff7d61e79644d48298941e44b3/airbyte_source_salesforce-2.5.8.tar.gz
+[2024-05-06 16:33:23] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/1f/fa/3f86d1fa41d5e9236ec95425ea34f4fc91624b9c4919cb8c62db3d979568/prometheus_eval-0.1.9.tar.gz
+[2024-05-06 16:33:23] INFO root fetch - processPackages [appsignal]: Downloading https://files.pythonhosted.org/packages/d3/ac/e57d6f9a7e8d7ab09688821ad13dbb59b1a9bf7b18dab8134ea3ae14dd76/appsignal-1.3.1-py3-none-musllinux_1_1_x86_64.whl
+[2024-05-06 16:33:23] INFO root fetch - processPackages [movoid-robotframework]: Downloading https://files.pythonhosted.org/packages/23/2c/4d6119be3a23a4a281dc25a2e9e477e02de2c96bcdac6c7aa94f92d856d5/movoid_robotframework-1.4.2.tar.gz
+[2024-05-06 16:33:23] INFO root fetch - processPackages [prometheus-eval]: executing diffoscope
+[2024-05-06 16:33:23] INFO root fetch - processPackages [prometheus-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_eval-0.1.8.tar.gz tmp/prometheus_eval-0.1.9.tar.gz --markdown 20240506/p/prometheus-eval/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:33:23] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 16:33:23] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/93/7b/26098b279649e499632188e2feae9d4eb9dca4b26a9812ab51d3ed22cca0/pyjhtdbv2-20240506.2.tar.gz
+[2024-05-06 16:33:23] INFO root fetch - processPackages [a2y-inst]: Downloading https://files.pythonhosted.org/packages/24/e9/77cb3829602b039c6f0c739ef080500a735461fce0b20b024c67e5771612/a2y_inst-1.3.2-py3-none-any.whl
+[2024-05-06 16:33:23] INFO root fetch - processPackages [mkdocs-glightbox]: Downloading https://files.pythonhosted.org/packages/86/5a/0bc456397ba0acc684b5b1daa4ca232ed717938fd37198251d8bcc4053bf/mkdocs-glightbox-0.4.0.tar.gz
+[2024-05-06 16:33:23] INFO root fetch - processPackages [aiproxy-python]: Downloading https://files.pythonhosted.org/packages/8d/7b/4758ca67bca2de791674e3d75e2633f5530e09204445c0a5b4bf05025f18/aiproxy_python-0.4.3-py3-none-any.whl
+[2024-05-06 16:33:23] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/af/14/5e6ec129c317e6125da32345043611eebfe5d2c8999948acbcb76cf613e2/airbyte_source_salesforce-2.5.9.tar.gz
+[2024-05-06 16:33:23] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: Downloading https://files.pythonhosted.org/packages/13/05/8eee42ab5fe68c72711aebfd4cd3562a0eafcc259b21e491c67faf2ec037/adafruit_circuitpython_esp32spi-8.1.1.tar.gz
+[2024-05-06 16:33:23] INFO root fetch - processPackages [a2y-inst]: executing diffoscope
+[2024-05-06 16:33:23] INFO root fetch - processPackages [a2y-inst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2y_inst-1.3.1-py3-none-any.whl.zip tmp/a2y_inst-1.3.2-py3-none-any.whl.zip --markdown 20240506/a/a2y-inst/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-06 16:33:23] INFO root fetch - processPackages [mkdocs-glightbox]: executing diffoscope
+[2024-05-06 16:33:23] INFO root fetch - processPackages [mkdocs-glightbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-glightbox-0.3.7.tar.gz tmp/mkdocs-glightbox-0.4.0.tar.gz --markdown 20240506/m/mkdocs-glightbox/0.3.7-0.4.0/README.md --exclude *.pyd
+[2024-05-06 16:33:23] INFO root fetch - processPackages [aiproxy-python]: executing diffoscope
+[2024-05-06 16:33:23] INFO root fetch - processPackages [aiproxy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiproxy_python-0.4.2-py3-none-any.whl.zip tmp/aiproxy_python-0.4.3-py3-none-any.whl.zip --markdown 20240506/a/aiproxy-python/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-06 16:33:23] INFO root fetch - processPackages [movoid-robotframework]: Downloading https://files.pythonhosted.org/packages/b8/90/bd46361cb3030f9900b408f73c1d1ee82006a8edc3ea4f910998cc651189/movoid_robotframework-1.4.4.tar.gz
+[2024-05-06 16:33:23] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: executing diffoscope
+[2024-05-06 16:33:23] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit_circuitpython_esp32spi-8.1.0.tar.gz tmp/adafruit_circuitpython_esp32spi-8.1.1.tar.gz --markdown 20240506/a/adafruit-circuitpython-esp32spi/8.1.0-8.1.1/README.md --exclude *.pyd
+[2024-05-06 16:33:23] INFO root fetch - processPackages [appsignal]: Downloading https://files.pythonhosted.org/packages/2b/5b/c9d648ffa35909be778a5e1b0eaac00e7eed7c21b8e8d1ff2cc8241c9477/appsignal-1.3.2-py3-none-musllinux_1_1_x86_64.whl
+[2024-05-06 16:33:23] INFO root fetch - processPackages [airbyte-source-salesforce]: executing diffoscope
+[2024-05-06 16:33:23] INFO root fetch - processPackages [airbyte-source-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_salesforce-2.5.8.tar.gz tmp/airbyte_source_salesforce-2.5.9.tar.gz --markdown 20240506/a/airbyte-source-salesforce/2.5.8-2.5.9/README.md --exclude *.pyd
+[2024-05-06 16:33:23] INFO root fetch - processPackages [movoid-robotframework]: executing diffoscope
+[2024-05-06 16:33:23] INFO root fetch - processPackages [movoid-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movoid_robotframework-1.4.2.tar.gz tmp/movoid_robotframework-1.4.4.tar.gz --markdown 20240506/m/movoid-robotframework/1.4.2-1.4.4/README.md --exclude *.pyd
+[2024-05-06 16:33:23] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 16:33:23] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 16:33:23] INFO root fetch - processPackages [pyjhtdbv2]: executing diffoscope
+[2024-05-06 16:33:23] INFO root fetch - processPackages [pyjhtdbv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjhtdbv2-20240506.1.tar.gz tmp/pyjhtdbv2-20240506.2.tar.gz --markdown 20240506/p/pyjhtdbv2/20240506.1-20240506.2/README.md --exclude *.pyd
+[2024-05-06 16:33:23] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.8.tar.gz]
+[2024-05-06 16:33:23] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.9.tar.gz]
+[2024-05-06 16:33:23] INFO root fetch - processPackages [prometheus-eval]: Start processing: dualbounds
+[2024-05-06 16:33:23] INFO root fetch - main [MainThread]: End processing [prometheus-eval]: success
+[2024-05-06 16:33:24] INFO root fetch - processPackages [dualbounds]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [appsignal]: executing diffoscope
+[2024-05-06 16:33:24] INFO root fetch - processPackages [appsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsignal-1.3.1-py3-none-musllinux_1_1_x86_64.whl.zip tmp/appsignal-1.3.2-py3-none-musllinux_1_1_x86_64.whl.zip --markdown 20240506/a/appsignal/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-06 16:33:24] INFO root fetch - processPackages [dualbounds]: Downloading https://files.pythonhosted.org/packages/25/9d/8af1e5434f16e17e56307b3251fb88b59f4c9342a99a2834323fad23e88b/dualbounds-1.0.0.tar.gz
+[2024-05-06 16:33:24] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_esp32spi-8.1.0.tar.gz]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_esp32spi-8.1.1.tar.gz]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [adafruit-circuitpython-esp32spi]: Start processing: localstack-core
+[2024-05-06 16:33:24] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-esp32spi]: success
+[2024-05-06 16:33:24] INFO root fetch - processPackages [a2y-inst]: Remove: archive file [/home/abi/fetcher/tmp/a2y_inst-1.3.1-py3-none-any.whl.zip]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [a2y-inst]: Remove: archive file [/home/abi/fetcher/tmp/a2y_inst-1.3.2-py3-none-any.whl.zip]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [a2y-inst]: Start processing: upgini
+[2024-05-06 16:33:24] INFO root fetch - main [MainThread]: End processing [a2y-inst]: success
+[2024-05-06 16:33:24] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.8.tar.gz]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.9.tar.gz]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [airbyte-source-salesforce]: Start processing: odoo14-addon-account-banking-sepa-direct-debit
+[2024-05-06 16:33:24] INFO root fetch - main [MainThread]: End processing [airbyte-source-salesforce]: success
+[2024-05-06 16:33:24] INFO root fetch - processPackages [dualbounds]: Downloading https://files.pythonhosted.org/packages/06/93/27a86e0772c59d5fa63961faee3eebd6c604c33f927f6d9ecd96946099a9/dualbounds-1.0.1.tar.gz
+[2024-05-06 16:33:24] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240506124421] Old Version: [3.4.1.dev20240506084422]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [mkdocs-glightbox]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-glightbox-0.3.7.tar.gz]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [mkdocs-glightbox]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-glightbox-0.4.0.tar.gz]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [mkdocs-glightbox]: Start processing: django-socio-grpc
+[2024-05-06 16:33:24] INFO root fetch - main [MainThread]: End processing [mkdocs-glightbox]: success
+[2024-05-06 16:33:24] INFO root fetch - processPackages [movoid-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/movoid_robotframework-1.4.2.tar.gz]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [movoid-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/movoid_robotframework-1.4.4.tar.gz]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [movoid-robotframework]: Start processing: girona-donostia
+[2024-05-06 16:33:24] INFO root fetch - main [MainThread]: End processing [movoid-robotframework]: success
+[2024-05-06 16:33:24] INFO root fetch - processPackages [aiproxy-python]: Remove: archive file [/home/abi/fetcher/tmp/aiproxy_python-0.4.2-py3-none-any.whl.zip]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [girona-donostia]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [aiproxy-python]: Remove: archive file [/home/abi/fetcher/tmp/aiproxy_python-0.4.3-py3-none-any.whl.zip]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [aiproxy-python]: Start processing: imio.smartweb.common
+[2024-05-06 16:33:24] INFO root fetch - main [MainThread]: End processing [aiproxy-python]: success
+[2024-05-06 16:33:24] INFO root fetch - processPackages [odoo14-addon-account-banking-sepa-direct-debit]: New version: [14.0.2.1.0] Old Version: [14.0.2.0.1.dev7]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/44/0c/70f1d204c7499a107e8bbd95d1ac3a66e4d95935021f7fa297804c19806f/localstack_core-3.4.1.dev20240506084422.tar.gz
+[2024-05-06 16:33:24] INFO root fetch - processPackages [dualbounds]: executing diffoscope
+[2024-05-06 16:33:24] INFO root fetch - processPackages [dualbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualbounds-1.0.0.tar.gz tmp/dualbounds-1.0.1.tar.gz --markdown 20240506/d/dualbounds/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-06 16:33:24] INFO root fetch - processPackages [django-socio-grpc]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [girona-donostia]: Downloading https://files.pythonhosted.org/packages/60/c4/36c745985e733f829f641f2f74f270959734e1371d5373d18d00da343153/girona_donostia-0.1.8.tar.gz
+[2024-05-06 16:33:24] INFO root fetch - processPackages [imio.smartweb.common]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-06 16:33:24] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-06 16:33:25] INFO root fetch - processPackages [odoo14-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/a2/90/ed4528b01bfead6e1793afedf280350741a105228550cbd6dfcc1886c6f0/odoo14_addon_account_banking_sepa_direct_debit-14.0.2.0.1.dev7-py3-none-any.whl
+[2024-05-06 16:33:25] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7e/d6/0213129823e862591828fc556e6b339d32cd58621898f0696900155db751/django-socio-grpc-0.8.9.tar.gz
+[2024-05-06 16:33:25] INFO root fetch - processPackages [girona-donostia]: Downloading https://files.pythonhosted.org/packages/f1/fb/f355c092348fa1da903dd898a1aa616b514553b52cfda1036012d8115951/girona_donostia-0.1.9.tar.gz
+[2024-05-06 16:33:25] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/a8/10/446f945c7faaeda4e31be5b66463c99b6a78ed1a1729a1241a0433d74d14/imio.smartweb.common-1.2.8.tar.gz
+[2024-05-06 16:33:25] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 16:33:25] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 16:33:25] INFO root fetch - processPackages [crate-docs-theme]: Start processing: django-ninja-extra
+[2024-05-06 16:33:25] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 16:33:25] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-06 16:33:25] INFO root fetch - processPackages [girona-donostia]: executing diffoscope
+[2024-05-06 16:33:25] INFO root fetch - processPackages [girona-donostia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girona_donostia-0.1.8.tar.gz tmp/girona_donostia-0.1.9.tar.gz --markdown 20240506/g/girona-donostia/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:33:25] INFO root fetch - processPackages [django-ninja-extra]: New version: [0.20.7] Old Version: [0.20.6]
+[2024-05-06 16:33:25] INFO root fetch - processPackages [dualbounds]: Remove: archive file [/home/abi/fetcher/tmp/dualbounds-1.0.0.tar.gz]
+[2024-05-06 16:33:25] INFO root fetch - processPackages [dualbounds]: Remove: archive file [/home/abi/fetcher/tmp/dualbounds-1.0.1.tar.gz]
+[2024-05-06 16:33:25] INFO root fetch - main [MainThread]: End processing [dualbounds]: success
+[2024-05-06 16:33:25] INFO root fetch - processPackages [odoo14-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/2e/a4/2ee6f4ae7ea3bcd39d2f29141d669ade11de7c349cfc5d230920f4f64245/odoo14_addon_account_banking_sepa_direct_debit-14.0.2.1.0-py3-none-any.whl
+[2024-05-06 16:33:25] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7a/b0/8b962693ba3765edd0e0291489b777069cfb9989fddf435614a684afb60d/django-socio-grpc-0.9.0.tar.gz
+[2024-05-06 16:33:25] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/91/5e/d0034350465921f436497838bf83b0a442bcbce6d7ad0120d81ad61da38c/imio.smartweb.common-1.2.9.tar.gz
+[2024-05-06 16:33:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d4/1f/d0a49c195494503654d9ac0b6371442d434d6bb340df7f34096e8354ae6b/localstack_core-3.4.1.dev20240506124421.tar.gz
+[2024-05-06 16:33:25] INFO root fetch - processPackages [django-ninja-extra]: Downloading https://files.pythonhosted.org/packages/2b/b2/ee9a5c4afa35c9b07ce351ae6a373b3f42da41503478693a2d201df5b38c/django_ninja_extra-0.20.6.tar.gz
+[2024-05-06 16:33:25] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-06 16:33:25] INFO root fetch - processPackages [odoo14-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2024-05-06 16:33:25] INFO root fetch - processPackages [odoo14-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_banking_sepa_direct_debit-14.0.2.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_banking_sepa_direct_debit-14.0.2.1.0-py3-none-any.whl.zip --markdown 20240506/o/odoo14-addon-account-banking-sepa-direct-debit/14.0.2.0.1.dev7-14.0.2.1.0/README.md --exclude *.pyd
+[2024-05-06 16:33:25] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20240506.1.tar.gz]
+[2024-05-06 16:33:25] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20240506.2.tar.gz]
+[2024-05-06 16:33:25] INFO root fetch - main [MainThread]: End processing [pyjhtdbv2]: success
+[2024-05-06 16:33:25] INFO root fetch - processPackages [imio.smartweb.common]: executing diffoscope
+[2024-05-06 16:33:25] INFO root fetch - processPackages [imio.smartweb.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.common-1.2.8.tar.gz tmp/imio.smartweb.common-1.2.9.tar.gz --markdown 20240506/i/imio.smartweb.common/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-06 16:33:25] INFO root fetch - processPackages [django-socio-grpc]: executing diffoscope
+[2024-05-06 16:33:25] INFO root fetch - processPackages [django-socio-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-socio-grpc-0.8.9.tar.gz tmp/django-socio-grpc-0.9.0.tar.gz --markdown 20240506/d/django-socio-grpc/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-06 16:33:25] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-06 16:33:25] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240506/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-06 16:33:25] INFO root fetch - processPackages [girona-donostia]: Remove: archive file [/home/abi/fetcher/tmp/girona_donostia-0.1.8.tar.gz]
+[2024-05-06 16:33:25] INFO root fetch - processPackages [girona-donostia]: Remove: archive file [/home/abi/fetcher/tmp/girona_donostia-0.1.9.tar.gz]
+[2024-05-06 16:33:25] INFO root fetch - main [MainThread]: End processing [girona-donostia]: success
+[2024-05-06 16:33:25] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-06 16:33:25] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240506084422.tar.gz tmp/localstack_core-3.4.1.dev20240506124421.tar.gz --markdown 20240506/l/localstack-core/3.4.1.dev20240506084422-3.4.1.dev20240506124421/README.md --exclude *.pyd
+[2024-05-06 16:33:25] INFO root fetch - processPackages [django-ninja-extra]: Downloading https://files.pythonhosted.org/packages/96/e9/43680f7f8f4a714d33f9b9a38a76f8e7a7f0c877b582cee14eadd2949bc5/django_ninja_extra-0.20.7.tar.gz
+[2024-05-06 16:33:26] INFO root fetch - processPackages [django-ninja-extra]: executing diffoscope
+[2024-05-06 16:33:26] INFO root fetch - processPackages [django-ninja-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ninja_extra-0.20.6.tar.gz tmp/django_ninja_extra-0.20.7.tar.gz --markdown 20240506/d/django-ninja-extra/0.20.6-0.20.7/README.md --exclude *.pyd
+[2024-05-06 16:33:26] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.8.9.tar.gz]
+[2024-05-06 16:33:26] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.9.0.tar.gz]
+[2024-05-06 16:33:26] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
+[2024-05-06 16:33:26] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-06 16:33:26] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-06 16:33:26] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-06 16:33:26] INFO root fetch - processPackages [odoo14-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_banking_sepa_direct_debit-14.0.2.0.1.dev7-py3-none-any.whl.zip]
+[2024-05-06 16:33:26] INFO root fetch - processPackages [odoo14-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_banking_sepa_direct_debit-14.0.2.1.0-py3-none-any.whl.zip]
+[2024-05-06 16:33:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-banking-sepa-direct-debit]: success
+[2024-05-06 16:33:26] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.8.tar.gz]
+[2024-05-06 16:33:26] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.9.tar.gz]
+[2024-05-06 16:33:26] INFO root fetch - main [MainThread]: End processing [imio.smartweb.common]: success
+[2024-05-06 16:33:27] INFO root fetch - processPackages [django-ninja-extra]: Remove: archive file [/home/abi/fetcher/tmp/django_ninja_extra-0.20.6.tar.gz]
+[2024-05-06 16:33:27] INFO root fetch - processPackages [django-ninja-extra]: Remove: archive file [/home/abi/fetcher/tmp/django_ninja_extra-0.20.7.tar.gz]
+[2024-05-06 16:33:27] INFO root fetch - main [MainThread]: End processing [django-ninja-extra]: success
+[2024-05-06 16:33:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240506084422.tar.gz]
+[2024-05-06 16:33:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240506124421.tar.gz]
+[2024-05-06 16:33:29] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-06 16:33:41] INFO root fetch - processPackages [appsignal]: Remove: archive file [/home/abi/fetcher/tmp/appsignal-1.3.1-py3-none-musllinux_1_1_x86_64.whl.zip]
+[2024-05-06 16:33:41] INFO root fetch - processPackages [appsignal]: Remove: archive file [/home/abi/fetcher/tmp/appsignal-1.3.2-py3-none-musllinux_1_1_x86_64.whl.zip]
+[2024-05-06 16:33:41] INFO root fetch - main [MainThread]: End processing [appsignal]: success
+[2024-05-06 16:33:41] INFO root fetch - main [MainThread]: Store serial: [23079222]
