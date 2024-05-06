@@ -2469,3 +2469,27 @@
 [2024-05-06 03:54:29] INFO root fetch - processPackages [allowedflare]: Remove: archive file [/home/abi/fetcher/tmp/allowedflare-2024.9.0.tar.gz]
 [2024-05-06 03:54:29] INFO root fetch - main [MainThread]: End processing [allowedflare]: success
 [2024-05-06 03:54:29] INFO root fetch - main [MainThread]: Store serial: [23070509]
+[2024-05-06 03:56:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070509]
+[2024-05-06 03:56:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 03:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web-ui-helper
+[2024-05-06 03:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-runtime
+[2024-05-06 03:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: owntools
+[2024-05-06 03:56:37] INFO root fetch - processPackages [web-ui-helper]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-06 03:56:37] WARNING root fetch - processPackages [owntools]: Skipping, unable to determine old version
+[2024-05-06 03:56:37] INFO root fetch - main [MainThread]: End processing [owntools] error
+[2024-05-06 03:56:37] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/4b/68/1e24ae0ff04473cebebb64b1d1cfad16f76009648f0acbeaf86a930c7f79/web-ui-helper-0.0.7.tar.gz
+[2024-05-06 03:56:37] INFO root fetch - processPackages [mojo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-06 03:56:37] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/a2/73/8d6292a4a8763a95222fb988aaaf46e8e4faa6dbfa82aba07ec8abaabd54/mojo_runtime-1.3.8.tar.gz
+[2024-05-06 03:56:38] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/c9/ff/b364f60ce185f59ac74059aec301d941570acc93a0d289e15f139c988f81/web-ui-helper-0.0.8.tar.gz
+[2024-05-06 03:56:38] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-06 03:56:38] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.0.7.tar.gz tmp/web-ui-helper-0.0.8.tar.gz --markdown 20240506/w/web-ui-helper/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-06 03:56:38] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/d8/72/11ae6da51311fb6fe39796b32cda706673eed2e6d5f1cc271bf029880f36/mojo_runtime-1.3.9.tar.gz
+[2024-05-06 03:56:38] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2024-05-06 03:56:38] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-1.3.8.tar.gz tmp/mojo_runtime-1.3.9.tar.gz --markdown 20240506/m/mojo-runtime/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-06 03:56:38] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.7.tar.gz]
+[2024-05-06 03:56:38] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.8.tar.gz]
+[2024-05-06 03:56:38] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-06 03:56:38] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.8.tar.gz]
+[2024-05-06 03:56:38] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.9.tar.gz]
+[2024-05-06 03:56:38] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2024-05-06 03:56:38] INFO root fetch - main [MainThread]: Store serial: [23070517]
