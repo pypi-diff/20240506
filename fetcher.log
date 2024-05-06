@@ -16878,3 +16878,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:15:43] INFO root fetch - processPackages [cosmian-kms]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_kms-4.9.1-cp37-abi3-win_amd64.whl.zip]
 [2024-05-06 13:15:43] INFO root fetch - main [MainThread]: End processing [cosmian-kms]: success
 [2024-05-06 13:15:43] INFO root fetch - main [MainThread]: Store serial: [23076584]
+[2024-05-06 13:17:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076584]
+[2024-05-06 13:17:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-06 13:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crate-docs-theme
+[2024-05-06 13:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlalchemy-multilingual
+[2024-05-06 13:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-cpp
+[2024-05-06 13:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embykeeper
+[2024-05-06 13:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-core
+[2024-05-06 13:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-autogen
+[2024-05-06 13:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysharek
+[2024-05-06 13:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-crewai
+[2024-05-06 13:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-julep
+[2024-05-06 13:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-langchain
+[2024-05-06 13:17:52] INFO root fetch - processPackages [sqlalchemy-multilingual]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 13:17:52] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 13:17:52] INFO root fetch - processPackages [composio-julep]: New version: [0.2.49] Old Version: [0.2.48]
+[2024-05-06 13:17:52] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 13:17:52] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 13:17:52] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 13:17:52] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 13:17:52] INFO root fetch - processPackages [pysharek]: New version: [0.12.0] Old Version: [0.11.1]
+[2024-05-06 13:17:52] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240506] Old Version: [2.5.0b20240505]
+[2024-05-06 13:17:52] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-05-06 13:17:52] INFO root fetch - processPackages [embykeeper]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-06 13:17:52] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-05-06 13:17:52] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/b0/99/cdd2bbaa7abccac08cc58c624752e72e3c4f39a66e51a0ff34689a461dd5/composio_julep-0.2.48.tar.gz
+[2024-05-06 13:17:52] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/8e/31/a2eccb1781ac437879021cc38e0b6755729b6230cf3eff32f3b5450be1fb/sqlalchemy_multilingual-0.0.8.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/8e/e2/64c3878c2fecd5fb615940f9a05c9d225f85bf1f3d6b4369dc904faec19d/bigdl_core_cpp-2.5.0b20240505-py3-none-win_amd64.whl
+[2024-05-06 13:17:53] INFO root fetch - processPackages [pysharek]: Downloading https://files.pythonhosted.org/packages/ca/42/70ef2dfa497bb7f5cde7492d5b1dffa053a54366e95d90e84d597e36c2d9/pysharek-0.11.1.tar.gz
+[2024-05-06 13:17:53] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 28077786>=10485760
+[2024-05-06 13:17:53] INFO root fetch - processPackages [bigdl-core-cpp]: Start processing: composio-lyzr
+[2024-05-06 13:17:53] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-06 13:17:53] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/d0/e6/4bb1ee3290f4aba08e9d6751566f039db27dba7d51553fc0681095c6a015/embykeeper-3.2.8.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240506/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240506/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/5c/19/8ea0c682cd79131a75ead02b6736414b58faf49c725da90c5645a0e7424a/composio_julep-0.2.49.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/dc/7d/be6c16a550c5939096799423b2de572214c24e8be021356c9f3eeafaa4f3/sqlalchemy_multilingual-0.0.9.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240506/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 13:17:53] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240506/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-julep]: executing diffoscope
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_julep-0.2.48.tar.gz tmp/composio_julep-0.2.49.tar.gz --markdown 20240506/c/composio-julep/0.2.48-0.2.49/README.md --exclude *.pyd
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [pysharek]: Downloading https://files.pythonhosted.org/packages/bd/c4/e038c1ed9731d41833c17d424407639f0e7e4d8725cf5e9fea567db07d27/pysharek-0.12.0.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [sqlalchemy-multilingual]: executing diffoscope
+[2024-05-06 13:17:53] INFO root fetch - processPackages [sqlalchemy-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_multilingual-0.0.8.tar.gz tmp/sqlalchemy_multilingual-0.0.9.tar.gz --markdown 20240506/s/sqlalchemy-multilingual/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 13:17:53] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/02/85/cffd52bc872be074110305f46303d258fa7478eab3eae08d86465d0653a8/embykeeper-3.2.9.tar.gz
+[2024-05-06 13:17:53] INFO root fetch - processPackages [pysharek]: executing diffoscope
+[2024-05-06 13:17:53] INFO root fetch - processPackages [pysharek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysharek-0.11.1.tar.gz tmp/pysharek-0.12.0.tar.gz --markdown 20240506/p/pysharek/0.11.1-0.12.0/README.md --exclude *.pyd
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-05-06 13:17:53] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240506/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 13:17:53] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 13:17:53] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 13:17:54] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2024-05-06 13:17:54] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-3.2.8.tar.gz tmp/embykeeper-3.2.9.tar.gz --markdown 20240506/e/embykeeper/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-06 13:17:54] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-05-06 13:17:54] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-06 13:17:54] INFO root fetch - processPackages [composio-autogen]: Start processing: composio-openai
+[2024-05-06 13:17:54] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-06 13:17:54] INFO root fetch - processPackages [composio-openai]: New version: [0.2.49] Old Version: [0.2.48]
+[2024-05-06 13:17:54] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-05-06 13:17:54] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-06 13:17:54] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-06 13:17:54] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/0d/e7/9f863c6ec26306b8500655ca6a80ebd38e7a5d48c76f915ce99aef1c0a52/composio_openai-0.2.48.tar.gz
+[2024-05-06 13:17:54] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-05-06 13:17:54] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-06 13:17:54] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-06 13:17:55] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.48.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.49.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - main [MainThread]: End processing [composio-julep]: success
+[2024-05-06 13:17:55] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.8.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.9.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - main [MainThread]: End processing [sqlalchemy-multilingual]: success
+[2024-05-06 13:17:55] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-06 13:17:55] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-05-06 13:17:55] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/00/00/32b5b60c472120882590e14b2a74cb524a509847fb1e8ecae75065d7ef19/composio_openai-0.2.49.tar.gz
+[2024-05-06 13:17:55] INFO root fetch - processPackages [pysharek]: Remove: archive file [/home/abi/fetcher/tmp/pysharek-0.11.1.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - processPackages [pysharek]: Remove: archive file [/home/abi/fetcher/tmp/pysharek-0.12.0.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - main [MainThread]: End processing [pysharek]: success
+[2024-05-06 13:17:55] INFO root fetch - processPackages [composio-openai]: executing diffoscope
+[2024-05-06 13:17:55] INFO root fetch - processPackages [composio-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_openai-0.2.48.tar.gz tmp/composio_openai-0.2.49.tar.gz --markdown 20240506/c/composio-openai/0.2.48-0.2.49/README.md --exclude *.pyd
+[2024-05-06 13:17:55] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.8.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.9.tar.gz]
+[2024-05-06 13:17:55] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2024-05-06 13:17:55] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 13:17:56] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 13:17:56] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 13:17:56] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.48.tar.gz]
+[2024-05-06 13:17:56] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.49.tar.gz]
+[2024-05-06 13:17:56] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
+[2024-05-06 13:17:56] INFO root fetch - main [MainThread]: Store serial: [23076632]
