@@ -3632,3 +3632,33 @@
 [2024-05-06 05:06:41] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-06 05:06:41] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-06 05:06:41] INFO root fetch - main [MainThread]: Store serial: [23070948]
+[2024-05-06 05:08:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070948]
+[2024-05-06 05:08:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 05:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VSVNApplicationMonitoring
+[2024-05-06 05:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystackql
+[2024-05-06 05:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iterfzf
+[2024-05-06 05:08:50] INFO root fetch - processPackages [iterfzf]: New version: [1.2.0.46.1] Old Version: [1.1.0.44.0]
+[2024-05-06 05:08:51] INFO root fetch - processPackages [VSVNApplicationMonitoring]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-06 05:08:51] INFO root fetch - processPackages [pystackql]: New version: [3.6.2] Old Version: [3.6.1]
+[2024-05-06 05:08:51] INFO root fetch - processPackages [iterfzf]: Downloading https://files.pythonhosted.org/packages/41/bf/bebb2b3083380165734b78b9359ddd7f499b68ae2e5bf375f0feb6b58b48/iterfzf-1.1.0.44.0.tar.gz
+[2024-05-06 05:08:51] INFO root fetch - processPackages [VSVNApplicationMonitoring]: Downloading https://files.pythonhosted.org/packages/60/8d/166db57a25dac1078e5dcb83965e1669b4e38affdf2e11515232a8e721e6/vsvnapplicationmonitoring-0.1.2.tar.gz
+[2024-05-06 05:08:51] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/32/2c/7cf9a46cd5b16d032d5253dccaf671fa473dcfca9f1f10179ab57fa271fa/pystackql-3.6.1.tar.gz
+[2024-05-06 05:08:51] INFO root fetch - processPackages [VSVNApplicationMonitoring]: Downloading https://files.pythonhosted.org/packages/ce/02/9d0ca0c9c63ee1a99b8de26d1d72d066da54b689778e67bd64aa06121155/vsvnapplicationmonitoring-0.1.4.tar.gz
+[2024-05-06 05:08:51] INFO root fetch - processPackages [pystackql]: Downloading https://files.pythonhosted.org/packages/e1/7a/42a7dc0d133758650205b297637027d518fddb4187ca2751638c05bac390/pystackql-3.6.2.tar.gz
+[2024-05-06 05:08:51] INFO root fetch - processPackages [VSVNApplicationMonitoring]: executing diffoscope
+[2024-05-06 05:08:51] INFO root fetch - processPackages [VSVNApplicationMonitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsvnapplicationmonitoring-0.1.2.tar.gz tmp/vsvnapplicationmonitoring-0.1.4.tar.gz --markdown 20240506/V/VSVNApplicationMonitoring/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-06 05:08:51] INFO root fetch - processPackages [pystackql]: executing diffoscope
+[2024-05-06 05:08:51] INFO root fetch - processPackages [pystackql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystackql-3.6.1.tar.gz tmp/pystackql-3.6.2.tar.gz --markdown 20240506/p/pystackql/3.6.1-3.6.2/README.md --exclude *.pyd
+[2024-05-06 05:08:52] INFO root fetch - processPackages [iterfzf]: Downloading https://files.pythonhosted.org/packages/66/9b/1fbc310ecf3b8ec91b2f2bb795e7b94529d76db4b60a6cf645323e901690/iterfzf-1.2.0.46.1.tar.gz
+[2024-05-06 05:08:52] INFO root fetch - processPackages [VSVNApplicationMonitoring]: Remove: archive file [/home/abi/fetcher/tmp/vsvnapplicationmonitoring-0.1.2.tar.gz]
+[2024-05-06 05:08:52] INFO root fetch - processPackages [VSVNApplicationMonitoring]: Remove: archive file [/home/abi/fetcher/tmp/vsvnapplicationmonitoring-0.1.4.tar.gz]
+[2024-05-06 05:08:52] INFO root fetch - main [MainThread]: End processing [VSVNApplicationMonitoring]: success
+[2024-05-06 05:08:52] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.6.1.tar.gz]
+[2024-05-06 05:08:52] INFO root fetch - processPackages [pystackql]: Remove: archive file [/home/abi/fetcher/tmp/pystackql-3.6.2.tar.gz]
+[2024-05-06 05:08:52] INFO root fetch - main [MainThread]: End processing [pystackql]: success
+[2024-05-06 05:08:52] INFO root fetch - processPackages [iterfzf]: executing diffoscope
+[2024-05-06 05:08:52] INFO root fetch - processPackages [iterfzf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterfzf-1.1.0.44.0.tar.gz tmp/iterfzf-1.2.0.46.1.tar.gz --markdown 20240506/i/iterfzf/1.1.0.44.0-1.2.0.46.1/README.md --exclude *.pyd
+[2024-05-06 05:09:08] INFO root fetch - processPackages [iterfzf]: Remove: archive file [/home/abi/fetcher/tmp/iterfzf-1.1.0.44.0.tar.gz]
+[2024-05-06 05:09:08] INFO root fetch - processPackages [iterfzf]: Remove: archive file [/home/abi/fetcher/tmp/iterfzf-1.2.0.46.1.tar.gz]
+[2024-05-06 05:09:08] INFO root fetch - main [MainThread]: End processing [iterfzf]: success
+[2024-05-06 05:09:08] INFO root fetch - main [MainThread]: Store serial: [23070972]
