@@ -13191,3 +13191,24 @@
 [2024-05-06 11:01:15] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
 [2024-05-06 11:01:15] INFO root fetch - main [MainThread]: End processing [metal-python]: success
 [2024-05-06 11:01:15] INFO root fetch - main [MainThread]: Store serial: [23074953]
+[2024-05-06 11:03:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23074953]
+[2024-05-06 11:03:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 11:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkt-retv
+[2024-05-06 11:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-spotinst
+[2024-05-06 11:03:24] INFO root fetch - processPackages [mkt-retv]: New version: [1.418] Old Version: [1.417]
+[2024-05-06 11:03:24] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-06 11:03:24] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/71/49/e65d45a453963871854cbb25f9fb026219f78238261681d85c5d6da3c0ed/mkt-retv-1.417.tar.gz
+[2024-05-06 11:03:24] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-06 11:03:24] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/f6/4f/9d64ef8deb81d6cb8dd873cfd853e958377b5967316565d5c9895861e278/mkt-retv-1.418.tar.gz
+[2024-05-06 11:03:24] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-06 11:03:24] INFO root fetch - processPackages [mkt-retv]: executing diffoscope
+[2024-05-06 11:03:24] INFO root fetch - processPackages [mkt-retv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkt-retv-1.417.tar.gz tmp/mkt-retv-1.418.tar.gz --markdown 20240506/m/mkt-retv/1.417-1.418/README.md --exclude *.pyd
+[2024-05-06 11:03:24] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-06 11:03:24] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240506/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-06 11:03:25] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.417.tar.gz]
+[2024-05-06 11:03:25] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.418.tar.gz]
+[2024-05-06 11:03:25] INFO root fetch - main [MainThread]: End processing [mkt-retv]: success
+[2024-05-06 11:03:25] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-06 11:03:25] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-06 11:03:25] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-06 11:03:25] INFO root fetch - main [MainThread]: Store serial: [23074959]
