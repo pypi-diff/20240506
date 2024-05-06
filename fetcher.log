@@ -15508,3 +15508,15 @@
 [2024-05-06 12:26:49] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-2.0.9.tar.gz]
 [2024-05-06 12:26:49] INFO root fetch - main [MainThread]: End processing [trajectopy]: success
 [2024-05-06 12:26:49] INFO root fetch - main [MainThread]: Store serial: [23076029]
+[2024-05-06 12:28:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076029]
+[2024-05-06 12:28:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 12:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultralytics
+[2024-05-06 12:28:58] INFO root fetch - processPackages [ultralytics]: New version: [8.2.9] Old Version: [8.2.8]
+[2024-05-06 12:28:58] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2d/1f/773ce923d52559a9246fe5b3e4d86c67714d941216658acdb23bf9d46212/ultralytics-8.2.8.tar.gz
+[2024-05-06 12:28:58] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/17/6e/89a05ffed4bbaae94368f45323ff75db71965c94c1259457ef61dc551645/ultralytics-8.2.9.tar.gz
+[2024-05-06 12:28:58] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-05-06 12:28:58] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.2.8.tar.gz tmp/ultralytics-8.2.9.tar.gz --markdown 20240506/u/ultralytics/8.2.8-8.2.9/README.md --exclude *.pyd
+[2024-05-06 12:29:00] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.8.tar.gz]
+[2024-05-06 12:29:00] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.9.tar.gz]
+[2024-05-06 12:29:00] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-05-06 12:29:00] INFO root fetch - main [MainThread]: Store serial: [23076032]
