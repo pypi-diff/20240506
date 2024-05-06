@@ -14439,3 +14439,66 @@
 [2024-05-06 11:42:53] INFO root fetch - processPackages [pycldf]: Remove: archive file [/home/abi/fetcher/tmp/pycldf-1.9.0.tar.gz]
 [2024-05-06 11:42:53] INFO root fetch - main [MainThread]: End processing [pycldf]: success
 [2024-05-06 11:42:53] INFO root fetch - main [MainThread]: Store serial: [23075557]
+[2024-05-06 11:44:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075557]
+[2024-05-06 11:45:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airflow-provider-qlik-sense-nprinting
+[2024-05-06 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Test19991021
+[2024-05-06 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycrdt
+[2024-05-06 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkscreener
+[2024-05-06 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: satsync
+[2024-05-06 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coffe-analyzer
+[2024-05-06 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apex-flow
+[2024-05-06 11:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PypiInstruments
+[2024-05-06 11:45:02] INFO root fetch - processPackages [coffe-analyzer]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-06 11:45:02] INFO root fetch - processPackages [Test19991021]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-05-06 11:45:02] INFO root fetch - processPackages [satsync]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-06 11:45:02] WARNING root fetch - processPackages [airflow-provider-qlik-sense-nprinting]: Skipping, unable to determine old version
+[2024-05-06 11:45:02] INFO root fetch - main [MainThread]: End processing [airflow-provider-qlik-sense-nprinting] error
+[2024-05-06 11:45:02] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240506.342] Old Version: [0.44.20240506.341]
+[2024-05-06 11:45:02] INFO root fetch - processPackages [Test19991021]: Downloading https://files.pythonhosted.org/packages/a1/0c/82395223c9d9bf3c950f239eadb9dafcfeff36654ad4b98323461d231a99/Test19991021-3.4.0.tar.gz
+[2024-05-06 11:45:02] INFO root fetch - processPackages [apex-flow]: New version: [1.2.0] Old Version: [1.1.6]
+[2024-05-06 11:45:02] INFO root fetch - processPackages [satsync]: Downloading https://files.pythonhosted.org/packages/e0/02/39ea97763d7ead58700ce9b039a850e9685f9ee5d2de4da795df23017e16/satsync-0.0.4.tar.gz
+[2024-05-06 11:45:02] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/5b/1a/bc6417c40cf80a71f91b57fe27087c0ebbd57719b763d88f990863995452/coffe_analyzer-0.1.3.tar.gz
+[2024-05-06 11:45:02] WARNING root fetch - processPackages [PypiInstruments]: Skipping, unable to determine old version
+[2024-05-06 11:45:02] INFO root fetch - main [MainThread]: End processing [PypiInstruments] error
+[2024-05-06 11:45:02] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/5b/59/45e576c782430bc5316a5a58f1c524a8625a45939826c619363ea5bc3dcd/pkscreener-0.44.20240506.341.tar.gz
+[2024-05-06 11:45:02] INFO root fetch - processPackages [Test19991021]: Downloading https://files.pythonhosted.org/packages/07/89/7d4b9ff46886287ac14f228ac50694438e7b7f070351e02af2e40157cee9/Test19991021-3.5.0-py3-none-any.whl
+[2024-05-06 11:45:02] INFO root fetch - processPackages [apex-flow]: Downloading https://files.pythonhosted.org/packages/42/14/3764cae2fe1aa31d89dd6c2c3828ebbd5043cac9acdf15292f88481d3dd9/apex-flow-1.1.6.tar.gz
+[2024-05-06 11:45:02] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/28/9c/002697741783fc6169e1c595371622c9708b95754fde69ffef366963e908/coffe_analyzer-0.1.4.tar.gz
+[2024-05-06 11:45:03] INFO root fetch - processPackages [Test19991021]: executing diffoscope
+[2024-05-06 11:45:03] INFO root fetch - processPackages [Test19991021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Test19991021-3.4.0.tar.gz tmp/Test19991021-3.5.0-py3-none-any.whl.zip --markdown 20240506/T/Test19991021/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-05-06 11:45:03] INFO root fetch - processPackages [satsync]: Downloading https://files.pythonhosted.org/packages/dd/04/4b7a327070b8d7e3985ce5daa16df6c392cd409361fc7db057dc7ea7116e/satsync-0.0.5.tar.gz
+[2024-05-06 11:45:03] INFO root fetch - processPackages [coffe-analyzer]: executing diffoscope
+[2024-05-06 11:45:03] INFO root fetch - processPackages [coffe-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffe_analyzer-0.1.3.tar.gz tmp/coffe_analyzer-0.1.4.tar.gz --markdown 20240506/c/coffe-analyzer/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-06 11:45:03] INFO root fetch - processPackages [satsync]: executing diffoscope
+[2024-05-06 11:45:03] INFO root fetch - processPackages [satsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsync-0.0.4.tar.gz tmp/satsync-0.0.5.tar.gz --markdown 20240506/s/satsync/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-06 11:45:03] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/7c/e2/ea6629d0223a82874ded36a47e4613f5ccfbdd6b1aef9c5ea7a46d8775d6/pkscreener-0.44.20240506.342.tar.gz
+[2024-05-06 11:45:03] INFO root fetch - processPackages [apex-flow]: Downloading https://files.pythonhosted.org/packages/42/d2/6e2264a0cc74272eea17fb4d855a8324397ce9fb70690b388d9339f9ea77/apex_flow-1.2.0.tar.gz
+[2024-05-06 11:45:03] INFO root fetch - processPackages [pycrdt]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-06 11:45:03] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-06 11:45:03] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240506.341.tar.gz tmp/pkscreener-0.44.20240506.342.tar.gz --markdown 20240506/p/pkscreener/0.44.20240506.341-0.44.20240506.342/README.md --exclude *.pyd
+[2024-05-06 11:45:03] INFO root fetch - processPackages [apex-flow]: executing diffoscope
+[2024-05-06 11:45:03] INFO root fetch - processPackages [apex-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apex-flow-1.1.6.tar.gz tmp/apex_flow-1.2.0.tar.gz --markdown 20240506/a/apex-flow/1.1.6-1.2.0/README.md --exclude *.pyd
+[2024-05-06 11:45:03] INFO root fetch - processPackages [pycrdt]: Downloading https://files.pythonhosted.org/packages/93/23/0799d6c98c5ba4abf174c18a0b275626e439d9c9583ce663a124bf4d53e3/pycrdt-0.8.8.tar.gz
+[2024-05-06 11:45:03] INFO root fetch - processPackages [Test19991021]: Remove: archive file [/home/abi/fetcher/tmp/Test19991021-3.4.0.tar.gz]
+[2024-05-06 11:45:03] INFO root fetch - processPackages [Test19991021]: Remove: archive file [/home/abi/fetcher/tmp/Test19991021-3.5.0-py3-none-any.whl.zip]
+[2024-05-06 11:45:03] INFO root fetch - main [MainThread]: End processing [Test19991021]: success
+[2024-05-06 11:45:03] INFO root fetch - processPackages [satsync]: Remove: archive file [/home/abi/fetcher/tmp/satsync-0.0.4.tar.gz]
+[2024-05-06 11:45:03] INFO root fetch - processPackages [satsync]: Remove: archive file [/home/abi/fetcher/tmp/satsync-0.0.5.tar.gz]
+[2024-05-06 11:45:03] INFO root fetch - main [MainThread]: End processing [satsync]: success
+[2024-05-06 11:45:03] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.3.tar.gz]
+[2024-05-06 11:45:03] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.4.tar.gz]
+[2024-05-06 11:45:03] INFO root fetch - main [MainThread]: End processing [coffe-analyzer]: success
+[2024-05-06 11:45:04] INFO root fetch - processPackages [pycrdt]: Downloading https://files.pythonhosted.org/packages/e1/8d/1a192121bb657c5e119f3f4d64361b806fcb9423021725407252a919e987/pycrdt-0.8.9.tar.gz
+[2024-05-06 11:45:04] INFO root fetch - processPackages [pycrdt]: executing diffoscope
+[2024-05-06 11:45:04] INFO root fetch - processPackages [pycrdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrdt-0.8.8.tar.gz tmp/pycrdt-0.8.9.tar.gz --markdown 20240506/p/pycrdt/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-06 11:45:04] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.341.tar.gz]
+[2024-05-06 11:45:04] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.342.tar.gz]
+[2024-05-06 11:45:04] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-06 11:45:04] INFO root fetch - processPackages [apex-flow]: Remove: archive file [/home/abi/fetcher/tmp/apex-flow-1.1.6.tar.gz]
+[2024-05-06 11:45:04] INFO root fetch - processPackages [apex-flow]: Remove: archive file [/home/abi/fetcher/tmp/apex_flow-1.2.0.tar.gz]
+[2024-05-06 11:45:04] INFO root fetch - main [MainThread]: End processing [apex-flow]: success
+[2024-05-06 11:45:04] INFO root fetch - processPackages [pycrdt]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt-0.8.8.tar.gz]
+[2024-05-06 11:45:04] INFO root fetch - processPackages [pycrdt]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt-0.8.9.tar.gz]
+[2024-05-06 11:45:04] INFO root fetch - main [MainThread]: End processing [pycrdt]: success
+[2024-05-06 11:45:04] INFO root fetch - main [MainThread]: Store serial: [23075613]
