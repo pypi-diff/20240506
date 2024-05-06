@@ -22873,3 +22873,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:59:22] INFO root fetch - processPackages [deltares-coastalhazardstoolkit]: Remove: archive file [/home/abi/fetcher/tmp/deltares_coastalhazardstoolkit-0.2.7.tar.gz]
 [2024-05-06 16:59:22] INFO root fetch - main [MainThread]: End processing [deltares-coastalhazardstoolkit]: success
 [2024-05-06 16:59:22] INFO root fetch - main [MainThread]: Store serial: [23079637]
+[2024-05-06 17:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079637]
+[2024-05-06 17:01:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 17:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unified-planning
+[2024-05-06 17:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: girona-donostia
+[2024-05-06 17:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lakefs-sdk
+[2024-05-06 17:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lakefs-client
+[2024-05-06 17:01:39] INFO root fetch - processPackages [girona-donostia]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 17:01:39] INFO root fetch - processPackages [girona-donostia]: Downloading https://files.pythonhosted.org/packages/60/c4/36c745985e733f829f641f2f74f270959734e1371d5373d18d00da343153/girona_donostia-0.1.8.tar.gz
+[2024-05-06 17:01:39] INFO root fetch - processPackages [lakefs-sdk]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-06 17:01:39] INFO root fetch - processPackages [lakefs-client]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-06 17:01:39] INFO root fetch - processPackages [unified-planning]: New version: [1.1.0.9.dev1] Old Version: [1.1.0.52.dev1]
+[2024-05-06 17:01:39] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/57/be/a4450c759e43b20b40f85c0bb00fb07959df9d30e7555c87ec6683a285d8/lakefs-sdk-1.9.0.tar.gz
+[2024-05-06 17:01:39] INFO root fetch - processPackages [girona-donostia]: Downloading https://files.pythonhosted.org/packages/f1/fb/f355c092348fa1da903dd898a1aa616b514553b52cfda1036012d8115951/girona_donostia-0.1.9.tar.gz
+[2024-05-06 17:01:39] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/0a/a7/2c064b3de83194aa71feb1395d3589046f4652284648b6ec9e4c31d7c50a/unified_planning-1.1.0.52.dev1.tar.gz
+[2024-05-06 17:01:39] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/b5/8b/0e57e5ca7f72b64dcd56587dff33da866b14e4d1dd505d5c315efc513c08/lakefs-client-1.9.0.tar.gz
+[2024-05-06 17:01:39] INFO root fetch - processPackages [girona-donostia]: executing diffoscope
+[2024-05-06 17:01:39] INFO root fetch - processPackages [girona-donostia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girona_donostia-0.1.8.tar.gz tmp/girona_donostia-0.1.9.tar.gz --markdown 20240506/g/girona-donostia/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 17:01:40] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/13/cf/5e0682fc74d8210e18babfe0e44ebb9eee4c4f86cb6a012c84ba0b18fcc2/lakefs-sdk-1.9.1.tar.gz
+[2024-05-06 17:01:40] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/3e/ec/03dc4365f94c5ede698807b6ccad1ecbb2292584f5aef610857104b3073b/unified_planning-1.1.0.9.dev1.tar.gz
+[2024-05-06 17:01:40] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/71/39/dbe6ee4e66e711c97a1ccfa218019d31013870cb273ac42fd4ac3f84928b/lakefs-client-1.9.1.tar.gz
+[2024-05-06 17:01:40] INFO root fetch - processPackages [lakefs-sdk]: executing diffoscope
+[2024-05-06 17:01:40] INFO root fetch - processPackages [lakefs-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-sdk-1.9.0.tar.gz tmp/lakefs-sdk-1.9.1.tar.gz --markdown 20240506/l/lakefs-sdk/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-06 17:01:40] INFO root fetch - processPackages [girona-donostia]: Remove: archive file [/home/abi/fetcher/tmp/girona_donostia-0.1.8.tar.gz]
+[2024-05-06 17:01:40] INFO root fetch - processPackages [girona-donostia]: Remove: archive file [/home/abi/fetcher/tmp/girona_donostia-0.1.9.tar.gz]
+[2024-05-06 17:01:40] INFO root fetch - main [MainThread]: End processing [girona-donostia]: success
+[2024-05-06 17:01:40] INFO root fetch - processPackages [lakefs-client]: executing diffoscope
+[2024-05-06 17:01:40] INFO root fetch - processPackages [lakefs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-client-1.9.0.tar.gz tmp/lakefs-client-1.9.1.tar.gz --markdown 20240506/l/lakefs-client/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-06 17:01:40] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2024-05-06 17:01:40] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.1.0.52.dev1.tar.gz tmp/unified_planning-1.1.0.9.dev1.tar.gz --markdown 20240506/u/unified-planning/1.1.0.52.dev1-1.1.0.9.dev1/README.md --exclude *.pyd
+[2024-05-06 17:01:41] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.0.tar.gz]
+[2024-05-06 17:01:41] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.1.tar.gz]
+[2024-05-06 17:01:41] INFO root fetch - main [MainThread]: End processing [lakefs-sdk]: success
+[2024-05-06 17:01:41] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.0.tar.gz]
+[2024-05-06 17:01:41] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.1.tar.gz]
+[2024-05-06 17:01:41] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
+[2024-05-06 17:01:42] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.52.dev1.tar.gz]
+[2024-05-06 17:01:42] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.9.dev1.tar.gz]
+[2024-05-06 17:01:42] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2024-05-06 17:01:42] INFO root fetch - main [MainThread]: Store serial: [23079654]
