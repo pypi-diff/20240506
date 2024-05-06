@@ -4341,3 +4341,66 @@
 [2024-05-06 05:52:08] INFO root fetch - processPackages [cinrad]: Remove: archive file [/home/abi/fetcher/tmp/cinrad-1.9.0.tar.gz]
 [2024-05-06 05:52:08] INFO root fetch - main [MainThread]: End processing [cinrad]: success
 [2024-05-06 05:52:08] INFO root fetch - main [MainThread]: Store serial: [23071271]
+[2024-05-06 05:54:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071271]
+[2024-05-06 05:54:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 05:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-dataset-converter-redis
+[2024-05-06 05:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pd-extras
+[2024-05-06 05:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-pandas
+[2024-05-06 05:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labelme-toolkit
+[2024-05-06 05:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih
+[2024-05-06 05:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saraApi
+[2024-05-06 05:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flamme
+[2024-05-06 05:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: image-dataset-converter-video
+[2024-05-06 05:54:18] INFO root fetch - processPackages [pd-extras]: New version: [6.0.2] Old Version: [6.0.1]
+[2024-05-06 05:54:18] INFO root fetch - processPackages [saraApi]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2024-05-06 05:54:18] INFO root fetch - processPackages [flamme]: New version: [0.0.9] Old Version: [0.0.8a1]
+[2024-05-06 05:54:18] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-06 05:54:18] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 05:54:18] WARNING root fetch - processPackages [image-dataset-converter-video]: Skipping, unable to determine old version
+[2024-05-06 05:54:18] INFO root fetch - main [MainThread]: End processing [image-dataset-converter-video] error
+[2024-05-06 05:54:18] INFO root fetch - processPackages [labelme-toolkit]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-06 05:54:18] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/fb/aa/e248556965ef56f7ec8583d95831df464a24773a133b801344577747f6ee/pd_extras-6.0.1.tar.gz
+[2024-05-06 05:54:18] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/2f/ff/eb080f9c82c86f12426130db97c20a700da7e40a64ee1aee2a58fbe550dd/saraapi-0.0.0.1.tar.gz
+[2024-05-06 05:54:18] WARNING root fetch - processPackages [image-dataset-converter-redis]: Skipping, unable to determine old version
+[2024-05-06 05:54:18] INFO root fetch - main [MainThread]: End processing [image-dataset-converter-redis] error
+[2024-05-06 05:54:18] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 05:54:18] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-06 05:54:18] INFO root fetch - processPackages [flamme]: Downloading https://files.pythonhosted.org/packages/82/a7/78b097dd39d2b564a47d15e8010ec96499b20fc8f3887469ebd5275302a9/flamme-0.0.8a1.tar.gz
+[2024-05-06 05:54:18] INFO root fetch - processPackages [labelme-toolkit]: Downloading https://files.pythonhosted.org/packages/aa/98/4340bd06d29837400ef7e4a27bfff372b0b67ee43e054966217120fb7905/labelme_toolkit-1.1.2.tar.gz
+[2024-05-06 05:54:18] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 05:54:18] INFO root fetch - processPackages [flamme]: Downloading https://files.pythonhosted.org/packages/95/b9/67cd6cad72d4221f3d61e760b91b826e3165de0cf760406862c63ea1de01/flamme-0.0.9.tar.gz
+[2024-05-06 05:54:18] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-06 05:54:18] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/3e/e0/5037cdd89db3c7c5752485b5a666211009b6620d78ef927e5bc11d6b67c3/pd_extras-6.0.2.tar.gz
+[2024-05-06 05:54:18] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/1d/8a/96407ed8a549f2f7f28825d401d7318bf555592c97f32a39382f531b1c63/saraapi-0.0.0.2.tar.gz
+[2024-05-06 05:54:18] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 05:54:18] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 05:54:18] INFO root fetch - processPackages [pd-extras]: executing diffoscope
+[2024-05-06 05:54:18] INFO root fetch - processPackages [pd-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_extras-6.0.1.tar.gz tmp/pd_extras-6.0.2.tar.gz --markdown 20240506/p/pd-extras/6.0.1-6.0.2/README.md --exclude *.pyd
+[2024-05-06 05:54:18] INFO root fetch - processPackages [flamme]: executing diffoscope
+[2024-05-06 05:54:18] INFO root fetch - processPackages [flamme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamme-0.0.8a1.tar.gz tmp/flamme-0.0.9.tar.gz --markdown 20240506/f/flamme/0.0.8a1-0.0.9/README.md --exclude *.pyd
+[2024-05-06 05:54:18] INFO root fetch - processPackages [saraApi]: executing diffoscope
+[2024-05-06 05:54:18] INFO root fetch - processPackages [saraApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saraapi-0.0.0.1.tar.gz tmp/saraapi-0.0.0.2.tar.gz --markdown 20240506/s/saraApi/0.0.0.1-0.0.0.2/README.md --exclude *.pyd
+[2024-05-06 05:54:18] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-06 05:54:18] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240506/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-06 05:54:18] INFO root fetch - processPackages [labelme-toolkit]: Downloading https://files.pythonhosted.org/packages/43/7b/38cd95a0a7c915b15aaa3b73bcf89979694701f1581f2e0f5bb91ef5e5a0/labelme_toolkit-1.1.3.tar.gz
+[2024-05-06 05:54:19] INFO root fetch - processPackages [labelme-toolkit]: executing diffoscope
+[2024-05-06 05:54:19] INFO root fetch - processPackages [labelme-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelme_toolkit-1.1.2.tar.gz tmp/labelme_toolkit-1.1.3.tar.gz --markdown 20240506/l/labelme-toolkit/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-06 05:54:19] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 05:54:19] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 05:54:19] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 05:54:19] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.1.tar.gz]
+[2024-05-06 05:54:19] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.2.tar.gz]
+[2024-05-06 05:54:19] INFO root fetch - main [MainThread]: End processing [saraApi]: success
+[2024-05-06 05:54:19] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.0.1.tar.gz]
+[2024-05-06 05:54:19] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.0.2.tar.gz]
+[2024-05-06 05:54:19] INFO root fetch - main [MainThread]: End processing [pd-extras]: success
+[2024-05-06 05:54:19] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-06 05:54:19] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-06 05:54:19] INFO root fetch - processPackages [flamme]: Remove: archive file [/home/abi/fetcher/tmp/flamme-0.0.8a1.tar.gz]
+[2024-05-06 05:54:19] INFO root fetch - processPackages [flamme]: Remove: archive file [/home/abi/fetcher/tmp/flamme-0.0.9.tar.gz]
+[2024-05-06 05:54:19] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-06 05:54:19] INFO root fetch - main [MainThread]: End processing [flamme]: success
+[2024-05-06 05:54:20] INFO root fetch - processPackages [labelme-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/labelme_toolkit-1.1.2.tar.gz]
+[2024-05-06 05:54:20] INFO root fetch - processPackages [labelme-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/labelme_toolkit-1.1.3.tar.gz]
+[2024-05-06 05:54:20] INFO root fetch - main [MainThread]: End processing [labelme-toolkit]: success
+[2024-05-06 05:54:20] INFO root fetch - main [MainThread]: Store serial: [23071303]
