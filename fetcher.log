@@ -15209,3 +15209,45 @@
 [2024-05-06 12:09:15] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050509.tar.gz]
 [2024-05-06 12:09:15] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-06 12:09:15] INFO root fetch - main [MainThread]: Store serial: [23075904]
+[2024-05-06 12:11:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075904]
+[2024-05-06 12:11:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 12:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: communication-services
+[2024-05-06 12:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DeFiLlama
+[2024-05-06 12:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlsdk
+[2024-05-06 12:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iac-init
+[2024-05-06 12:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mail-debrand
+[2024-05-06 12:11:26] INFO root fetch - processPackages [mlsdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 12:11:26] INFO root fetch - processPackages [iac-init]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-06 12:11:26] INFO root fetch - processPackages [DeFiLlama]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-06 12:11:26] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/e7/8d/4d2cfa6665324b00abdf47d78a0d36e2e662931873e7bbb1b3e709a60878/iac_init-0.5.0.tar.gz
+[2024-05-06 12:11:26] INFO root fetch - processPackages [odoo-addon-mail-debrand]: New version: [17.0.1.0.0.7] Old Version: [16.0.1.0.2.1]
+[2024-05-06 12:11:26] INFO root fetch - processPackages [mlsdk]: Downloading https://files.pythonhosted.org/packages/df/cd/0eaa854d1cef2a3c1f5cf628a8ca9aefb5031fdfe5619e37c14234ea24ba/mlsdk-0.0.1.tar.gz
+[2024-05-06 12:11:26] INFO root fetch - processPackages [DeFiLlama]: Downloading https://files.pythonhosted.org/packages/a2/ce/b931bd67e2ddf0196a1ab991005a7db8e823846d3ee8efa60dbe63173c8c/defillama-2.2.0.tar.gz
+[2024-05-06 12:11:26] INFO root fetch - processPackages [odoo-addon-mail-debrand]: Downloading https://files.pythonhosted.org/packages/1f/6b/23f87663326a30f312ac53bc6549a95acb666a6eecaf0fcc2507e5767f42/odoo_addon_mail_debrand-16.0.1.0.2.1-py3-none-any.whl
+[2024-05-06 12:11:26] WARNING root fetch - processPackages [communication-services]: Skipping, unable to determine old version
+[2024-05-06 12:11:26] INFO root fetch - main [MainThread]: End processing [communication-services] error
+[2024-05-06 12:11:26] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/d8/a1/b226356d6e34c79ab9dbee20de819fb41b64f9691761dea9929a89e00668/iac_init-0.5.1.tar.gz
+[2024-05-06 12:11:27] INFO root fetch - processPackages [mlsdk]: Downloading https://files.pythonhosted.org/packages/12/75/a95ca3b63eba32f84cf792e98b8e606735b3639f4118f234c45faeff27f5/mlsdk-0.0.2.tar.gz
+[2024-05-06 12:11:27] INFO root fetch - processPackages [DeFiLlama]: Downloading https://files.pythonhosted.org/packages/96/13/cef9e39d1df64f272d6bb62ced9ef2b06e725aabee820da3a7df5c1e0c97/defillama-2.2.1.tar.gz
+[2024-05-06 12:11:27] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-06 12:11:27] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.5.0.tar.gz tmp/iac_init-0.5.1.tar.gz --markdown 20240506/i/iac-init/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-06 12:11:27] INFO root fetch - processPackages [mlsdk]: executing diffoscope
+[2024-05-06 12:11:27] INFO root fetch - processPackages [mlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsdk-0.0.1.tar.gz tmp/mlsdk-0.0.2.tar.gz --markdown 20240506/m/mlsdk/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 12:11:27] INFO root fetch - processPackages [DeFiLlama]: executing diffoscope
+[2024-05-06 12:11:27] INFO root fetch - processPackages [DeFiLlama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defillama-2.2.0.tar.gz tmp/defillama-2.2.1.tar.gz --markdown 20240506/D/DeFiLlama/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-06 12:11:27] INFO root fetch - processPackages [odoo-addon-mail-debrand]: Downloading https://files.pythonhosted.org/packages/64/f9/9c322aeba472ae5004923ccaa95b885cedce33633fa8d16eeb539c99170c/odoo_addon_mail_debrand-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-06 12:11:27] INFO root fetch - processPackages [odoo-addon-mail-debrand]: executing diffoscope
+[2024-05-06 12:11:27] INFO root fetch - processPackages [odoo-addon-mail-debrand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_debrand-16.0.1.0.2.1-py3-none-any.whl.zip tmp/odoo_addon_mail_debrand-17.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-mail-debrand/16.0.1.0.2.1-17.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-06 12:11:27] INFO root fetch - processPackages [mlsdk]: Remove: archive file [/home/abi/fetcher/tmp/mlsdk-0.0.1.tar.gz]
+[2024-05-06 12:11:27] INFO root fetch - processPackages [mlsdk]: Remove: archive file [/home/abi/fetcher/tmp/mlsdk-0.0.2.tar.gz]
+[2024-05-06 12:11:27] INFO root fetch - main [MainThread]: End processing [mlsdk]: success
+[2024-05-06 12:11:27] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.0.tar.gz]
+[2024-05-06 12:11:27] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.1.tar.gz]
+[2024-05-06 12:11:27] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-06 12:11:27] INFO root fetch - processPackages [DeFiLlama]: Remove: archive file [/home/abi/fetcher/tmp/defillama-2.2.0.tar.gz]
+[2024-05-06 12:11:27] INFO root fetch - processPackages [DeFiLlama]: Remove: archive file [/home/abi/fetcher/tmp/defillama-2.2.1.tar.gz]
+[2024-05-06 12:11:27] INFO root fetch - main [MainThread]: End processing [DeFiLlama]: success
+[2024-05-06 12:11:28] INFO root fetch - processPackages [odoo-addon-mail-debrand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_debrand-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2024-05-06 12:11:28] INFO root fetch - processPackages [odoo-addon-mail-debrand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_debrand-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-06 12:11:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-debrand]: success
+[2024-05-06 12:11:28] INFO root fetch - main [MainThread]: Store serial: [23075917]
