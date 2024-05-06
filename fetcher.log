@@ -2382,3 +2382,24 @@
 [2024-05-06 03:45:50] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.4.tar.gz]
 [2024-05-06 03:45:50] INFO root fetch - main [MainThread]: End processing [xursparks]: success
 [2024-05-06 03:45:50] INFO root fetch - main [MainThread]: Store serial: [23070482]
+[2024-05-06 03:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070482]
+[2024-05-06 03:47:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 03:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typedmongo
+[2024-05-06 03:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-interfaces
+[2024-05-06 03:47:58] INFO root fetch - processPackages [typedmongo]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-05-06 03:47:58] INFO root fetch - processPackages [mojo-interfaces]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-06 03:47:58] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/b8/6a/1b07a7771929d20025666f7d2f8e494fbe8e1f0a3c162c9eeff92b53dc20/typedmongo-1.1.4.tar.gz
+[2024-05-06 03:47:58] INFO root fetch - processPackages [mojo-interfaces]: Downloading https://files.pythonhosted.org/packages/93/b1/e1062be6c12bdbe5f7fafc4ede59b47544393e25d0f3bccf9c74bd46cd64/mojo_interfaces-1.3.2.tar.gz
+[2024-05-06 03:47:59] INFO root fetch - processPackages [mojo-interfaces]: Downloading https://files.pythonhosted.org/packages/d8/ff/84a6d7ab7b01ecf5f43719436342d3d898d0144402515c60fe6ce19c70c1/mojo_interfaces-1.3.3.tar.gz
+[2024-05-06 03:47:59] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/6a/c6/fc30210d79963f46c83de281fa7ba30d8c5e1a0c61d0c956b3f4cda7ff70/typedmongo-1.2.0.tar.gz
+[2024-05-06 03:47:59] INFO root fetch - processPackages [mojo-interfaces]: executing diffoscope
+[2024-05-06 03:47:59] INFO root fetch - processPackages [mojo-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interfaces-1.3.2.tar.gz tmp/mojo_interfaces-1.3.3.tar.gz --markdown 20240506/m/mojo-interfaces/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-06 03:47:59] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-05-06 03:47:59] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.1.4.tar.gz tmp/typedmongo-1.2.0.tar.gz --markdown 20240506/t/typedmongo/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-05-06 03:47:59] INFO root fetch - processPackages [mojo-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interfaces-1.3.2.tar.gz]
+[2024-05-06 03:47:59] INFO root fetch - processPackages [mojo-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interfaces-1.3.3.tar.gz]
+[2024-05-06 03:47:59] INFO root fetch - main [MainThread]: End processing [mojo-interfaces]: success
+[2024-05-06 03:47:59] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.1.4.tar.gz]
+[2024-05-06 03:47:59] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.2.0.tar.gz]
+[2024-05-06 03:47:59] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-05-06 03:47:59] INFO root fetch - main [MainThread]: Store serial: [23070488]
