@@ -5733,3 +5733,72 @@
 [2024-05-06 07:30:16] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-1.1.0.tar.gz]
 [2024-05-06 07:30:16] INFO root fetch - main [MainThread]: End processing [beanhub-cli]: success
 [2024-05-06 07:30:16] INFO root fetch - main [MainThread]: Store serial: [23071961]
+[2024-05-06 07:32:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071961]
+[2024-05-06 07:32:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 07:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2024-05-06 07:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmcategorizer
+[2024-05-06 07:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowclient
+[2024-05-06 07:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowmachine
+[2024-05-06 07:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowetl
+[2024-05-06 07:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowkit-jwt-generator
+[2024-05-06 07:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: group-profile-remote
+[2024-05-06 07:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-runtime-nightly
+[2024-05-06 07:32:24] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-06 07:32:24] INFO root fetch - processPackages [group-profile-remote]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 07:32:24] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev84] Old Version: [1.25.0.post0.dev82]
+[2024-05-06 07:32:24] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-06 07:32:24] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.6.0] Old Version: [2024.5.5.1]
+[2024-05-06 07:32:24] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-06 07:32:24] WARNING root fetch - processPackages [llmcategorizer]: Skipping, unable to determine old version
+[2024-05-06 07:32:24] INFO root fetch - main [MainThread]: End processing [llmcategorizer] error
+[2024-05-06 07:32:25] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/d6/33/ab096f276fe5e54500857cb3593d867c9d8078ea8c62fa953704ab27462b/group-profile-remote-0.0.8.tar.gz
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/d8/04/ec38abb03b417d9cc1b34cf5b7c0b6eda9be3ed5926b49e127e0e65a9797/flowkit_jwt_generator-1.25.0.post0.dev82-py3-none-any.whl
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-06 07:32:25] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/a9/4b/f6d5ffe04e9cea0a5638148031379dba6191181959a28f35a87c9c0cb079/crazy_thursday-2024.5.5.1.tar.gz
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-06 07:32:25] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240505] Old Version: [2.17.0.dev20240504]
+[2024-05-06 07:32:25] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/34/ee/57cb372a3197cdeb2c87926baf42fae2595983919e4f9ab179939ad1b72e/group-profile-remote-0.0.9.tar.gz
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/d1/0a/583429706504aaf122c1ae7c52813724e9981af97e3de81373a6964ab080/flowkit_jwt_generator-1.25.0.post0.dev84-py3-none-any.whl
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-06 07:32:25] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/75/a7/fc3c887a0bf7f6998e7a269ad973bf07d2d1c5bc4fbad5182c1de73645b9/crazy_thursday-2024.5.6.0.tar.gz
+[2024-05-06 07:32:25] INFO root fetch - processPackages [group-profile-remote]: executing diffoscope
+[2024-05-06 07:32:25] INFO root fetch - processPackages [group-profile-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group-profile-remote-0.0.8.tar.gz tmp/group-profile-remote-0.0.9.tar.gz --markdown 20240506/g/group-profile-remote/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240506/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-06 07:32:25] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/cc/92/ae56119c2cfa8a1cbbec5ac1b2f7a5f4add702fe307addcc538c42c554ec/tflite_runtime_nightly-2.17.0.dev20240504-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev82-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev84-py3-none-any.whl.zip --markdown 20240506/f/flowkit-jwt-generator/1.25.0.post0.dev82-1.25.0.post0.dev84/README.md --exclude *.pyd
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240506/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-06 07:32:25] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-06 07:32:25] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.5.1.tar.gz tmp/crazy_thursday-2024.5.6.0.tar.gz --markdown 20240506/c/crazy-thursday/2024.5.5.1-2024.5.6.0/README.md --exclude *.pyd
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-06 07:32:25] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240506/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-06 07:32:26] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/4e/b9/78362a68ce38bf3adf0cf2ecda5370e246ad199903f1057517a2d8a4af69/tflite_runtime_nightly-2.17.0.dev20240505-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-06 07:32:26] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev82-py3-none-any.whl.zip]
+[2024-05-06 07:32:26] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev84-py3-none-any.whl.zip]
+[2024-05-06 07:32:26] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-06 07:32:26] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.5.1.tar.gz]
+[2024-05-06 07:32:26] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.6.0.tar.gz]
+[2024-05-06 07:32:26] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-06 07:32:26] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-06 07:32:26] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-06 07:32:26] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-05-06 07:32:26] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-06 07:32:26] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-06 07:32:26] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-06 07:32:26] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.8.tar.gz]
+[2024-05-06 07:32:26] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.9.tar.gz]
+[2024-05-06 07:32:26] INFO root fetch - main [MainThread]: End processing [group-profile-remote]: success
+[2024-05-06 07:32:26] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-06 07:32:26] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-06 07:32:26] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-06 07:32:28] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-06 07:32:28] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240504-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240505-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240506/t/tflite-runtime-nightly/2.17.0.dev20240504-2.17.0.dev20240505/README.md --exclude *.pyd
+[2024-05-06 07:32:55] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240504-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-06 07:32:55] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240505-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-06 07:32:55] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-06 07:32:55] INFO root fetch - main [MainThread]: Store serial: [23071987]
