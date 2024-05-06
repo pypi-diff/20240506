@@ -3593,3 +3593,42 @@
 [2024-05-06 05:04:30] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.9.0-py3-none-any.whl.zip]
 [2024-05-06 05:04:30] INFO root fetch - main [MainThread]: End processing [geodesic-api]: success
 [2024-05-06 05:04:30] INFO root fetch - main [MainThread]: Store serial: [23070919]
+[2024-05-06 05:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070919]
+[2024-05-06 05:06:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 05:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmeg
+[2024-05-06 05:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: generic-exporters
+[2024-05-06 05:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: packyak-aws-cdk
+[2024-05-06 05:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2024-05-06 05:06:39] INFO root fetch - processPackages [generic-exporters]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 05:06:39] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-06 05:06:39] INFO root fetch - processPackages [generic-exporters]: Downloading https://files.pythonhosted.org/packages/bd/19/1f8c17f429c446f3b0db26d6fd4951e956be16ee417d61819678a52fe47a/generic_exporters-0.0.8.tar.gz
+[2024-05-06 05:06:39] INFO root fetch - processPackages [packyak-aws-cdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-06 05:06:39] INFO root fetch - processPackages [hmeg]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 05:06:39] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-06 05:06:39] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/3f/5c/9c62d5ca11e5b2b4dce5e057fc33093ed5dbde055cfab1842da917cf273b/packyak-aws-cdk-0.4.8.tar.gz
+[2024-05-06 05:06:39] INFO root fetch - processPackages [generic-exporters]: Downloading https://files.pythonhosted.org/packages/b3/80/ff71b5d46319bde258f656bea46eb1b4866487aefe381edcb82f32e6f35a/generic_exporters-0.0.9.tar.gz
+[2024-05-06 05:06:39] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-06 05:06:40] INFO root fetch - processPackages [generic-exporters]: executing diffoscope
+[2024-05-06 05:06:40] INFO root fetch - processPackages [generic-exporters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic_exporters-0.0.8.tar.gz tmp/generic_exporters-0.0.9.tar.gz --markdown 20240506/g/generic-exporters/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 05:06:40] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-06 05:06:40] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240506/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-06 05:06:40] INFO root fetch - processPackages [packyak-aws-cdk]: Downloading https://files.pythonhosted.org/packages/f5/c9/e1e1e0b9b00311d30bf76d73a1b624c59a03f40fa3252dd635089b115f37/packyak-aws-cdk-0.4.9.tar.gz
+[2024-05-06 05:06:40] INFO root fetch - processPackages [hmeg]: Downloading https://files.pythonhosted.org/packages/1e/ad/f00df1fe62f0d1debc4eb936abcb677d17391da69d0d365b625b2346c913/hmeg-0.1.4.tar.gz
+[2024-05-06 05:06:40] INFO root fetch - processPackages [packyak-aws-cdk]: executing diffoscope
+[2024-05-06 05:06:40] INFO root fetch - processPackages [packyak-aws-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packyak-aws-cdk-0.4.8.tar.gz tmp/packyak-aws-cdk-0.4.9.tar.gz --markdown 20240506/p/packyak-aws-cdk/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-06 05:06:40] INFO root fetch - processPackages [generic-exporters]: Remove: archive file [/home/abi/fetcher/tmp/generic_exporters-0.0.8.tar.gz]
+[2024-05-06 05:06:40] INFO root fetch - processPackages [generic-exporters]: Remove: archive file [/home/abi/fetcher/tmp/generic_exporters-0.0.9.tar.gz]
+[2024-05-06 05:06:40] INFO root fetch - main [MainThread]: End processing [generic-exporters]: success
+[2024-05-06 05:06:40] INFO root fetch - processPackages [hmeg]: Downloading https://files.pythonhosted.org/packages/df/d2/f096660130730b9980d3e11c7d4917d5b14f304833ea8316a116b36c49cb/hmeg-0.1.5.tar.gz
+[2024-05-06 05:06:40] INFO root fetch - processPackages [hmeg]: executing diffoscope
+[2024-05-06 05:06:40] INFO root fetch - processPackages [hmeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmeg-0.1.4.tar.gz tmp/hmeg-0.1.5.tar.gz --markdown 20240506/h/hmeg/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 05:06:41] INFO root fetch - processPackages [hmeg]: Remove: archive file [/home/abi/fetcher/tmp/hmeg-0.1.4.tar.gz]
+[2024-05-06 05:06:41] INFO root fetch - processPackages [hmeg]: Remove: archive file [/home/abi/fetcher/tmp/hmeg-0.1.5.tar.gz]
+[2024-05-06 05:06:41] INFO root fetch - main [MainThread]: End processing [hmeg]: success
+[2024-05-06 05:06:41] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.8.tar.gz]
+[2024-05-06 05:06:41] INFO root fetch - processPackages [packyak-aws-cdk]: Remove: archive file [/home/abi/fetcher/tmp/packyak-aws-cdk-0.4.9.tar.gz]
+[2024-05-06 05:06:41] INFO root fetch - main [MainThread]: End processing [packyak-aws-cdk]: success
+[2024-05-06 05:06:41] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-06 05:06:41] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-06 05:06:41] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-06 05:06:41] INFO root fetch - main [MainThread]: Store serial: [23070948]
