@@ -19739,3 +19739,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:12:17] INFO root fetch - main [MainThread]: End processing [udata-tabular-preview]: success
 [2024-05-06 15:12:17] INFO root fetch - main [MainThread]: End processing [udata-tabular-preview]: success
 [2024-05-06 15:12:17] INFO root fetch - main [MainThread]: Store serial: [23078021]
+[2024-05-06 15:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078021]
+[2024-05-06 15:14:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 15:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysypt
+[2024-05-06 15:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accoilz
+[2024-05-06 15:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-be-cooperator-website-national-number
+[2024-05-06 15:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upgini
+[2024-05-06 15:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-05-06 15:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: importer-local
+[2024-05-06 15:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KFSconfig
+[2024-05-06 15:14:26] INFO root fetch - processPackages [pysypt]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 15:14:26] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 15:14:26] INFO root fetch - processPackages [KFSconfig]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-06 15:14:26] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.5.6] Old Version: [2024.5.5]
+[2024-05-06 15:14:26] WARNING root fetch - processPackages [accoilz]: Skipping, unable to determine old version
+[2024-05-06 15:14:26] INFO root fetch - main [MainThread]: End processing [accoilz] error
+[2024-05-06 15:14:26] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2024-05-06 15:14:26] INFO root fetch - processPackages [pysypt]: Downloading https://files.pythonhosted.org/packages/13/f2/d1d2b4ab64d48614a56c721ef59ca5a0ad317a7a9c74d43338d39757a10a/pysypt-1.0.1.tar.gz
+[2024-05-06 15:14:26] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-06 15:14:26] INFO root fetch - processPackages [KFSconfig]: Downloading https://files.pythonhosted.org/packages/91/74/d966d7dd3d07713bdcc45bc97aa06a948df38225c8373d334d8129ffdcc8/kfsconfig-2.0.0.tar.gz
+[2024-05-06 15:14:26] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2024-05-06 15:14:26] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: Downloading https://files.pythonhosted.org/packages/33/ca/907bceaaaaf87b79b291a2e68c42b61c5cdac9830fc4f7d12d572c631cde/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-06 15:14:26] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2024-05-06 15:14:26] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/1e/d6/349afb416cf3582d04ec28c5319a68315072e0f1b8ac5c4584a5b01835df/fbgemm_gpu_nightly_cpu-2024.5.5-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-06 15:14:26] INFO root fetch - processPackages [KFSconfig]: Downloading https://files.pythonhosted.org/packages/83/79/6f9d33121eb781a7ccefe2eda8a4cc0bbb17556d6b64d7ee82d88a282601/kfsconfig-2.0.1.tar.gz
+[2024-05-06 15:14:26] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-06 15:14:26] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2024-05-06 15:14:26] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20240506/i/importer-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 15:14:26] INFO root fetch - processPackages [KFSconfig]: executing diffoscope
+[2024-05-06 15:14:26] INFO root fetch - processPackages [KFSconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsconfig-2.0.0.tar.gz tmp/kfsconfig-2.0.1.tar.gz --markdown 20240506/K/KFSconfig/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-06 15:14:26] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: Downloading https://files.pythonhosted.org/packages/31/1a/40c3e3687bbc1609d762d726b0f3a4a0ca1e1aa99e387cfbab8f46f85557/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.1-py3-none-any.whl
+[2024-05-06 15:14:26] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: executing diffoscope
+[2024-05-06 15:14:26] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-l10n-be-cooperator-website-national-number/16.0.1.0.0.3-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-06 15:14:26] INFO root fetch - processPackages [pysypt]: Downloading https://files.pythonhosted.org/packages/66/47/382b998b1d9890531161b19e4b25ff217be69ddd70cd6abb6a278921761e/pysypt-1.0.2.tar.gz
+[2024-05-06 15:14:27] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-06 15:14:27] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-06 15:14:27] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240506/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-06 15:14:27] INFO root fetch - processPackages [KFSconfig]: Remove: archive file [/home/abi/fetcher/tmp/kfsconfig-2.0.0.tar.gz]
+[2024-05-06 15:14:27] INFO root fetch - processPackages [KFSconfig]: Remove: archive file [/home/abi/fetcher/tmp/kfsconfig-2.0.1.tar.gz]
+[2024-05-06 15:14:27] INFO root fetch - main [MainThread]: End processing [KFSconfig]: success
+[2024-05-06 15:14:27] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2024-05-06 15:14:27] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2024-05-06 15:14:27] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2024-05-06 15:14:27] INFO root fetch - processPackages [pysypt]: executing diffoscope
+[2024-05-06 15:14:27] INFO root fetch - processPackages [pysypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysypt-1.0.1.tar.gz tmp/pysypt-1.0.2.tar.gz --markdown 20240506/p/pysypt/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 15:14:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/8b/29/3e959804a97a9660869a5c3d9cc31e0676a2baf61dde915426c8f956b1db/fbgemm_gpu_nightly_cpu-2024.5.6-cp38-cp38-manylinux2014_x86_64.whl
+[2024-05-06 15:14:27] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-06 15:14:27] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-06 15:14:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-cooperator-website-national-number]: success
+[2024-05-06 15:14:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-05-06 15:14:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.5.5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.5.6-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20240506/f/fbgemm-gpu-nightly-cpu/2024.5.5-2024.5.6/README.md --exclude *.pyd
+[2024-05-06 15:14:28] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-06 15:14:28] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-06 15:14:28] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-06 15:14:28] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-1.0.1.tar.gz]
+[2024-05-06 15:14:28] INFO root fetch - processPackages [pysypt]: Remove: archive file [/home/abi/fetcher/tmp/pysypt-1.0.2.tar.gz]
+[2024-05-06 15:14:28] INFO root fetch - main [MainThread]: End processing [pysypt]: success
+[2024-05-06 15:15:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-06 15:15:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.6-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2024-05-06 15:15:41] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-05-06 15:15:41] INFO root fetch - main [MainThread]: Store serial: [23078044]
