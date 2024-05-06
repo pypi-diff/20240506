@@ -6060,3 +6060,51 @@
 [2024-05-06 07:52:30] WARNING root fetch - processPackages [simplepro]: Skipping package: exceeds size limit 17993000>=10485760
 [2024-05-06 07:52:30] INFO root fetch - main [MainThread]: End processing [simplepro] error
 [2024-05-06 07:52:30] INFO root fetch - main [MainThread]: Store serial: [23072081]
+[2024-05-06 07:54:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072081]
+[2024-05-06 07:54:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 07:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bot-station
+[2024-05-06 07:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdss-kaiju
+[2024-05-06 07:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracebloc-package-dev
+[2024-05-06 07:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ozonetel-ai
+[2024-05-06 07:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: beanhub-cli
+[2024-05-06 07:54:39] INFO root fetch - processPackages [beanhub-cli]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-06 07:54:39] INFO root fetch - processPackages [bot-station]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-06 07:54:39] INFO root fetch - processPackages [beanhub-cli]: Downloading https://files.pythonhosted.org/packages/c5/9c/c01db31d7e796632d89900ee269b5f84e3a996f2a2b8fd6cdf9e36ac56e2/beanhub_cli-1.0.2.tar.gz
+[2024-05-06 07:54:39] INFO root fetch - processPackages [sdss-kaiju]: New version: [1.4.0b4] Old Version: [1.4.0b3]
+[2024-05-06 07:54:39] INFO root fetch - processPackages [ozonetel-ai]: New version: [0.0.14] Old Version: [0.0.13]
+[2024-05-06 07:54:39] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-06 07:54:39] INFO root fetch - processPackages [bot-station]: Downloading https://files.pythonhosted.org/packages/82/2f/8d1c168fa9614abe991de9c617f31e4128093012eb1da39cd4fc9f4a64db/bot_station-0.2.0.tar.gz
+[2024-05-06 07:54:39] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/b4/96/3e0c4b7f21db85f319ca30e3fa61d2159c261316972dbad24d6db30cac64/ozonetel-ai-0.0.13.tar.gz
+[2024-05-06 07:54:39] INFO root fetch - processPackages [sdss-kaiju]: Downloading https://files.pythonhosted.org/packages/c3/35/4b55b9dff86bc31844462849989407aaf233ccbeb6ae9c51345199adeab2/sdss_kaiju-1.4.0b3.tar.gz
+[2024-05-06 07:54:39] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-05-06 07:54:39] INFO root fetch - processPackages [beanhub-cli]: Downloading https://files.pythonhosted.org/packages/f9/d0/d18f3082ef6e6d9d9bae27a99f6319a23b518d3f07a9e38212bed0748854/beanhub_cli-1.1.0.tar.gz
+[2024-05-06 07:54:40] INFO root fetch - processPackages [bot-station]: Downloading https://files.pythonhosted.org/packages/65/98/bc108a577247841945d84f70a2e0947965ea92edc1717b46266ce72b9145/bot_station-0.3.0.tar.gz
+[2024-05-06 07:54:40] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/0b/1f/8fd556331f76eba99dc9af99face26bc5699a0cbb8e9e975e9364d3e7e6e/ozonetel-ai-0.0.14.tar.gz
+[2024-05-06 07:54:40] INFO root fetch - processPackages [beanhub-cli]: executing diffoscope
+[2024-05-06 07:54:40] INFO root fetch - processPackages [beanhub-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_cli-1.0.2.tar.gz tmp/beanhub_cli-1.1.0.tar.gz --markdown 20240506/b/beanhub-cli/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-06 07:54:40] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-05-06 07:54:40] INFO root fetch - processPackages [sdss-kaiju]: Downloading https://files.pythonhosted.org/packages/2a/83/695e20e97e0f9680214e4d79afdf881e0f80215ef51440d6b7c6c4bf4dbf/sdss_kaiju-1.4.0b4.tar.gz
+[2024-05-06 07:54:40] INFO root fetch - processPackages [bot-station]: executing diffoscope
+[2024-05-06 07:54:40] INFO root fetch - processPackages [bot-station]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bot_station-0.2.0.tar.gz tmp/bot_station-0.3.0.tar.gz --markdown 20240506/b/bot-station/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-06 07:54:40] INFO root fetch - processPackages [ozonetel-ai]: executing diffoscope
+[2024-05-06 07:54:40] INFO root fetch - processPackages [ozonetel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozonetel-ai-0.0.13.tar.gz tmp/ozonetel-ai-0.0.14.tar.gz --markdown 20240506/o/ozonetel-ai/0.0.13-0.0.14/README.md --exclude *.pyd
+[2024-05-06 07:54:40] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-05-06 07:54:40] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240506/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-06 07:54:40] INFO root fetch - processPackages [sdss-kaiju]: executing diffoscope
+[2024-05-06 07:54:40] INFO root fetch - processPackages [sdss-kaiju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_kaiju-1.4.0b3.tar.gz tmp/sdss_kaiju-1.4.0b4.tar.gz --markdown 20240506/s/sdss-kaiju/1.4.0b3-1.4.0b4/README.md --exclude *.pyd
+[2024-05-06 07:54:40] INFO root fetch - processPackages [bot-station]: Remove: archive file [/home/abi/fetcher/tmp/bot_station-0.2.0.tar.gz]
+[2024-05-06 07:54:40] INFO root fetch - processPackages [bot-station]: Remove: archive file [/home/abi/fetcher/tmp/bot_station-0.3.0.tar.gz]
+[2024-05-06 07:54:40] INFO root fetch - main [MainThread]: End processing [bot-station]: success
+[2024-05-06 07:54:40] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-05-06 07:54:40] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-05-06 07:54:40] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-05-06 07:54:40] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.13.tar.gz]
+[2024-05-06 07:54:40] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.14.tar.gz]
+[2024-05-06 07:54:40] INFO root fetch - main [MainThread]: End processing [ozonetel-ai]: success
+[2024-05-06 07:54:40] INFO root fetch - processPackages [sdss-kaiju]: Remove: archive file [/home/abi/fetcher/tmp/sdss_kaiju-1.4.0b3.tar.gz]
+[2024-05-06 07:54:40] INFO root fetch - processPackages [sdss-kaiju]: Remove: archive file [/home/abi/fetcher/tmp/sdss_kaiju-1.4.0b4.tar.gz]
+[2024-05-06 07:54:40] INFO root fetch - main [MainThread]: End processing [sdss-kaiju]: success
+[2024-05-06 07:54:41] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-1.0.2.tar.gz]
+[2024-05-06 07:54:41] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-1.1.0.tar.gz]
+[2024-05-06 07:54:41] INFO root fetch - main [MainThread]: End processing [beanhub-cli]: success
+[2024-05-06 07:54:41] INFO root fetch - main [MainThread]: Store serial: [23072093]
