@@ -6174,3 +6174,21 @@
 [2024-05-06 07:59:09] INFO root fetch - processPackages [datalibro-utils]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_utils-2.3.3.tar.gz]
 [2024-05-06 07:59:09] INFO root fetch - main [MainThread]: End processing [datalibro-utils]: success
 [2024-05-06 07:59:09] INFO root fetch - main [MainThread]: Store serial: [23072128]
+[2024-05-06 08:01:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072128]
+[2024-05-06 08:01:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 08:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wellwiz
+[2024-05-06 08:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xcloudClients
+[2024-05-06 08:01:18] INFO root fetch - processPackages [xcloudClients]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-06 08:01:18] INFO root fetch - processPackages [xcloudClients]: Downloading https://files.pythonhosted.org/packages/a0/61/1098268bc9a281fcf8c2021b6e8206ee0709e66b622cbab8fcce36ba5026/xcloudClients-0.2.0.tar.gz
+[2024-05-06 08:01:18] INFO root fetch - processPackages [wellwiz]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-06 08:01:18] INFO root fetch - processPackages [wellwiz]: Downloading https://files.pythonhosted.org/packages/87/15/306fd22d2da68250490ef023e7f56a35e5b6de668c415c370e945810d182/wellwiz-0.0.2.tar.gz
+[2024-05-06 08:01:18] INFO root fetch - processPackages [xcloudClients]: Downloading https://files.pythonhosted.org/packages/84/55/800d240f01649e3777b2c7c2933d2568e1b7c91d0e8a79d17c046891fdf5/xcloudClients-0.3.0.tar.gz
+[2024-05-06 08:01:19] INFO root fetch - processPackages [xcloudClients]: executing diffoscope
+[2024-05-06 08:01:19] INFO root fetch - processPackages [xcloudClients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloudClients-0.2.0.tar.gz tmp/xcloudClients-0.3.0.tar.gz --markdown 20240506/x/xcloudClients/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-06 08:01:19] INFO root fetch - processPackages [wellwiz]: Downloading https://files.pythonhosted.org/packages/aa/dc/9d178b09f01a3e15ddd9c8fc5b34d20a618f278aac483d046b554ff19c12/wellwiz-0.0.3.tar.gz
+[2024-05-06 08:01:19] WARNING root fetch - processPackages [wellwiz]: Skipping package: exceeds size limit 67095060>=10485760
+[2024-05-06 08:01:19] INFO root fetch - main [MainThread]: End processing [wellwiz] error
+[2024-05-06 08:01:19] INFO root fetch - processPackages [xcloudClients]: Remove: archive file [/home/abi/fetcher/tmp/xcloudClients-0.2.0.tar.gz]
+[2024-05-06 08:01:19] INFO root fetch - processPackages [xcloudClients]: Remove: archive file [/home/abi/fetcher/tmp/xcloudClients-0.3.0.tar.gz]
+[2024-05-06 08:01:19] INFO root fetch - main [MainThread]: End processing [xcloudClients]: success
+[2024-05-06 08:01:19] INFO root fetch - main [MainThread]: Store serial: [23072137]
