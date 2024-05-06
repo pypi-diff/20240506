@@ -6192,3 +6192,24 @@
 [2024-05-06 08:01:19] INFO root fetch - processPackages [xcloudClients]: Remove: archive file [/home/abi/fetcher/tmp/xcloudClients-0.3.0.tar.gz]
 [2024-05-06 08:01:19] INFO root fetch - main [MainThread]: End processing [xcloudClients]: success
 [2024-05-06 08:01:19] INFO root fetch - main [MainThread]: Store serial: [23072137]
+[2024-05-06 08:03:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072137]
+[2024-05-06 08:03:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 08:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxlie
+[2024-05-06 08:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlsauce
+[2024-05-06 08:03:28] INFO root fetch - processPackages [jaxlie]: New version: [1.4.0] Old Version: [1.3.4]
+[2024-05-06 08:03:28] INFO root fetch - processPackages [mlsauce]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-06 08:03:28] INFO root fetch - processPackages [jaxlie]: Downloading https://files.pythonhosted.org/packages/67/3d/60448b3c8018addaa42e1c7e87889f3d3952e1697f8a51045d972b0e9f83/jaxlie-1.3.4.tar.gz
+[2024-05-06 08:03:28] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/09/f7/2b520a477f7710396348e4b9d582826758d5b083fe9b79613abe9c1435dd/mlsauce-0.9.0.tar.gz
+[2024-05-06 08:03:29] INFO root fetch - processPackages [jaxlie]: Downloading https://files.pythonhosted.org/packages/69/27/ba9ea422b638355cc4239064a4d85e0499182fad1f7f8715294630259bf7/jaxlie-1.4.0.tar.gz
+[2024-05-06 08:03:29] INFO root fetch - processPackages [jaxlie]: executing diffoscope
+[2024-05-06 08:03:29] INFO root fetch - processPackages [jaxlie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxlie-1.3.4.tar.gz tmp/jaxlie-1.4.0.tar.gz --markdown 20240506/j/jaxlie/1.3.4-1.4.0/README.md --exclude *.pyd
+[2024-05-06 08:03:29] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/34/94/ecad26410f10cd9ffb719f2bc235ed21c44541226f01a963cd37706f4b37/mlsauce-0.9.1.tar.gz
+[2024-05-06 08:03:29] INFO root fetch - processPackages [mlsauce]: executing diffoscope
+[2024-05-06 08:03:29] INFO root fetch - processPackages [mlsauce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsauce-0.9.0.tar.gz tmp/mlsauce-0.9.1.tar.gz --markdown 20240506/m/mlsauce/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-06 08:03:30] INFO root fetch - processPackages [jaxlie]: Remove: archive file [/home/abi/fetcher/tmp/jaxlie-1.3.4.tar.gz]
+[2024-05-06 08:03:30] INFO root fetch - processPackages [jaxlie]: Remove: archive file [/home/abi/fetcher/tmp/jaxlie-1.4.0.tar.gz]
+[2024-05-06 08:03:30] INFO root fetch - main [MainThread]: End processing [jaxlie]: success
+[2024-05-06 08:03:30] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.0.tar.gz]
+[2024-05-06 08:03:30] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
+[2024-05-06 08:03:30] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
+[2024-05-06 08:03:30] INFO root fetch - main [MainThread]: Store serial: [23072142]
