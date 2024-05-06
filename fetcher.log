@@ -7149,3 +7149,45 @@
 [2024-05-06 09:01:09] INFO root fetch - processPackages [toga-core]: Remove: archive file [/home/abi/fetcher/tmp/toga_core-0.4.3.tar.gz]
 [2024-05-06 09:01:09] INFO root fetch - main [MainThread]: End processing [toga-core]: success
 [2024-05-06 09:01:09] INFO root fetch - main [MainThread]: Store serial: [23072605]
+[2024-05-06 09:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072605]
+[2024-05-06 09:03:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 09:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toga-cocoa
+[2024-05-06 09:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toga-dummy
+[2024-05-06 09:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-telemetry-generic-v2
+[2024-05-06 09:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python_dev_utils
+[2024-05-06 09:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seqio-nightly
+[2024-05-06 09:03:19] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-06 09:03:19] INFO root fetch - processPackages [python_dev_utils]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-05-06 09:03:19] WARNING root fetch - processPackages [open-telemetry-generic-v2]: Skipping, unable to determine old version
+[2024-05-06 09:03:19] INFO root fetch - main [MainThread]: End processing [open-telemetry-generic-v2] error
+[2024-05-06 09:03:19] INFO root fetch - processPackages [toga-dummy]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-06 09:03:19] INFO root fetch - processPackages [toga-cocoa]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-06 09:03:19] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-06 09:03:19] INFO root fetch - processPackages [toga-cocoa]: Downloading https://files.pythonhosted.org/packages/7c/66/ecbba21c9ac77aad69670d1701ed7e7f26f40c5843c29a98abdebfc331c5/toga-cocoa-0.4.2.tar.gz
+[2024-05-06 09:03:19] INFO root fetch - processPackages [toga-dummy]: Downloading https://files.pythonhosted.org/packages/4a/68/910ec62bc21864d9dd63bd01c8dd1f5d03607725b6f2bb359dad970cab73/toga-dummy-0.4.2.tar.gz
+[2024-05-06 09:03:19] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-06 09:03:19] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/37/5c/55b3773eb5a2c715c4141972be2d48dcb14b9892baea6da803d3809437eb/python_dev_utils-1.8.1.tar.gz
+[2024-05-06 09:03:19] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-06 09:03:19] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240506/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-06 09:03:20] INFO root fetch - processPackages [toga-dummy]: Downloading https://files.pythonhosted.org/packages/f0/3c/fdf8cfb944c6343fef5b6ee41d9edd3312505cd0d75c7924f06f5e4e1142/toga_dummy-0.4.3.tar.gz
+[2024-05-06 09:03:20] INFO root fetch - processPackages [toga-cocoa]: Downloading https://files.pythonhosted.org/packages/ce/e8/b4d3993693c09db6b3a9c7d5f86bdad17e458aeb946b967a81ea0d940112/toga_cocoa-0.4.3.tar.gz
+[2024-05-06 09:03:20] INFO root fetch - processPackages [toga-dummy]: executing diffoscope
+[2024-05-06 09:03:20] INFO root fetch - processPackages [toga-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toga-dummy-0.4.2.tar.gz tmp/toga_dummy-0.4.3.tar.gz --markdown 20240506/t/toga-dummy/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-06 09:03:20] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/6d/63/68c54aee419f31319dab58d849c28770c9f6a692b9d03f3fb08a26d59392/python_dev_utils-1.8.2.tar.gz
+[2024-05-06 09:03:20] INFO root fetch - processPackages [toga-cocoa]: executing diffoscope
+[2024-05-06 09:03:20] INFO root fetch - processPackages [toga-cocoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toga-cocoa-0.4.2.tar.gz tmp/toga_cocoa-0.4.3.tar.gz --markdown 20240506/t/toga-cocoa/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-06 09:03:20] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-05-06 09:03:20] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.8.1.tar.gz tmp/python_dev_utils-1.8.2.tar.gz --markdown 20240506/p/python_dev_utils/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-05-06 09:03:20] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-06 09:03:20] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-06 09:03:20] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-06 09:03:20] INFO root fetch - processPackages [toga-dummy]: Remove: archive file [/home/abi/fetcher/tmp/toga-dummy-0.4.2.tar.gz]
+[2024-05-06 09:03:20] INFO root fetch - processPackages [toga-dummy]: Remove: archive file [/home/abi/fetcher/tmp/toga_dummy-0.4.3.tar.gz]
+[2024-05-06 09:03:20] INFO root fetch - main [MainThread]: End processing [toga-dummy]: success
+[2024-05-06 09:03:21] INFO root fetch - processPackages [toga-cocoa]: Remove: archive file [/home/abi/fetcher/tmp/toga-cocoa-0.4.2.tar.gz]
+[2024-05-06 09:03:21] INFO root fetch - processPackages [toga-cocoa]: Remove: archive file [/home/abi/fetcher/tmp/toga_cocoa-0.4.3.tar.gz]
+[2024-05-06 09:03:21] INFO root fetch - main [MainThread]: End processing [toga-cocoa]: success
+[2024-05-06 09:03:21] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.8.1.tar.gz]
+[2024-05-06 09:03:21] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.8.2.tar.gz]
+[2024-05-06 09:03:21] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-05-06 09:03:21] INFO root fetch - main [MainThread]: Store serial: [23072639]
