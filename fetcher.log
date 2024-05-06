@@ -19467,3 +19467,121 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:05:35] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.2.7.tar.gz]
 [2024-05-06 15:05:35] INFO root fetch - main [MainThread]: End processing [pycyclops]: success
 [2024-05-06 15:05:35] INFO root fetch - main [MainThread]: Store serial: [23077928]
+[2024-05-06 15:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077928]
+[2024-05-06 15:07:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-06 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaces
+[2024-05-06 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: i18nice
+[2024-05-06 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epimodel-sensitivity-test
+[2024-05-06 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ReverseBox
+[2024-05-06 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: decthings-model
+[2024-05-06 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-tabular-preview
+[2024-05-06 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cvmtrans
+[2024-05-06 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blankslate-python
+[2024-05-06 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crate-docs-theme
+[2024-05-06 15:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ReverseBox
+[2024-05-06 15:07:45] INFO root fetch - processPackages [blankslate-python]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-06 15:07:45] INFO root fetch - processPackages [epimodel-sensitivity-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 15:07:45] INFO root fetch - processPackages [ReverseBox]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-06 15:07:45] INFO root fetch - processPackages [ReverseBox]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-06 15:07:45] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 15:07:45] INFO root fetch - processPackages [blankslate-python]: Downloading https://files.pythonhosted.org/packages/f6/df/1f978fa1ffa94c80e3d88299c6fb28867ae7e6eedf9129ad9e5d64779f6a/blankslate_python-1.3.2.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [spaces]: New version: [0.9b3] Old Version: [0.9b2]
+[2024-05-06 15:07:45] INFO root fetch - processPackages [decthings-model]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-06 15:07:45] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/8e/7f/0d0d25c57a332c235ca8795a2d7c90b66a2fb95df691edb26f3e2ea592a4/epimodel_sensitivity_test-0.1.8.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [i18nice]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-06 15:07:45] INFO root fetch - processPackages [cvmtrans]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-06 15:07:45] INFO root fetch - processPackages [udata-tabular-preview]: New version: [3.2.1.dev760] Old Version: [3.2.0]
+[2024-05-06 15:07:45] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/d1/c3/6bc63d99438ad058c6caf3cd05d52bd03200ec6ceda9b935dc71447ab750/ReverseBox-0.8.9.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/d1/c3/6bc63d99438ad058c6caf3cd05d52bd03200ec6ceda9b935dc71447ab750/ReverseBox-0.8.9.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/97/20/6104cd0bd4c12ccb3af8b026d3fe0110bea1c762e3f1dc3381c6fe248cf7/spaces-0.9b2.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [i18nice]: Downloading https://files.pythonhosted.org/packages/72/30/8ac9dd93101ad6c35138f312d618a7bff5d5e807d324ce8bf90e59f750ea/i18nice-0.9.0.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [decthings-model]: Downloading https://files.pythonhosted.org/packages/32/e7/7e3505372ebd00d77fa0a6f727f96eab7992b74c969254982edc3f1e8dfb/decthings_model-0.0.5.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [cvmtrans]: Downloading https://files.pythonhosted.org/packages/9b/04/536e6adffd1122b1a525c6e2d721833e20ede51b43568d9d6113695dec98/cvmtrans-0.0.7.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [udata-tabular-preview]: Downloading https://files.pythonhosted.org/packages/e7/01/544fb3554bc5349b970bd815c6708e8adaadccda46585819a6eee0de8378/udata_tabular_preview-3.2.0-py2.py3-none-any.whl
+[2024-05-06 15:07:45] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/d7/d7/8b62d5443dfbe8593c57e1b827c1944ff940d9e7dcf8041f4a4ff5a17fd4/epimodel_sensitivity_test-0.1.9.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/3c/1b/23d76b3e10b16e93f1678f40e6fb6e444d98e7a9d5c36f300ae9517702e9/ReverseBox-0.9.0.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [blankslate-python]: Downloading https://files.pythonhosted.org/packages/9f/18/1b5e3a12c37099125a7d6e51ee2c14d95687750d0e35ea862a44b2c4effb/blankslate_python-1.3.3.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/3c/1b/23d76b3e10b16e93f1678f40e6fb6e444d98e7a9d5c36f300ae9517702e9/ReverseBox-0.9.0.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [epimodel-sensitivity-test]: executing diffoscope
+[2024-05-06 15:07:45] INFO root fetch - processPackages [epimodel-sensitivity-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epimodel_sensitivity_test-0.1.8.tar.gz tmp/epimodel_sensitivity_test-0.1.9.tar.gz --markdown 20240506/e/epimodel-sensitivity-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 15:07:45] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/83/79/aa4f627e9e8f99f07d6b32f22ce1aa9f4788cebf4ae57072deae30fbbcb0/spaces-0.9b3.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2024-05-06 15:07:45] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.8.9.tar.gz tmp/ReverseBox-0.9.0.tar.gz --markdown 20240506/R/ReverseBox/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-06 15:07:45] INFO root fetch - processPackages [blankslate-python]: executing diffoscope
+[2024-05-06 15:07:45] INFO root fetch - processPackages [blankslate-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blankslate_python-1.3.2.tar.gz tmp/blankslate_python-1.3.3.tar.gz --markdown 20240506/b/blankslate-python/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-06 15:07:45] INFO root fetch - processPackages [decthings-model]: Downloading https://files.pythonhosted.org/packages/5b/8c/0f394b11c6e628826d084d26b5cdc4dfbb229f3204c9dc9e2262056974d1/decthings_model-0.0.6.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 15:07:45] INFO root fetch - processPackages [cvmtrans]: Downloading https://files.pythonhosted.org/packages/a5/1c/886bce9dcda95e6b89907cc0f8e04d400e98bd00127462aeb8b60cb1e1b7/cvmtrans-0.0.8.tar.gz
+[2024-05-06 15:07:46] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2024-05-06 15:07:46] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.8.9.tar.gz tmp/ReverseBox-0.9.0.tar.gz --markdown 20240506/R/ReverseBox/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-06 15:07:46] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2024-05-06 15:07:46] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.9b2.tar.gz tmp/spaces-0.9b3.tar.gz --markdown 20240506/s/spaces/0.9b2-0.9b3/README.md --exclude *.pyd
+[2024-05-06 15:07:46] INFO root fetch - processPackages [udata-tabular-preview]: Downloading https://files.pythonhosted.org/packages/20/24/c5c3bca8c165fc6b0e617385dbf152c119190045e0cf7b29267b0f699971/udata_tabular_preview-3.2.1.dev760-py2.py3-none-any.whl
+[2024-05-06 15:07:46] INFO root fetch - processPackages [decthings-model]: executing diffoscope
+[2024-05-06 15:07:46] INFO root fetch - processPackages [decthings-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decthings_model-0.0.5.tar.gz tmp/decthings_model-0.0.6.tar.gz --markdown 20240506/d/decthings-model/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-06 15:07:46] INFO root fetch - processPackages [cvmtrans]: executing diffoscope
+[2024-05-06 15:07:46] INFO root fetch - processPackages [cvmtrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvmtrans-0.0.7.tar.gz tmp/cvmtrans-0.0.8.tar.gz --markdown 20240506/c/cvmtrans/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-06 15:07:46] INFO root fetch - processPackages [i18nice]: Downloading https://files.pythonhosted.org/packages/68/c5/dcb5bd7276acea371082b954fc1eda7db083c48caee940fb73b784c62397/i18nice-0.9.1.tar.gz
+[2024-05-06 15:07:46] INFO root fetch - processPackages [udata-tabular-preview]: executing diffoscope
+[2024-05-06 15:07:46] INFO root fetch - processPackages [udata-tabular-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_tabular_preview-3.2.0-py2.py3-none-any.whl.zip tmp/udata_tabular_preview-3.2.1.dev760-py2.py3-none-any.whl.zip --markdown 20240506/u/udata-tabular-preview/3.2.0-3.2.1.dev760/README.md --exclude *.pyd
+[2024-05-06 15:07:46] INFO root fetch - processPackages [i18nice]: executing diffoscope
+[2024-05-06 15:07:46] INFO root fetch - processPackages [i18nice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i18nice-0.9.0.tar.gz tmp/i18nice-0.9.1.tar.gz --markdown 20240506/i/i18nice/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-06 15:07:46] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 15:07:46] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 15:07:46] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.8.tar.gz]
+[2024-05-06 15:07:46] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.9.tar.gz]
+[2024-05-06 15:07:46] INFO root fetch - processPackages [epimodel-sensitivity-test]: Start processing: swiss-army-man
+[2024-05-06 15:07:46] INFO root fetch - main [MainThread]: End processing [epimodel-sensitivity-test]: success
+[2024-05-06 15:07:46] INFO root fetch - processPackages [blankslate-python]: Remove: archive file [/home/abi/fetcher/tmp/blankslate_python-1.3.2.tar.gz]
+[2024-05-06 15:07:46] INFO root fetch - processPackages [blankslate-python]: Remove: archive file [/home/abi/fetcher/tmp/blankslate_python-1.3.3.tar.gz]
+[2024-05-06 15:07:46] INFO root fetch - processPackages [blankslate-python]: Start processing: comun-va
+[2024-05-06 15:07:46] INFO root fetch - main [MainThread]: End processing [blankslate-python]: success
+[2024-05-06 15:07:47] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b2.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b3.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - processPackages [spaces]: Start processing: sagepy
+[2024-05-06 15:07:47] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2024-05-06 15:07:47] INFO root fetch - processPackages [decthings-model]: Remove: archive file [/home/abi/fetcher/tmp/decthings_model-0.0.5.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - processPackages [decthings-model]: Remove: archive file [/home/abi/fetcher/tmp/decthings_model-0.0.6.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - main [MainThread]: End processing [decthings-model]: success
+[2024-05-06 15:07:47] INFO root fetch - processPackages [swiss-army-man]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-06 15:07:47] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.7.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - processPackages [cvmtrans]: Remove: archive file [/home/abi/fetcher/tmp/cvmtrans-0.0.8.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - main [MainThread]: End processing [cvmtrans]: success
+[2024-05-06 15:07:47] INFO root fetch - processPackages [comun-va]: New version: [3.3] Old Version: [3.2]
+[2024-05-06 15:07:47] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.8.9.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.0.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2024-05-06 15:07:47] INFO root fetch - processPackages [sagepy]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 15:07:47] INFO root fetch - processPackages [i18nice]: Remove: archive file [/home/abi/fetcher/tmp/i18nice-0.9.0.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - processPackages [i18nice]: Remove: archive file [/home/abi/fetcher/tmp/i18nice-0.9.1.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - main [MainThread]: End processing [i18nice]: success
+[2024-05-06 15:07:47] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2024-05-06 15:07:47] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/48/1f/294f600f1fa28cd18c161440c03fb3b30e0c131a86552d9308f61aa90137/swiss_army_man-0.1.7.tar.gz
+[2024-05-06 15:07:47] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/f3/42/97ecc6acdfc06f826a13647db5864148a7dc6b55f107416ed84f30ebadbf/comun_va-3.2.tar.gz
+[2024-05-06 15:07:47] INFO root fetch - processPackages [sagepy]: Downloading https://files.pythonhosted.org/packages/a6/a9/8608c33c3f406700d95091be2effca6650cf7ffb82771055851a2ca367d0/sagepy-0.2.7.tar.gz
+[2024-05-06 15:07:47] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/56/82/24e0c66ae73179bc5f3180da018b1c49aadae130d6093a4ba1f45acd2afa/swiss_army_man-0.1.9.tar.gz
+[2024-05-06 15:07:47] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 15:07:47] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 15:07:47] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/79/b3/1cc192b96668fb42754e177b6c16517e101fb57b7bfee1bc221216e4e3ec/comun_va-3.3.tar.gz
+[2024-05-06 15:07:47] INFO root fetch - processPackages [swiss-army-man]: executing diffoscope
+[2024-05-06 15:07:47] INFO root fetch - processPackages [swiss-army-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiss_army_man-0.1.7.tar.gz tmp/swiss_army_man-0.1.9.tar.gz --markdown 20240506/s/swiss-army-man/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-06 15:07:47] INFO root fetch - processPackages [sagepy]: Downloading https://files.pythonhosted.org/packages/dc/0a/9092227420b72b14b6404e915daf756b6ef8b9aee5322a124397a87e75b8/sagepy-0.2.8.tar.gz
+[2024-05-06 15:07:47] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2024-05-06 15:07:47] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-3.2.tar.gz tmp/comun_va-3.3.tar.gz --markdown 20240506/c/comun-va/3.2-3.3/README.md --exclude *.pyd
+[2024-05-06 15:07:48] INFO root fetch - processPackages [sagepy]: executing diffoscope
+[2024-05-06 15:07:48] INFO root fetch - processPackages [sagepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagepy-0.2.7.tar.gz tmp/sagepy-0.2.8.tar.gz --markdown 20240506/s/sagepy/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 15:07:48] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.7.tar.gz]
+[2024-05-06 15:07:48] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.9.tar.gz]
+[2024-05-06 15:07:48] INFO root fetch - main [MainThread]: End processing [swiss-army-man]: success
+[2024-05-06 15:07:48] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.2.tar.gz]
+[2024-05-06 15:07:48] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.3.tar.gz]
+[2024-05-06 15:07:48] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2024-05-06 15:07:48] INFO root fetch - processPackages [sagepy]: Remove: archive file [/home/abi/fetcher/tmp/sagepy-0.2.7.tar.gz]
+[2024-05-06 15:07:48] INFO root fetch - processPackages [sagepy]: Remove: archive file [/home/abi/fetcher/tmp/sagepy-0.2.8.tar.gz]
+[2024-05-06 15:07:48] INFO root fetch - main [MainThread]: End processing [sagepy]: success
+[2024-05-06 15:07:51] INFO root fetch - processPackages [udata-tabular-preview]: Remove: archive file [/home/abi/fetcher/tmp/udata_tabular_preview-3.2.0-py2.py3-none-any.whl.zip]
+[2024-05-06 15:07:51] INFO root fetch - processPackages [udata-tabular-preview]: Remove: archive file [/home/abi/fetcher/tmp/udata_tabular_preview-3.2.1.dev760-py2.py3-none-any.whl.zip]
+[2024-05-06 15:07:51] INFO root fetch - main [MainThread]: End processing [udata-tabular-preview]: success
+[2024-05-06 15:07:51] INFO root fetch - main [MainThread]: Store serial: [23077960]
