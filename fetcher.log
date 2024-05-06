@@ -2262,3 +2262,24 @@
 [2024-05-06 03:30:39] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.9.4.tar.gz]
 [2024-05-06 03:30:39] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2024-05-06 03:30:39] INFO root fetch - main [MainThread]: Store serial: [23070416]
+[2024-05-06 03:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070416]
+[2024-05-06 03:32:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 03:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkg-inspect
+[2024-05-06 03:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FLAI-CAUSAL
+[2024-05-06 03:32:49] INFO root fetch - processPackages [pkg-inspect]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 03:32:49] INFO root fetch - processPackages [pkg-inspect]: Downloading https://files.pythonhosted.org/packages/53/f2/ca105b756c8dc4bee5cd2cf7682653255773502a98f1c40d1141580184e1/pkg_inspect-0.1.4.tar.gz
+[2024-05-06 03:32:49] INFO root fetch - processPackages [FLAI-CAUSAL]: New version: [2.0.0] Old Version: [1.1.0]
+[2024-05-06 03:32:49] INFO root fetch - processPackages [FLAI-CAUSAL]: Downloading https://files.pythonhosted.org/packages/c6/bf/0875e08a84205c4bb77cc9f861ef731899b01d4a125a919f021cdfe0dd2d/FLAI_CAUSAL-1.1.0.tar.gz
+[2024-05-06 03:32:49] INFO root fetch - processPackages [pkg-inspect]: Downloading https://files.pythonhosted.org/packages/71/12/1a5b7427606a59ac34a12fc15badc29e26e8d4a617a3ab1c0e7a088d355e/pkg_inspect-0.1.5.tar.gz
+[2024-05-06 03:32:49] INFO root fetch - processPackages [pkg-inspect]: executing diffoscope
+[2024-05-06 03:32:49] INFO root fetch - processPackages [pkg-inspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_inspect-0.1.4.tar.gz tmp/pkg_inspect-0.1.5.tar.gz --markdown 20240506/p/pkg-inspect/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 03:32:49] INFO root fetch - processPackages [FLAI-CAUSAL]: Downloading https://files.pythonhosted.org/packages/cf/07/ac4c491ed92dc2fb132b10c039e84258e61f6e3afb03cf1274fcaaa3ff36/flai_causal-2.0.0.tar.gz
+[2024-05-06 03:32:49] INFO root fetch - processPackages [FLAI-CAUSAL]: executing diffoscope
+[2024-05-06 03:32:49] INFO root fetch - processPackages [FLAI-CAUSAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLAI_CAUSAL-1.1.0.tar.gz tmp/flai_causal-2.0.0.tar.gz --markdown 20240506/F/FLAI-CAUSAL/1.1.0-2.0.0/README.md --exclude *.pyd
+[2024-05-06 03:32:50] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.4.tar.gz]
+[2024-05-06 03:32:50] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.5.tar.gz]
+[2024-05-06 03:32:50] INFO root fetch - main [MainThread]: End processing [pkg-inspect]: success
+[2024-05-06 03:32:50] INFO root fetch - processPackages [FLAI-CAUSAL]: Remove: archive file [/home/abi/fetcher/tmp/FLAI_CAUSAL-1.1.0.tar.gz]
+[2024-05-06 03:32:50] INFO root fetch - processPackages [FLAI-CAUSAL]: Remove: archive file [/home/abi/fetcher/tmp/flai_causal-2.0.0.tar.gz]
+[2024-05-06 03:32:50] INFO root fetch - main [MainThread]: End processing [FLAI-CAUSAL]: success
+[2024-05-06 03:32:50] INFO root fetch - main [MainThread]: Store serial: [23070421]
