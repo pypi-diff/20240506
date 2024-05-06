@@ -2084,3 +2084,56 @@
 [2024-05-06 03:18:43] INFO root fetch - processPackages [ksc-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/ksc-sdk-python-1.3.65.tar.gz]
 [2024-05-06 03:18:43] INFO root fetch - main [MainThread]: End processing [ksc-sdk-python]: success
 [2024-05-06 03:18:43] INFO root fetch - main [MainThread]: Store serial: [23070352]
+[2024-05-06 03:20:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070352]
+[2024-05-06 03:20:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-06 03:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moped
+[2024-05-06 03:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: release-by-changelog
+[2024-05-06 03:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: release-by-changelog
+[2024-05-06 03:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: release-by-changelog
+[2024-05-06 03:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-data-requirement-mixin
+[2024-05-06 03:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepllm
+[2024-05-06 03:20:52] INFO root fetch - processPackages [deepllm]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-06 03:20:52] INFO root fetch - processPackages [release-by-changelog]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-06 03:20:52] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/13/93/1440526db5ec70de98af46cf4afd57479509073601738d9f7e1511adb570/deepllm-1.5.1.tar.gz
+[2024-05-06 03:20:52] INFO root fetch - processPackages [release-by-changelog]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-06 03:20:52] INFO root fetch - processPackages [release-by-changelog]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-06 03:20:52] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-mixin]: New version: [14.0.3.7.0] Old Version: [14.0.3.6.0]
+[2024-05-06 03:20:52] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2024-05-06 03:20:52] INFO root fetch - processPackages [release-by-changelog]: Downloading https://files.pythonhosted.org/packages/bf/9a/6940f8f986a488b5967933175305e39c29008d36e33f75a767ea5ad714f4/release_by_changelog-0.2.1.tar.gz
+[2024-05-06 03:20:52] INFO root fetch - processPackages [release-by-changelog]: Downloading https://files.pythonhosted.org/packages/bf/9a/6940f8f986a488b5967933175305e39c29008d36e33f75a767ea5ad714f4/release_by_changelog-0.2.1.tar.gz
+[2024-05-06 03:20:52] INFO root fetch - processPackages [release-by-changelog]: Downloading https://files.pythonhosted.org/packages/bf/9a/6940f8f986a488b5967933175305e39c29008d36e33f75a767ea5ad714f4/release_by_changelog-0.2.1.tar.gz
+[2024-05-06 03:20:52] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-mixin]: Downloading https://files.pythonhosted.org/packages/f9/9c/3d62a0bb793929f60f8f36440a349df36d55a72c6e62ea1ca65c874957f1/odoo14_addon_ssi_data_requirement_mixin-14.0.3.6.0-py3-none-any.whl
+[2024-05-06 03:20:52] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2024-05-06 03:20:53] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/bb/36/88e89fccbb1612196128191006b2135ceb52ab1dca63e547cf98418e1baa/deepllm-1.5.2.tar.gz
+[2024-05-06 03:20:53] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2024-05-06 03:20:53] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-1.5.1.tar.gz tmp/deepllm-1.5.2.tar.gz --markdown 20240506/d/deepllm/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-06 03:20:53] INFO root fetch - processPackages [release-by-changelog]: Downloading https://files.pythonhosted.org/packages/96/f0/9d4178919876954e614341ca5b45bcec969ca8fe7ccbb0d771c846578832/release_by_changelog-0.2.2.tar.gz
+[2024-05-06 03:20:53] INFO root fetch - processPackages [release-by-changelog]: Downloading https://files.pythonhosted.org/packages/96/f0/9d4178919876954e614341ca5b45bcec969ca8fe7ccbb0d771c846578832/release_by_changelog-0.2.2.tar.gz
+[2024-05-06 03:20:53] INFO root fetch - processPackages [release-by-changelog]: Downloading https://files.pythonhosted.org/packages/96/f0/9d4178919876954e614341ca5b45bcec969ca8fe7ccbb0d771c846578832/release_by_changelog-0.2.2.tar.gz
+[2024-05-06 03:20:53] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2024-05-06 03:20:53] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-mixin]: Downloading https://files.pythonhosted.org/packages/dd/98/67faf071dc1207079c9246ef4fb2d4382cee0e51ec600c14810322a0c317/odoo14_addon_ssi_data_requirement_mixin-14.0.3.7.0-py3-none-any.whl
+[2024-05-06 03:20:53] INFO root fetch - processPackages [release-by-changelog]: executing diffoscope
+[2024-05-06 03:20:53] INFO root fetch - processPackages [release-by-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/release_by_changelog-0.2.1.tar.gz tmp/release_by_changelog-0.2.2.tar.gz --markdown 20240506/r/release-by-changelog/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-06 03:20:53] INFO root fetch - processPackages [release-by-changelog]: executing diffoscope
+[2024-05-06 03:20:53] INFO root fetch - processPackages [release-by-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/release_by_changelog-0.2.1.tar.gz tmp/release_by_changelog-0.2.2.tar.gz --markdown 20240506/r/release-by-changelog/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-06 03:20:53] INFO root fetch - processPackages [moped]: executing diffoscope
+[2024-05-06 03:20:53] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20240506/m/moped/1.9.9-1rc1/README.md --exclude *.pyd
+[2024-05-06 03:20:53] INFO root fetch - processPackages [release-by-changelog]: executing diffoscope
+[2024-05-06 03:20:53] INFO root fetch - processPackages [release-by-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/release_by_changelog-0.2.1.tar.gz tmp/release_by_changelog-0.2.2.tar.gz --markdown 20240506/r/release-by-changelog/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-06 03:20:53] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-mixin]: executing diffoscope
+[2024-05-06 03:20:53] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_data_requirement_mixin-14.0.3.6.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_data_requirement_mixin-14.0.3.7.0-py3-none-any.whl.zip --markdown 20240506/o/odoo14-addon-ssi-data-requirement-mixin/14.0.3.6.0-14.0.3.7.0/README.md --exclude *.pyd
+[2024-05-06 03:20:53] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.5.1.tar.gz]
+[2024-05-06 03:20:53] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.5.2.tar.gz]
+[2024-05-06 03:20:53] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2024-05-06 03:20:54] INFO root fetch - processPackages [release-by-changelog]: Remove: archive file [/home/abi/fetcher/tmp/release_by_changelog-0.2.1.tar.gz]
+[2024-05-06 03:20:54] INFO root fetch - processPackages [release-by-changelog]: Remove: archive file [/home/abi/fetcher/tmp/release_by_changelog-0.2.2.tar.gz]
+[2024-05-06 03:20:54] INFO root fetch - main [MainThread]: End processing [release-by-changelog]: success
+[2024-05-06 03:20:54] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2024-05-06 03:20:54] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2024-05-06 03:20:54] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2024-05-06 03:20:54] INFO root fetch - main [MainThread]: End processing [release-by-changelog]: success
+[2024-05-06 03:20:54] INFO root fetch - main [MainThread]: End processing [release-by-changelog]: success
+[2024-05-06 03:20:54] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_data_requirement_mixin-14.0.3.6.0-py3-none-any.whl.zip]
+[2024-05-06 03:20:54] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_data_requirement_mixin-14.0.3.7.0-py3-none-any.whl.zip]
+[2024-05-06 03:20:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-data-requirement-mixin]: success
+[2024-05-06 03:20:54] INFO root fetch - main [MainThread]: Store serial: [23070368]
