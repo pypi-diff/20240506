@@ -2974,3 +2974,33 @@
 [2024-05-06 04:27:12] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.6.tar.gz]
 [2024-05-06 04:27:12] INFO root fetch - main [MainThread]: End processing [pkg-inspect]: success
 [2024-05-06 04:27:12] INFO root fetch - main [MainThread]: Store serial: [23070691]
+[2024-05-06 04:29:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070691]
+[2024-05-06 04:29:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 04:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: batchfetch
+[2024-05-06 04:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-pandas
+[2024-05-06 04:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-sendmsg-by-bots
+[2024-05-06 04:29:21] INFO root fetch - processPackages [batchfetch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-06 04:29:21] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-06 04:29:21] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 04:29:21] INFO root fetch - processPackages [batchfetch]: Downloading https://files.pythonhosted.org/packages/e3/0f/69fb012bbc9fd49df58f155902dbdc53addfca47f5a5015967cc178c531a/batchfetch-1.0.4.tar.gz
+[2024-05-06 04:29:21] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-06 04:29:21] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: Downloading https://files.pythonhosted.org/packages/d9/f6/43a0013bbeefc3e16dda9543d5665e91f704b46462609c6df17408bb47d6/nonebot-plugin-sendmsg-by-bots-0.1.4.tar.gz
+[2024-05-06 04:29:21] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-06 04:29:21] INFO root fetch - processPackages [batchfetch]: Downloading https://files.pythonhosted.org/packages/0a/7a/2da0562d3c4d2c72d68a85ae56e5c82632adcdd5857b4191b4fe2a823a8c/batchfetch-1.0.5.tar.gz
+[2024-05-06 04:29:21] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-06 04:29:21] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240506/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-06 04:29:21] INFO root fetch - processPackages [batchfetch]: executing diffoscope
+[2024-05-06 04:29:21] INFO root fetch - processPackages [batchfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchfetch-1.0.4.tar.gz tmp/batchfetch-1.0.5.tar.gz --markdown 20240506/b/batchfetch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-06 04:29:21] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: Downloading https://files.pythonhosted.org/packages/6b/72/686954e46bd7e84cc8223a8262019b2901fcccc03d3d43f5474e92367f55/nonebot-plugin-sendmsg-by-bots-0.1.5.tar.gz
+[2024-05-06 04:29:22] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: executing diffoscope
+[2024-05-06 04:29:22] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sendmsg-by-bots-0.1.4.tar.gz tmp/nonebot-plugin-sendmsg-by-bots-0.1.5.tar.gz --markdown 20240506/n/nonebot-plugin-sendmsg-by-bots/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 04:29:22] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-06 04:29:22] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-06 04:29:22] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-06 04:29:22] INFO root fetch - processPackages [batchfetch]: Remove: archive file [/home/abi/fetcher/tmp/batchfetch-1.0.4.tar.gz]
+[2024-05-06 04:29:22] INFO root fetch - processPackages [batchfetch]: Remove: archive file [/home/abi/fetcher/tmp/batchfetch-1.0.5.tar.gz]
+[2024-05-06 04:29:22] INFO root fetch - main [MainThread]: End processing [batchfetch]: success
+[2024-05-06 04:29:22] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sendmsg-by-bots-0.1.4.tar.gz]
+[2024-05-06 04:29:22] INFO root fetch - processPackages [nonebot-plugin-sendmsg-by-bots]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sendmsg-by-bots-0.1.5.tar.gz]
+[2024-05-06 04:29:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sendmsg-by-bots]: success
+[2024-05-06 04:29:22] INFO root fetch - main [MainThread]: Store serial: [23070700]
