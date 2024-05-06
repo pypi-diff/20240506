@@ -4657,3 +4657,33 @@
 [2024-05-06 06:12:02] INFO root fetch - processPackages [sdp-transform]: Remove: archive file [/home/abi/fetcher/tmp/sdp_transform-1.1.0.tar.gz]
 [2024-05-06 06:12:02] INFO root fetch - main [MainThread]: End processing [sdp-transform]: success
 [2024-05-06 06:12:02] INFO root fetch - main [MainThread]: Store serial: [23071392]
+[2024-05-06 06:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071392]
+[2024-05-06 06:14:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 06:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saraApi
+[2024-05-06 06:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qteasy
+[2024-05-06 06:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hexfft
+[2024-05-06 06:14:11] INFO root fetch - processPackages [qteasy]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-06 06:14:11] INFO root fetch - processPackages [saraApi]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2024-05-06 06:14:11] INFO root fetch - processPackages [hexfft]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 06:14:11] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/5e/d7/57e487e670db17e8f36a06d5613ba59f0a6b25f916f15a146175220b0bd3/qteasy-1.2.3.tar.gz
+[2024-05-06 06:14:11] INFO root fetch - processPackages [hexfft]: Downloading https://files.pythonhosted.org/packages/5b/3f/836aad0c8fc4b157db5d6ec65f29976f781b0337af05df232d7775c045b8/hexfft-0.1.1.tar.gz
+[2024-05-06 06:14:11] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/77/a8/a399684a716464ed3828a051ce0312f591ac592636e2d098cd37e4fe3fc9/saraapi-0.0.0.4.tar.gz
+[2024-05-06 06:14:11] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/51/92/0338a6e7fa32d54eb11ff25af5b6e3509a03191dd7206facb6cd9cdec3ef/qteasy-1.2.4.tar.gz
+[2024-05-06 06:14:11] INFO root fetch - processPackages [qteasy]: executing diffoscope
+[2024-05-06 06:14:11] INFO root fetch - processPackages [qteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qteasy-1.2.3.tar.gz tmp/qteasy-1.2.4.tar.gz --markdown 20240506/q/qteasy/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-06 06:14:11] INFO root fetch - processPackages [hexfft]: Downloading https://files.pythonhosted.org/packages/f5/13/3a25a776f6bb0b5e2e3499bdcaf05a51dc4480e01b9d397e620e1fd6224d/hexfft-0.1.2.tar.gz
+[2024-05-06 06:14:11] INFO root fetch - processPackages [saraApi]: Downloading https://files.pythonhosted.org/packages/b1/36/344cba01f2476951f90757e6b7744974933fa8d4fe2bfb1b18e192e686a7/saraapi-0.0.0.5.tar.gz
+[2024-05-06 06:14:11] INFO root fetch - processPackages [hexfft]: executing diffoscope
+[2024-05-06 06:14:11] INFO root fetch - processPackages [hexfft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexfft-0.1.1.tar.gz tmp/hexfft-0.1.2.tar.gz --markdown 20240506/h/hexfft/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 06:14:11] INFO root fetch - processPackages [saraApi]: executing diffoscope
+[2024-05-06 06:14:11] INFO root fetch - processPackages [saraApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saraapi-0.0.0.4.tar.gz tmp/saraapi-0.0.0.5.tar.gz --markdown 20240506/s/saraApi/0.0.0.4-0.0.0.5/README.md --exclude *.pyd
+[2024-05-06 06:14:12] INFO root fetch - processPackages [hexfft]: Remove: archive file [/home/abi/fetcher/tmp/hexfft-0.1.1.tar.gz]
+[2024-05-06 06:14:12] INFO root fetch - processPackages [hexfft]: Remove: archive file [/home/abi/fetcher/tmp/hexfft-0.1.2.tar.gz]
+[2024-05-06 06:14:12] INFO root fetch - main [MainThread]: End processing [hexfft]: success
+[2024-05-06 06:14:12] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.4.tar.gz]
+[2024-05-06 06:14:12] INFO root fetch - processPackages [saraApi]: Remove: archive file [/home/abi/fetcher/tmp/saraapi-0.0.0.5.tar.gz]
+[2024-05-06 06:14:12] INFO root fetch - main [MainThread]: End processing [saraApi]: success
+[2024-05-06 06:14:12] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.2.3.tar.gz]
+[2024-05-06 06:14:12] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.2.4.tar.gz]
+[2024-05-06 06:14:12] INFO root fetch - main [MainThread]: End processing [qteasy]: success
+[2024-05-06 06:14:12] INFO root fetch - main [MainThread]: Store serial: [23071401]
