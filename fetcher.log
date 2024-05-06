@@ -19672,3 +19672,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:10:02] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev8969639035.tar.gz]
 [2024-05-06 15:10:02] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
 [2024-05-06 15:10:02] INFO root fetch - main [MainThread]: Store serial: [23077995]
+[2024-05-06 15:12:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077995]
+[2024-05-06 15:12:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 15:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agricore_sp_models
+[2024-05-06 15:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ce-mkc
+[2024-05-06 15:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udata-tabular-preview
+[2024-05-06 15:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jpylib-jyrgenn
+[2024-05-06 15:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udata-tabular-preview
+[2024-05-06 15:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: suite-py
+[2024-05-06 15:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openweatherapi-sdk
+[2024-05-06 15:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PepperPepper
+[2024-05-06 15:12:11] INFO root fetch - processPackages [udata-tabular-preview]: New version: [3.2.1.dev760] Old Version: [3.2.0]
+[2024-05-06 15:12:11] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.7] Old Version: [0.0.7.6]
+[2024-05-06 15:12:11] INFO root fetch - processPackages [openweatherapi-sdk]: New version: [0.2] Old Version: [0.1]
+[2024-05-06 15:12:11] INFO root fetch - processPackages [udata-tabular-preview]: New version: [3.2.1.dev760] Old Version: [3.2.0]
+[2024-05-06 15:12:11] INFO root fetch - processPackages [jpylib-jyrgenn]: New version: [2024.506.1508] Old Version: [2024.430.1432]
+[2024-05-06 15:12:11] INFO root fetch - processPackages [suite-py]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-06 15:12:11] WARNING root fetch - processPackages [ce-mkc]: Skipping, unable to determine old version
+[2024-05-06 15:12:11] INFO root fetch - main [MainThread]: End processing [ce-mkc] error
+[2024-05-06 15:12:11] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-06 15:12:11] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/66/22/240bb4363bd3cdedb31072e8a05df95f86cb8e1e6954b5ebb5554084129f/pepperpepper-0.0.7.6.tar.gz
+[2024-05-06 15:12:11] INFO root fetch - processPackages [udata-tabular-preview]: Downloading https://files.pythonhosted.org/packages/e7/01/544fb3554bc5349b970bd815c6708e8adaadccda46585819a6eee0de8378/udata_tabular_preview-3.2.0-py2.py3-none-any.whl
+[2024-05-06 15:12:11] INFO root fetch - processPackages [jpylib-jyrgenn]: Downloading https://files.pythonhosted.org/packages/69/15/5f0479839bad0128158781b2e5c924333b93531454a287a0f0c4d094312b/jpylib-jyrgenn-2024.430.1432.tar.gz
+[2024-05-06 15:12:11] INFO root fetch - processPackages [udata-tabular-preview]: Downloading https://files.pythonhosted.org/packages/e7/01/544fb3554bc5349b970bd815c6708e8adaadccda46585819a6eee0de8378/udata_tabular_preview-3.2.0-py2.py3-none-any.whl
+[2024-05-06 15:12:11] INFO root fetch - processPackages [openweatherapi-sdk]: Downloading https://files.pythonhosted.org/packages/89/46/0d8e63c0a00d3192cce287719d59f7abf1352123b30586024d47f5414c14/openweatherapi_sdk-0.1.tar.gz
+[2024-05-06 15:12:12] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-05-06 15:12:12] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/ef/37/0c075d9d9338f06c9a311c241ff663a244c16f5e0477cf304edfecb07606/suite-py-1.9.8.tar.gz
+[2024-05-06 15:12:12] INFO root fetch - processPackages [udata-tabular-preview]: Downloading https://files.pythonhosted.org/packages/20/24/c5c3bca8c165fc6b0e617385dbf152c119190045e0cf7b29267b0f699971/udata_tabular_preview-3.2.1.dev760-py2.py3-none-any.whl
+[2024-05-06 15:12:12] INFO root fetch - processPackages [jpylib-jyrgenn]: Downloading https://files.pythonhosted.org/packages/06/53/ab5a26654a67ef20c32849454b982fb5950c44c7590c7c2f7d40780c0b7c/jpylib-jyrgenn-2024.506.1508.tar.gz
+[2024-05-06 15:12:12] INFO root fetch - processPackages [udata-tabular-preview]: Downloading https://files.pythonhosted.org/packages/20/24/c5c3bca8c165fc6b0e617385dbf152c119190045e0cf7b29267b0f699971/udata_tabular_preview-3.2.1.dev760-py2.py3-none-any.whl
+[2024-05-06 15:12:12] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/d3/da/93078de86cd92bf4f9b0eff2c86c74a913bb461e4d3c10d65f18c8714efa/pepperpepper-0.0.7.7.tar.gz
+[2024-05-06 15:12:12] INFO root fetch - processPackages [openweatherapi-sdk]: Downloading https://files.pythonhosted.org/packages/c6/01/796483a8f1d305414eb629f49a87280d3857eb3d589a0d7e9f44fbde62a4/openweatherapi_sdk-0.2.tar.gz
+[2024-05-06 15:12:12] INFO root fetch - processPackages [jpylib-jyrgenn]: executing diffoscope
+[2024-05-06 15:12:12] INFO root fetch - processPackages [jpylib-jyrgenn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpylib-jyrgenn-2024.430.1432.tar.gz tmp/jpylib-jyrgenn-2024.506.1508.tar.gz --markdown 20240506/j/jpylib-jyrgenn/2024.430.1432-2024.506.1508/README.md --exclude *.pyd
+[2024-05-06 15:12:12] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-05-06 15:12:12] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-06 15:12:12] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.6.tar.gz tmp/pepperpepper-0.0.7.7.tar.gz --markdown 20240506/P/PepperPepper/0.0.7.6-0.0.7.7/README.md --exclude *.pyd
+[2024-05-06 15:12:12] INFO root fetch - processPackages [udata-tabular-preview]: executing diffoscope
+[2024-05-06 15:12:12] INFO root fetch - processPackages [udata-tabular-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_tabular_preview-3.2.0-py2.py3-none-any.whl.zip tmp/udata_tabular_preview-3.2.1.dev760-py2.py3-none-any.whl.zip --markdown 20240506/u/udata-tabular-preview/3.2.0-3.2.1.dev760/README.md --exclude *.pyd
+[2024-05-06 15:12:12] INFO root fetch - processPackages [udata-tabular-preview]: executing diffoscope
+[2024-05-06 15:12:12] INFO root fetch - processPackages [udata-tabular-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_tabular_preview-3.2.0-py2.py3-none-any.whl.zip tmp/udata_tabular_preview-3.2.1.dev760-py2.py3-none-any.whl.zip --markdown 20240506/u/udata-tabular-preview/3.2.0-3.2.1.dev760/README.md --exclude *.pyd
+[2024-05-06 15:12:12] INFO root fetch - processPackages [openweatherapi-sdk]: executing diffoscope
+[2024-05-06 15:12:12] INFO root fetch - processPackages [openweatherapi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openweatherapi_sdk-0.1.tar.gz tmp/openweatherapi_sdk-0.2.tar.gz --markdown 20240506/o/openweatherapi-sdk/0.1-0.2/README.md --exclude *.pyd
+[2024-05-06 15:12:12] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-05-06 15:12:12] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240506/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-06 15:12:13] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.6.tar.gz]
+[2024-05-06 15:12:13] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.7.tar.gz]
+[2024-05-06 15:12:13] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-06 15:12:13] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/75/8d/e56fa1005c2ea6072c7f7f32d256169642eb4f4ae134d1fb3a0e1294d0d2/suite-py-1.9.9.tar.gz
+[2024-05-06 15:12:13] INFO root fetch - processPackages [openweatherapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openweatherapi_sdk-0.1.tar.gz]
+[2024-05-06 15:12:13] INFO root fetch - processPackages [openweatherapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openweatherapi_sdk-0.2.tar.gz]
+[2024-05-06 15:12:13] INFO root fetch - main [MainThread]: End processing [openweatherapi-sdk]: success
+[2024-05-06 15:12:13] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-05-06 15:12:13] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-05-06 15:12:13] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-05-06 15:12:13] INFO root fetch - processPackages [jpylib-jyrgenn]: Remove: archive file [/home/abi/fetcher/tmp/jpylib-jyrgenn-2024.430.1432.tar.gz]
+[2024-05-06 15:12:13] INFO root fetch - processPackages [jpylib-jyrgenn]: Remove: archive file [/home/abi/fetcher/tmp/jpylib-jyrgenn-2024.506.1508.tar.gz]
+[2024-05-06 15:12:13] INFO root fetch - main [MainThread]: End processing [jpylib-jyrgenn]: success
+[2024-05-06 15:12:13] INFO root fetch - processPackages [suite-py]: executing diffoscope
+[2024-05-06 15:12:13] INFO root fetch - processPackages [suite-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suite-py-1.9.8.tar.gz tmp/suite-py-1.9.9.tar.gz --markdown 20240506/s/suite-py/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-06 15:12:13] INFO root fetch - processPackages [suite-py]: Remove: archive file [/home/abi/fetcher/tmp/suite-py-1.9.8.tar.gz]
+[2024-05-06 15:12:13] INFO root fetch - processPackages [suite-py]: Remove: archive file [/home/abi/fetcher/tmp/suite-py-1.9.9.tar.gz]
+[2024-05-06 15:12:13] INFO root fetch - main [MainThread]: End processing [suite-py]: success
+[2024-05-06 15:12:17] INFO root fetch - processPackages [udata-tabular-preview]: Remove: archive file [/home/abi/fetcher/tmp/udata_tabular_preview-3.2.0-py2.py3-none-any.whl.zip]
+[2024-05-06 15:12:17] INFO root fetch - processPackages [udata-tabular-preview]: Remove: archive file [/home/abi/fetcher/tmp/udata_tabular_preview-3.2.1.dev760-py2.py3-none-any.whl.zip]
+[2024-05-06 15:12:17] INFO root fetch - main [MainThread]: End processing [udata-tabular-preview]: success
+[2024-05-06 15:12:17] INFO root fetch - main [MainThread]: End processing [udata-tabular-preview]: success
+[2024-05-06 15:12:17] INFO root fetch - main [MainThread]: Store serial: [23078021]
