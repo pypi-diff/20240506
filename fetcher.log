@@ -5924,3 +5924,24 @@
 [2024-05-06 07:43:50] INFO root fetch - processPackages [hkube-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hkube_python_wrapper-2.6.0.dev9.tar.gz]
 [2024-05-06 07:43:50] INFO root fetch - main [MainThread]: End processing [hkube-python-wrapper]: success
 [2024-05-06 07:43:50] INFO root fetch - main [MainThread]: Store serial: [23072037]
+[2024-05-06 07:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072037]
+[2024-05-06 07:45:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 07:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automvs
+[2024-05-06 07:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rhino-health
+[2024-05-06 07:45:58] INFO root fetch - processPackages [automvs]: New version: [0.0.8] Old Version: [0.0.7.post3]
+[2024-05-06 07:45:58] INFO root fetch - processPackages [rhino-health]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-06 07:45:58] INFO root fetch - processPackages [automvs]: Downloading https://files.pythonhosted.org/packages/00/09/54cf2df85653dfc6f656936aa3f475b1cef60e1f5a606e47352aeb788c14/automvs-0.0.7.post3.tar.gz
+[2024-05-06 07:45:59] INFO root fetch - processPackages [rhino-health]: Downloading https://files.pythonhosted.org/packages/c0/93/8acc29a84bd53edd3656e6b9f587d8054d25cdeb8a3d0e4afca70c2c3c48/rhino_health-1.0.5-py3-none-any.whl
+[2024-05-06 07:45:59] INFO root fetch - processPackages [automvs]: Downloading https://files.pythonhosted.org/packages/f8/95/f4bd6f459484229663fb612a196c2591fd9ebd84070b99888ecf570a782b/automvs-0.0.8.tar.gz
+[2024-05-06 07:45:59] INFO root fetch - processPackages [automvs]: executing diffoscope
+[2024-05-06 07:45:59] INFO root fetch - processPackages [automvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automvs-0.0.7.post3.tar.gz tmp/automvs-0.0.8.tar.gz --markdown 20240506/a/automvs/0.0.7.post3-0.0.8/README.md --exclude *.pyd
+[2024-05-06 07:45:59] INFO root fetch - processPackages [rhino-health]: Downloading https://files.pythonhosted.org/packages/d4/ac/0bf3be942468f4539270f4335f8738a8b8e3285ee1676c9b2cc5c82b1b1c/rhino_health-1.0.6-py3-none-any.whl
+[2024-05-06 07:45:59] INFO root fetch - processPackages [rhino-health]: executing diffoscope
+[2024-05-06 07:45:59] INFO root fetch - processPackages [rhino-health]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhino_health-1.0.5-py3-none-any.whl.zip tmp/rhino_health-1.0.6-py3-none-any.whl.zip --markdown 20240506/r/rhino-health/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-06 07:45:59] INFO root fetch - processPackages [automvs]: Remove: archive file [/home/abi/fetcher/tmp/automvs-0.0.7.post3.tar.gz]
+[2024-05-06 07:45:59] INFO root fetch - processPackages [automvs]: Remove: archive file [/home/abi/fetcher/tmp/automvs-0.0.8.tar.gz]
+[2024-05-06 07:45:59] INFO root fetch - main [MainThread]: End processing [automvs]: success
+[2024-05-06 07:46:00] INFO root fetch - processPackages [rhino-health]: Remove: archive file [/home/abi/fetcher/tmp/rhino_health-1.0.5-py3-none-any.whl.zip]
+[2024-05-06 07:46:00] INFO root fetch - processPackages [rhino-health]: Remove: archive file [/home/abi/fetcher/tmp/rhino_health-1.0.6-py3-none-any.whl.zip]
+[2024-05-06 07:46:00] INFO root fetch - main [MainThread]: End processing [rhino-health]: success
+[2024-05-06 07:46:00] INFO root fetch - main [MainThread]: Store serial: [23072043]
