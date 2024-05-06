@@ -5320,3 +5320,15 @@
 [2024-05-06 07:01:56] INFO root fetch - processPackages [shadowsocks-manager]: Remove: archive file [/home/abi/fetcher/tmp/shadowsocks_manager-0.1.5.tar.gz]
 [2024-05-06 07:01:56] INFO root fetch - main [MainThread]: End processing [shadowsocks-manager]: success
 [2024-05-06 07:01:56] INFO root fetch - main [MainThread]: Store serial: [23071699]
+[2024-05-06 07:04:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071699]
+[2024-05-06 07:04:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 07:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecr-scan-notifier
+[2024-05-06 07:04:05] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 07:04:05] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/40/4d/1a1d0d9bc892c0dfb4d791a0884a59a8914a10d1e7da04c6b59517cf273f/ecr-scan-notifier-0.0.8.tar.gz
+[2024-05-06 07:04:05] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/d1/00/57fd90da8640eba9f4ecd18284a84eab9858fbc02e1cde2695b5c20f9967/ecr-scan-notifier-0.0.9.tar.gz
+[2024-05-06 07:04:06] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2024-05-06 07:04:06] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.8.tar.gz tmp/ecr-scan-notifier-0.0.9.tar.gz --markdown 20240506/e/ecr-scan-notifier/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 07:04:06] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.8.tar.gz]
+[2024-05-06 07:04:06] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.9.tar.gz]
+[2024-05-06 07:04:06] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2024-05-06 07:04:06] INFO root fetch - main [MainThread]: Store serial: [23071709]
