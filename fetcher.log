@@ -18539,3 +18539,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:30:47] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
 [2024-05-06 14:30:47] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
 [2024-05-06 14:30:47] INFO root fetch - main [MainThread]: Store serial: [23077433]
+[2024-05-06 14:32:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077433]
+[2024-05-06 14:32:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 14:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyCorrCPI
+[2024-05-06 14:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hat-juggler
+[2024-05-06 14:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Jestspectation
+[2024-05-06 14:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: encyclopedia-vae
+[2024-05-06 14:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: communication-services
+[2024-05-06 14:32:56] INFO root fetch - processPackages [Jestspectation]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-06 14:32:56] INFO root fetch - processPackages [communication-services]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 14:32:56] INFO root fetch - processPackages [Jestspectation]: Downloading https://files.pythonhosted.org/packages/07/f4/2b75be93781dd55e5fd9e559456a7f0cdda3b48d993540524b92695ede1b/jestspectation-1.3.0.tar.gz
+[2024-05-06 14:32:56] WARNING root fetch - processPackages [encyclopedia-vae]: Skipping, unable to determine old version
+[2024-05-06 14:32:56] INFO root fetch - main [MainThread]: End processing [encyclopedia-vae] error
+[2024-05-06 14:32:56] INFO root fetch - processPackages [PyCorrCPI]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 14:32:56] INFO root fetch - processPackages [hat-juggler]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-06 14:32:56] INFO root fetch - processPackages [communication-services]: Downloading https://files.pythonhosted.org/packages/aa/9d/ccbc532df543706d4331ae6bbde8456ef8bf9dd13e097723333e93798d03/communication_services-0.1.1.tar.gz
+[2024-05-06 14:32:56] INFO root fetch - processPackages [PyCorrCPI]: Downloading https://files.pythonhosted.org/packages/ce/48/67fc0c62cb63fd0925cd256129a6530bf8c02a52d76f60b221e8e42ec026/PyCorrCPI-0.0.3-py3-none-any.whl
+[2024-05-06 14:32:56] INFO root fetch - processPackages [hat-juggler]: Downloading https://files.pythonhosted.org/packages/b6/bc/e6bedc653fa494f7c67bebac5c6be63144e8576aee78837690f1c022f06a/hat_juggler-0.6.8-cp38.cp39.cp310-none-any.whl
+[2024-05-06 14:32:56] INFO root fetch - processPackages [Jestspectation]: Downloading https://files.pythonhosted.org/packages/c2/14/a870526a78a14427e0fc12cccd14b8732b40f44e522efb921c6ee6b84cd4/jestspectation-1.4.0.tar.gz
+[2024-05-06 14:32:56] INFO root fetch - processPackages [Jestspectation]: executing diffoscope
+[2024-05-06 14:32:56] INFO root fetch - processPackages [Jestspectation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jestspectation-1.3.0.tar.gz tmp/jestspectation-1.4.0.tar.gz --markdown 20240506/J/Jestspectation/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-06 14:32:56] INFO root fetch - processPackages [communication-services]: Downloading https://files.pythonhosted.org/packages/28/dc/9b5beb937d8da2e88cbeb799e15821d9d7788d2f7f4821aecc9965bc94cd/communication_services-0.1.2.tar.gz
+[2024-05-06 14:32:56] INFO root fetch - processPackages [hat-juggler]: Downloading https://files.pythonhosted.org/packages/88/f0/606d20d4b3770c9e7250511e52d30c9bdb4763dfbaaf9f64ca5f693e0b78/hat_juggler-0.6.9-cp38.cp39.cp310-none-any.whl
+[2024-05-06 14:32:57] INFO root fetch - processPackages [PyCorrCPI]: Downloading https://files.pythonhosted.org/packages/36/b8/874e14d1df85f7d0c611e94d4c01ad24d2316281d0e0a0f1bd7786ede00d/PyCorrCPI-0.0.4.tar.gz
+[2024-05-06 14:32:57] INFO root fetch - processPackages [communication-services]: executing diffoscope
+[2024-05-06 14:32:57] INFO root fetch - processPackages [communication-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/communication_services-0.1.1.tar.gz tmp/communication_services-0.1.2.tar.gz --markdown 20240506/c/communication-services/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 14:32:57] INFO root fetch - processPackages [hat-juggler]: executing diffoscope
+[2024-05-06 14:32:57] INFO root fetch - processPackages [hat-juggler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_juggler-0.6.8-cp38.cp39.cp310-none-any.whl.zip tmp/hat_juggler-0.6.9-cp38.cp39.cp310-none-any.whl.zip --markdown 20240506/h/hat-juggler/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-06 14:32:57] INFO root fetch - processPackages [PyCorrCPI]: executing diffoscope
+[2024-05-06 14:32:57] INFO root fetch - processPackages [PyCorrCPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCorrCPI-0.0.3-py3-none-any.whl.zip tmp/PyCorrCPI-0.0.4.tar.gz --markdown 20240506/P/PyCorrCPI/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 14:32:57] INFO root fetch - processPackages [Jestspectation]: Remove: archive file [/home/abi/fetcher/tmp/jestspectation-1.3.0.tar.gz]
+[2024-05-06 14:32:57] INFO root fetch - processPackages [Jestspectation]: Remove: archive file [/home/abi/fetcher/tmp/jestspectation-1.4.0.tar.gz]
+[2024-05-06 14:32:57] INFO root fetch - main [MainThread]: End processing [Jestspectation]: success
+[2024-05-06 14:32:57] INFO root fetch - processPackages [communication-services]: Remove: archive file [/home/abi/fetcher/tmp/communication_services-0.1.1.tar.gz]
+[2024-05-06 14:32:57] INFO root fetch - processPackages [communication-services]: Remove: archive file [/home/abi/fetcher/tmp/communication_services-0.1.2.tar.gz]
+[2024-05-06 14:32:57] INFO root fetch - main [MainThread]: End processing [communication-services]: success
+[2024-05-06 14:32:57] INFO root fetch - processPackages [hat-juggler]: Remove: archive file [/home/abi/fetcher/tmp/hat_juggler-0.6.8-cp38.cp39.cp310-none-any.whl.zip]
+[2024-05-06 14:32:57] INFO root fetch - processPackages [hat-juggler]: Remove: archive file [/home/abi/fetcher/tmp/hat_juggler-0.6.9-cp38.cp39.cp310-none-any.whl.zip]
+[2024-05-06 14:32:57] INFO root fetch - main [MainThread]: End processing [hat-juggler]: success
+[2024-05-06 14:32:57] INFO root fetch - processPackages [PyCorrCPI]: Remove: archive file [/home/abi/fetcher/tmp/PyCorrCPI-0.0.3-py3-none-any.whl.zip]
+[2024-05-06 14:32:57] INFO root fetch - processPackages [PyCorrCPI]: Remove: archive file [/home/abi/fetcher/tmp/PyCorrCPI-0.0.4.tar.gz]
+[2024-05-06 14:32:57] INFO root fetch - main [MainThread]: End processing [PyCorrCPI]: success
+[2024-05-06 14:32:57] INFO root fetch - main [MainThread]: Store serial: [23077448]
