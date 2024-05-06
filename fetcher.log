@@ -10129,3 +10129,108 @@
 [2024-05-06 10:22:54] INFO root fetch - processPackages [sound-source-id]: Remove: archive file [/home/abi/fetcher/tmp/sound_source_id-0.2.6.tar.gz]
 [2024-05-06 10:22:54] INFO root fetch - main [MainThread]: End processing [sound-source-id]: success
 [2024-05-06 10:22:54] INFO root fetch - main [MainThread]: Store serial: [23073838]
+[2024-05-06 10:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23073838]
+[2024-05-06 10:25:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-06 10:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-05-06 10:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi
+[2024-05-06 10:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-ie
+[2024-05-06 10:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eolymp
+[2024-05-06 10:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zalando-kubectl
+[2024-05-06 10:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonassonantz
+[2024-05-06 10:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-iecp
+[2024-05-06 10:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-iir
+[2024-05-06 10:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: InternEvo
+[2024-05-06 10:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-intl-en
+[2024-05-06 10:25:03] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-06 10:25:03] INFO root fetch - processPackages [InternEvo]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-06 10:25:03] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2024-05-06 10:25:03] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-05-06 10:25:03] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/9a/7a/8fb39d65679661e062f86bfd7555d0555cc03d9f3463a5d08c959f28c879/InternEvo-0.4.2.tar.gz
+[2024-05-06 10:25:03] WARNING root fetch - processPackages [nonassonantz]: Skipping, unable to determine old version
+[2024-05-06 10:25:03] INFO root fetch - processPackages [nonassonantz]: Start processing: rotary-emb
+[2024-05-06 10:25:03] INFO root fetch - main [MainThread]: End processing [nonassonantz] error
+[2024-05-06 10:25:03] INFO root fetch - processPackages [torch-model-manager]: New version: [0.2.0.dev6] Old Version: [0.2.0.dev5]
+[2024-05-06 10:25:03] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2024-05-06 10:25:03] INFO root fetch - processPackages [tencentcloud-sdk-python-iecp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:25:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ie]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:25:03] INFO root fetch - processPackages [tencentcloud-sdk-python-iir]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:25:03] INFO root fetch - processPackages [rotary-emb]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-06 10:25:03] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-05-06 10:25:04] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/be/fb/3dc2cc6bf4d40fb2c86a10e0acaad8c66b3f4e41c1b6700f5cb30f327641/rotary_emb-0.4.2.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-iir]: Downloading https://files.pythonhosted.org/packages/3d/b3/d20345d7a8002b50de278c3cabb7a70fe78f757ea99bb99d2869f2fd300b/tencentcloud-sdk-python-iir-3.0.998.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/3c/49/013980feefa24fc09a13e6796b88eff8a7b3a6e969616bd0bb40e976c886/torch_model_manager-0.2.0.dev5.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ie]: Downloading https://files.pythonhosted.org/packages/f8/0c/1d02750c6720fe5c88428d152b4d144398c8c9e21910857afcb5796992e2/tencentcloud-sdk-python-ie-3.0.998.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-iecp]: Downloading https://files.pythonhosted.org/packages/1d/64/a4f43928e1309bda6bb01f47fe53e9328d8e8caf1b567e60f036ee8e9802/tencentcloud-sdk-python-iecp-3.0.998.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/71/b8/eb7b545cc393cdfc940c2448fb1806259a4cf2d314c57cb91474c4708d0d/InternEvo-0.4.3.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-05-06 10:25:04] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240506/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-06 10:25:04] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/2e/d8/7ecb046f16f591d777df94d6a6bd1fbd7cf2391fad21922fc14444cae0fa/rotary_emb-0.4.3.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-06 10:25:04] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.4.2.tar.gz tmp/InternEvo-0.4.3.tar.gz --markdown 20240506/I/InternEvo/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-06 10:25:04] INFO root fetch - processPackages [rotary-emb]: executing diffoscope
+[2024-05-06 10:25:04] INFO root fetch - processPackages [rotary-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotary_emb-0.4.2.tar.gz tmp/rotary_emb-0.4.3.tar.gz --markdown 20240506/r/rotary-emb/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-06 10:25:04] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/a1/9d/0b3988958063d4cf4c2f3d77bf5b6625c03a1a236a6220b4fc72fbb3013b/torch_model_manager-0.2.0.dev6.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-iir]: Downloading https://files.pythonhosted.org/packages/52/da/85aec58cba2fc06f4a045a73930e80675059c99e27eeb0f037641c368cb0/tencentcloud-sdk-python-iir-3.0.999.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-05-06 10:25:04] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2024-05-06 10:25:04] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20240506/z/zalando-kubectl/1.9.3.45-1.9.3.46/README.md --exclude *.pyd
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-iecp]: Downloading https://files.pythonhosted.org/packages/07/af/d208cecd475331e8455666ce4bc853ce95f5cf8301b4795a4a860275c37f/tencentcloud-sdk-python-iecp-3.0.999.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-06 10:25:04] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.2.0.dev5.tar.gz tmp/torch_model_manager-0.2.0.dev6.tar.gz --markdown 20240506/t/torch-model-manager/0.2.0.dev5-0.2.0.dev6/README.md --exclude *.pyd
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-iir]: executing diffoscope
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-iir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iir-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iir-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-iir/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ie]: Downloading https://files.pythonhosted.org/packages/df/f8/42c379d1465d61bffed4ee300df5f86e9144a3e4786544499eb4a8c05d53/tencentcloud-sdk-python-ie-3.0.999.tar.gz
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-iecp]: executing diffoscope
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-iecp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iecp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iecp-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-iecp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ie]: executing diffoscope
+[2024-05-06 10:25:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ie-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ie-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-ie/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:25:04] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-05-06 10:25:04] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240506/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-05-06 10:25:05] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2024-05-06 10:25:05] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/README.md --exclude *.pyd
+[2024-05-06 10:25:05] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.2.tar.gz]
+[2024-05-06 10:25:05] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.3.tar.gz]
+[2024-05-06 10:25:05] INFO root fetch - processPackages [rotary-emb]: Start processing: tencentcloud-sdk-python-ims
+[2024-05-06 10:25:05] INFO root fetch - main [MainThread]: End processing [rotary-emb]: success
+[2024-05-06 10:25:05] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2024-05-06 10:25:05] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2024-05-06 10:25:05] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2024-05-06 10:25:06] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev5.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev6.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-06 10:25:06] INFO root fetch - processPackages [tencentcloud-sdk-python-iir]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iir-3.0.998.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - processPackages [tencentcloud-sdk-python-iir]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iir-3.0.999.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iir]: success
+[2024-05-06 10:25:06] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:25:06] INFO root fetch - processPackages [tencentcloud-sdk-python-iecp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iecp-3.0.998.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - processPackages [tencentcloud-sdk-python-iecp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iecp-3.0.999.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iecp]: success
+[2024-05-06 10:25:06] INFO root fetch - processPackages [tencentcloud-sdk-python-ie]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ie-3.0.998.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - processPackages [tencentcloud-sdk-python-ie]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ie-3.0.999.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ie]: success
+[2024-05-06 10:25:06] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.2.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.3.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-06 10:25:06] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: Downloading https://files.pythonhosted.org/packages/6c/0d/30e4b5ce8dc574db2fcae78e45d0eb12d592e4600a8e970e7048ca0fbf11/tencentcloud-sdk-python-ims-3.0.998.tar.gz
+[2024-05-06 10:25:06] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-05-06 10:25:06] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-05-06 10:25:06] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-05-06 10:25:06] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: Downloading https://files.pythonhosted.org/packages/de/42/df4f98e5da862816138beb3ca2911b3fae59971a3eaf9076fd4220c950ec/tencentcloud-sdk-python-ims-3.0.999.tar.gz
+[2024-05-06 10:25:06] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-05-06 10:25:06] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-05-06 10:25:07] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: executing diffoscope
+[2024-05-06 10:25:07] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ims-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ims-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-ims/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:25:07] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2024-05-06 10:25:07] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2024-05-06 10:25:07] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2024-05-06 10:25:07] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ims-3.0.998.tar.gz]
+[2024-05-06 10:25:07] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ims-3.0.999.tar.gz]
+[2024-05-06 10:25:07] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ims]: success
+[2024-05-06 10:25:07] INFO root fetch - main [MainThread]: Store serial: [23073871]
