@@ -4886,3 +4886,24 @@
 [2024-05-06 06:29:25] INFO root fetch - processPackages [cubaflixdownload]: Remove: archive file [/home/abi/fetcher/tmp/cubaflixdownload-3.0.0.tar.gz]
 [2024-05-06 06:29:25] INFO root fetch - main [MainThread]: End processing [cubaflixdownload]: success
 [2024-05-06 06:29:25] INFO root fetch - main [MainThread]: Store serial: [23071537]
+[2024-05-06 06:31:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071537]
+[2024-05-06 06:31:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 06:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-splash
+[2024-05-06 06:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CategorAI
+[2024-05-06 06:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whatsapp-chat-analyze
+[2024-05-06 06:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-dbchat
+[2024-05-06 06:31:34] WARNING root fetch - processPackages [CategorAI]: Skipping, unable to determine old version
+[2024-05-06 06:31:34] INFO root fetch - main [MainThread]: End processing [CategorAI] error
+[2024-05-06 06:31:34] WARNING root fetch - processPackages [astro-splash]: Skipping, unable to determine old version
+[2024-05-06 06:31:34] INFO root fetch - main [MainThread]: End processing [astro-splash] error
+[2024-05-06 06:31:34] WARNING root fetch - processPackages [whatsapp-chat-analyze]: Skipping, unable to determine old version
+[2024-05-06 06:31:34] INFO root fetch - main [MainThread]: End processing [whatsapp-chat-analyze] error
+[2024-05-06 06:31:34] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-06 06:31:34] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-06 06:31:34] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-06 06:31:35] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-06 06:31:35] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240506/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-06 06:31:35] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-06 06:31:35] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-06 06:31:35] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-06 06:31:35] INFO root fetch - main [MainThread]: Store serial: [23071550]
