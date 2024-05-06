@@ -21738,3 +21738,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:28:46] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1532-py3-none-any.whl.zip]
 [2024-05-06 16:28:46] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-05-06 16:28:46] INFO root fetch - main [MainThread]: Store serial: [23079132]
+[2024-05-06 16:30:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079132]
+[2024-05-06 16:30:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 16:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prometheus-eval
+[2024-05-06 16:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agixt
+[2024-05-06 16:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shrillecho
+[2024-05-06 16:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mimllearning
+[2024-05-06 16:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gustaf
+[2024-05-06 16:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blankslate-python
+[2024-05-06 16:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trailblazer
+[2024-05-06 16:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imio.smartweb.core
+[2024-05-06 16:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: viur-cli
+[2024-05-06 16:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IOPaint
+[2024-05-06 16:30:59] INFO root fetch - processPackages [shrillecho]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-06 16:30:59] INFO root fetch - processPackages [blankslate-python]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-06 16:30:59] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 16:30:59] INFO root fetch - processPackages [agixt]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-06 16:30:59] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-05-06 16:30:59] INFO root fetch - processPackages [prometheus-eval]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 16:30:59] INFO root fetch - processPackages [viur-cli]: New version: [2.0.1.dev1] Old Version: [2.0.0rc6]
+[2024-05-06 16:30:59] INFO root fetch - processPackages [shrillecho]: Downloading https://files.pythonhosted.org/packages/d6/94/61945aacb016dbb8768f64be40211473c0393802e3446aec136477ac1f20/shrillecho-1.1.0.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [IOPaint]: New version: [1.3.0] Old Version: [1.2.3]
+[2024-05-06 16:30:59] INFO root fetch - processPackages [gustaf]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 16:30:59] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-06 16:30:59] INFO root fetch - processPackages [blankslate-python]: Downloading https://files.pythonhosted.org/packages/9f/18/1b5e3a12c37099125a7d6e51ee2c14d95687750d0e35ea862a44b2c4effb/blankslate_python-1.3.3.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/06/8b/f4b0981365819afdbeecb1796ebb1d23439132f5063fcb9b4192e4c43a18/agixt-1.5.8-py3-none-any.whl
+[2024-05-06 16:30:59] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/54/42/112fff76d74fa32ca9bc26a8b2dfbf13f143416063c3cb1bc0dc28456d72/prometheus_eval-0.1.8.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [IOPaint]: Downloading https://files.pythonhosted.org/packages/b9/39/df3766e11973a4fb22eae49f03145f741c399b666e8f5d35fff3df061160/IOPaint-1.2.3.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/dc/70/0020f3336a3abbc1236094cd7e27aa72cb01f427d1d4875867160f802751/viur_cli-2.0.0rc6.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [gustaf]: Downloading https://files.pythonhosted.org/packages/e0/23/236ead9189b8580affce8f81e0fd0486ce56358c10f2393d98cacb8c386a/gustaf-0.0.8.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/50/cf/4f2efdd5a6362b7fd0cc7499d23f0fba4c41b1e069fa580bd514e95cdcc5/imio.smartweb.core-1.2.8.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/25/a0/f70bdd10c23b4095f2f5ebd25957e2c061b93a50907a0651a729f4b4656c/agixt-1.5.9-py3-none-any.whl
+[2024-05-06 16:30:59] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [shrillecho]: Downloading https://files.pythonhosted.org/packages/bc/57/ce2e99bee8ed95b76ac26db48e69238c8f23e95de6f9a15c029d50522356/shrillecho-1.1.1.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [blankslate-python]: Downloading https://files.pythonhosted.org/packages/1a/1a/f3399f19f975eddc22ed5f06ff03b3a014b336a3f83ee15cac276ede7d44/blankslate_python-1.3.4.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-05-06 16:30:59] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240506/t/trailblazer/9.2.1-9.2.2/README.md --exclude *.pyd
+[2024-05-06 16:30:59] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2024-05-06 16:30:59] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.5.8-py3-none-any.whl.zip tmp/agixt-1.5.9-py3-none-any.whl.zip --markdown 20240506/a/agixt/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-06 16:30:59] INFO root fetch - processPackages [blankslate-python]: executing diffoscope
+[2024-05-06 16:30:59] INFO root fetch - processPackages [blankslate-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blankslate_python-1.3.3.tar.gz tmp/blankslate_python-1.3.4.tar.gz --markdown 20240506/b/blankslate-python/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-06 16:30:59] INFO root fetch - processPackages [shrillecho]: executing diffoscope
+[2024-05-06 16:30:59] INFO root fetch - processPackages [shrillecho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shrillecho-1.1.0.tar.gz tmp/shrillecho-1.1.1.tar.gz --markdown 20240506/s/shrillecho/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-06 16:30:59] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-06 16:30:59] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/1f/fa/3f86d1fa41d5e9236ec95425ea34f4fc91624b9c4919cb8c62db3d979568/prometheus_eval-0.1.9.tar.gz
+[2024-05-06 16:30:59] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240506/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 16:31:00] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/cb/6d/c1c6030e744d901e75da5667f92863c415a674cb5b660788ff3ffaf77741/viur_cli-2.0.1.dev1.tar.gz
+[2024-05-06 16:31:00] INFO root fetch - processPackages [prometheus-eval]: executing diffoscope
+[2024-05-06 16:31:00] INFO root fetch - processPackages [prometheus-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_eval-0.1.8.tar.gz tmp/prometheus_eval-0.1.9.tar.gz --markdown 20240506/p/prometheus-eval/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:31:00] INFO root fetch - processPackages [gustaf]: Downloading https://files.pythonhosted.org/packages/42/2c/f93542053ad74ad73eaa4106f276e9a512744cbfe493e9e9d636e78375de/gustaf-0.0.9.tar.gz
+[2024-05-06 16:31:00] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/fa/86/df6913561be9d1503fca6dc066040ebfbb358b73c5eaafd6f169cdebe0d2/imio.smartweb.core-1.2.9.tar.gz
+[2024-05-06 16:31:00] INFO root fetch - processPackages [viur-cli]: executing diffoscope
+[2024-05-06 16:31:00] INFO root fetch - processPackages [viur-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_cli-2.0.0rc6.tar.gz tmp/viur_cli-2.0.1.dev1.tar.gz --markdown 20240506/v/viur-cli/2.0.0rc6-2.0.1.dev1/README.md --exclude *.pyd
+[2024-05-06 16:31:00] INFO root fetch - processPackages [IOPaint]: Downloading https://files.pythonhosted.org/packages/a8/e1/f271505a68f67ed05b2a7fdd83193264c1a8c5effec590dea0c642205aff/IOPaint-1.3.0.tar.gz
+[2024-05-06 16:31:00] INFO root fetch - processPackages [gustaf]: executing diffoscope
+[2024-05-06 16:31:00] INFO root fetch - processPackages [gustaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gustaf-0.0.8.tar.gz tmp/gustaf-0.0.9.tar.gz --markdown 20240506/g/gustaf/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 16:31:00] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2024-05-06 16:31:00] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.2.8.tar.gz tmp/imio.smartweb.core-1.2.9.tar.gz --markdown 20240506/i/imio.smartweb.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-06 16:31:00] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-05-06 16:31:00] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-05-06 16:31:00] INFO root fetch - processPackages [trailblazer]: Start processing: prometheus-eval
+[2024-05-06 16:31:00] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-05-06 16:31:00] INFO root fetch - processPackages [prometheus-eval]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 16:31:00] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.8-py3-none-any.whl.zip]
+[2024-05-06 16:31:00] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.9-py3-none-any.whl.zip]
+[2024-05-06 16:31:00] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2024-05-06 16:31:00] INFO root fetch - processPackages [blankslate-python]: Remove: archive file [/home/abi/fetcher/tmp/blankslate_python-1.3.3.tar.gz]
+[2024-05-06 16:31:00] INFO root fetch - processPackages [blankslate-python]: Remove: archive file [/home/abi/fetcher/tmp/blankslate_python-1.3.4.tar.gz]
+[2024-05-06 16:31:00] INFO root fetch - main [MainThread]: End processing [blankslate-python]: success
+[2024-05-06 16:31:00] INFO root fetch - processPackages [prometheus-eval]: executing diffoscope
+[2024-05-06 16:31:00] INFO root fetch - processPackages [prometheus-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_eval-0.1.8.tar.gz tmp/prometheus_eval-0.1.9.tar.gz --markdown 20240506/p/prometheus-eval/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:31:01] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.8.tar.gz]
+[2024-05-06 16:31:01] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.9.tar.gz]
+[2024-05-06 16:31:01] INFO root fetch - main [MainThread]: End processing [prometheus-eval]: success
+[2024-05-06 16:31:01] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-2.0.0rc6.tar.gz]
+[2024-05-06 16:31:01] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-2.0.1.dev1.tar.gz]
+[2024-05-06 16:31:01] INFO root fetch - main [MainThread]: End processing [viur-cli]: success
+[2024-05-06 16:31:01] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-06 16:31:01] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-06 16:31:01] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-06 16:31:01] INFO root fetch - processPackages [shrillecho]: Remove: archive file [/home/abi/fetcher/tmp/shrillecho-1.1.0.tar.gz]
+[2024-05-06 16:31:01] INFO root fetch - processPackages [shrillecho]: Remove: archive file [/home/abi/fetcher/tmp/shrillecho-1.1.1.tar.gz]
+[2024-05-06 16:31:01] INFO root fetch - main [MainThread]: End processing [shrillecho]: success
+[2024-05-06 16:31:01] INFO root fetch - processPackages [IOPaint]: executing diffoscope
+[2024-05-06 16:31:01] INFO root fetch - processPackages [IOPaint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IOPaint-1.2.3.tar.gz tmp/IOPaint-1.3.0.tar.gz --markdown 20240506/I/IOPaint/1.2.3-1.3.0/README.md --exclude *.pyd
+[2024-05-06 16:31:01] ERROR root fetch - processPackages [prometheus-eval]: Diffoscope failed: time="2024-05-06T16:31:01+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/prometheus_eval-0.1.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/prometheus_eval-0.1.9.tar.gz: No such file or directory
+
+[2024-05-06 16:31:01] INFO root fetch - main [MainThread]: End processing [prometheus-eval] error
+[2024-05-06 16:31:01] INFO root fetch - processPackages [gustaf]: Remove: archive file [/home/abi/fetcher/tmp/gustaf-0.0.8.tar.gz]
+[2024-05-06 16:31:01] INFO root fetch - processPackages [gustaf]: Remove: archive file [/home/abi/fetcher/tmp/gustaf-0.0.9.tar.gz]
+[2024-05-06 16:31:01] INFO root fetch - main [MainThread]: End processing [gustaf]: success
+[2024-05-06 16:31:02] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.8.tar.gz]
+[2024-05-06 16:31:02] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.9.tar.gz]
+[2024-05-06 16:31:02] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2024-05-06 16:31:09] INFO root fetch - processPackages [IOPaint]: Remove: archive file [/home/abi/fetcher/tmp/IOPaint-1.2.3.tar.gz]
+[2024-05-06 16:31:09] INFO root fetch - processPackages [IOPaint]: Remove: archive file [/home/abi/fetcher/tmp/IOPaint-1.3.0.tar.gz]
+[2024-05-06 16:31:09] INFO root fetch - main [MainThread]: End processing [IOPaint]: success
+[2024-05-06 16:31:09] INFO root fetch - main [MainThread]: Store serial: [23079162]
