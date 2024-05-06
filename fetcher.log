@@ -19997,3 +19997,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:22:16] INFO root fetch - processPackages [autots]: Remove: archive file [/home/abi/fetcher/tmp/autots-0.6.9.tar.gz]
 [2024-05-06 15:22:16] INFO root fetch - main [MainThread]: End processing [autots]: success
 [2024-05-06 15:22:16] INFO root fetch - main [MainThread]: Store serial: [23078176]
+[2024-05-06 15:24:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078176]
+[2024-05-06 15:24:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 15:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-neat
+[2024-05-06 15:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beam-client
+[2024-05-06 15:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpflib
+[2024-05-06 15:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-kusto-data
+[2024-05-06 15:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-kusto-ingest
+[2024-05-06 15:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyjhtdbv2
+[2024-05-06 15:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lljz-tools
+[2024-05-06 15:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: everai
+[2024-05-06 15:24:26] WARNING root fetch - processPackages [pyjhtdbv2]: Skipping, unable to determine old version
+[2024-05-06 15:24:26] INFO root fetch - main [MainThread]: End processing [pyjhtdbv2] error
+[2024-05-06 15:24:26] INFO root fetch - processPackages [everai]: New version: [0.1.41] Old Version: [0.1.40]
+[2024-05-06 15:24:26] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-06 15:24:26] INFO root fetch - processPackages [beam-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 15:24:26] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/78/e3/991e57fe3cd5c59fee43c9063b92d2454c946074a0b1b6689983115a5dbd/everai-0.1.40-py3-none-any.whl
+[2024-05-06 15:24:26] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-06 15:24:26] INFO root fetch - processPackages [azure-kusto-ingest]: New version: [4.4.1] Old Version: [4.4.0]
+[2024-05-06 15:24:26] INFO root fetch - processPackages [azure-kusto-data]: New version: [4.4.1] Old Version: [4.4.0]
+[2024-05-06 15:24:26] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-05-06 15:24:26] INFO root fetch - processPackages [cognite-neat]: New version: [0.76.0] Old Version: [0.75.9]
+[2024-05-06 15:24:26] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-05-06 15:24:26] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-05-06 15:24:26] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/ac/ee/27de4b2569a707f2361330414b50f795635cafa3adaf9743f08393a1b368/beam_client-0.2.8.tar.gz
+[2024-05-06 15:24:26] INFO root fetch - processPackages [azure-kusto-ingest]: Downloading https://files.pythonhosted.org/packages/2b/93/79c632181ce676298a8ae6c43c018a806cbbf7c6e47bb53a084160b2d34e/azure-kusto-ingest-4.4.0.tar.gz
+[2024-05-06 15:24:26] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/96/3a/baa0be607d2faae20dec2be02b65e215a3a94b86dbac4a849044a888988f/cognite_neat-0.75.9.tar.gz
+[2024-05-06 15:24:26] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/07/e1/d8ad41d04bd7526045884eb68fffdf0d0584720dc1f876fa9b7b87605451/lljz_tools-0.2.8.tar.gz
+[2024-05-06 15:24:26] INFO root fetch - processPackages [azure-kusto-data]: Downloading https://files.pythonhosted.org/packages/2d/fe/b08ef1d862b786da8fc58eb68b3fca8aa51243b6f0436fbb1da0cca53b78/azure-kusto-data-4.4.0.tar.gz
+[2024-05-06 15:24:27] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/4b/1c/df6c0b5d43c839c910426161135f57fd81cb6b277b8449add6498898b66f/everai-0.1.41-py3-none-any.whl
+[2024-05-06 15:24:27] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/30/15/606a85353776a9e1c941977e724bfc92806b27223b9e341df4fc22e5bbdf/beam_client-0.2.9.tar.gz
+[2024-05-06 15:24:27] INFO root fetch - processPackages [beam-client]: executing diffoscope
+[2024-05-06 15:24:27] INFO root fetch - processPackages [beam-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_client-0.2.8.tar.gz tmp/beam_client-0.2.9.tar.gz --markdown 20240506/b/beam-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 15:24:27] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/a7/af/a18c36655f7f553567ff5dd5fb22c0f4e280c4a0200a0b3c876136e8201f/lljz_tools-0.2.9.tar.gz
+[2024-05-06 15:24:27] INFO root fetch - processPackages [azure-kusto-data]: Downloading https://files.pythonhosted.org/packages/39/dd/fb3dc364d4409c0f74841cfa8cddfcd975dc3b055fa0af835c97b3950e74/azure-kusto-data-4.4.1.tar.gz
+[2024-05-06 15:24:27] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-06 15:24:27] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.40-py3-none-any.whl.zip tmp/everai-0.1.41-py3-none-any.whl.zip --markdown 20240506/e/everai/0.1.40-0.1.41/README.md --exclude *.pyd
+[2024-05-06 15:24:27] INFO root fetch - processPackages [azure-kusto-ingest]: Downloading https://files.pythonhosted.org/packages/69/72/e1b1b90b6d03ace5a9d1e81bef473f554f141572b7bd0593a8d82a041467/azure-kusto-ingest-4.4.1.tar.gz
+[2024-05-06 15:24:27] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-05-06 15:24:27] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.8.tar.gz tmp/lljz_tools-0.2.9.tar.gz --markdown 20240506/l/lljz-tools/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-06 15:24:27] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/84/50/3d2f73bd01732834074f7f527b665d619a7ac4c134045d1ab6d440ac26ce/cognite_neat-0.76.0.tar.gz
+[2024-05-06 15:24:27] INFO root fetch - processPackages [azure-kusto-ingest]: executing diffoscope
+[2024-05-06 15:24:27] INFO root fetch - processPackages [azure-kusto-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-kusto-ingest-4.4.0.tar.gz tmp/azure-kusto-ingest-4.4.1.tar.gz --markdown 20240506/a/azure-kusto-ingest/4.4.0-4.4.1/README.md --exclude *.pyd
+[2024-05-06 15:24:27] INFO root fetch - processPackages [azure-kusto-data]: executing diffoscope
+[2024-05-06 15:24:27] INFO root fetch - processPackages [azure-kusto-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-kusto-data-4.4.0.tar.gz tmp/azure-kusto-data-4.4.1.tar.gz --markdown 20240506/a/azure-kusto-data/4.4.0-4.4.1/README.md --exclude *.pyd
+[2024-05-06 15:24:27] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.8.tar.gz]
+[2024-05-06 15:24:27] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.9.tar.gz]
+[2024-05-06 15:24:27] INFO root fetch - main [MainThread]: End processing [beam-client]: success
+[2024-05-06 15:24:28] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.8.tar.gz]
+[2024-05-06 15:24:28] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.9.tar.gz]
+[2024-05-06 15:24:28] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-05-06 15:24:28] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-05-06 15:24:28] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.75.9.tar.gz tmp/cognite_neat-0.76.0.tar.gz --markdown 20240506/c/cognite-neat/0.75.9-0.76.0/README.md --exclude *.pyd
+[2024-05-06 15:24:28] INFO root fetch - processPackages [azure-kusto-ingest]: Remove: archive file [/home/abi/fetcher/tmp/azure-kusto-ingest-4.4.0.tar.gz]
+[2024-05-06 15:24:28] INFO root fetch - processPackages [azure-kusto-ingest]: Remove: archive file [/home/abi/fetcher/tmp/azure-kusto-ingest-4.4.1.tar.gz]
+[2024-05-06 15:24:28] INFO root fetch - main [MainThread]: End processing [azure-kusto-ingest]: success
+[2024-05-06 15:24:28] INFO root fetch - processPackages [azure-kusto-data]: Remove: archive file [/home/abi/fetcher/tmp/azure-kusto-data-4.4.0.tar.gz]
+[2024-05-06 15:24:28] INFO root fetch - processPackages [azure-kusto-data]: Remove: archive file [/home/abi/fetcher/tmp/azure-kusto-data-4.4.1.tar.gz]
+[2024-05-06 15:24:28] INFO root fetch - main [MainThread]: End processing [azure-kusto-data]: success
+[2024-05-06 15:24:28] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.40-py3-none-any.whl.zip]
+[2024-05-06 15:24:28] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.41-py3-none-any.whl.zip]
+[2024-05-06 15:24:28] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-06 15:24:32] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.9.tar.gz]
+[2024-05-06 15:24:32] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.76.0.tar.gz]
+[2024-05-06 15:24:32] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-05-06 15:24:32] INFO root fetch - main [MainThread]: Store serial: [23078200]
