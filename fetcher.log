@@ -7580,3 +7580,32 @@
 [2024-05-06 09:23:17] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.8.3.tar.gz]
 [2024-05-06 09:23:17] INFO root fetch - main [MainThread]: End processing [litestar]: success
 [2024-05-06 09:23:17] INFO root fetch - main [MainThread]: Store serial: [23072859]
+[2024-05-06 09:25:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072859]
+[2024-05-06 09:25:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 09:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winacl
+[2024-05-06 09:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydork
+[2024-05-06 09:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpone-datagenie
+[2024-05-06 09:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-aea
+[2024-05-06 09:25:26] INFO root fetch - processPackages [winacl]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 09:25:26] WARNING root fetch - processPackages [dpone-datagenie]: Skipping, unable to determine old version
+[2024-05-06 09:25:26] INFO root fetch - main [MainThread]: End processing [dpone-datagenie] error
+[2024-05-06 09:25:26] INFO root fetch - processPackages [pydork]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-06 09:25:26] INFO root fetch - processPackages [winacl]: Downloading https://files.pythonhosted.org/packages/1f/cb/a08671aab5bb27ad3d03fe408dc3a28be6d245508f3c758329dc7ea023a4/winacl-0.1.8.tar.gz
+[2024-05-06 09:25:26] INFO root fetch - processPackages [open-aea]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2024-05-06 09:25:26] INFO root fetch - processPackages [pydork]: Downloading https://files.pythonhosted.org/packages/43/e0/9753156dd34eba5877d921e09c7c13201eac1974f0c0a6b57eefc3a2566c/pydork-1.1.6.tar.gz
+[2024-05-06 09:25:27] INFO root fetch - processPackages [open-aea]: Downloading https://files.pythonhosted.org/packages/7f/40/3bc96b026068c72069daaa6c85cc6c0c5904acc0c80107b1752886595b2b/open-aea-1.9.0.tar.gz
+[2024-05-06 09:25:27] INFO root fetch - processPackages [pydork]: Downloading https://files.pythonhosted.org/packages/d4/8f/88afa80b39a539dafc1a94b9633c61044a751b8d5c9fc713c8d329d06864/pydork-1.1.7.tar.gz
+[2024-05-06 09:25:27] INFO root fetch - processPackages [winacl]: Downloading https://files.pythonhosted.org/packages/23/fc/70784bbc5521a4a59c78dea0050e1478d67b2e77a54abcc5aa5f835faaf5/winacl-0.1.9.tar.gz
+[2024-05-06 09:25:27] INFO root fetch - processPackages [pydork]: executing diffoscope
+[2024-05-06 09:25:27] INFO root fetch - processPackages [pydork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydork-1.1.6.tar.gz tmp/pydork-1.1.7.tar.gz --markdown 20240506/p/pydork/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-06 09:25:27] INFO root fetch - processPackages [winacl]: executing diffoscope
+[2024-05-06 09:25:27] INFO root fetch - processPackages [winacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winacl-0.1.8.tar.gz tmp/winacl-0.1.9.tar.gz --markdown 20240506/w/winacl/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 09:25:27] INFO root fetch - processPackages [winacl]: Remove: archive file [/home/abi/fetcher/tmp/winacl-0.1.8.tar.gz]
+[2024-05-06 09:25:27] INFO root fetch - processPackages [winacl]: Remove: archive file [/home/abi/fetcher/tmp/winacl-0.1.9.tar.gz]
+[2024-05-06 09:25:27] INFO root fetch - main [MainThread]: End processing [winacl]: success
+[2024-05-06 09:25:28] INFO root fetch - processPackages [pydork]: Remove: archive file [/home/abi/fetcher/tmp/pydork-1.1.6.tar.gz]
+[2024-05-06 09:25:28] INFO root fetch - processPackages [pydork]: Remove: archive file [/home/abi/fetcher/tmp/pydork-1.1.7.tar.gz]
+[2024-05-06 09:25:28] INFO root fetch - main [MainThread]: End processing [pydork]: success
+[2024-05-06 09:25:28] WARNING root fetch - processPackages [open-aea]: Skipping package: exceeds size limit 16774114>=10485760
+[2024-05-06 09:25:28] INFO root fetch - main [MainThread]: End processing [open-aea] error
+[2024-05-06 09:25:28] INFO root fetch - main [MainThread]: Store serial: [23072903]
