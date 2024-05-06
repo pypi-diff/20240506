@@ -7710,3 +7710,36 @@
 [2024-05-06 09:27:40] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
 [2024-05-06 09:27:40] INFO root fetch - main [MainThread]: End processing [sunholo]: success
 [2024-05-06 09:27:40] INFO root fetch - main [MainThread]: Store serial: [23072944]
+[2024-05-06 09:29:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072944]
+[2024-05-06 09:29:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mikrotik-bt5
+[2024-05-06 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unimernet
+[2024-05-06 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpone-datagenie
+[2024-05-06 09:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyPrediktorMapClient
+[2024-05-06 09:29:48] WARNING root fetch - processPackages [dpone-datagenie]: Skipping, unable to determine old version
+[2024-05-06 09:29:48] INFO root fetch - main [MainThread]: End processing [dpone-datagenie] error
+[2024-05-06 09:29:48] INFO root fetch - processPackages [pyPrediktorMapClient]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-06 09:29:48] INFO root fetch - processPackages [mikrotik-bt5]: New version: [1.0.0] Old Version: [0.0.2b4]
+[2024-05-06 09:29:48] INFO root fetch - processPackages [unimernet]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-06 09:29:49] INFO root fetch - processPackages [unimernet]: Downloading https://files.pythonhosted.org/packages/4c/2d/ca895f78b82385f54b58cc75e5696f475cea9d3c0c6b2c49aacfb73defaf/unimernet-0.0.4-py2.py3-none-any.whl
+[2024-05-06 09:29:49] INFO root fetch - processPackages [mikrotik-bt5]: Downloading https://files.pythonhosted.org/packages/bd/c6/3f4fb5d34e8bec5eb711db502ac589f6129c0b84bd36eddb1461d7900306/mikrotik-bt5-0.0.2b4.tar.gz
+[2024-05-06 09:29:49] INFO root fetch - processPackages [pyPrediktorMapClient]: Downloading https://files.pythonhosted.org/packages/ff/0a/585967c861f8e3ad7d96dc58f6405c3eb335660fce6908230a24099f4fe1/pyPrediktorMapClient-0.7.0.tar.gz
+[2024-05-06 09:29:49] INFO root fetch - processPackages [mikrotik-bt5]: Downloading https://files.pythonhosted.org/packages/bc/fb/38f394a43b1bf2460d1564c822eb6230524b07511eff14d0069bd579630b/mikrotik-bt5-1.0.0.tar.gz
+[2024-05-06 09:29:49] INFO root fetch - processPackages [mikrotik-bt5]: executing diffoscope
+[2024-05-06 09:29:49] INFO root fetch - processPackages [mikrotik-bt5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikrotik-bt5-0.0.2b4.tar.gz tmp/mikrotik-bt5-1.0.0.tar.gz --markdown 20240506/m/mikrotik-bt5/0.0.2b4-1.0.0/README.md --exclude *.pyd
+[2024-05-06 09:29:49] INFO root fetch - processPackages [pyPrediktorMapClient]: Downloading https://files.pythonhosted.org/packages/3f/8b/519fbfc11f51618bfa68ad17453adcb8d718b0414db0719862bb00b16afb/pyPrediktorMapClient-0.8.0.tar.gz
+[2024-05-06 09:29:49] INFO root fetch - processPackages [unimernet]: Downloading https://files.pythonhosted.org/packages/e9/80/f88aab86d9896ba7ca3ca6fddf6a01bdd108cede3b9dda7393a465c9589a/unimernet-0.0.5-py2.py3-none-any.whl
+[2024-05-06 09:29:49] INFO root fetch - processPackages [pyPrediktorMapClient]: executing diffoscope
+[2024-05-06 09:29:49] INFO root fetch - processPackages [pyPrediktorMapClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPrediktorMapClient-0.7.0.tar.gz tmp/pyPrediktorMapClient-0.8.0.tar.gz --markdown 20240506/p/pyPrediktorMapClient/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-06 09:29:49] INFO root fetch - processPackages [unimernet]: executing diffoscope
+[2024-05-06 09:29:49] INFO root fetch - processPackages [unimernet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimernet-0.0.4-py2.py3-none-any.whl.zip tmp/unimernet-0.0.5-py2.py3-none-any.whl.zip --markdown 20240506/u/unimernet/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-06 09:29:50] INFO root fetch - processPackages [mikrotik-bt5]: Remove: archive file [/home/abi/fetcher/tmp/mikrotik-bt5-0.0.2b4.tar.gz]
+[2024-05-06 09:29:50] INFO root fetch - processPackages [mikrotik-bt5]: Remove: archive file [/home/abi/fetcher/tmp/mikrotik-bt5-1.0.0.tar.gz]
+[2024-05-06 09:29:50] INFO root fetch - main [MainThread]: End processing [mikrotik-bt5]: success
+[2024-05-06 09:29:50] INFO root fetch - processPackages [pyPrediktorMapClient]: Remove: archive file [/home/abi/fetcher/tmp/pyPrediktorMapClient-0.7.0.tar.gz]
+[2024-05-06 09:29:50] INFO root fetch - processPackages [pyPrediktorMapClient]: Remove: archive file [/home/abi/fetcher/tmp/pyPrediktorMapClient-0.8.0.tar.gz]
+[2024-05-06 09:29:50] INFO root fetch - main [MainThread]: End processing [pyPrediktorMapClient]: success
+[2024-05-06 09:29:50] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.4-py2.py3-none-any.whl.zip]
+[2024-05-06 09:29:50] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.5-py2.py3-none-any.whl.zip]
+[2024-05-06 09:29:50] INFO root fetch - main [MainThread]: End processing [unimernet]: success
+[2024-05-06 09:29:50] INFO root fetch - main [MainThread]: Store serial: [23072955]
