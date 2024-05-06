@@ -6767,3 +6767,35 @@
 [2024-05-06 08:35:02] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
 [2024-05-06 08:35:02] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2024-05-06 08:35:02] INFO root fetch - main [MainThread]: Store serial: [23072450]
+[2024-05-06 08:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072450]
+[2024-05-06 08:37:11] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-06 08:39:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072450]
+[2024-05-06 08:39:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beanhub-import
+[2024-05-06 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owntools
+[2024-05-06 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myqueue
+[2024-05-06 08:39:17] INFO root fetch - processPackages [owntools]: New version: [1.5] Old Version: [1.4]
+[2024-05-06 08:39:17] INFO root fetch - processPackages [beanhub-import]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-06 08:39:17] INFO root fetch - processPackages [owntools]: Downloading https://files.pythonhosted.org/packages/a4/36/e37b8c8410a63e6407afac1ab652ff7a95699bd5995184e8bcacfbf5915a/owntools-1.4.tar.gz
+[2024-05-06 08:39:17] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/18/c4/50c0e0619e9ba94757be9492c206763d5fb347dc512d090adc2498789c7c/beanhub_import-0.0.5.tar.gz
+[2024-05-06 08:39:17] INFO root fetch - processPackages [myqueue]: New version: [24.5.0] Old Version: [24.1.0]
+[2024-05-06 08:39:17] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/68/60/c9ba74d3df96fd159a8495d6a224a0f1f0f4d34b83743488939aad21b1e8/beanhub_import-0.0.6.tar.gz
+[2024-05-06 08:39:17] INFO root fetch - processPackages [owntools]: Downloading https://files.pythonhosted.org/packages/75/f6/1eda78525bb0a710c0934f2174a6758c136f9ade0effa721eb67d1e76874/owntools-1.5.tar.gz
+[2024-05-06 08:39:17] INFO root fetch - processPackages [myqueue]: Downloading https://files.pythonhosted.org/packages/76/d6/60eec8b2db3eb7a3c61bd49cc6007cfc342376dd6626b5e59797b8bb08e6/myqueue-24.1.0.tar.gz
+[2024-05-06 08:39:17] INFO root fetch - processPackages [beanhub-import]: executing diffoscope
+[2024-05-06 08:39:17] INFO root fetch - processPackages [beanhub-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_import-0.0.5.tar.gz tmp/beanhub_import-0.0.6.tar.gz --markdown 20240506/b/beanhub-import/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-06 08:39:17] INFO root fetch - processPackages [owntools]: executing diffoscope
+[2024-05-06 08:39:17] INFO root fetch - processPackages [owntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owntools-1.4.tar.gz tmp/owntools-1.5.tar.gz --markdown 20240506/o/owntools/1.4-1.5/README.md --exclude *.pyd
+[2024-05-06 08:39:18] INFO root fetch - processPackages [myqueue]: Downloading https://files.pythonhosted.org/packages/84/f6/83e1fc67ec39e736734bc8e62336560479d3a7d8e026e11211e91554df9d/myqueue-24.5.0-py3-none-any.whl
+[2024-05-06 08:39:18] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.5.tar.gz]
+[2024-05-06 08:39:18] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.6.tar.gz]
+[2024-05-06 08:39:18] INFO root fetch - main [MainThread]: End processing [beanhub-import]: success
+[2024-05-06 08:39:18] INFO root fetch - processPackages [owntools]: Remove: archive file [/home/abi/fetcher/tmp/owntools-1.4.tar.gz]
+[2024-05-06 08:39:18] INFO root fetch - processPackages [owntools]: Remove: archive file [/home/abi/fetcher/tmp/owntools-1.5.tar.gz]
+[2024-05-06 08:39:18] INFO root fetch - main [MainThread]: End processing [owntools]: success
+[2024-05-06 08:39:18] INFO root fetch - processPackages [myqueue]: executing diffoscope
+[2024-05-06 08:39:18] INFO root fetch - processPackages [myqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myqueue-24.1.0.tar.gz tmp/myqueue-24.5.0-py3-none-any.whl.zip --markdown 20240506/m/myqueue/24.1.0-24.5.0/README.md --exclude *.pyd
+[2024-05-06 08:39:19] INFO root fetch - processPackages [myqueue]: Remove: archive file [/home/abi/fetcher/tmp/myqueue-24.1.0.tar.gz]
+[2024-05-06 08:39:19] INFO root fetch - processPackages [myqueue]: Remove: archive file [/home/abi/fetcher/tmp/myqueue-24.5.0-py3-none-any.whl.zip]
+[2024-05-06 08:39:19] INFO root fetch - main [MainThread]: End processing [myqueue]: success
+[2024-05-06 08:39:19] INFO root fetch - main [MainThread]: Store serial: [23072456]
