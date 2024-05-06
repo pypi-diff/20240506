@@ -15403,3 +15403,27 @@
 [2024-05-06 12:20:14] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-1.4.3.tar.gz]
 [2024-05-06 12:20:14] INFO root fetch - main [MainThread]: End processing [firebolt-sdk]: success
 [2024-05-06 12:20:14] INFO root fetch - main [MainThread]: Store serial: [23075984]
+[2024-05-06 12:22:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075984]
+[2024-05-06 12:22:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 12:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metatensor-core
+[2024-05-06 12:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-runtime
+[2024-05-06 12:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typingchat
+[2024-05-06 12:22:23] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-06 12:22:23] WARNING root fetch - processPackages [typingchat]: Skipping, unable to determine old version
+[2024-05-06 12:22:23] INFO root fetch - main [MainThread]: End processing [typingchat] error
+[2024-05-06 12:22:23] INFO root fetch - processPackages [metatensor-core]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-06 12:22:23] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-06 12:22:23] INFO root fetch - processPackages [metatensor-core]: Downloading https://files.pythonhosted.org/packages/6b/3e/ecae523e2282aaae71f5562aaa1e4b4a661d045a5b7d098dbb2aad26d392/metatensor-core-0.1.5.tar.gz
+[2024-05-06 12:22:23] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-06 12:22:23] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-06 12:22:23] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240506/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-06 12:22:24] INFO root fetch - processPackages [metatensor-core]: Downloading https://files.pythonhosted.org/packages/19/00/7821c96d3af9c6107898bc3d6d3b95f4ef3307c376d3bc9dc825052c0dbd/metatensor_core-0.1.6.tar.gz
+[2024-05-06 12:22:24] INFO root fetch - processPackages [metatensor-core]: executing diffoscope
+[2024-05-06 12:22:24] INFO root fetch - processPackages [metatensor-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metatensor-core-0.1.5.tar.gz tmp/metatensor_core-0.1.6.tar.gz --markdown 20240506/m/metatensor-core/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-06 12:22:24] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-06 12:22:24] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-06 12:22:24] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-06 12:22:24] INFO root fetch - processPackages [metatensor-core]: Remove: archive file [/home/abi/fetcher/tmp/metatensor-core-0.1.5.tar.gz]
+[2024-05-06 12:22:24] INFO root fetch - processPackages [metatensor-core]: Remove: archive file [/home/abi/fetcher/tmp/metatensor_core-0.1.6.tar.gz]
+[2024-05-06 12:22:24] INFO root fetch - main [MainThread]: End processing [metatensor-core]: success
+[2024-05-06 12:22:24] INFO root fetch - main [MainThread]: Store serial: [23075999]
