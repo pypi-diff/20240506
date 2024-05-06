@@ -22086,3 +22086,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:36:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.0.tar.gz]
 [2024-05-06 16:36:03] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-06 16:36:03] INFO root fetch - main [MainThread]: Store serial: [23079252]
+[2024-05-06 16:38:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079252]
+[2024-05-06 16:38:17] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-06 16:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: celi-framework
+[2024-05-06 16:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redrover-api
+[2024-05-06 16:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easypaddleocr
+[2024-05-06 16:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyjhtdbv2
+[2024-05-06 16:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: worrierz
+[2024-05-06 16:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finch-api
+[2024-05-06 16:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyGramCore
+[2024-05-06 16:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chirographyz
+[2024-05-06 16:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nix-gpt-client
+[2024-05-06 16:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: djangoldp-energiepartagee
+[2024-05-06 16:38:18] INFO root fetch - processPackages [pyjhtdbv2]: New version: [20240506.3] Old Version: [20240506.2]
+[2024-05-06 16:38:18] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-06 16:38:18] INFO root fetch - processPackages [celi-framework]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-06 16:38:18] WARNING root fetch - processPackages [PyGramCore]: Skipping, unable to determine old version
+[2024-05-06 16:38:18] INFO root fetch - processPackages [PyGramCore]: Start processing: maptasker
+[2024-05-06 16:38:18] INFO root fetch - main [MainThread]: End processing [PyGramCore] error
+[2024-05-06 16:38:18] INFO root fetch - processPackages [redrover-api]: New version: [1.9.3.dev0] Old Version: [1.9.2.dev0]
+[2024-05-06 16:38:18] INFO root fetch - processPackages [finch-api]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-06 16:38:18] WARNING root fetch - processPackages [nix-gpt-client]: Skipping, unable to determine old version
+[2024-05-06 16:38:18] INFO root fetch - processPackages [nix-gpt-client]: Start processing: movoid-robotframework
+[2024-05-06 16:38:18] INFO root fetch - main [MainThread]: End processing [nix-gpt-client] error
+[2024-05-06 16:38:18] WARNING root fetch - processPackages [worrierz]: Skipping, unable to determine old version
+[2024-05-06 16:38:18] INFO root fetch - processPackages [worrierz]: Start processing: ConnorLabAnalysisTools
+[2024-05-06 16:38:18] INFO root fetch - main [MainThread]: End processing [worrierz] error
+[2024-05-06 16:38:18] INFO root fetch - processPackages [easypaddleocr]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-06 16:38:18] WARNING root fetch - processPackages [chirographyz]: Skipping, unable to determine old version
+[2024-05-06 16:38:18] INFO root fetch - processPackages [chirographyz]: Start processing: rindegastos-revops
+[2024-05-06 16:38:18] INFO root fetch - main [MainThread]: End processing [chirographyz] error
+[2024-05-06 16:38:18] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/93/7b/26098b279649e499632188e2feae9d4eb9dca4b26a9812ab51d3ed22cca0/pyjhtdbv2-20240506.2.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [movoid-robotframework]: New version: [1.4.4] Old Version: [1.4.2]
+[2024-05-06 16:38:18] INFO root fetch - processPackages [maptasker]: New version: [4.0] Old Version: [2.6.3]
+[2024-05-06 16:38:18] INFO root fetch - processPackages [celi-framework]: Downloading https://files.pythonhosted.org/packages/0e/99/89d71ee261460acf64837a854fa701b39c2176fdd6b8d2c3ef6f675771d5/celi_framework-0.1.0.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [movoid-robotframework]: Downloading https://files.pythonhosted.org/packages/23/2c/4d6119be3a23a4a281dc25a2e9e477e02de2c96bcdac6c7aa94f92d856d5/movoid_robotframework-1.4.2.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [rindegastos-revops]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 16:38:18] INFO root fetch - processPackages [redrover-api]: Downloading https://files.pythonhosted.org/packages/79/2a/aaf20ff281e9a4e56b80f8e93cbe9e41d97e06138d112160bdfdedecdef9/redrover-api-1.9.2.dev0.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [ConnorLabAnalysisTools]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-06 16:38:18] INFO root fetch - processPackages [finch-api]: Downloading https://files.pythonhosted.org/packages/3d/83/67d49a54417f2f4fb7f39eaa7f7d3b0c524160f4c3540dd576224afb685b/finch_api-0.9.4.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [easypaddleocr]: Downloading https://files.pythonhosted.org/packages/77/22/fe2668195955d51d8bf3959a9fe51068b934a6a2202452d28aa39b4993ba/easypaddleocr-0.2.0.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [maptasker]: Downloading https://files.pythonhosted.org/packages/ab/49/200acdb52a7646011175e546240bd0b707e122f159fbbd747f7926ab18c4/maptasker-2.6.3.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [rindegastos-revops]: Downloading https://files.pythonhosted.org/packages/cf/2b/f5bb3a5e85b56897dbeaedf871d84567473b2e16320bd68d5255bdc055bd/rindegastos_revops-0.0.8.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [movoid-robotframework]: Downloading https://files.pythonhosted.org/packages/b8/90/bd46361cb3030f9900b408f73c1d1ee82006a8edc3ea4f910998cc651189/movoid_robotframework-1.4.4.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [ConnorLabAnalysisTools]: Downloading https://files.pythonhosted.org/packages/e8/f1/dc2adf8b130d4d2dcf4976fd7b73f38fc19eb56586b44fe381c78538ebda/ConnorLabAnalysisTools-0.2.1.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [celi-framework]: Downloading https://files.pythonhosted.org/packages/55/65/7ec5e08c3ba3d1d55a619653dac9eebde1a7516afd68b30821f50adc92ed/celi_framework-0.2.0.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [movoid-robotframework]: executing diffoscope
+[2024-05-06 16:38:18] INFO root fetch - processPackages [movoid-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movoid_robotframework-1.4.2.tar.gz tmp/movoid_robotframework-1.4.4.tar.gz --markdown 20240506/m/movoid-robotframework/1.4.2-1.4.4/README.md --exclude *.pyd
+[2024-05-06 16:38:18] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-06 16:38:18] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240506/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-06 16:38:18] INFO root fetch - processPackages [pyjhtdbv2]: Downloading https://files.pythonhosted.org/packages/d8/b0/46aef7fae6e0468da5e5449d6f8efc34c3456402c7ddeb70730df5399d86/pyjhtdbv2-20240506.3.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [finch-api]: Downloading https://files.pythonhosted.org/packages/a7/40/69f973fbe568114c3e198cd4cd3586aedb3c65810d7fb43b1fe366bbead9/finch_api-0.9.5.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [easypaddleocr]: Downloading https://files.pythonhosted.org/packages/60/d7/a464ded1d04aa953ed5ddf0bc3060f9942dff94d8e487ee25c6d36634749/easypaddleocr-0.2.1.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [redrover-api]: Downloading https://files.pythonhosted.org/packages/68/22/6846caf94ab205d51453e15d3cc89e9c454e2fd9d3f1efabd23602c23a64/redrover-api-1.9.3.dev0.tar.gz
+[2024-05-06 16:38:18] INFO root fetch - processPackages [celi-framework]: executing diffoscope
+[2024-05-06 16:38:18] INFO root fetch - processPackages [celi-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celi_framework-0.1.0.tar.gz tmp/celi_framework-0.2.0.tar.gz --markdown 20240506/c/celi-framework/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-06 16:38:19] INFO root fetch - processPackages [finch-api]: executing diffoscope
+[2024-05-06 16:38:19] INFO root fetch - processPackages [finch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch_api-0.9.4.tar.gz tmp/finch_api-0.9.5.tar.gz --markdown 20240506/f/finch-api/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-06 16:38:19] INFO root fetch - processPackages [rindegastos-revops]: Downloading https://files.pythonhosted.org/packages/11/53/5886fb722876e1530a3ff42b6aa97510dd201e65807fe9ba72132b8b4d37/rindegastos_revops-0.0.9.tar.gz
+[2024-05-06 16:38:19] INFO root fetch - processPackages [easypaddleocr]: executing diffoscope
+[2024-05-06 16:38:19] INFO root fetch - processPackages [easypaddleocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypaddleocr-0.2.0.tar.gz tmp/easypaddleocr-0.2.1.tar.gz --markdown 20240506/e/easypaddleocr/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-06 16:38:19] INFO root fetch - processPackages [redrover-api]: executing diffoscope
+[2024-05-06 16:38:19] INFO root fetch - processPackages [redrover-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redrover-api-1.9.2.dev0.tar.gz tmp/redrover-api-1.9.3.dev0.tar.gz --markdown 20240506/r/redrover-api/1.9.2.dev0-1.9.3.dev0/README.md --exclude *.pyd
+[2024-05-06 16:38:19] INFO root fetch - processPackages [ConnorLabAnalysisTools]: Downloading https://files.pythonhosted.org/packages/09/e0/e37642d1f1dbc22d939b541c6ad7f34a8314b09d97ecc433ca0499486495/ConnorLabAnalysisTools-0.2.2.tar.gz
+[2024-05-06 16:38:19] INFO root fetch - processPackages [pyjhtdbv2]: executing diffoscope
+[2024-05-06 16:38:19] INFO root fetch - processPackages [pyjhtdbv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjhtdbv2-20240506.2.tar.gz tmp/pyjhtdbv2-20240506.3.tar.gz --markdown 20240506/p/pyjhtdbv2/20240506.2-20240506.3/README.md --exclude *.pyd
+[2024-05-06 16:38:19] INFO root fetch - processPackages [rindegastos-revops]: executing diffoscope
+[2024-05-06 16:38:19] INFO root fetch - processPackages [rindegastos-revops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rindegastos_revops-0.0.8.tar.gz tmp/rindegastos_revops-0.0.9.tar.gz --markdown 20240506/r/rindegastos-revops/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 16:38:19] INFO root fetch - processPackages [maptasker]: Downloading https://files.pythonhosted.org/packages/55/0f/5b80f8abad8bd4eabf41a88c9f8070ec031d5d58a6692858ac0aa68620c0/maptasker-4.0.tar.gz
+[2024-05-06 16:38:19] INFO root fetch - processPackages [maptasker]: executing diffoscope
+[2024-05-06 16:38:19] INFO root fetch - processPackages [maptasker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maptasker-2.6.3.tar.gz tmp/maptasker-4.0.tar.gz --markdown 20240506/m/maptasker/2.6.3-4.0/README.md --exclude *.pyd
+[2024-05-06 16:38:19] INFO root fetch - processPackages [movoid-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/movoid_robotframework-1.4.2.tar.gz]
+[2024-05-06 16:38:19] INFO root fetch - processPackages [movoid-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/movoid_robotframework-1.4.4.tar.gz]
+[2024-05-06 16:38:19] INFO root fetch - main [MainThread]: End processing [movoid-robotframework]: success
+[2024-05-06 16:38:19] INFO root fetch - processPackages [ConnorLabAnalysisTools]: executing diffoscope
+[2024-05-06 16:38:19] INFO root fetch - processPackages [ConnorLabAnalysisTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ConnorLabAnalysisTools-0.2.1.tar.gz tmp/ConnorLabAnalysisTools-0.2.2.tar.gz --markdown 20240506/C/ConnorLabAnalysisTools/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-06 16:38:19] INFO root fetch - processPackages [rindegastos-revops]: Remove: archive file [/home/abi/fetcher/tmp/rindegastos_revops-0.0.8.tar.gz]
+[2024-05-06 16:38:19] INFO root fetch - processPackages [rindegastos-revops]: Remove: archive file [/home/abi/fetcher/tmp/rindegastos_revops-0.0.9.tar.gz]
+[2024-05-06 16:38:19] INFO root fetch - main [MainThread]: End processing [rindegastos-revops]: success
+[2024-05-06 16:38:20] INFO root fetch - processPackages [finch-api]: Remove: archive file [/home/abi/fetcher/tmp/finch_api-0.9.4.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - processPackages [finch-api]: Remove: archive file [/home/abi/fetcher/tmp/finch_api-0.9.5.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - main [MainThread]: End processing [finch-api]: success
+[2024-05-06 16:38:20] INFO root fetch - processPackages [easypaddleocr]: Remove: archive file [/home/abi/fetcher/tmp/easypaddleocr-0.2.0.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - processPackages [easypaddleocr]: Remove: archive file [/home/abi/fetcher/tmp/easypaddleocr-0.2.1.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - main [MainThread]: End processing [easypaddleocr]: success
+[2024-05-06 16:38:20] INFO root fetch - processPackages [celi-framework]: Remove: archive file [/home/abi/fetcher/tmp/celi_framework-0.1.0.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - processPackages [celi-framework]: Remove: archive file [/home/abi/fetcher/tmp/celi_framework-0.2.0.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - main [MainThread]: End processing [celi-framework]: success
+[2024-05-06 16:38:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-06 16:38:20] INFO root fetch - processPackages [ConnorLabAnalysisTools]: Remove: archive file [/home/abi/fetcher/tmp/ConnorLabAnalysisTools-0.2.1.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - processPackages [ConnorLabAnalysisTools]: Remove: archive file [/home/abi/fetcher/tmp/ConnorLabAnalysisTools-0.2.2.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - main [MainThread]: End processing [ConnorLabAnalysisTools]: success
+[2024-05-06 16:38:20] INFO root fetch - processPackages [maptasker]: Remove: archive file [/home/abi/fetcher/tmp/maptasker-2.6.3.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - processPackages [maptasker]: Remove: archive file [/home/abi/fetcher/tmp/maptasker-4.0.tar.gz]
+[2024-05-06 16:38:20] INFO root fetch - main [MainThread]: End processing [maptasker]: success
+[2024-05-06 16:38:21] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20240506.2.tar.gz]
+[2024-05-06 16:38:21] INFO root fetch - processPackages [pyjhtdbv2]: Remove: archive file [/home/abi/fetcher/tmp/pyjhtdbv2-20240506.3.tar.gz]
+[2024-05-06 16:38:21] INFO root fetch - main [MainThread]: End processing [pyjhtdbv2]: success
+[2024-05-06 16:38:21] INFO root fetch - processPackages [redrover-api]: Remove: archive file [/home/abi/fetcher/tmp/redrover-api-1.9.2.dev0.tar.gz]
+[2024-05-06 16:38:21] INFO root fetch - processPackages [redrover-api]: Remove: archive file [/home/abi/fetcher/tmp/redrover-api-1.9.3.dev0.tar.gz]
+[2024-05-06 16:38:21] INFO root fetch - main [MainThread]: End processing [redrover-api]: success
+[2024-05-06 16:38:21] INFO root fetch - main [MainThread]: Store serial: [23079297]
