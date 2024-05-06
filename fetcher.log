@@ -2187,3 +2187,36 @@
 [2024-05-06 03:25:46] INFO root fetch - processPackages [lifton]: Remove: archive file [/home/abi/fetcher/tmp/lifton-1.0.1.tar.gz]
 [2024-05-06 03:25:46] INFO root fetch - main [MainThread]: End processing [lifton]: success
 [2024-05-06 03:25:46] INFO root fetch - main [MainThread]: Store serial: [23070388]
+[2024-05-06 03:27:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070388]
+[2024-05-06 03:27:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 03:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2024-05-06 03:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bokeh-sampledata
+[2024-05-06 03:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitlab-projects-settings
+[2024-05-06 03:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediff
+[2024-05-06 03:27:54] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202405050129] Old Version: [1.0.0.dev202405040125]
+[2024-05-06 03:27:54] INFO root fetch - processPackages [policyengine-us]: New version: [0.759.0] Old Version: [0.758.2]
+[2024-05-06 03:27:54] WARNING root fetch - processPackages [bokeh-sampledata]: Skipping, unable to determine old version
+[2024-05-06 03:27:54] INFO root fetch - main [MainThread]: End processing [bokeh-sampledata] error
+[2024-05-06 03:27:54] INFO root fetch - processPackages [gitlab-projects-settings]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-05-06 03:27:54] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/72/6e/a4f1d94f9209d4a26542ad128ba8ef16d5b3ec4f529531f1787dd8c2c39b/onediff-1.0.0.dev202405040125.tar.gz
+[2024-05-06 03:27:54] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/02/57/6627ec7cd9ce43787ac8c0c4d0e54f7ed090ac0d84596d32e58de41f7dd5/policyengine-us-0.758.2.tar.gz
+[2024-05-06 03:27:54] INFO root fetch - processPackages [gitlab-projects-settings]: Downloading https://files.pythonhosted.org/packages/48/8d/4a7ac9ae04883e4e6cc98c0511134a608e394ca5a09ea9013118c8e5adbb/gitlab_projects_settings-2.1.0.tar.gz
+[2024-05-06 03:27:55] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/de/11/ff828510f3448d1584e83cecae6a88bc3ca1a66e3d4dca96bde1c2fccaca/onediff-1.0.0.dev202405050129.tar.gz
+[2024-05-06 03:27:55] INFO root fetch - processPackages [gitlab-projects-settings]: Downloading https://files.pythonhosted.org/packages/fc/35/df87abbbb8277b3b735d4e8660785ef512170ab4195b2dbd127d35b03fbc/gitlab_projects_settings-3.0.0.tar.gz
+[2024-05-06 03:27:55] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/01/ea/48a71acbe62843e90f5798577b3309bc886565683416cad7381465a2be71/policyengine-us-0.759.0.tar.gz
+[2024-05-06 03:27:55] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-06 03:27:55] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202405040125.tar.gz tmp/onediff-1.0.0.dev202405050129.tar.gz --markdown 20240506/o/onediff/1.0.0.dev202405040125-1.0.0.dev202405050129/README.md --exclude *.pyd
+[2024-05-06 03:27:55] INFO root fetch - processPackages [gitlab-projects-settings]: executing diffoscope
+[2024-05-06 03:27:55] INFO root fetch - processPackages [gitlab-projects-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_projects_settings-2.1.0.tar.gz tmp/gitlab_projects_settings-3.0.0.tar.gz --markdown 20240506/g/gitlab-projects-settings/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-05-06 03:27:55] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-06 03:27:55] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.758.2.tar.gz tmp/policyengine-us-0.759.0.tar.gz --markdown 20240506/p/policyengine-us/0.758.2-0.759.0/README.md --exclude *.pyd
+[2024-05-06 03:27:55] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405040125.tar.gz]
+[2024-05-06 03:27:55] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405050129.tar.gz]
+[2024-05-06 03:27:55] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-06 03:27:56] INFO root fetch - processPackages [gitlab-projects-settings]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_projects_settings-2.1.0.tar.gz]
+[2024-05-06 03:27:56] INFO root fetch - processPackages [gitlab-projects-settings]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_projects_settings-3.0.0.tar.gz]
+[2024-05-06 03:27:56] INFO root fetch - main [MainThread]: End processing [gitlab-projects-settings]: success
+[2024-05-06 03:28:27] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.758.2.tar.gz]
+[2024-05-06 03:28:27] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.759.0.tar.gz]
+[2024-05-06 03:28:27] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-06 03:28:27] INFO root fetch - main [MainThread]: Store serial: [23070400]
