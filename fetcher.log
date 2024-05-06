@@ -21203,3 +21203,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:05:15] INFO root fetch - processPackages [jedha-cli]: Remove: archive file [/home/abi/fetcher/tmp/jedha_cli-1.2.3.tar.gz]
 [2024-05-06 16:05:15] INFO root fetch - main [MainThread]: End processing [jedha-cli]: success
 [2024-05-06 16:05:15] INFO root fetch - main [MainThread]: Store serial: [23078886]
+[2024-05-06 16:07:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078886]
+[2024-05-06 16:07:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 16:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crate-docs-theme
+[2024-05-06 16:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: igc-processor
+[2024-05-06 16:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyserrf
+[2024-05-06 16:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mimllearning
+[2024-05-06 16:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: external-resources-io
+[2024-05-06 16:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plume-python
+[2024-05-06 16:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meilisearch
+[2024-05-06 16:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vnpy-evo
+[2024-05-06 16:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libresvip
+[2024-05-06 16:07:26] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 16:07:26] INFO root fetch - processPackages [pyserrf]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 16:07:26] INFO root fetch - processPackages [external-resources-io]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 16:07:26] INFO root fetch - processPackages [plume-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 16:07:27] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 16:07:27] WARNING root fetch - processPackages [igc-processor]: Skipping, unable to determine old version
+[2024-05-06 16:07:27] INFO root fetch - main [MainThread]: End processing [igc-processor] error
+[2024-05-06 16:07:27] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-06 16:07:27] INFO root fetch - processPackages [external-resources-io]: Downloading https://files.pythonhosted.org/packages/df/b7/d0c57e9407f69010befe6a58ee0bbb455cfd174204b8f1fc82105cfc817b/external_resources_io-0.1.8.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [meilisearch]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-06 16:07:27] INFO root fetch - processPackages [libresvip]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-06 16:07:27] INFO root fetch - processPackages [pyserrf]: Downloading https://files.pythonhosted.org/packages/ee/f6/0e05c6ebad9462402f0ab0f6df8978f9db7f8a7113f7319ea027427ae808/pyserrf-0.1.0.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [vnpy-evo]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-06 16:07:27] INFO root fetch - processPackages [plume-python]: Downloading https://files.pythonhosted.org/packages/a2/06/e31b5dbeb68205c2a1fa7e557e3158a16fa9114bc5bfdbb9ccfb12051ea5/plume_python-0.1.8.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [meilisearch]: Downloading https://files.pythonhosted.org/packages/b9/85/28be9699d845a730a6fe8c9a53988a90246852c52bbc616c6fafb8f691d9/meilisearch-0.8.3.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [libresvip]: Downloading https://files.pythonhosted.org/packages/a1/db/509a30009fbeebf70f662ad342080177069a62e763301c145ed254f63015/libresvip-1.1.1.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [external-resources-io]: Downloading https://files.pythonhosted.org/packages/14/47/e9d32327416a4cacc1bcdb8b6934a4d6c1344b02d3d80010046cd86e6415/external_resources_io-0.1.9.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [vnpy-evo]: Downloading https://files.pythonhosted.org/packages/45/49/5cd072fd7eed3a288b2aee500c6b638cd9c0f70b5768b673ad89144f22f0/vnpy_evo-0.2.0.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [external-resources-io]: executing diffoscope
+[2024-05-06 16:07:27] INFO root fetch - processPackages [external-resources-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/external_resources_io-0.1.8.tar.gz tmp/external_resources_io-0.1.9.tar.gz --markdown 20240506/e/external-resources-io/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:07:27] INFO root fetch - processPackages [pyserrf]: Downloading https://files.pythonhosted.org/packages/1a/90/d8a375c010628bdd1f0bb8cac3e59b883050cadd043e95976f71b356d39e/pyserrf-0.1.1.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [pyserrf]: executing diffoscope
+[2024-05-06 16:07:27] INFO root fetch - processPackages [pyserrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserrf-0.1.0.tar.gz tmp/pyserrf-0.1.1.tar.gz --markdown 20240506/p/pyserrf/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 16:07:27] INFO root fetch - processPackages [plume-python]: Downloading https://files.pythonhosted.org/packages/c2/d6/b09003b590d7eb58b9de567c7c82c59b6c0fb293ddc9cbd48486bd3d0585/plume_python-0.1.9.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [meilisearch]: Downloading https://files.pythonhosted.org/packages/d3/c7/70afe0fb413413473e498aead75fa0b9ad0af1d23935ef355868402d199d/meilisearch-0.9.0.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [vnpy-evo]: Downloading https://files.pythonhosted.org/packages/b4/46/dd832a719e0e11285628ef05437578aa775f8e97e234ebbf9d4af1c92eab/vnpy_evo-0.2.1.tar.gz
+[2024-05-06 16:07:27] INFO root fetch - processPackages [libresvip]: Downloading https://files.pythonhosted.org/packages/8b/48/67c0599a8b5a2c55e3facaff38762fa415b40bf741f4ed7a3d65099e5232/libresvip-1.1.2-py3-none-any.whl
+[2024-05-06 16:07:27] INFO root fetch - processPackages [plume-python]: executing diffoscope
+[2024-05-06 16:07:27] INFO root fetch - processPackages [plume-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plume_python-0.1.8.tar.gz tmp/plume_python-0.1.9.tar.gz --markdown 20240506/p/plume-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:07:27] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-06 16:07:27] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240506/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-06 16:07:27] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 16:07:27] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 16:07:27] INFO root fetch - processPackages [meilisearch]: executing diffoscope
+[2024-05-06 16:07:27] INFO root fetch - processPackages [meilisearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch-0.8.3.tar.gz tmp/meilisearch-0.9.0.tar.gz --markdown 20240506/m/meilisearch/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-06 16:07:28] INFO root fetch - processPackages [external-resources-io]: Remove: archive file [/home/abi/fetcher/tmp/external_resources_io-0.1.8.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - processPackages [external-resources-io]: Remove: archive file [/home/abi/fetcher/tmp/external_resources_io-0.1.9.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - main [MainThread]: End processing [external-resources-io]: success
+[2024-05-06 16:07:28] INFO root fetch - processPackages [vnpy-evo]: executing diffoscope
+[2024-05-06 16:07:28] INFO root fetch - processPackages [vnpy-evo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_evo-0.2.0.tar.gz tmp/vnpy_evo-0.2.1.tar.gz --markdown 20240506/v/vnpy-evo/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-06 16:07:28] INFO root fetch - processPackages [libresvip]: executing diffoscope
+[2024-05-06 16:07:28] INFO root fetch - processPackages [libresvip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libresvip-1.1.1.tar.gz tmp/libresvip-1.1.2-py3-none-any.whl.zip --markdown 20240506/l/libresvip/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-06 16:07:28] INFO root fetch - processPackages [pyserrf]: Remove: archive file [/home/abi/fetcher/tmp/pyserrf-0.1.0.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - processPackages [pyserrf]: Remove: archive file [/home/abi/fetcher/tmp/pyserrf-0.1.1.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - main [MainThread]: End processing [pyserrf]: success
+[2024-05-06 16:07:28] INFO root fetch - processPackages [meilisearch]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch-0.8.3.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - processPackages [meilisearch]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch-0.9.0.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - main [MainThread]: End processing [meilisearch]: success
+[2024-05-06 16:07:28] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-06 16:07:28] INFO root fetch - processPackages [plume-python]: Remove: archive file [/home/abi/fetcher/tmp/plume_python-0.1.8.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - processPackages [plume-python]: Remove: archive file [/home/abi/fetcher/tmp/plume_python-0.1.9.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - main [MainThread]: End processing [plume-python]: success
+[2024-05-06 16:07:28] INFO root fetch - processPackages [vnpy-evo]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_evo-0.2.0.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - processPackages [vnpy-evo]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_evo-0.2.1.tar.gz]
+[2024-05-06 16:07:28] INFO root fetch - main [MainThread]: End processing [vnpy-evo]: success
+[2024-05-06 16:07:29] INFO root fetch - processPackages [libresvip]: Remove: archive file [/home/abi/fetcher/tmp/libresvip-1.1.1.tar.gz]
+[2024-05-06 16:07:29] INFO root fetch - processPackages [libresvip]: Remove: archive file [/home/abi/fetcher/tmp/libresvip-1.1.2-py3-none-any.whl.zip]
+[2024-05-06 16:07:29] INFO root fetch - main [MainThread]: End processing [libresvip]: success
+[2024-05-06 16:07:29] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 16:07:29] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 16:07:29] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 16:07:29] INFO root fetch - main [MainThread]: Store serial: [23078912]
