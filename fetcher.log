@@ -2711,3 +2711,36 @@
 [2024-05-06 04:11:55] WARNING root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Skipping package: exceeds size limit 11001242>=10485760
 [2024-05-06 04:11:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator] error
 [2024-05-06 04:11:55] INFO root fetch - main [MainThread]: Store serial: [23070596]
+[2024-05-06 04:13:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070596]
+[2024-05-06 04:14:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 04:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beanhub-import
+[2024-05-06 04:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-repeatable-iterable
+[2024-05-06 04:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thor
+[2024-05-06 04:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: report-creator
+[2024-05-06 04:14:04] WARNING root fetch - processPackages [beanhub-import]: Skipping, unable to determine old version
+[2024-05-06 04:14:04] INFO root fetch - main [MainThread]: End processing [beanhub-import] error
+[2024-05-06 04:14:04] INFO root fetch - processPackages [thor]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-06 04:14:04] INFO root fetch - processPackages [thor]: Downloading https://files.pythonhosted.org/packages/6b/43/3808f163005af01c7fa631ef865898b34f6aa29d074d140066ba16c6ae78/thor-0.9.8.tar.gz
+[2024-05-06 04:14:04] INFO root fetch - processPackages [python-repeatable-iterable]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-05-06 04:14:04] INFO root fetch - processPackages [report-creator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-06 04:14:04] INFO root fetch - processPackages [python-repeatable-iterable]: Downloading https://files.pythonhosted.org/packages/83/71/f7e3854eb9761f007451a6e3e89f49c9e633c65f7f0721eebc0ad83cbb99/python_repeatable_iterable-2.1.7.tar.gz
+[2024-05-06 04:14:04] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/57/ef/80d0f362d1009648ca0ef0f2dadddabcae16222604617a8e3a951400fd86/report_creator-1.0.8.tar.gz
+[2024-05-06 04:14:04] INFO root fetch - processPackages [thor]: Downloading https://files.pythonhosted.org/packages/d0/ca/4ed5b622a23dea82284cbe071a76f0c774adfdaa706917444e15f623bb98/thor-0.9.9.tar.gz
+[2024-05-06 04:14:04] INFO root fetch - processPackages [thor]: executing diffoscope
+[2024-05-06 04:14:04] INFO root fetch - processPackages [thor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thor-0.9.8.tar.gz tmp/thor-0.9.9.tar.gz --markdown 20240506/t/thor/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-06 04:14:04] INFO root fetch - processPackages [python-repeatable-iterable]: Downloading https://files.pythonhosted.org/packages/ba/a8/26244c4958a0d009fdfedc898e1b207b4cebe1a53b7f4b3666e1f2dad2b1/python_repeatable_iterable-2.1.8.tar.gz
+[2024-05-06 04:14:04] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/9f/b7/f0e16193c83b532bc0e2222b47171e2feab21ebd4b7ffa9d962f816813bc/report_creator-1.0.9.tar.gz
+[2024-05-06 04:14:05] INFO root fetch - processPackages [report-creator]: executing diffoscope
+[2024-05-06 04:14:05] INFO root fetch - processPackages [report-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report_creator-1.0.8.tar.gz tmp/report_creator-1.0.9.tar.gz --markdown 20240506/r/report-creator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-06 04:14:05] INFO root fetch - processPackages [python-repeatable-iterable]: executing diffoscope
+[2024-05-06 04:14:05] INFO root fetch - processPackages [python-repeatable-iterable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_repeatable_iterable-2.1.7.tar.gz tmp/python_repeatable_iterable-2.1.8.tar.gz --markdown 20240506/p/python-repeatable-iterable/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-05-06 04:14:05] INFO root fetch - processPackages [thor]: Remove: archive file [/home/abi/fetcher/tmp/thor-0.9.8.tar.gz]
+[2024-05-06 04:14:05] INFO root fetch - processPackages [thor]: Remove: archive file [/home/abi/fetcher/tmp/thor-0.9.9.tar.gz]
+[2024-05-06 04:14:05] INFO root fetch - main [MainThread]: End processing [thor]: success
+[2024-05-06 04:14:05] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.8.tar.gz]
+[2024-05-06 04:14:05] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.9.tar.gz]
+[2024-05-06 04:14:05] INFO root fetch - main [MainThread]: End processing [report-creator]: success
+[2024-05-06 04:14:05] INFO root fetch - processPackages [python-repeatable-iterable]: Remove: archive file [/home/abi/fetcher/tmp/python_repeatable_iterable-2.1.7.tar.gz]
+[2024-05-06 04:14:05] INFO root fetch - processPackages [python-repeatable-iterable]: Remove: archive file [/home/abi/fetcher/tmp/python_repeatable_iterable-2.1.8.tar.gz]
+[2024-05-06 04:14:05] INFO root fetch - main [MainThread]: End processing [python-repeatable-iterable]: success
+[2024-05-06 04:14:05] INFO root fetch - main [MainThread]: Store serial: [23070608]
