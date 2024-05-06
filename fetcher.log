@@ -15520,3 +15520,72 @@
 [2024-05-06 12:29:00] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.9.tar.gz]
 [2024-05-06 12:29:00] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2024-05-06 12:29:00] INFO root fetch - main [MainThread]: Store serial: [23076032]
+[2024-05-06 12:31:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076032]
+[2024-05-06 12:31:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 12:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: breeze-connect
+[2024-05-06 12:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coffe-analyzer
+[2024-05-06 12:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: infrable
+[2024-05-06 12:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openAIInsight
+[2024-05-06 12:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: junifer
+[2024-05-06 12:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynalglib
+[2024-05-06 12:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: YMS
+[2024-05-06 12:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pangolier
+[2024-05-06 12:31:10] INFO root fetch - processPackages [infrable]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 12:31:10] INFO root fetch - processPackages [YMS]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-06 12:31:10] INFO root fetch - processPackages [coffe-analyzer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 12:31:10] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/ec/13/a5b120bf61eb7f2e034d145d3994fc016d0b5afca7b4898255dee8d85958/infrable-0.1.0.tar.gz
+[2024-05-06 12:31:10] INFO root fetch - processPackages [junifer]: New version: [0.0.5.dev52] Old Version: [0.0.5.dev48]
+[2024-05-06 12:31:10] INFO root fetch - processPackages [breeze-connect]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-06 12:31:10] INFO root fetch - processPackages [openAIInsight]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 12:31:10] WARNING root fetch - processPackages [dynalglib]: Skipping, unable to determine old version
+[2024-05-06 12:31:10] INFO root fetch - processPackages [pangolier]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-06 12:31:10] INFO root fetch - main [MainThread]: End processing [dynalglib] error
+[2024-05-06 12:31:10] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/8e/8b/10c84e60bc2e22d6071e93687abf299664fc52654c6522f27093357aaa38/YMS-1.2.7.tar.gz
+[2024-05-06 12:31:10] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/74/82/c493c354355485d00927f38434888802b8a7b4485783699e82846b34f930/coffe_analyzer-0.1.8.tar.gz
+[2024-05-06 12:31:10] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/ae/06/fa51b5dcb39e8e6a7a8a823499d9504e6c1e9251753ad6524ae82bbb466e/openAIInsight-0.0.8-py3-none-any.whl
+[2024-05-06 12:31:10] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/eb/38/10bd4db4bbc0b15976ae792c12746686d284a9fc380eb2e473a18c8cf40a/breeze_connect-1.0.8.tar.gz
+[2024-05-06 12:31:10] INFO root fetch - processPackages [pangolier]: Downloading https://files.pythonhosted.org/packages/54/59/a3653f6ff1f4f7641c2db0e8c80c503a0edc74774819106d371a3abf8997/pangolier-0.2.2-py3-none-any.whl
+[2024-05-06 12:31:10] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/76/b5/1a3982d2f6841af193a3a6cf9118cf43617a4dd6bc6f938973ab4e5c26be/YMS-1.2.8.tar.gz
+[2024-05-06 12:31:10] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/ff/f5/c699e0d3001db147f583ca895db9f9a358c301c627346ac66423579d6527/junifer-0.0.5.dev48.tar.gz
+[2024-05-06 12:31:10] INFO root fetch - processPackages [coffe-analyzer]: Downloading https://files.pythonhosted.org/packages/d7/b9/eb95b4dc10e17f3cfbc42b752864e0d2c79cf976fc1077c0388b6617b589/coffe_analyzer-0.1.9.tar.gz
+[2024-05-06 12:31:10] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2024-05-06 12:31:10] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-1.2.7.tar.gz tmp/YMS-1.2.8.tar.gz --markdown 20240506/Y/YMS/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-06 12:31:10] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/dc/88/90ccc9e3c786dd62d050b3d39b98ccca35ef72c17875b94d2872ede9ba81/infrable-0.1.1.tar.gz
+[2024-05-06 12:31:10] INFO root fetch - processPackages [coffe-analyzer]: executing diffoscope
+[2024-05-06 12:31:10] INFO root fetch - processPackages [coffe-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffe_analyzer-0.1.8.tar.gz tmp/coffe_analyzer-0.1.9.tar.gz --markdown 20240506/c/coffe-analyzer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 12:31:10] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-06 12:31:10] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.0.tar.gz tmp/infrable-0.1.1.tar.gz --markdown 20240506/i/infrable/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 12:31:11] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/1e/33/a70a124292be5c9d2c37167928812a80dc68e36910e94f3ba08cba349c03/openAIInsight-0.0.9-py3-none-any.whl
+[2024-05-06 12:31:11] INFO root fetch - processPackages [pangolier]: Downloading https://files.pythonhosted.org/packages/fe/31/1424476f4717e548f1fa7bacbef82a4b7391084beb8e422bba1da866eff1/pangolier-0.2.3-py3-none-any.whl
+[2024-05-06 12:31:11] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/4c/42/710b1f5e8f9fd52127641623d4bd1c641247bcf346c97a3bb5c022588e32/breeze_connect-1.0.9.tar.gz
+[2024-05-06 12:31:11] INFO root fetch - processPackages [openAIInsight]: executing diffoscope
+[2024-05-06 12:31:11] INFO root fetch - processPackages [openAIInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openAIInsight-0.0.8-py3-none-any.whl.zip tmp/openAIInsight-0.0.9-py3-none-any.whl.zip --markdown 20240506/o/openAIInsight/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 12:31:11] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/3a/a0/60aeb29327ed119b3f374fcb16d12908ec698be19db294a7285b5a8bac44/junifer-0.0.5.dev52.tar.gz
+[2024-05-06 12:31:11] INFO root fetch - processPackages [breeze-connect]: executing diffoscope
+[2024-05-06 12:31:11] INFO root fetch - processPackages [breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_connect-1.0.8.tar.gz tmp/breeze_connect-1.0.9.tar.gz --markdown 20240506/b/breeze-connect/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-06 12:31:11] INFO root fetch - processPackages [pangolier]: executing diffoscope
+[2024-05-06 12:31:11] INFO root fetch - processPackages [pangolier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pangolier-0.2.2-py3-none-any.whl.zip tmp/pangolier-0.2.3-py3-none-any.whl.zip --markdown 20240506/p/pangolier/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-06 12:31:11] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-05-06 12:31:11] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.5.dev48.tar.gz tmp/junifer-0.0.5.dev52.tar.gz --markdown 20240506/j/junifer/0.0.5.dev48-0.0.5.dev52/README.md --exclude *.pyd
+[2024-05-06 12:31:11] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-1.2.7.tar.gz]
+[2024-05-06 12:31:11] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-1.2.8.tar.gz]
+[2024-05-06 12:31:11] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2024-05-06 12:31:11] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.8.tar.gz]
+[2024-05-06 12:31:11] INFO root fetch - processPackages [coffe-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/coffe_analyzer-0.1.9.tar.gz]
+[2024-05-06 12:31:11] INFO root fetch - main [MainThread]: End processing [coffe-analyzer]: success
+[2024-05-06 12:31:11] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.0.tar.gz]
+[2024-05-06 12:31:11] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.1.tar.gz]
+[2024-05-06 12:31:11] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-06 12:31:11] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.8-py3-none-any.whl.zip]
+[2024-05-06 12:31:11] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.9-py3-none-any.whl.zip]
+[2024-05-06 12:31:11] INFO root fetch - main [MainThread]: End processing [openAIInsight]: success
+[2024-05-06 12:31:11] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.8.tar.gz]
+[2024-05-06 12:31:11] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.9.tar.gz]
+[2024-05-06 12:31:11] INFO root fetch - main [MainThread]: End processing [breeze-connect]: success
+[2024-05-06 12:31:12] INFO root fetch - processPackages [pangolier]: Remove: archive file [/home/abi/fetcher/tmp/pangolier-0.2.2-py3-none-any.whl.zip]
+[2024-05-06 12:31:12] INFO root fetch - processPackages [pangolier]: Remove: archive file [/home/abi/fetcher/tmp/pangolier-0.2.3-py3-none-any.whl.zip]
+[2024-05-06 12:31:12] INFO root fetch - main [MainThread]: End processing [pangolier]: success
+[2024-05-06 12:31:12] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev48.tar.gz]
+[2024-05-06 12:31:12] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev52.tar.gz]
+[2024-05-06 12:31:12] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-05-06 12:31:12] INFO root fetch - main [MainThread]: Store serial: [23076055]
