@@ -3196,3 +3196,38 @@
 [2024-05-06 04:38:06] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
 [2024-05-06 04:38:06] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
 [2024-05-06 04:38:06] INFO root fetch - main [MainThread]: Store serial: [23070773]
+[2024-05-06 04:40:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070773]
+[2024-05-06 04:40:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 04:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: migration-db
+[2024-05-06 04:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: furrow1k
+[2024-05-06 04:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: furrow1k
+[2024-05-06 04:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: furrow1k
+[2024-05-06 04:40:15] INFO root fetch - processPackages [furrow1k]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-06 04:40:15] INFO root fetch - processPackages [migration-db]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-06 04:40:15] INFO root fetch - processPackages [furrow1k]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-06 04:40:15] INFO root fetch - processPackages [furrow1k]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-06 04:40:15] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/df/aa/5a8ad79ebb07c9caf7f1889f96462b5f14e0235417c0f393738d654fd237/furrow1k-0.1.7.tar.gz
+[2024-05-06 04:40:15] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/ec/3d/1a345ced5eb068fa39c8cc774755832c4f632d094d3dd71e19c86b97013e/migration_db-1.0.5.tar.gz
+[2024-05-06 04:40:15] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/df/aa/5a8ad79ebb07c9caf7f1889f96462b5f14e0235417c0f393738d654fd237/furrow1k-0.1.7.tar.gz
+[2024-05-06 04:40:15] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/df/aa/5a8ad79ebb07c9caf7f1889f96462b5f14e0235417c0f393738d654fd237/furrow1k-0.1.7.tar.gz
+[2024-05-06 04:40:15] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/e0/f7/b4dc750abdadf7c7f0ba22542f07d1a660bef238f7fb6c2e5aae9df0b60e/migration_db-1.0.6.tar.gz
+[2024-05-06 04:40:15] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-05-06 04:40:15] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.5.tar.gz tmp/migration_db-1.0.6.tar.gz --markdown 20240506/m/migration-db/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-06 04:40:15] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/c4/17/1dfe31f76c2e7253da29282ec51d684f7187b25848f62d54efb6e4688a27/furrow1k-0.1.8.tar.gz
+[2024-05-06 04:40:15] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/c4/17/1dfe31f76c2e7253da29282ec51d684f7187b25848f62d54efb6e4688a27/furrow1k-0.1.8.tar.gz
+[2024-05-06 04:40:15] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/c4/17/1dfe31f76c2e7253da29282ec51d684f7187b25848f62d54efb6e4688a27/furrow1k-0.1.8.tar.gz
+[2024-05-06 04:40:16] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-06 04:40:16] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-0.1.7.tar.gz tmp/furrow1k-0.1.8.tar.gz --markdown 20240506/f/furrow1k/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-06 04:40:16] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-06 04:40:16] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-06 04:40:16] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-0.1.7.tar.gz tmp/furrow1k-0.1.8.tar.gz --markdown 20240506/f/furrow1k/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-06 04:40:16] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-0.1.7.tar.gz tmp/furrow1k-0.1.8.tar.gz --markdown 20240506/f/furrow1k/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-06 04:40:16] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.7.tar.gz]
+[2024-05-06 04:40:16] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.8.tar.gz]
+[2024-05-06 04:40:16] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-06 04:40:16] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.5.tar.gz]
+[2024-05-06 04:40:16] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.6.tar.gz]
+[2024-05-06 04:40:16] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-05-06 04:40:16] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-06 04:40:16] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-06 04:40:16] INFO root fetch - main [MainThread]: Store serial: [23070789]
