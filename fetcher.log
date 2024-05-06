@@ -6719,3 +6719,51 @@
 [2024-05-06 08:32:50] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
 [2024-05-06 08:32:50] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
 [2024-05-06 08:32:50] INFO root fetch - main [MainThread]: Store serial: [23072436]
+[2024-05-06 08:34:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072436]
+[2024-05-06 08:34:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 08:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ChatGPTAutomation
+[2024-05-06 08:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiform-validator
+[2024-05-06 08:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erp-apis
+[2024-05-06 08:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlrun
+[2024-05-06 08:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bdffont
+[2024-05-06 08:34:59] INFO root fetch - processPackages [bdffont]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 08:34:59] INFO root fetch - processPackages [ChatGPTAutomation]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-06 08:34:59] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/9f/78/c824af9f0c4c22da3a7b211d6acf4fcf5cc3738dae57d6eb3d860af0f5e6/bdffont-0.0.8.tar.gz
+[2024-05-06 08:34:59] INFO root fetch - processPackages [erp-apis]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 08:34:59] INFO root fetch - processPackages [multiform-validator]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 08:34:59] INFO root fetch - processPackages [mlrun]: New version: [1.7.0rc9] Old Version: [1.7.0rc8]
+[2024-05-06 08:34:59] INFO root fetch - processPackages [ChatGPTAutomation]: Downloading https://files.pythonhosted.org/packages/e6/1d/e573692ad383f75694449100d0bd2f573b1ef35d2ad70b54f0a9cdc8b4ae/chatgptautomation-0.6.1.tar.gz
+[2024-05-06 08:34:59] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/b2/89/55fb7e11743cfe091ba7c3d2853de57e202d2c63964b6ae5c76168ea68dd/erp_apis-1.0.1-py3-none-any.whl
+[2024-05-06 08:34:59] INFO root fetch - processPackages [multiform-validator]: Downloading https://files.pythonhosted.org/packages/31/3f/04a91e7a4bfe27bba2e75d2bd08722746e35aeb5190647faa1b9dbf6ef44/multiform-validator-0.0.6.tar.gz
+[2024-05-06 08:34:59] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/cb/1d/a43b84db5c4d3d9bdecfbaa4cbf25995eedcd5543266587876372fb4e338/bdffont-0.0.9.tar.gz
+[2024-05-06 08:34:59] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/3e/de/bbc90293e3757cb8179dc320aa3df99845445ecfbc16972510c5e80415c3/mlrun-1.7.0rc8-py3-none-any.whl
+[2024-05-06 08:34:59] INFO root fetch - processPackages [bdffont]: executing diffoscope
+[2024-05-06 08:34:59] INFO root fetch - processPackages [bdffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdffont-0.0.8.tar.gz tmp/bdffont-0.0.9.tar.gz --markdown 20240506/b/bdffont/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 08:34:59] INFO root fetch - processPackages [ChatGPTAutomation]: Downloading https://files.pythonhosted.org/packages/af/08/c2ac8f8084b98c1b58388e89799fc57dcfc85fce2c73df00efc59851c54a/chatgptautomation-0.6.2.tar.gz
+[2024-05-06 08:34:59] INFO root fetch - processPackages [multiform-validator]: Downloading https://files.pythonhosted.org/packages/0d/cf/552fdca34b4eba60c2a4702e6143a7c0f4720769d0612175ec02219f6a09/multiform_validator-0.0.7.tar.gz
+[2024-05-06 08:34:59] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/19/49/21635dfc84d237ecb63cc4ae1deb3f750161d11346519eb218afef9de7d9/erp_apis-1.0.2-py3-none-any.whl
+[2024-05-06 08:34:59] INFO root fetch - processPackages [ChatGPTAutomation]: executing diffoscope
+[2024-05-06 08:34:59] INFO root fetch - processPackages [ChatGPTAutomation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgptautomation-0.6.1.tar.gz tmp/chatgptautomation-0.6.2.tar.gz --markdown 20240506/C/ChatGPTAutomation/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-06 08:34:59] INFO root fetch - processPackages [multiform-validator]: executing diffoscope
+[2024-05-06 08:34:59] INFO root fetch - processPackages [multiform-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiform-validator-0.0.6.tar.gz tmp/multiform_validator-0.0.7.tar.gz --markdown 20240506/m/multiform-validator/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 08:34:59] INFO root fetch - processPackages [erp-apis]: executing diffoscope
+[2024-05-06 08:34:59] INFO root fetch - processPackages [erp-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis-1.0.1-py3-none-any.whl.zip tmp/erp_apis-1.0.2-py3-none-any.whl.zip --markdown 20240506/e/erp-apis/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 08:35:00] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/05/f2/d80ba0edb70be9434bf5fb1badcfad0aef24823e8363d78fc935429023ad/mlrun-1.7.0rc9-py3-none-any.whl
+[2024-05-06 08:35:00] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2024-05-06 08:35:00] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip --markdown 20240506/m/mlrun/1.7.0rc8-1.7.0rc9/README.md --exclude *.pyd
+[2024-05-06 08:35:00] INFO root fetch - processPackages [bdffont]: Remove: archive file [/home/abi/fetcher/tmp/bdffont-0.0.8.tar.gz]
+[2024-05-06 08:35:00] INFO root fetch - processPackages [bdffont]: Remove: archive file [/home/abi/fetcher/tmp/bdffont-0.0.9.tar.gz]
+[2024-05-06 08:35:00] INFO root fetch - main [MainThread]: End processing [bdffont]: success
+[2024-05-06 08:35:00] INFO root fetch - processPackages [ChatGPTAutomation]: Remove: archive file [/home/abi/fetcher/tmp/chatgptautomation-0.6.1.tar.gz]
+[2024-05-06 08:35:00] INFO root fetch - processPackages [ChatGPTAutomation]: Remove: archive file [/home/abi/fetcher/tmp/chatgptautomation-0.6.2.tar.gz]
+[2024-05-06 08:35:00] INFO root fetch - main [MainThread]: End processing [ChatGPTAutomation]: success
+[2024-05-06 08:35:00] INFO root fetch - processPackages [multiform-validator]: Remove: archive file [/home/abi/fetcher/tmp/multiform-validator-0.0.6.tar.gz]
+[2024-05-06 08:35:00] INFO root fetch - processPackages [multiform-validator]: Remove: archive file [/home/abi/fetcher/tmp/multiform_validator-0.0.7.tar.gz]
+[2024-05-06 08:35:00] INFO root fetch - main [MainThread]: End processing [multiform-validator]: success
+[2024-05-06 08:35:00] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.1-py3-none-any.whl.zip]
+[2024-05-06 08:35:00] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.2-py3-none-any.whl.zip]
+[2024-05-06 08:35:00] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
+[2024-05-06 08:35:02] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip]
+[2024-05-06 08:35:02] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
+[2024-05-06 08:35:02] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2024-05-06 08:35:02] INFO root fetch - main [MainThread]: Store serial: [23072450]
