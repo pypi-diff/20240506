@@ -4404,3 +4404,18 @@
 [2024-05-06 05:54:20] INFO root fetch - processPackages [labelme-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/labelme_toolkit-1.1.3.tar.gz]
 [2024-05-06 05:54:20] INFO root fetch - main [MainThread]: End processing [labelme-toolkit]: success
 [2024-05-06 05:54:20] INFO root fetch - main [MainThread]: Store serial: [23071303]
+[2024-05-06 05:56:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071303]
+[2024-05-06 05:56:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 05:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appintel
+[2024-05-06 05:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squigualiser
+[2024-05-06 05:56:28] WARNING root fetch - processPackages [appintel]: Skipping, unable to determine old version
+[2024-05-06 05:56:28] INFO root fetch - main [MainThread]: End processing [appintel] error
+[2024-05-06 05:56:28] INFO root fetch - processPackages [squigualiser]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-06 05:56:29] INFO root fetch - processPackages [squigualiser]: Downloading https://files.pythonhosted.org/packages/b9/39/c370eaffe9a54f42c5a8455866e5d2e040de0dda08d254f07b10b391f733/squigualiser-0.6.1.tar.gz
+[2024-05-06 05:56:29] INFO root fetch - processPackages [squigualiser]: Downloading https://files.pythonhosted.org/packages/6c/68/409711848bc39c22efa43d7f409310129f9e77c33554430329c34df3aaad/squigualiser-0.6.2.tar.gz
+[2024-05-06 05:56:29] INFO root fetch - processPackages [squigualiser]: executing diffoscope
+[2024-05-06 05:56:29] INFO root fetch - processPackages [squigualiser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squigualiser-0.6.1.tar.gz tmp/squigualiser-0.6.2.tar.gz --markdown 20240506/s/squigualiser/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-06 05:56:30] INFO root fetch - processPackages [squigualiser]: Remove: archive file [/home/abi/fetcher/tmp/squigualiser-0.6.1.tar.gz]
+[2024-05-06 05:56:30] INFO root fetch - processPackages [squigualiser]: Remove: archive file [/home/abi/fetcher/tmp/squigualiser-0.6.2.tar.gz]
+[2024-05-06 05:56:30] INFO root fetch - main [MainThread]: End processing [squigualiser]: success
+[2024-05-06 05:56:30] INFO root fetch - main [MainThread]: Store serial: [23071310]
