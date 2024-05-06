@@ -5276,3 +5276,47 @@
 [2024-05-06 06:59:46] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.8.tar.gz]
 [2024-05-06 06:59:46] INFO root fetch - main [MainThread]: End processing [astro-SPLASH]: success
 [2024-05-06 06:59:46] INFO root fetch - main [MainThread]: Store serial: [23071672]
+[2024-05-06 07:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071672]
+[2024-05-06 07:01:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 07:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shadowsocks-manager
+[2024-05-06 07:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendp
+[2024-05-06 07:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stefutils
+[2024-05-06 07:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyEDAA.Reports
+[2024-05-06 07:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tree-sitter-javascript
+[2024-05-06 07:01:55] INFO root fetch - processPackages [tree-sitter-javascript]: New version: [0.21.1] Old Version: [0.21.0]
+[2024-05-06 07:01:55] INFO root fetch - processPackages [pyEDAA.Reports]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-06 07:01:55] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-06 07:01:55] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240504001]
+[2024-05-06 07:01:55] INFO root fetch - processPackages [shadowsocks-manager]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 07:01:55] INFO root fetch - processPackages [pyEDAA.Reports]: Downloading https://files.pythonhosted.org/packages/3e/f2/a98cb6a4c6c575d4269f7b79059eba1a3e2b08c805f59cd90b84b6c9cf88/pyedaa_reports-0.7.0.tar.gz
+[2024-05-06 07:01:55] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-06 07:01:55] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/85/6c/b343f02569a02102fd61d7a89f66fb699dbdbf7903119928f4cc3ce8516d/opendp-0.9.2b20240207001-py3-none-any.whl
+[2024-05-06 07:01:55] INFO root fetch - processPackages [tree-sitter-javascript]: Downloading https://files.pythonhosted.org/packages/59/88/cdade1e35a8d5480e2de6754adbd3b71296029d1b9c1c21eb26405082e27/tree_sitter_javascript-0.21.0-cp38-abi3-win_amd64.whl
+[2024-05-06 07:01:55] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36048210>=10485760
+[2024-05-06 07:01:55] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-05-06 07:01:55] INFO root fetch - processPackages [shadowsocks-manager]: Downloading https://files.pythonhosted.org/packages/a6/44/ca3be634f2747bcb25fac13b7b34acdbe746a6c5490087ff1fe9c7afa347/shadowsocks_manager-0.1.4.tar.gz
+[2024-05-06 07:01:55] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-06 07:01:55] INFO root fetch - processPackages [tree-sitter-javascript]: Downloading https://files.pythonhosted.org/packages/a2/c1/2efa9e7953d7b0520eb248ff99b63a5b8491380035b088c703934d9e0b33/tree-sitter-javascript-0.21.1.tar.gz
+[2024-05-06 07:01:55] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-06 07:01:55] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240506/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-06 07:01:55] INFO root fetch - processPackages [pyEDAA.Reports]: Downloading https://files.pythonhosted.org/packages/ca/27/657f59ab2f3f2950958c503716bfb60fc39b9d33a7a7919cec064f573491/pyedaa_reports-0.7.1.tar.gz
+[2024-05-06 07:01:55] INFO root fetch - processPackages [tree-sitter-javascript]: executing diffoscope
+[2024-05-06 07:01:55] INFO root fetch - processPackages [tree-sitter-javascript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_javascript-0.21.0-cp38-abi3-win_amd64.whl.zip tmp/tree-sitter-javascript-0.21.1.tar.gz --markdown 20240506/t/tree-sitter-javascript/0.21.0-0.21.1/README.md --exclude *.pyd
+[2024-05-06 07:01:55] INFO root fetch - processPackages [pyEDAA.Reports]: executing diffoscope
+[2024-05-06 07:01:55] INFO root fetch - processPackages [pyEDAA.Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedaa_reports-0.7.0.tar.gz tmp/pyedaa_reports-0.7.1.tar.gz --markdown 20240506/p/pyEDAA.Reports/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-06 07:01:55] INFO root fetch - processPackages [shadowsocks-manager]: Downloading https://files.pythonhosted.org/packages/00/17/ec0c7462815620186a6d3103f14b75cc2a46222c7be8db994200113ad7f6/shadowsocks_manager-0.1.5.tar.gz
+[2024-05-06 07:01:55] INFO root fetch - processPackages [shadowsocks-manager]: executing diffoscope
+[2024-05-06 07:01:55] INFO root fetch - processPackages [shadowsocks-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shadowsocks_manager-0.1.4.tar.gz tmp/shadowsocks_manager-0.1.5.tar.gz --markdown 20240506/s/shadowsocks-manager/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 07:01:56] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-06 07:01:56] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-06 07:01:56] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-06 07:01:56] INFO root fetch - processPackages [tree-sitter-javascript]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_javascript-0.21.0-cp38-abi3-win_amd64.whl.zip]
+[2024-05-06 07:01:56] INFO root fetch - processPackages [tree-sitter-javascript]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-javascript-0.21.1.tar.gz]
+[2024-05-06 07:01:56] INFO root fetch - main [MainThread]: End processing [tree-sitter-javascript]: success
+[2024-05-06 07:01:56] INFO root fetch - processPackages [pyEDAA.Reports]: Remove: archive file [/home/abi/fetcher/tmp/pyedaa_reports-0.7.0.tar.gz]
+[2024-05-06 07:01:56] INFO root fetch - processPackages [pyEDAA.Reports]: Remove: archive file [/home/abi/fetcher/tmp/pyedaa_reports-0.7.1.tar.gz]
+[2024-05-06 07:01:56] INFO root fetch - main [MainThread]: End processing [pyEDAA.Reports]: success
+[2024-05-06 07:01:56] INFO root fetch - processPackages [shadowsocks-manager]: Remove: archive file [/home/abi/fetcher/tmp/shadowsocks_manager-0.1.4.tar.gz]
+[2024-05-06 07:01:56] INFO root fetch - processPackages [shadowsocks-manager]: Remove: archive file [/home/abi/fetcher/tmp/shadowsocks_manager-0.1.5.tar.gz]
+[2024-05-06 07:01:56] INFO root fetch - main [MainThread]: End processing [shadowsocks-manager]: success
+[2024-05-06 07:01:56] INFO root fetch - main [MainThread]: Store serial: [23071699]
