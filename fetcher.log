@@ -13445,3 +13445,57 @@
 [2024-05-06 11:09:59] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a8-py3-none-any.whl.zip]
 [2024-05-06 11:09:59] INFO root fetch - main [MainThread]: End processing [objectbox]: success
 [2024-05-06 11:09:59] INFO root fetch - main [MainThread]: Store serial: [23075053]
+[2024-05-06 11:12:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075053]
+[2024-05-06 11:12:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 11:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-twc
+[2024-05-06 11:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meilisearch-python-sdk
+[2024-05-06 11:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: everai
+[2024-05-06 11:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 2captcha-python
+[2024-05-06 11:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-code-to-text
+[2024-05-06 11:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citeman
+[2024-05-06 11:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-project-tracker
+[2024-05-06 11:12:07] INFO root fetch - processPackages [everai]: New version: [0.1.39] Old Version: [0.1.38]
+[2024-05-06 11:12:07] WARNING root fetch - processPackages [easy-code-to-text]: Skipping, unable to determine old version
+[2024-05-06 11:12:07] INFO root fetch - main [MainThread]: End processing [easy-code-to-text] error
+[2024-05-06 11:12:08] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev9] Old Version: [0.0.3.dev8]
+[2024-05-06 11:12:08] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/07/d7/110ebcb3e8df3808921a14189b9c103990ba6f91c3db5fe3b9bd6ba3ab03/everai-0.1.38-py3-none-any.whl
+[2024-05-06 11:12:08] WARNING root fetch - processPackages [citeman]: Skipping, unable to determine old version
+[2024-05-06 11:12:08] INFO root fetch - main [MainThread]: End processing [citeman] error
+[2024-05-06 11:12:08] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/13/26/a5b9a6b4bcb04a2c400aacd5ec9a82c1f19e9deeddec458b16a3214c0d43/ml_project_tracker-0.0.3.dev8.tar.gz
+[2024-05-06 11:12:08] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-06 11:12:08] INFO root fetch - processPackages [2captcha-python]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-06 11:12:08] INFO root fetch - processPackages [meilisearch-python-sdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-06 11:12:08] INFO root fetch - processPackages [2captcha-python]: Downloading https://files.pythonhosted.org/packages/fc/29/467bac38fdf079c253761eb44d056f8ca00a0d69778b4af05761979ebc58/2captcha-python-1.2.4.tar.gz
+[2024-05-06 11:12:08] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/3d/93/3fc636a58e164ddb5e1ec90928722e61b62248afeebf67163c16d1ca67cc/ml_project_tracker-0.0.3.dev9.tar.gz
+[2024-05-06 11:12:08] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2024-05-06 11:12:08] INFO root fetch - processPackages [meilisearch-python-sdk]: Downloading https://files.pythonhosted.org/packages/f5/21/653cf9a782a3a5d73eae8d1e7b425815c77902c4a60fc444881c8e32861b/meilisearch_python_sdk-2.8.0.tar.gz
+[2024-05-06 11:12:08] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/df/89/9c1428e70518aa3390153172a17f1b821f1622dd96f67c911cbb8c2687b8/everai-0.1.39-py3-none-any.whl
+[2024-05-06 11:12:08] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-06 11:12:08] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev8.tar.gz tmp/ml_project_tracker-0.0.3.dev9.tar.gz --markdown 20240506/m/ml-project-tracker/0.0.3.dev8-0.0.3.dev9/README.md --exclude *.pyd
+[2024-05-06 11:12:08] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-06 11:12:08] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.38-py3-none-any.whl.zip tmp/everai-0.1.39-py3-none-any.whl.zip --markdown 20240506/e/everai/0.1.38-0.1.39/README.md --exclude *.pyd
+[2024-05-06 11:12:08] INFO root fetch - processPackages [2captcha-python]: Downloading https://files.pythonhosted.org/packages/cc/cd/3b30e2a91f84aaf270250613ed837bf76aa08dee7c75c71407671a759e2d/2captcha_python-1.2.5.tar.gz
+[2024-05-06 11:12:08] INFO root fetch - processPackages [meilisearch-python-sdk]: Downloading https://files.pythonhosted.org/packages/3e/4b/9b9c2afee0b64d9db2583af5d6701f8c1a59be0666455de834a642cab744/meilisearch_python_sdk-2.9.0.tar.gz
+[2024-05-06 11:12:08] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2024-05-06 11:12:08] INFO root fetch - processPackages [2captcha-python]: executing diffoscope
+[2024-05-06 11:12:08] INFO root fetch - processPackages [2captcha-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/2captcha-python-1.2.4.tar.gz tmp/2captcha_python-1.2.5.tar.gz --markdown 20240506/2/2captcha-python/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-06 11:12:08] INFO root fetch - processPackages [meilisearch-python-sdk]: executing diffoscope
+[2024-05-06 11:12:08] INFO root fetch - processPackages [meilisearch-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_python_sdk-2.8.0.tar.gz tmp/meilisearch_python_sdk-2.9.0.tar.gz --markdown 20240506/m/meilisearch-python-sdk/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-06 11:12:09] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev8.tar.gz]
+[2024-05-06 11:12:09] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev9.tar.gz]
+[2024-05-06 11:12:09] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-06 11:12:09] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2024-05-06 11:12:09] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20240506/a/antchain-twc/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-06 11:12:09] INFO root fetch - processPackages [2captcha-python]: Remove: archive file [/home/abi/fetcher/tmp/2captcha-python-1.2.4.tar.gz]
+[2024-05-06 11:12:09] INFO root fetch - processPackages [2captcha-python]: Remove: archive file [/home/abi/fetcher/tmp/2captcha_python-1.2.5.tar.gz]
+[2024-05-06 11:12:09] INFO root fetch - main [MainThread]: End processing [2captcha-python]: success
+[2024-05-06 11:12:10] INFO root fetch - processPackages [meilisearch-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_python_sdk-2.8.0.tar.gz]
+[2024-05-06 11:12:10] INFO root fetch - processPackages [meilisearch-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_python_sdk-2.9.0.tar.gz]
+[2024-05-06 11:12:10] INFO root fetch - main [MainThread]: End processing [meilisearch-python-sdk]: success
+[2024-05-06 11:12:10] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.38-py3-none-any.whl.zip]
+[2024-05-06 11:12:10] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.39-py3-none-any.whl.zip]
+[2024-05-06 11:12:10] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-06 11:12:10] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2024-05-06 11:12:10] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2024-05-06 11:12:10] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2024-05-06 11:12:10] INFO root fetch - main [MainThread]: Store serial: [23075075]
