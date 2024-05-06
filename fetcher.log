@@ -8688,3 +8688,105 @@
 [2024-05-06 09:58:19] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
 [2024-05-06 09:58:19] INFO root fetch - main [MainThread]: End processing [eolymp]: success
 [2024-05-06 09:58:19] INFO root fetch - main [MainThread]: Store serial: [23073323]
+[2024-05-06 10:00:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23073323]
+[2024-05-06 10:00:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 10:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-bsca
+[2024-05-06 10:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unimernet
+[2024-05-06 10:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-btoe
+[2024-05-06 10:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hologres-vector
+[2024-05-06 10:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-telemetry-generic-v2
+[2024-05-06 10:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-cam
+[2024-05-06 10:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zern
+[2024-05-06 10:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vectice
+[2024-05-06 10:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tsugu-api-python
+[2024-05-06 10:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: verify4py-test1
+[2024-05-06 10:00:28] INFO root fetch - processPackages [unimernet]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-06 10:00:28] INFO root fetch - processPackages [open-telemetry-generic-v2]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-06 10:00:28] INFO root fetch - processPackages [zern]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 10:00:28] INFO root fetch - processPackages [verify4py-test1]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-06 10:00:28] INFO root fetch - processPackages [unimernet]: Downloading https://files.pythonhosted.org/packages/c9/3f/01734986263767b43fe46b8136b8aaedba5c056cd3c6be9c9a1ca6b1f158/unimernet-0.0.7-py2.py3-none-any.whl
+[2024-05-06 10:00:28] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:00:28] INFO root fetch - processPackages [open-telemetry-generic-v2]: Downloading https://files.pythonhosted.org/packages/75/4e/92a5bdc8662628624ad9085fe07ce0d99de092da4ef96aa4dfb85e5f9472/open_telemetry_generic_v2-0.3.1.tar.gz
+[2024-05-06 10:00:28] INFO root fetch - processPackages [vectice]: New version: [24.2.4.0] Old Version: [24.2.3.0]
+[2024-05-06 10:00:28] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:00:28] INFO root fetch - processPackages [hologres-vector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 10:00:28] INFO root fetch - processPackages [tsugu-api-python]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-06 10:00:28] INFO root fetch - processPackages [verify4py-test1]: Downloading https://files.pythonhosted.org/packages/6b/c1/2d76d526553c95c654d1cb97cd40bd61558579ddbff1b7e8bd0a204a6699/verify4py-test1-1.0.1.tar.gz
+[2024-05-06 10:00:28] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/ad/e1/c5b783ddc4ace65cdadeea387cc86edd2289134a0d91942e8abedca28f6e/zern-0.0.6.tar.gz
+[2024-05-06 10:00:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:00:28] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Downloading https://files.pythonhosted.org/packages/69/4e/d0a3879609e7a4d9d3890b22f5d0f5585b619a03e7add31851d306705ffe/tencentcloud-sdk-python-bsca-3.0.998.tar.gz
+[2024-05-06 10:00:28] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: Downloading https://files.pythonhosted.org/packages/e2/26/02ff04e31c5fcaeef9419f24ddad474c14fb5a32cfe083af14bad9b286bc/tencentcloud-sdk-python-btoe-3.0.998.tar.gz
+[2024-05-06 10:00:28] INFO root fetch - processPackages [verify4py-test1]: Downloading https://files.pythonhosted.org/packages/f1/34/2e84a4bcb3aa8ff8984ee1b3b4e0d24ca29b9111a2b5a3ba832faa1f2c96/verify4py-test1-1.0.2.tar.gz
+[2024-05-06 10:00:28] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/1b/23/c0fd1b5f85a6233a87dabd079368b42d7256429b8baeaf3f245c54000b71/vectice-24.2.3.0.tar.gz
+[2024-05-06 10:00:28] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/14/b6/7629bc2235cae2e55f2e3a133a03a749e388b5197ac62b8134a615c1a591/tsugu-api-python-0.1.1.tar.gz
+[2024-05-06 10:00:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Downloading https://files.pythonhosted.org/packages/dc/04/9bad55be1475c34688a89d6805905ad3e6b133db0124cd15e4bc4e710aaa/tencentcloud-sdk-python-cam-3.0.998.tar.gz
+[2024-05-06 10:00:28] INFO root fetch - processPackages [hologres-vector]: Downloading https://files.pythonhosted.org/packages/13/46/d67e89f56ecc3f641b7582607a510a77e9c0ccfa57b919be056ae86780a6/hologres_vector-0.0.8.tar.gz
+[2024-05-06 10:00:29] INFO root fetch - processPackages [open-telemetry-generic-v2]: Downloading https://files.pythonhosted.org/packages/df/b4/5a77ac13202e52fb6e75c060396cb8abf924a967a1e7ec388afe1b23477f/open_telemetry_generic_v2-0.3.2.tar.gz
+[2024-05-06 10:00:29] INFO root fetch - processPackages [verify4py-test1]: executing diffoscope
+[2024-05-06 10:00:29] INFO root fetch - processPackages [verify4py-test1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify4py-test1-1.0.1.tar.gz tmp/verify4py-test1-1.0.2.tar.gz --markdown 20240506/v/verify4py-test1/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-06 10:00:29] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/99/f7/387de5cbe07268ab7b8f3cd29d42a09e6058a1c35b77d56e30e11cf31ae9/zern-0.0.7.tar.gz
+[2024-05-06 10:00:29] INFO root fetch - processPackages [unimernet]: Downloading https://files.pythonhosted.org/packages/74/26/63ba2eb267084902f8e7842ef879da2f2495fae5a32cf749043d4a392da9/unimernet-0.0.8-py2.py3-none-any.whl
+[2024-05-06 10:00:29] INFO root fetch - processPackages [zern]: executing diffoscope
+[2024-05-06 10:00:29] INFO root fetch - processPackages [zern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zern-0.0.6.tar.gz tmp/zern-0.0.7.tar.gz --markdown 20240506/z/zern/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 10:00:29] INFO root fetch - processPackages [open-telemetry-generic-v2]: executing diffoscope
+[2024-05-06 10:00:29] INFO root fetch - processPackages [open-telemetry-generic-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_telemetry_generic_v2-0.3.1.tar.gz tmp/open_telemetry_generic_v2-0.3.2.tar.gz --markdown 20240506/o/open-telemetry-generic-v2/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/1d/29/343cd22136eb6323e20bcd0b41899cc8556630fb599a84e1cafe42a614f7/tsugu-api-python-0.2.0.tar.gz
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: Downloading https://files.pythonhosted.org/packages/ab/f0/d4e6e8884589e4d58b04912bd3212e5b34eb71418deb82a2ce1e52c3b868/tencentcloud-sdk-python-btoe-3.0.999.tar.gz
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Downloading https://files.pythonhosted.org/packages/35/c9/69d7f04299fc69976200c975a91bcf8c06a0d9f6d08c90e00d579ff64287/tencentcloud-sdk-python-bsca-3.0.999.tar.gz
+[2024-05-06 10:00:29] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/f7/e9/7ebe83a9473220c5305051a085826523b07c7747de311a16767b6964634a/vectice-24.2.4.0.tar.gz
+[2024-05-06 10:00:29] INFO root fetch - processPackages [unimernet]: executing diffoscope
+[2024-05-06 10:00:29] INFO root fetch - processPackages [unimernet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimernet-0.0.7-py2.py3-none-any.whl.zip tmp/unimernet-0.0.8-py2.py3-none-any.whl.zip --markdown 20240506/u/unimernet/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Downloading https://files.pythonhosted.org/packages/4e/6f/33a1b2a6f858c70fcac237f86a2734efcec706266cdf4f0a2ac456f7bca0/tencentcloud-sdk-python-cam-3.0.999.tar.gz
+[2024-05-06 10:00:29] INFO root fetch - processPackages [hologres-vector]: Downloading https://files.pythonhosted.org/packages/44/e5/b8d49327d9df4a2dd29d332817f1a6e65e20581918f01e829164ace5fa08/hologres_vector-0.0.9.tar.gz
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: executing diffoscope
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bsca-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bsca-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-bsca/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tsugu-api-python]: executing diffoscope
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tsugu-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-api-python-0.1.1.tar.gz tmp/tsugu-api-python-0.2.0.tar.gz --markdown 20240506/t/tsugu-api-python/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: executing diffoscope
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-btoe-3.0.998.tar.gz tmp/tencentcloud-sdk-python-btoe-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-btoe/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: executing diffoscope
+[2024-05-06 10:00:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cam-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cam-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-cam/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:00:29] INFO root fetch - processPackages [hologres-vector]: executing diffoscope
+[2024-05-06 10:00:29] INFO root fetch - processPackages [hologres-vector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hologres_vector-0.0.8.tar.gz tmp/hologres_vector-0.0.9.tar.gz --markdown 20240506/h/hologres-vector/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 10:00:29] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2024-05-06 10:00:29] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-24.2.3.0.tar.gz tmp/vectice-24.2.4.0.tar.gz --markdown 20240506/v/vectice/24.2.3.0-24.2.4.0/README.md --exclude *.pyd
+[2024-05-06 10:00:30] INFO root fetch - processPackages [verify4py-test1]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-test1-1.0.1.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - processPackages [verify4py-test1]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-test1-1.0.2.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - processPackages [verify4py-test1]: Start processing: trex-lib
+[2024-05-06 10:00:30] INFO root fetch - main [MainThread]: End processing [verify4py-test1]: success
+[2024-05-06 10:00:30] INFO root fetch - processPackages [open-telemetry-generic-v2]: Remove: archive file [/home/abi/fetcher/tmp/open_telemetry_generic_v2-0.3.1.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - processPackages [open-telemetry-generic-v2]: Remove: archive file [/home/abi/fetcher/tmp/open_telemetry_generic_v2-0.3.2.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - main [MainThread]: End processing [open-telemetry-generic-v2]: success
+[2024-05-06 10:00:30] INFO root fetch - processPackages [trex-lib]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-06 10:00:30] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.6.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.7.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - main [MainThread]: End processing [zern]: success
+[2024-05-06 10:00:30] INFO root fetch - processPackages [trex-lib]: Downloading https://files.pythonhosted.org/packages/7c/6a/2f7afc7c912276ba6eae4b705575d79723a97e7cb214f8a9b42fbdce4e88/trex-lib-1.0.9.tar.gz
+[2024-05-06 10:00:30] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-btoe-3.0.998.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-btoe-3.0.999.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-btoe]: success
+[2024-05-06 10:00:30] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-0.1.1.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-0.2.0.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - main [MainThread]: End processing [tsugu-api-python]: success
+[2024-05-06 10:00:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cam-3.0.998.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cam-3.0.999.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cam]: success
+[2024-05-06 10:00:30] INFO root fetch - processPackages [hologres-vector]: Remove: archive file [/home/abi/fetcher/tmp/hologres_vector-0.0.8.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - processPackages [hologres-vector]: Remove: archive file [/home/abi/fetcher/tmp/hologres_vector-0.0.9.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - main [MainThread]: End processing [hologres-vector]: success
+[2024-05-06 10:00:30] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bsca-3.0.998.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bsca-3.0.999.tar.gz]
+[2024-05-06 10:00:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bsca]: success
+[2024-05-06 10:00:31] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.7-py2.py3-none-any.whl.zip]
+[2024-05-06 10:00:31] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.8-py2.py3-none-any.whl.zip]
+[2024-05-06 10:00:31] INFO root fetch - main [MainThread]: End processing [unimernet]: success
+[2024-05-06 10:00:31] INFO root fetch - processPackages [trex-lib]: Downloading https://files.pythonhosted.org/packages/96/ab/ad0efdbd940b45deb68ecf3c71246c4006d357a66d8f2aa437b7990ce8e2/trex-lib-1.1.0.tar.gz
+[2024-05-06 10:00:31] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.3.0.tar.gz]
+[2024-05-06 10:00:31] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.4.0.tar.gz]
+[2024-05-06 10:00:31] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2024-05-06 10:00:31] INFO root fetch - processPackages [trex-lib]: executing diffoscope
+[2024-05-06 10:00:31] INFO root fetch - processPackages [trex-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-lib-1.0.9.tar.gz tmp/trex-lib-1.1.0.tar.gz --markdown 20240506/t/trex-lib/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-06 10:00:31] INFO root fetch - processPackages [trex-lib]: Remove: archive file [/home/abi/fetcher/tmp/trex-lib-1.0.9.tar.gz]
+[2024-05-06 10:00:31] INFO root fetch - processPackages [trex-lib]: Remove: archive file [/home/abi/fetcher/tmp/trex-lib-1.1.0.tar.gz]
+[2024-05-06 10:00:31] INFO root fetch - main [MainThread]: End processing [trex-lib]: success
+[2024-05-06 10:00:31] INFO root fetch - main [MainThread]: Store serial: [23073357]
