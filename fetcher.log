@@ -3779,3 +3779,38 @@
 [2024-05-06 05:20:16] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.7.tar.gz]
 [2024-05-06 05:20:16] INFO root fetch - main [MainThread]: End processing [mxlm]: success
 [2024-05-06 05:20:16] INFO root fetch - main [MainThread]: Store serial: [23071025]
+[2024-05-06 05:22:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071025]
+[2024-05-06 05:22:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sourcery-nightly
+[2024-05-06 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nightly
+[2024-05-06 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pd-extras
+[2024-05-06 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beanhub-import
+[2024-05-06 05:22:24] INFO root fetch - processPackages [pd-extras]: New version: [6.0.1] Old Version: [6.0.0]
+[2024-05-06 05:22:24] INFO root fetch - processPackages [beanhub-import]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 05:22:24] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024050503] Old Version: [3.3.3.dev2024050403]
+[2024-05-06 05:22:24] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-06 05:22:24] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/be/ff/b80e380a94db41f57683b8d59dfe3264941e02a6b338fc5599503f7816a7/pd_extras-6.0.0.tar.gz
+[2024-05-06 05:22:24] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/f8/e0/0b7b8fde22b7dfab4cd38fc22e755cc625b3a692c1da18d4667409b626c6/keras_nightly-3.3.3.dev2024050403.tar.gz
+[2024-05-06 05:22:24] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/29/da/b417c09b02afa9f5382932613860d9154573b0bac714a3a7a82819395e59/beanhub_import-0.0.1.tar.gz
+[2024-05-06 05:22:24] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-06 05:22:25] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/fb/aa/e248556965ef56f7ec8583d95831df464a24773a133b801344577747f6ee/pd_extras-6.0.1.tar.gz
+[2024-05-06 05:22:25] INFO root fetch - processPackages [pd-extras]: executing diffoscope
+[2024-05-06 05:22:25] INFO root fetch - processPackages [pd-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_extras-6.0.0.tar.gz tmp/pd_extras-6.0.1.tar.gz --markdown 20240506/p/pd-extras/6.0.0-6.0.1/README.md --exclude *.pyd
+[2024-05-06 05:22:25] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/5d/8b/9334e63d7640fc88cf2b0bfd666671be0d9a0e718958e4837f7ffc2de331/keras_nightly-3.3.3.dev2024050503.tar.gz
+[2024-05-06 05:22:25] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/ad/cf/e6ae686538a2de5626ca46e85c5e49a44e485661b8deda697a777f842c4f/beanhub_import-0.0.2.tar.gz
+[2024-05-06 05:22:25] INFO root fetch - processPackages [beanhub-import]: executing diffoscope
+[2024-05-06 05:22:25] INFO root fetch - processPackages [beanhub-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_import-0.0.1.tar.gz tmp/beanhub_import-0.0.2.tar.gz --markdown 20240506/b/beanhub-import/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 05:22:25] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-06 05:22:25] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024050403.tar.gz tmp/keras_nightly-3.3.3.dev2024050503.tar.gz --markdown 20240506/k/keras-nightly/3.3.3.dev2024050403-3.3.3.dev2024050503/README.md --exclude *.pyd
+[2024-05-06 05:22:25] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.0.0.tar.gz]
+[2024-05-06 05:22:25] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.0.1.tar.gz]
+[2024-05-06 05:22:25] INFO root fetch - main [MainThread]: End processing [pd-extras]: success
+[2024-05-06 05:22:25] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.1.tar.gz]
+[2024-05-06 05:22:25] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.2.tar.gz]
+[2024-05-06 05:22:25] INFO root fetch - main [MainThread]: End processing [beanhub-import]: success
+[2024-05-06 05:22:27] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050403.tar.gz]
+[2024-05-06 05:22:27] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050503.tar.gz]
+[2024-05-06 05:22:27] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-06 05:22:53] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-06 05:22:53] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-06 05:22:53] INFO root fetch - main [MainThread]: Store serial: [23071038]
