@@ -13618,3 +13618,78 @@
 [2024-05-06 11:16:34] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.3.1.tar.gz]
 [2024-05-06 11:16:34] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
 [2024-05-06 11:16:34] INFO root fetch - main [MainThread]: Store serial: [23075136]
+[2024-05-06 11:18:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075136]
+[2024-05-06 11:18:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 11:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trex-model
+[2024-05-06 11:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tbp-nightly
+[2024-05-06 11:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdetsyn
+[2024-05-06 11:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartbetsAPI
+[2024-05-06 11:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: satsync
+[2024-05-06 11:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiidalab-widgets-base
+[2024-05-06 11:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-project-tracker
+[2024-05-06 11:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybiolib
+[2024-05-06 11:18:43] INFO root fetch - processPackages [trex-model]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-05-06 11:18:43] INFO root fetch - processPackages [ml-project-tracker]: New version: [0.0.3.dev9] Old Version: [0.0.3.dev8]
+[2024-05-06 11:18:43] INFO root fetch - processPackages [mdetsyn]: New version: [0.0.1] Old Version: [0.0.0.dev2]
+[2024-05-06 11:18:43] INFO root fetch - processPackages [satsync]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-06 11:18:43] INFO root fetch - processPackages [smartbetsAPI]: New version: [1.2.9] Old Version: [1.2.7]
+[2024-05-06 11:18:43] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-05-06 11:18:43] INFO root fetch - processPackages [aiidalab-widgets-base]: New version: [2.2.1] Old Version: [2.2.0a1]
+[2024-05-06 11:18:43] INFO root fetch - processPackages [trex-model]: Downloading https://files.pythonhosted.org/packages/d7/e8/ef9c381f5bc574f5569d2a67eec59261b538f4ee8da605babff6bedd2c50/trex-model-1.3.9.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/13/26/a5b9a6b4bcb04a2c400aacd5ec9a82c1f19e9deeddec458b16a3214c0d43/ml_project_tracker-0.0.3.dev8.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-05-06 11:18:43] INFO root fetch - processPackages [smartbetsAPI]: Downloading https://files.pythonhosted.org/packages/2a/5b/a9f8df853895dc0bd0abe64c8a921b75335d35d37fcf44ed628c82ec88d8/smartbetsAPI-1.2.7.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [satsync]: Downloading https://files.pythonhosted.org/packages/d5/e7/602ed19f69d3bbf996677318d5583e5fe400cd95132feb0965bf43ff4d05/satsync-0.0.2.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [mdetsyn]: Downloading https://files.pythonhosted.org/packages/6a/ea/07580e99fdd9dbe32c3f7a2b51ed7b3a1ea92dfcf20b559b9fa96f0d8653/mdetsyn-0.0.0.dev2.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [aiidalab-widgets-base]: Downloading https://files.pythonhosted.org/packages/6a/42/09329ae59d680f929fd4725bfe1755996f000775a60af3d2e402e07831bf/aiidalab_widgets_base-2.2.0a1.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [ml-project-tracker]: Downloading https://files.pythonhosted.org/packages/3d/93/3fc636a58e164ddb5e1ec90928722e61b62248afeebf67163c16d1ca67cc/ml_project_tracker-0.0.3.dev9.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [trex-model]: Downloading https://files.pythonhosted.org/packages/2c/6c/a1ba4eaef8347cc1ff03d587174c3c552be4c03a649c7206badca0fcd79c/trex-model-1.4.0.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [smartbetsAPI]: Downloading https://files.pythonhosted.org/packages/6f/51/18b4a82b9aca290da8aeb2b04cb2dc6d2afc5e2ddefb75c7cf76f10a9a19/smartbetsapi-1.2.9.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [ml-project-tracker]: executing diffoscope
+[2024-05-06 11:18:43] INFO root fetch - processPackages [ml-project-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_project_tracker-0.0.3.dev8.tar.gz tmp/ml_project_tracker-0.0.3.dev9.tar.gz --markdown 20240506/m/ml-project-tracker/0.0.3.dev8-0.0.3.dev9/README.md --exclude *.pyd
+[2024-05-06 11:18:43] INFO root fetch - processPackages [smartbetsAPI]: executing diffoscope
+[2024-05-06 11:18:43] INFO root fetch - processPackages [smartbetsAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartbetsAPI-1.2.7.tar.gz tmp/smartbetsapi-1.2.9.tar.gz --markdown 20240506/s/smartbetsAPI/1.2.7-1.2.9/README.md --exclude *.pyd
+[2024-05-06 11:18:43] INFO root fetch - processPackages [satsync]: Downloading https://files.pythonhosted.org/packages/a9/ca/fc232b8a897dbdae4e9e29c6fd26d66402039ca8f09e85dead0efe337afe/satsync-0.0.3.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [trex-model]: executing diffoscope
+[2024-05-06 11:18:43] INFO root fetch - processPackages [trex-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-model-1.3.9.tar.gz tmp/trex-model-1.4.0.tar.gz --markdown 20240506/t/trex-model/1.3.9-1.4.0/README.md --exclude *.pyd
+[2024-05-06 11:18:43] INFO root fetch - processPackages [mdetsyn]: Downloading https://files.pythonhosted.org/packages/36/9b/45321fe75c9f20d0f1b5e1be66ff40e660ef2cd9b32e27ca9ce94a78639d/mdetsyn-0.0.1.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [aiidalab-widgets-base]: Downloading https://files.pythonhosted.org/packages/e2/75/3b15e7b02cd9685115613099b4be50ad56f5476e461677032b33cbac3969/aiidalab_widgets_base-2.2.1.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-05-06 11:18:43] INFO root fetch - processPackages [mdetsyn]: executing diffoscope
+[2024-05-06 11:18:43] INFO root fetch - processPackages [mdetsyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdetsyn-0.0.0.dev2.tar.gz tmp/mdetsyn-0.0.1.tar.gz --markdown 20240506/m/mdetsyn/0.0.0.dev2-0.0.1/README.md --exclude *.pyd
+[2024-05-06 11:18:43] INFO root fetch - processPackages [satsync]: executing diffoscope
+[2024-05-06 11:18:43] INFO root fetch - processPackages [satsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsync-0.0.2.tar.gz tmp/satsync-0.0.3.tar.gz --markdown 20240506/s/satsync/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-06 11:18:43] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-05-06 11:18:44] INFO root fetch - processPackages [aiidalab-widgets-base]: executing diffoscope
+[2024-05-06 11:18:44] INFO root fetch - processPackages [aiidalab-widgets-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiidalab_widgets_base-2.2.0a1.tar.gz tmp/aiidalab_widgets_base-2.2.1.tar.gz --markdown 20240506/a/aiidalab-widgets-base/2.2.0a1-2.2.1/README.md --exclude *.pyd
+[2024-05-06 11:18:44] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-05-06 11:18:44] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240506/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-05-06 11:18:44] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-05-06 11:18:44] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240506/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-05-06 11:18:44] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev8.tar.gz]
+[2024-05-06 11:18:44] INFO root fetch - processPackages [ml-project-tracker]: Remove: archive file [/home/abi/fetcher/tmp/ml_project_tracker-0.0.3.dev9.tar.gz]
+[2024-05-06 11:18:44] INFO root fetch - main [MainThread]: End processing [ml-project-tracker]: success
+[2024-05-06 11:18:44] INFO root fetch - processPackages [smartbetsAPI]: Remove: archive file [/home/abi/fetcher/tmp/smartbetsAPI-1.2.7.tar.gz]
+[2024-05-06 11:18:44] INFO root fetch - processPackages [smartbetsAPI]: Remove: archive file [/home/abi/fetcher/tmp/smartbetsapi-1.2.9.tar.gz]
+[2024-05-06 11:18:44] INFO root fetch - main [MainThread]: End processing [smartbetsAPI]: success
+[2024-05-06 11:18:44] INFO root fetch - processPackages [mdetsyn]: Remove: archive file [/home/abi/fetcher/tmp/mdetsyn-0.0.0.dev2.tar.gz]
+[2024-05-06 11:18:44] INFO root fetch - processPackages [mdetsyn]: Remove: archive file [/home/abi/fetcher/tmp/mdetsyn-0.0.1.tar.gz]
+[2024-05-06 11:18:44] INFO root fetch - main [MainThread]: End processing [mdetsyn]: success
+[2024-05-06 11:18:44] INFO root fetch - processPackages [satsync]: Remove: archive file [/home/abi/fetcher/tmp/satsync-0.0.2.tar.gz]
+[2024-05-06 11:18:44] INFO root fetch - processPackages [satsync]: Remove: archive file [/home/abi/fetcher/tmp/satsync-0.0.3.tar.gz]
+[2024-05-06 11:18:44] INFO root fetch - main [MainThread]: End processing [satsync]: success
+[2024-05-06 11:18:45] INFO root fetch - processPackages [aiidalab-widgets-base]: Remove: archive file [/home/abi/fetcher/tmp/aiidalab_widgets_base-2.2.0a1.tar.gz]
+[2024-05-06 11:18:45] INFO root fetch - processPackages [aiidalab-widgets-base]: Remove: archive file [/home/abi/fetcher/tmp/aiidalab_widgets_base-2.2.1.tar.gz]
+[2024-05-06 11:18:45] INFO root fetch - main [MainThread]: End processing [aiidalab-widgets-base]: success
+[2024-05-06 11:18:45] INFO root fetch - processPackages [trex-model]: Remove: archive file [/home/abi/fetcher/tmp/trex-model-1.3.9.tar.gz]
+[2024-05-06 11:18:45] INFO root fetch - processPackages [trex-model]: Remove: archive file [/home/abi/fetcher/tmp/trex-model-1.4.0.tar.gz]
+[2024-05-06 11:18:45] INFO root fetch - main [MainThread]: End processing [trex-model]: success
+[2024-05-06 11:18:45] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-05-06 11:18:45] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-05-06 11:18:45] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-05-06 11:18:46] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-05-06 11:18:46] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-05-06 11:18:46] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-05-06 11:18:46] INFO root fetch - main [MainThread]: Store serial: [23075160]
