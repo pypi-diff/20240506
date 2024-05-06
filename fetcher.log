@@ -17960,3 +17960,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 14:05:35] INFO root fetch - processPackages [invenio-records-lom]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-lom-0.9.0.tar.gz]
 [2024-05-06 14:05:35] INFO root fetch - main [MainThread]: End processing [invenio-records-lom]: success
 [2024-05-06 14:05:35] INFO root fetch - main [MainThread]: Store serial: [23077176]
+[2024-05-06 14:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23077176]
+[2024-05-06 14:07:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 14:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-r-kvstore20150101
+[2024-05-06 14:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smb-sync
+[2024-05-06 14:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inoopa_utils
+[2024-05-06 14:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-msgspec
+[2024-05-06 14:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docsig
+[2024-05-06 14:07:44] INFO root fetch - processPackages [smb-sync]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-06 14:07:44] INFO root fetch - processPackages [smb-sync]: Downloading https://files.pythonhosted.org/packages/3d/01/2f984b321268aa2f0ea72ef87ce526f47ab1129c877b7941077314ce687d/smb_sync-0.0.4.tar.gz
+[2024-05-06 14:07:44] WARNING root fetch - processPackages [fastapi-msgspec]: Skipping, unable to determine old version
+[2024-05-06 14:07:44] INFO root fetch - main [MainThread]: End processing [fastapi-msgspec] error
+[2024-05-06 14:07:44] INFO root fetch - processPackages [alibabacloud-r-kvstore20150101]: New version: [4.0.0] Old Version: [3.0.1]
+[2024-05-06 14:07:44] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-06 14:07:44] INFO root fetch - processPackages [docsig]: New version: [0.9.0] Old Version: [0.7.0]
+[2024-05-06 14:07:45] INFO root fetch - processPackages [alibabacloud-r-kvstore20150101]: Downloading https://files.pythonhosted.org/packages/e4/e8/5b5d5797d551606864d145bbf25b93c2bf5ff1f99eeb18d4a7c9dddc646f/alibabacloud_r-kvstore20150101-3.0.1.tar.gz
+[2024-05-06 14:07:45] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-06 14:07:45] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/b7/aa/3a58eed65c9cd6b8bd5a25e3fb75d0dab2ecdda4b36d07b1e482c485f72b/docsig-0.7.0.tar.gz
+[2024-05-06 14:07:45] INFO root fetch - processPackages [smb-sync]: Downloading https://files.pythonhosted.org/packages/b7/95/8289117e014b270a2a2bfe50d3ced1e6d068e02d553ffce7798119db9d07/smb_sync-0.0.5.tar.gz
+[2024-05-06 14:07:45] INFO root fetch - processPackages [smb-sync]: executing diffoscope
+[2024-05-06 14:07:45] INFO root fetch - processPackages [smb-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smb_sync-0.0.4.tar.gz tmp/smb_sync-0.0.5.tar.gz --markdown 20240506/s/smb-sync/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-06 14:07:45] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-06 14:07:45] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/a5/8b/f9b2d72f71a3977e2edb7a543e8805b8f859ed021086b9eb63b07f9aa86d/docsig-0.9.0.tar.gz
+[2024-05-06 14:07:45] INFO root fetch - processPackages [alibabacloud-r-kvstore20150101]: Downloading https://files.pythonhosted.org/packages/48/99/557539cc55c1eb5d042981b2665ad166110d2a41c13a59a7454e1918fcfd/alibabacloud_r-kvstore20150101-4.0.0.tar.gz
+[2024-05-06 14:07:45] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-06 14:07:45] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240506/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-06 14:07:45] INFO root fetch - processPackages [docsig]: executing diffoscope
+[2024-05-06 14:07:45] INFO root fetch - processPackages [docsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsig-0.7.0.tar.gz tmp/docsig-0.9.0.tar.gz --markdown 20240506/d/docsig/0.7.0-0.9.0/README.md --exclude *.pyd
+[2024-05-06 14:07:45] INFO root fetch - processPackages [alibabacloud-r-kvstore20150101]: executing diffoscope
+[2024-05-06 14:07:45] INFO root fetch - processPackages [alibabacloud-r-kvstore20150101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_r-kvstore20150101-3.0.1.tar.gz tmp/alibabacloud_r-kvstore20150101-4.0.0.tar.gz --markdown 20240506/a/alibabacloud-r-kvstore20150101/3.0.1-4.0.0/README.md --exclude *.pyd
+[2024-05-06 14:07:46] INFO root fetch - processPackages [smb-sync]: Remove: archive file [/home/abi/fetcher/tmp/smb_sync-0.0.4.tar.gz]
+[2024-05-06 14:07:46] INFO root fetch - processPackages [smb-sync]: Remove: archive file [/home/abi/fetcher/tmp/smb_sync-0.0.5.tar.gz]
+[2024-05-06 14:07:46] INFO root fetch - main [MainThread]: End processing [smb-sync]: success
+[2024-05-06 14:07:46] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-06 14:07:46] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-06 14:07:46] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-06 14:07:46] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.7.0.tar.gz]
+[2024-05-06 14:07:46] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.9.0.tar.gz]
+[2024-05-06 14:07:46] INFO root fetch - main [MainThread]: End processing [docsig]: success
+[2024-05-06 14:07:47] INFO root fetch - processPackages [alibabacloud-r-kvstore20150101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_r-kvstore20150101-3.0.1.tar.gz]
+[2024-05-06 14:07:47] INFO root fetch - processPackages [alibabacloud-r-kvstore20150101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_r-kvstore20150101-4.0.0.tar.gz]
+[2024-05-06 14:07:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-r-kvstore20150101]: success
+[2024-05-06 14:07:47] INFO root fetch - main [MainThread]: Store serial: [23077195]
