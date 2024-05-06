@@ -23195,3 +23195,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:13:43] INFO root fetch - processPackages [fattureincloud-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fattureincloud-python-sdk-2.0.9.tar.gz]
 [2024-05-06 17:13:43] INFO root fetch - main [MainThread]: End processing [fattureincloud-python-sdk]: success
 [2024-05-06 17:13:43] INFO root fetch - main [MainThread]: Store serial: [23079821]
+[2024-05-06 17:15:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079821]
+[2024-05-06 17:15:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 17:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libsrg
+[2024-05-06 17:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2024-05-06 17:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ParticleDetection
+[2024-05-06 17:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wc-django-device-recognizer
+[2024-05-06 17:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AppAuthN
+[2024-05-06 17:15:54] INFO root fetch - processPackages [ParticleDetection]: New version: [0.4.2.dev6] Old Version: [0.4.1.dev48]
+[2024-05-06 17:15:54] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.81]
+[2024-05-06 17:15:55] INFO root fetch - processPackages [wc-django-device-recognizer]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-06 17:15:55] INFO root fetch - processPackages [libsrg]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-05-06 17:15:55] INFO root fetch - processPackages [AppAuthN]: New version: [0.0.16] Old Version: [0.0.15]
+[2024-05-06 17:15:55] INFO root fetch - processPackages [ParticleDetection]: Downloading https://files.pythonhosted.org/packages/74/d8/ab34c3f44e5e61e27245ed4a8f5458d01571f191dc630b05d58257b829e9/particledetection-0.4.1.dev48.tar.gz
+[2024-05-06 17:15:55] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/ad/87/715b0089911eb84c568d79fd0390054ca940a260c673c4386cd4979b3f9d/bridgecrew-3.2.81.tar.gz
+[2024-05-06 17:15:55] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/5f/66/90a61d05c2f678f6d8f68c9a76c19c7c59170af074be989f6251264f9b83/libsrg-5.0.0.tar.gz
+[2024-05-06 17:15:55] INFO root fetch - processPackages [wc-django-device-recognizer]: Downloading https://files.pythonhosted.org/packages/05/05/2f2b6755395b77101f83ba8f4185e6d0a003a07c62e25b727719538ca25b/wc-django-device-recognizer-0.1.2.tar.gz
+[2024-05-06 17:15:55] INFO root fetch - processPackages [AppAuthN]: Downloading https://files.pythonhosted.org/packages/e9/df/79838a9644c66e6e95353526279d7025cdfdeefde646fbed9d6afa025ea8/AppAuthN-0.0.15.tar.gz
+[2024-05-06 17:15:55] INFO root fetch - processPackages [ParticleDetection]: Downloading https://files.pythonhosted.org/packages/36/d7/236542d481ec8aee7460c4b01fc92f0dd43d514fbca14ba505944b214bd9/particledetection-0.4.2.dev6-py3-none-any.whl
+[2024-05-06 17:15:55] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-06 17:15:55] INFO root fetch - processPackages [ParticleDetection]: executing diffoscope
+[2024-05-06 17:15:55] INFO root fetch - processPackages [ParticleDetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/particledetection-0.4.1.dev48.tar.gz tmp/particledetection-0.4.2.dev6-py3-none-any.whl.zip --markdown 20240506/P/ParticleDetection/0.4.1.dev48-0.4.2.dev6/README.md --exclude *.pyd
+[2024-05-06 17:15:55] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-06 17:15:55] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.81.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240506/b/bridgecrew/3.2.81-3.2.9/README.md --exclude *.pyd
+[2024-05-06 17:15:55] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/ca/50/3b20b3d09565e984cfb76133e3a0bde1db6a184e8263000c5a2ddbbd2b8a/libsrg-5.1.0.tar.gz
+[2024-05-06 17:15:55] INFO root fetch - processPackages [wc-django-device-recognizer]: Downloading https://files.pythonhosted.org/packages/96/94/6756185921875bcb4beee5643dbaa6cf9b0498c934143e790deb5d91c16f/wc-django-device-recognizer-0.1.3.tar.gz
+[2024-05-06 17:15:55] INFO root fetch - processPackages [libsrg]: executing diffoscope
+[2024-05-06 17:15:55] INFO root fetch - processPackages [libsrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg-5.0.0.tar.gz tmp/libsrg-5.1.0.tar.gz --markdown 20240506/l/libsrg/5.0.0-5.1.0/README.md --exclude *.pyd
+[2024-05-06 17:15:55] INFO root fetch - processPackages [AppAuthN]: Downloading https://files.pythonhosted.org/packages/d2/a5/8f3de77aeef5459a97c8d1dbade3f99b95eba6284e1d016543a866e9ef59/AppAuthN-0.0.16-py3-none-any.whl
+[2024-05-06 17:15:55] INFO root fetch - processPackages [AppAuthN]: executing diffoscope
+[2024-05-06 17:15:55] INFO root fetch - processPackages [AppAuthN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppAuthN-0.0.15.tar.gz tmp/AppAuthN-0.0.16-py3-none-any.whl.zip --markdown 20240506/A/AppAuthN/0.0.15-0.0.16/README.md --exclude *.pyd
+[2024-05-06 17:15:56] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.81.tar.gz]
+[2024-05-06 17:15:56] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-06 17:15:56] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-06 17:15:56] INFO root fetch - processPackages [ParticleDetection]: Remove: archive file [/home/abi/fetcher/tmp/particledetection-0.4.1.dev48.tar.gz]
+[2024-05-06 17:15:56] INFO root fetch - processPackages [ParticleDetection]: Remove: archive file [/home/abi/fetcher/tmp/particledetection-0.4.2.dev6-py3-none-any.whl.zip]
+[2024-05-06 17:15:56] INFO root fetch - main [MainThread]: End processing [ParticleDetection]: success
+[2024-05-06 17:15:56] INFO root fetch - processPackages [AppAuthN]: Remove: archive file [/home/abi/fetcher/tmp/AppAuthN-0.0.15.tar.gz]
+[2024-05-06 17:15:56] INFO root fetch - processPackages [AppAuthN]: Remove: archive file [/home/abi/fetcher/tmp/AppAuthN-0.0.16-py3-none-any.whl.zip]
+[2024-05-06 17:15:56] INFO root fetch - main [MainThread]: End processing [AppAuthN]: success
+[2024-05-06 17:15:56] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-5.0.0.tar.gz]
+[2024-05-06 17:15:56] INFO root fetch - processPackages [libsrg]: Remove: archive file [/home/abi/fetcher/tmp/libsrg-5.1.0.tar.gz]
+[2024-05-06 17:15:56] INFO root fetch - main [MainThread]: End processing [libsrg]: success
+[2024-05-06 17:15:57] INFO root fetch - processPackages [wc-django-device-recognizer]: executing diffoscope
+[2024-05-06 17:15:57] INFO root fetch - processPackages [wc-django-device-recognizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wc-django-device-recognizer-0.1.2.tar.gz tmp/wc-django-device-recognizer-0.1.3.tar.gz --markdown 20240506/w/wc-django-device-recognizer/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-06 17:15:59] INFO root fetch - processPackages [wc-django-device-recognizer]: Remove: archive file [/home/abi/fetcher/tmp/wc-django-device-recognizer-0.1.2.tar.gz]
+[2024-05-06 17:15:59] INFO root fetch - processPackages [wc-django-device-recognizer]: Remove: archive file [/home/abi/fetcher/tmp/wc-django-device-recognizer-0.1.3.tar.gz]
+[2024-05-06 17:15:59] INFO root fetch - main [MainThread]: End processing [wc-django-device-recognizer]: success
+[2024-05-06 17:15:59] INFO root fetch - main [MainThread]: Store serial: [23079834]
