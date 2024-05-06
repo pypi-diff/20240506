@@ -8110,3 +8110,93 @@
 [2024-05-06 09:49:26] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
 [2024-05-06 09:49:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
 [2024-05-06 09:49:26] INFO root fetch - main [MainThread]: Store serial: [23073107]
+[2024-05-06 09:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23073107]
+[2024-05-06 09:51:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 09:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oauth2-lib
+[2024-05-06 09:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unimernet
+[2024-05-06 09:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-json-patch-rules
+[2024-05-06 09:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rotary-emb
+[2024-05-06 09:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: some-aiohttp-middleware
+[2024-05-06 09:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-aa
+[2024-05-06 09:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymediasoup
+[2024-05-06 09:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trex-conf
+[2024-05-06 09:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dhcptool
+[2024-05-06 09:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drf-pagination-meta-wrap
+[2024-05-06 09:51:34] INFO root fetch - processPackages [unimernet]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 09:51:34] INFO root fetch - processPackages [python-json-patch-rules]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-06 09:51:34] INFO root fetch - processPackages [dhcptool]: New version: [2024.5.6] Old Version: [2024.4.1]
+[2024-05-06 09:51:34] INFO root fetch - processPackages [unimernet]: Downloading https://files.pythonhosted.org/packages/f0/41/76d204d06d2b3e44d0ce64b82195d4801f101fb90425e5e4d9c6237836fd/unimernet-0.0.6-py2.py3-none-any.whl
+[2024-05-06 09:51:34] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 09:51:34] WARNING root fetch - processPackages [rotary-emb]: Skipping, unable to determine old version
+[2024-05-06 09:51:34] INFO root fetch - processPackages [rotary-emb]: Start processing: trex-apis
+[2024-05-06 09:51:34] INFO root fetch - main [MainThread]: End processing [rotary-emb] error
+[2024-05-06 09:51:34] WARNING root fetch - processPackages [drf-pagination-meta-wrap]: Skipping, unable to determine old version
+[2024-05-06 09:51:34] INFO root fetch - main [MainThread]: End processing [drf-pagination-meta-wrap] error
+[2024-05-06 09:51:34] INFO root fetch - processPackages [pymediasoup]: New version: [1.0.0] Old Version: [0.2.6]
+[2024-05-06 09:51:34] INFO root fetch - processPackages [trex-conf]: New version: [1.0.0] Old Version: [0.0.2]
+[2024-05-06 09:51:34] INFO root fetch - processPackages [python-json-patch-rules]: Downloading https://files.pythonhosted.org/packages/13/64/f98ef9d9c77f4ce715e32a805e07be25c7e5c5d5b2e9273d6021a301b232/python_json_patch_rules-0.2.0.tar.gz
+[2024-05-06 09:51:34] INFO root fetch - processPackages [some-aiohttp-middleware]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 09:51:34] INFO root fetch - processPackages [oauth2-lib]: New version: [2.0.0] Old Version: [1.5.0]
+[2024-05-06 09:51:35] INFO root fetch - processPackages [dhcptool]: Downloading https://files.pythonhosted.org/packages/44/5b/dec4f0dc0cce4f9fbdd5aaee6a679ae808bca9c54afe426e9c777aa0493d/dhcptool-2024.4.1.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [trex-apis]: New version: [1.4.0] Old Version: [1.3.8]
+[2024-05-06 09:51:35] INFO root fetch - processPackages [trex-conf]: Downloading https://files.pythonhosted.org/packages/c8/5a/afcbfbf6974593ea3258e6118391edd1605e93261c18f86cddad7f5a0d83/trex-conf-0.0.2.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/a2/4c/3c7c6150a011e32b81b38a92f8897a5c6ee494b584fd6090858e85489c02/tencentcloud-sdk-python-aa-3.0.998.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [pymediasoup]: Downloading https://files.pythonhosted.org/packages/19/c1/8e5628161dcd633731a39e24d3faade1c05bbd0cc87ce7f05407bfd71513/pymediasoup-0.2.6.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [python-json-patch-rules]: Downloading https://files.pythonhosted.org/packages/f7/d3/eb776fabd757fcd2d9cf04bf767882f485590e4b9ab97160e1f6004c8a0a/python_json_patch_rules-0.3.0.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [some-aiohttp-middleware]: Downloading https://files.pythonhosted.org/packages/21/52/d83a8c903bcd66e01cf49b012d0d482549ccbb62443160d6774e5dc72821/some_aiohttp_middleware-0.1.4.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [oauth2-lib]: Downloading https://files.pythonhosted.org/packages/d9/fc/85c644f7c8645a002b4c773ef5380296b0aab0d6b4af5b1b03626096483e/oauth2_lib-1.5.0.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [python-json-patch-rules]: executing diffoscope
+[2024-05-06 09:51:35] INFO root fetch - processPackages [python-json-patch-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_json_patch_rules-0.2.0.tar.gz tmp/python_json_patch_rules-0.3.0.tar.gz --markdown 20240506/p/python-json-patch-rules/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-06 09:51:35] INFO root fetch - processPackages [unimernet]: Downloading https://files.pythonhosted.org/packages/c9/3f/01734986263767b43fe46b8136b8aaedba5c056cd3c6be9c9a1ca6b1f158/unimernet-0.0.7-py2.py3-none-any.whl
+[2024-05-06 09:51:35] INFO root fetch - processPackages [dhcptool]: Downloading https://files.pythonhosted.org/packages/0e/99/bf498db0fa0f875de7c967229c1d06e695c81ba021fd138ef67aa6f27518/dhcptool-2024.5.6.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [trex-conf]: Downloading https://files.pythonhosted.org/packages/37/13/207fbabc3806ad72a2e8ce56f2c8e68692d22101433af19c58bbd91a335f/trex-conf-1.0.0.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [some-aiohttp-middleware]: Downloading https://files.pythonhosted.org/packages/b1/38/d117e1afc8e4bebb1f2c8b251285bd02db1fa04900bdced435087bcc1337/some_aiohttp_middleware-0.1.5.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [oauth2-lib]: Downloading https://files.pythonhosted.org/packages/79/d7/69a6877ce68d22e16893ad5212e45ae56d080dc4193abb3120d67612ed8e/oauth2_lib-2.0.0.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [trex-conf]: executing diffoscope
+[2024-05-06 09:51:35] INFO root fetch - processPackages [trex-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-conf-0.0.2.tar.gz tmp/trex-conf-1.0.0.tar.gz --markdown 20240506/t/trex-conf/0.0.2-1.0.0/README.md --exclude *.pyd
+[2024-05-06 09:51:35] INFO root fetch - processPackages [pymediasoup]: Downloading https://files.pythonhosted.org/packages/0c/15/671aa9c50007a47329a5fb8e44693a658ffbf945caa7a5f4dd2d04395115/pymediasoup-1.0.0.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/4c/d6/5bd523bd521bb045390dcbe68344c43369604ab7a14166596994e4a2a42f/tencentcloud-sdk-python-aa-3.0.999.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [unimernet]: executing diffoscope
+[2024-05-06 09:51:35] INFO root fetch - processPackages [unimernet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimernet-0.0.6-py2.py3-none-any.whl.zip tmp/unimernet-0.0.7-py2.py3-none-any.whl.zip --markdown 20240506/u/unimernet/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 09:51:35] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/52/4d/1dfb2765ad919b4540f28bd6af8b05bb4a03e104ac77989d935bc4072447/trex-apis-1.3.8.tar.gz
+[2024-05-06 09:51:35] INFO root fetch - processPackages [dhcptool]: executing diffoscope
+[2024-05-06 09:51:35] INFO root fetch - processPackages [dhcptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhcptool-2024.4.1.tar.gz tmp/dhcptool-2024.5.6.tar.gz --markdown 20240506/d/dhcptool/2024.4.1-2024.5.6/README.md --exclude *.pyd
+[2024-05-06 09:51:35] INFO root fetch - processPackages [some-aiohttp-middleware]: executing diffoscope
+[2024-05-06 09:51:35] INFO root fetch - processPackages [some-aiohttp-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/some_aiohttp_middleware-0.1.4.tar.gz tmp/some_aiohttp_middleware-0.1.5.tar.gz --markdown 20240506/s/some-aiohttp-middleware/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 09:51:35] INFO root fetch - processPackages [oauth2-lib]: executing diffoscope
+[2024-05-06 09:51:35] INFO root fetch - processPackages [oauth2-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauth2_lib-1.5.0.tar.gz tmp/oauth2_lib-2.0.0.tar.gz --markdown 20240506/o/oauth2-lib/1.5.0-2.0.0/README.md --exclude *.pyd
+[2024-05-06 09:51:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: executing diffoscope
+[2024-05-06 09:51:35] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-aa/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 09:51:35] INFO root fetch - processPackages [pymediasoup]: executing diffoscope
+[2024-05-06 09:51:35] INFO root fetch - processPackages [pymediasoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediasoup-0.2.6.tar.gz tmp/pymediasoup-1.0.0.tar.gz --markdown 20240506/p/pymediasoup/0.2.6-1.0.0/README.md --exclude *.pyd
+[2024-05-06 09:51:36] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/1e/5a/9caca73582342e0ca18bf41f5a76b7c9f852ec4f546c7b21cc7866594dc7/trex-apis-1.4.0.tar.gz
+[2024-05-06 09:51:36] INFO root fetch - processPackages [python-json-patch-rules]: Remove: archive file [/home/abi/fetcher/tmp/python_json_patch_rules-0.2.0.tar.gz]
+[2024-05-06 09:51:36] INFO root fetch - processPackages [python-json-patch-rules]: Remove: archive file [/home/abi/fetcher/tmp/python_json_patch_rules-0.3.0.tar.gz]
+[2024-05-06 09:51:36] INFO root fetch - main [MainThread]: End processing [python-json-patch-rules]: success
+[2024-05-06 09:51:36] INFO root fetch - processPackages [trex-apis]: executing diffoscope
+[2024-05-06 09:51:36] INFO root fetch - processPackages [trex-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-apis-1.3.8.tar.gz tmp/trex-apis-1.4.0.tar.gz --markdown 20240506/t/trex-apis/1.3.8-1.4.0/README.md --exclude *.pyd
+[2024-05-06 09:51:36] INFO root fetch - processPackages [trex-conf]: Remove: archive file [/home/abi/fetcher/tmp/trex-conf-0.0.2.tar.gz]
+[2024-05-06 09:51:36] INFO root fetch - processPackages [trex-conf]: Remove: archive file [/home/abi/fetcher/tmp/trex-conf-1.0.0.tar.gz]
+[2024-05-06 09:51:36] INFO root fetch - main [MainThread]: End processing [trex-conf]: success
+[2024-05-06 09:51:36] INFO root fetch - processPackages [dhcptool]: Remove: archive file [/home/abi/fetcher/tmp/dhcptool-2024.4.1.tar.gz]
+[2024-05-06 09:51:36] INFO root fetch - processPackages [dhcptool]: Remove: archive file [/home/abi/fetcher/tmp/dhcptool-2024.5.6.tar.gz]
+[2024-05-06 09:51:36] INFO root fetch - main [MainThread]: End processing [dhcptool]: success
+[2024-05-06 09:51:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz]
+[2024-05-06 09:51:37] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz]
+[2024-05-06 09:51:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aa]: success
+[2024-05-06 09:51:37] INFO root fetch - processPackages [some-aiohttp-middleware]: Remove: archive file [/home/abi/fetcher/tmp/some_aiohttp_middleware-0.1.4.tar.gz]
+[2024-05-06 09:51:37] INFO root fetch - processPackages [some-aiohttp-middleware]: Remove: archive file [/home/abi/fetcher/tmp/some_aiohttp_middleware-0.1.5.tar.gz]
+[2024-05-06 09:51:37] INFO root fetch - main [MainThread]: End processing [some-aiohttp-middleware]: success
+[2024-05-06 09:51:37] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.6-py2.py3-none-any.whl.zip]
+[2024-05-06 09:51:37] INFO root fetch - processPackages [oauth2-lib]: Remove: archive file [/home/abi/fetcher/tmp/oauth2_lib-1.5.0.tar.gz]
+[2024-05-06 09:51:37] INFO root fetch - processPackages [oauth2-lib]: Remove: archive file [/home/abi/fetcher/tmp/oauth2_lib-2.0.0.tar.gz]
+[2024-05-06 09:51:37] INFO root fetch - processPackages [unimernet]: Remove: archive file [/home/abi/fetcher/tmp/unimernet-0.0.7-py2.py3-none-any.whl.zip]
+[2024-05-06 09:51:37] INFO root fetch - main [MainThread]: End processing [oauth2-lib]: success
+[2024-05-06 09:51:37] INFO root fetch - main [MainThread]: End processing [unimernet]: success
+[2024-05-06 09:51:37] INFO root fetch - processPackages [pymediasoup]: Remove: archive file [/home/abi/fetcher/tmp/pymediasoup-0.2.6.tar.gz]
+[2024-05-06 09:51:37] INFO root fetch - processPackages [pymediasoup]: Remove: archive file [/home/abi/fetcher/tmp/pymediasoup-1.0.0.tar.gz]
+[2024-05-06 09:51:37] INFO root fetch - main [MainThread]: End processing [pymediasoup]: success
+[2024-05-06 09:51:37] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.3.8.tar.gz]
+[2024-05-06 09:51:37] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.4.0.tar.gz]
+[2024-05-06 09:51:37] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
+[2024-05-06 09:51:37] INFO root fetch - main [MainThread]: Store serial: [23073140]
