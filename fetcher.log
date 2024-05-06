@@ -3243,3 +3243,45 @@
 [2024-05-06 04:42:26] INFO root fetch - processPackages [datamapplot]: Remove: archive file [/home/abi/fetcher/tmp/datamapplot-0.3.0.tar.gz]
 [2024-05-06 04:42:26] INFO root fetch - main [MainThread]: End processing [datamapplot]: success
 [2024-05-06 04:42:26] INFO root fetch - main [MainThread]: Store serial: [23070798]
+[2024-05-06 04:44:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070798]
+[2024-05-06 04:44:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 04:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlexecutorx
+[2024-05-06 04:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: downmixer
+[2024-05-06 04:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autorunpy
+[2024-05-06 04:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: furrow1k
+[2024-05-06 04:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeUtils
+[2024-05-06 04:44:35] INFO root fetch - processPackages [autorunpy]: New version: [8.0.2] Old Version: [8.0.1]
+[2024-05-06 04:44:35] INFO root fetch - processPackages [furrow1k]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 04:44:35] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/c4/17/1dfe31f76c2e7253da29282ec51d684f7187b25848f62d54efb6e4688a27/furrow1k-0.1.8.tar.gz
+[2024-05-06 04:44:35] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/19/03/7817da2cabffc8ec25fc7a405a0c88dda8c8b39080138f65d9681ff248b3/autorunpy-8.0.1.tar.gz
+[2024-05-06 04:44:35] WARNING root fetch - processPackages [downmixer]: Skipping, unable to determine old version
+[2024-05-06 04:44:35] INFO root fetch - main [MainThread]: End processing [downmixer] error
+[2024-05-06 04:44:35] INFO root fetch - processPackages [sqlexecutorx]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-06 04:44:35] INFO root fetch - processPackages [MeUtils]: New version: [2024.5.6.10.44.5] Old Version: [2024.4.26.13.23.46]
+[2024-05-06 04:44:35] INFO root fetch - processPackages [sqlexecutorx]: Downloading https://files.pythonhosted.org/packages/b4/03/a5aa20f0ad18029e545fff987b19de50869f580edd254ac6025e983b0668/sqlexecutorx-0.8.0.tar.gz
+[2024-05-06 04:44:35] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/ff/4a/56623c0811a030be0fe8dfcb708f0ecd7ccb64eefc6b53774a5fc35e18f9/MeUtils-2024.4.26.13.23.46.tar.gz
+[2024-05-06 04:44:35] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/2c/72/c433ce5b0c141ecb4ecf4fdaddf9a314ac1a1ebcc77b5342d13c4e8fc423/furrow1k-0.1.9.tar.gz
+[2024-05-06 04:44:35] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/2f/f9/9eec83a4c913943d0aeca1533d2b16acac7fdc97669adcd563dfc981f9dd/autorunpy-8.0.2.tar.gz
+[2024-05-06 04:44:35] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-06 04:44:35] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-0.1.8.tar.gz tmp/furrow1k-0.1.9.tar.gz --markdown 20240506/f/furrow1k/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 04:44:35] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-06 04:44:35] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.0.1.tar.gz tmp/autorunpy-8.0.2.tar.gz --markdown 20240506/a/autorunpy/8.0.1-8.0.2/README.md --exclude *.pyd
+[2024-05-06 04:44:35] INFO root fetch - processPackages [sqlexecutorx]: Downloading https://files.pythonhosted.org/packages/67/26/d7653b6f24bb617d0b4af5b311fae2e24d1a0c68c8deecf9f9f9a7328373/sqlexecutorx-0.9.0.tar.gz
+[2024-05-06 04:44:36] INFO root fetch - processPackages [sqlexecutorx]: executing diffoscope
+[2024-05-06 04:44:36] INFO root fetch - processPackages [sqlexecutorx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlexecutorx-0.8.0.tar.gz tmp/sqlexecutorx-0.9.0.tar.gz --markdown 20240506/s/sqlexecutorx/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-06 04:44:36] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/78/33/70eacdfe9bf2fe22dc8f2f41b47fb05e33601609969898927a2e56009f4e/MeUtils-2024.5.6.10.44.5.tar.gz
+[2024-05-06 04:44:36] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.0.1.tar.gz]
+[2024-05-06 04:44:36] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.0.2.tar.gz]
+[2024-05-06 04:44:36] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-06 04:44:36] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.8.tar.gz]
+[2024-05-06 04:44:36] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.9.tar.gz]
+[2024-05-06 04:44:36] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-06 04:44:36] INFO root fetch - processPackages [sqlexecutorx]: Remove: archive file [/home/abi/fetcher/tmp/sqlexecutorx-0.8.0.tar.gz]
+[2024-05-06 04:44:36] INFO root fetch - processPackages [sqlexecutorx]: Remove: archive file [/home/abi/fetcher/tmp/sqlexecutorx-0.9.0.tar.gz]
+[2024-05-06 04:44:36] INFO root fetch - main [MainThread]: End processing [sqlexecutorx]: success
+[2024-05-06 04:44:42] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-05-06 04:44:42] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.4.26.13.23.46.tar.gz tmp/MeUtils-2024.5.6.10.44.5.tar.gz --markdown 20240506/M/MeUtils/2024.4.26.13.23.46-2024.5.6.10.44.5/README.md --exclude *.pyd
+[2024-05-06 04:44:44] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.26.13.23.46.tar.gz]
+[2024-05-06 04:44:44] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.5.tar.gz]
+[2024-05-06 04:44:44] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-05-06 04:44:44] INFO root fetch - main [MainThread]: Store serial: [23070813]
