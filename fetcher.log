@@ -20382,3 +20382,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:37:28] INFO root fetch - processPackages [pulp-container-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_container-client-2.9.9.tar.gz]
 [2024-05-06 15:37:28] INFO root fetch - main [MainThread]: End processing [pulp-container-client]: success
 [2024-05-06 15:37:28] INFO root fetch - main [MainThread]: Store serial: [23078424]
+[2024-05-06 15:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078424]
+[2024-05-06 15:39:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 15:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-payment-widget-amount
+[2024-05-06 15:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-node-binding
+[2024-05-06 15:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cogflow
+[2024-05-06 15:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragger
+[2024-05-06 15:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wyze-sdk
+[2024-05-06 15:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastlane-bot
+[2024-05-06 15:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: veetility
+[2024-05-06 15:39:37] INFO root fetch - processPackages [wyze-sdk]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-06 15:39:37] INFO root fetch - processPackages [ragger]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-06 15:39:37] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.7]
+[2024-05-06 15:39:37] INFO root fetch - processPackages [cogflow]: New version: [1.9.7] Old Version: [1.9.6]
+[2024-05-06 15:39:37] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1251] Old Version: [3.0.3.post1250]
+[2024-05-06 15:39:37] INFO root fetch - processPackages [veetility]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-06 15:39:37] INFO root fetch - processPackages [fastlane-bot]: New version: [3.2.1] Old Version: [3.1.9]
+[2024-05-06 15:39:38] INFO root fetch - processPackages [wyze-sdk]: Downloading https://files.pythonhosted.org/packages/7b/6d/825ccb18088548f38ffdcdfb9c0f4ac6f8ea8884437b48a0320027437df9/wyze_sdk-2.1.0-py3-none-any.whl
+[2024-05-06 15:39:38] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: Downloading https://files.pythonhosted.org/packages/9f/ad/354aed1f84f3dad61490ab99f5925c57fd47befd828841b22bed9d71d523/odoo_addon_account_payment_widget_amount-15.0.1.0.0.7-py3-none-any.whl
+[2024-05-06 15:39:38] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/82/04/82bc3bf0c47a6f88a45e1b5604b67e6f9d9d9068f3a4713025a7590f00e8/ragger-1.9.1.tar.gz
+[2024-05-06 15:39:38] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b1/91/d8b87c6abe2c889c3b9e77c15ec30245caafbf6a8440b068ccaf89a1dfd8/veetility-0.3.8.tar.gz
+[2024-05-06 15:39:38] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/43/aa/23d2c4be509d48ac9775704f8a2cb1c04002725c5337e7bb1509e6c6d39a/nucliadb_node_binding-3.0.3.post1250.tar.gz
+[2024-05-06 15:39:38] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/d0/a9/10988bbeaf39c3193cbaae691822f9abc3ac8fe5a1f933de1e9cbb3b6e46/cogflow-1.9.6.tar.gz
+[2024-05-06 15:39:38] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/f3/88/9d893b88a9c4aa8a084a626bc69d1fcf76b43bcec6744de187d0e547621e/fastlane_bot-3.1.9-py3-none-any.whl
+[2024-05-06 15:39:38] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/16/e8/30e723d4cfd67ceefcb16298fad33f949895b9b3ef04995a5c874104da2e/cogflow-1.9.7.tar.gz
+[2024-05-06 15:39:38] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/55/ac/75fc7e94a713ed26019e36497774d89d7eaa377fab2ac4183dd45fc028b5/ragger-1.9.2.tar.gz
+[2024-05-06 15:39:38] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: Downloading https://files.pythonhosted.org/packages/66/10/cd7007ccf94dba18dfff68ef99b8d7e340d6354d365787c2e0ca5baa9650/odoo_addon_account_payment_widget_amount-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-06 15:39:38] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/ee/ea/20826fa9c9b1a6195df365422310d77547291739589c3fdde0fbc29bacfd/nucliadb_node_binding-3.0.3.post1251.tar.gz
+[2024-05-06 15:39:38] INFO root fetch - processPackages [wyze-sdk]: Downloading https://files.pythonhosted.org/packages/a7/5e/56e115e7e94a54c09cece2d1b68831ed5bb6adbeea214b83d1eb3f4de7db/wyze_sdk-2.2.0-py3-none-any.whl
+[2024-05-06 15:39:38] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/7f/a5/de018769554debea3bb1c08796950a4340d674cbe8d61cf28c9ed938463c/fastlane_bot-3.2.1.tar.gz
+[2024-05-06 15:39:38] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-06 15:39:38] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.6.tar.gz tmp/cogflow-1.9.7.tar.gz --markdown 20240506/c/cogflow/1.9.6-1.9.7/README.md --exclude *.pyd
+[2024-05-06 15:39:38] INFO root fetch - processPackages [ragger]: executing diffoscope
+[2024-05-06 15:39:38] INFO root fetch - processPackages [ragger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragger-1.9.1.tar.gz tmp/ragger-1.9.2.tar.gz --markdown 20240506/r/ragger/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-06 15:39:38] INFO root fetch - processPackages [wyze-sdk]: executing diffoscope
+[2024-05-06 15:39:38] INFO root fetch - processPackages [wyze-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wyze_sdk-2.1.0-py3-none-any.whl.zip tmp/wyze_sdk-2.2.0-py3-none-any.whl.zip --markdown 20240506/w/wyze-sdk/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-06 15:39:38] WARNING root fetch - processPackages [fastlane-bot]: Skipping package: exceeds size limit 44167342>=10485760
+[2024-05-06 15:39:38] INFO root fetch - main [MainThread]: End processing [fastlane-bot] error
+[2024-05-06 15:39:38] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: executing diffoscope
+[2024-05-06 15:39:38] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_widget_amount-15.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_account_payment_widget_amount-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-account-payment-widget-amount/15.0.1.0.0.7-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-06 15:39:38] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-06 15:39:38] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1250.tar.gz tmp/nucliadb_node_binding-3.0.3.post1251.tar.gz --markdown 20240506/n/nucliadb-node-binding/3.0.3.post1250-3.0.3.post1251/README.md --exclude *.pyd
+[2024-05-06 15:39:39] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/11/82/1008ece571d6c80a1af3fa7278018907f24f3f4b91a4e73422cbb2b9ae4b/veetility-0.3.9.tar.gz
+[2024-05-06 15:39:39] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2024-05-06 15:39:39] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.3.8.tar.gz tmp/veetility-0.3.9.tar.gz --markdown 20240506/v/veetility/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-06 15:39:39] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.6.tar.gz]
+[2024-05-06 15:39:39] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.7.tar.gz]
+[2024-05-06 15:39:39] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-06 15:39:39] INFO root fetch - processPackages [wyze-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wyze_sdk-2.1.0-py3-none-any.whl.zip]
+[2024-05-06 15:39:39] INFO root fetch - processPackages [wyze-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wyze_sdk-2.2.0-py3-none-any.whl.zip]
+[2024-05-06 15:39:39] INFO root fetch - main [MainThread]: End processing [wyze-sdk]: success
+[2024-05-06 15:39:39] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_widget_amount-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-06 15:39:39] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_widget_amount-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-06 15:39:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-widget-amount]: success
+[2024-05-06 15:39:39] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.1.tar.gz]
+[2024-05-06 15:39:39] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.2.tar.gz]
+[2024-05-06 15:39:39] INFO root fetch - main [MainThread]: End processing [ragger]: success
+[2024-05-06 15:39:39] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.3.8.tar.gz]
+[2024-05-06 15:39:39] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.3.9.tar.gz]
+[2024-05-06 15:39:39] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2024-05-06 15:39:40] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1250.tar.gz]
+[2024-05-06 15:39:40] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1251.tar.gz]
+[2024-05-06 15:39:40] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-06 15:39:40] INFO root fetch - main [MainThread]: Store serial: [23078460]
