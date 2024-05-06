@@ -1629,3 +1629,15 @@
 [2024-05-06 02:30:35] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy_iers_data-0.2024.5.6.0.29.28.tar.gz]
 [2024-05-06 02:30:35] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
 [2024-05-06 02:30:35] INFO root fetch - main [MainThread]: Store serial: [23070185]
+[2024-05-06 02:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070185]
+[2024-05-06 02:32:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 02:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2024-05-06 02:32:44] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240505] Old Version: [0.1.5.dev20240504]
+[2024-05-06 02:32:44] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/31/66/156d8cc72ce39c3b58fe03c7c779b0ecd2993bfa95c648c0f2d70d82bb2a/aeppl_nightly-0.1.5.dev20240504.tar.gz
+[2024-05-06 02:32:45] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/02/38/2ed2dd67d50565dce34492f3e911f42724725fa49d054011f675efa31746/aeppl_nightly-0.1.5.dev20240505.tar.gz
+[2024-05-06 02:32:45] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-06 02:32:45] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240504.tar.gz tmp/aeppl_nightly-0.1.5.dev20240505.tar.gz --markdown 20240506/a/aeppl-nightly/0.1.5.dev20240504-0.1.5.dev20240505/README.md --exclude *.pyd
+[2024-05-06 02:32:45] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240504.tar.gz]
+[2024-05-06 02:32:45] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240505.tar.gz]
+[2024-05-06 02:32:45] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-06 02:32:45] INFO root fetch - main [MainThread]: Store serial: [23070187]
