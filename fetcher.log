@@ -5595,3 +5595,33 @@
 [2024-05-06 07:19:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
 [2024-05-06 07:19:19] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
 [2024-05-06 07:19:19] INFO root fetch - main [MainThread]: Store serial: [23071913]
+[2024-05-06 07:21:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23071913]
+[2024-05-06 07:21:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 07:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-py-interactions
+[2024-05-06 07:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langjam
+[2024-05-06 07:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: interactions.py
+[2024-05-06 07:21:28] INFO root fetch - processPackages [langjam]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-06 07:21:28] INFO root fetch - processPackages [discord-py-interactions]: New version: [5.9.2] Old Version: [5.9.1]
+[2024-05-06 07:21:28] INFO root fetch - processPackages [interactions.py]: New version: [5.9.2] Old Version: [5.9.1]
+[2024-05-06 07:21:28] INFO root fetch - processPackages [langjam]: Downloading https://files.pythonhosted.org/packages/32/42/0fa74b4e6b4e9bd9904445a244bbfd8b082940968d57c21f0854cc75b388/langjam-0.1.4.tar.gz
+[2024-05-06 07:21:28] INFO root fetch - processPackages [interactions.py]: Downloading https://files.pythonhosted.org/packages/f5/51/a3d785858e034807a50e6660e244e5659e004b7e23bdc50c85b0d949c87b/interactions.py-5.9.1.tar.gz
+[2024-05-06 07:21:28] INFO root fetch - processPackages [discord-py-interactions]: Downloading https://files.pythonhosted.org/packages/77/4a/5b75eacbe898c3cb79c4dda571cf4105d2b60bf791e9b1623986603f4db4/discord-py-interactions-5.9.1.tar.gz
+[2024-05-06 07:21:28] INFO root fetch - processPackages [langjam]: Downloading https://files.pythonhosted.org/packages/b7/f1/a81b2822c893aec109eae6f82ccc6e31a9db808b664526af5023f23af90d/langjam-0.1.5.tar.gz
+[2024-05-06 07:21:28] INFO root fetch - processPackages [discord-py-interactions]: Downloading https://files.pythonhosted.org/packages/ba/1a/24c9f03aed3f1f7e5b4a5c1b94836ec246c78fc540894bffec5fdbc372da/discord-py-interactions-5.9.2.tar.gz
+[2024-05-06 07:21:28] INFO root fetch - processPackages [interactions.py]: Downloading https://files.pythonhosted.org/packages/89/9f/44ae117bf90722893ec4f183d2f973d2c3354114cff4165e8ffb0e52ba2b/interactions.py-5.9.2.tar.gz
+[2024-05-06 07:21:28] INFO root fetch - processPackages [langjam]: executing diffoscope
+[2024-05-06 07:21:28] INFO root fetch - processPackages [langjam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langjam-0.1.4.tar.gz tmp/langjam-0.1.5.tar.gz --markdown 20240506/l/langjam/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-06 07:21:28] INFO root fetch - processPackages [discord-py-interactions]: executing diffoscope
+[2024-05-06 07:21:28] INFO root fetch - processPackages [discord-py-interactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-py-interactions-5.9.1.tar.gz tmp/discord-py-interactions-5.9.2.tar.gz --markdown 20240506/d/discord-py-interactions/5.9.1-5.9.2/README.md --exclude *.pyd
+[2024-05-06 07:21:29] INFO root fetch - processPackages [interactions.py]: executing diffoscope
+[2024-05-06 07:21:29] INFO root fetch - processPackages [interactions.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactions.py-5.9.1.tar.gz tmp/interactions.py-5.9.2.tar.gz --markdown 20240506/i/interactions.py/5.9.1-5.9.2/README.md --exclude *.pyd
+[2024-05-06 07:21:29] INFO root fetch - processPackages [langjam]: Remove: archive file [/home/abi/fetcher/tmp/langjam-0.1.4.tar.gz]
+[2024-05-06 07:21:29] INFO root fetch - processPackages [langjam]: Remove: archive file [/home/abi/fetcher/tmp/langjam-0.1.5.tar.gz]
+[2024-05-06 07:21:29] INFO root fetch - main [MainThread]: End processing [langjam]: success
+[2024-05-06 07:21:30] INFO root fetch - processPackages [discord-py-interactions]: Remove: archive file [/home/abi/fetcher/tmp/discord-py-interactions-5.9.1.tar.gz]
+[2024-05-06 07:21:30] INFO root fetch - processPackages [discord-py-interactions]: Remove: archive file [/home/abi/fetcher/tmp/discord-py-interactions-5.9.2.tar.gz]
+[2024-05-06 07:21:30] INFO root fetch - main [MainThread]: End processing [discord-py-interactions]: success
+[2024-05-06 07:21:30] INFO root fetch - processPackages [interactions.py]: Remove: archive file [/home/abi/fetcher/tmp/interactions.py-5.9.1.tar.gz]
+[2024-05-06 07:21:30] INFO root fetch - processPackages [interactions.py]: Remove: archive file [/home/abi/fetcher/tmp/interactions.py-5.9.2.tar.gz]
+[2024-05-06 07:21:30] INFO root fetch - main [MainThread]: End processing [interactions.py]: success
+[2024-05-06 07:21:30] INFO root fetch - main [MainThread]: Store serial: [23071922]
