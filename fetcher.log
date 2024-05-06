@@ -22323,3 +22323,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:40:44] INFO root fetch - processPackages [msal_streamlit_t2]: Remove: archive file [/home/abi/fetcher/tmp/msal_streamlit_t2-1.1.5.tar.gz]
 [2024-05-06 16:40:44] INFO root fetch - main [MainThread]: End processing [msal_streamlit_t2]: success
 [2024-05-06 16:40:44] INFO root fetch - main [MainThread]: Store serial: [23079344]
+[2024-05-06 16:42:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079344]
+[2024-05-06 16:42:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 16:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gymnodiniumz
+[2024-05-06 16:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfamsa
+[2024-05-06 16:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sinergym
+[2024-05-06 16:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jestbookz
+[2024-05-06 16:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testery
+[2024-05-06 16:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gitlab-api
+[2024-05-06 16:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: state-machine-2
+[2024-05-06 16:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc-faas-openeo
+[2024-05-06 16:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grooveshop-django-api
+[2024-05-06 16:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: haystack-pydoc-tools
+[2024-05-06 16:42:59] WARNING root fetch - processPackages [gymnodiniumz]: Skipping, unable to determine old version
+[2024-05-06 16:42:59] INFO root fetch - processPackages [gymnodiniumz]: Start processing: noneternallyz
+[2024-05-06 16:42:59] INFO root fetch - main [MainThread]: End processing [gymnodiniumz] error
+[2024-05-06 16:42:59] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-05-06 16:42:59] INFO root fetch - processPackages [pyfamsa]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-06 16:42:59] INFO root fetch - processPackages [sinergym]: New version: [3.3.3] Old Version: [3.3.1]
+[2024-05-06 16:42:59] INFO root fetch - processPackages [gitlab-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-06 16:42:59] INFO root fetch - processPackages [testery]: New version: [1.9.0] Old Version: [1.8.6]
+[2024-05-06 16:42:59] WARNING root fetch - processPackages [jestbookz]: Skipping, unable to determine old version
+[2024-05-06 16:42:59] INFO root fetch - main [MainThread]: End processing [jestbookz] error
+[2024-05-06 16:42:59] INFO root fetch - processPackages [haystack-pydoc-tools]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-06 16:42:59] INFO root fetch - processPackages [state-machine-2]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-05-06 16:42:59] WARNING root fetch - processPackages [noneternallyz]: Skipping, unable to determine old version
+[2024-05-06 16:42:59] INFO root fetch - main [MainThread]: End processing [noneternallyz] error
+[2024-05-06 16:42:59] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/7f/a7/0d6a615cddf282a20c5473422783b8e46581bf1c77d73c7dfc581210dc37/grooveshop_django_api-0.99.0.tar.gz
+[2024-05-06 16:42:59] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-06 16:42:59] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33783695>=10485760
+[2024-05-06 16:42:59] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-05-06 16:42:59] INFO root fetch - processPackages [sinergym]: Downloading https://files.pythonhosted.org/packages/a4/7c/75b3b43ef2281b38c1770716175c7cd5325fdf1a17f5250aeb47e65bee9c/sinergym-3.3.1.tar.gz
+[2024-05-06 16:42:59] INFO root fetch - processPackages [gitlab-api]: Downloading https://files.pythonhosted.org/packages/4c/31/7f09ed7e57cfb89067df4301b4868acda650facb9216b3fec285bef932fb/gitlab_api-0.6.0-py2.py3-none-any.whl
+[2024-05-06 16:42:59] INFO root fetch - processPackages [testery]: Downloading https://files.pythonhosted.org/packages/6e/0f/0c776e293b3e4ae78842c6434f69297f5a0b20580c8289ec4662c35e625c/testery-1.8.6-py3-none-any.whl
+[2024-05-06 16:42:59] INFO root fetch - processPackages [state-machine-2]: Downloading https://files.pythonhosted.org/packages/41/be/ef044078209164b9910a0aa1fbc932538668d3c4548c14a81472133b95f2/state-machine-2-0.2.2.tar.gz
+[2024-05-06 16:42:59] INFO root fetch - processPackages [pyfamsa]: Downloading https://files.pythonhosted.org/packages/75/98/a9a4610a9b5cbcf3616b2eea343f5cd05c3a3f6abecc9eb5a8660c6623cf/pyfamsa-0.3.2.tar.gz
+[2024-05-06 16:42:59] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/2a/61/425616b0bbba358a458327d444f15403f4dd619dfa8d8627abd7a252f913/eodc_faas_openeo-2024.5.0.tar.gz
+[2024-05-06 16:42:59] INFO root fetch - processPackages [haystack-pydoc-tools]: Downloading https://files.pythonhosted.org/packages/53/35/0c228f8504366695e16ceb63828dc3aeac3bfe8bf82c43f9b7d6c38e7a5a/haystack_pydoc_tools-0.2.0.tar.gz
+[2024-05-06 16:42:59] INFO root fetch - processPackages [gitlab-api]: Downloading https://files.pythonhosted.org/packages/f6/a4/2802fc72596bcd0c534d36dab854af2883eccba523242378fa70fef707b8/gitlab_api-0.7.0-py2.py3-none-any.whl
+[2024-05-06 16:42:59] INFO root fetch - processPackages [state-machine-2]: Downloading https://files.pythonhosted.org/packages/59/ea/3d8e3d22f2f873c1a4c7e2fe2264c769e16183b0399df11273397ebbf954/state-machine-2-0.2.4.tar.gz
+[2024-05-06 16:43:00] INFO root fetch - processPackages [testery]: Downloading https://files.pythonhosted.org/packages/f6/d9/1626c1f264944775a41da19a2129e9b33f3eff26c591cf14a2fb928d5881/testery-1.9.0-py3-none-any.whl
+[2024-05-06 16:43:00] INFO root fetch - processPackages [haystack-pydoc-tools]: Downloading https://files.pythonhosted.org/packages/e4/b5/16106fc6d32acfc76b8a976f12b0614b7e4652fbc3d1c42983de94d88384/haystack_pydoc_tools-0.3.0.tar.gz
+[2024-05-06 16:43:00] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/b4/f7/0681588d66b2ee8bfeb5fb3ab2a8fd9a1e82892c0230152296e3a88688b2/eodc_faas_openeo-2024.5.1.tar.gz
+[2024-05-06 16:43:00] INFO root fetch - processPackages [gitlab-api]: executing diffoscope
+[2024-05-06 16:43:00] INFO root fetch - processPackages [gitlab-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_api-0.6.0-py2.py3-none-any.whl.zip tmp/gitlab_api-0.7.0-py2.py3-none-any.whl.zip --markdown 20240506/g/gitlab-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-06 16:43:00] INFO root fetch - processPackages [state-machine-2]: executing diffoscope
+[2024-05-06 16:43:00] INFO root fetch - processPackages [state-machine-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-2-0.2.2.tar.gz tmp/state-machine-2-0.2.4.tar.gz --markdown 20240506/s/state-machine-2/0.2.2-0.2.4/README.md --exclude *.pyd
+[2024-05-06 16:43:00] INFO root fetch - processPackages [testery]: executing diffoscope
+[2024-05-06 16:43:00] INFO root fetch - processPackages [testery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testery-1.8.6-py3-none-any.whl.zip tmp/testery-1.9.0-py3-none-any.whl.zip --markdown 20240506/t/testery/1.8.6-1.9.0/README.md --exclude *.pyd
+[2024-05-06 16:43:00] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-06 16:43:00] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.0.tar.gz tmp/eodc_faas_openeo-2024.5.1.tar.gz --markdown 20240506/e/eodc-faas-openeo/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-06 16:43:00] INFO root fetch - processPackages [pyfamsa]: Downloading https://files.pythonhosted.org/packages/9d/14/0d08dddb4da132d0ca9894a044ec1dd62680c4aa8b0a416c5d545bb1eca1/pyfamsa-0.4.0.tar.gz
+[2024-05-06 16:43:00] INFO root fetch - processPackages [haystack-pydoc-tools]: executing diffoscope
+[2024-05-06 16:43:00] INFO root fetch - processPackages [haystack-pydoc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haystack_pydoc_tools-0.2.0.tar.gz tmp/haystack_pydoc_tools-0.3.0.tar.gz --markdown 20240506/h/haystack-pydoc-tools/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-06 16:43:00] INFO root fetch - processPackages [sinergym]: Downloading https://files.pythonhosted.org/packages/db/23/816894237c0a499198717069c5fd9f344be749ed7c54d3c28910fea9bb07/sinergym-3.3.3.tar.gz
+[2024-05-06 16:43:00] INFO root fetch - processPackages [pyfamsa]: executing diffoscope
+[2024-05-06 16:43:00] INFO root fetch - processPackages [pyfamsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfamsa-0.3.2.tar.gz tmp/pyfamsa-0.4.0.tar.gz --markdown 20240506/p/pyfamsa/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-06 16:43:00] INFO root fetch - processPackages [sinergym]: executing diffoscope
+[2024-05-06 16:43:00] INFO root fetch - processPackages [sinergym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinergym-3.3.1.tar.gz tmp/sinergym-3.3.3.tar.gz --markdown 20240506/s/sinergym/3.3.1-3.3.3/README.md --exclude *.pyd
+[2024-05-06 16:43:00] INFO root fetch - processPackages [gitlab-api]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_api-0.6.0-py2.py3-none-any.whl.zip]
+[2024-05-06 16:43:00] INFO root fetch - processPackages [gitlab-api]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_api-0.7.0-py2.py3-none-any.whl.zip]
+[2024-05-06 16:43:00] INFO root fetch - main [MainThread]: End processing [gitlab-api]: success
+[2024-05-06 16:43:00] INFO root fetch - processPackages [testery]: Remove: archive file [/home/abi/fetcher/tmp/testery-1.8.6-py3-none-any.whl.zip]
+[2024-05-06 16:43:00] INFO root fetch - processPackages [testery]: Remove: archive file [/home/abi/fetcher/tmp/testery-1.9.0-py3-none-any.whl.zip]
+[2024-05-06 16:43:00] INFO root fetch - main [MainThread]: End processing [testery]: success
+[2024-05-06 16:43:01] INFO root fetch - processPackages [state-machine-2]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-2-0.2.2.tar.gz]
+[2024-05-06 16:43:01] INFO root fetch - processPackages [state-machine-2]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-2-0.2.4.tar.gz]
+[2024-05-06 16:43:01] INFO root fetch - main [MainThread]: End processing [state-machine-2]: success
+[2024-05-06 16:43:01] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.0.tar.gz]
+[2024-05-06 16:43:01] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.1.tar.gz]
+[2024-05-06 16:43:01] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-06 16:43:01] INFO root fetch - processPackages [haystack-pydoc-tools]: Remove: archive file [/home/abi/fetcher/tmp/haystack_pydoc_tools-0.2.0.tar.gz]
+[2024-05-06 16:43:01] INFO root fetch - processPackages [haystack-pydoc-tools]: Remove: archive file [/home/abi/fetcher/tmp/haystack_pydoc_tools-0.3.0.tar.gz]
+[2024-05-06 16:43:01] INFO root fetch - main [MainThread]: End processing [haystack-pydoc-tools]: success
+[2024-05-06 16:43:02] INFO root fetch - processPackages [pyfamsa]: Remove: archive file [/home/abi/fetcher/tmp/pyfamsa-0.3.2.tar.gz]
+[2024-05-06 16:43:02] INFO root fetch - processPackages [pyfamsa]: Remove: archive file [/home/abi/fetcher/tmp/pyfamsa-0.4.0.tar.gz]
+[2024-05-06 16:43:02] INFO root fetch - main [MainThread]: End processing [pyfamsa]: success
+[2024-05-06 16:43:03] INFO root fetch - processPackages [sinergym]: Remove: archive file [/home/abi/fetcher/tmp/sinergym-3.3.1.tar.gz]
+[2024-05-06 16:43:03] INFO root fetch - processPackages [sinergym]: Remove: archive file [/home/abi/fetcher/tmp/sinergym-3.3.3.tar.gz]
+[2024-05-06 16:43:03] INFO root fetch - main [MainThread]: End processing [sinergym]: success
+[2024-05-06 16:43:03] INFO root fetch - main [MainThread]: Store serial: [23079425]
