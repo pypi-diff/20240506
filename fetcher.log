@@ -7352,3 +7352,45 @@
 [2024-05-06 09:12:09] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.8.3.tar.gz]
 [2024-05-06 09:12:09] INFO root fetch - main [MainThread]: End processing [litestar]: success
 [2024-05-06 09:12:09] INFO root fetch - main [MainThread]: Store serial: [23072754]
+[2024-05-06 09:14:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23072754]
+[2024-05-06 09:14:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 09:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-models-nightly
+[2024-05-06 09:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usso-python
+[2024-05-06 09:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-build-dgcode
+[2024-05-06 09:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: todo-or-not
+[2024-05-06 09:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bert-local
+[2024-05-06 09:14:18] INFO root fetch - processPackages [simple-build-dgcode]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-06 09:14:18] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-06 09:14:18] INFO root fetch - processPackages [bert-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 09:14:18] INFO root fetch - processPackages [todo-or-not]: New version: [0.9.1] Old Version: [0.8.8b0]
+[2024-05-06 09:14:18] WARNING root fetch - processPackages [usso-python]: Skipping, unable to determine old version
+[2024-05-06 09:14:18] INFO root fetch - main [MainThread]: End processing [usso-python] error
+[2024-05-06 09:14:18] INFO root fetch - processPackages [simple-build-dgcode]: Downloading https://files.pythonhosted.org/packages/75/ae/5048ef34cd78f769333219a18810ac395b33f0a34e44839d70dc303e14ed/simple_build_dgcode-1.1.4.tar.gz
+[2024-05-06 09:14:18] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-06 09:14:18] INFO root fetch - processPackages [bert-local]: Downloading https://files.pythonhosted.org/packages/0d/71/6a78f7d06743048861ec0ea547e26a0be566288c96b974f0de4faf2920fe/bert_local-0.0.8.tar.gz
+[2024-05-06 09:14:18] INFO root fetch - processPackages [todo-or-not]: Downloading https://files.pythonhosted.org/packages/c3/1f/e355ac1c51a8cf3c986b50ab0e68eecf49538467c605c9a80fd534fe4301/todo_or_not-0.8.8b0.tar.gz
+[2024-05-06 09:14:18] INFO root fetch - processPackages [simple-build-dgcode]: Downloading https://files.pythonhosted.org/packages/2c/38/3d1820b7031881d8a30d258c54882b82e8c61678327b689097ef2686da1e/simple_build_dgcode-1.1.5.tar.gz
+[2024-05-06 09:14:18] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-06 09:14:18] INFO root fetch - processPackages [bert-local]: Downloading https://files.pythonhosted.org/packages/e4/77/d21e2a6b154c226799a80546391618b4679adef583cafeea32aa0b48d8e0/bert-local-0.0.9.tar.gz
+[2024-05-06 09:14:18] INFO root fetch - processPackages [simple-build-dgcode]: executing diffoscope
+[2024-05-06 09:14:18] INFO root fetch - processPackages [simple-build-dgcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_build_dgcode-1.1.4.tar.gz tmp/simple_build_dgcode-1.1.5.tar.gz --markdown 20240506/s/simple-build-dgcode/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-06 09:14:18] INFO root fetch - processPackages [bert-local]: executing diffoscope
+[2024-05-06 09:14:18] INFO root fetch - processPackages [bert-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert_local-0.0.8.tar.gz tmp/bert-local-0.0.9.tar.gz --markdown 20240506/b/bert-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 09:14:18] INFO root fetch - processPackages [todo-or-not]: Downloading https://files.pythonhosted.org/packages/41/32/fe3804ed3a91069a390fd5111b64cdd6e276700e78bd7344a53d0a8c1eb1/todo_or_not-0.9.1.tar.gz
+[2024-05-06 09:14:18] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-06 09:14:18] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240506/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-06 09:14:18] INFO root fetch - processPackages [todo-or-not]: executing diffoscope
+[2024-05-06 09:14:18] INFO root fetch - processPackages [todo-or-not]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todo_or_not-0.8.8b0.tar.gz tmp/todo_or_not-0.9.1.tar.gz --markdown 20240506/t/todo-or-not/0.8.8b0-0.9.1/README.md --exclude *.pyd
+[2024-05-06 09:14:19] INFO root fetch - processPackages [bert-local]: Remove: archive file [/home/abi/fetcher/tmp/bert_local-0.0.8.tar.gz]
+[2024-05-06 09:14:19] INFO root fetch - processPackages [bert-local]: Remove: archive file [/home/abi/fetcher/tmp/bert-local-0.0.9.tar.gz]
+[2024-05-06 09:14:19] INFO root fetch - main [MainThread]: End processing [bert-local]: success
+[2024-05-06 09:14:19] INFO root fetch - processPackages [todo-or-not]: Remove: archive file [/home/abi/fetcher/tmp/todo_or_not-0.8.8b0.tar.gz]
+[2024-05-06 09:14:19] INFO root fetch - processPackages [todo-or-not]: Remove: archive file [/home/abi/fetcher/tmp/todo_or_not-0.9.1.tar.gz]
+[2024-05-06 09:14:19] INFO root fetch - main [MainThread]: End processing [todo-or-not]: success
+[2024-05-06 09:14:21] INFO root fetch - processPackages [simple-build-dgcode]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_dgcode-1.1.4.tar.gz]
+[2024-05-06 09:14:21] INFO root fetch - processPackages [simple-build-dgcode]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_dgcode-1.1.5.tar.gz]
+[2024-05-06 09:14:21] INFO root fetch - main [MainThread]: End processing [simple-build-dgcode]: success
+[2024-05-06 09:14:22] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-06 09:14:22] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-06 09:14:22] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-06 09:14:22] INFO root fetch - main [MainThread]: Store serial: [23072769]
