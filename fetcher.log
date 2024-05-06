@@ -20445,3 +20445,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:39:40] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1251.tar.gz]
 [2024-05-06 15:39:40] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-05-06 15:39:40] INFO root fetch - main [MainThread]: Store serial: [23078460]
+[2024-05-06 15:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078460]
+[2024-05-06 15:41:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-06 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KFSconfig
+[2024-05-06 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hamill
+[2024-05-06 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssb-jordbruk-fagfunksjoner
+[2024-05-06 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heartbeat-library
+[2024-05-06 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-command
+[2024-05-06 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyclonedx-python-lib
+[2024-05-06 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poocr
+[2024-05-06 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openweatherapi-sdk
+[2024-05-06 15:41:49] INFO root fetch - processPackages [openweatherapi-sdk]: New version: [0.3] Old Version: [0.2]
+[2024-05-06 15:41:49] INFO root fetch - processPackages [cyclonedx-python-lib]: New version: [7.3.3] Old Version: [7.3.2]
+[2024-05-06 15:41:49] INFO root fetch - processPackages [KFSconfig]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-05-06 15:41:49] INFO root fetch - processPackages [openweatherapi-sdk]: Downloading https://files.pythonhosted.org/packages/c6/01/796483a8f1d305414eb629f49a87280d3857eb3d589a0d7e9f44fbde62a4/openweatherapi_sdk-0.2.tar.gz
+[2024-05-06 15:41:49] INFO root fetch - processPackages [cyclonedx-python-lib]: Downloading https://files.pythonhosted.org/packages/3a/31/e87ec9cce7977e115fd2eca25fc6d2cd454f423073bb799f4a212d096107/cyclonedx_python_lib-7.3.2.tar.gz
+[2024-05-06 15:41:49] WARNING root fetch - processPackages [heartbeat-library]: Skipping, unable to determine old version
+[2024-05-06 15:41:49] INFO root fetch - main [MainThread]: End processing [heartbeat-library] error
+[2024-05-06 15:41:49] INFO root fetch - processPackages [poocr]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-06 15:41:49] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-06 15:41:49] INFO root fetch - processPackages [django-command]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-06 15:41:49] INFO root fetch - processPackages [hamill]: New version: [2.0.5] Old Version: [0.2.8]
+[2024-05-06 15:41:50] INFO root fetch - processPackages [KFSconfig]: Downloading https://files.pythonhosted.org/packages/83/79/6f9d33121eb781a7ccefe2eda8a4cc0bbb17556d6b64d7ee82d88a282601/kfsconfig-2.0.1.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/11/8e/f1627678b31c180bcb87d3ccc9cfcf9dafc7c62fc46954b79376582261a3/ssb_jordbruk_fagfunksjoner-0.1.1.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [poocr]: Downloading https://files.pythonhosted.org/packages/f4/27/c5fcc2d0212bc8f49f311dedae151902489b148bb5ae0f5b24beee8df411/poocr-0.1.6.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [django-command]: Downloading https://files.pythonhosted.org/packages/c5/b5/17fc0d15ee75e3cf27126b4d4a83778e3de33b2a98f263cfd035029f88c4/django-command-2.1.0.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [hamill]: Downloading https://files.pythonhosted.org/packages/56/ff/716faea6ef6d2a2927c752c4b1b75722da9265147349bcf1e103902ffba9/hamill-0.2.8-py3-none-any.whl
+[2024-05-06 15:41:50] INFO root fetch - processPackages [openweatherapi-sdk]: Downloading https://files.pythonhosted.org/packages/2f/7e/3aeaf19f96820550b88444c34e99b814db845da5274e84b60fe8fbadd2e8/openweatherapi_sdk-0.3.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [cyclonedx-python-lib]: Downloading https://files.pythonhosted.org/packages/5d/73/e3ecd53a6368d067b6389844b0ff00d48cf7bd07c91c5c3d51ab97ff0fae/cyclonedx_python_lib-7.3.3.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [KFSconfig]: Downloading https://files.pythonhosted.org/packages/95/0f/2730e617d8ca287cb59925965580ad5420edeb85540458ccd82282323f38/kfsconfig-2.1.0.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [openweatherapi-sdk]: executing diffoscope
+[2024-05-06 15:41:50] INFO root fetch - processPackages [openweatherapi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openweatherapi_sdk-0.2.tar.gz tmp/openweatherapi_sdk-0.3.tar.gz --markdown 20240506/o/openweatherapi-sdk/0.2-0.3/README.md --exclude *.pyd
+[2024-05-06 15:41:50] INFO root fetch - processPackages [KFSconfig]: executing diffoscope
+[2024-05-06 15:41:50] INFO root fetch - processPackages [KFSconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsconfig-2.0.1.tar.gz tmp/kfsconfig-2.1.0.tar.gz --markdown 20240506/K/KFSconfig/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-06 15:41:50] INFO root fetch - processPackages [poocr]: Downloading https://files.pythonhosted.org/packages/03/11/c080a71ce3e3fd512e2cece59346c6b54dfc470d5c44631ca1e81b63f18b/poocr-0.1.7.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/70/f9/1c8478b07f5e7233f52098b6f11d174dce7550bf9977a790349a97e7bac5/ssb_jordbruk_fagfunksjoner-0.2.0.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [cyclonedx-python-lib]: executing diffoscope
+[2024-05-06 15:41:50] INFO root fetch - processPackages [cyclonedx-python-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclonedx_python_lib-7.3.2.tar.gz tmp/cyclonedx_python_lib-7.3.3.tar.gz --markdown 20240506/c/cyclonedx-python-lib/7.3.2-7.3.3/README.md --exclude *.pyd
+[2024-05-06 15:41:50] INFO root fetch - processPackages [django-command]: Downloading https://files.pythonhosted.org/packages/cb/0d/8e2558721520a5393f9ea002e13ae592ec5dfc87f90d7f05fdee18f3ad4a/django_command-2.2.0.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [hamill]: Downloading https://files.pythonhosted.org/packages/82/c6/d9bc1b249700041adf0748ff50d51994bedc1762377578a61ecfa780204e/hamill-2.0.5.tar.gz
+[2024-05-06 15:41:50] INFO root fetch - processPackages [poocr]: executing diffoscope
+[2024-05-06 15:41:50] INFO root fetch - processPackages [poocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poocr-0.1.6.tar.gz tmp/poocr-0.1.7.tar.gz --markdown 20240506/p/poocr/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-06 15:41:50] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: executing diffoscope
+[2024-05-06 15:41:50] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_jordbruk_fagfunksjoner-0.1.1.tar.gz tmp/ssb_jordbruk_fagfunksjoner-0.2.0.tar.gz --markdown 20240506/s/ssb-jordbruk-fagfunksjoner/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-06 15:41:50] INFO root fetch - processPackages [django-command]: executing diffoscope
+[2024-05-06 15:41:50] INFO root fetch - processPackages [django-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-command-2.1.0.tar.gz tmp/django_command-2.2.0.tar.gz --markdown 20240506/d/django-command/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-06 15:41:50] INFO root fetch - processPackages [hamill]: executing diffoscope
+[2024-05-06 15:41:50] INFO root fetch - processPackages [hamill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hamill-0.2.8-py3-none-any.whl.zip tmp/hamill-2.0.5.tar.gz --markdown 20240506/h/hamill/0.2.8-2.0.5/README.md --exclude *.pyd
+[2024-05-06 15:41:51] INFO root fetch - processPackages [openweatherapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openweatherapi_sdk-0.2.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - processPackages [openweatherapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openweatherapi_sdk-0.3.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - main [MainThread]: End processing [openweatherapi-sdk]: success
+[2024-05-06 15:41:51] INFO root fetch - processPackages [KFSconfig]: Remove: archive file [/home/abi/fetcher/tmp/kfsconfig-2.0.1.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - processPackages [KFSconfig]: Remove: archive file [/home/abi/fetcher/tmp/kfsconfig-2.1.0.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - main [MainThread]: End processing [KFSconfig]: success
+[2024-05-06 15:41:51] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_jordbruk_fagfunksjoner-0.1.1.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_jordbruk_fagfunksjoner-0.2.0.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - main [MainThread]: End processing [ssb-jordbruk-fagfunksjoner]: success
+[2024-05-06 15:41:51] INFO root fetch - processPackages [django-command]: Remove: archive file [/home/abi/fetcher/tmp/django-command-2.1.0.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - processPackages [django-command]: Remove: archive file [/home/abi/fetcher/tmp/django_command-2.2.0.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - main [MainThread]: End processing [django-command]: success
+[2024-05-06 15:41:51] INFO root fetch - processPackages [poocr]: Remove: archive file [/home/abi/fetcher/tmp/poocr-0.1.6.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - processPackages [poocr]: Remove: archive file [/home/abi/fetcher/tmp/poocr-0.1.7.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - main [MainThread]: End processing [poocr]: success
+[2024-05-06 15:41:51] INFO root fetch - processPackages [hamill]: Remove: archive file [/home/abi/fetcher/tmp/hamill-0.2.8-py3-none-any.whl.zip]
+[2024-05-06 15:41:51] INFO root fetch - processPackages [hamill]: Remove: archive file [/home/abi/fetcher/tmp/hamill-2.0.5.tar.gz]
+[2024-05-06 15:41:51] INFO root fetch - main [MainThread]: End processing [hamill]: success
+[2024-05-06 15:41:54] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.3.2.tar.gz]
+[2024-05-06 15:41:54] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.3.3.tar.gz]
+[2024-05-06 15:41:54] INFO root fetch - main [MainThread]: End processing [cyclonedx-python-lib]: success
+[2024-05-06 15:41:54] INFO root fetch - main [MainThread]: Store serial: [23078485]
