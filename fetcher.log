@@ -15655,3 +15655,9 @@
 [2024-05-06 12:33:23] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.7.0.tar.gz]
 [2024-05-06 12:33:23] INFO root fetch - main [MainThread]: End processing [usso]: success
 [2024-05-06 12:33:23] INFO root fetch - main [MainThread]: Store serial: [23076074]
+[2024-05-06 12:35:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076074]
+[2024-05-06 12:35:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynalglib
+[2024-05-06 12:35:32] WARNING root fetch - processPackages [dynalglib]: Skipping, unable to determine old version
+[2024-05-06 12:35:32] INFO root fetch - main [MainThread]: End processing [dynalglib] error
+[2024-05-06 12:35:32] INFO root fetch - main [MainThread]: Store serial: [23076078]
