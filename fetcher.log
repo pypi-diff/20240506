@@ -15765,3 +15765,105 @@
 [2024-05-06 12:39:55] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240505.tar.gz]
 [2024-05-06 12:39:55] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-05-06 12:39:55] INFO root fetch - main [MainThread]: Store serial: [23076125]
+[2024-05-06 12:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076125]
+[2024-05-06 12:42:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-06 12:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imerit-ango
+[2024-05-06 12:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YMS
+[2024-05-06 12:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymemgpt-nightly
+[2024-05-06 12:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FJFormer
+[2024-05-06 12:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crate-docs-theme
+[2024-05-06 12:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sag-py-cache-decorator
+[2024-05-06 12:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smb-sync
+[2024-05-06 12:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DFRobotUPS
+[2024-05-06 12:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkov
+[2024-05-06 12:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mmisp-lib
+[2024-05-06 12:42:05] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 12:42:05] INFO root fetch - processPackages [YMS]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-06 12:42:05] INFO root fetch - processPackages [smb-sync]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-06 12:42:05] INFO root fetch - processPackages [imerit-ango]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-06 12:42:05] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-06 12:42:05] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.80]
+[2024-05-06 12:42:05] INFO root fetch - processPackages [mmisp-lib]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-06 12:42:05] INFO root fetch - processPackages [DFRobotUPS]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-06 12:42:05] INFO root fetch - processPackages [sag-py-cache-decorator]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 12:42:05] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [FJFormer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 12:42:05] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/76/b5/1a3982d2f6841af193a3a6cf9118cf43617a4dd6bc6f938973ab4e5c26be/YMS-1.2.8.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/c2/4b/76fb7268eae934f8b6babe542caa987f665f9d2bc919b065061d5e43b9d4/imerit_ango-1.3.8-py3-none-any.whl
+[2024-05-06 12:42:05] INFO root fetch - processPackages [smb-sync]: Downloading https://files.pythonhosted.org/packages/04/55/c481bc944d846ba7501be1b695ff54aecdc4ee343527c872f18158795574/smb_sync-0.0.2.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [sag-py-cache-decorator]: Downloading https://files.pythonhosted.org/packages/4b/64/4927702ccd6ac2461d8a02a34f221015e7491e513375bf5e9a0ab28f121f/sag-py-cache-decorator-0.1.1.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [mmisp-lib]: Downloading https://files.pythonhosted.org/packages/69/a5/23058b14b5e1e5d4632c5435bd2c41f4f81c4eeb521210533675566fec9e/mmisp_lib-0.1.3.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/6b/9e/8ddfe3bb88ff572cb3c97a67bcf2c5f3b2f90846364aa150ed5ea3be5d34/checkov-3.2.80.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/d2/79/58c6850e434ce0ea1746e33ba8ad3a62b3632c44526d7dd4277992586527/DFRobotUPS-0.4.3.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/0b/43/850472cfcc60a0b17d735c2f45192f54fa27699e51327cc54c462f338d8b/fjformer-0.0.8.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/ad/6c/c566cbfb2eb78b60ab906a7089cb27f4363856113a63e1b4a254383269bb/imerit_ango-1.3.9-py3-none-any.whl
+[2024-05-06 12:42:05] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/43/dd/c3463a5599b349d398e1bab06a9c3fe9488cdb6b74971fe0ed66456af6a7/YMS-1.2.9.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [smb-sync]: Downloading https://files.pythonhosted.org/packages/6f/ba/a9390879c9b320d3a9f76a7380f5e33d4c8b69ec77f6bf7f06f40201f85e/smb_sync-0.0.3.tar.gz
+[2024-05-06 12:42:05] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2024-05-06 12:42:05] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit_ango-1.3.8-py3-none-any.whl.zip tmp/imerit_ango-1.3.9-py3-none-any.whl.zip --markdown 20240506/i/imerit-ango/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-06 12:42:06] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 12:42:06] INFO root fetch - processPackages [sag-py-cache-decorator]: Downloading https://files.pythonhosted.org/packages/39/1d/abef1fce29574eca23fc54cf4a4f8367a35ded3aff798e2faeb407eee652/sag_py_cache_decorator-0.1.2.tar.gz
+[2024-05-06 12:42:06] INFO root fetch - processPackages [mmisp-lib]: Downloading https://files.pythonhosted.org/packages/ac/be/c826d2199013eec47a6e50f8e70888a4c65e22ea1ba370e0e02eef17389e/mmisp_lib-0.1.4.tar.gz
+[2024-05-06 12:42:06] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2024-05-06 12:42:06] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-1.2.8.tar.gz tmp/YMS-1.2.9.tar.gz --markdown 20240506/Y/YMS/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-06 12:42:06] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-06 12:42:06] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240506/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-06 12:42:06] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/2d/26/ca7ea13d149a1f2a586c7a05a5d64e0e548140cbbebfd6b82551ed4cc8b7/DFRobotUPS-0.4.4.tar.gz
+[2024-05-06 12:42:06] INFO root fetch - processPackages [smb-sync]: executing diffoscope
+[2024-05-06 12:42:06] INFO root fetch - processPackages [smb-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smb_sync-0.0.2.tar.gz tmp/smb_sync-0.0.3.tar.gz --markdown 20240506/s/smb-sync/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-06 12:42:06] INFO root fetch - processPackages [sag-py-cache-decorator]: executing diffoscope
+[2024-05-06 12:42:06] INFO root fetch - processPackages [sag-py-cache-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-cache-decorator-0.1.1.tar.gz tmp/sag_py_cache_decorator-0.1.2.tar.gz --markdown 20240506/s/sag-py-cache-decorator/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 12:42:06] INFO root fetch - processPackages [mmisp-lib]: executing diffoscope
+[2024-05-06 12:42:06] INFO root fetch - processPackages [mmisp-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmisp_lib-0.1.3.tar.gz tmp/mmisp_lib-0.1.4.tar.gz --markdown 20240506/m/mmisp-lib/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-06 12:42:06] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-06 12:42:06] INFO root fetch - processPackages [DFRobotUPS]: executing diffoscope
+[2024-05-06 12:42:06] INFO root fetch - processPackages [DFRobotUPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DFRobotUPS-0.4.3.tar.gz tmp/DFRobotUPS-0.4.4.tar.gz --markdown 20240506/D/DFRobotUPS/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-06 12:42:06] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 12:42:06] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 12:42:06] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/8f/ec/c16449606954b352deeb85b070a59df2b7f8672cf157269ebbf120b62e62/fjformer-0.0.9.tar.gz
+[2024-05-06 12:42:06] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-06 12:42:06] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.80.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240506/c/checkov/3.2.80-3.2.9/README.md --exclude *.pyd
+[2024-05-06 12:42:06] INFO root fetch - processPackages [FJFormer]: executing diffoscope
+[2024-05-06 12:42:06] INFO root fetch - processPackages [FJFormer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fjformer-0.0.8.tar.gz tmp/fjformer-0.0.9.tar.gz --markdown 20240506/F/FJFormer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 12:42:07] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.8-py3-none-any.whl.zip]
+[2024-05-06 12:42:07] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.9-py3-none-any.whl.zip]
+[2024-05-06 12:42:07] INFO root fetch - processPackages [imerit-ango]: Start processing: pynbody
+[2024-05-06 12:42:07] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2024-05-06 12:42:07] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-1.2.8.tar.gz]
+[2024-05-06 12:42:07] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-1.2.9.tar.gz]
+[2024-05-06 12:42:07] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2024-05-06 12:42:07] INFO root fetch - processPackages [smb-sync]: Remove: archive file [/home/abi/fetcher/tmp/smb_sync-0.0.2.tar.gz]
+[2024-05-06 12:42:07] INFO root fetch - processPackages [smb-sync]: Remove: archive file [/home/abi/fetcher/tmp/smb_sync-0.0.3.tar.gz]
+[2024-05-06 12:42:07] INFO root fetch - main [MainThread]: End processing [smb-sync]: success
+[2024-05-06 12:42:07] INFO root fetch - processPackages [sag-py-cache-decorator]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-cache-decorator-0.1.1.tar.gz]
+[2024-05-06 12:42:07] INFO root fetch - processPackages [sag-py-cache-decorator]: Remove: archive file [/home/abi/fetcher/tmp/sag_py_cache_decorator-0.1.2.tar.gz]
+[2024-05-06 12:42:07] INFO root fetch - main [MainThread]: End processing [sag-py-cache-decorator]: success
+[2024-05-06 12:42:08] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.3.tar.gz]
+[2024-05-06 12:42:08] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.4.tar.gz]
+[2024-05-06 12:42:08] INFO root fetch - main [MainThread]: End processing [DFRobotUPS]: success
+[2024-05-06 12:42:08] INFO root fetch - processPackages [pynbody]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2024-05-06 12:42:08] INFO root fetch - processPackages [pynbody]: Downloading https://files.pythonhosted.org/packages/f2/43/8c7a092b1e598a8cf9bb8bd06f1b3775bcef65b1292e5a286b9285c4c07b/pynbody-2.0.0b8.tar.gz
+[2024-05-06 12:42:08] INFO root fetch - processPackages [mmisp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mmisp_lib-0.1.3.tar.gz]
+[2024-05-06 12:42:08] INFO root fetch - processPackages [mmisp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mmisp_lib-0.1.4.tar.gz]
+[2024-05-06 12:42:08] INFO root fetch - main [MainThread]: End processing [mmisp-lib]: success
+[2024-05-06 12:42:08] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.8.tar.gz]
+[2024-05-06 12:42:08] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.9.tar.gz]
+[2024-05-06 12:42:08] INFO root fetch - main [MainThread]: End processing [FJFormer]: success
+[2024-05-06 12:42:08] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-06 12:42:08] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-06 12:42:08] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-06 12:42:08] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 12:42:08] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 12:42:08] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 12:42:08] INFO root fetch - processPackages [pynbody]: Downloading https://files.pythonhosted.org/packages/87/04/1ccc26ec1484dcc66ca7151dcd393c20120026a0f5e7c4785e74fbdcec97/pynbody-2.0.0b9.tar.gz
+[2024-05-06 12:42:09] INFO root fetch - processPackages [pynbody]: executing diffoscope
+[2024-05-06 12:42:09] INFO root fetch - processPackages [pynbody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynbody-2.0.0b8.tar.gz tmp/pynbody-2.0.0b9.tar.gz --markdown 20240506/p/pynbody/2.0.0b8-2.0.0b9/README.md --exclude *.pyd
+[2024-05-06 12:42:10] INFO root fetch - processPackages [pynbody]: Remove: archive file [/home/abi/fetcher/tmp/pynbody-2.0.0b8.tar.gz]
+[2024-05-06 12:42:10] INFO root fetch - processPackages [pynbody]: Remove: archive file [/home/abi/fetcher/tmp/pynbody-2.0.0b9.tar.gz]
+[2024-05-06 12:42:10] INFO root fetch - main [MainThread]: End processing [pynbody]: success
+[2024-05-06 12:42:18] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.80.tar.gz]
+[2024-05-06 12:42:18] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-06 12:42:18] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-06 12:42:18] INFO root fetch - main [MainThread]: Store serial: [23076163]
