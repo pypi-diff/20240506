@@ -2631,3 +2631,33 @@
 [2024-05-06 04:05:20] INFO root fetch - processPackages [parediffusers]: Remove: archive file [/home/abi/fetcher/tmp/parediffusers-0.3.2.tar.gz]
 [2024-05-06 04:05:20] INFO root fetch - main [MainThread]: End processing [parediffusers]: success
 [2024-05-06 04:05:20] INFO root fetch - main [MainThread]: Store serial: [23070565]
+[2024-05-06 04:07:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070565]
+[2024-05-06 04:07:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 04:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowchart-explorer
+[2024-05-06 04:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: furrow1k
+[2024-05-06 04:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphlit-client
+[2024-05-06 04:07:29] INFO root fetch - processPackages [graphlit-client]: New version: [1.0.20240505001] Old Version: [1.0.20240429002]
+[2024-05-06 04:07:29] INFO root fetch - processPackages [furrow1k]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 04:07:29] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/31/62/078c512bb5d4b444b60757402263b52cf177550cbea035001f8ffcbc9d3c/graphlit_client-1.0.20240429002.tar.gz
+[2024-05-06 04:07:29] INFO root fetch - processPackages [flowchart-explorer]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 04:07:29] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/3b/86/fd9456643837514ccdae50b5c0f5e033d8504868fa7d2705a25245157b30/furrow1k-0.1.1.tar.gz
+[2024-05-06 04:07:29] INFO root fetch - processPackages [flowchart-explorer]: Downloading https://files.pythonhosted.org/packages/12/2a/71d49d5a638326cc1343bd6fc4919c35ff26d4bf283967d8b5bc2d0ab806/flowchart_explorer-0.1.0.tar.gz
+[2024-05-06 04:07:29] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/b7/4b/9873d74b4295b61a45a84c8654ab5cab1410ea12fcced744a1a6b3e75e0e/graphlit_client-1.0.20240505001.tar.gz
+[2024-05-06 04:07:29] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/7e/ea/9e7e2d94c51accc226d585c9a3c5f01694657368f50ffd023a1ba07df263/furrow1k-0.1.2.tar.gz
+[2024-05-06 04:07:29] INFO root fetch - processPackages [graphlit-client]: executing diffoscope
+[2024-05-06 04:07:29] INFO root fetch - processPackages [graphlit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphlit_client-1.0.20240429002.tar.gz tmp/graphlit_client-1.0.20240505001.tar.gz --markdown 20240506/g/graphlit-client/1.0.20240429002-1.0.20240505001/README.md --exclude *.pyd
+[2024-05-06 04:07:29] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-06 04:07:29] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-0.1.1.tar.gz tmp/furrow1k-0.1.2.tar.gz --markdown 20240506/f/furrow1k/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 04:07:30] INFO root fetch - processPackages [flowchart-explorer]: Downloading https://files.pythonhosted.org/packages/59/c1/dce6ba240880dfa5760f255e20268e96cfea75e5155dbd2ab893e986ebb2/flowchart_explorer-0.1.1.tar.gz
+[2024-05-06 04:07:30] INFO root fetch - processPackages [flowchart-explorer]: executing diffoscope
+[2024-05-06 04:07:30] INFO root fetch - processPackages [flowchart-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowchart_explorer-0.1.0.tar.gz tmp/flowchart_explorer-0.1.1.tar.gz --markdown 20240506/f/flowchart-explorer/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 04:07:30] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.1.tar.gz]
+[2024-05-06 04:07:30] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.2.tar.gz]
+[2024-05-06 04:07:30] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-06 04:07:30] INFO root fetch - processPackages [flowchart-explorer]: Remove: archive file [/home/abi/fetcher/tmp/flowchart_explorer-0.1.0.tar.gz]
+[2024-05-06 04:07:30] INFO root fetch - processPackages [flowchart-explorer]: Remove: archive file [/home/abi/fetcher/tmp/flowchart_explorer-0.1.1.tar.gz]
+[2024-05-06 04:07:30] INFO root fetch - main [MainThread]: End processing [flowchart-explorer]: success
+[2024-05-06 04:07:30] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240429002.tar.gz]
+[2024-05-06 04:07:30] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240505001.tar.gz]
+[2024-05-06 04:07:30] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
+[2024-05-06 04:07:30] INFO root fetch - main [MainThread]: Store serial: [23070576]
