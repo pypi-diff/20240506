@@ -17306,3 +17306,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:31:18] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.1.tar.gz]
 [2024-05-06 13:31:18] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-06 13:31:18] INFO root fetch - main [MainThread]: Store serial: [23076895]
+[2024-05-06 13:33:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076895]
+[2024-05-06 13:33:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 13:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dimentyy.tl-parse
+[2024-05-06 13:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crate-docs-theme
+[2024-05-06 13:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-multilingual
+[2024-05-06 13:33:28] INFO root fetch - processPackages [dimentyy.tl-parse]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2024-05-06 13:33:28] INFO root fetch - processPackages [sqlalchemy-multilingual]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 13:33:28] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-06 13:33:28] INFO root fetch - processPackages [dimentyy.tl-parse]: Downloading https://files.pythonhosted.org/packages/05/db/9fad65acd88dc90652af29adc6caf32c45f93b53ead497faba4dbaab3899/dimentyy_tl_parse-0.0.1.dev3.tar.gz
+[2024-05-06 13:33:28] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-06 13:33:28] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/8e/31/a2eccb1781ac437879021cc38e0b6755729b6230cf3eff32f3b5450be1fb/sqlalchemy_multilingual-0.0.8.tar.gz
+[2024-05-06 13:33:28] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/dc/7d/be6c16a550c5939096799423b2de572214c24e8be021356c9f3eeafaa4f3/sqlalchemy_multilingual-0.0.9.tar.gz
+[2024-05-06 13:33:28] INFO root fetch - processPackages [dimentyy.tl-parse]: Downloading https://files.pythonhosted.org/packages/e0/93/be2179d79f0615e3c3a644689811c1186bb43d7a6288a34e83cfec2f5100/dimentyy_tl_parse-0.0.1.dev4.tar.gz
+[2024-05-06 13:33:28] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-06 13:33:28] INFO root fetch - processPackages [sqlalchemy-multilingual]: executing diffoscope
+[2024-05-06 13:33:28] INFO root fetch - processPackages [sqlalchemy-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_multilingual-0.0.8.tar.gz tmp/sqlalchemy_multilingual-0.0.9.tar.gz --markdown 20240506/s/sqlalchemy-multilingual/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 13:33:28] INFO root fetch - processPackages [dimentyy.tl-parse]: executing diffoscope
+[2024-05-06 13:33:28] INFO root fetch - processPackages [dimentyy.tl-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimentyy_tl_parse-0.0.1.dev3.tar.gz tmp/dimentyy_tl_parse-0.0.1.dev4.tar.gz --markdown 20240506/d/dimentyy.tl-parse/0.0.1.dev3-0.0.1.dev4/README.md --exclude *.pyd
+[2024-05-06 13:33:29] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-06 13:33:29] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240506/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-06 13:33:29] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.8.tar.gz]
+[2024-05-06 13:33:29] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.9.tar.gz]
+[2024-05-06 13:33:29] INFO root fetch - main [MainThread]: End processing [sqlalchemy-multilingual]: success
+[2024-05-06 13:33:29] INFO root fetch - processPackages [dimentyy.tl-parse]: Remove: archive file [/home/abi/fetcher/tmp/dimentyy_tl_parse-0.0.1.dev3.tar.gz]
+[2024-05-06 13:33:29] INFO root fetch - processPackages [dimentyy.tl-parse]: Remove: archive file [/home/abi/fetcher/tmp/dimentyy_tl_parse-0.0.1.dev4.tar.gz]
+[2024-05-06 13:33:29] INFO root fetch - main [MainThread]: End processing [dimentyy.tl-parse]: success
+[2024-05-06 13:33:30] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-06 13:33:30] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-06 13:33:30] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-06 13:33:30] INFO root fetch - main [MainThread]: Store serial: [23076904]
