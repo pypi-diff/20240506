@@ -22191,3 +22191,135 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:38:21] INFO root fetch - processPackages [redrover-api]: Remove: archive file [/home/abi/fetcher/tmp/redrover-api-1.9.3.dev0.tar.gz]
 [2024-05-06 16:38:21] INFO root fetch - main [MainThread]: End processing [redrover-api]: success
 [2024-05-06 16:38:21] INFO root fetch - main [MainThread]: Store serial: [23079297]
+[2024-05-06 16:40:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079297]
+[2024-05-06 16:40:36] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-06 16:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rindegastos-revops
+[2024-05-06 16:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spleenseg
+[2024-05-06 16:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dissimilez
+[2024-05-06 16:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seed-farmer
+[2024-05-06 16:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imio.smartweb.locales
+[2024-05-06 16:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-manager
+[2024-05-06 16:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-partner-affiliate
+[2024-05-06 16:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-chatchat
+[2024-05-06 16:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shorts-generator
+[2024-05-06 16:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-delivery-gls-asm
+[2024-05-06 16:40:36] INFO root fetch - processPackages [rindegastos-revops]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 16:40:36] INFO root fetch - processPackages [shorts-generator]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 16:40:36] WARNING root fetch - processPackages [langchain-chatchat]: Skipping, unable to determine old version
+[2024-05-06 16:40:36] INFO root fetch - processPackages [langchain-chatchat]: Start processing: forecastleheadz
+[2024-05-06 16:40:36] INFO root fetch - main [MainThread]: End processing [langchain-chatchat] error
+[2024-05-06 16:40:36] INFO root fetch - processPackages [torch-model-manager]: New version: [0.2.0.dev6] Old Version: [0.2.0.dev5]
+[2024-05-06 16:40:36] INFO root fetch - processPackages [spleenseg]: New version: [1.2.42] Old Version: [1.2.40]
+[2024-05-06 16:40:36] INFO root fetch - processPackages [rindegastos-revops]: Downloading https://files.pythonhosted.org/packages/cf/2b/f5bb3a5e85b56897dbeaedf871d84567473b2e16320bd68d5255bdc055bd/rindegastos_revops-0.0.8.tar.gz
+[2024-05-06 16:40:36] WARNING root fetch - processPackages [dissimilez]: Skipping, unable to determine old version
+[2024-05-06 16:40:36] INFO root fetch - processPackages [dissimilez]: Start processing: easyfermi
+[2024-05-06 16:40:36] INFO root fetch - main [MainThread]: End processing [dissimilez] error
+[2024-05-06 16:40:36] INFO root fetch - processPackages [odoo-addon-partner-affiliate]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.9]
+[2024-05-06 16:40:36] INFO root fetch - processPackages [seed-farmer]: New version: [3.5.0rc3] Old Version: [3.5.0rc2]
+[2024-05-06 16:40:36] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.2.0]
+[2024-05-06 16:40:36] INFO root fetch - processPackages [imio.smartweb.locales]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-06 16:40:36] INFO root fetch - processPackages [shorts-generator]: Downloading https://files.pythonhosted.org/packages/9f/e5/e1b22bb9f304765aa4baac60a9de0c1062aca1e7fc64a0198d1461cd4b0e/shorts_generator-0.1.1.tar.gz
+[2024-05-06 16:40:36] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/3c/49/013980feefa24fc09a13e6796b88eff8a7b3a6e969616bd0bb40e976c886/torch_model_manager-0.2.0.dev5.tar.gz
+[2024-05-06 16:40:36] WARNING root fetch - processPackages [forecastleheadz]: Skipping, unable to determine old version
+[2024-05-06 16:40:36] INFO root fetch - processPackages [forecastleheadz]: Start processing: blint
+[2024-05-06 16:40:36] INFO root fetch - main [MainThread]: End processing [forecastleheadz] error
+[2024-05-06 16:40:36] INFO root fetch - processPackages [blint]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-06 16:40:36] INFO root fetch - processPackages [easyfermi]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-06 16:40:36] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/27/1c/c0230413a9748c7928414dddd3a4cb783ef8518a34efb764ee85afd7aa25/spleenseg-1.2.40.tar.gz
+[2024-05-06 16:40:37] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/ff/72/758e53a5f072bbfd99a67ee2a2a3510cfd900869e35a9af68da91e3c31bf/blint-2.1.3.tar.gz
+[2024-05-06 16:40:37] INFO root fetch - processPackages [seed-farmer]: Downloading https://files.pythonhosted.org/packages/78/86/09ebcad36805bbcf39bcc0f7a57eccf29288a3dd4fc0b805a495f39c358c/seed_farmer-3.5.0rc2-py3-none-any.whl
+[2024-05-06 16:40:37] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/10/43/acd6b193ee9447d4f1326e79f49904ce9934f3eb4e524a2ee3b0b348749c/odoo_addon_delivery_gls_asm-15.0.1.2.0-py3-none-any.whl
+[2024-05-06 16:40:37] INFO root fetch - processPackages [odoo-addon-partner-affiliate]: Downloading https://files.pythonhosted.org/packages/da/af/8a2eca3a0c86a5f1bacfa23e5b63cfabb7aaa62a459694ca378aaa7e705f/odoo_addon_partner_affiliate-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-06 16:40:37] INFO root fetch - processPackages [imio.smartweb.locales]: Downloading https://files.pythonhosted.org/packages/19/90/4f446a445ef80c6d06614622e3fa604e2a8bada9274e05656f709993d42d/imio.smartweb.locales-1.1.8.tar.gz
+[2024-05-06 16:40:37] INFO root fetch - processPackages [rindegastos-revops]: Downloading https://files.pythonhosted.org/packages/11/53/5886fb722876e1530a3ff42b6aa97510dd201e65807fe9ba72132b8b4d37/rindegastos_revops-0.0.9.tar.gz
+[2024-05-06 16:40:37] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/a1/9d/0b3988958063d4cf4c2f3d77bf5b6625c03a1a236a6220b4fc72fbb3013b/torch_model_manager-0.2.0.dev6.tar.gz
+[2024-05-06 16:40:37] INFO root fetch - processPackages [easyfermi]: Downloading https://files.pythonhosted.org/packages/23/14/f966d1ee7e120c4cdfe9e4f3766b1d4ed5397347693779db649ea9422157/easyfermi-2.0.8.tar.gz
+[2024-05-06 16:40:37] INFO root fetch - processPackages [shorts-generator]: Downloading https://files.pythonhosted.org/packages/6c/6e/0c7ffea145ea0be52adc5c7717e89d8fa03a38ffa2fee9c0007e60f6656e/shorts_generator-0.1.2.tar.gz
+[2024-05-06 16:40:37] INFO root fetch - processPackages [rindegastos-revops]: executing diffoscope
+[2024-05-06 16:40:37] INFO root fetch - processPackages [rindegastos-revops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rindegastos_revops-0.0.8.tar.gz tmp/rindegastos_revops-0.0.9.tar.gz --markdown 20240506/r/rindegastos-revops/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 16:40:37] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-06 16:40:37] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.2.0.dev5.tar.gz tmp/torch_model_manager-0.2.0.dev6.tar.gz --markdown 20240506/t/torch-model-manager/0.2.0.dev5-0.2.0.dev6/README.md --exclude *.pyd
+[2024-05-06 16:40:37] INFO root fetch - processPackages [shorts-generator]: executing diffoscope
+[2024-05-06 16:40:37] INFO root fetch - processPackages [shorts-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shorts_generator-0.1.1.tar.gz tmp/shorts_generator-0.1.2.tar.gz --markdown 20240506/s/shorts-generator/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 16:40:37] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/13/28/751a7c37633ec8ee4c9ea9aa39478ea66c1a88a7178415228cf196db629a/blint-2.1.4.tar.gz
+[2024-05-06 16:40:37] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/a1/e0/27bd24d5c132f1e71f675ddc1bf9dee6d2860c64359d973fa2884ed3b10d/odoo_addon_delivery_gls_asm-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-06 16:40:37] INFO root fetch - processPackages [seed-farmer]: Downloading https://files.pythonhosted.org/packages/b3/80/82c1b85c91130e98b6065e746ec3b7282f0c0c512a6348be99aea01859b4/seed_farmer-3.5.0rc3-py3-none-any.whl
+[2024-05-06 16:40:37] INFO root fetch - processPackages [blint]: executing diffoscope
+[2024-05-06 16:40:37] INFO root fetch - processPackages [blint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blint-2.1.3.tar.gz tmp/blint-2.1.4.tar.gz --markdown 20240506/b/blint/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-05-06 16:40:37] INFO root fetch - processPackages [odoo-addon-partner-affiliate]: Downloading https://files.pythonhosted.org/packages/6c/98/c64cb904aed0bed075c2a540029dee4ff93a1b1dc10d719f5f9d14255a7c/odoo_addon_partner_affiliate-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-06 16:40:37] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: executing diffoscope
+[2024-05-06 16:40:37] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_gls_asm-15.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_delivery_gls_asm-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-delivery-gls-asm/15.0.1.2.0-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-06 16:40:37] INFO root fetch - processPackages [imio.smartweb.locales]: Downloading https://files.pythonhosted.org/packages/5f/14/7f460e501e9015f43323bb17b7ae998582198e7616f8d51354612a02e245/imio.smartweb.locales-1.1.9.tar.gz
+[2024-05-06 16:40:37] INFO root fetch - processPackages [seed-farmer]: executing diffoscope
+[2024-05-06 16:40:37] INFO root fetch - processPackages [seed-farmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seed_farmer-3.5.0rc2-py3-none-any.whl.zip tmp/seed_farmer-3.5.0rc3-py3-none-any.whl.zip --markdown 20240506/s/seed-farmer/3.5.0rc2-3.5.0rc3/README.md --exclude *.pyd
+[2024-05-06 16:40:37] INFO root fetch - processPackages [odoo-addon-partner-affiliate]: executing diffoscope
+[2024-05-06 16:40:37] INFO root fetch - processPackages [odoo-addon-partner-affiliate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_affiliate-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_partner_affiliate-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-partner-affiliate/16.0.1.0.0.9-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-06 16:40:37] INFO root fetch - processPackages [imio.smartweb.locales]: executing diffoscope
+[2024-05-06 16:40:37] INFO root fetch - processPackages [imio.smartweb.locales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.locales-1.1.8.tar.gz tmp/imio.smartweb.locales-1.1.9.tar.gz --markdown 20240506/i/imio.smartweb.locales/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-06 16:40:37] INFO root fetch - processPackages [rindegastos-revops]: Remove: archive file [/home/abi/fetcher/tmp/rindegastos_revops-0.0.8.tar.gz]
+[2024-05-06 16:40:37] INFO root fetch - processPackages [rindegastos-revops]: Remove: archive file [/home/abi/fetcher/tmp/rindegastos_revops-0.0.9.tar.gz]
+[2024-05-06 16:40:37] INFO root fetch - processPackages [rindegastos-revops]: Start processing: RNApolis
+[2024-05-06 16:40:37] INFO root fetch - main [MainThread]: End processing [rindegastos-revops]: success
+[2024-05-06 16:40:37] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev5.tar.gz]
+[2024-05-06 16:40:37] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev6.tar.gz]
+[2024-05-06 16:40:37] INFO root fetch - processPackages [torch-model-manager]: Start processing: spaces
+[2024-05-06 16:40:37] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-06 16:40:38] INFO root fetch - processPackages [spaces]: New version: [0.9b3] Old Version: [0.9b2]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [RNApolis]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/97/20/6104cd0bd4c12ccb3af8b026d3fe0110bea1c762e3f1dc3381c6fe248cf7/spaces-0.9b2.tar.gz
+[2024-05-06 16:40:38] INFO root fetch - processPackages [shorts-generator]: Remove: archive file [/home/abi/fetcher/tmp/shorts_generator-0.1.1.tar.gz]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [shorts-generator]: Remove: archive file [/home/abi/fetcher/tmp/shorts_generator-0.1.2.tar.gz]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [shorts-generator]: Start processing: msal_streamlit_t2
+[2024-05-06 16:40:38] INFO root fetch - main [MainThread]: End processing [shorts-generator]: success
+[2024-05-06 16:40:38] INFO root fetch - processPackages [RNApolis]: Downloading https://files.pythonhosted.org/packages/8b/07/59024f378677ab90f67742d2afbff1823fa99db6eb91f456409d7feed884/RNApolis-0.3.8.tar.gz
+[2024-05-06 16:40:38] INFO root fetch - processPackages [msal_streamlit_t2]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/83/79/aa4f627e9e8f99f07d6b32f22ce1aa9f4788cebf4ae57072deae30fbbcb0/spaces-0.9b3.tar.gz
+[2024-05-06 16:40:38] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2024-05-06 16:40:38] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.9b2.tar.gz tmp/spaces-0.9b3.tar.gz --markdown 20240506/s/spaces/0.9b2-0.9b3/README.md --exclude *.pyd
+[2024-05-06 16:40:38] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_gls_asm-15.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_gls_asm-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Start processing: gymnodiniumz
+[2024-05-06 16:40:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-gls-asm]: success
+[2024-05-06 16:40:38] INFO root fetch - processPackages [msal_streamlit_t2]: Downloading https://files.pythonhosted.org/packages/9d/bb/bc0b54ce1770fab805b27163778f9ba4b1ab4b15bcd3e5f8740eeae16acf/msal_streamlit_t2-1.1.4.tar.gz
+[2024-05-06 16:40:38] INFO root fetch - processPackages [odoo-addon-partner-affiliate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_affiliate-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [odoo-addon-partner-affiliate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_affiliate-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-06 16:40:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-affiliate]: success
+[2024-05-06 16:40:38] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-2.1.3.tar.gz]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-2.1.4.tar.gz]
+[2024-05-06 16:40:38] INFO root fetch - main [MainThread]: End processing [blint]: success
+[2024-05-06 16:40:38] INFO root fetch - processPackages [seed-farmer]: Remove: archive file [/home/abi/fetcher/tmp/seed_farmer-3.5.0rc2-py3-none-any.whl.zip]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [seed-farmer]: Remove: archive file [/home/abi/fetcher/tmp/seed_farmer-3.5.0rc3-py3-none-any.whl.zip]
+[2024-05-06 16:40:38] INFO root fetch - main [MainThread]: End processing [seed-farmer]: success
+[2024-05-06 16:40:38] INFO root fetch - processPackages [RNApolis]: Downloading https://files.pythonhosted.org/packages/37/1d/86d06a54825b41e9d273c6832b525d6a5847b3288f6703656a2a1cd622f2/RNApolis-0.3.9.tar.gz
+[2024-05-06 16:40:38] WARNING root fetch - processPackages [gymnodiniumz]: Skipping, unable to determine old version
+[2024-05-06 16:40:38] INFO root fetch - main [MainThread]: End processing [gymnodiniumz] error
+[2024-05-06 16:40:38] INFO root fetch - processPackages [imio.smartweb.locales]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.locales-1.1.8.tar.gz]
+[2024-05-06 16:40:38] INFO root fetch - processPackages [imio.smartweb.locales]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.locales-1.1.9.tar.gz]
+[2024-05-06 16:40:38] INFO root fetch - main [MainThread]: End processing [imio.smartweb.locales]: success
+[2024-05-06 16:40:38] INFO root fetch - processPackages [RNApolis]: executing diffoscope
+[2024-05-06 16:40:38] INFO root fetch - processPackages [RNApolis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RNApolis-0.3.8.tar.gz tmp/RNApolis-0.3.9.tar.gz --markdown 20240506/R/RNApolis/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-06 16:40:38] INFO root fetch - processPackages [msal_streamlit_t2]: Downloading https://files.pythonhosted.org/packages/85/c0/2875101276bdb66bac8619719234336df324251cfcd7ce7505a89aa5f345/msal_streamlit_t2-1.1.5.tar.gz
+[2024-05-06 16:40:39] INFO root fetch - processPackages [easyfermi]: Downloading https://files.pythonhosted.org/packages/b9/c7/0b2bff880bc878da35888a6d2ecd1e67f0dd5628e850c479395ad33730b6/easyfermi-2.0.9.tar.gz
+[2024-05-06 16:40:39] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/36/7f/67e57d19f290202193c4bafe94e7c96e8f7471f35543b8bf75712d389cfa/spleenseg-1.2.42.tar.gz
+[2024-05-06 16:40:39] INFO root fetch - processPackages [spleenseg]: executing diffoscope
+[2024-05-06 16:40:39] INFO root fetch - processPackages [spleenseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spleenseg-1.2.40.tar.gz tmp/spleenseg-1.2.42.tar.gz --markdown 20240506/s/spleenseg/1.2.40-1.2.42/README.md --exclude *.pyd
+[2024-05-06 16:40:39] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b2.tar.gz]
+[2024-05-06 16:40:39] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b3.tar.gz]
+[2024-05-06 16:40:39] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2024-05-06 16:40:39] INFO root fetch - processPackages [msal_streamlit_t2]: executing diffoscope
+[2024-05-06 16:40:39] INFO root fetch - processPackages [msal_streamlit_t2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msal_streamlit_t2-1.1.4.tar.gz tmp/msal_streamlit_t2-1.1.5.tar.gz --markdown 20240506/m/msal_streamlit_t2/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-06 16:40:39] INFO root fetch - processPackages [RNApolis]: Remove: archive file [/home/abi/fetcher/tmp/RNApolis-0.3.8.tar.gz]
+[2024-05-06 16:40:39] INFO root fetch - processPackages [RNApolis]: Remove: archive file [/home/abi/fetcher/tmp/RNApolis-0.3.9.tar.gz]
+[2024-05-06 16:40:39] INFO root fetch - main [MainThread]: End processing [RNApolis]: success
+[2024-05-06 16:40:39] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.40.tar.gz]
+[2024-05-06 16:40:39] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.42.tar.gz]
+[2024-05-06 16:40:39] INFO root fetch - main [MainThread]: End processing [spleenseg]: success
+[2024-05-06 16:40:40] INFO root fetch - processPackages [easyfermi]: executing diffoscope
+[2024-05-06 16:40:40] INFO root fetch - processPackages [easyfermi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyfermi-2.0.8.tar.gz tmp/easyfermi-2.0.9.tar.gz --markdown 20240506/e/easyfermi/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-06 16:40:41] INFO root fetch - processPackages [easyfermi]: Remove: archive file [/home/abi/fetcher/tmp/easyfermi-2.0.8.tar.gz]
+[2024-05-06 16:40:41] INFO root fetch - processPackages [easyfermi]: Remove: archive file [/home/abi/fetcher/tmp/easyfermi-2.0.9.tar.gz]
+[2024-05-06 16:40:41] INFO root fetch - main [MainThread]: End processing [easyfermi]: success
+[2024-05-06 16:40:44] INFO root fetch - processPackages [msal_streamlit_t2]: Remove: archive file [/home/abi/fetcher/tmp/msal_streamlit_t2-1.1.4.tar.gz]
+[2024-05-06 16:40:44] INFO root fetch - processPackages [msal_streamlit_t2]: Remove: archive file [/home/abi/fetcher/tmp/msal_streamlit_t2-1.1.5.tar.gz]
+[2024-05-06 16:40:44] INFO root fetch - main [MainThread]: End processing [msal_streamlit_t2]: success
+[2024-05-06 16:40:44] INFO root fetch - main [MainThread]: Store serial: [23079344]
