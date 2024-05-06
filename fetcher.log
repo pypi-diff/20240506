@@ -14652,3 +14652,27 @@
 [2024-05-06 11:51:38] INFO root fetch - processPackages [atsphinx-mini18n]: Remove: archive file [/home/abi/fetcher/tmp/atsphinx_mini18n-0.3.1.tar.gz]
 [2024-05-06 11:51:38] INFO root fetch - main [MainThread]: End processing [atsphinx-mini18n]: success
 [2024-05-06 11:51:38] INFO root fetch - main [MainThread]: Store serial: [23075687]
+[2024-05-06 11:53:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075687]
+[2024-05-06 11:53:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-build-system
+[2024-05-06 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biaplotter
+[2024-05-06 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiconnection
+[2024-05-06 11:53:48] INFO root fetch - processPackages [multiconnection]: New version: [2.34.21] Old Version: [2.34.20]
+[2024-05-06 11:53:48] INFO root fetch - processPackages [multiconnection]: Downloading https://files.pythonhosted.org/packages/dc/1a/a69dd295ebf1bd4ae3ef14a7aa10ce18e45b9599f1deeec26a4e4062e691/multiconnection-2.34.20.tar.gz
+[2024-05-06 11:53:48] INFO root fetch - processPackages [simple-build-system]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-06 11:53:48] WARNING root fetch - processPackages [biaplotter]: Skipping, unable to determine old version
+[2024-05-06 11:53:48] INFO root fetch - main [MainThread]: End processing [biaplotter] error
+[2024-05-06 11:53:49] INFO root fetch - processPackages [simple-build-system]: Downloading https://files.pythonhosted.org/packages/3f/6c/cc8af9f9f2a755301f9b2ec13275789fd984533e4ab8141481ba692cb7e0/simple_build_system-1.1.1.tar.gz
+[2024-05-06 11:53:49] INFO root fetch - processPackages [multiconnection]: Downloading https://files.pythonhosted.org/packages/a7/47/60d778b5413025ad86cae5fc68d2865a77b9f65d485382250f3531ac058f/multiconnection-2.34.21.tar.gz
+[2024-05-06 11:53:49] INFO root fetch - processPackages [multiconnection]: executing diffoscope
+[2024-05-06 11:53:49] INFO root fetch - processPackages [multiconnection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiconnection-2.34.20.tar.gz tmp/multiconnection-2.34.21.tar.gz --markdown 20240506/m/multiconnection/2.34.20-2.34.21/README.md --exclude *.pyd
+[2024-05-06 11:53:49] INFO root fetch - processPackages [simple-build-system]: Downloading https://files.pythonhosted.org/packages/bb/a0/41a29a5ee0026fe397757233b324cd15c3d72da49d73da5649c368fd8e27/simple_build_system-1.1.2.tar.gz
+[2024-05-06 11:53:49] INFO root fetch - processPackages [simple-build-system]: executing diffoscope
+[2024-05-06 11:53:49] INFO root fetch - processPackages [simple-build-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_build_system-1.1.1.tar.gz tmp/simple_build_system-1.1.2.tar.gz --markdown 20240506/s/simple-build-system/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-06 11:53:49] INFO root fetch - processPackages [multiconnection]: Remove: archive file [/home/abi/fetcher/tmp/multiconnection-2.34.20.tar.gz]
+[2024-05-06 11:53:49] INFO root fetch - processPackages [multiconnection]: Remove: archive file [/home/abi/fetcher/tmp/multiconnection-2.34.21.tar.gz]
+[2024-05-06 11:53:49] INFO root fetch - main [MainThread]: End processing [multiconnection]: success
+[2024-05-06 11:53:50] INFO root fetch - processPackages [simple-build-system]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_system-1.1.1.tar.gz]
+[2024-05-06 11:53:50] INFO root fetch - processPackages [simple-build-system]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_system-1.1.2.tar.gz]
+[2024-05-06 11:53:50] INFO root fetch - main [MainThread]: End processing [simple-build-system]: success
+[2024-05-06 11:53:50] INFO root fetch - main [MainThread]: Store serial: [23075697]
