@@ -2137,3 +2137,24 @@
 [2024-05-06 03:20:54] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_data_requirement_mixin-14.0.3.7.0-py3-none-any.whl.zip]
 [2024-05-06 03:20:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-data-requirement-mixin]: success
 [2024-05-06 03:20:54] INFO root fetch - main [MainThread]: Store serial: [23070368]
+[2024-05-06 03:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070368]
+[2024-05-06 03:23:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 03:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2024-05-06 03:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jmlopez-m
+[2024-05-06 03:23:02] INFO root fetch - processPackages [policyengine-us]: New version: [0.758.2] Old Version: [0.758.1]
+[2024-05-06 03:23:02] INFO root fetch - processPackages [jmlopez-m]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-06 03:23:02] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/ef/e6/743b2c7160ca0e3b2bb4cd3f614482a3246681fdb01fa1bf89af9a78047b/policyengine-us-0.758.1.tar.gz
+[2024-05-06 03:23:03] INFO root fetch - processPackages [jmlopez-m]: Downloading https://files.pythonhosted.org/packages/62/7f/c351389b51393e550a2a32cde5021e5b4a8f00f08e638ec624c4bb3e434b/jmlopez-m-0.8.0.tar.gz
+[2024-05-06 03:23:03] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/02/57/6627ec7cd9ce43787ac8c0c4d0e54f7ed090ac0d84596d32e58de41f7dd5/policyengine-us-0.758.2.tar.gz
+[2024-05-06 03:23:03] INFO root fetch - processPackages [jmlopez-m]: Downloading https://files.pythonhosted.org/packages/0c/f9/617904cb18b49546c4ce877a2f6aaa44f356a504c80358ed319d86e29668/jmlopez-m-0.9.0.tar.gz
+[2024-05-06 03:23:03] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-06 03:23:03] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.758.1.tar.gz tmp/policyengine-us-0.758.2.tar.gz --markdown 20240506/p/policyengine-us/0.758.1-0.758.2/README.md --exclude *.pyd
+[2024-05-06 03:23:03] INFO root fetch - processPackages [jmlopez-m]: executing diffoscope
+[2024-05-06 03:23:03] INFO root fetch - processPackages [jmlopez-m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmlopez-m-0.8.0.tar.gz tmp/jmlopez-m-0.9.0.tar.gz --markdown 20240506/j/jmlopez-m/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-06 03:23:04] INFO root fetch - processPackages [jmlopez-m]: Remove: archive file [/home/abi/fetcher/tmp/jmlopez-m-0.8.0.tar.gz]
+[2024-05-06 03:23:04] INFO root fetch - processPackages [jmlopez-m]: Remove: archive file [/home/abi/fetcher/tmp/jmlopez-m-0.9.0.tar.gz]
+[2024-05-06 03:23:04] INFO root fetch - main [MainThread]: End processing [jmlopez-m]: success
+[2024-05-06 03:23:35] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.758.1.tar.gz]
+[2024-05-06 03:23:35] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.758.2.tar.gz]
+[2024-05-06 03:23:35] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-06 03:23:35] INFO root fetch - main [MainThread]: Store serial: [23070374]
