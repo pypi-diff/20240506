@@ -2448,3 +2448,24 @@
 [2024-05-06 03:52:19] INFO root fetch - processPackages [mojo-networking]: Remove: archive file [/home/abi/fetcher/tmp/mojo_networking-1.3.5.tar.gz]
 [2024-05-06 03:52:19] INFO root fetch - main [MainThread]: End processing [mojo-networking]: success
 [2024-05-06 03:52:19] INFO root fetch - main [MainThread]: Store serial: [23070503]
+[2024-05-06 03:54:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070503]
+[2024-05-06 03:54:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-06 03:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: allowedflare
+[2024-05-06 03:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slack-cleaner2
+[2024-05-06 03:54:28] INFO root fetch - processPackages [slack-cleaner2]: New version: [3.2.4] Old Version: [3.2.3]
+[2024-05-06 03:54:28] INFO root fetch - processPackages [slack-cleaner2]: Downloading https://files.pythonhosted.org/packages/4e/7b/b8ad304995e5a72d54f0c93c7ae99ed7acb6ca02e4253219d03a2f27cfcc/slack_cleaner2-3.2.3.tar.gz
+[2024-05-06 03:54:28] INFO root fetch - processPackages [allowedflare]: New version: [2024.9.0] Old Version: [2024.18.0]
+[2024-05-06 03:54:28] INFO root fetch - processPackages [allowedflare]: Downloading https://files.pythonhosted.org/packages/40/48/24b093b010f4cb3343b7aec329b8f1cdc1a2427e1bc19c48be11fd1ab25f/allowedflare-2024.18.0.tar.gz
+[2024-05-06 03:54:28] INFO root fetch - processPackages [slack-cleaner2]: Downloading https://files.pythonhosted.org/packages/df/8b/965e78158b4c012c2f06f3b7ce6f26f4b5d8f1a6798dade517616b7dd2ae/slack_cleaner2-3.2.4.tar.gz
+[2024-05-06 03:54:28] INFO root fetch - processPackages [slack-cleaner2]: executing diffoscope
+[2024-05-06 03:54:28] INFO root fetch - processPackages [slack-cleaner2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack_cleaner2-3.2.3.tar.gz tmp/slack_cleaner2-3.2.4.tar.gz --markdown 20240506/s/slack-cleaner2/3.2.3-3.2.4/README.md --exclude *.pyd
+[2024-05-06 03:54:28] INFO root fetch - processPackages [allowedflare]: Downloading https://files.pythonhosted.org/packages/18/68/8a5ff6de94669b63f2b603329e41cbd15569a556c15c4f1d2f7aa076508f/allowedflare-2024.9.0.tar.gz
+[2024-05-06 03:54:28] INFO root fetch - processPackages [allowedflare]: executing diffoscope
+[2024-05-06 03:54:28] INFO root fetch - processPackages [allowedflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allowedflare-2024.18.0.tar.gz tmp/allowedflare-2024.9.0.tar.gz --markdown 20240506/a/allowedflare/2024.18.0-2024.9.0/README.md --exclude *.pyd
+[2024-05-06 03:54:29] INFO root fetch - processPackages [slack-cleaner2]: Remove: archive file [/home/abi/fetcher/tmp/slack_cleaner2-3.2.3.tar.gz]
+[2024-05-06 03:54:29] INFO root fetch - processPackages [slack-cleaner2]: Remove: archive file [/home/abi/fetcher/tmp/slack_cleaner2-3.2.4.tar.gz]
+[2024-05-06 03:54:29] INFO root fetch - main [MainThread]: End processing [slack-cleaner2]: success
+[2024-05-06 03:54:29] INFO root fetch - processPackages [allowedflare]: Remove: archive file [/home/abi/fetcher/tmp/allowedflare-2024.18.0.tar.gz]
+[2024-05-06 03:54:29] INFO root fetch - processPackages [allowedflare]: Remove: archive file [/home/abi/fetcher/tmp/allowedflare-2024.9.0.tar.gz]
+[2024-05-06 03:54:29] INFO root fetch - main [MainThread]: End processing [allowedflare]: success
+[2024-05-06 03:54:29] INFO root fetch - main [MainThread]: Store serial: [23070509]
