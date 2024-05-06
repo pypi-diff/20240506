@@ -1491,3 +1491,42 @@
 [2024-05-06 02:21:51] INFO root fetch - processPackages [pn532pi]: Remove: archive file [/home/abi/fetcher/tmp/pn532pi-1.6.tar.gz]
 [2024-05-06 02:21:51] INFO root fetch - main [MainThread]: End processing [pn532pi]: success
 [2024-05-06 02:21:51] INFO root fetch - main [MainThread]: Store serial: [23070083]
+[2024-05-06 02:23:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070083]
+[2024-05-06 02:23:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 02:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tabletalk
+[2024-05-06 02:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-local-exec
+[2024-05-06 02:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mediumroast-py
+[2024-05-06 02:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-circuit
+[2024-05-06 02:24:00] INFO root fetch - processPackages [mediumroast-py]: New version: [0.6.0] Old Version: [0.3.9]
+[2024-05-06 02:24:00] INFO root fetch - processPackages [tabletalk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 02:24:00] INFO root fetch - processPackages [auto-circuit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-06 02:24:00] INFO root fetch - processPackages [mediumroast-py]: Downloading https://files.pythonhosted.org/packages/d3/ab/92c9b1b090eccdcf74d5099f3de6a219b7f28c90de837241304ad798fff5/mediumroast_py-0.3.9.tar.gz
+[2024-05-06 02:24:00] INFO root fetch - processPackages [tabletalk]: Downloading https://files.pythonhosted.org/packages/4d/e5/0f809470fee5c5c396130abd884348f6668d9493f501d4084ca0a33141ff/tabletalk-0.0.8.tar.gz
+[2024-05-06 02:24:00] INFO root fetch - processPackages [auto-circuit]: Downloading https://files.pythonhosted.org/packages/a7/11/632119b0ec72dc80639c2335d4f1953aa47a2dc777b1c74617625d097993/auto_circuit-0.1.1.tar.gz
+[2024-05-06 02:24:00] INFO root fetch - processPackages [tabletalk]: Downloading https://files.pythonhosted.org/packages/05/60/011ae62b0b4c38b51ad546318c1c457959d8314fecafdf684b248ca24c53/tabletalk-0.0.9.tar.gz
+[2024-05-06 02:24:00] INFO root fetch - processPackages [mediumroast-py]: Downloading https://files.pythonhosted.org/packages/6b/96/fc30165e123fcfc03b1351c56f8f56def1647ffba88068c0801070f63e84/mediumroast_py-0.6.0.tar.gz
+[2024-05-06 02:24:00] INFO root fetch - processPackages [mediumroast-py]: executing diffoscope
+[2024-05-06 02:24:00] INFO root fetch - processPackages [mediumroast-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediumroast_py-0.3.9.tar.gz tmp/mediumroast_py-0.6.0.tar.gz --markdown 20240506/m/mediumroast-py/0.3.9-0.6.0/README.md --exclude *.pyd
+[2024-05-06 02:24:00] INFO root fetch - processPackages [tabletalk]: executing diffoscope
+[2024-05-06 02:24:00] INFO root fetch - processPackages [tabletalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabletalk-0.0.8.tar.gz tmp/tabletalk-0.0.9.tar.gz --markdown 20240506/t/tabletalk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 02:24:00] INFO root fetch - processPackages [auto-circuit]: Downloading https://files.pythonhosted.org/packages/bc/32/3d637f98fb237685c5754f9bf7b67c1b0d0d43559af75b791d5fc10ce110/auto_circuit-0.1.2.tar.gz
+[2024-05-06 02:24:00] INFO root fetch - processPackages [auto-circuit]: executing diffoscope
+[2024-05-06 02:24:00] INFO root fetch - processPackages [auto-circuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_circuit-0.1.1.tar.gz tmp/auto_circuit-0.1.2.tar.gz --markdown 20240506/a/auto-circuit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-06 02:24:00] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-06 02:24:01] INFO root fetch - processPackages [mediumroast-py]: Remove: archive file [/home/abi/fetcher/tmp/mediumroast_py-0.3.9.tar.gz]
+[2024-05-06 02:24:01] INFO root fetch - processPackages [mediumroast-py]: Remove: archive file [/home/abi/fetcher/tmp/mediumroast_py-0.6.0.tar.gz]
+[2024-05-06 02:24:01] INFO root fetch - main [MainThread]: End processing [mediumroast-py]: success
+[2024-05-06 02:24:01] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/2e/c5/c7466186e123ce498250d5bcf9a74d6fb62a4d7add3b345da0ce48901c49/cdktf-local-exec-0.5.8.tar.gz
+[2024-05-06 02:24:01] INFO root fetch - processPackages [tabletalk]: Remove: archive file [/home/abi/fetcher/tmp/tabletalk-0.0.8.tar.gz]
+[2024-05-06 02:24:01] INFO root fetch - processPackages [tabletalk]: Remove: archive file [/home/abi/fetcher/tmp/tabletalk-0.0.9.tar.gz]
+[2024-05-06 02:24:01] INFO root fetch - main [MainThread]: End processing [tabletalk]: success
+[2024-05-06 02:24:01] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/74/2d/a8a976a3354f955288422458b23352fe0a12f11928fcc3369a6d8a2254a1/cdktf-local-exec-0.5.9.tar.gz
+[2024-05-06 02:24:01] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2024-05-06 02:24:01] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.5.8.tar.gz tmp/cdktf-local-exec-0.5.9.tar.gz --markdown 20240506/c/cdktf-local-exec/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-06 02:24:01] INFO root fetch - processPackages [auto-circuit]: Remove: archive file [/home/abi/fetcher/tmp/auto_circuit-0.1.1.tar.gz]
+[2024-05-06 02:24:01] INFO root fetch - processPackages [auto-circuit]: Remove: archive file [/home/abi/fetcher/tmp/auto_circuit-0.1.2.tar.gz]
+[2024-05-06 02:24:01] INFO root fetch - main [MainThread]: End processing [auto-circuit]: success
+[2024-05-06 02:24:02] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.8.tar.gz]
+[2024-05-06 02:24:02] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.9.tar.gz]
+[2024-05-06 02:24:02] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2024-05-06 02:24:02] INFO root fetch - main [MainThread]: Store serial: [23070098]
