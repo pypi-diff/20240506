@@ -20963,3 +20963,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:57:50] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2024-05-06 15:57:50] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2024-05-06 15:57:50] INFO root fetch - main [MainThread]: Store serial: [23078730]
+[2024-05-06 15:59:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078730]
+[2024-05-06 16:00:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-06 16:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model-providers
+[2024-05-06 16:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bettermoments
+[2024-05-06 16:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Mosek
+[2024-05-06 16:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optihood
+[2024-05-06 16:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qiskit-iqm
+[2024-05-06 16:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jgtpy
+[2024-05-06 16:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansar-connect
+[2024-05-06 16:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: external-resources-io
+[2024-05-06 16:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywxdump
+[2024-05-06 16:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyserrf
+[2024-05-06 16:00:01] WARNING root fetch - processPackages [pyserrf]: Skipping, unable to determine old version
+[2024-05-06 16:00:01] INFO root fetch - processPackages [pyserrf]: Start processing: odoo-addon-cooperator
+[2024-05-06 16:00:01] INFO root fetch - main [MainThread]: End processing [pyserrf] error
+[2024-05-06 16:00:01] INFO root fetch - processPackages [pywxdump]: New version: [3.0.8] Old Version: [3.0.6]
+[2024-05-06 16:00:01] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.209] Old Version: [0.1.208]
+[2024-05-06 16:00:01] INFO root fetch - processPackages [jgtpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-06 16:00:01] INFO root fetch - processPackages [model-providers]: New version: [0.3.0.20240506] Old Version: [0.3.0]
+[2024-05-06 16:00:01] INFO root fetch - processPackages [optihood]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-06 16:00:01] INFO root fetch - processPackages [external-resources-io]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 16:00:01] INFO root fetch - processPackages [bettermoments]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-05-06 16:00:01] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2024-05-06 16:00:01] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/cb/78/6d75d5e0ed020d3f8e69339ff32d4be7f31fcca98e6208cff1ce6c179e86/pywxdump-3.0.6.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/6b/ec/e4a9f5214a4835f4f6f3f0d3960cd1e8c46c401b9269ec3223e5f945010f/ansar_connect-0.1.208.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/60/b5/888f160495ee80ba1657e52a606a803f54fbfa062fe5a4d1d58fd9dc9141/jgtpy-0.4.8.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [odoo-addon-cooperator]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.2.2]
+[2024-05-06 16:00:01] INFO root fetch - processPackages [Mosek]: New version: [9.3.9] Old Version: [9.3.8]
+[2024-05-06 16:00:01] INFO root fetch - processPackages [model-providers]: Downloading https://files.pythonhosted.org/packages/ef/84/722e0da8706c809406b13466ff96a62e2a3e58ff77480e42c92c9c3e5339/model_providers-0.3.0.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [external-resources-io]: Downloading https://files.pythonhosted.org/packages/df/b7/d0c57e9407f69010befe6a58ee0bbb455cfd174204b8f1fc82105cfc817b/external_resources_io-0.1.8.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [bettermoments]: Downloading https://files.pythonhosted.org/packages/50/23/f018bce8560ecdc42847a5db823a79ec4632540eacfa8d203639ffc14cc2/bettermoments-1.8.5.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/c1/94/79cdcc286ed1c9578cc3d3b4b47d9da3326a5fdfa94ebc3ad80acf17eafa/jgtpy-0.4.9.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [optihood]: Downloading https://files.pythonhosted.org/packages/e3/31/1658b699563016b7b79ee394951740881d14be6776f8321353f0c489ae3e/optihood-0.0.0.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [odoo-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/1a/7f/988f664e257349ea7ee4bedb8e223db1c1eedc3ec82103df519eee278d13/odoo_addon_cooperator-16.0.1.0.2.2-py3-none-any.whl
+[2024-05-06 16:00:01] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/4c/32/630b9e420bad8d8d1d1ac6ec6b3e5097f8b1b4783e16b3991153044fad86/Mosek-9.3.8-cp39-cp39-win_amd64.whl
+[2024-05-06 16:00:01] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/0c/2c/b244b3ba6c2cd4dc567d66ab4b6a9bca181dd34007f111e480eb1fb2f28b/pywxdump-3.0.8.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/b2/3a/9e752fd5661b2312a2c9081909405ac8178b53ba1c76b098e63b682bf0ce/ansar_connect-0.1.209.tar.gz
+[2024-05-06 16:00:01] INFO root fetch - processPackages [jgtpy]: executing diffoscope
+[2024-05-06 16:00:01] INFO root fetch - processPackages [jgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtpy-0.4.8.tar.gz tmp/jgtpy-0.4.9.tar.gz --markdown 20240506/j/jgtpy/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-06 16:00:02] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-06 16:00:02] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.208.tar.gz tmp/ansar_connect-0.1.209.tar.gz --markdown 20240506/a/ansar-connect/0.1.208-0.1.209/README.md --exclude *.pyd
+[2024-05-06 16:00:02] INFO root fetch - processPackages [bettermoments]: Downloading https://files.pythonhosted.org/packages/fe/25/d5669e2239ca3d6745cfec2e6413d7efd7ab3259a7d901ba8e3395e24740/bettermoments-1.8.6.tar.gz
+[2024-05-06 16:00:02] INFO root fetch - processPackages [pywxdump]: executing diffoscope
+[2024-05-06 16:00:02] INFO root fetch - processPackages [pywxdump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdump-3.0.6.tar.gz tmp/pywxdump-3.0.8.tar.gz --markdown 20240506/p/pywxdump/3.0.6-3.0.8/README.md --exclude *.pyd
+[2024-05-06 16:00:02] INFO root fetch - processPackages [optihood]: Downloading https://files.pythonhosted.org/packages/28/76/3376e2dedfdf3ac71b7f02b430de757685642dbd234f796f4e721ad37028/optihood-0.0.1.tar.gz
+[2024-05-06 16:00:02] INFO root fetch - processPackages [odoo-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/e3/d8/0d64f7fd6dc2136fee4165e45a047c9407277db3d182d2520d3e1317ef6d/odoo_addon_cooperator-16.0.1.1.0-py3-none-any.whl
+[2024-05-06 16:00:02] INFO root fetch - processPackages [optihood]: executing diffoscope
+[2024-05-06 16:00:02] INFO root fetch - processPackages [optihood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optihood-0.0.0.tar.gz tmp/optihood-0.0.1.tar.gz --markdown 20240506/o/optihood/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-06 16:00:02] INFO root fetch - processPackages [external-resources-io]: Downloading https://files.pythonhosted.org/packages/14/47/e9d32327416a4cacc1bcdb8b6934a4d6c1344b02d3d80010046cd86e6415/external_resources_io-0.1.9.tar.gz
+[2024-05-06 16:00:02] INFO root fetch - processPackages [bettermoments]: executing diffoscope
+[2024-05-06 16:00:02] INFO root fetch - processPackages [bettermoments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bettermoments-1.8.5.tar.gz tmp/bettermoments-1.8.6.tar.gz --markdown 20240506/b/bettermoments/1.8.5-1.8.6/README.md --exclude *.pyd
+[2024-05-06 16:00:02] INFO root fetch - processPackages [odoo-addon-cooperator]: executing diffoscope
+[2024-05-06 16:00:02] INFO root fetch - processPackages [odoo-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_cooperator-16.0.1.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_cooperator-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240506/o/odoo-addon-cooperator/16.0.1.0.2.2-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-06 16:00:02] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2024-05-06 16:00:02] INFO root fetch - processPackages [external-resources-io]: executing diffoscope
+[2024-05-06 16:00:02] INFO root fetch - processPackages [external-resources-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/external_resources_io-0.1.8.tar.gz tmp/external_resources_io-0.1.9.tar.gz --markdown 20240506/e/external-resources-io/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 16:00:02] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/f5/78/ea902908d2878b83f8e37f551e0f59478b1840a9f5f031e123c393c88b0e/Mosek-9.3.9-cp39-cp39-win_amd64.whl
+[2024-05-06 16:00:02] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2024-05-06 16:00:02] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20240506/q/qiskit-iqm/8.3-9.0/README.md --exclude *.pyd
+[2024-05-06 16:00:02] INFO root fetch - processPackages [model-providers]: Downloading https://files.pythonhosted.org/packages/7f/b4/880811dc0da8477f08874e22c7f4d6c3b1a7a1b16d27e75d40e68010cdbf/model_providers-0.3.0.20240506.tar.gz
+[2024-05-06 16:00:02] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.8.tar.gz]
+[2024-05-06 16:00:02] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
+[2024-05-06 16:00:02] INFO root fetch - processPackages [jgtpy]: Start processing: nagatoai_core
+[2024-05-06 16:00:02] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
+[2024-05-06 16:00:02] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.208.tar.gz]
+[2024-05-06 16:00:02] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.209.tar.gz]
+[2024-05-06 16:00:02] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-06 16:00:02] INFO root fetch - processPackages [Mosek]: executing diffoscope
+[2024-05-06 16:00:02] INFO root fetch - processPackages [Mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip --markdown 20240506/M/Mosek/9.3.8-9.3.9/README.md --exclude *.pyd
+[2024-05-06 16:00:02] INFO root fetch - processPackages [nagatoai_core]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-06 16:00:03] INFO root fetch - processPackages [bettermoments]: Remove: archive file [/home/abi/fetcher/tmp/bettermoments-1.8.5.tar.gz]
+[2024-05-06 16:00:03] INFO root fetch - processPackages [bettermoments]: Remove: archive file [/home/abi/fetcher/tmp/bettermoments-1.8.6.tar.gz]
+[2024-05-06 16:00:03] INFO root fetch - main [MainThread]: End processing [bettermoments]: success
+[2024-05-06 16:00:03] INFO root fetch - processPackages [nagatoai_core]: Downloading https://files.pythonhosted.org/packages/02/db/e2cd405eccbab792d80339b814e919fcf472c6bf3e6657cf609c7400ceec/nagatoai_core-0.7.0.tar.gz
+[2024-05-06 16:00:03] INFO root fetch - processPackages [model-providers]: executing diffoscope
+[2024-05-06 16:00:03] INFO root fetch - processPackages [model-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_providers-0.3.0.tar.gz tmp/model_providers-0.3.0.20240506.tar.gz --markdown 20240506/m/model-providers/0.3.0-0.3.0.20240506/README.md --exclude *.pyd
+[2024-05-06 16:00:03] INFO root fetch - processPackages [optihood]: Remove: archive file [/home/abi/fetcher/tmp/optihood-0.0.0.tar.gz]
+[2024-05-06 16:00:03] INFO root fetch - processPackages [optihood]: Remove: archive file [/home/abi/fetcher/tmp/optihood-0.0.1.tar.gz]
+[2024-05-06 16:00:03] INFO root fetch - main [MainThread]: End processing [optihood]: success
+[2024-05-06 16:00:03] INFO root fetch - processPackages [external-resources-io]: Remove: archive file [/home/abi/fetcher/tmp/external_resources_io-0.1.8.tar.gz]
+[2024-05-06 16:00:03] INFO root fetch - processPackages [external-resources-io]: Remove: archive file [/home/abi/fetcher/tmp/external_resources_io-0.1.9.tar.gz]
+[2024-05-06 16:00:03] INFO root fetch - main [MainThread]: End processing [external-resources-io]: success
+[2024-05-06 16:00:03] INFO root fetch - processPackages [odoo-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cooperator-16.0.1.0.2.2-py3-none-any.whl.zip]
+[2024-05-06 16:00:03] INFO root fetch - processPackages [odoo-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cooperator-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-06 16:00:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-cooperator]: success
+[2024-05-06 16:00:03] INFO root fetch - processPackages [nagatoai_core]: Downloading https://files.pythonhosted.org/packages/64/f2/eca6ce9dfcf2846072e1dd078d3f779979be11631f9fbfed4a8de904ec68/nagatoai_core-0.8.0.tar.gz
+[2024-05-06 16:00:03] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2024-05-06 16:00:03] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2024-05-06 16:00:03] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2024-05-06 16:00:03] INFO root fetch - processPackages [nagatoai_core]: executing diffoscope
+[2024-05-06 16:00:03] INFO root fetch - processPackages [nagatoai_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nagatoai_core-0.7.0.tar.gz tmp/nagatoai_core-0.8.0.tar.gz --markdown 20240506/n/nagatoai_core/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-06 16:00:04] INFO root fetch - processPackages [nagatoai_core]: Remove: archive file [/home/abi/fetcher/tmp/nagatoai_core-0.7.0.tar.gz]
+[2024-05-06 16:00:04] INFO root fetch - processPackages [nagatoai_core]: Remove: archive file [/home/abi/fetcher/tmp/nagatoai_core-0.8.0.tar.gz]
+[2024-05-06 16:00:04] INFO root fetch - main [MainThread]: End processing [nagatoai_core]: success
+[2024-05-06 16:00:05] INFO root fetch - processPackages [model-providers]: Remove: archive file [/home/abi/fetcher/tmp/model_providers-0.3.0.tar.gz]
+[2024-05-06 16:00:05] INFO root fetch - processPackages [model-providers]: Remove: archive file [/home/abi/fetcher/tmp/model_providers-0.3.0.20240506.tar.gz]
+[2024-05-06 16:00:05] INFO root fetch - main [MainThread]: End processing [model-providers]: success
+[2024-05-06 16:00:17] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.6.tar.gz]
+[2024-05-06 16:00:17] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.8.tar.gz]
+[2024-05-06 16:00:17] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
+[2024-05-06 16:00:46] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-06 16:00:46] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-06 16:00:46] INFO root fetch - main [MainThread]: End processing [Mosek]: success
+[2024-05-06 16:00:46] INFO root fetch - main [MainThread]: Store serial: [23078833]
