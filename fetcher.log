@@ -13746,3 +13746,117 @@
 [2024-05-06 11:20:56] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-1.4.2.tar.gz]
 [2024-05-06 11:20:56] INFO root fetch - main [MainThread]: End processing [sqlrepo]: success
 [2024-05-06 11:20:56] INFO root fetch - main [MainThread]: Store serial: [23075181]
+[2024-05-06 11:23:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075181]
+[2024-05-06 11:23:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-06 11:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: korean-news-crawler
+[2024-05-06 11:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-base
+[2024-05-06 11:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-cli
+[2024-05-06 11:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-dso
+[2024-05-06 11:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-telegram-broadcast
+[2024-05-06 11:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-libs
+[2024-05-06 11:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-whd
+[2024-05-06 11:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-oci
+[2024-05-06 11:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: InternEvo
+[2024-05-06 11:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asyncapi-python-parser-jonaslagoni
+[2024-05-06 11:23:05] INFO root fetch - processPackages [InternEvo]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-06 11:23:05] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/d3/fb/4e60e01c73fd3f3294a65864bceb3e06afd148fd389273f80a99809b8818/InternEvo-0.4.4.tar.gz
+[2024-05-06 11:23:05] WARNING root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Skipping, unable to determine old version
+[2024-05-06 11:23:05] INFO root fetch - processPackages [asyncapi-python-parser-jonaslagoni]: Start processing: demo-py-lib
+[2024-05-06 11:23:05] INFO root fetch - main [MainThread]: End processing [asyncapi-python-parser-jonaslagoni] error
+[2024-05-06 11:23:05] WARNING root fetch - processPackages [python-telegram-broadcast]: Skipping, unable to determine old version
+[2024-05-06 11:23:05] INFO root fetch - processPackages [python-telegram-broadcast]: Start processing: rotary-emb
+[2024-05-06 11:23:05] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast] error
+[2024-05-06 11:23:05] INFO root fetch - processPackages [korean-news-crawler]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-06 11:23:05] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2392.0] Old Version: [1.2391.0]
+[2024-05-06 11:23:05] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2392.0] Old Version: [1.2391.0]
+[2024-05-06 11:23:05] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2392.0] Old Version: [1.2391.0]
+[2024-05-06 11:23:05] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2392.0] Old Version: [1.2391.0]
+[2024-05-06 11:23:05] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2392.0] Old Version: [1.2391.0]
+[2024-05-06 11:23:05] INFO root fetch - processPackages [rotary-emb]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-06 11:23:05] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-05-06 11:23:05] WARNING root fetch - processPackages [demo-py-lib]: Skipping, unable to determine old version
+[2024-05-06 11:23:05] INFO root fetch - processPackages [demo-py-lib]: Start processing: spetrans
+[2024-05-06 11:23:05] INFO root fetch - main [MainThread]: End processing [demo-py-lib] error
+[2024-05-06 11:23:05] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/d6/38/199e27467a2d35554351964a081a02b67a2827ef5fc32209016cafbab4f9/rotary_emb-0.4.4.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [korean-news-crawler]: Downloading https://files.pythonhosted.org/packages/18/a8/00563059b1586cf7ffe56d58da8cc02cc6af6b94f0c5efafe793d42036fa/korean_news_crawler-1.0.2.tar.gz
+[2024-05-06 11:23:06] WARNING root fetch - processPackages [spetrans]: Skipping, unable to determine old version
+[2024-05-06 11:23:06] INFO root fetch - processPackages [spetrans]: Start processing: kube-copilot
+[2024-05-06 11:23:06] INFO root fetch - main [MainThread]: End processing [spetrans] error
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/dc/a8/5079eb5cd1270354432aa3b00abfc5ef562ed7decac0b3eb2ca89c4ae6ce/gardener_cicd_dso-1.2391.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/28/71/f8326e7afd9fdbe44b68a395fa885e480e61ede005762f14f4a18aec67a7/gardener_cicd_whd-1.2391.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/6f/57/0c71e144055e86a57ccfc9dd795c54eb40dbde778b77c12ffeb86dc69677/gardener_cicd_cli-1.2391.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/d8/3a/d912ab538e21d6c808845919418276c37e51f3601017d525225f5270a056/gardener_cicd_libs-1.2391.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/7c/db/17eb948a04d3a2bc1dadaf15b6b502d3781b1e0a4ef768f232798d67ebaf/gardener_cicd_base-1.2391.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/a3/68/7d36f2607aec5023e183552bbb6d592829451f0529ae50bc0ae0c1f13865/InternEvo-0.4.5.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 11:23:06] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/ed/ed/5379fee0776f116bac2d010694a8e92fea50be9d59a92fabbe52b25468f3/rotary_emb-0.4.5.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-06 11:23:06] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.4.4.tar.gz tmp/InternEvo-0.4.5.tar.gz --markdown 20240506/I/InternEvo/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-06 11:23:06] INFO root fetch - processPackages [korean-news-crawler]: Downloading https://files.pythonhosted.org/packages/48/b5/2bd712b0b1be0f81046e0839ac920c7d0aa3b55eb5b8c60b6bf10a07a8fc/korean_news_crawler-1.0.3.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [rotary-emb]: executing diffoscope
+[2024-05-06 11:23:06] INFO root fetch - processPackages [rotary-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotary_emb-0.4.4.tar.gz tmp/rotary_emb-0.4.5.tar.gz --markdown 20240506/r/rotary-emb/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-06 11:23:06] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/92/ed/ae22c3eb11fd91f9bc01dbdcba0f4a7c22cef980bf8f5fef46caec814480/kube_copilot-0.1.8.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/fb/7b/448050741085b923fa014d60459c47ddd82e19aa4e8221615a53c732d881/gardener_cicd_dso-1.2392.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/04/12/703b1be7867a82bf1d3acce7f0727987ccf749cdc9e02238f77ba85366c9/gardener_cicd_whd-1.2392.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/aa/7b/c9cd189e0646329e0cd4afa8b24671e882ebf15614794eccf15a8757ac8b/gardener_cicd_cli-1.2392.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/19/7b/7366fa515df08f3222ae4dc6d0bf78b8c505a2fc9cd83f8732fe20c348c7/gardener_cicd_base-1.2392.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ef/74/88c255ea013dab0ae47c75be00d0e98d806dbef03b1d8f827584a26b6d6c/gardener_cicd_libs-1.2392.0.tar.gz
+[2024-05-06 11:23:06] INFO root fetch - processPackages [korean-news-crawler]: executing diffoscope
+[2024-05-06 11:23:06] INFO root fetch - processPackages [korean-news-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/korean_news_crawler-1.0.2.tar.gz tmp/korean_news_crawler-1.0.3.tar.gz --markdown 20240506/k/korean-news-crawler/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2391.0.tar.gz tmp/gardener_cicd_whd-1.2392.0.tar.gz --markdown 20240506/g/gardener-cicd-whd/1.2391.0-1.2392.0/README.md --exclude *.pyd
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240506/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2391.0.tar.gz tmp/gardener_cicd_libs-1.2392.0.tar.gz --markdown 20240506/g/gardener-cicd-libs/1.2391.0-1.2392.0/README.md --exclude *.pyd
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2391.0.tar.gz tmp/gardener_cicd_dso-1.2392.0.tar.gz --markdown 20240506/g/gardener-cicd-dso/1.2391.0-1.2392.0/README.md --exclude *.pyd
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2391.0.tar.gz tmp/gardener_cicd_cli-1.2392.0.tar.gz --markdown 20240506/g/gardener-cicd-cli/1.2391.0-1.2392.0/README.md --exclude *.pyd
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-06 11:23:06] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2391.0.tar.gz tmp/gardener_cicd_base-1.2392.0.tar.gz --markdown 20240506/g/gardener-cicd-base/1.2391.0-1.2392.0/README.md --exclude *.pyd
+[2024-05-06 11:23:06] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/fd/35/3e18869b47a41c295ac800019e28347fde14879ede6506f97393faade562/kube_copilot-0.1.9.tar.gz
+[2024-05-06 11:23:07] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2024-05-06 11:23:07] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20240506/k/kube-copilot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 11:23:07] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.4.tar.gz]
+[2024-05-06 11:23:07] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.5.tar.gz]
+[2024-05-06 11:23:07] INFO root fetch - processPackages [rotary-emb]: Start processing: korean-news-crawler
+[2024-05-06 11:23:07] INFO root fetch - main [MainThread]: End processing [rotary-emb]: success
+[2024-05-06 11:23:07] INFO root fetch - processPackages [korean-news-crawler]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-06 11:23:07] INFO root fetch - processPackages [korean-news-crawler]: executing diffoscope
+[2024-05-06 11:23:07] INFO root fetch - processPackages [korean-news-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/korean_news_crawler-1.0.2.tar.gz tmp/korean_news_crawler-1.0.3.tar.gz --markdown 20240506/k/korean-news-crawler/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-06 11:23:07] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2391.0.tar.gz]
+[2024-05-06 11:23:07] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2392.0.tar.gz]
+[2024-05-06 11:23:07] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-05-06 11:23:07] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-05-06 11:23:07] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-05-06 11:23:07] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-05-06 11:23:07] INFO root fetch - processPackages [korean-news-crawler]: Remove: archive file [/home/abi/fetcher/tmp/korean_news_crawler-1.0.2.tar.gz]
+[2024-05-06 11:23:07] INFO root fetch - processPackages [korean-news-crawler]: Remove: archive file [/home/abi/fetcher/tmp/korean_news_crawler-1.0.3.tar.gz]
+[2024-05-06 11:23:07] INFO root fetch - main [MainThread]: End processing [korean-news-crawler]: success
+[2024-05-06 11:23:08] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2391.0.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2392.0.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-06 11:23:08] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.8.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.9.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2024-05-06 11:23:08] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2391.0.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2392.0.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-06 11:23:08] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.4.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.5.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-06 11:23:08] ERROR root fetch - processPackages [korean-news-crawler]: Diffoscope failed: time="2024-05-06T11:23:07+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/korean_news_crawler-1.0.2.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/korean_news_crawler-1.0.3.tar.gz: No such file or directory
+
+[2024-05-06 11:23:08] INFO root fetch - main [MainThread]: End processing [korean-news-crawler] error
+[2024-05-06 11:23:08] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2391.0.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2392.0.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-05-06 11:23:08] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2391.0.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2392.0.tar.gz]
+[2024-05-06 11:23:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-06 11:23:08] INFO root fetch - main [MainThread]: Store serial: [23075236]
