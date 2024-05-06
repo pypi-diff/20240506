@@ -24162,3 +24162,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:56:07] INFO root fetch - processPackages [esbmtk]: Remove: archive file [/home/abi/fetcher/tmp/esbmtk-0.9.0.1.tar.gz]
 [2024-05-06 17:56:07] INFO root fetch - main [MainThread]: End processing [esbmtk]: success
 [2024-05-06 17:56:07] INFO root fetch - main [MainThread]: Store serial: [23080200]
+[2024-05-06 17:58:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23080200]
+[2024-05-06 17:58:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 17:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crispr-bean
+[2024-05-06 17:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eliasliu
+[2024-05-06 17:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aposteriori
+[2024-05-06 17:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: com.castsoftware.uc.oneclick
+[2024-05-06 17:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vnai
+[2024-05-06 17:58:16] INFO root fetch - processPackages [eliasliu]: New version: [0.1.54] Old Version: [0.1.53]
+[2024-05-06 17:58:16] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/d9/15/42801fd85c961f0a299caa56e8d981eb45bffe4a5f5108739717d1dfa30f/eliasliu-0.1.53.tar.gz
+[2024-05-06 17:58:16] INFO root fetch - processPackages [crispr-bean]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-06 17:58:16] WARNING root fetch - processPackages [vnai]: Skipping, unable to determine old version
+[2024-05-06 17:58:16] INFO root fetch - main [MainThread]: End processing [vnai] error
+[2024-05-06 17:58:16] INFO root fetch - processPackages [aposteriori]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-06 17:58:16] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: New version: [1.0.4b1] Old Version: [1.0.3]
+[2024-05-06 17:58:16] INFO root fetch - processPackages [crispr-bean]: Downloading https://files.pythonhosted.org/packages/a4/ab/d5f6c881006a1a71db6b9a8cadb761c1c1b9f0ea724c755a1590877d051e/crispr-bean-1.2.1.tar.gz
+[2024-05-06 17:58:16] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/6b/00/d5a5fbd63b1ef944b30b55334c890502864921aef0ca93c6faee9aa5987e/com.castsoftware.uc.oneclick-1.0.3.tar.gz
+[2024-05-06 17:58:16] INFO root fetch - processPackages [aposteriori]: Downloading https://files.pythonhosted.org/packages/6c/66/0aa2dfc9576b567dcc236e27938d3a90fc94f2885d63e871ed6a1ac1ff35/aposteriori-2.3.0.tar.gz
+[2024-05-06 17:58:16] WARNING root fetch - processPackages [crispr-bean]: Skipping package: exceeds size limit 12143997>=10485760
+[2024-05-06 17:58:16] INFO root fetch - main [MainThread]: End processing [crispr-bean] error
+[2024-05-06 17:58:16] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/87/c0/51ce7fd19e054f12825d041d7cc0b55913f42de4d654f0ca1b6210291d67/eliasliu-0.1.54.tar.gz
+[2024-05-06 17:58:17] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-06 17:58:17] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.53.tar.gz tmp/eliasliu-0.1.54.tar.gz --markdown 20240506/e/eliasliu/0.1.53-0.1.54/README.md --exclude *.pyd
+[2024-05-06 17:58:17] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/54/37/6e23e8a47351df1dcd25fe8a7a1d3bac9dd18939a9ad0937c93a30d9f61e/com_castsoftware_uc_oneclick-1.0.4b1.tar.gz
+[2024-05-06 17:58:17] INFO root fetch - processPackages [aposteriori]: Downloading https://files.pythonhosted.org/packages/c3/a4/2d7b3df5acd2de538b74cf86852d2bc03761eac7ff6461be61f76bb61dd6/aposteriori-2.4.0.tar.gz
+[2024-05-06 17:58:17] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: executing diffoscope
+[2024-05-06 17:58:17] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.oneclick-1.0.3.tar.gz tmp/com_castsoftware_uc_oneclick-1.0.4b1.tar.gz --markdown 20240506/c/com.castsoftware.uc.oneclick/1.0.3-1.0.4b1/README.md --exclude *.pyd
+[2024-05-06 17:58:17] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.53.tar.gz]
+[2024-05-06 17:58:17] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.54.tar.gz]
+[2024-05-06 17:58:17] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-06 17:58:17] INFO root fetch - processPackages [aposteriori]: executing diffoscope
+[2024-05-06 17:58:17] INFO root fetch - processPackages [aposteriori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aposteriori-2.3.0.tar.gz tmp/aposteriori-2.4.0.tar.gz --markdown 20240506/a/aposteriori/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-06 17:58:17] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Remove: archive file [/home/abi/fetcher/tmp/com.castsoftware.uc.oneclick-1.0.3.tar.gz]
+[2024-05-06 17:58:17] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Remove: archive file [/home/abi/fetcher/tmp/com_castsoftware_uc_oneclick-1.0.4b1.tar.gz]
+[2024-05-06 17:58:17] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.oneclick]: success
+[2024-05-06 17:58:18] INFO root fetch - processPackages [aposteriori]: Remove: archive file [/home/abi/fetcher/tmp/aposteriori-2.3.0.tar.gz]
+[2024-05-06 17:58:18] INFO root fetch - processPackages [aposteriori]: Remove: archive file [/home/abi/fetcher/tmp/aposteriori-2.4.0.tar.gz]
+[2024-05-06 17:58:18] INFO root fetch - main [MainThread]: End processing [aposteriori]: success
+[2024-05-06 17:58:18] INFO root fetch - main [MainThread]: Store serial: [23080221]
