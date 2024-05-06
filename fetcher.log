@@ -20134,3 +20134,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:26:50] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-05-06 15:26:50] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-06 15:26:50] INFO root fetch - main [MainThread]: Store serial: [23078279]
+[2024-05-06 15:28:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078279]
+[2024-05-06 15:28:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msmanager
+[2024-05-06 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: labelme-toolkit
+[2024-05-06 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simo
+[2024-05-06 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mergoo
+[2024-05-06 15:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainlit
+[2024-05-06 15:28:59] INFO root fetch - processPackages [labelme-toolkit]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-06 15:28:59] INFO root fetch - processPackages [chainlit]: New version: [1.1.0rc0] Old Version: [1.0.506]
+[2024-05-06 15:28:59] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-06 15:28:59] INFO root fetch - processPackages [mergoo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 15:28:59] INFO root fetch - processPackages [labelme-toolkit]: Downloading https://files.pythonhosted.org/packages/aa/98/4340bd06d29837400ef7e4a27bfff372b0b67ee43e054966217120fb7905/labelme_toolkit-1.1.2.tar.gz
+[2024-05-06 15:28:59] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/cf/6d/542e425665b97017347b2d845642bf26741393b25933b47537b7a027aa78/chainlit-1.0.506.tar.gz
+[2024-05-06 15:28:59] INFO root fetch - processPackages [msmanager]: New version: [0.4.6.dev1] Old Version: [0.4.5]
+[2024-05-06 15:28:59] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-06 15:29:00] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-06 15:29:00] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-06 15:29:00] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/a4/83/59158a3c9ff92e53460045b2eacbd472167ef920c57095cd5437b716775a/msmanager-0.4.5.tar.gz
+[2024-05-06 15:29:00] INFO root fetch - processPackages [mergoo]: Downloading https://files.pythonhosted.org/packages/62/05/db5d59b0eaa72da763e20dd53ec4e8045090f2fe0ffe1bfe6e8f160c0a61/mergoo-0.0.8.tar.gz
+[2024-05-06 15:29:00] INFO root fetch - processPackages [labelme-toolkit]: Downloading https://files.pythonhosted.org/packages/43/7b/38cd95a0a7c915b15aaa3b73bcf89979694701f1581f2e0f5bb91ef5e5a0/labelme_toolkit-1.1.3.tar.gz
+[2024-05-06 15:29:00] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/cd/2b/9dd0a73f89ed70fc5f50193526aec273dfd9bef4778c913340b70213c1de/chainlit-1.1.0rc0.tar.gz
+[2024-05-06 15:29:00] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/f6/02/54eca7127f640bf0669f7040ffac078f418a71fb4a254356ca28cbbf0266/msmanager-0.4.6.dev1.tar.gz
+[2024-05-06 15:29:00] INFO root fetch - processPackages [mergoo]: Downloading https://files.pythonhosted.org/packages/43/78/785809d27cef1f2b5e50a043cc2ad84a3506343082df134517e3a23efc41/mergoo-0.0.9.tar.gz
+[2024-05-06 15:29:00] INFO root fetch - processPackages [msmanager]: executing diffoscope
+[2024-05-06 15:29:00] INFO root fetch - processPackages [msmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmanager-0.4.5.tar.gz tmp/msmanager-0.4.6.dev1.tar.gz --markdown 20240506/m/msmanager/0.4.5-0.4.6.dev1/README.md --exclude *.pyd
+[2024-05-06 15:29:00] INFO root fetch - processPackages [labelme-toolkit]: executing diffoscope
+[2024-05-06 15:29:00] INFO root fetch - processPackages [labelme-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelme_toolkit-1.1.2.tar.gz tmp/labelme_toolkit-1.1.3.tar.gz --markdown 20240506/l/labelme-toolkit/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-06 15:29:00] INFO root fetch - processPackages [mergoo]: executing diffoscope
+[2024-05-06 15:29:00] INFO root fetch - processPackages [mergoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergoo-0.0.8.tar.gz tmp/mergoo-0.0.9.tar.gz --markdown 20240506/m/mergoo/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 15:29:00] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2024-05-06 15:29:00] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-1.0.506.tar.gz tmp/chainlit-1.1.0rc0.tar.gz --markdown 20240506/c/chainlit/1.0.506-1.1.0rc0/README.md --exclude *.pyd
+[2024-05-06 15:29:01] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.5.tar.gz]
+[2024-05-06 15:29:01] INFO root fetch - processPackages [msmanager]: Remove: archive file [/home/abi/fetcher/tmp/msmanager-0.4.6.dev1.tar.gz]
+[2024-05-06 15:29:01] INFO root fetch - main [MainThread]: End processing [msmanager]: success
+[2024-05-06 15:29:01] INFO root fetch - processPackages [mergoo]: Remove: archive file [/home/abi/fetcher/tmp/mergoo-0.0.8.tar.gz]
+[2024-05-06 15:29:01] INFO root fetch - processPackages [mergoo]: Remove: archive file [/home/abi/fetcher/tmp/mergoo-0.0.9.tar.gz]
+[2024-05-06 15:29:01] INFO root fetch - main [MainThread]: End processing [mergoo]: success
+[2024-05-06 15:29:01] INFO root fetch - processPackages [labelme-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/labelme_toolkit-1.1.2.tar.gz]
+[2024-05-06 15:29:01] INFO root fetch - processPackages [labelme-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/labelme_toolkit-1.1.3.tar.gz]
+[2024-05-06 15:29:01] INFO root fetch - main [MainThread]: End processing [labelme-toolkit]: success
+[2024-05-06 15:30:49] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.506.tar.gz]
+[2024-05-06 15:30:49] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.0rc0.tar.gz]
+[2024-05-06 15:30:49] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2024-05-06 15:30:49] INFO root fetch - main [MainThread]: Store serial: [23078340]
