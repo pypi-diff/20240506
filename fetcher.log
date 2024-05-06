@@ -17569,3 +17569,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 13:43:38] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.3.0rc1.tar.gz]
 [2024-05-06 13:43:38] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
 [2024-05-06 13:43:38] INFO root fetch - main [MainThread]: Store serial: [23076994]
+[2024-05-06 13:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23076994]
+[2024-05-06 13:45:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-06 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-dali-nightly-cuda110
+[2024-05-06 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elucidoc
+[2024-05-06 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idbadapter
+[2024-05-06 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nightingalejsonadapter
+[2024-05-06 13:45:47] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.38.0.dev20240503] Old Version: [1.38.0.dev20240502]
+[2024-05-06 13:45:47] WARNING root fetch - processPackages [elucidoc]: Skipping, unable to determine old version
+[2024-05-06 13:45:47] INFO root fetch - main [MainThread]: End processing [elucidoc] error
+[2024-05-06 13:45:47] INFO root fetch - processPackages [idbadapter]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-06 13:45:47] INFO root fetch - processPackages [nightingalejsonadapter]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-06 13:45:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/e0/1a/0c78056f4452de6356962d62a4722e0f40a37a37396cd2ce112ab657700a/nvidia_dali_nightly_cuda110-1.38.0.dev20240502.tar.gz
+[2024-05-06 13:45:48] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/d5/78/605bfd57c06d61ff9da4740e856f640d76d516ec6f66187cdf2c509588d6/idbadapter-2.3.8.tar.gz
+[2024-05-06 13:45:48] INFO root fetch - processPackages [nightingalejsonadapter]: Downloading https://files.pythonhosted.org/packages/c0/d8/4da102c603d2e0f412d7fe537482d0367dfcd1b81c6599433642276b743f/nightingalejsonadapter-2.3.0.tar.gz
+[2024-05-06 13:45:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/87/34/63f1d57eabb6ab6aa33396ed32d8b0f8a44cdc0c923aa793faa6abd38ddc/nvidia_dali_nightly_cuda110-1.38.0.dev20240503.tar.gz
+[2024-05-06 13:45:48] INFO root fetch - processPackages [nightingalejsonadapter]: Downloading https://files.pythonhosted.org/packages/9d/56/2235938f54b219f3e35421f94f2967a769af7f3df1c3c821a7c24ae988a2/nightingalejsonadapter-2.4.0.tar.gz
+[2024-05-06 13:45:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2024-05-06 13:45:48] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240502.tar.gz tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240503.tar.gz --markdown 20240506/n/nvidia-dali-nightly-cuda110/1.38.0.dev20240502-1.38.0.dev20240503/README.md --exclude *.pyd
+[2024-05-06 13:45:48] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/92/07/65e390164255ea32f7db6542304c8b14f16731d7c814b9e490d4b4aa215a/idbadapter-2.3.9.tar.gz
+[2024-05-06 13:45:48] INFO root fetch - processPackages [nightingalejsonadapter]: executing diffoscope
+[2024-05-06 13:45:48] INFO root fetch - processPackages [nightingalejsonadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nightingalejsonadapter-2.3.0.tar.gz tmp/nightingalejsonadapter-2.4.0.tar.gz --markdown 20240506/n/nightingalejsonadapter/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-06 13:45:48] INFO root fetch - processPackages [idbadapter]: executing diffoscope
+[2024-05-06 13:45:48] INFO root fetch - processPackages [idbadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbadapter-2.3.8.tar.gz tmp/idbadapter-2.3.9.tar.gz --markdown 20240506/i/idbadapter/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-06 13:45:49] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240502.tar.gz]
+[2024-05-06 13:45:49] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240503.tar.gz]
+[2024-05-06 13:45:49] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2024-05-06 13:45:49] INFO root fetch - processPackages [nightingalejsonadapter]: Remove: archive file [/home/abi/fetcher/tmp/nightingalejsonadapter-2.3.0.tar.gz]
+[2024-05-06 13:45:49] INFO root fetch - processPackages [nightingalejsonadapter]: Remove: archive file [/home/abi/fetcher/tmp/nightingalejsonadapter-2.4.0.tar.gz]
+[2024-05-06 13:45:49] INFO root fetch - main [MainThread]: End processing [nightingalejsonadapter]: success
+[2024-05-06 13:45:49] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-2.3.8.tar.gz]
+[2024-05-06 13:45:49] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-2.3.9.tar.gz]
+[2024-05-06 13:45:49] INFO root fetch - main [MainThread]: End processing [idbadapter]: success
+[2024-05-06 13:45:49] INFO root fetch - main [MainThread]: Store serial: [23077008]
