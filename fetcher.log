@@ -13860,3 +13860,27 @@
 [2024-05-06 11:23:08] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2392.0.tar.gz]
 [2024-05-06 11:23:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
 [2024-05-06 11:23:08] INFO root fetch - main [MainThread]: Store serial: [23075236]
+[2024-05-06 11:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075236]
+[2024-05-06 11:25:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 11:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airflow-provider-qlik-sense-cloud
+[2024-05-06 11:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-cli-diff-tool
+[2024-05-06 11:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: picterra
+[2024-05-06 11:25:17] INFO root fetch - processPackages [picterra]: New version: [2.0.0] Old Version: [1.2.2]
+[2024-05-06 11:25:17] WARNING root fetch - processPackages [airflow-provider-qlik-sense-cloud]: Skipping, unable to determine old version
+[2024-05-06 11:25:17] INFO root fetch - main [MainThread]: End processing [airflow-provider-qlik-sense-cloud] error
+[2024-05-06 11:25:17] INFO root fetch - processPackages [azure-cli-diff-tool]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-06 11:25:18] INFO root fetch - processPackages [picterra]: Downloading https://files.pythonhosted.org/packages/47/87/e93089f6ad70c5724e9776c39eb9b075c81267259cbf2069c27c6555d4a9/picterra-1.2.2.tar.gz
+[2024-05-06 11:25:18] INFO root fetch - processPackages [azure-cli-diff-tool]: Downloading https://files.pythonhosted.org/packages/ed/5c/c0c53c20185b1f5961b588a7340d77e28182f2b308cdbfb838850529c173/azure-cli-diff-tool-0.0.6.tar.gz
+[2024-05-06 11:25:18] INFO root fetch - processPackages [azure-cli-diff-tool]: Downloading https://files.pythonhosted.org/packages/fb/06/25146261befecc57d6bde880e7acf52830532d5ddb00d01d0b5aca9f673d/azure_cli_diff_tool-0.0.7.tar.gz
+[2024-05-06 11:25:18] INFO root fetch - processPackages [picterra]: Downloading https://files.pythonhosted.org/packages/58/21/74b0e98a1e5d33691669aea7bafe47b3f9edfe3e34da07dbfd879897e81a/picterra-2.0.0.tar.gz
+[2024-05-06 11:25:18] INFO root fetch - processPackages [azure-cli-diff-tool]: executing diffoscope
+[2024-05-06 11:25:18] INFO root fetch - processPackages [azure-cli-diff-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cli-diff-tool-0.0.6.tar.gz tmp/azure_cli_diff_tool-0.0.7.tar.gz --markdown 20240506/a/azure-cli-diff-tool/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-06 11:25:18] INFO root fetch - processPackages [picterra]: executing diffoscope
+[2024-05-06 11:25:18] INFO root fetch - processPackages [picterra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picterra-1.2.2.tar.gz tmp/picterra-2.0.0.tar.gz --markdown 20240506/p/picterra/1.2.2-2.0.0/README.md --exclude *.pyd
+[2024-05-06 11:25:19] INFO root fetch - processPackages [azure-cli-diff-tool]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-diff-tool-0.0.6.tar.gz]
+[2024-05-06 11:25:19] INFO root fetch - processPackages [azure-cli-diff-tool]: Remove: archive file [/home/abi/fetcher/tmp/azure_cli_diff_tool-0.0.7.tar.gz]
+[2024-05-06 11:25:19] INFO root fetch - main [MainThread]: End processing [azure-cli-diff-tool]: success
+[2024-05-06 11:25:19] INFO root fetch - processPackages [picterra]: Remove: archive file [/home/abi/fetcher/tmp/picterra-1.2.2.tar.gz]
+[2024-05-06 11:25:19] INFO root fetch - processPackages [picterra]: Remove: archive file [/home/abi/fetcher/tmp/picterra-2.0.0.tar.gz]
+[2024-05-06 11:25:19] INFO root fetch - main [MainThread]: End processing [picterra]: success
+[2024-05-06 11:25:19] INFO root fetch - main [MainThread]: Store serial: [23075247]
