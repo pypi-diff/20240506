@@ -9278,3 +9278,132 @@
 [2024-05-06 10:11:31] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.12.tar.gz]
 [2024-05-06 10:11:31] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
 [2024-05-06 10:11:31] INFO root fetch - main [MainThread]: Store serial: [23073545]
+[2024-05-06 10:13:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23073545]
+[2024-05-06 10:13:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-06 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numimage
+[2024-05-06 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-math-unimore
+[2024-05-06 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elisa-lib
+[2024-05-06 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: outfit418-backup-ratting
+[2024-05-06 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multidefusion
+[2024-05-06 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-common
+[2024-05-06 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-config
+[2024-05-06 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-cpdp
+[2024-05-06 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyzill
+[2024-05-06 10:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-cr
+[2024-05-06 10:13:40] INFO root fetch - processPackages [outfit418-backup-ratting]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-06 10:13:40] INFO root fetch - processPackages [multidefusion]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-05-06 10:13:40] INFO root fetch - processPackages [my-math-unimore]: New version: [0.3] Old Version: [0.2]
+[2024-05-06 10:13:40] INFO root fetch - processPackages [outfit418-backup-ratting]: Downloading https://files.pythonhosted.org/packages/5e/68/9e54de79e0df00d8bc889d35b3669ffb521f3cc753bec74e1cb0c5d5e1b0/outfit418_backup_ratting-0.4.0.tar.gz
+[2024-05-06 10:13:40] INFO root fetch - processPackages [elisa-lib]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-06 10:13:40] INFO root fetch - processPackages [pyzill]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-06 10:13:40] INFO root fetch - processPackages [numimage]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-06 10:13:40] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: New version: [3.0.1140] Old Version: [3.0.1139]
+[2024-05-06 10:13:40] INFO root fetch - processPackages [my-math-unimore]: Downloading https://files.pythonhosted.org/packages/14/14/2e08417cc6c59da1c4099ff932c7f391ef86dcdae117f0bc3f68393c0b66/my_math_unimore-0.2.tar.gz
+[2024-05-06 10:13:40] INFO root fetch - processPackages [multidefusion]: Downloading https://files.pythonhosted.org/packages/c1/1c/73d573f22412b75bcb4b8b344bdb78e2fb9f065eda77a6c212fe690a2dfe/multidefusion-0.0.23.tar.gz
+[2024-05-06 10:13:40] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:13:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:13:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:13:41] INFO root fetch - processPackages [elisa-lib]: Downloading https://files.pythonhosted.org/packages/af/5b/bb524e16bcb793e58c2ec3c218b6c19c9b4122a2fc1b5a313bad0f97b0e1/elisa_lib-0.1.0.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [pyzill]: Downloading https://files.pythonhosted.org/packages/6a/f8/ec5243cfea1e81da5935e2c120780fb1c82385cef806838acaa076a947e7/pyzill-0.0.1.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: Downloading https://files.pythonhosted.org/packages/a1/40/7aebf919f7dc611e9a454d0ea9fadb442b93a4e46c6bc9d77d603da361c9/tencentcloud-sdk-python-config-3.0.1139.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [numimage]: Downloading https://files.pythonhosted.org/packages/af/55/fc4e138304c05cea43bd2598318ef05e6d8245a180f90adbf7ac2ea03bfd/numimage-0.0.3.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [outfit418-backup-ratting]: Downloading https://files.pythonhosted.org/packages/cb/93/4459ffd3ef818e262841315af8bf1acd4e08264431a6fb0e7c301f64e856/outfit418_backup_ratting-0.5.0.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Downloading https://files.pythonhosted.org/packages/e1/1c/59773b8e6448f536fc8c76fdb8a269fbbbb302f7f44071c7aa2e1bd60946/tencentcloud-sdk-python-common-3.0.998.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Downloading https://files.pythonhosted.org/packages/e5/0e/13dca54618e22539fd82eed1ff19adc5c2ce4011dcb4362ac3e8975cbe49/tencentcloud-sdk-python-cpdp-3.0.998.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: Downloading https://files.pythonhosted.org/packages/87/55/01b1f5a31f90d49d68ab76af5ac399f81fb08144cdc65934536143aec1e4/tencentcloud-sdk-python-cr-3.0.998.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [my-math-unimore]: Downloading https://files.pythonhosted.org/packages/ba/9f/8e8a6fc43c2d8681bcfc7fee1e01d1bf6cd5251ab137a34805e77dabc3cb/my_math_unimore-0.3.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [multidefusion]: Downloading https://files.pythonhosted.org/packages/8a/e7/48fa9a323261fb638bd068f032983710845276c79dbfb433c7ce197b6358/multidefusion-0.0.24.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [outfit418-backup-ratting]: executing diffoscope
+[2024-05-06 10:13:41] INFO root fetch - processPackages [outfit418-backup-ratting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outfit418_backup_ratting-0.4.0.tar.gz tmp/outfit418_backup_ratting-0.5.0.tar.gz --markdown 20240506/o/outfit418-backup-ratting/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-06 10:13:41] INFO root fetch - processPackages [my-math-unimore]: executing diffoscope
+[2024-05-06 10:13:41] INFO root fetch - processPackages [my-math-unimore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_math_unimore-0.2.tar.gz tmp/my_math_unimore-0.3.tar.gz --markdown 20240506/m/my-math-unimore/0.2-0.3/README.md --exclude *.pyd
+[2024-05-06 10:13:41] INFO root fetch - processPackages [multidefusion]: executing diffoscope
+[2024-05-06 10:13:41] INFO root fetch - processPackages [multidefusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidefusion-0.0.23.tar.gz tmp/multidefusion-0.0.24.tar.gz --markdown 20240506/m/multidefusion/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-05-06 10:13:41] INFO root fetch - processPackages [pyzill]: Downloading https://files.pythonhosted.org/packages/b0/61/32d88f72afe3c39ef4908a099e818c4ecd4dc05bf7bbf32419e709c8a133/pyzill-0.0.2.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [numimage]: Downloading https://files.pythonhosted.org/packages/91/84/a372dc219435945e3d36926c49abb26a6b4e983d17ef1949ec9a02bdb210/numimage-0.0.4.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: Downloading https://files.pythonhosted.org/packages/7f/7a/352c91c178fae6c08854f43c0a8e5a0d89e10aa857fc8173c44fdb300ef6/tencentcloud-sdk-python-config-3.0.1140.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Downloading https://files.pythonhosted.org/packages/ff/e2/06dd8939f4e7173972aad2e7aa36cb8ed49d2f81b69a1869659fbbd09cc8/tencentcloud-sdk-python-common-3.0.999.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: Downloading https://files.pythonhosted.org/packages/ba/19/0cb6c0c987b173b5884cd63c517cf80733cef7e6de71f708b9e44097b127/tencentcloud-sdk-python-cr-3.0.999.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [elisa-lib]: Downloading https://files.pythonhosted.org/packages/e0/92/a0ba46a7d6ae80d20ed3af105b51845dd6f5663aaf7036735aa9f6d5da14/elisa_lib-0.1.1.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [pyzill]: executing diffoscope
+[2024-05-06 10:13:41] INFO root fetch - processPackages [pyzill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzill-0.0.1.tar.gz tmp/pyzill-0.0.2.tar.gz --markdown 20240506/p/pyzill/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Downloading https://files.pythonhosted.org/packages/d4/b0/6da7e8026ebf857c7e2ff488c0129ad05fb903864c4b924dad115771b8fe/tencentcloud-sdk-python-cpdp-3.0.999.tar.gz
+[2024-05-06 10:13:41] INFO root fetch - processPackages [numimage]: executing diffoscope
+[2024-05-06 10:13:41] INFO root fetch - processPackages [numimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numimage-0.0.3.tar.gz tmp/numimage-0.0.4.tar.gz --markdown 20240506/n/numimage/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: executing diffoscope
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cr-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-cr/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: executing diffoscope
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: executing diffoscope
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cpdp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cpdp-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-cpdp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-common-3.0.998.tar.gz tmp/tencentcloud-sdk-python-common-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-common/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: executing diffoscope
+[2024-05-06 10:13:41] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-config-3.0.1139.tar.gz tmp/tencentcloud-sdk-python-config-3.0.1140.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-config/3.0.1139-3.0.1140/README.md --exclude *.pyd
+[2024-05-06 10:13:42] INFO root fetch - processPackages [elisa-lib]: executing diffoscope
+[2024-05-06 10:13:42] INFO root fetch - processPackages [elisa-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elisa_lib-0.1.0.tar.gz tmp/elisa_lib-0.1.1.tar.gz --markdown 20240506/e/elisa-lib/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-06 10:13:42] INFO root fetch - processPackages [outfit418-backup-ratting]: Remove: archive file [/home/abi/fetcher/tmp/outfit418_backup_ratting-0.4.0.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [outfit418-backup-ratting]: Remove: archive file [/home/abi/fetcher/tmp/outfit418_backup_ratting-0.5.0.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [outfit418-backup-ratting]: Start processing: ralph-malph
+[2024-05-06 10:13:42] INFO root fetch - main [MainThread]: End processing [outfit418-backup-ratting]: success
+[2024-05-06 10:13:42] INFO root fetch - processPackages [my-math-unimore]: Remove: archive file [/home/abi/fetcher/tmp/my_math_unimore-0.2.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [my-math-unimore]: Remove: archive file [/home/abi/fetcher/tmp/my_math_unimore-0.3.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [my-math-unimore]: Start processing: tencentcloud-sdk-python-csip
+[2024-05-06 10:13:42] INFO root fetch - main [MainThread]: End processing [my-math-unimore]: success
+[2024-05-06 10:13:42] INFO root fetch - processPackages [ralph-malph]: New version: [5.0.0] Old Version: [4.2.0]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [multidefusion]: Remove: archive file [/home/abi/fetcher/tmp/multidefusion-0.0.23.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [multidefusion]: Remove: archive file [/home/abi/fetcher/tmp/multidefusion-0.0.24.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [multidefusion]: Start processing: tencentcloud-sdk-python-csxg
+[2024-05-06 10:13:42] INFO root fetch - main [MainThread]: End processing [multidefusion]: success
+[2024-05-06 10:13:42] INFO root fetch - processPackages [tencentcloud-sdk-python-csip]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [ralph-malph]: Downloading https://files.pythonhosted.org/packages/2a/d6/2b6ae06f4581f8a67e7830c9dff67382a1d23cdc9a3b8b5d0ef3e981aab4/ralph-malph-4.2.0.tar.gz
+[2024-05-06 10:13:42] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [pyzill]: Remove: archive file [/home/abi/fetcher/tmp/pyzill-0.0.1.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [pyzill]: Remove: archive file [/home/abi/fetcher/tmp/pyzill-0.0.2.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [pyzill]: Start processing: tencentcloud-sdk-python-cvm
+[2024-05-06 10:13:42] INFO root fetch - main [MainThread]: End processing [pyzill]: success
+[2024-05-06 10:13:42] INFO root fetch - processPackages [numimage]: Remove: archive file [/home/abi/fetcher/tmp/numimage-0.0.3.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [numimage]: Remove: archive file [/home/abi/fetcher/tmp/numimage-0.0.4.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - main [MainThread]: End processing [numimage]: success
+[2024-05-06 10:13:42] INFO root fetch - processPackages [tencentcloud-sdk-python-csip]: Downloading https://files.pythonhosted.org/packages/2c/65/23ea747eb5f4565d6e47f2a3afc657abad9a1b3b7286e0896e8b3dc06b0e/tencentcloud-sdk-python-csip-3.0.998.tar.gz
+[2024-05-06 10:13:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cvm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-config-3.0.1139.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-config-3.0.1140.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-config]: success
+[2024-05-06 10:13:42] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: Downloading https://files.pythonhosted.org/packages/b2/d0/52109f639b6b7438df900753d4a8bad670b3149c58f5a8a5ea79d8915576/tencentcloud-sdk-python-csxg-3.0.998.tar.gz
+[2024-05-06 10:13:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cr-3.0.998.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cr-3.0.999.tar.gz]
+[2024-05-06 10:13:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cr]: success
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-common-3.0.998.tar.gz]
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-common-3.0.999.tar.gz]
+[2024-05-06 10:13:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-common]: success
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cpdp-3.0.998.tar.gz]
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cpdp-3.0.999.tar.gz]
+[2024-05-06 10:13:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cpdp]: success
+[2024-05-06 10:13:43] INFO root fetch - processPackages [ralph-malph]: Downloading https://files.pythonhosted.org/packages/68/b7/15611c5a3a28ff5650a9e094e6a06af9727de5cba97c237d186676eb573f/ralph-malph-5.0.0.tar.gz
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-cvm]: Downloading https://files.pythonhosted.org/packages/21/1d/2e5fc5e0d09fee0dc347cb88a716e5ac56fc6b2c3160057d2ff2b569fcf8/tencentcloud-sdk-python-cvm-3.0.998.tar.gz
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-csip]: Downloading https://files.pythonhosted.org/packages/2f/07/c0f6a0837c035ad27c31548b97b4dfa20b9ff5a13af0023660227ecc8c77/tencentcloud-sdk-python-csip-3.0.999.tar.gz
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-csip]: executing diffoscope
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-csip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-csip-3.0.998.tar.gz tmp/tencentcloud-sdk-python-csip-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-csip/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: Downloading https://files.pythonhosted.org/packages/81/f9/b7a3f80a676540656122caf00dec37a751a5275eb1c79d3f8342ce8e4782/tencentcloud-sdk-python-csxg-3.0.999.tar.gz
+[2024-05-06 10:13:43] INFO root fetch - processPackages [ralph-malph]: executing diffoscope
+[2024-05-06 10:13:43] INFO root fetch - processPackages [ralph-malph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralph-malph-4.2.0.tar.gz tmp/ralph-malph-5.0.0.tar.gz --markdown 20240506/r/ralph-malph/4.2.0-5.0.0/README.md --exclude *.pyd
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-cvm]: Downloading https://files.pythonhosted.org/packages/6e/a3/2885f1757916fe68b91b6ff5ec6cd37bbc81096f61826018dda9129ccbd1/tencentcloud-sdk-python-cvm-3.0.999.tar.gz
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: executing diffoscope
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-csxg-3.0.998.tar.gz tmp/tencentcloud-sdk-python-csxg-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-csxg/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-cvm]: executing diffoscope
+[2024-05-06 10:13:43] INFO root fetch - processPackages [tencentcloud-sdk-python-cvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cvm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cvm-3.0.999.tar.gz --markdown 20240506/t/tencentcloud-sdk-python-cvm/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-06 10:13:44] INFO root fetch - processPackages [tencentcloud-sdk-python-csip]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-csip-3.0.998.tar.gz]
+[2024-05-06 10:13:44] INFO root fetch - processPackages [tencentcloud-sdk-python-csip]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-csip-3.0.999.tar.gz]
+[2024-05-06 10:13:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-csip]: success
+[2024-05-06 10:13:44] INFO root fetch - processPackages [elisa-lib]: Remove: archive file [/home/abi/fetcher/tmp/elisa_lib-0.1.0.tar.gz]
+[2024-05-06 10:13:44] INFO root fetch - processPackages [elisa-lib]: Remove: archive file [/home/abi/fetcher/tmp/elisa_lib-0.1.1.tar.gz]
+[2024-05-06 10:13:44] INFO root fetch - main [MainThread]: End processing [elisa-lib]: success
+[2024-05-06 10:13:44] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-csxg-3.0.998.tar.gz]
+[2024-05-06 10:13:44] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-csxg-3.0.999.tar.gz]
+[2024-05-06 10:13:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-csxg]: success
+[2024-05-06 10:13:44] INFO root fetch - processPackages [tencentcloud-sdk-python-cvm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cvm-3.0.998.tar.gz]
+[2024-05-06 10:13:44] INFO root fetch - processPackages [tencentcloud-sdk-python-cvm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cvm-3.0.999.tar.gz]
+[2024-05-06 10:13:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cvm]: success
+[2024-05-06 10:13:45] INFO root fetch - processPackages [ralph-malph]: Remove: archive file [/home/abi/fetcher/tmp/ralph-malph-4.2.0.tar.gz]
+[2024-05-06 10:13:45] INFO root fetch - processPackages [ralph-malph]: Remove: archive file [/home/abi/fetcher/tmp/ralph-malph-5.0.0.tar.gz]
+[2024-05-06 10:13:45] INFO root fetch - main [MainThread]: End processing [ralph-malph]: success
+[2024-05-06 10:13:45] INFO root fetch - main [MainThread]: Store serial: [23073586]
