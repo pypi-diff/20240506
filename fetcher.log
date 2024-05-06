@@ -24120,3 +24120,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 17:53:56] INFO root fetch - processPackages [ATH]: Remove: archive file [/home/abi/fetcher/tmp/ATH-0.5.1.tar.gz]
 [2024-05-06 17:53:56] INFO root fetch - main [MainThread]: End processing [ATH]: success
 [2024-05-06 17:53:56] INFO root fetch - main [MainThread]: Store serial: [23080181]
+[2024-05-06 17:56:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23080181]
+[2024-05-06 17:56:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-06 17:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esbmtk
+[2024-05-06 17:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h5ui
+[2024-05-06 17:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shipyard-api
+[2024-05-06 17:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modulo-vki
+[2024-05-06 17:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-stock-available-to-promise-release
+[2024-05-06 17:56:05] INFO root fetch - processPackages [shipyard-api]: New version: [0.1.1a0] Old Version: [0.1.1]
+[2024-05-06 17:56:05] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: New version: [14.0.3.1.0] Old Version: [14.0.3.0.1.dev1]
+[2024-05-06 17:56:05] INFO root fetch - processPackages [esbmtk]: New version: [0.9.0.1] Old Version: [0.8.0.0]
+[2024-05-06 17:56:05] WARNING root fetch - processPackages [h5ui]: Skipping, unable to determine old version
+[2024-05-06 17:56:05] INFO root fetch - main [MainThread]: End processing [h5ui] error
+[2024-05-06 17:56:05] INFO root fetch - processPackages [modulo-vki]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-06 17:56:05] INFO root fetch - processPackages [shipyard-api]: Downloading https://files.pythonhosted.org/packages/a1/ac/62d000907622d85a5454b7cbf0cca039830d1f391b93126eb7a1f4e1ed48/shipyard_api-0.1.1.tar.gz
+[2024-05-06 17:56:05] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/f9/09/995cb74b1ec4821a8c44361d0c9db8b9ca079e3b095feb0d3959894c6274/odoo14_addon_stock_available_to_promise_release-14.0.3.0.1.dev1-py3-none-any.whl
+[2024-05-06 17:56:05] INFO root fetch - processPackages [esbmtk]: Downloading https://files.pythonhosted.org/packages/bb/db/43f864ec19c6c352197cac358cf900d69e03025a4f4390aa7881849fde27/esbmtk-0.8.0.0.tar.gz
+[2024-05-06 17:56:05] INFO root fetch - processPackages [modulo-vki]: Downloading https://files.pythonhosted.org/packages/23/51/5373025b8b5a3b633541a80c50d16b1200ac162774f2b32e96fe4f9eabe1/modulo_vki-2.0.4.tar.gz
+[2024-05-06 17:56:06] INFO root fetch - processPackages [shipyard-api]: Downloading https://files.pythonhosted.org/packages/28/8a/3b7c097f3de6dee7f5da3d303f4ef308662dcc8473124657c636e58468c4/shipyard_api-0.1.1a0.tar.gz
+[2024-05-06 17:56:06] INFO root fetch - processPackages [modulo-vki]: Downloading https://files.pythonhosted.org/packages/fb/f2/2e025befcb08de98025520d53a2fc9a2190b3948600f4250a5d935b6c787/modulo_vki-2.0.5.tar.gz
+[2024-05-06 17:56:06] INFO root fetch - processPackages [esbmtk]: Downloading https://files.pythonhosted.org/packages/11/6f/87ddaf24ac6364989ab766f93b2f007ea867ce40fd85816050640df525c4/esbmtk-0.9.0.1.tar.gz
+[2024-05-06 17:56:06] INFO root fetch - processPackages [shipyard-api]: executing diffoscope
+[2024-05-06 17:56:06] INFO root fetch - processPackages [shipyard-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_api-0.1.1.tar.gz tmp/shipyard_api-0.1.1a0.tar.gz --markdown 20240506/s/shipyard-api/0.1.1-0.1.1a0/README.md --exclude *.pyd
+[2024-05-06 17:56:06] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/a1/d0/9dcd4163ae7518b99246938a44551548ed53b6e972439cf09de1ed1f2dbc/odoo14_addon_stock_available_to_promise_release-14.0.3.1.0-py3-none-any.whl
+[2024-05-06 17:56:06] INFO root fetch - processPackages [modulo-vki]: executing diffoscope
+[2024-05-06 17:56:06] INFO root fetch - processPackages [modulo-vki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modulo_vki-2.0.4.tar.gz tmp/modulo_vki-2.0.5.tar.gz --markdown 20240506/m/modulo-vki/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-06 17:56:06] INFO root fetch - processPackages [esbmtk]: executing diffoscope
+[2024-05-06 17:56:06] INFO root fetch - processPackages [esbmtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esbmtk-0.8.0.0.tar.gz tmp/esbmtk-0.9.0.1.tar.gz --markdown 20240506/e/esbmtk/0.8.0.0-0.9.0.1/README.md --exclude *.pyd
+[2024-05-06 17:56:06] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: executing diffoscope
+[2024-05-06 17:56:06] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_available_to_promise_release-14.0.3.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_available_to_promise_release-14.0.3.1.0-py3-none-any.whl.zip --markdown 20240506/o/odoo14-addon-stock-available-to-promise-release/14.0.3.0.1.dev1-14.0.3.1.0/README.md --exclude *.pyd
+[2024-05-06 17:56:06] INFO root fetch - processPackages [shipyard-api]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_api-0.1.1.tar.gz]
+[2024-05-06 17:56:06] INFO root fetch - processPackages [shipyard-api]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_api-0.1.1a0.tar.gz]
+[2024-05-06 17:56:06] INFO root fetch - main [MainThread]: End processing [shipyard-api]: success
+[2024-05-06 17:56:06] INFO root fetch - processPackages [modulo-vki]: Remove: archive file [/home/abi/fetcher/tmp/modulo_vki-2.0.4.tar.gz]
+[2024-05-06 17:56:06] INFO root fetch - processPackages [modulo-vki]: Remove: archive file [/home/abi/fetcher/tmp/modulo_vki-2.0.5.tar.gz]
+[2024-05-06 17:56:06] INFO root fetch - main [MainThread]: End processing [modulo-vki]: success
+[2024-05-06 17:56:07] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_available_to_promise_release-14.0.3.0.1.dev1-py3-none-any.whl.zip]
+[2024-05-06 17:56:07] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_available_to_promise_release-14.0.3.1.0-py3-none-any.whl.zip]
+[2024-05-06 17:56:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-available-to-promise-release]: success
+[2024-05-06 17:56:07] INFO root fetch - processPackages [esbmtk]: Remove: archive file [/home/abi/fetcher/tmp/esbmtk-0.8.0.0.tar.gz]
+[2024-05-06 17:56:07] INFO root fetch - processPackages [esbmtk]: Remove: archive file [/home/abi/fetcher/tmp/esbmtk-0.9.0.1.tar.gz]
+[2024-05-06 17:56:07] INFO root fetch - main [MainThread]: End processing [esbmtk]: success
+[2024-05-06 17:56:07] INFO root fetch - main [MainThread]: Store serial: [23080200]
