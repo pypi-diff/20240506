@@ -22403,3 +22403,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 16:43:03] INFO root fetch - processPackages [sinergym]: Remove: archive file [/home/abi/fetcher/tmp/sinergym-3.3.3.tar.gz]
 [2024-05-06 16:43:03] INFO root fetch - main [MainThread]: End processing [sinergym]: success
 [2024-05-06 16:43:03] INFO root fetch - main [MainThread]: Store serial: [23079425]
+[2024-05-06 16:45:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23079425]
+[2024-05-06 16:45:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-06 16:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dash-draggable-no-console-logs
+[2024-05-06 16:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudnetpy-qc
+[2024-05-06 16:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jgtml
+[2024-05-06 16:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peanutz
+[2024-05-06 16:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyastroweatherio
+[2024-05-06 16:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: santalumz
+[2024-05-06 16:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biobox-analytics
+[2024-05-06 16:45:18] WARNING root fetch - processPackages [dash-draggable-no-console-logs]: Skipping, unable to determine old version
+[2024-05-06 16:45:18] INFO root fetch - main [MainThread]: End processing [dash-draggable-no-console-logs] error
+[2024-05-06 16:45:18] INFO root fetch - processPackages [jgtml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 16:45:18] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.50.0.dev9] Old Version: [0.50.0.dev8]
+[2024-05-06 16:45:18] WARNING root fetch - processPackages [biobox-analytics]: Skipping, unable to determine old version
+[2024-05-06 16:45:18] INFO root fetch - main [MainThread]: End processing [biobox-analytics] error
+[2024-05-06 16:45:18] WARNING root fetch - processPackages [santalumz]: Skipping, unable to determine old version
+[2024-05-06 16:45:18] INFO root fetch - main [MainThread]: End processing [santalumz] error
+[2024-05-06 16:45:18] WARNING root fetch - processPackages [peanutz]: Skipping, unable to determine old version
+[2024-05-06 16:45:18] INFO root fetch - main [MainThread]: End processing [peanutz] error
+[2024-05-06 16:45:18] INFO root fetch - processPackages [jgtml]: Downloading https://files.pythonhosted.org/packages/24/aa/db47d03e50f3ded4102b246ebd27aec21b7deedbe9e4624a24644f7a7392/jgtml-0.0.8.tar.gz
+[2024-05-06 16:45:18] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/0f/55/af97c5391d8344ed95963a4a3a22d24ebca9eed71b97caaa9624a20b19b7/pyastroweatherio-0.50.0.dev8.tar.gz
+[2024-05-06 16:45:18] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-06 16:45:18] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/db/d6/437e8c1503adb9edb4b8221139137dbeb690bf51b3dd792be02a14e4d82f/cloudnetpy_qc-1.9.4.tar.gz
+[2024-05-06 16:45:18] INFO root fetch - processPackages [jgtml]: Downloading https://files.pythonhosted.org/packages/12/f5/435d6d259546ba6a9a515dc4a6d6557949bddfacfb511697a4b47fb54f89/jgtml-0.0.9.tar.gz
+[2024-05-06 16:45:18] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/b9/a5/6a468b364d1181771e8cad5f5c0a081da4451d5fe6c91549bd88c35ca972/pyastroweatherio-0.50.0.dev9.tar.gz
+[2024-05-06 16:45:18] INFO root fetch - processPackages [jgtml]: executing diffoscope
+[2024-05-06 16:45:18] INFO root fetch - processPackages [jgtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtml-0.0.8.tar.gz tmp/jgtml-0.0.9.tar.gz --markdown 20240506/j/jgtml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 16:45:18] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-05-06 16:45:18] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.50.0.dev8.tar.gz tmp/pyastroweatherio-0.50.0.dev9.tar.gz --markdown 20240506/p/pyastroweatherio/0.50.0.dev8-0.50.0.dev9/README.md --exclude *.pyd
+[2024-05-06 16:45:19] INFO root fetch - processPackages [cloudnetpy-qc]: Downloading https://files.pythonhosted.org/packages/2b/37/8700176a21e67e769e2ce546f74d753adeb243a4497dcb1bd3859a131986/cloudnetpy_qc-1.9.5.tar.gz
+[2024-05-06 16:45:19] INFO root fetch - processPackages [jgtml]: Remove: archive file [/home/abi/fetcher/tmp/jgtml-0.0.8.tar.gz]
+[2024-05-06 16:45:19] INFO root fetch - processPackages [jgtml]: Remove: archive file [/home/abi/fetcher/tmp/jgtml-0.0.9.tar.gz]
+[2024-05-06 16:45:19] INFO root fetch - main [MainThread]: End processing [jgtml]: success
+[2024-05-06 16:45:19] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev8.tar.gz]
+[2024-05-06 16:45:19] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev9.tar.gz]
+[2024-05-06 16:45:19] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-05-06 16:45:19] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2024-05-06 16:45:19] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.4.tar.gz tmp/cloudnetpy_qc-1.9.5.tar.gz --markdown 20240506/c/cloudnetpy-qc/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-06 16:45:20] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.4.tar.gz]
+[2024-05-06 16:45:20] INFO root fetch - processPackages [cloudnetpy-qc]: Remove: archive file [/home/abi/fetcher/tmp/cloudnetpy_qc-1.9.5.tar.gz]
+[2024-05-06 16:45:20] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2024-05-06 16:45:20] INFO root fetch - main [MainThread]: Store serial: [23079450]
