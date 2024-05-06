@@ -20062,3 +20062,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-06 15:24:32] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.76.0.tar.gz]
 [2024-05-06 15:24:32] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-05-06 15:24:32] INFO root fetch - main [MainThread]: Store serial: [23078200]
+[2024-05-06 15:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23078200]
+[2024-05-06 15:26:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-06 15:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quant2
+[2024-05-06 15:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpds-py
+[2024-05-06 15:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vanna
+[2024-05-06 15:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-data-services
+[2024-05-06 15:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flash-amr-tools
+[2024-05-06 15:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyserrf
+[2024-05-06 15:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jgtutils
+[2024-05-06 15:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: checkov
+[2024-05-06 15:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datadog-checks-dev
+[2024-05-06 15:26:41] WARNING root fetch - processPackages [flash-amr-tools]: Skipping, unable to determine old version
+[2024-05-06 15:26:41] INFO root fetch - main [MainThread]: End processing [flash-amr-tools] error
+[2024-05-06 15:26:41] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8964414125] Old Version: [2.0.0.dev8935749405]
+[2024-05-06 15:26:41] INFO root fetch - processPackages [vanna]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-06 15:26:41] INFO root fetch - processPackages [rpds-py]: New version: [0.9.2] Old Version: [0.8.8]
+[2024-05-06 15:26:41] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.80]
+[2024-05-06 15:26:41] WARNING root fetch - processPackages [pyserrf]: Skipping, unable to determine old version
+[2024-05-06 15:26:41] INFO root fetch - main [MainThread]: End processing [pyserrf] error
+[2024-05-06 15:26:41] INFO root fetch - processPackages [jgtutils]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-06 15:26:41] INFO root fetch - processPackages [quant2]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-06 15:26:41] INFO root fetch - processPackages [datadog-checks-dev]: New version: [9.4.1] Old Version: [9.4.0]
+[2024-05-06 15:26:41] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/eb/a9/ff4531d2b68aa96037e7ce244c26a2e3f51d83beb789c97772ac84313fcc/th2_data_services-2.0.0.dev8935749405.tar.gz
+[2024-05-06 15:26:41] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/6b/9e/8ddfe3bb88ff572cb3c97a67bcf2c5f3b2f90846364aa150ed5ea3be5d34/checkov-3.2.80.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/88/9d/79d8ee9951a4bb46db74ca6fb58fa88da2304eaac5df8cd4cf6ca4a8c5f9/vanna-0.5.1.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/11/8c/95b0b708a3cd61829bebc45cde551ba9b6d2873d10f8c9d96f89d6f06315/quant2-0.1.8.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [rpds-py]: Downloading https://files.pythonhosted.org/packages/75/80/7f76ff5d290a11a8d43653da186def13f293f00baf4927eae1ad128bf9de/rpds_py-0.8.8.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [jgtutils]: Downloading https://files.pythonhosted.org/packages/ee/d4/1cb29a66e4aa00eb41fd8957e8d9aa5b76a4e4692cc4451435fec35c6f89/jgtutils-0.1.7.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/49/26/6bd1e17b0680c12cae52b0ff8ea392e8f7778df02dbb988c0eb5f2125734/datadog_checks_dev-9.4.0-py2.py3-none-any.whl
+[2024-05-06 15:26:42] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/83/68/b86f965cfce49930ed2b711f50d3fedbfcbac30f0cb01368d261f044fd7f/th2_data_services-2.0.0.dev8964414125.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-05-06 15:26:42] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8935749405.tar.gz tmp/th2_data_services-2.0.0.dev8964414125.tar.gz --markdown 20240506/t/th2-data-services/2.0.0.dev8935749405-2.0.0.dev8964414125/README.md --exclude *.pyd
+[2024-05-06 15:26:42] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/84/52/79892421d87691ad86948b2381fd65450b243b236c72d8031e83a0a3da81/vanna-0.5.2.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-06 15:26:42] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.80.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240506/c/checkov/3.2.80-3.2.9/README.md --exclude *.pyd
+[2024-05-06 15:26:42] INFO root fetch - processPackages [rpds-py]: Downloading https://files.pythonhosted.org/packages/da/3c/fa2701bfc5d67f4a23f1f0f4347284c51801e9dbc24f916231c2446647df/rpds_py-0.9.2.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/bf/1a/6ceafd7a5a862aa7b8839815a0b32442b1a768caef03ce4ee178c5125c8c/quant2-0.1.9.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [jgtutils]: Downloading https://files.pythonhosted.org/packages/be/6b/adc1d3f4202ad63ed3fc48053d7178e22a77fdd1ae417e2a2dd4cd2b9f38/jgtutils-0.1.8.tar.gz
+[2024-05-06 15:26:42] INFO root fetch - processPackages [vanna]: executing diffoscope
+[2024-05-06 15:26:42] INFO root fetch - processPackages [vanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanna-0.5.1.tar.gz tmp/vanna-0.5.2.tar.gz --markdown 20240506/v/vanna/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-06 15:26:42] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/67/9e/cf9e6904ffda90c88e214ca332598c1da496273af8dcee0e340655723cbd/datadog_checks_dev-9.4.1-py2.py3-none-any.whl
+[2024-05-06 15:26:42] INFO root fetch - processPackages [rpds-py]: executing diffoscope
+[2024-05-06 15:26:42] INFO root fetch - processPackages [rpds-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpds_py-0.8.8.tar.gz tmp/rpds_py-0.9.2.tar.gz --markdown 20240506/r/rpds-py/0.8.8-0.9.2/README.md --exclude *.pyd
+[2024-05-06 15:26:42] INFO root fetch - processPackages [quant2]: executing diffoscope
+[2024-05-06 15:26:42] INFO root fetch - processPackages [quant2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant2-0.1.8.tar.gz tmp/quant2-0.1.9.tar.gz --markdown 20240506/q/quant2/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-06 15:26:42] INFO root fetch - processPackages [jgtutils]: executing diffoscope
+[2024-05-06 15:26:42] INFO root fetch - processPackages [jgtutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtutils-0.1.7.tar.gz tmp/jgtutils-0.1.8.tar.gz --markdown 20240506/j/jgtutils/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-06 15:26:42] INFO root fetch - processPackages [datadog-checks-dev]: executing diffoscope
+[2024-05-06 15:26:42] INFO root fetch - processPackages [datadog-checks-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip --markdown 20240506/d/datadog-checks-dev/9.4.0-9.4.1/README.md --exclude *.pyd
+[2024-05-06 15:26:43] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8935749405.tar.gz]
+[2024-05-06 15:26:43] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8964414125.tar.gz]
+[2024-05-06 15:26:43] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-05-06 15:26:43] INFO root fetch - processPackages [rpds-py]: Remove: archive file [/home/abi/fetcher/tmp/rpds_py-0.8.8.tar.gz]
+[2024-05-06 15:26:43] INFO root fetch - processPackages [rpds-py]: Remove: archive file [/home/abi/fetcher/tmp/rpds_py-0.9.2.tar.gz]
+[2024-05-06 15:26:43] INFO root fetch - main [MainThread]: End processing [rpds-py]: success
+[2024-05-06 15:26:43] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.1.8.tar.gz]
+[2024-05-06 15:26:43] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.1.9.tar.gz]
+[2024-05-06 15:26:43] INFO root fetch - main [MainThread]: End processing [quant2]: success
+[2024-05-06 15:26:43] INFO root fetch - processPackages [jgtutils]: Remove: archive file [/home/abi/fetcher/tmp/jgtutils-0.1.7.tar.gz]
+[2024-05-06 15:26:43] INFO root fetch - processPackages [jgtutils]: Remove: archive file [/home/abi/fetcher/tmp/jgtutils-0.1.8.tar.gz]
+[2024-05-06 15:26:43] INFO root fetch - main [MainThread]: End processing [jgtutils]: success
+[2024-05-06 15:26:43] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.5.1.tar.gz]
+[2024-05-06 15:26:43] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.5.2.tar.gz]
+[2024-05-06 15:26:43] INFO root fetch - main [MainThread]: End processing [vanna]: success
+[2024-05-06 15:26:44] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip]
+[2024-05-06 15:26:44] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip]
+[2024-05-06 15:26:44] INFO root fetch - main [MainThread]: End processing [datadog-checks-dev]: success
+[2024-05-06 15:26:50] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.80.tar.gz]
+[2024-05-06 15:26:50] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-06 15:26:50] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-06 15:26:50] INFO root fetch - main [MainThread]: Store serial: [23078279]
