@@ -14580,3 +14580,27 @@
 [2024-05-06 11:47:17] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.6.tar.gz]
 [2024-05-06 11:47:17] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2024-05-06 11:47:17] INFO root fetch - main [MainThread]: Store serial: [23075665]
+[2024-05-06 11:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23075665]
+[2024-05-06 11:49:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-06 11:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazydock
+[2024-05-06 11:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: locust-swarm
+[2024-05-06 11:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiconnection
+[2024-05-06 11:49:26] INFO root fetch - processPackages [multiconnection]: New version: [2.34.20] Old Version: [2.34.19]
+[2024-05-06 11:49:26] INFO root fetch - processPackages [multiconnection]: Downloading https://files.pythonhosted.org/packages/30/67/543263d95d06e3b05dbb16ca461f1ec527c98cd38ad3ec6afcfd4dee35ac/multiconnection-2.34.19.tar.gz
+[2024-05-06 11:49:26] WARNING root fetch - processPackages [lazydock]: Skipping, unable to determine old version
+[2024-05-06 11:49:26] INFO root fetch - main [MainThread]: End processing [lazydock] error
+[2024-05-06 11:49:26] INFO root fetch - processPackages [locust-swarm]: New version: [6.1.1] Old Version: [6.1.0]
+[2024-05-06 11:49:26] INFO root fetch - processPackages [multiconnection]: Downloading https://files.pythonhosted.org/packages/dc/1a/a69dd295ebf1bd4ae3ef14a7aa10ce18e45b9599f1deeec26a4e4062e691/multiconnection-2.34.20.tar.gz
+[2024-05-06 11:49:26] INFO root fetch - processPackages [locust-swarm]: Downloading https://files.pythonhosted.org/packages/5c/48/c56e63f55b0987b7213e79e0537ca993a4b27e0421fe08d4e62b8772ae6a/locust-swarm-6.1.0.tar.gz
+[2024-05-06 11:49:26] INFO root fetch - processPackages [multiconnection]: executing diffoscope
+[2024-05-06 11:49:26] INFO root fetch - processPackages [multiconnection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiconnection-2.34.19.tar.gz tmp/multiconnection-2.34.20.tar.gz --markdown 20240506/m/multiconnection/2.34.19-2.34.20/README.md --exclude *.pyd
+[2024-05-06 11:49:27] INFO root fetch - processPackages [locust-swarm]: Downloading https://files.pythonhosted.org/packages/6f/f2/044ac38d3d0331d24fb002fa2fdf609b74dbb6fee2fe7e642a71d1295121/locust_swarm-6.1.1.tar.gz
+[2024-05-06 11:49:27] INFO root fetch - processPackages [locust-swarm]: executing diffoscope
+[2024-05-06 11:49:27] INFO root fetch - processPackages [locust-swarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-swarm-6.1.0.tar.gz tmp/locust_swarm-6.1.1.tar.gz --markdown 20240506/l/locust-swarm/6.1.0-6.1.1/README.md --exclude *.pyd
+[2024-05-06 11:49:27] INFO root fetch - processPackages [multiconnection]: Remove: archive file [/home/abi/fetcher/tmp/multiconnection-2.34.19.tar.gz]
+[2024-05-06 11:49:27] INFO root fetch - processPackages [multiconnection]: Remove: archive file [/home/abi/fetcher/tmp/multiconnection-2.34.20.tar.gz]
+[2024-05-06 11:49:27] INFO root fetch - main [MainThread]: End processing [multiconnection]: success
+[2024-05-06 11:49:28] INFO root fetch - processPackages [locust-swarm]: Remove: archive file [/home/abi/fetcher/tmp/locust-swarm-6.1.0.tar.gz]
+[2024-05-06 11:49:28] INFO root fetch - processPackages [locust-swarm]: Remove: archive file [/home/abi/fetcher/tmp/locust_swarm-6.1.1.tar.gz]
+[2024-05-06 11:49:28] INFO root fetch - main [MainThread]: End processing [locust-swarm]: success
+[2024-05-06 11:49:28] INFO root fetch - main [MainThread]: Store serial: [23075674]
