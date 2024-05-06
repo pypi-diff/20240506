@@ -1656,3 +1656,17 @@
 [2024-05-06 02:34:55] INFO root fetch - processPackages [espy-pdfier]: Remove: archive file [/home/abi/fetcher/tmp/espy_pdfier-0.3.tar.gz]
 [2024-05-06 02:34:55] INFO root fetch - main [MainThread]: End processing [espy-pdfier]: success
 [2024-05-06 02:34:55] INFO root fetch - main [MainThread]: Store serial: [23070201]
+[2024-05-06 02:36:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070201]
+[2024-05-06 02:37:03] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-06 02:39:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23070201]
+[2024-05-06 02:39:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-06 02:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neurosym
+[2024-05-06 02:39:08] INFO root fetch - processPackages [neurosym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-06 02:39:09] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/66/87/42efcd2dada44045cddbcc64177bfa822d2cd1915ad9f075c81d65cdd137/neurosym-0.0.8.tar.gz
+[2024-05-06 02:39:09] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/b3/d9/0fd09f28366b6afe07c9b07022c327cfcb05f4c54ad12dc10fcb86d94884/neurosym-0.0.9.tar.gz
+[2024-05-06 02:39:09] INFO root fetch - processPackages [neurosym]: executing diffoscope
+[2024-05-06 02:39:09] INFO root fetch - processPackages [neurosym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240506:/home/abi/fetcher/20240506:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosym-0.0.8.tar.gz tmp/neurosym-0.0.9.tar.gz --markdown 20240506/n/neurosym/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-06 02:39:10] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.8.tar.gz]
+[2024-05-06 02:39:10] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
+[2024-05-06 02:39:10] INFO root fetch - main [MainThread]: End processing [neurosym]: success
+[2024-05-06 02:39:10] INFO root fetch - main [MainThread]: Store serial: [23070203]
